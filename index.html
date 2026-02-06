@@ -84,6 +84,22 @@
         .source-1sttix {
             background: #27ae60;
         }
+        .rare-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #e74c3c, #c0392b);
+            color: white;
+            padding: 4px 10px;
+            border-radius: 12px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            margin-left: 8px;
+            animation: pulse 2s infinite;
+        }
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.7; }
+        }
         .show-name {
             font-size: 1.2rem;
             font-weight: 600;
@@ -210,12 +226,13 @@
             const showsHTML = data.shows.map(show => {
                 const sourceClass = show.source === 'HouseSeats' ? 'source-houseseats' : 'source-1sttix';
                 const imageUrl = show.image || 'https://via.placeholder.com/300x180?text=No+Image';
-
+                const rareBadge = show.rare ? '<span class="rare-badge">🔥 RARE</span>' : '';
+                
                 return `
                     <div class="show-card">
                         <img src="${imageUrl}" alt="${show.name}" class="show-image" onerror="this.src='https://via.placeholder.com/300x180?text=No+Image'">
                         <div class="show-content">
-                            <span class="source-badge ${sourceClass}">${show.source}</span>
+                            <span class="source-badge ${sourceClass}">${show.source}</span>${rareBadge}
                             <h2 class="show-name">${show.name}</h2>
                             <p class="show-date">${show.date || 'Date TBD'}</p>
                             <div class="show-actions">

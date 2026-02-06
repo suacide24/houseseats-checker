@@ -12,7 +12,7 @@ import os
 import random
 import smtplib
 import time
-from datetime import datetime
+from datetime import datetime, timedelta
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -57,6 +57,11 @@ DENYLIST_FILE = SCRIPT_DIR / "denylist.txt"
 OUTPUT_FILE = SCRIPT_DIR / "available_shows.json"
 LOG_FILE = SCRIPT_DIR / "houseseats.log"
 NOTIFIED_FILE = SCRIPT_DIR / "notified_shows.json"
+HISTORY_FILE = SCRIPT_DIR / "show_history.json"
+
+# Rare show detection settings
+RARE_THRESHOLD_DAYS = 30  # Look back this many days
+RARE_THRESHOLD_COUNT = 3  # Show is "rare" if seen fewer than this many times
 
 # Denylist Gist configuration
 DENYLIST_GIST_RAW_URL = "https://gist.githubusercontent.com/suacide24/f1bf569e229cf1319137a4230d7db1b6/raw/denylist.txt"
@@ -144,6 +149,75 @@ def save_notified_shows(notified: set):
         json.dump({"notified": list(notified)}, f, indent=2)
 
 
+def load_show_history() -> dict:
+    """Load the show history tracking data."""
+    if not HISTORY_FILE.exists():
+        return {"shows": {}}
+
+    try:
+        with open(HISTORY_FILE, "r") as f:
+            return json.load(f)
+    except (json.JSONDecodeError, IOError):
+        return {"shows": {}}
+
+
+def save_show_history(history: dict):
+    """Save the show history tracking data."""
+    with open(HISTORY_FILE, "w") as f:
+        json.dump(history, f, indent=2)
+
+
+def get_show_name_key(show: dict) -> str:
+    """Generate a key based on show name and source (ignoring date)."""
+    name = show.get("name", "").strip().lower()
+    source = show.get("source", "").strip()
+    return f"{source}|{name}"
+
+
+def update_show_history(shows: list, history: dict) -> dict:
+    """Update history with today's shows and return updated history."""
+    today = datetime.now().strftime("%Y-%m-%d")
+    
+    for show in shows:
+        key = get_show_name_key(show)
+        if key not in history["shows"]:
+            history["shows"][key] = {
+                "name": show.get("name", ""),
+                "source": show.get("source", ""),
+                "appearances": []
+            }
+        
+        # Add today's date if not already recorded today
+        if today not in history["shows"][key]["appearances"]:
+            history["shows"][key]["appearances"].append(today)
+    
+    return history
+
+
+def is_rare_show(show: dict, history: dict) -> bool:
+    """Check if a show is rare based on appearance history."""
+    key = get_show_name_key(show)
+    
+    if key not in history["shows"]:
+        return True  # Never seen before = rare!
+    
+    # Count appearances in the last RARE_THRESHOLD_DAYS
+    cutoff_date = datetime.now() - timedelta(days=RARE_THRESHOLD_DAYS)
+    cutoff_str = cutoff_date.strftime("%Y-%m-%d")
+    
+    appearances = history["shows"][key]["appearances"]
+    recent_count = sum(1 for date in appearances if date >= cutoff_str)
+    
+    return recent_count < RARE_THRESHOLD_COUNT
+
+
+def mark_rare_shows(shows: list, history: dict) -> list:
+    """Add 'rare' flag to shows that are rare."""
+    for show in shows:
+        show["rare"] = is_rare_show(show, history)
+    return shows
+
+
 def get_show_key(show: dict) -> str:
     """Generate a unique key for a show+date+source combination."""
     name = show.get("name", "").strip()
@@ -211,6 +285,7 @@ def send_email_notification(new_shows: list) -> bool:
             date = show.get("date", "N/A")
             source = show.get("source", "Unknown")
             link = show.get("link", "")
+            is_rare = show.get("rare", False)
             link_html = f'<a href="{link}">View Tickets</a>' if link else "N/A"
             chatgpt_link = get_chatgpt_link(show)
             chatgpt_html = f'<a href="{chatgpt_link}">🤖 Should I go?</a>'
@@ -219,10 +294,13 @@ def send_email_notification(new_shows: list) -> bool:
             source_color = "#3498db" if source == "HouseSeats" else "#27ae60"
             source_html = f'<span style="color: {source_color}; font-weight: bold;">{source}</span>'
 
+            # Add RARE badge if applicable
+            rare_badge = '<span style="background-color: #e74c3c; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px; margin-left: 8px;">🔥 RARE</span>' if is_rare else ""
+
             html_body += f"""
             <tr>
                 <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{source_html}</td>
-                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;"><strong>{name}</strong></td>
+                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;"><strong>{name}</strong>{rare_badge}</td>
                 <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{date}</td>
                 <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{link_html}</td>
                 <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{chatgpt_html}</td>
@@ -246,7 +324,9 @@ def send_email_notification(new_shows: list) -> bool:
         text_body = f"New Shows Available!\n\n"
         for show in new_shows:
             source = show.get("source", "Unknown")
-            text_body += f"• [{source}] {show.get('name', 'Unknown')} - {show.get('date', 'N/A')}\n"
+            is_rare = show.get("rare", False)
+            rare_text = " 🔥 RARE" if is_rare else ""
+            text_body += f"• [{source}] {show.get('name', 'Unknown')}{rare_text} - {show.get('date', 'N/A')}\n"
             if show.get("link"):
                 text_body += f"  Tickets: {show['link']}\n"
             text_body += f"  Ask ChatGPT: {get_chatgpt_link(show)}\n"
@@ -729,6 +809,16 @@ def main():
     # Filter shows
     filtered_shows = filter_shows(all_shows, denylist)
     log_message(f"{len(filtered_shows)} shows after filtering")
+
+    # Load and update show history for rare detection
+    show_history = load_show_history()
+    show_history = update_show_history(filtered_shows, show_history)
+    save_show_history(show_history)
+    
+    # Mark rare shows
+    filtered_shows = mark_rare_shows(filtered_shows, show_history)
+    rare_count = sum(1 for s in filtered_shows if s.get("rare"))
+    log_message(f"{rare_count} rare shows detected")
 
     # Save results
     save_shows(filtered_shows)
