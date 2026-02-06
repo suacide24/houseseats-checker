@@ -1,0 +1,15 @@
+# Logs
+*.log
+stderr.log
+stdout.log
+
+# Sensitive/local files
+notified_shows.json
+com.rsua.houseseats-checker.plist
+setup.sh
+
+# Python
+__pycache__/
+*.py[cod]
+.env
+venv/

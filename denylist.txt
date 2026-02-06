@@ -1,0 +1,50 @@
+# HouseSeats Denylist
+# Add show names (one per line) that you want to filter out
+# Lines starting with # are comments and will be ignored
+# Matching is case-insensitive and checks if the denylist entry is contained in the show name
+
+# Example entries (uncomment or add your own):
+# cirque du soleil
+# blue man group
+# thunder from down under
+# menopause the musical
+# fantasy
+
+menopause
+Jimmy Kimmel
+L.A. Comedy Club
+elvis
+carrot
+flyover
+jen kramer
+whitney
+rat pack
+black magic live
+motown
+sinatra
+neil diamond
+Gordie Brown
+mac king
+Hypnosis Unleashed
+battleblast
+bee gees
+silver sevens
+Richard Lord
+the king in concert
+Happy Hour Comedy Variety Show
+sin city stones
+motown extreme
+the king comes home
+all shook up
+chase Brown
+razzle dazzle
+Vinnie Favorito
+bellbottoms
+late night magic
+black girl magic
+Daun
+queen selena
+Downtown Comedy Lounge
+the club of clubs
+Adam London
+spirit of the king

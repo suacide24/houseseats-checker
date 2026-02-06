@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Available Shows - Las Vegas</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, sans-serif;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 100%);
+            min-height: 100vh;
+            padding: 20px;
+            color: #fff;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 10px;
+            background: linear-gradient(90deg, #e74c3c, #f39c12);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+        .last-updated {
+            color: #888;
+            font-size: 0.9rem;
+        }
+        .show-count {
+            background: rgba(255,255,255,0.1);
+            padding: 8px 20px;
+            border-radius: 20px;
+            display: inline-block;
+            margin-top: 15px;
+        }
+        .shows-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            gap: 20px;
+        }
+        .show-card {
+            background: rgba(255,255,255,0.05);
+            border-radius: 15px;
+            overflow: hidden;
+            transition: transform 0.3s, box-shadow 0.3s;
+            border: 1px solid rgba(255,255,255,0.1);
+        }
+        .show-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 40px rgba(0,0,0,0.3);
+        }
+        .show-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            background: #333;
+        }
+        .show-content {
+            padding: 20px;
+        }
+        .source-badge {
+            display: inline-block;
+            padding: 4px 12px;
+            border-radius: 12px;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+        }
+        .source-houseseats {
+            background: #3498db;
+        }
+        .source-1sttix {
+            background: #27ae60;
+        }
+        .show-name {
+            font-size: 1.2rem;
+            font-weight: 600;
+            margin-bottom: 8px;
+            line-height: 1.3;
+        }
+        .show-date {
+            color: #f39c12;
+            font-size: 0.95rem;
+            margin-bottom: 15px;
+        }
+        .show-date::before {
+            content: "📅 ";
+        }
+        .show-actions {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+        }
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            padding: 10px 16px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-size: 0.85rem;
+            font-weight: 500;
+            transition: opacity 0.2s;
+        }
+        .btn:hover {
+            opacity: 0.85;
+        }
+        .btn-primary {
+            background: #e74c3c;
+            color: white;
+        }
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: white;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+        .no-shows {
+            text-align: center;
+            padding: 60px 20px;
+            color: #888;
+        }
+        .no-shows-icon {
+            font-size: 4rem;
+            margin-bottom: 20px;
+        }
+        @media (max-width: 600px) {
+            h1 { font-size: 1.8rem; }
+            .shows-grid { grid-template-columns: 1fr; }
+            body { padding: 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🎭 Available Shows</h1>
+            <p class="last-updated">Last updated: <span id="lastUpdated">Loading...</span></p>
+            <div class="show-count"><span id="showCount">0</span> shows available</div>
+        </header>
+        <div class="shows-grid" id="showsGrid">
+            <div class="no-shows">
+                <div class="no-shows-icon">🎪</div>
+                <p>Loading shows...</p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Load shows data from JSON file
+        async function loadShows() {
+            try {
+                const response = await fetch('available_shows.json');
+                const data = await response.json();
+                renderShows(data);
+            } catch (error) {
+                console.error('Failed to load shows:', error);
+                document.getElementById('showsGrid').innerHTML = `
+                    <div class="no-shows">
+                        <div class="no-shows-icon">😕</div>
+                        <p>Failed to load shows. Please try again later.</p>
+                    </div>
+                `;
+            }
+        }
+
+        function formatDate(isoString) {
+            const date = new Date(isoString);
+            return date.toLocaleString('en-US', {
+                weekday: 'short',
+                month: 'short',
+                day: 'numeric',
+                year: 'numeric',
+                hour: 'numeric',
+                minute: '2-digit',
+                hour12: true
+            });
+        }
+
+        function getChatGPTLink(show) {
+            const prompt = `I'm considering going to see '${show.name}' in Las Vegas${show.date ? ` on ${show.date}` : ''}. Is this show good? What can you tell me about it? Should I go see it? What should I expect?`;
+            return `https://chat.openai.com/?q=${encodeURIComponent(prompt)}`;
+        }
+
+        function renderShows(data) {
+            document.getElementById('lastUpdated').textContent = formatDate(data.last_updated);
+            document.getElementById('showCount').textContent = data.count;
+
+            if (!data.shows || data.shows.length === 0) {
+                document.getElementById('showsGrid').innerHTML = `
+                    <div class="no-shows">
+                        <div class="no-shows-icon">🎪</div>
+                        <p>No shows available right now. Check back later!</p>
+                    </div>
+                `;
+                return;
+            }
+
+            const showsHTML = data.shows.map(show => {
+                const sourceClass = show.source === 'HouseSeats' ? 'source-houseseats' : 'source-1sttix';
+                const imageUrl = show.image || 'https://via.placeholder.com/300x180?text=No+Image';
+
+                return `
+                    <div class="show-card">
+                        <img src="${imageUrl}" alt="${show.name}" class="show-image" onerror="this.src='https://via.placeholder.com/300x180?text=No+Image'">
+                        <div class="show-content">
+                            <span class="source-badge ${sourceClass}">${show.source}</span>
+                            <h2 class="show-name">${show.name}</h2>
+                            <p class="show-date">${show.date || 'Date TBD'}</p>
+                            <div class="show-actions">
+                                ${show.link ? `<a href="${show.link}" target="_blank" class="btn btn-primary">🎟️ Get Tickets</a>` : ''}
+                                <a href="${getChatGPTLink(show)}" target="_blank" class="btn btn-secondary">🤖 Ask AI</a>
+                            </div>
+                        </div>
+                    </div>
+                `;
+            }).join('');
+
+            document.getElementById('showsGrid').innerHTML = showsHTML;
+        }
+
+        // Load shows when page loads
+        loadShows();
+    </script>
+</body>
+</html>
