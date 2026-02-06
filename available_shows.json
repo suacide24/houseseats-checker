@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-06T12:45:49 PT",
-  "count": 2,
+  "last_updated": "2026-02-06T13:36:37 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -8,6 +8,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8965",
       "date": "February 6th",
       "image": "https://lv.houseseats.com/resources/media/8965.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Red Velvet Burlesque Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7590",
+      "date": "February 7th",
+      "image": "https://lv.houseseats.com/resources/media/7590.jpg",
       "rare": true
     },
     {
