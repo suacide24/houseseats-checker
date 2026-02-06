@@ -177,7 +177,9 @@
         // Load shows data from JSON file
         async function loadShows() {
             try {
-                const response = await fetch('available_shows.json');
+                // Add cache-busting query param to always get fresh data
+                const cacheBuster = new Date().getTime();
+                const response = await fetch(`available_shows.json?v=${cacheBuster}`);
                 const data = await response.json();
                 renderShows(data);
             } catch (error) {
