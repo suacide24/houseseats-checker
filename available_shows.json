@@ -1,5 +1,22 @@
 {
-  "last_updated": "2026-02-05T18:34:06.757635",
-  "count": 0,
-  "shows": []
+  "last_updated": "2026-02-06T02:34:31.094620",
+  "count": 2,
+  "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Haunted Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9008",
+      "date": "February 6th",
+      "image": "https://lv.houseseats.com/resources/media/9008.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "David Goldrake At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
+      "date": "February 8th",
+      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
+      "rare": true
+    }
+  ]
 }
