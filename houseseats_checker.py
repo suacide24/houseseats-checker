@@ -177,37 +177,37 @@ def get_show_name_key(show: dict) -> str:
 def update_show_history(shows: list, history: dict) -> dict:
     """Update history with today's shows and return updated history."""
     today = datetime.now().strftime("%Y-%m-%d")
-    
+
     for show in shows:
         key = get_show_name_key(show)
         if key not in history["shows"]:
             history["shows"][key] = {
                 "name": show.get("name", ""),
                 "source": show.get("source", ""),
-                "appearances": []
+                "appearances": [],
             }
-        
+
         # Add today's date if not already recorded today
         if today not in history["shows"][key]["appearances"]:
             history["shows"][key]["appearances"].append(today)
-    
+
     return history
 
 
 def is_rare_show(show: dict, history: dict) -> bool:
     """Check if a show is rare based on appearance history."""
     key = get_show_name_key(show)
-    
+
     if key not in history["shows"]:
         return True  # Never seen before = rare!
-    
+
     # Count appearances in the last RARE_THRESHOLD_DAYS
     cutoff_date = datetime.now() - timedelta(days=RARE_THRESHOLD_DAYS)
     cutoff_str = cutoff_date.strftime("%Y-%m-%d")
-    
+
     appearances = history["shows"][key]["appearances"]
     recent_count = sum(1 for date in appearances if date >= cutoff_str)
-    
+
     return recent_count < RARE_THRESHOLD_COUNT
 
 
@@ -216,6 +216,27 @@ def mark_rare_shows(shows: list, history: dict) -> list:
     for show in shows:
         show["rare"] = is_rare_show(show, history)
     return shows
+
+
+def cleanup_old_history(history: dict, max_age_days: int = 90) -> dict:
+    """Remove history entries older than max_age_days to prevent file bloat."""
+    cutoff_date = datetime.now() - timedelta(days=max_age_days)
+    cutoff_str = cutoff_date.strftime("%Y-%m-%d")
+    
+    for key in history["shows"]:
+        # Filter to only keep recent appearances
+        history["shows"][key]["appearances"] = [
+            date for date in history["shows"][key]["appearances"]
+            if date >= cutoff_str
+        ]
+    
+    # Remove shows with no recent appearances
+    history["shows"] = {
+        key: data for key, data in history["shows"].items()
+        if data["appearances"]
+    }
+    
+    return history
 
 
 def get_show_key(show: dict) -> str:
@@ -295,7 +316,11 @@ def send_email_notification(new_shows: list) -> bool:
             source_html = f'<span style="color: {source_color}; font-weight: bold;">{source}</span>'
 
             # Add RARE badge if applicable
-            rare_badge = '<span style="background-color: #e74c3c; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px; margin-left: 8px;">🔥 RARE</span>' if is_rare else ""
+            rare_badge = (
+                '<span style="background-color: #e74c3c; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px; margin-left: 8px;">🔥 RARE</span>'
+                if is_rare
+                else ""
+            )
 
             html_body += f"""
             <tr>
@@ -813,8 +838,9 @@ def main():
     # Load and update show history for rare detection
     show_history = load_show_history()
     show_history = update_show_history(filtered_shows, show_history)
+    show_history = cleanup_old_history(show_history)  # Remove entries older than 90 days
     save_show_history(show_history)
-    
+
     # Mark rare shows
     filtered_shows = mark_rare_shows(filtered_shows, show_history)
     rare_count = sum(1 for s in filtered_shows if s.get("rare"))

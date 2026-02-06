@@ -6,10 +6,11 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 2. Fetches available shows from each site
 3. Filters out shows on a denylist (contains-based matching, case-insensitive)
 4. Sends email notifications for NEW shows only (tracks show+date+source combinations)
-5. Includes ChatGPT links to ask "Should I go to this show?"
-6. **Runs every 30 minutes via GitHub Actions** (no local machine needed!)
-7. Uses random delays between requests to avoid bot detection
-8. Auto-publishes available shows to GitHub Pages
+5. **Detects RARE shows** - flags shows that don't appear frequently 🔥
+6. Includes ChatGPT links to ask "Should I go to this show?"
+7. **Runs every 30 minutes via GitHub Actions** (no local machine needed!)
+8. Uses random delays between requests to avoid bot detection
+9. Auto-publishes available shows to GitHub Pages
 
 ## Live Pages
 
@@ -27,9 +28,26 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 | `index.html` | GitHub Pages frontend (loads shows from JSON) |
 | `available_shows.json` | Latest fetched shows (auto-updated by GitHub Actions) |
 | `notified_shows.json` | Tracks which show+date+source combos have been notified |
+| `show_history.json` | Tracks show appearances over time for RARE detection |
 | `requirements.txt` | Python dependencies |
 | `.github/workflows/check-shows.yml` | GitHub Actions workflow (runs every 30 mins) |
 | `denylist.txt` | Local fallback denylist (primary is on GitHub Gist) |
+
+## 🔥 RARE Show Detection
+
+Shows are flagged as **RARE** when they appear infrequently. This helps identify special/limited engagements.
+
+| Setting | Value |
+|---------|-------|
+| Lookback period | 30 days |
+| Rare threshold | < 3 appearances |
+| History cleanup | 90 days (old entries auto-removed) |
+
+**How it works:**
+- `show_history.json` tracks every unique show appearance by date
+- Shows appearing fewer than 3 times in the last 30 days get the 🔥 RARE badge
+- First-time shows are always marked as RARE
+- Old history (> 90 days) is automatically cleaned up
 
 ## Configuration
 
