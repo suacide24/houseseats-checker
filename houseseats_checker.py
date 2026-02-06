@@ -620,7 +620,9 @@ def push_to_github():
         )
 
         # Commit with timestamp
-        commit_msg = f"Update available shows - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+        commit_msg = (
+            f"Update available shows - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
+        )
         subprocess.run(
             ["git", "commit", "-m", commit_msg],
             check=True,
@@ -640,7 +642,9 @@ def push_to_github():
     except subprocess.CalledProcessError as e:
         log_message(f"[GitHub] Failed to push to GitHub: {e}")
         if e.stderr:
-            log_message(f"[GitHub] Error: {e.stderr.decode() if isinstance(e.stderr, bytes) else e.stderr}")
+            log_message(
+                f"[GitHub] Error: {e.stderr.decode() if isinstance(e.stderr, bytes) else e.stderr}"
+            )
         return False
     except Exception as e:
         log_message(f"[GitHub] Unexpected error: {e}")
