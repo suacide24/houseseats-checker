@@ -18,6 +18,7 @@ from email.mime.text import MIMEText
 from pathlib import Path
 from urllib.parse import quote
 
+
 # Pacific Time offset (UTC-8 for PST, UTC-7 for PDT)
 # Using a simple approach - for accuracy we check if we're in DST
 def get_pacific_time():
@@ -31,13 +32,14 @@ def get_pacific_time():
     # DST ends first Sunday of November
     nov_first = datetime(year, 11, 1, tzinfo=timezone.utc)
     dst_end = nov_first + timedelta(days=(6 - nov_first.weekday()) % 7)
-    
+
     if dst_start <= utc_now < dst_end:
         offset = timedelta(hours=-7)  # PDT
     else:
         offset = timedelta(hours=-8)  # PST
-    
+
     return utc_now + offset
+
 
 import requests
 from bs4 import BeautifulSoup

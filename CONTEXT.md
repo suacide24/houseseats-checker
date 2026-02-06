@@ -181,4 +181,61 @@ python3 houseseats_checker.py --fast
 - Timestamps displayed in Pacific Time (PT)
 
 ---
-*Last updated: 2026-02-05*
+
+## ❌ Abandoned Project: GoWild Flight Checker
+
+### What We Tried
+Attempted to create a similar checker for **Frontier Airlines GoWild Pass** flights from Las Vegas:
+- Project location: `/Users/rsua/gowild-checker/` (deleted)
+- GitHub repo: `suacide24/gowild-checker` (deleted)
+- Goal: Check available GoWild flights daily at midnight, send email notifications, similar format to HouseSeats
+
+### Why It Failed: PerimeterX Bot Protection
+
+Frontier Airlines uses **PerimeterX** - a sophisticated anti-bot/CAPTCHA system that actively blocks automated browsers:
+
+```
+<iframe id="px-captcha-modal"></iframe> intercepts pointer events
+```
+
+**What we tried:**
+- Playwright with Chromium (headless and visible modes)
+- Firefox with stealth mode settings
+- Custom user agents and anti-detection scripts
+- Various login URL endpoints
+- Press-and-hold CAPTCHA bypass attempts
+
+**All attempts failed** because:
+1. PerimeterX presents a "Press & Hold" human verification popup
+2. The CAPTCHA iframe intercepts ALL click events on the page
+3. Even with stealth mode, the bot detection is too sophisticated
+4. Unlike HouseSeats (which has no bot protection), Frontier actively invests in preventing automation
+
+### Research Findings
+
+| Option | Exists? |
+|--------|---------|
+| Official email alerts from Frontier | ❌ No |
+| Public API for GoWild availability | ❌ No |
+| Push notifications for specific routes | ❌ No |
+| Third-party sanctioned apps | ❌ No |
+
+### How Commercial Services (like The 1491 Club) Do It
+
+Services like [the1491club.com](https://www.the1491club.com/) succeed by investing in:
+- **CAPTCHA-solving services** (2Captcha, Anti-Captcha) - paid human solvers
+- **Residential proxy networks** - rotating IPs to avoid detection
+- **Mobile app API reverse-engineering** - capturing internal API calls
+- **Professional infrastructure** - servers, session management, 24/7 monitoring
+
+This level of infrastructure is beyond a simple DIY script.
+
+### Conclusion
+
+**GoWild automation is not feasible** with a simple self-hosted script. Options for GoWild users:
+1. Subscribe to a paid service like The 1491 Club
+2. Join community Discord/Telegram groups for manual sightings
+3. Check the website/app manually at strategic times (midnight, 6am)
+
+---
+*Last updated: 2026-02-06*

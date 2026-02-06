@@ -249,7 +249,7 @@
                 const sourceClass = show.source === 'HouseSeats' ? 'source-houseseats' : 'source-1sttix';
                 const imageUrl = show.image || 'https://via.placeholder.com/300x180?text=No+Image';
                 const rareBadge = show.rare ? '<span class="rare-badge">🔥 RARE</span>' : '';
-                
+
                 return `
                     <div class="show-card">
                         <img src="${imageUrl}" alt="${show.name}" class="show-image" onerror="this.src='https://via.placeholder.com/300x180?text=No+Image'">
