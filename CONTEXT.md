@@ -7,68 +7,106 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 3. Filters out shows on a denylist (contains-based matching, case-insensitive)
 4. Sends email notifications for NEW shows only (tracks show+date+source combinations)
 5. Includes ChatGPT links to ask "Should I go to this show?"
-6. Runs hourly via launchd
+6. **Runs every 30 minutes via GitHub Actions** (no local machine needed!)
 7. Uses random delays between requests to avoid bot detection
+8. Auto-publishes available shows to GitHub Pages
+
+## Live Pages
+
+| Link | Purpose |
+|------|---------|
+| **[View Available Shows](https://suacide24.github.io/houseseats-checker/)** | Beautiful, mobile-friendly page with all current shows |
+| **[Edit Denylist](https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6/edit)** | Add shows to filter out |
+| **[GitHub Actions](https://github.com/suacide24/houseseats-checker/actions)** | View workflow runs and logs |
 
 ## Key Files
 
 | File | Purpose |
 |------|---------|
 | `houseseats_checker.py` | Main script |
-| `denylist.txt` | Shows to ignore (one per line, contains-match) |
+| `index.html` | GitHub Pages frontend (loads shows from JSON) |
+| `available_shows.json` | Latest fetched shows (auto-updated by GitHub Actions) |
 | `notified_shows.json` | Tracks which show+date+source combos have been notified |
-| `available_shows.json` | Latest fetched shows (JSON output) |
-| `houseseats.log` | Log file with timestamps |
-| `stdout.log` / `stderr.log` | Output from scheduled runs |
 | `requirements.txt` | Python dependencies |
-| `com.rsua.houseseats-checker.plist` | launchd config (runs hourly) |
+| `.github/workflows/check-shows.yml` | GitHub Actions workflow (runs every 30 mins) |
+| `denylist.txt` | Local fallback denylist (primary is on GitHub Gist) |
 
-## Configuration (in houseseats_checker.py)
+## Configuration
 
-```python
-# HouseSeats credentials
-HOUSESEATS_EMAIL = "rsua95@gmail.com"
-HOUSESEATS_PASSWORD = "easypass"
+All credentials are stored as **GitHub Secrets** (not in code):
 
-# 1stTix credentials
-FIRSTTIX_EMAIL = "ryan.sua.rn@gmail.com"
-FIRSTTIX_PASSWORD = "Clayton24!"
+| Secret | Purpose |
+|--------|---------|
+| `HOUSESEATS_EMAIL` | HouseSeats login email |
+| `HOUSESEATS_PASSWORD` | HouseSeats password |
+| `FIRSTTIX_EMAIL` | 1stTix login email |
+| `FIRSTTIX_PASSWORD` | 1stTix password |
+| `SMTP_EMAIL` | Gmail sender address |
+| `SMTP_PASSWORD` | Gmail App Password (16-char) |
+| `NOTIFICATION_EMAIL` | Email to receive notifications |
 
-# Email notifications
-NOTIFICATION_EMAIL = "rsua95@gmail.com"
-SMTP_EMAIL = "rsua95@gmail.com"
-SMTP_PASSWORD = "<Gmail App Password>"  # 16-char app password
+To update secrets:
+```bash
+gh secret set SECRET_NAME --body "value"
 ```
 
-## How to Run
+## How It Works
+
+```
+┌─────────────────────────────────────────────────────────────┐
+│                    GitHub Actions                            │
+│                  (runs every 30 mins)                        │
+├─────────────────────────────────────────────────────────────┤
+│  1. Checkout repo                                            │
+│  2. Run houseseats_checker.py                                │
+│     ├── Fetch denylist from Gist                            │
+│     ├── Login to HouseSeats & 1stTix                        │
+│     ├── Scrape available shows                               │
+│     ├── Filter out denylisted shows                          │
+│     ├── Send email for NEW shows only                        │
+│     └── Save to available_shows.json                         │
+│  3. Commit & push JSON updates                               │
+│  4. GitHub Pages auto-rebuilds                               │
+└─────────────────────────────────────────────────────────────┘
+```
+
+## Manual Operations
 
 ```bash
-# Manual run
-/usr/bin/python3 /Users/rsua/houseseats-checker/houseseats_checker.py
+# Trigger workflow manually
+gh workflow run check-shows.yml
+
+# View recent runs
+gh run list --limit 5
+
+# View logs from a run
+gh run view <run-id> --log
+
+# Reset notifications (will re-notify for all shows)
+# Edit notified_shows.json on GitHub and clear the array
+```
+
+## Local Development (Optional)
+
+```bash
+# Clone repo
+git clone https://github.com/suacide24/houseseats-checker.git
+cd houseseats-checker
 
 # Install dependencies
-pip3 install -r /Users/rsua/houseseats-checker/requirements.txt
-```
+pip3 install -r requirements.txt
 
-**Important:** Must use `/usr/bin/python3` (system Python 3.9) because Meta's internal Python at `/usr/local/bin/python3` doesn't have pip/packages.
+# Set environment variables
+export HOUSESEATS_EMAIL="your@email.com"
+export HOUSESEATS_PASSWORD="password"
+export FIRSTTIX_EMAIL="your@email.com"
+export FIRSTTIX_PASSWORD="password"
+export SMTP_EMAIL="your@gmail.com"
+export SMTP_PASSWORD="app-password"
+export NOTIFICATION_EMAIL="your@email.com"
 
-## Scheduled Runs (launchd)
-
-The plist is installed at `~/Library/LaunchAgents/com.rsua.houseseats-checker.plist`
-
-```bash
-# Check status
-launchctl list | grep houseseats
-
-# Manual trigger
-launchctl start com.rsua.houseseats-checker
-
-# Stop scheduler
-launchctl unload ~/Library/LaunchAgents/com.rsua.houseseats-checker.plist
-
-# Restart after changes
-launchctl unload ~/Library/LaunchAgents/com.rsua.houseseats-checker.plist
-launchctl load ~/Library/LaunchAgents/com.rsua.houseseats-checker.plist
+# Run manually (--fast skips delays)
+python3 houseseats_checker.py --fast
 ```
 
 ## Site Structure (for future reference)
@@ -93,41 +131,27 @@ launchctl load ~/Library/LaunchAgents/com.rsua.houseseats-checker.plist
 
 ## Denylist Behavior
 
-- One pattern per line in `denylist.txt`
+- **Primary:** GitHub Gist at https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6
+- **Fallback:** Local `denylist.txt` file
 - Lines starting with `#` are ignored (comments)
 - **Contains-based matching** - if "comedy" is in denylist, it filters "L.A. Comedy Club"
 - Case-insensitive
-
-## Notification System
-
-- Tracks `show_name|date` combinations in `notified_shows.json`
-- Only sends email/notification for NEW combinations
-- To reset and get notified about all shows again:
-  ```bash
-  rm /Users/rsua/houseseats-checker/notified_shows.json
-  ```
 
 ## Email Features
 
 - HTML formatted table with show name, date, ticket link
 - **ChatGPT link** for each show: "🤖 Should I go?" opens ChatGPT with a prompt asking about the show
-- Also sends macOS desktop notification
+- **View All Shows button:** Links to GitHub Pages
+- **Edit Denylist button:** Links to Gist editor
+- Color-coded by source (blue = HouseSeats, green = 1stTix)
 
-## Common Tasks
+## GitHub Pages Features
 
-```bash
-# Add show to denylist
-echo "carrot top" >> /Users/rsua/houseseats-checker/denylist.txt
-
-# View current shows
-cat /Users/rsua/houseseats-checker/available_shows.json
-
-# Check logs
-tail -50 /Users/rsua/houseseats-checker/houseseats.log
-
-# Reset notifications (will re-notify for all shows)
-rm /Users/rsua/houseseats-checker/notified_shows.json
-```
+- Dark gradient theme
+- Mobile-responsive grid layout
+- Show images from source websites
+- "Get Tickets" and "Ask AI" buttons for each show
+- Auto-updates when JSON is pushed
 
 ---
-*Last updated: 2026-02-04*
+*Last updated: 2026-02-06*
