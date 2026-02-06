@@ -34,22 +34,22 @@ args = parser.parse_args()
 HOUSESEATS_BASE_URL = "https://lv.houseseats.com"
 HOUSESEATS_LOGIN_URL = f"{HOUSESEATS_BASE_URL}/member/index.bv"
 HOUSESEATS_SHOWS_URL = f"{HOUSESEATS_BASE_URL}/member/ajax/upcoming-shows.bv"
-HOUSESEATS_EMAIL = "rsua95@gmail.com"
-HOUSESEATS_PASSWORD = "easypass"
+HOUSESEATS_EMAIL = os.environ.get("HOUSESEATS_EMAIL", "rsua95@gmail.com")
+HOUSESEATS_PASSWORD = os.environ.get("HOUSESEATS_PASSWORD", "")
 
 # Configuration - 1stTix
 FIRSTTIX_BASE_URL = "https://www.1sttix.org"
 FIRSTTIX_LOGIN_URL = f"{FIRSTTIX_BASE_URL}/login"
 FIRSTTIX_EVENTS_URL = f"{FIRSTTIX_BASE_URL}/tixer/get-tickets/events"
-FIRSTTIX_EMAIL = "ryan.sua.rn@gmail.com"
-FIRSTTIX_PASSWORD = "Clayton24!"
+FIRSTTIX_EMAIL = os.environ.get("FIRSTTIX_EMAIL", "ryan.sua.rn@gmail.com")
+FIRSTTIX_PASSWORD = os.environ.get("FIRSTTIX_PASSWORD", "")
 
 # Email configuration
-NOTIFICATION_EMAIL = "rsua95@gmail.com"
+NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "rsua95@gmail.com")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_EMAIL = "rsua95@gmail.com"
-SMTP_PASSWORD = "voawtkgxuokvwkzw"  # You'll need to set up an App Password in Gmail
+SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "rsua95@gmail.com")
+SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
 
 # Paths
 SCRIPT_DIR = Path(__file__).parent

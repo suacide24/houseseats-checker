@@ -1,0 +1,42 @@
+name: Check Shows
+
+on:
+  schedule:
+    # Run every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch:  # Allow manual trigger
+
+jobs:
+  check-shows:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run show checker
+        env:
+          HOUSESEATS_EMAIL: ${{ secrets.HOUSESEATS_EMAIL }}
+          HOUSESEATS_PASSWORD: ${{ secrets.HOUSESEATS_PASSWORD }}
+          FIRSTTIX_EMAIL: ${{ secrets.FIRSTTIX_EMAIL }}
+          FIRSTTIX_PASSWORD: ${{ secrets.FIRSTTIX_PASSWORD }}
+          SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
+          SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
+          NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+        run: python houseseats_checker.py --fast
+
+      - name: Commit and push if changed
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add available_shows.json notified_shows.json
+          git diff --staged --quiet || git commit -m "Update shows - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push
