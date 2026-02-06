@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-05T17:43:09.692389",
-  "count": 6,
+  "last_updated": "2026-02-06T01:53:06.464305",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -22,27 +22,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
       "date": "February 8th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg"
-    },
-    {
-      "source": "1stTix",
-      "name": "Masters of Magic",
-      "date": "Thu, 5 Feb '26 5:30 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606286",
-      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg"
-    },
-    {
-      "source": "1stTix",
-      "name": "X Country",
-      "date": "Thu, 5 Feb '26 10:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/603959",
-      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg"
-    },
-    {
-      "source": "1stTix",
-      "name": "Masters of Magic",
-      "date": "Fri, 6 Feb '26 5:30 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606327",
-      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg"
     }
   ]
 }
