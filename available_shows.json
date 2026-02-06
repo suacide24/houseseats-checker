@@ -1,30 +1,5 @@
 {
-  "last_updated": "2026-02-06T02:11:56.339730",
-  "count": 3,
-  "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Lioz - Master of Delusion",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
-      "date": "February 5th",
-      "image": "https://lv.houseseats.com/resources/media/8225.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Haunted Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9008",
-      "date": "February 6th",
-      "image": "https://lv.houseseats.com/resources/media/9008.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "David Goldrake At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
-      "date": "February 8th",
-      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": true
-    }
-  ]
+  "last_updated": "2026-02-05T18:34:06.757635",
+  "count": 0,
+  "shows": []
 }
