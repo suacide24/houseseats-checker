@@ -1,38 +1,30 @@
 {
-  "last_updated": "2026-02-05T18:07:11.000000",
-  "count": 4,
+  "last_updated": "2026-02-06T02:11:56.339730",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Cirque du Soleil: O",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=1234",
-      "date": "February 6th",
-      "image": "https://lv.houseseats.com/resources/media/1234.jpg",
+      "name": "Lioz - Master of Delusion",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
+      "date": "February 5th",
+      "image": "https://lv.houseseats.com/resources/media/8225.jpg",
       "rare": true
     },
     {
       "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=5678",
-      "date": "February 7th",
-      "image": "https://lv.houseseats.com/resources/media/5678.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Penn & Teller",
-      "date": "Fri, 6 Feb '26 9:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/999999",
-      "image": "https://ei-cdn.1sttix.org/preview999999.jpg",
+      "name": "Haunted Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9008",
+      "date": "February 6th",
+      "image": "https://lv.houseseats.com/resources/media/9008.jpg",
       "rare": true
     },
     {
-      "source": "1stTix",
-      "name": "Masters of Magic",
-      "date": "Sat, 7 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/888888",
-      "image": "https://ei-cdn.1sttix.org/preview888888.jpg",
-      "rare": false
+      "source": "HouseSeats",
+      "name": "David Goldrake At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
+      "date": "February 8th",
+      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
+      "rare": true
     }
   ]
 }

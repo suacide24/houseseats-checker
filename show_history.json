@@ -1,3 +1,25 @@
 {
-  "shows": {}
+  "shows": {
+    "HouseSeats|lioz - master of delusion": {
+      "name": "Lioz - Master of Delusion",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    },
+    "HouseSeats|haunted brunch": {
+      "name": "Haunted Brunch",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    },
+    "HouseSeats|david goldrake at the magicians room": {
+      "name": "David Goldrake At The Magicians Room",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    }
+  }
 }
