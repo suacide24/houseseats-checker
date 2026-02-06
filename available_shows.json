@@ -1,7 +1,47 @@
 {
-  "last_updated": "2026-02-06T10:07:24 PT",
-  "count": 1,
+  "last_updated": "2026-02-06T11:22:16 PT",
+  "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Improv Ol\u00e9",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9035",
+      "date": "February 6th",
+      "image": "https://lv.houseseats.com/resources/media/9035.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "r/AmITheA**hole",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8965",
+      "date": "February 6th",
+      "image": "https://lv.houseseats.com/resources/media/8965.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ComedySportz Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7514",
+      "date": "February 7th",
+      "image": "https://lv.houseseats.com/resources/media/7514.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Let's Play: An Improvised Game Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9133",
+      "date": "February 7th",
+      "image": "https://lv.houseseats.com/resources/media/9133.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Foul Play",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8901",
+      "date": "February 7th",
+      "image": "https://lv.houseseats.com/resources/media/8901.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "David Goldrake At The Magicians Room",

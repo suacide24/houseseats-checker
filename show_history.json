@@ -20,6 +20,41 @@
       "appearances": [
         "2026-02-06"
       ]
+    },
+    "HouseSeats|improv ol\u00e9": {
+      "name": "Improv Ol\u00e9",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    },
+    "HouseSeats|r/amithea**hole": {
+      "name": "r/AmITheA**hole",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    },
+    "HouseSeats|comedysportz las vegas": {
+      "name": "ComedySportz Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    },
+    "HouseSeats|let's play: an improvised game show": {
+      "name": "Let's Play: An Improvised Game Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
+    },
+    "HouseSeats|foul play": {
+      "name": "Foul Play",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-06"
+      ]
     }
   }
 }
