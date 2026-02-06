@@ -1,5 +1,38 @@
 {
-  "last_updated": "2026-02-05T18:07:11.401906",
-  "count": 0,
-  "shows": []
+  "last_updated": "2026-02-05T18:07:11.000000",
+  "count": 4,
+  "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Cirque du Soleil: O",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=1234",
+      "date": "February 6th",
+      "image": "https://lv.houseseats.com/resources/media/1234.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=5678",
+      "date": "February 7th",
+      "image": "https://lv.houseseats.com/resources/media/5678.jpg",
+      "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Penn & Teller",
+      "date": "Fri, 6 Feb '26 9:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/999999",
+      "image": "https://ei-cdn.1sttix.org/preview999999.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Sat, 7 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/888888",
+      "image": "https://ei-cdn.1sttix.org/preview888888.jpg",
+      "rare": false
+    }
+  ]
 }
