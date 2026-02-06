@@ -11,6 +11,7 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 7. **Runs every 30 minutes via GitHub Actions** (no local machine needed!)
 8. Uses random delays between requests to avoid bot detection
 9. Auto-publishes available shows to GitHub Pages
+10. **All timestamps in Pacific Time (PT)**
 
 ## Live Pages
 
@@ -25,7 +26,7 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 | File | Purpose |
 |------|---------|
 | `houseseats_checker.py` | Main script |
-| `index.html` | GitHub Pages frontend (loads shows from JSON) |
+| `index.html` | GitHub Pages frontend (loads shows from JSON with cache-busting) |
 | `available_shows.json` | Latest fetched shows (auto-updated by GitHub Actions) |
 | `notified_shows.json` | Tracks which show+date+source combos have been notified |
 | `show_history.json` | Tracks show appearances over time for RARE detection |
@@ -48,6 +49,7 @@ Shows are flagged as **RARE** when they appear infrequently. This helps identify
 - Shows appearing fewer than 3 times in the last 30 days get the 🔥 RARE badge
 - First-time shows are always marked as RARE
 - Old history (> 90 days) is automatically cleaned up
+- Pulsing animation on the website to draw attention
 
 ## Configuration
 
@@ -81,8 +83,9 @@ gh secret set SECRET_NAME --body "value"
 │     ├── Login to HouseSeats & 1stTix                        │
 │     ├── Scrape available shows                               │
 │     ├── Filter out denylisted shows                          │
-│     ├── Send email for NEW shows only                        │
-│     └── Save to available_shows.json                         │
+│     ├── Update show history & detect RARE shows             │
+│     ├── Send email for NEW shows only (with RARE badges)    │
+│     └── Save to available_shows.json (with PT timestamp)    │
 │  3. Commit & push JSON updates                               │
 │  4. GitHub Pages auto-rebuilds                               │
 └─────────────────────────────────────────────────────────────┘
@@ -101,7 +104,10 @@ gh run list --limit 5
 gh run view <run-id> --log
 
 # Reset notifications (will re-notify for all shows)
-# Edit notified_shows.json on GitHub and clear the array
+# Edit notified_shows.json on GitHub and set: {"notified": []}
+
+# Reset RARE detection (all shows will be marked RARE again)
+# Edit show_history.json on GitHub and set: {"shows": {}}
 ```
 
 ## Local Development (Optional)
@@ -158,9 +164,10 @@ python3 houseseats_checker.py --fast
 ## Email Features
 
 - HTML formatted table with show name, date, ticket link
+- **🔥 RARE badges** on infrequent shows
 - **ChatGPT link** for each show: "🤖 Should I go?" opens ChatGPT with a prompt asking about the show
-- **View All Shows button:** Links to GitHub Pages
-- **Edit Denylist button:** Links to Gist editor
+- **📋 View All Shows button:** Links to GitHub Pages
+- **✏️ Edit Denylist button:** Links to Gist editor
 - Color-coded by source (blue = HouseSeats, green = 1stTix)
 
 ## GitHub Pages Features
@@ -168,8 +175,10 @@ python3 houseseats_checker.py --fast
 - Dark gradient theme
 - Mobile-responsive grid layout
 - Show images from source websites
+- 🔥 RARE badges with pulsing animation
 - "Get Tickets" and "Ask AI" buttons for each show
-- Auto-updates when JSON is pushed
+- Cache-busting ensures fresh data on every page load
+- Timestamps displayed in Pacific Time (PT)
 
 ---
-*Last updated: 2026-02-06*
+*Last updated: 2026-02-05*
