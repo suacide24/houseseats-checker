@@ -191,8 +191,28 @@
             }
         }
 
-        function formatDate(isoString) {
-            const date = new Date(isoString);
+        function formatDate(dateString) {
+            // If it already has "PT" in it, just clean it up for display
+            if (dateString.includes('PT')) {
+                // Parse the PT format: "2026-02-06T18:30:00 PT"
+                const match = dateString.match(/(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/);
+                if (match) {
+                    const [_, year, month, day, hour, minute] = match;
+                    const date = new Date(year, month - 1, day, hour, minute);
+                    return date.toLocaleString('en-US', {
+                        weekday: 'short',
+                        month: 'short',
+                        day: 'numeric',
+                        year: 'numeric',
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true
+                    }) + ' PT';
+                }
+                return dateString;
+            }
+            // Fallback for ISO format
+            const date = new Date(dateString);
             return date.toLocaleString('en-US', {
                 weekday: 'short',
                 month: 'short',

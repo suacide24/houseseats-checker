@@ -12,11 +12,32 @@ import os
 import random
 import smtplib
 import time
-from datetime import datetime, timedelta
+from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
 from urllib.parse import quote
+
+# Pacific Time offset (UTC-8 for PST, UTC-7 for PDT)
+# Using a simple approach - for accuracy we check if we're in DST
+def get_pacific_time():
+    """Get current time in Pacific Time."""
+    utc_now = datetime.now(timezone.utc)
+    # Approximate DST: second Sunday in March to first Sunday in November
+    year = utc_now.year
+    # DST starts second Sunday of March
+    march_first = datetime(year, 3, 1, tzinfo=timezone.utc)
+    dst_start = march_first + timedelta(days=(6 - march_first.weekday() + 7) % 7 + 7)
+    # DST ends first Sunday of November
+    nov_first = datetime(year, 11, 1, tzinfo=timezone.utc)
+    dst_end = nov_first + timedelta(days=(6 - nov_first.weekday()) % 7)
+    
+    if dst_start <= utc_now < dst_end:
+        offset = timedelta(hours=-7)  # PDT
+    else:
+        offset = timedelta(hours=-8)  # PST
+    
+    return utc_now + offset
 
 import requests
 from bs4 import BeautifulSoup
@@ -222,20 +243,18 @@ def cleanup_old_history(history: dict, max_age_days: int = 90) -> dict:
     """Remove history entries older than max_age_days to prevent file bloat."""
     cutoff_date = datetime.now() - timedelta(days=max_age_days)
     cutoff_str = cutoff_date.strftime("%Y-%m-%d")
-    
+
     for key in history["shows"]:
         # Filter to only keep recent appearances
         history["shows"][key]["appearances"] = [
-            date for date in history["shows"][key]["appearances"]
-            if date >= cutoff_str
+            date for date in history["shows"][key]["appearances"] if date >= cutoff_str
         ]
-    
+
     # Remove shows with no recent appearances
     history["shows"] = {
-        key: data for key, data in history["shows"].items()
-        if data["appearances"]
+        key: data for key, data in history["shows"].items() if data["appearances"]
     }
-    
+
     return history
 
 
@@ -686,8 +705,9 @@ def filter_shows(shows: list, denylist: set) -> list:
 
 def save_shows(shows: list):
     """Save the available shows to a JSON file."""
+    pt_now = get_pacific_time()
     output = {
-        "last_updated": datetime.now().isoformat(),
+        "last_updated": pt_now.strftime("%Y-%m-%dT%H:%M:%S PT"),
         "count": len(shows),
         "shows": shows,
     }
@@ -838,7 +858,9 @@ def main():
     # Load and update show history for rare detection
     show_history = load_show_history()
     show_history = update_show_history(filtered_shows, show_history)
-    show_history = cleanup_old_history(show_history)  # Remove entries older than 90 days
+    show_history = cleanup_old_history(
+        show_history
+    )  # Remove entries older than 90 days
     save_show_history(show_history)
 
     # Mark rare shows
