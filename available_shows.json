@@ -1,23 +1,7 @@
 {
-  "last_updated": "2026-02-06T14:30:45 PT",
-  "count": 3,
+  "last_updated": "2026-02-06T15:31:29 PT",
+  "count": 1,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "r/AmITheA**hole",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8965",
-      "date": "February 6th",
-      "image": "https://lv.houseseats.com/resources/media/8965.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Red Velvet Burlesque Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7590",
-      "date": "February 7th",
-      "image": "https://lv.houseseats.com/resources/media/7590.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "David Goldrake At The Magicians Room",
