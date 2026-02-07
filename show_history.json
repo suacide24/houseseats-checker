@@ -18,7 +18,8 @@
       "name": "David Goldrake At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06"
+        "2026-02-06",
+        "2026-02-07"
       ]
     },
     "HouseSeats|improv ol\u00e9": {
@@ -61,6 +62,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-06"
+      ]
+    },
+    "HouseSeats|elton john & beatles: made in england": {
+      "name": "Elton John & Beatles: Made In England",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-07"
       ]
     }
   }
