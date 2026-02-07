@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-06T18:29:30 PT",
-  "count": 2,
+  "last_updated": "2026-02-06T20:20:06 PT",
+  "count": 1,
   "shows": [
     {
       "source": "HouseSeats",
@@ -8,14 +8,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
       "date": "February 8th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Elton John & Beatles: Made In England",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8823",
-      "date": "February 12th",
-      "image": "https://lv.houseseats.com/resources/media/8823.jpg",
       "rare": true
     }
   ]
