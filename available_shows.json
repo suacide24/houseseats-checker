@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-07T13:31:43 PT",
-  "count": 2,
+  "last_updated": "2026-02-07T14:32:19 PT",
+  "count": 1,
   "shows": [
     {
       "source": "HouseSeats",
@@ -8,14 +8,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
       "date": "February 8th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Babes and Blues Valentine's Revue",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9159",
-      "date": "February 10th",
-      "image": "https://lv.houseseats.com/resources/media/9159.jpg",
       "rare": true
     }
   ]
