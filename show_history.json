@@ -99,6 +99,13 @@
       "appearances": [
         "2026-02-08"
       ]
+    },
+    "HouseSeats|rouge": {
+      "name": "ROUGE",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-08"
+      ]
     }
   }
 }
