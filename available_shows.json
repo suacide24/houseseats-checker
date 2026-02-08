@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-08T13:33:02 PT",
-  "count": 3,
+  "last_updated": "2026-02-08T14:33:37 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -9,14 +9,6 @@
       "date": "February 8th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "February 10th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
