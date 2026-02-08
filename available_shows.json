@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-08T11:30:37 PT",
-  "count": 1,
+  "last_updated": "2026-02-08T12:34:18 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -9,6 +9,14 @@
       "date": "February 8th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Marc Savard Comedy Hypnosis",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9106",
+      "date": "February 11th",
+      "image": "https://lv.houseseats.com/resources/media/9106.jpg",
+      "rare": true
     }
   ]
 }
