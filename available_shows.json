@@ -1,5 +1,5 @@
 {
-  "last_updated": "2026-02-07T15:35:38 PT",
+  "last_updated": "2026-02-07T18:56:50 PT",
   "count": 1,
   "shows": [
     {
@@ -8,7 +8,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
       "date": "February 8th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
