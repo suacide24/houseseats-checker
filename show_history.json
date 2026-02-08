@@ -85,6 +85,20 @@
       "appearances": [
         "2026-02-08"
       ]
+    },
+    "HouseSeats|wow - the vegas spectacular": {
+      "name": "WOW - The Vegas Spectacular",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-08"
+      ]
+    },
+    "HouseSeats|7 minutes in heaven": {
+      "name": "7 Minutes in Heaven",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-08"
+      ]
     }
   }
 }
