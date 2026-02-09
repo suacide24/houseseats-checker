@@ -1,6 +1,6 @@
 {
-  "last_updated": "2026-02-08T23:31:02 PT",
-  "count": 3,
+  "last_updated": "2026-02-08T23:42:46 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -16,14 +16,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "February 10th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "7 Minutes in Heaven",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9134",
-      "date": "February 12th",
-      "image": "https://lv.houseseats.com/resources/media/9134.jpg",
       "rare": true
     }
   ]
