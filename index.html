@@ -277,14 +277,14 @@
 
         function formatShortDate(dateString) {
             if (!dateString) return 'TBD';
-            
+
             // Handle formats like "Mon, 9 Feb '26 9:30 PM"
             const match = dateString.match(/(\w{3}),?\s*(\d{1,2})\s+(\w{3})\s+'?(\d{2})?\s*(\d{1,2}:\d{2}\s*[AP]M)?/i);
             if (match) {
                 const [_, day, date, month, year, time] = match;
                 return `${day}, ${month} ${date}${time ? ' @ ' + time : ''}`;
             }
-            
+
             // Return as-is for other formats
             return dateString;
         }
@@ -297,10 +297,10 @@
         function groupShows(shows) {
             // Group shows by name + source
             const grouped = {};
-            
+
             shows.forEach(show => {
                 const key = `${show.source}|${show.name}`;
-                
+
                 if (!grouped[key]) {
                     grouped[key] = {
                         name: show.name,
@@ -310,41 +310,77 @@
                         timeSlots: []
                     };
                 }
-                
+
                 grouped[key].timeSlots.push({
                     date: show.date,
                     link: show.link
                 });
-                
+
                 // Use the first available image
                 if (!grouped[key].image && show.image) {
                     grouped[key].image = show.image;
                 }
-                
+
                 // If any slot is rare, mark the show as rare
                 if (show.rare) {
                     grouped[key].rare = true;
                 }
             });
-            
+
             // Sort time slots by date within each show
             Object.values(grouped).forEach(show => {
                 show.timeSlots.sort((a, b) => {
-                    // Try to parse dates for sorting
-                    const dateA = a.date || '';
-                    const dateB = b.date || '';
-                    return dateA.localeCompare(dateB);
+                    const dateA = parseShowDate(a.date);
+                    const dateB = parseShowDate(b.date);
+                    return dateA - dateB;
                 });
             });
-            
+
             // Convert to array and sort by show name
             return Object.values(grouped).sort((a, b) => a.name.localeCompare(b.name));
+        }
+
+        function parseShowDate(dateString) {
+            if (!dateString) return new Date(9999, 11, 31); // Put TBD at end
+            
+            // Handle formats like "Mon, 9 Feb '26 9:30 PM" or "February 9th"
+            const months = {
+                'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3, 'may': 4, 'jun': 5,
+                'jul': 6, 'aug': 7, 'sep': 8, 'oct': 9, 'nov': 10, 'dec': 11,
+                'january': 0, 'february': 1, 'march': 2, 'april': 3, 'june': 5,
+                'july': 6, 'august': 7, 'september': 8, 'october': 9, 'november': 10, 'december': 11
+            };
+            
+            // Try format: "Mon, 9 Feb '26 9:30 PM"
+            let match = dateString.match(/(\d{1,2})\s+(\w{3,9})\s+'?(\d{2,4})?\s*(\d{1,2}):(\d{2})\s*([AP]M)?/i);
+            if (match) {
+                const [_, day, monthStr, year, hour, minute, ampm] = match;
+                const monthNum = months[monthStr.toLowerCase()];
+                let yearNum = year ? (year.length === 2 ? 2000 + parseInt(year) : parseInt(year)) : 2026;
+                let hourNum = parseInt(hour);
+                if (ampm && ampm.toUpperCase() === 'PM' && hourNum !== 12) hourNum += 12;
+                if (ampm && ampm.toUpperCase() === 'AM' && hourNum === 12) hourNum = 0;
+                return new Date(yearNum, monthNum, parseInt(day), hourNum, parseInt(minute));
+            }
+            
+            // Try format: "February 9th" (HouseSeats format)
+            match = dateString.match(/(\w+)\s+(\d{1,2})/i);
+            if (match) {
+                const [_, monthStr, day] = match;
+                const monthNum = months[monthStr.toLowerCase()];
+                if (monthNum !== undefined) {
+                    return new Date(2026, monthNum, parseInt(day));
+                }
+            }
+            
+            // Fallback: return a date far in future for unknown formats
+            return new Date(9999, 11, 31);
         }
 
         function formatLastUpdated(data) {
             const container = document.getElementById('lastUpdatedContainer');
             const bySource = data.last_updated_by_source || {};
-            
+
             const parts = [];
             if (bySource['HouseSeats']) {
                 parts.push(`<span class="source-label source-houseseats-label">HouseSeats</span> ${formatDate(bySource['HouseSeats'])}`);
@@ -352,7 +388,7 @@
             if (bySource['1stTix']) {
                 parts.push(`<span class="source-label source-1sttix-label">1stTix</span> ${formatDate(bySource['1stTix'])}`);
             }
-            
+
             if (parts.length > 0) {
                 container.innerHTML = 'Last updated: ' + parts.join(' &nbsp;•&nbsp; ');
             } else {
@@ -362,7 +398,7 @@
 
         function renderShows(data) {
             formatLastUpdated(data);
-            
+
             if (!data.shows || data.shows.length === 0) {
                 document.getElementById('showCount').textContent = '0';
                 document.getElementById('slotCount').textContent = '0';
@@ -377,7 +413,7 @@
 
             const totalSlots = data.shows.length;
             const groupedShows = groupShows(data.shows);
-            
+
             document.getElementById('showCount').textContent = groupedShows.length;
             document.getElementById('slotCount').textContent = totalSlots;
 
