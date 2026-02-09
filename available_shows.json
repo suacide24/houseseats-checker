@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-08T23:59:36 PT",
+  "last_updated": "2026-02-09T00:04:29 PT",
   "last_updated_by_source": {
-    "1stTix": "2026-02-08T23:57:37 PT",
+    "1stTix": "2026-02-09T00:04:29 PT",
     "HouseSeats": "2026-02-08T23:59:36 PT"
   },
-  "count": 2,
+  "count": 74,
   "shows": [
     {
       "source": "HouseSeats",
@@ -20,6 +20,582 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "February 10th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Mon, 9 Feb '26 9:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/604751",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Mon, 9 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603934",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Piff the Magic Dragon (Las Vegas)",
+      "date": "Tue, 10 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607595",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Awakening",
+      "date": "Tue, 10 Feb '26 9:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/605863",
+      "image": "https://ei-cdn.1sttix.org/preview-588721-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Tue, 10 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603935",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Wed, 11 Feb '26 6:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606311",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Piff the Magic Dragon (Las Vegas)",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607596",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607635",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Wed, 11 Feb '26 9:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/604762",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Wed, 11 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603936",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Thu, 12 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606289",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Thu, 12 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607636",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Piff the Magic Dragon (Las Vegas)",
+      "date": "Thu, 12 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607597",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Thu, 12 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607563",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Goldrake",
+      "date": "Thu, 12 Feb '26 8:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607323",
+      "image": "https://ei-cdn.1sttix.org/preview-592119-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Thu, 12 Feb '26 9:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/604757",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Thu, 12 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603937",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Fri, 13 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606290",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Fri, 13 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607523",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Goldrake",
+      "date": "Fri, 13 Feb '26 8:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607375",
+      "image": "https://ei-cdn.1sttix.org/preview-592119-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Fri, 13 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603938",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Farrell Dillon Comedy Magician",
+      "date": "Sat, 14 Feb '26 4:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607382",
+      "image": "https://ei-cdn.1sttix.org/preview-591931-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Sat, 14 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606287",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Sat, 14 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607637",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Sat, 14 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Joan Jett & the Blackhearts",
+      "date": "Sat, 14 Feb '26 7:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607080",
+      "image": "https://ei-cdn.1sttix.org/preview-607079-tm.",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Goldrake",
+      "date": "Sat, 14 Feb '26 8:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607383",
+      "image": "https://ei-cdn.1sttix.org/preview-592119-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Sat, 14 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603939",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Farrell Dillon Comedy Magician",
+      "date": "Sun, 15 Feb '26 4:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607607",
+      "image": "https://ei-cdn.1sttix.org/preview-591931-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Sun, 15 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606288",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Sun, 15 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Sun, 15 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607647",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Goldrake",
+      "date": "Sun, 15 Feb '26 8:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607608",
+      "image": "https://ei-cdn.1sttix.org/preview-592119-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Michael Shannon & Jason Narducy play R.E.M.'s Lifes Rich Pageant",
+      "date": "Mon, 16 Feb '26 8:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607565",
+      "image": "https://ei-cdn.1sttix.org/preview-607565-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Goldrake",
+      "date": "Mon, 16 Feb '26 8:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607611",
+      "image": "https://ei-cdn.1sttix.org/preview-592119-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Mon, 16 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603929",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Wed, 18 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606329",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Jazz Oasis with the Syn-Phonics",
+      "date": "Wed, 18 Feb '26 8:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606419",
+      "image": "https://ei-cdn.1sttix.org/preview606419_1770059450.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Wed, 18 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603922",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Thu, 19 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606332",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Thu, 19 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603940",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Fri, 20 Feb '26 6:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606315",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Joan Jett & the Blackhearts",
+      "date": "Fri, 20 Feb '26 7:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607116",
+      "image": "https://ei-cdn.1sttix.org/preview-607079-tm.",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Fri, 20 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603941",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Sat, 21 Feb '26 6:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606318",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Joan Jett & the Blackhearts",
+      "date": "Sat, 21 Feb '26 7:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607117",
+      "image": "https://ei-cdn.1sttix.org/preview-607079-tm.",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Al Jardine And The Pet Sounds Band",
+      "date": "Sat, 21 Feb '26 7:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607578",
+      "image": "https://ei-cdn.1sttix.org/preview-607578-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Sat, 21 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603930",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Sun, 22 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606292",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Mon, 23 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603942",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Wed, 25 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606295",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Wed, 25 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603943",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Thu, 26 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606291",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Thu, 26 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603945",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Fri, 27 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606293",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Fri, 27 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603931",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Sat, 28 Feb '26 5:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606328",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Sat, 28 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603946",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Vegas Golden Knights - NHL",
+      "date": "Sun, 8 Mar '26 6:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607265",
+      "image": "https://ei-cdn.1sttix.org/preview607025_1770234302.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "The LiUNA",
+      "date": "Sat, 14 Mar '26 2:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606022",
+      "image": "https://ei-cdn.1sttix.org/preview606022_1769807702.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Pennzoil 400 Pres By Jiffy Lube",
+      "date": "Sun, 15 Mar '26 1:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606025",
+      "image": "https://ei-cdn.1sttix.org/preview606025_1769807706.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
+      "date": "Sun, 19 Apr '26 4:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
+      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
       "rare": true
     }
   ]
