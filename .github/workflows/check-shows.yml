@@ -33,7 +33,7 @@ jobs:
           SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
-        run: python houseseats_checker.py --fast
+        run: python houseseats_checker.py --fast --no-firsttix
 
       - name: Commit and push if changed
         run: |
