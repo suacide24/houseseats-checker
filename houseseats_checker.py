@@ -54,9 +54,7 @@ parser.add_argument(
 parser.add_argument(
     "--no-houseseats", action="store_true", help="Skip HouseSeats checking"
 )
-parser.add_argument(
-    "--no-firsttix", action="store_true", help="Skip 1stTix checking"
-)
+parser.add_argument("--no-firsttix", action="store_true", help="Skip 1stTix checking")
 args = parser.parse_args()
 
 # Configuration - HouseSeats
@@ -499,7 +497,11 @@ def login_firsttix(session: requests.Session) -> bool:
             alerts = soup.find_all("div", class_=["alert", "alert-danger"])
             for alert in alerts:
                 alert_text = alert.get_text(strip=True).lower()
-                if "incorrect" in alert_text or "invalid" in alert_text or "failed" in alert_text:
+                if (
+                    "incorrect" in alert_text
+                    or "invalid" in alert_text
+                    or "failed" in alert_text
+                ):
                     log_message(f"[1stTix] Login failed: {alert.get_text(strip=True)}")
                     return False
 
@@ -606,12 +608,8 @@ def fetch_houseseats_shows(session: requests.Session) -> list:
 
 
 def fetch_firsttix_shows(session: requests.Session) -> list:
-    """Fetch the list of available shows from 1stTix."""
+    """Fetch the list of available shows from 1stTix (all pages)."""
     try:
-        response = session.get(FIRSTTIX_EVENTS_URL)
-        response.raise_for_status()
-
-        soup = BeautifulSoup(response.text, "html.parser")
         shows = []
 
         # Patterns that indicate sponsors/ads rather than actual shows
@@ -631,69 +629,94 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
             "5.11",
         ]
 
-        # Find all event divs
-        events = soup.find_all("div", class_="event")
+        # Fetch all pages
+        page = 1
+        max_pages = 20  # Safety limit
+        
+        while page <= max_pages:
+            url = f"{FIRSTTIX_EVENTS_URL}?page={page}"
+            response = session.get(url)
+            response.raise_for_status()
 
-        for event in events:
-            show_info = {"source": "1stTix"}
+            soup = BeautifulSoup(response.text, "html.parser")
+            
+            # Find all event divs on this page
+            events = soup.find_all("div", class_="event")
+            
+            if not events:
+                # No more events, stop pagination
+                break
+            
+            log_message(f"[1stTix] Fetching page {page} ({len(events)} events)...")
+            
+            for event in events:
+                show_info = {"source": "1stTix"}
 
-            # Get show name from image alt or entry-title
-            img = event.find("img")
-            if img and img.get("alt"):
-                show_info["name"] = img.get("alt")
+                # Get show name from image alt or entry-title
+                img = event.find("img")
+                if img and img.get("alt"):
+                    show_info["name"] = img.get("alt")
 
-            # Fallback to entry-title
-            if not show_info.get("name"):
-                title = event.find("div", class_="entry-title")
-                if title:
-                    show_info["name"] = title.get_text(strip=True)
+                # Fallback to entry-title
+                if not show_info.get("name"):
+                    title = event.find("div", class_="entry-title")
+                    if title:
+                        show_info["name"] = title.get_text(strip=True)
 
-            # Get date/time from entry-meta
-            meta = event.find("div", class_="entry-meta")
-            if meta:
-                meta_text = meta.get_text(" ", strip=True)
-                # Try to extract date pattern like "Wed, 4 Feb '26" and time
-                import re
+                # Get date/time from entry-meta
+                meta = event.find("div", class_="entry-meta")
+                if meta:
+                    meta_text = meta.get_text(" ", strip=True)
+                    # Try to extract date pattern like "Wed, 4 Feb '26" and time
+                    import re
 
-                date_match = re.search(r"(\w{3},\s*\d+\s+\w+\s+'\d+)", meta_text)
-                time_match = re.search(r"(\d{1,2}:\d{2}\s*[AP]M)", meta_text)
-                if date_match:
-                    show_info["date"] = date_match.group(1)
-                    if time_match:
-                        show_info["date"] += " " + time_match.group(1)
+                    date_match = re.search(r"(\w{3},\s*\d+\s+\w+\s+'\d+)", meta_text)
+                    time_match = re.search(r"(\d{1,2}:\d{2}\s*[AP]M)", meta_text)
+                    if date_match:
+                        show_info["date"] = date_match.group(1)
+                        if time_match:
+                            show_info["date"] += " " + time_match.group(1)
 
-            # Get link to event
-            link_elem = event.find("a", href=lambda x: x and "get-tickets/event" in x)
-            if link_elem:
-                show_info["link"] = link_elem.get("href", "")
+                # Get link to event
+                link_elem = event.find("a", href=lambda x: x and "get-tickets/event" in x)
+                if link_elem:
+                    show_info["link"] = link_elem.get("href", "")
 
-            # Get image URL
-            if img and img.get("src"):
-                show_info["image"] = img.get("src")
+                # Get image URL
+                if img and img.get("src"):
+                    show_info["image"] = img.get("src")
 
-            # Only add if we have a name
-            if show_info.get("name"):
-                name_lower = show_info["name"].lower()
+                # Only add if we have a name
+                if show_info.get("name"):
+                    name_lower = show_info["name"].lower()
 
-                # Skip if it matches sponsor/ad patterns
-                is_sponsor = any(pattern in name_lower for pattern in sponsor_patterns)
+                    # Skip if it matches sponsor/ad patterns
+                    is_sponsor = any(pattern in name_lower for pattern in sponsor_patterns)
 
-                # Skip if no event link (likely a sponsor/promo)
-                has_event_link = bool(show_info.get("link"))
+                    # Skip if no event link (likely a sponsor/promo)
+                    has_event_link = bool(show_info.get("link"))
 
-                # Skip if no date (likely not a real event)
-                has_date = bool(show_info.get("date"))
+                    # Skip if no date (likely not a real event)
+                    has_date = bool(show_info.get("date"))
 
-                if is_sponsor:
-                    log_message(f"[1stTix] Skipping sponsor/ad: {show_info['name']}")
-                elif not has_event_link or not has_date:
-                    log_message(
-                        f"[1stTix] Skipping non-event (no link/date): {show_info['name']}"
-                    )
-                else:
-                    shows.append(show_info)
+                    if is_sponsor:
+                        log_message(f"[1stTix] Skipping sponsor/ad: {show_info['name']}")
+                    elif not has_event_link or not has_date:
+                        log_message(
+                            f"[1stTix] Skipping non-event (no link/date): {show_info['name']}"
+                        )
+                    else:
+                        shows.append(show_info)
 
-        log_message(f"[1stTix] Found {len(shows)} shows")
+            # Move to next page
+            page += 1
+            
+            # Small delay between pages to be polite
+            if not args.fast and page <= max_pages:
+                import time
+                time.sleep(0.5)
+
+        log_message(f"[1stTix] Found {len(shows)} shows total across {page - 1} pages")
         return shows
 
     except requests.RequestException as e:
