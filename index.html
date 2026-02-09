@@ -265,11 +265,12 @@
             const match = dateString.match(/(\w{3}),?\s*(\d{1,2})\s+(\w{3})\s+'?(\d{2})?\s*(\d{1,2}:\d{2}\s*[AP]M)?/i);
             if (match) {
                 const [_, day, date, month, year, time] = match;
-                return `${day} ${month} ${date}${time ? ' ' + time : ''}`;
+                const yearStr = year ? `'${year}` : '';
+                return `${day}, ${month} ${date} ${yearStr}${time ? ' @ ' + time : ''}`;
             }
             
-            // Fallback: return as-is but shortened
-            return dateString.length > 25 ? dateString.substring(0, 25) + '...' : dateString;
+            // Return as-is for other formats
+            return dateString;
         }
 
         function getChatGPTLink(showName) {
