@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-09T11:48:41 PT",
+  "last_updated": "2026-02-09T12:48:21 PT",
   "last_updated_by_source": {
     "1stTix": "2026-02-09T10:13:04 PT",
-    "HouseSeats": "2026-02-09T11:48:41 PT"
+    "HouseSeats": "2026-02-09T12:48:21 PT"
   },
-  "count": 59,
+  "count": 58,
   "shows": [
     {
       "source": "1stTix",
@@ -468,14 +468,6 @@
       "date": "Fri, 24 Apr '26",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
       "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Wayne: Up Close & Personal",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7542",
-      "date": "February 9th",
-      "image": "https://lv.houseseats.com/resources/media/7542.jpg",
       "rare": true
     }
   ]
