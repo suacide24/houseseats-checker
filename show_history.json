@@ -109,6 +109,48 @@
         "2026-02-08",
         "2026-02-09"
       ]
+    },
+    "1stTix|david copperfield": {
+      "name": "David Copperfield",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-08"
+      ]
+    },
+    "1stTix|x country": {
+      "name": "X Country",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-08"
+      ]
+    },
+    "1stTix|piff the magic dragon (las vegas)": {
+      "name": "Piff the Magic Dragon (Las Vegas)",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-08"
+      ]
+    },
+    "1stTix|awakening": {
+      "name": "Awakening",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-08"
+      ]
+    },
+    "1stTix|masters of magic": {
+      "name": "Masters of Magic",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-08"
+      ]
+    },
+    "1stTix|criss angel mindfreak": {
+      "name": "Criss Angel Mindfreak",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-08"
+      ]
     }
   }
 }

@@ -51,6 +51,12 @@ parser = argparse.ArgumentParser(
 parser.add_argument(
     "--fast", "--no-delay", action="store_true", help="Skip random delays (for testing)"
 )
+parser.add_argument(
+    "--no-houseseats", action="store_true", help="Skip HouseSeats checking"
+)
+parser.add_argument(
+    "--no-firsttix", action="store_true", help="Skip 1stTix checking"
+)
 args = parser.parse_args()
 
 # Configuration - HouseSeats
@@ -872,35 +878,41 @@ def main():
     random_delay(1.0, 5.0)
 
     # Fetch from HouseSeats
-    log_message("--- Checking HouseSeats ---")
-    if login_houseseats(session):
-        random_delay(2.0, 6.0)
-        houseseats_shows = fetch_houseseats_shows(session)
-        all_shows.extend(houseseats_shows)
+    if args.no_houseseats:
+        log_message("--- Skipping HouseSeats (--no-houseseats flag) ---")
     else:
-        log_message("[HouseSeats] Failed to login, skipping")
+        log_message("--- Checking HouseSeats ---")
+        if login_houseseats(session):
+            random_delay(2.0, 6.0)
+            houseseats_shows = fetch_houseseats_shows(session)
+            all_shows.extend(houseseats_shows)
+        else:
+            log_message("[HouseSeats] Failed to login, skipping")
 
     # Random delay between sites
     random_delay(3.0, 10.0)
 
-    # Create new session for 1stTix (separate cookies)
-    session_1sttix = requests.Session()
-    session_1sttix.headers.update(
-        {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
-        }
-    )
-
     # Fetch from 1stTix
-    log_message("--- Checking 1stTix ---")
-    if login_firsttix(session_1sttix):
-        random_delay(2.0, 6.0)
-        firsttix_shows = fetch_firsttix_shows(session_1sttix)
-        all_shows.extend(firsttix_shows)
+    if args.no_firsttix:
+        log_message("--- Skipping 1stTix (--no-firsttix flag) ---")
     else:
-        log_message("[1stTix] Failed to login, skipping")
+        # Create new session for 1stTix (separate cookies)
+        session_1sttix = requests.Session()
+        session_1sttix.headers.update(
+            {
+                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+                "Accept-Language": "en-US,en;q=0.5",
+            }
+        )
+
+        log_message("--- Checking 1stTix ---")
+        if login_firsttix(session_1sttix):
+            random_delay(2.0, 6.0)
+            firsttix_shows = fetch_firsttix_shows(session_1sttix)
+            all_shows.extend(firsttix_shows)
+        else:
+            log_message("[1stTix] Failed to login, skipping")
 
     log_message(f"Total shows from all sources: {len(all_shows)}")
 
