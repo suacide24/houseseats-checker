@@ -453,6 +453,11 @@ def login_houseseats(session: requests.Session) -> bool:
 def login_firsttix(session: requests.Session) -> bool:
     """Log into 1sttix.org and return True if successful."""
     try:
+        # Check if password is configured
+        if not FIRSTTIX_PASSWORD:
+            log_message("[1stTix] FIRSTTIX_PASSWORD not set - skipping 1stTix")
+            return False
+
         # First, get the login page for cookies
         response = session.get(FIRSTTIX_LOGIN_URL)
         response.raise_for_status()
@@ -469,17 +474,63 @@ def login_firsttix(session: requests.Session) -> bool:
         )
         response.raise_for_status()
 
-        # Check if login was successful
+        response_lower = response.text.lower()
+
+        # Check for explicit login failure messages FIRST
         if (
-            "logout" in response.text.lower()
-            or "my account" in response.text.lower()
+            "email address or password was incorrect" in response_lower
+            or "invalid credentials" in response_lower
+            or "login failed" in response_lower
+            or "attempts left" in response_lower
+        ):
+            log_message("[1stTix] Login failed - incorrect email or password")
+            return False
+
+        # Check if we're still on the login page (URL didn't change after POST)
+        if response.url.rstrip("/") == FIRSTTIX_LOGIN_URL.rstrip("/"):
+            # If still on login page, check if there are actual login errors
+            soup = BeautifulSoup(response.text, "html.parser")
+            alerts = soup.find_all("div", class_=["alert", "alert-danger"])
+            for alert in alerts:
+                alert_text = alert.get_text(strip=True).lower()
+                if "incorrect" in alert_text or "invalid" in alert_text or "failed" in alert_text:
+                    log_message(f"[1stTix] Login failed: {alert.get_text(strip=True)}")
+                    return False
+
+        # Check for success indicators - after login, user should be redirected
+        # or see their account info. Look for user-specific content.
+        if (
+            "/tixer/" in response.url  # Redirected to tixer area
             or "welcome" in response.url.lower()
+            or "dashboard" in response.url.lower()
         ):
             log_message("[1stTix] Successfully logged in")
             return True
-        else:
-            log_message("[1stTix] Login may have failed")
+
+        # Try to access the events page to verify login worked
+        test_response = session.get(FIRSTTIX_EVENTS_URL)
+        test_lower = test_response.text.lower()
+
+        # If we get the "must be logged in" message, login failed
+        if "must be logged in" in test_lower or "you must be logged in" in test_lower:
+            log_message("[1stTix] Login failed - session not authenticated")
             return False
+
+        # Check for event content on the events page
+        soup = BeautifulSoup(test_response.text, "html.parser")
+        events = soup.find_all("div", class_="event")
+        if len(events) > 0:
+            log_message(f"[1stTix] Successfully logged in (found {len(events)} events)")
+            return True
+
+        # If we got here and the page title isn't the error page, might be OK
+        title = soup.find("title")
+        if title and "important message" not in title.get_text().lower():
+            log_message("[1stTix] Successfully logged in")
+            return True
+
+        log_message("[1stTix] Login may have failed - could not verify session")
+        return False
 
     except requests.RequestException as e:
         log_message(f"[1stTix] Login request failed: {e}")
