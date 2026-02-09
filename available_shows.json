@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-09T12:48:21 PT",
+  "last_updated": "2026-02-09T13:44:08 PT",
   "last_updated_by_source": {
     "1stTix": "2026-02-09T10:13:04 PT",
-    "HouseSeats": "2026-02-09T12:48:21 PT"
+    "HouseSeats": "2026-02-09T13:44:08 PT"
   },
-  "count": 58,
+  "count": 60,
   "shows": [
     {
       "source": "1stTix",
@@ -468,6 +468,22 @@
       "date": "Fri, 24 Apr '26",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
       "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Albert Cummings",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9162",
+      "date": "February 13th",
+      "image": "https://lv.houseseats.com/resources/media/9162.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Improv is Blind",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9037",
+      "date": "February 13th",
+      "image": "https://lv.houseseats.com/resources/media/9037.jpg",
       "rare": true
     }
   ]

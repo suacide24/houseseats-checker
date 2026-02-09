@@ -344,6 +344,20 @@
       "appearances": [
         "2026-02-09"
       ]
+    },
+    "HouseSeats|albert cummings": {
+      "name": "Albert Cummings",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-09"
+      ]
+    },
+    "HouseSeats|improv is blind": {
+      "name": "Improv is Blind",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-09"
+      ]
     }
   }
 }
