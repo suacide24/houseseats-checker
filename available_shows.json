@@ -1,10 +1,10 @@
 {
-  "last_updated": "2026-02-09T08:01:17 PT",
+  "last_updated": "2026-02-09T09:27:59 PT",
   "last_updated_by_source": {
     "1stTix": "2026-02-09T00:22:20 PT",
-    "HouseSeats": "2026-02-09T08:01:17 PT"
+    "HouseSeats": "2026-02-09T09:27:59 PT"
   },
-  "count": 2,
+  "count": 1,
   "shows": [
     {
       "source": "HouseSeats",
@@ -13,14 +13,6 @@
       "date": "February 9th",
       "image": "https://lv.houseseats.com/resources/media/9063.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "February 10th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": true
     }
   ]
 }
