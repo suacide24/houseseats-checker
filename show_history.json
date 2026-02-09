@@ -20,7 +20,8 @@
       "appearances": [
         "2026-02-06",
         "2026-02-07",
-        "2026-02-08"
+        "2026-02-08",
+        "2026-02-09"
       ]
     },
     "HouseSeats|improv ol\u00e9": {
@@ -97,14 +98,16 @@
       "name": "7 Minutes in Heaven",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-08"
+        "2026-02-08",
+        "2026-02-09"
       ]
     },
     "HouseSeats|rouge": {
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-08"
+        "2026-02-08",
+        "2026-02-09"
       ]
     }
   }
