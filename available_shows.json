@@ -1,29 +1,93 @@
 {
-  "last_updated": "2026-02-08T23:22:56 PT",
-  "count": 3,
+  "last_updated": "2026-02-08T23:30:17 PT",
+  "count": 11,
   "shows": [
     {
-      "source": "HouseSeats",
-      "name": "David Goldrake At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
-      "date": "February 9th",
-      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "February 10th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Mon, 9 Feb '26 9:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/604751",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
       "rare": true
     },
     {
-      "source": "HouseSeats",
-      "name": "7 Minutes in Heaven",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9134",
-      "date": "February 12th",
-      "image": "https://lv.houseseats.com/resources/media/9134.jpg",
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Mon, 9 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603934",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Piff the Magic Dragon (Las Vegas)",
+      "date": "Tue, 10 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607595",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Awakening",
+      "date": "Tue, 10 Feb '26 9:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/605863",
+      "image": "https://ei-cdn.1sttix.org/preview-588721-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Tue, 10 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603935",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Masters of Magic",
+      "date": "Wed, 11 Feb '26 6:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/606311",
+      "image": "https://ei-cdn.1sttix.org/preview477310_1706643177.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Piff the Magic Dragon (Las Vegas)",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607596",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607635",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Wed, 11 Feb '26 9:30 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/604762",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "X Country",
+      "date": "Wed, 11 Feb '26 10:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/603936",
+      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
       "rare": true
     }
   ]
