@@ -12,6 +12,8 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 8. Uses random delays between requests to avoid bot detection
 9. Auto-publishes available shows to GitHub Pages
 10. **All timestamps in Pacific Time (PT)**
+11. **Groups shows by name** - both website and emails group multiple time slots under each show
+12. **Graceful failure handling** - login failures preserve existing data instead of wiping it
 
 ## Live Pages
 
@@ -33,6 +35,8 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 | `requirements.txt` | Python dependencies |
 | `.github/workflows/check-shows.yml` | GitHub Actions workflow (runs every 30 mins) |
 | `denylist.txt` | Local fallback denylist (primary is on GitHub Gist) |
+| `run.sh` | Local wrapper script with credentials (in .gitignore) |
+| `com.rsua.houseseats-checker.plist` | macOS launchd config for local scheduled runs |
 
 ## 🔥 RARE Show Detection
 
@@ -120,7 +124,13 @@ cd houseseats-checker
 # Install dependencies
 pip3 install -r requirements.txt
 
-# Set environment variables
+# Option 1: Use the wrapper script (recommended)
+# Edit run.sh with your credentials first, then:
+./run.sh --fast                    # Check both sources
+./run.sh --fast --no-houseseats    # Check only 1stTix
+./run.sh --fast --no-firsttix      # Check only HouseSeats
+
+# Option 2: Set environment variables manually
 export HOUSESEATS_EMAIL="your@email.com"
 export HOUSESEATS_PASSWORD="password"
 export FIRSTTIX_EMAIL="your@email.com"
@@ -128,10 +138,16 @@ export FIRSTTIX_PASSWORD="password"
 export SMTP_EMAIL="your@gmail.com"
 export SMTP_PASSWORD="app-password"
 export NOTIFICATION_EMAIL="your@email.com"
-
-# Run manually (--fast skips delays)
 python3 houseseats_checker.py --fast
 ```
+
+## Data Safety
+
+**Login failures preserve existing data:**
+- If HouseSeats login fails, existing HouseSeats shows are kept
+- If 1stTix login fails, existing 1stTix shows are kept
+- Only sources that successfully authenticate get their data refreshed
+- This prevents accidental data loss from missing credentials or temporary auth issues
 
 ## Site Structure (for future reference)
 
@@ -163,22 +179,28 @@ python3 houseseats_checker.py --fast
 
 ## Email Features
 
-- HTML formatted table with show name, date, ticket link
+- **Grouped by show name** - shows with multiple time slots are consolidated into one card
+- HTML formatted cards with source badge, show name, and all time slots
 - **🔥 RARE badges** on infrequent shows
-- **ChatGPT link** for each show: "🤖 Should I go?" opens ChatGPT with a prompt asking about the show
+- Each time slot is a clickable ticket link
+- **ChatGPT link** for each show: "🤖 Ask AI about this show"
 - **📋 View All Shows button:** Links to GitHub Pages
 - **✏️ Edit Denylist button:** Links to Gist editor
 - Color-coded by source (blue = HouseSeats, green = 1stTix)
+- Subject line shows unique show count and total time slots
 
 ## GitHub Pages Features
 
 - Dark gradient theme
 - Mobile-responsive grid layout
+- **Shows grouped by name** - each show card displays all available time slots
 - Show images from source websites
 - 🔥 RARE badges with pulsing animation
-- "Get Tickets" and "Ask AI" buttons for each show
+- Clickable time slots link directly to ticket pages
+- "Ask AI" button for each show
 - Cache-busting ensures fresh data on every page load
 - Timestamps displayed in Pacific Time (PT)
+- Shows unique show count and total time slot count
 
 ---
 
@@ -238,4 +260,4 @@ This level of infrastructure is beyond a simple DIY script.
 3. Check the website/app manually at strategic times (midnight, 6am)
 
 ---
-*Last updated: 2026-02-06*
+*Last updated: 2026-02-09*
