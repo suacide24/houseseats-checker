@@ -1,7 +1,7 @@
 {
-  "last_updated": "2026-02-09T13:33:38 PT",
+  "last_updated": "2026-02-09T14:05:21 PT",
   "last_updated_by_source": {
-    "1stTix": "2026-02-09T13:33:38 PT",
+    "1stTix": "2026-02-09T14:05:21 PT",
     "HouseSeats": "2026-02-09T09:27:59 PT"
   },
   "count": 52,
@@ -120,18 +120,18 @@
     },
     {
       "source": "1stTix",
-      "name": "Criss Angel Mindfreak",
-      "date": "Sun, 15 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
-      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
       "name": "David Copperfield",
       "date": "Sun, 15 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607647",
       "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Sun, 15 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": true
     },
     {
