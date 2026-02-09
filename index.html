@@ -37,6 +37,23 @@
             color: #888;
             font-size: 0.9rem;
         }
+        .source-label {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 8px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            margin-right: 5px;
+        }
+        .source-houseseats-label {
+            background: #3498db;
+            color: white;
+        }
+        .source-1sttix-label {
+            background: #27ae60;
+            color: white;
+        }
         .show-count {
             background: rgba(255,255,255,0.1);
             padding: 8px 20px;
@@ -192,7 +209,7 @@
     <div class="container">
         <header>
             <h1>🎭 Available Shows</h1>
-            <p class="last-updated">Last updated: <span id="lastUpdated">Loading...</span></p>
+            <p class="last-updated" id="lastUpdatedContainer">Loading...</p>
             <div class="show-count"><span id="showCount">0</span> unique shows <span class="slot-count">(<span id="slotCount">0</span> time slots)</span></div>
         </header>
         <div class="shows-grid" id="showsGrid">
@@ -324,8 +341,27 @@
             return Object.values(grouped).sort((a, b) => a.name.localeCompare(b.name));
         }
 
+        function formatLastUpdated(data) {
+            const container = document.getElementById('lastUpdatedContainer');
+            const bySource = data.last_updated_by_source || {};
+            
+            const parts = [];
+            if (bySource['HouseSeats']) {
+                parts.push(`<span class="source-label source-houseseats-label">HouseSeats</span> ${formatDate(bySource['HouseSeats'])}`);
+            }
+            if (bySource['1stTix']) {
+                parts.push(`<span class="source-label source-1sttix-label">1stTix</span> ${formatDate(bySource['1stTix'])}`);
+            }
+            
+            if (parts.length > 0) {
+                container.innerHTML = 'Last updated: ' + parts.join(' &nbsp;•&nbsp; ');
+            } else {
+                container.innerHTML = 'Last updated: ' + formatDate(data.last_updated);
+            }
+        }
+
         function renderShows(data) {
-            document.getElementById('lastUpdated').textContent = formatDate(data.last_updated);
+            formatLastUpdated(data);
             
             if (!data.shows || data.shows.length === 0) {
                 document.getElementById('showCount').textContent = '0';

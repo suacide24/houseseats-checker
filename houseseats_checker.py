@@ -632,23 +632,23 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
         # Fetch all pages
         page = 1
         max_pages = 20  # Safety limit
-        
+
         while page <= max_pages:
             url = f"{FIRSTTIX_EVENTS_URL}?page={page}"
             response = session.get(url)
             response.raise_for_status()
 
             soup = BeautifulSoup(response.text, "html.parser")
-            
+
             # Find all event divs on this page
             events = soup.find_all("div", class_="event")
-            
+
             if not events:
                 # No more events, stop pagination
                 break
-            
+
             log_message(f"[1stTix] Fetching page {page} ({len(events)} events)...")
-            
+
             for event in events:
                 show_info = {"source": "1stTix"}
 
@@ -678,7 +678,9 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
                             show_info["date"] += " " + time_match.group(1)
 
                 # Get link to event
-                link_elem = event.find("a", href=lambda x: x and "get-tickets/event" in x)
+                link_elem = event.find(
+                    "a", href=lambda x: x and "get-tickets/event" in x
+                )
                 if link_elem:
                     show_info["link"] = link_elem.get("href", "")
 
@@ -691,7 +693,9 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
                     name_lower = show_info["name"].lower()
 
                     # Skip if it matches sponsor/ad patterns
-                    is_sponsor = any(pattern in name_lower for pattern in sponsor_patterns)
+                    is_sponsor = any(
+                        pattern in name_lower for pattern in sponsor_patterns
+                    )
 
                     # Skip if no event link (likely a sponsor/promo)
                     has_event_link = bool(show_info.get("link"))
@@ -700,7 +704,9 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
                     has_date = bool(show_info.get("date"))
 
                     if is_sponsor:
-                        log_message(f"[1stTix] Skipping sponsor/ad: {show_info['name']}")
+                        log_message(
+                            f"[1stTix] Skipping sponsor/ad: {show_info['name']}"
+                        )
                     elif not has_event_link or not has_date:
                         log_message(
                             f"[1stTix] Skipping non-event (no link/date): {show_info['name']}"
@@ -710,10 +716,11 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
 
             # Move to next page
             page += 1
-            
+
             # Small delay between pages to be polite
             if not args.fast and page <= max_pages:
                 import time
+
                 time.sleep(0.5)
 
         log_message(f"[1stTix] Found {len(shows)} shows total across {page - 1} pages")
@@ -785,11 +792,32 @@ def filter_shows(shows: list, denylist: set) -> list:
     return filtered
 
 
-def save_shows(shows: list):
-    """Save the available shows to a JSON file."""
+def save_shows(shows: list, sources_checked: list = None):
+    """Save the available shows to a JSON file with per-source timestamps."""
     pt_now = get_pacific_time()
+    timestamp = pt_now.strftime("%Y-%m-%dT%H:%M:%S PT")
+    
+    # Load existing data to preserve timestamps for sources not checked this run
+    existing_timestamps = {}
+    if OUTPUT_FILE.exists():
+        try:
+            with open(OUTPUT_FILE, "r") as f:
+                existing_data = json.load(f)
+                existing_timestamps = existing_data.get("last_updated_by_source", {})
+        except (json.JSONDecodeError, IOError):
+            pass
+    
+    # Update timestamps only for sources that were checked
+    if sources_checked is None:
+        sources_checked = []
+    
+    last_updated_by_source = existing_timestamps.copy()
+    for source in sources_checked:
+        last_updated_by_source[source] = timestamp
+    
     output = {
-        "last_updated": pt_now.strftime("%Y-%m-%dT%H:%M:%S PT"),
+        "last_updated": timestamp,
+        "last_updated_by_source": last_updated_by_source,
         "count": len(shows),
         "shows": shows,
     }
@@ -896,6 +924,7 @@ def main():
     )
 
     all_shows = []
+    sources_checked = []
 
     # Random initial delay
     random_delay(1.0, 5.0)
@@ -905,6 +934,7 @@ def main():
         log_message("--- Skipping HouseSeats (--no-houseseats flag) ---")
     else:
         log_message("--- Checking HouseSeats ---")
+        sources_checked.append("HouseSeats")
         if login_houseseats(session):
             random_delay(2.0, 6.0)
             houseseats_shows = fetch_houseseats_shows(session)
@@ -919,6 +949,7 @@ def main():
     if args.no_firsttix:
         log_message("--- Skipping 1stTix (--no-firsttix flag) ---")
     else:
+        sources_checked.append("1stTix")
         # Create new session for 1stTix (separate cookies)
         session_1sttix = requests.Session()
         session_1sttix.headers.update(
@@ -957,7 +988,7 @@ def main():
     log_message(f"{rare_count} rare shows detected")
 
     # Save results
-    save_shows(filtered_shows)
+    save_shows(filtered_shows, sources_checked)
 
     # Push to GitHub for GitHub Pages
     push_to_github()
