@@ -46,7 +46,7 @@
         }
         .shows-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+            grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
             gap: 20px;
         }
         .show-card {
@@ -103,21 +103,49 @@
         .show-name {
             font-size: 1.2rem;
             font-weight: 600;
-            margin-bottom: 8px;
+            margin-bottom: 12px;
             line-height: 1.3;
         }
-        .show-date {
-            color: #f39c12;
-            font-size: 0.95rem;
+        .time-slots {
             margin-bottom: 15px;
         }
-        .show-date::before {
+        .time-slots-label {
+            color: #f39c12;
+            font-size: 0.85rem;
+            margin-bottom: 8px;
+            font-weight: 500;
+        }
+        .time-slots-label::before {
             content: "📅 ";
+        }
+        .time-slot-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+        }
+        .time-slot {
+            display: inline-block;
+            padding: 6px 12px;
+            background: rgba(231, 76, 60, 0.2);
+            border: 1px solid rgba(231, 76, 60, 0.4);
+            border-radius: 6px;
+            color: #fff;
+            text-decoration: none;
+            font-size: 0.8rem;
+            transition: all 0.2s;
+        }
+        .time-slot:hover {
+            background: rgba(231, 76, 60, 0.5);
+            border-color: rgba(231, 76, 60, 0.8);
+            transform: scale(1.05);
         }
         .show-actions {
             display: flex;
             gap: 10px;
             flex-wrap: wrap;
+            margin-top: 10px;
+            padding-top: 12px;
+            border-top: 1px solid rgba(255,255,255,0.1);
         }
         .btn {
             display: inline-flex;
@@ -133,10 +161,6 @@
         .btn:hover {
             opacity: 0.85;
         }
-        .btn-primary {
-            background: #e74c3c;
-            color: white;
-        }
         .btn-secondary {
             background: rgba(255,255,255,0.1);
             color: white;
@@ -151,10 +175,16 @@
             font-size: 4rem;
             margin-bottom: 20px;
         }
+        .slot-count {
+            color: #888;
+            font-size: 0.75rem;
+            margin-left: 4px;
+        }
         @media (max-width: 600px) {
             h1 { font-size: 1.8rem; }
             .shows-grid { grid-template-columns: 1fr; }
             body { padding: 15px; }
+            .time-slot { font-size: 0.75rem; padding: 5px 10px; }
         }
     </style>
 </head>
@@ -163,7 +193,7 @@
         <header>
             <h1>🎭 Available Shows</h1>
             <p class="last-updated">Last updated: <span id="lastUpdated">Loading...</span></p>
-            <div class="show-count"><span id="showCount">0</span> shows available</div>
+            <div class="show-count"><span id="showCount">0</span> unique shows <span class="slot-count">(<span id="slotCount">0</span> time slots)</span></div>
         </header>
         <div class="shows-grid" id="showsGrid">
             <div class="no-shows">
@@ -195,7 +225,7 @@
 
         function formatDate(dateString) {
             // If it already has "PT" in it, just clean it up for display
-            if (dateString.includes('PT')) {
+            if (dateString && dateString.includes('PT')) {
                 // Parse the PT format: "2026-02-06T18:30:00 PT"
                 const match = dateString.match(/(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2}):(\d{2})/);
                 if (match) {
@@ -214,7 +244,9 @@
                 return dateString;
             }
             // Fallback for ISO format
+            if (!dateString) return 'Date TBD';
             const date = new Date(dateString);
+            if (isNaN(date.getTime())) return dateString;
             return date.toLocaleString('en-US', {
                 weekday: 'short',
                 month: 'short',
@@ -226,16 +258,78 @@
             });
         }
 
-        function getChatGPTLink(show) {
-            const prompt = `I'm considering going to see '${show.name}' in Las Vegas${show.date ? ` on ${show.date}` : ''}. Is this show good? What can you tell me about it? Should I go see it? What should I expect?`;
+        function formatShortDate(dateString) {
+            if (!dateString) return 'TBD';
+            
+            // Handle formats like "Mon, 9 Feb '26 9:30 PM"
+            const match = dateString.match(/(\w{3}),?\s*(\d{1,2})\s+(\w{3})\s+'?(\d{2})?\s*(\d{1,2}:\d{2}\s*[AP]M)?/i);
+            if (match) {
+                const [_, day, date, month, year, time] = match;
+                return `${day} ${month} ${date}${time ? ' ' + time : ''}`;
+            }
+            
+            // Fallback: return as-is but shortened
+            return dateString.length > 25 ? dateString.substring(0, 25) + '...' : dateString;
+        }
+
+        function getChatGPTLink(showName) {
+            const prompt = `I'm considering going to see '${showName}' in Las Vegas. Is this show good? What can you tell me about it? Should I go see it? What should I expect?`;
             return `https://chat.openai.com/?q=${encodeURIComponent(prompt)}`;
+        }
+
+        function groupShows(shows) {
+            // Group shows by name + source
+            const grouped = {};
+            
+            shows.forEach(show => {
+                const key = `${show.source}|${show.name}`;
+                
+                if (!grouped[key]) {
+                    grouped[key] = {
+                        name: show.name,
+                        source: show.source,
+                        image: show.image,
+                        rare: show.rare,
+                        timeSlots: []
+                    };
+                }
+                
+                grouped[key].timeSlots.push({
+                    date: show.date,
+                    link: show.link
+                });
+                
+                // Use the first available image
+                if (!grouped[key].image && show.image) {
+                    grouped[key].image = show.image;
+                }
+                
+                // If any slot is rare, mark the show as rare
+                if (show.rare) {
+                    grouped[key].rare = true;
+                }
+            });
+            
+            // Sort time slots by date within each show
+            Object.values(grouped).forEach(show => {
+                show.timeSlots.sort((a, b) => {
+                    // Try to parse dates for sorting
+                    const dateA = a.date || '';
+                    const dateB = b.date || '';
+                    return dateA.localeCompare(dateB);
+                });
+            });
+            
+            // Convert to array and sort by show name
+            return Object.values(grouped).sort((a, b) => a.name.localeCompare(b.name));
         }
 
         function renderShows(data) {
             document.getElementById('lastUpdated').textContent = formatDate(data.last_updated);
-            document.getElementById('showCount').textContent = data.count;
-
+            
             if (!data.shows || data.shows.length === 0) {
+                document.getElementById('showCount').textContent = '0';
+                document.getElementById('slotCount').textContent = '0';
                 document.getElementById('showsGrid').innerHTML = `
                     <div class="no-shows">
                         <div class="no-shows-icon">🎪</div>
@@ -245,10 +339,24 @@
                 return;
             }
 
-            const showsHTML = data.shows.map(show => {
+            const totalSlots = data.shows.length;
+            const groupedShows = groupShows(data.shows);
+            
+            document.getElementById('showCount').textContent = groupedShows.length;
+            document.getElementById('slotCount').textContent = totalSlots;
+
+            const showsHTML = groupedShows.map(show => {
                 const sourceClass = show.source === 'HouseSeats' ? 'source-houseseats' : 'source-1sttix';
                 const imageUrl = show.image || 'https://via.placeholder.com/300x180?text=No+Image';
                 const rareBadge = show.rare ? '<span class="rare-badge">🔥 RARE</span>' : '';
+
+                const timeSlotsHTML = show.timeSlots.map(slot => {
+                    const shortDate = formatShortDate(slot.date);
+                    if (slot.link) {
+                        return `<a href="${slot.link}" target="_blank" class="time-slot">🎟️ ${shortDate}</a>`;
+                    }
+                    return `<span class="time-slot">${shortDate}</span>`;
+                }).join('');
 
                 return `
                     <div class="show-card">
@@ -256,10 +364,14 @@
                         <div class="show-content">
                             <span class="source-badge ${sourceClass}">${show.source}</span>${rareBadge}
                             <h2 class="show-name">${show.name}</h2>
-                            <p class="show-date">${show.date || 'Date TBD'}</p>
+                            <div class="time-slots">
+                                <div class="time-slots-label">Available Times (${show.timeSlots.length})</div>
+                                <div class="time-slot-list">
+                                    ${timeSlotsHTML}
+                                </div>
+                            </div>
                             <div class="show-actions">
-                                ${show.link ? `<a href="${show.link}" target="_blank" class="btn btn-primary">🎟️ Get Tickets</a>` : ''}
-                                <a href="${getChatGPTLink(show)}" target="_blank" class="btn btn-secondary">🤖 Ask AI</a>
+                                <a href="${getChatGPTLink(show.name)}" target="_blank" class="btn btn-secondary">🤖 Ask AI about this show</a>
                             </div>
                         </div>
                     </div>
