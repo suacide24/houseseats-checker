@@ -1,6 +1,9 @@
 {
-  "last_updated": "2026-02-08T23:46:02 PT",
-  "count": 90,
+  "last_updated": "2026-02-08T23:57:37 PT",
+  "last_updated_by_source": {
+    "1stTix": "2026-02-08T23:57:37 PT"
+  },
+  "count": 73,
   "shows": [
     {
       "source": "1stTix",
@@ -160,14 +163,6 @@
       "date": "Fri, 13 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607523",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Colorado Mammoth",
-      "date": "Fri, 13 Feb '26 7:30 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/597197",
-      "image": "https://ei-cdn.1sttix.org/preview597197_1764978602.jpg",
       "rare": true
     },
     {
@@ -364,14 +359,6 @@
     },
     {
       "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Abbotsford Canucks",
-      "date": "Fri, 20 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606580",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
       "name": "Joan Jett & the Blackhearts",
       "date": "Fri, 20 Feb '26 7:30 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607116",
@@ -476,22 +463,6 @@
     },
     {
       "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Vancouver Warriors",
-      "date": "Fri, 27 Feb '26 7:30 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/597220",
-      "image": "https://ei-cdn.1sttix.org/preview597220_1764984001.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Vancouver Warriors",
-      "date": "Fri, 27 Feb '26 7:30 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/601188",
-      "image": "https://ei-cdn.1sttix.org/preview547461_1743020101.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
       "name": "X Country",
       "date": "Fri, 27 Feb '26 10:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/603931",
@@ -508,42 +479,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Colorado Eagles",
-      "date": "Sat, 28 Feb '26 6:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606582",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
       "name": "X Country",
       "date": "Sat, 28 Feb '26 10:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/603946",
       "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Colorado Eagles",
-      "date": "Sun, 1 Mar '26 5:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606583",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Coachella Valley Firebirds",
-      "date": "Wed, 4 Mar '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606584",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Ontario Reign",
-      "date": "Sun, 8 Mar '26 3:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606585",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
       "rare": true
     },
     {
@@ -568,78 +507,6 @@
       "date": "Sun, 15 Mar '26 1:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/606025",
       "image": "https://ei-cdn.1sttix.org/preview606025_1769807706.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Rochester Knighthawks",
-      "date": "Sun, 15 Mar '26 2:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/601191",
-      "image": "https://ei-cdn.1sttix.org/preview547461_1743020101.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Rochester Knighthawks",
-      "date": "Sun, 15 Mar '26 3:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/597221",
-      "image": "https://ei-cdn.1sttix.org/preview597221_1764984002.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Texas Stars",
-      "date": "Sat, 21 Mar '26 6:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607579",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Texas Stars",
-      "date": "Sun, 22 Mar '26 5:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607581",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Henderson Silver Knights - AHL vs Ontario Reign",
-      "date": "Wed, 25 Mar '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607582",
-      "image": "https://ei-cdn.1sttix.org/preview435276_1677265801.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Calgary Roughnecks",
-      "date": "Sat, 28 Mar '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/597222",
-      "image": "https://ei-cdn.1sttix.org/preview597222_1764984002.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs Calgary Roughnecks",
-      "date": "Sat, 28 Mar '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/601194",
-      "image": "https://ei-cdn.1sttix.org/preview547461_1743020101.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Game 09 - Las Vegas Desert Dogs vs. San Diego Seals",
-      "date": "Sat, 18 Apr '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/597228",
-      "image": "https://ei-cdn.1sttix.org/preview597228_1765018802.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Las Vegas Desert Dogs - NLL vs San Diego Seals",
-      "date": "Sat, 18 Apr '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/601196",
-      "image": "https://ei-cdn.1sttix.org/preview547461_1743020101.jpg",
       "rare": true
     },
     {
