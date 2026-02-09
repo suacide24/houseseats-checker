@@ -343,8 +343,36 @@ def find_new_shows(shows: list, notified: set) -> list:
     return new_shows
 
 
+def group_shows_by_name(shows: list) -> list:
+    """Group shows by name + source, collecting all time slots together."""
+    grouped = {}
+
+    for show in shows:
+        key = f"{show.get('source', 'Unknown')}|{show.get('name', 'Unknown')}"
+
+        if key not in grouped:
+            grouped[key] = {
+                "name": show.get("name", "Unknown"),
+                "source": show.get("source", "Unknown"),
+                "image": show.get("image"),
+                "rare": show.get("rare", False),
+                "time_slots": [],
+            }
+
+        grouped[key]["time_slots"].append(
+            {"date": show.get("date", "N/A"), "link": show.get("link", "")}
+        )
+
+        # If any slot is rare, mark the show as rare
+        if show.get("rare"):
+            grouped[key]["rare"] = True
+
+    # Convert to list and sort by name
+    return sorted(grouped.values(), key=lambda x: x["name"].lower())
+
+
 def send_email_notification(new_shows: list) -> bool:
-    """Send an email notification about new shows."""
+    """Send an email notification about new shows, grouped by show name."""
     if not new_shows:
         return True
 
@@ -354,83 +382,115 @@ def send_email_notification(new_shows: list) -> bool:
         return False
 
     try:
+        # Group shows by name + source
+        grouped_shows = group_shows_by_name(new_shows)
+        total_slots = len(new_shows)
+
         # Build email content
-        subject = f"🎭 Shows Alert: {len(new_shows)} New Show(s) Available!"
+        subject = f"🎭 Shows Alert: {len(grouped_shows)} New Show(s) Available! ({total_slots} time slots)"
 
         # HTML body
         html_body = """
         <html>
-        <body style="font-family: Arial, sans-serif;">
-        <h2 style="color: #e74c3c;">🎭 New Shows Available!</h2>
-        <p>The following new shows are now available:</p>
-        <table style="border-collapse: collapse; width: 100%;">
-        <tr style="background-color: #f8f9fa;">
-            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6;">Source</th>
-            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6;">Show</th>
-            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6;">Date</th>
-            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6;">Tickets</th>
-            <th style="padding: 10px; text-align: left; border-bottom: 2px solid #dee2e6;">Ask ChatGPT</th>
-        </tr>
+        <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px;">
+        <div style="max-width: 600px; margin: 0 auto; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+        <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding: 20px; text-align: center;">
+            <h1 style="color: white; margin: 0;">🎭 New Shows Available!</h1>
+            <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0;">"""
+        html_body += f"{len(grouped_shows)} show(s) • {total_slots} time slot(s)"
+        html_body += """</p>
+        </div>
+        <div style="padding: 20px;">
         """
 
-        for show in new_shows:
-            name = show.get("name", "Unknown")
-            date = show.get("date", "N/A")
-            source = show.get("source", "Unknown")
-            link = show.get("link", "")
-            is_rare = show.get("rare", False)
-            link_html = f'<a href="{link}">View Tickets</a>' if link else "N/A"
-            chatgpt_link = get_chatgpt_link(show)
-            chatgpt_html = f'<a href="{chatgpt_link}">🤖 Should I go?</a>'
+        for show in grouped_shows:
+            name = show["name"]
+            source = show["source"]
+            is_rare = show["rare"]
+            time_slots = show["time_slots"]
 
             # Color code by source
-            source_color = "#3498db" if source == "HouseSeats" else "#27ae60"
-            source_html = f'<span style="color: {source_color}; font-weight: bold;">{source}</span>'
+            source_bg = "#3498db" if source == "HouseSeats" else "#27ae60"
 
-            # Add RARE badge if applicable
+            # Rare badge
             rare_badge = (
-                '<span style="background-color: #e74c3c; color: white; padding: 2px 6px; border-radius: 4px; font-size: 11px; margin-left: 8px;">🔥 RARE</span>'
+                '<span style="background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; padding: 3px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px; font-weight: bold;">🔥 RARE</span>'
                 if is_rare
                 else ""
             )
 
+            # ChatGPT link
+            chatgpt_link = get_chatgpt_link(show)
+
             html_body += f"""
-            <tr>
-                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{source_html}</td>
-                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;"><strong>{name}</strong>{rare_badge}</td>
-                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{date}</td>
-                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{link_html}</td>
-                <td style="padding: 10px; border-bottom: 1px solid #dee2e6;">{chatgpt_html}</td>
-            </tr>
+            <div style="background: #f8f9fa; border-radius: 8px; padding: 15px; margin-bottom: 15px; border-left: 4px solid {source_bg};">
+                <div style="margin-bottom: 10px;">
+                    <span style="background: {source_bg}; color: white; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">{source}</span>
+                    {rare_badge}
+                </div>
+                <h2 style="margin: 0 0 12px 0; color: #333; font-size: 18px;">{name}</h2>
+                <div style="margin-bottom: 12px;">
+                    <div style="color: #e67e22; font-size: 13px; font-weight: 500; margin-bottom: 8px;">📅 Available Times ({len(time_slots)})</div>
+                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
+            """
+
+            for slot in time_slots:
+                date = slot["date"]
+                link = slot["link"]
+                if link:
+                    html_body += f'<a href="{link}" style="display: inline-block; background: rgba(231,76,60,0.1); border: 1px solid rgba(231,76,60,0.3); color: #c0392b; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 13px;">🎟️ {date}</a>'
+                else:
+                    html_body += f'<span style="display: inline-block; background: #eee; color: #666; padding: 6px 12px; border-radius: 6px; font-size: 13px;">{date}</span>'
+
+            html_body += f"""
+                    </div>
+                </div>
+                <div>
+                    <a href="{chatgpt_link}" style="color: #666; font-size: 12px; text-decoration: none;">🤖 Ask AI about this show</a>
+                </div>
+            </div>
             """
 
         html_body += f"""
-        </table>
-        <p style="margin-top: 20px;">
-            <a href="{AVAILABLE_SHOWS_URL}" style="background-color: #3498db; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px; margin-right: 10px;">📋 View All Shows</a>
-            <a href="{DENYLIST_GIST_EDIT_URL}" style="background-color: #6c757d; color: white; padding: 10px 20px; text-decoration: none; border-radius: 5px;">✏️ Edit Denylist</a>
-        </p>
-        <p style="margin-top: 20px; color: #6c757d; font-size: 12px;">
-            This is an automated message from Shows Checker (HouseSeats + 1stTix).
-        </p>
+        </div>
+        <div style="padding: 20px; background: #f8f9fa; text-align: center; border-top: 1px solid #eee;">
+            <a href="{AVAILABLE_SHOWS_URL}" style="display: inline-block; background: #3498db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin-right: 10px;">📋 View All Shows</a>
+            <a href="{DENYLIST_GIST_EDIT_URL}" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500;">✏️ Edit Denylist</a>
+        </div>
+        <div style="padding: 15px; text-align: center; color: #999; font-size: 11px;">
+            Automated message from Shows Checker (HouseSeats + 1stTix)
+        </div>
+        </div>
         </body>
         </html>
         """
 
-        # Plain text fallback
-        text_body = f"New Shows Available!\n\n"
-        for show in new_shows:
-            source = show.get("source", "Unknown")
-            is_rare = show.get("rare", False)
+        # Plain text fallback (also grouped)
+        text_body = f"🎭 New Shows Available!\n"
+        text_body += f"{len(grouped_shows)} show(s) • {total_slots} time slot(s)\n"
+        text_body += "=" * 40 + "\n\n"
+
+        for show in grouped_shows:
+            name = show["name"]
+            source = show["source"]
+            is_rare = show["rare"]
+            time_slots = show["time_slots"]
             rare_text = " 🔥 RARE" if is_rare else ""
-            text_body += f"• [{source}] {show.get('name', 'Unknown')}{rare_text} - {show.get('date', 'N/A')}\n"
-            if show.get("link"):
-                text_body += f"  Tickets: {show['link']}\n"
-            text_body += f"  Ask ChatGPT: {get_chatgpt_link(show)}\n"
+
+            text_body += f"[{source}] {name}{rare_text}\n"
+            text_body += f"  📅 {len(time_slots)} time slot(s):\n"
+            for slot in time_slots:
+                date = slot["date"]
+                link = slot["link"]
+                text_body += f"    • {date}"
+                if link:
+                    text_body += f"\n      {link}"
+                text_body += "\n"
+            text_body += f"  🤖 Ask AI: {get_chatgpt_link(show)}\n"
             text_body += "\n"
 
-        text_body += f"\nView All Shows: {AVAILABLE_SHOWS_URL}\n"
-        text_body += f"Edit Denylist: {DENYLIST_GIST_EDIT_URL}\n"
+        text_body += f"\n📋 View All Shows: {AVAILABLE_SHOWS_URL}\n"
+        text_body += f"✏️ Edit Denylist: {DENYLIST_GIST_EDIT_URL}\n"
 
         # Create message
         msg = MIMEMultipart("alternative")
@@ -991,7 +1051,9 @@ def main():
     else:
         log_message("--- Checking HouseSeats ---")
         if login_houseseats(session):
-            sources_checked.append("HouseSeats")  # Only mark as checked if login succeeds
+            sources_checked.append(
+                "HouseSeats"
+            )  # Only mark as checked if login succeeds
             random_delay(2.0, 6.0)
             houseseats_shows = fetch_houseseats_shows(session)
             all_shows.extend(houseseats_shows)
