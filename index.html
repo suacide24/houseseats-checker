@@ -342,7 +342,7 @@
 
         function parseShowDate(dateString) {
             if (!dateString) return new Date(9999, 11, 31); // Put TBD at end
-            
+
             // Handle formats like "Mon, 9 Feb '26 9:30 PM" or "February 9th"
             const months = {
                 'jan': 0, 'feb': 1, 'mar': 2, 'apr': 3, 'may': 4, 'jun': 5,
@@ -350,7 +350,7 @@
                 'january': 0, 'february': 1, 'march': 2, 'april': 3, 'june': 5,
                 'july': 6, 'august': 7, 'september': 8, 'october': 9, 'november': 10, 'december': 11
             };
-            
+
             // Try format: "Mon, 9 Feb '26 9:30 PM"
             let match = dateString.match(/(\d{1,2})\s+(\w{3,9})\s+'?(\d{2,4})?\s*(\d{1,2}):(\d{2})\s*([AP]M)?/i);
             if (match) {
@@ -362,7 +362,7 @@
                 if (ampm && ampm.toUpperCase() === 'AM' && hourNum === 12) hourNum = 0;
                 return new Date(yearNum, monthNum, parseInt(day), hourNum, parseInt(minute));
             }
-            
+
             // Try format: "February 9th" (HouseSeats format)
             match = dateString.match(/(\w+)\s+(\d{1,2})/i);
             if (match) {
@@ -372,7 +372,7 @@
                     return new Date(2026, monthNum, parseInt(day));
                 }
             }
-            
+
             // Fallback: return a date far in future for unknown formats
             return new Date(9999, 11, 31);
         }

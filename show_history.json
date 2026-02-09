@@ -330,6 +330,13 @@
         "2026-02-08",
         "2026-02-09"
       ]
+    },
+    "1stTix|piff the magic dragon": {
+      "name": "Piff the Magic Dragon",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-09"
+      ]
     }
   }
 }

@@ -109,13 +109,60 @@ def log_message(message: str):
         f.write(log_entry + "\n")
 
 
-def random_delay(min_seconds: float = 2.0, max_seconds: float = 8.0):
+# User agent pool for rotation
+USER_AGENTS = [
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:122.0) Gecko/20100101 Firefox/122.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.2 Safari/605.1.15",
+    "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36 Edg/120.0.0.0",
+    "Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:122.0) Gecko/20100101 Firefox/122.0",
+]
+
+
+def get_random_user_agent() -> str:
+    """Return a random user agent string."""
+    return random.choice(USER_AGENTS)
+
+
+def random_delay(
+    min_seconds: float = 2.0, max_seconds: float = 8.0, silent: bool = False
+):
     """Wait a random amount of time to avoid bot detection."""
     if args.fast:
         return  # Skip delays in fast mode
     delay = random.uniform(min_seconds, max_seconds)
-    log_message(f"Waiting {delay:.1f} seconds...")
+    if not silent:
+        log_message(f"Waiting {delay:.1f} seconds...")
     time.sleep(delay)
+
+
+def random_page_delay():
+    """Random delay between page fetches - shorter but still varied."""
+    if args.fast:
+        return
+    # Vary between 1-4 seconds with occasional longer pauses
+    if random.random() < 0.15:  # 15% chance of longer pause
+        delay = random.uniform(4.0, 8.0)
+    else:
+        delay = random.uniform(1.0, 4.0)
+    time.sleep(delay)
+
+
+def create_session_with_random_ua() -> requests.Session:
+    """Create a requests session with a random user agent."""
+    session = requests.Session()
+    session.headers.update(
+        {
+            "User-Agent": get_random_user_agent(),
+            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
+            "Accept-Language": "en-US,en;q=0.5",
+            "Accept-Encoding": "gzip, deflate, br",
+            "Connection": "keep-alive",
+            "Upgrade-Insecure-Requests": "1",
+        }
+    )
+    return session
 
 
 def load_denylist() -> set:
@@ -717,11 +764,9 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
             # Move to next page
             page += 1
 
-            # Small delay between pages to be polite
-            if not args.fast and page <= max_pages:
-                import time
-
-                time.sleep(0.5)
+            # Random delay between pages to avoid bot detection
+            if page <= max_pages:
+                random_page_delay()
 
         log_message(f"[1stTix] Found {len(shows)} shows total across {page - 1} pages")
         return shows
@@ -794,12 +839,12 @@ def filter_shows(shows: list, denylist: set) -> list:
 
 def save_shows(shows: list, sources_checked: list = None):
     """Save the available shows to a JSON file with per-source timestamps.
-    
+
     Merges new shows with existing shows from sources not checked this run.
     """
     pt_now = get_pacific_time()
     timestamp = pt_now.strftime("%Y-%m-%dT%H:%M:%S PT")
-    
+
     # Load existing data to preserve shows and timestamps for sources not checked this run
     existing_timestamps = {}
     existing_shows = []
@@ -811,27 +856,27 @@ def save_shows(shows: list, sources_checked: list = None):
                 existing_shows = existing_data.get("shows", [])
         except (json.JSONDecodeError, IOError):
             pass
-    
+
     # Update timestamps only for sources that were checked
     if sources_checked is None:
         sources_checked = []
-    
+
     last_updated_by_source = existing_timestamps.copy()
     for source in sources_checked:
         last_updated_by_source[source] = timestamp
-    
+
     # Merge shows: keep existing shows from sources NOT checked this run
     # and add new shows from sources that WERE checked
     merged_shows = []
-    
+
     # Add existing shows from sources not checked this run
     for show in existing_shows:
         if show.get("source") not in sources_checked:
             merged_shows.append(show)
-    
+
     # Add new shows from sources that were checked
     merged_shows.extend(shows)
-    
+
     output = {
         "last_updated": timestamp,
         "last_updated_by_source": last_updated_by_source,
@@ -930,15 +975,9 @@ def main():
         f"Loaded {len(notified_shows)} previously notified show+date combinations"
     )
 
-    # Create session with headers
-    session = requests.Session()
-    session.headers.update(
-        {
-            "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-            "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-            "Accept-Language": "en-US,en;q=0.5",
-        }
-    )
+    # Create session with random user agent
+    session = create_session_with_random_ua()
+    log_message(f"Using User-Agent: {session.headers.get('User-Agent', '')[:50]}...")
 
     all_shows = []
     sources_checked = []
@@ -951,13 +990,13 @@ def main():
         log_message("--- Skipping HouseSeats (--no-houseseats flag) ---")
     else:
         log_message("--- Checking HouseSeats ---")
-        sources_checked.append("HouseSeats")
         if login_houseseats(session):
+            sources_checked.append("HouseSeats")  # Only mark as checked if login succeeds
             random_delay(2.0, 6.0)
             houseseats_shows = fetch_houseseats_shows(session)
             all_shows.extend(houseseats_shows)
         else:
-            log_message("[HouseSeats] Failed to login, skipping")
+            log_message("[HouseSeats] Failed to login, preserving existing shows")
 
     # Random delay between sites
     random_delay(3.0, 10.0)
@@ -966,24 +1005,20 @@ def main():
     if args.no_firsttix:
         log_message("--- Skipping 1stTix (--no-firsttix flag) ---")
     else:
-        sources_checked.append("1stTix")
-        # Create new session for 1stTix (separate cookies)
-        session_1sttix = requests.Session()
-        session_1sttix.headers.update(
-            {
-                "User-Agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
-                "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8",
-                "Accept-Language": "en-US,en;q=0.5",
-            }
+        # Create new session for 1stTix (separate cookies, fresh user agent)
+        session_1sttix = create_session_with_random_ua()
+        log_message(
+            f"Using User-Agent: {session_1sttix.headers.get('User-Agent', '')[:50]}..."
         )
 
         log_message("--- Checking 1stTix ---")
         if login_firsttix(session_1sttix):
+            sources_checked.append("1stTix")  # Only mark as checked if login succeeds
             random_delay(2.0, 6.0)
             firsttix_shows = fetch_firsttix_shows(session_1sttix)
             all_shows.extend(firsttix_shows)
         else:
-            log_message("[1stTix] Failed to login, skipping")
+            log_message("[1stTix] Failed to login, preserving existing shows")
 
     log_message(f"Total shows from all sources: {len(all_shows)}")
 
