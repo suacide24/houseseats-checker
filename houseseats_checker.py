@@ -793,17 +793,22 @@ def filter_shows(shows: list, denylist: set) -> list:
 
 
 def save_shows(shows: list, sources_checked: list = None):
-    """Save the available shows to a JSON file with per-source timestamps."""
+    """Save the available shows to a JSON file with per-source timestamps.
+    
+    Merges new shows with existing shows from sources not checked this run.
+    """
     pt_now = get_pacific_time()
     timestamp = pt_now.strftime("%Y-%m-%dT%H:%M:%S PT")
     
-    # Load existing data to preserve timestamps for sources not checked this run
+    # Load existing data to preserve shows and timestamps for sources not checked this run
     existing_timestamps = {}
+    existing_shows = []
     if OUTPUT_FILE.exists():
         try:
             with open(OUTPUT_FILE, "r") as f:
                 existing_data = json.load(f)
                 existing_timestamps = existing_data.get("last_updated_by_source", {})
+                existing_shows = existing_data.get("shows", [])
         except (json.JSONDecodeError, IOError):
             pass
     
@@ -815,17 +820,29 @@ def save_shows(shows: list, sources_checked: list = None):
     for source in sources_checked:
         last_updated_by_source[source] = timestamp
     
+    # Merge shows: keep existing shows from sources NOT checked this run
+    # and add new shows from sources that WERE checked
+    merged_shows = []
+    
+    # Add existing shows from sources not checked this run
+    for show in existing_shows:
+        if show.get("source") not in sources_checked:
+            merged_shows.append(show)
+    
+    # Add new shows from sources that were checked
+    merged_shows.extend(shows)
+    
     output = {
         "last_updated": timestamp,
         "last_updated_by_source": last_updated_by_source,
-        "count": len(shows),
-        "shows": shows,
+        "count": len(merged_shows),
+        "shows": merged_shows,
     }
 
     with open(OUTPUT_FILE, "w") as f:
         json.dump(output, f, indent=2)
 
-    log_message(f"Saved {len(shows)} shows to {OUTPUT_FILE}")
+    log_message(f"Saved {len(merged_shows)} shows to {OUTPUT_FILE}")
 
 
 def push_to_github():
