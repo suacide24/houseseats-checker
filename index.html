@@ -210,6 +210,7 @@
         <header>
             <h1>🎭 Available Shows</h1>
             <p class="last-updated" id="lastUpdatedContainer">Loading...</p>
+            <p class="last-updated" id="lastRunContainer" style="margin-top: 4px;"></p>
             <div class="show-count"><span id="showCount">0</span> unique shows <span class="slot-count">(<span id="slotCount">0</span> time slots)</span></div>
         </header>
         <div class="shows-grid" id="showsGrid">
@@ -393,6 +394,14 @@
                 container.innerHTML = 'Last updated: ' + parts.join(' &nbsp;•&nbsp; ');
             } else {
                 container.innerHTML = 'Last updated: ' + formatDate(data.last_updated);
+            }
+
+            // Show last successful run time
+            const runContainer = document.getElementById('lastRunContainer');
+            if (data.last_successful_run) {
+                runContainer.innerHTML = '✅ Last successful run: ' + formatDate(data.last_successful_run);
+            } else {
+                runContainer.innerHTML = '';
             }
         }
 

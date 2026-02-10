@@ -908,12 +908,14 @@ def save_shows(shows: list, sources_checked: list = None):
     # Load existing data to preserve shows and timestamps for sources not checked this run
     existing_timestamps = {}
     existing_shows = []
+    existing_last_successful_run = None
     if OUTPUT_FILE.exists():
         try:
             with open(OUTPUT_FILE, "r") as f:
                 existing_data = json.load(f)
                 existing_timestamps = existing_data.get("last_updated_by_source", {})
                 existing_shows = existing_data.get("shows", [])
+                existing_last_successful_run = existing_data.get("last_successful_run")
         except (json.JSONDecodeError, IOError):
             pass
 
@@ -937,9 +939,15 @@ def save_shows(shows: list, sources_checked: list = None):
     # Add new shows from sources that were checked
     merged_shows.extend(shows)
 
+    # Update last_successful_run only if we have at least 1 show (confirms a real successful run)
+    last_successful_run = existing_last_successful_run
+    if len(merged_shows) >= 1:
+        last_successful_run = timestamp
+
     output = {
         "last_updated": timestamp,
         "last_updated_by_source": last_updated_by_source,
+        "last_successful_run": last_successful_run,
         "count": len(merged_shows),
         "shows": merged_shows,
     }
