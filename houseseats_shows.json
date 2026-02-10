@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-10T13:49:41 PT",
-  "last_successful_run": "2026-02-10T13:49:41 PT",
-  "count": 6,
+  "last_updated": "2026-02-10T14:46:55 PT",
+  "last_successful_run": "2026-02-10T14:46:55 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Colin Cloud: Mastermind",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8414",
-      "date": "February 10th",
-      "image": "https://lv.houseseats.com/resources/media/8414.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Lioz - Master of Delusion",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
       "date": "February 10th",
       "image": "https://lv.houseseats.com/resources/media/8225.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Colin Cloud: Mastermind",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8414",
+      "date": "February 11th",
+      "image": "https://lv.houseseats.com/resources/media/8414.jpg",
       "rare": true
     },
     {
@@ -42,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9152",
       "date": "February 14th",
       "image": "https://lv.houseseats.com/resources/media/9152.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9163",
+      "date": "February 14th",
+      "image": "https://lv.houseseats.com/resources/media/9163.jpg",
       "rare": true
     },
     {
