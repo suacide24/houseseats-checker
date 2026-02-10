@@ -1,8 +1,8 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-09T17:59:40 PT",
-  "last_successful_run": "2026-02-09T17:59:40 PT",
-  "count": 52,
+  "last_updated": "2026-02-09T18:18:57 PT",
+  "last_successful_run": "2026-02-09T18:18:57 PT",
+  "count": 51,
   "shows": [
     {
       "source": "1stTix",
@@ -78,18 +78,18 @@
     },
     {
       "source": "1stTix",
-      "name": "Criss Angel Mindfreak",
-      "date": "Sat, 14 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
-      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
       "name": "David Copperfield",
       "date": "Sat, 14 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607637",
       "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Sat, 14 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": true
     },
     {
@@ -162,14 +162,6 @@
       "date": "Fri, 20 Feb '26 10:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/603941",
       "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
-      "name": "Joan Jett & the Blackhearts",
-      "date": "Sat, 21 Feb '26 7:30 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607117",
-      "image": "https://ei-cdn.1sttix.org/preview-607079-tm.",
       "rare": true
     },
     {
