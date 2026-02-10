@@ -1,8 +1,8 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-10T09:49:52 PT",
-  "last_successful_run": "2026-02-10T09:49:52 PT",
-  "count": 53,
+  "last_updated": "2026-02-10T12:03:34 PT",
+  "last_successful_run": "2026-02-10T12:03:34 PT",
+  "count": 54,
   "shows": [
     {
       "source": "1stTix",
@@ -27,6 +27,14 @@
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Chippendales",
+      "date": "Wed, 11 Feb '26 8:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607900",
+      "image": "https://ei-cdn.1sttix.org/preview-528565-tm.jpg",
+      "rare": true
     },
     {
       "source": "1stTix",
