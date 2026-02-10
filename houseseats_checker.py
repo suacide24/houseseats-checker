@@ -81,7 +81,8 @@ SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
 # Paths
 SCRIPT_DIR = Path(__file__).parent
 DENYLIST_FILE = SCRIPT_DIR / "denylist.txt"
-OUTPUT_FILE = SCRIPT_DIR / "available_shows.json"
+HOUSESEATS_OUTPUT_FILE = SCRIPT_DIR / "houseseats_shows.json"
+FIRSTTIX_OUTPUT_FILE = SCRIPT_DIR / "firsttix_shows.json"
 LOG_FILE = SCRIPT_DIR / "houseseats.log"
 NOTIFIED_FILE = SCRIPT_DIR / "notified_shows.json"
 HISTORY_FILE = SCRIPT_DIR / "show_history.json"
@@ -897,92 +898,86 @@ def filter_shows(shows: list, denylist: set) -> list:
     return filtered
 
 
-def save_shows(shows: list, sources_checked: list = None):
-    """Save the available shows to a JSON file with per-source timestamps.
+def get_output_file(source: str) -> Path:
+    """Get the output JSON file path for a given source."""
+    if source == "HouseSeats":
+        return HOUSESEATS_OUTPUT_FILE
+    elif source == "1stTix":
+        return FIRSTTIX_OUTPUT_FILE
+    raise ValueError(f"Unknown source: {source}")
 
-    Merges new shows with existing shows from sources not checked this run.
+
+def save_source_shows(source: str, shows: list):
+    """Save shows for a single source to its own JSON file.
+
+    Each source gets its own file, so no merge logic is needed.
+    Updates last_successful_run only if at least 1 show exists.
     """
     pt_now = get_pacific_time()
     timestamp = pt_now.strftime("%Y-%m-%dT%H:%M:%S PT")
+    output_file = get_output_file(source)
 
-    # Load existing data to preserve shows and timestamps for sources not checked this run
-    existing_timestamps = {}
-    existing_shows = []
+    # Load existing last_successful_run to preserve it if this run has 0 shows
     existing_last_successful_run = None
-    if OUTPUT_FILE.exists():
+    if output_file.exists():
         try:
-            with open(OUTPUT_FILE, "r") as f:
+            with open(output_file, "r") as f:
                 existing_data = json.load(f)
-                existing_timestamps = existing_data.get("last_updated_by_source", {})
-                existing_shows = existing_data.get("shows", [])
                 existing_last_successful_run = existing_data.get("last_successful_run")
         except (json.JSONDecodeError, IOError):
             pass
 
-    # Update timestamps only for sources that were checked
-    if sources_checked is None:
-        sources_checked = []
-
-    last_updated_by_source = existing_timestamps.copy()
-    for source in sources_checked:
-        last_updated_by_source[source] = timestamp
-
-    # Merge shows: keep existing shows from sources NOT checked this run
-    # and add new shows from sources that WERE checked
-    merged_shows = []
-
-    # Add existing shows from sources not checked this run
-    for show in existing_shows:
-        if show.get("source") not in sources_checked:
-            merged_shows.append(show)
-
-    # Add new shows from sources that were checked
-    merged_shows.extend(shows)
-
-    # Update last_successful_run only if we have at least 1 show (confirms a real successful run)
     last_successful_run = existing_last_successful_run
-    if len(merged_shows) >= 1:
+    if len(shows) >= 1:
         last_successful_run = timestamp
 
     output = {
+        "source": source,
         "last_updated": timestamp,
-        "last_updated_by_source": last_updated_by_source,
         "last_successful_run": last_successful_run,
-        "count": len(merged_shows),
-        "shows": merged_shows,
+        "count": len(shows),
+        "shows": shows,
     }
 
-    with open(OUTPUT_FILE, "w") as f:
+    with open(output_file, "w") as f:
         json.dump(output, f, indent=2)
 
-    log_message(f"Saved {len(merged_shows)} shows to {OUTPUT_FILE}")
+    log_message(f"Saved {len(shows)} {source} shows to {output_file.name}")
 
 
 def push_to_github():
-    """Commit and push updated shows to GitHub for GitHub Pages."""
+    """Commit and push updated show data to GitHub for GitHub Pages.
+
+    Stages per-source JSON files and data files, rebases on top of remote
+    to avoid conflicts, and pushes.
+    """
     import subprocess
 
     try:
         # Change to script directory
         os.chdir(SCRIPT_DIR)
 
-        # Check if there are changes to commit
+        # Stage data files that may have changed
+        data_files = [
+            "houseseats_shows.json",
+            "firsttix_shows.json",
+            "notified_shows.json",
+            "show_history.json",
+        ]
+        for data_file in data_files:
+            subprocess.run(
+                ["git", "add", data_file],
+                capture_output=True,
+            )
+
+        # Check if there's anything staged to commit
         result = subprocess.run(
-            ["git", "status", "--porcelain", "available_shows.json"],
+            ["git", "diff", "--staged", "--quiet"],
             capture_output=True,
-            text=True,
         )
-
-        if not result.stdout.strip():
-            log_message("[GitHub] No changes to available_shows.json, skipping push")
+        if result.returncode == 0:
+            log_message("[GitHub] No changes to data files, skipping push")
             return True
-
-        # Stage the file
-        subprocess.run(
-            ["git", "add", "available_shows.json"],
-            check=True,
-            capture_output=True,
-        )
 
         # Commit with timestamp
         commit_msg = (
@@ -994,6 +989,27 @@ def push_to_github():
             capture_output=True,
         )
 
+        # Stash any unstaged changes (e.g. local code edits) before rebase
+        stash_result = subprocess.run(
+            ["git", "stash", "--include-untracked"],
+            capture_output=True,
+            text=True,
+        )
+        did_stash = "No local changes" not in (stash_result.stdout or "")
+
+        # Rebase on top of remote; -X theirs keeps our (latest run) data on conflicts
+        subprocess.run(
+            ["git", "pull", "--rebase", "-X", "theirs"],
+            check=True,
+            capture_output=True,
+        )
+
+        if did_stash:
+            subprocess.run(
+                ["git", "stash", "pop"],
+                capture_output=True,
+            )
+
         # Push to origin
         subprocess.run(
             ["git", "push"],
@@ -1001,7 +1017,7 @@ def push_to_github():
             capture_output=True,
         )
 
-        log_message("[GitHub] Successfully pushed available_shows.json to GitHub")
+        log_message("[GitHub] Successfully pushed show data to GitHub")
         return True
 
     except subprocess.CalledProcessError as e:
@@ -1048,7 +1064,8 @@ def main():
     log_message(f"Using User-Agent: {session.headers.get('User-Agent', '')[:50]}...")
 
     all_shows = []
-    sources_checked = []
+    houseseats_shows = []
+    firsttix_shows = []
 
     # Random initial delay
     random_delay(1.0, 5.0)
@@ -1059,9 +1076,6 @@ def main():
     else:
         log_message("--- Checking HouseSeats ---")
         if login_houseseats(session):
-            sources_checked.append(
-                "HouseSeats"
-            )  # Only mark as checked if login succeeds
             random_delay(2.0, 6.0)
             houseseats_shows = fetch_houseseats_shows(session)
             all_shows.extend(houseseats_shows)
@@ -1083,7 +1097,6 @@ def main():
 
         log_message("--- Checking 1stTix ---")
         if login_firsttix(session_1sttix):
-            sources_checked.append("1stTix")  # Only mark as checked if login succeeds
             random_delay(2.0, 6.0)
             firsttix_shows = fetch_firsttix_shows(session_1sttix)
             all_shows.extend(firsttix_shows)
@@ -1109,8 +1122,13 @@ def main():
     rare_count = sum(1 for s in filtered_shows if s.get("rare"))
     log_message(f"{rare_count} rare shows detected")
 
-    # Save results
-    save_shows(filtered_shows, sources_checked)
+    # Save results per source (only for sources that were actually checked)
+    if not args.no_houseseats and houseseats_shows is not None:
+        hs_filtered = [s for s in filtered_shows if s.get("source") == "HouseSeats"]
+        save_source_shows("HouseSeats", hs_filtered)
+    if not args.no_firsttix and firsttix_shows is not None:
+        ft_filtered = [s for s in filtered_shows if s.get("source") == "1stTix"]
+        save_source_shows("1stTix", ft_filtered)
 
     # Push to GitHub for GitHub Pages
     push_to_github()

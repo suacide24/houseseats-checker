@@ -39,6 +39,6 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add available_shows.json notified_shows.json show_history.json
+          git add houseseats_shows.json firsttix_shows.json notified_shows.json show_history.json
           git diff --staged --quiet || git commit -m "Update shows - $(date -u +'%Y-%m-%d %H:%M UTC')"
           git push

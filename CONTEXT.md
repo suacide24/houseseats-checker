@@ -28,8 +28,9 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 | File | Purpose |
 |------|---------|
 | `houseseats_checker.py` | Main script |
-| `index.html` | GitHub Pages frontend (loads shows from JSON with cache-busting) |
-| `available_shows.json` | Latest fetched shows (auto-updated by GitHub Actions) |
+| `index.html` | GitHub Pages frontend (loads shows from per-source JSON files) |
+| `houseseats_shows.json` | Latest HouseSeats shows (updated by GitHub Actions) |
+| `firsttix_shows.json` | Latest 1stTix shows (updated by local launchd) |
 | `notified_shows.json` | Tracks which show+date+source combos have been notified |
 | `show_history.json` | Tracks show appearances over time for RARE detection |
 | `requirements.txt` | Python dependencies |

@@ -222,13 +222,30 @@
     </div>
 
     <script>
-        // Load shows data from JSON file
+        // Load shows data from both per-source JSON files
         async function loadShows() {
             try {
-                // Add cache-busting query param to always get fresh data
                 const cacheBuster = new Date().getTime();
-                const response = await fetch(`available_shows.json?v=${cacheBuster}`);
-                const data = await response.json();
+                const [hsResponse, ftResponse] = await Promise.allSettled([
+                    fetch(`houseseats_shows.json?v=${cacheBuster}`).then(r => r.ok ? r.json() : null),
+                    fetch(`firsttix_shows.json?v=${cacheBuster}`).then(r => r.ok ? r.json() : null),
+                ]);
+
+                const hsData = hsResponse.status === 'fulfilled' ? hsResponse.value : null;
+                const ftData = ftResponse.status === 'fulfilled' ? ftResponse.value : null;
+
+                // Merge into a combined data object for rendering
+                const allShows = [
+                    ...(hsData?.shows || []),
+                    ...(ftData?.shows || []),
+                ];
+                const data = {
+                    sources: {},
+                    shows: allShows,
+                };
+                if (hsData) data.sources['HouseSeats'] = hsData;
+                if (ftData) data.sources['1stTix'] = ftData;
+
                 renderShows(data);
             } catch (error) {
                 console.error('Failed to load shows:', error);
@@ -380,26 +397,28 @@
 
         function formatLastUpdated(data) {
             const container = document.getElementById('lastUpdatedContainer');
-            const bySource = data.last_updated_by_source || {};
+            const sources = data.sources || {};
 
             const parts = [];
-            if (bySource['HouseSeats']) {
-                parts.push(`<span class="source-label source-houseseats-label">HouseSeats</span> ${formatDate(bySource['HouseSeats'])}`);
+            if (sources['HouseSeats']) {
+                parts.push(`<span class="source-label source-houseseats-label">HouseSeats</span> ${formatDate(sources['HouseSeats'].last_updated)}`);
             }
-            if (bySource['1stTix']) {
-                parts.push(`<span class="source-label source-1sttix-label">1stTix</span> ${formatDate(bySource['1stTix'])}`);
+            if (sources['1stTix']) {
+                parts.push(`<span class="source-label source-1sttix-label">1stTix</span> ${formatDate(sources['1stTix'].last_updated)}`);
             }
 
             if (parts.length > 0) {
                 container.innerHTML = 'Last updated: ' + parts.join(' &nbsp;•&nbsp; ');
             } else {
-                container.innerHTML = 'Last updated: ' + formatDate(data.last_updated);
+                container.innerHTML = 'Last updated: unknown';
             }
 
-            // Show last successful run time
+            // Show last successful run — use the most recent across both sources
             const runContainer = document.getElementById('lastRunContainer');
-            if (data.last_successful_run) {
-                runContainer.innerHTML = '✅ Last successful run: ' + formatDate(data.last_successful_run);
+            const runs = [sources['HouseSeats']?.last_successful_run, sources['1stTix']?.last_successful_run].filter(Boolean);
+            if (runs.length > 0) {
+                runs.sort().reverse();
+                runContainer.innerHTML = '✅ Last successful run: ' + formatDate(runs[0]);
             } else {
                 runContainer.innerHTML = '';
             }
