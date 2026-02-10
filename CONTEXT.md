@@ -8,12 +8,13 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 4. Sends email notifications for NEW shows only (tracks show+date+source combinations)
 5. **Detects RARE shows** - flags shows that don't appear frequently 🔥
 6. Includes ChatGPT links to ask "Should I go to this show?"
-7. **Runs every 30 minutes via GitHub Actions** (no local machine needed!)
+7. **Dual runners:** GitHub Actions (HouseSeats) + local macOS launchd (1stTix)
 8. Uses random delays between requests to avoid bot detection
 9. Auto-publishes available shows to GitHub Pages
 10. **All timestamps in Pacific Time (PT)**
 11. **Groups shows by name** - both website and emails group multiple time slots under each show
-12. **Graceful failure handling** - login failures preserve existing data instead of wiping it
+12. **Graceful failure handling** - login failures skip writing that source's file, preserving previous data
+13. **`last_successful_run` timestamp** - confirms scripts are actively running (gated on ≥1 show)
 
 ## Live Pages
 
@@ -28,16 +29,60 @@ Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.
 | File | Purpose |
 |------|---------|
 | `houseseats_checker.py` | Main script |
-| `index.html` | GitHub Pages frontend (loads shows from per-source JSON files) |
-| `houseseats_shows.json` | Latest HouseSeats shows (updated by GitHub Actions) |
-| `firsttix_shows.json` | Latest 1stTix shows (updated by local launchd) |
+| `index.html` | GitHub Pages frontend (fetches both per-source JSON files, merges client-side) |
+| `houseseats_shows.json` | HouseSeats shows data (written by GitHub Actions) |
+| `firsttix_shows.json` | 1stTix shows data (written by local launchd) |
 | `notified_shows.json` | Tracks which show+date+source combos have been notified |
 | `show_history.json` | Tracks show appearances over time for RARE detection |
 | `requirements.txt` | Python dependencies |
-| `.github/workflows/check-shows.yml` | GitHub Actions workflow (runs every 30 mins) |
+| `.github/workflows/check-shows.yml` | GitHub Actions workflow (runs every 30 mins, HouseSeats only) |
 | `denylist.txt` | Local fallback denylist (primary is on GitHub Gist) |
 | `run.sh` | Local wrapper script with credentials (in .gitignore) |
 | `com.rsua.houseseats-checker.plist` | macOS launchd config for local scheduled runs |
+
+## Architecture: Per-Source JSON Files
+
+Each show source gets its own JSON file to **eliminate merge conflicts** between runners:
+
+```
+┌──────────────────────────┐     ┌──────────────────────────┐
+│     GitHub Actions        │     │     Local macOS launchd   │
+│  (runs every 30 mins)     │     │   (runs every 30 mins)    │
+│  --fast --no-firsttix     │     │   --fast                  │
+├──────────────────────────┤     ├──────────────────────────┤
+│ Writes:                   │     │ Writes:                   │
+│  houseseats_shows.json    │     │  firsttix_shows.json      │
+│  notified_shows.json      │     │  notified_shows.json      │
+│  show_history.json        │     │  show_history.json        │
+└───────────┬──────────────┘     └───────────┬──────────────┘
+            │     git commit & push          │
+            └───────────┬────────────────────┘
+                        ▼
+              GitHub Pages serves
+              index.html which fetches
+              BOTH JSON files and merges
+              them client-side
+```
+
+**Why separate files?**
+- GitHub Actions only checks HouseSeats (`--no-firsttix`), writes `houseseats_shows.json`
+- Local launchd checks 1stTix (and optionally HouseSeats), writes `firsttix_shows.json`
+- Each runner only modifies its own file → **no merge conflicts possible**
+- `push_to_github()` uses `git stash` + `git pull --rebase -X theirs` + `git push` for safety
+
+**Per-source JSON structure:**
+```json
+{
+  "source": "HouseSeats",
+  "last_updated": "2026-02-09T17:50:01 PT",
+  "last_successful_run": "2026-02-09T17:50:01 PT",
+  "count": 5,
+  "shows": [...]
+}
+```
+
+- `last_updated` — timestamp of when the file was last written
+- `last_successful_run` — only updates when ≥1 show is found (confirms a real successful run, not a failed scrape)
 
 ## 🔥 RARE Show Detection
 
@@ -79,20 +124,19 @@ gh secret set SECRET_NAME --body "value"
 
 ```
 ┌─────────────────────────────────────────────────────────────┐
-│                    GitHub Actions                            │
-│                  (runs every 30 mins)                        │
+│          Runner (GitHub Actions or local launchd)            │
 ├─────────────────────────────────────────────────────────────┤
-│  1. Checkout repo                                            │
-│  2. Run houseseats_checker.py                                │
+│  1. Run houseseats_checker.py                                │
 │     ├── Fetch denylist from Gist                            │
-│     ├── Login to HouseSeats & 1stTix                        │
+│     ├── Login to HouseSeats and/or 1stTix                   │
 │     ├── Scrape available shows                               │
 │     ├── Filter out denylisted shows                          │
 │     ├── Update show history & detect RARE shows             │
 │     ├── Send email for NEW shows only (with RARE badges)    │
-│     └── Save to available_shows.json (with PT timestamp)    │
-│  3. Commit & push JSON updates                               │
-│  4. GitHub Pages auto-rebuilds                               │
+│     ├── Save houseseats_shows.json (if HouseSeats checked)  │
+│     └── Save firsttix_shows.json (if 1stTix checked)        │
+│  2. git stash → pull --rebase → stash pop → push            │
+│  3. GitHub Pages auto-rebuilds                               │
 └─────────────────────────────────────────────────────────────┘
 ```
 
@@ -145,10 +189,10 @@ python3 houseseats_checker.py --fast
 ## Data Safety
 
 **Login failures preserve existing data:**
-- If HouseSeats login fails, existing HouseSeats shows are kept
-- If 1stTix login fails, existing 1stTix shows are kept
-- Only sources that successfully authenticate get their data refreshed
-- This prevents accidental data loss from missing credentials or temporary auth issues
+- If HouseSeats login fails, `houseseats_shows.json` is not overwritten
+- If 1stTix login fails, `firsttix_shows.json` is not overwritten
+- Only sources that successfully authenticate get their file refreshed
+- `last_successful_run` only updates when ≥1 show is found, so you can always tell when the last real scrape happened
 
 ## Site Structure (for future reference)
 
@@ -194,6 +238,7 @@ python3 houseseats_checker.py --fast
 
 - Dark gradient theme
 - Mobile-responsive grid layout
+- **Fetches both `houseseats_shows.json` and `firsttix_shows.json`** and merges client-side
 - **Shows grouped by name** - each show card displays all available time slots
 - Show images from source websites
 - 🔥 RARE badges with pulsing animation
@@ -202,6 +247,7 @@ python3 houseseats_checker.py --fast
 - Cache-busting ensures fresh data on every page load
 - Timestamps displayed in Pacific Time (PT)
 - Shows unique show count and total time slot count
+- **✅ Last successful run** timestamp to confirm scripts are actively running
 
 ---
 
@@ -261,4 +307,4 @@ This level of infrastructure is beyond a simple DIY script.
 3. Check the website/app manually at strategic times (midnight, 6am)
 
 ---
-*Last updated: 2026-02-09*
+*Last updated: 2026-02-10*
