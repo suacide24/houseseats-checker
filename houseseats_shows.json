@@ -1,15 +1,55 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-10T12:51:46 PT",
-  "last_successful_run": "2026-02-10T12:51:46 PT",
-  "count": 1,
+  "last_updated": "2026-02-10T13:49:41 PT",
+  "last_successful_run": "2026-02-10T13:49:41 PT",
+  "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Colin Cloud: Mastermind",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8414",
+      "date": "February 10th",
+      "image": "https://lv.houseseats.com/resources/media/8414.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Lioz - Master of Delusion",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
       "date": "February 10th",
       "image": "https://lv.houseseats.com/resources/media/8225.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Australia's Thunder from Down Under",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=423",
+      "date": "February 11th",
+      "image": "https://lv.houseseats.com/resources/media/423.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Farrell Dillon At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
+      "date": "February 14th",
+      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "A Public Fit Theatre Company Presents: Eurydice",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9152",
+      "date": "February 14th",
+      "image": "https://lv.houseseats.com/resources/media/9152.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8140",
+      "date": "February 15th",
+      "image": "https://lv.houseseats.com/resources/media/8140.jpg",
       "rare": true
     }
   ]
