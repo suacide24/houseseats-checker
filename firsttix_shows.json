@@ -1,8 +1,8 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-10T14:09:55 PT",
-  "last_successful_run": "2026-02-10T14:09:55 PT",
-  "count": 54,
+  "last_updated": "2026-02-10T14:41:16 PT",
+  "last_successful_run": "2026-02-10T14:41:16 PT",
+  "count": 53,
   "shows": [
     {
       "source": "1stTix",
@@ -38,11 +38,11 @@
     },
     {
       "source": "1stTix",
-      "name": "X Country",
-      "date": "Wed, 11 Feb '26 10:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/603936",
-      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
-      "rare": false
+      "name": "Piff the Magic Dragon",
+      "date": "Thu, 12 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607597",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": true
     },
     {
       "source": "1stTix",
@@ -51,14 +51,6 @@
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607563",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Piff the Magic Dragon",
-      "date": "Thu, 12 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607597",
-      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
-      "rare": true
     },
     {
       "source": "1stTix",
@@ -102,18 +94,18 @@
     },
     {
       "source": "1stTix",
-      "name": "Criss Angel Mindfreak",
-      "date": "Sat, 14 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
-      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
       "name": "David Copperfield",
       "date": "Sat, 14 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607637",
       "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
+      "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Sat, 14 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
     },
     {
