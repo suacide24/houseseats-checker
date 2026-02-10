@@ -907,17 +907,18 @@ def get_output_file(source: str) -> Path:
     raise ValueError(f"Unknown source: {source}")
 
 
-def save_source_shows(source: str, shows: list):
+def save_source_shows(source: str, shows: list, scrape_successful: bool = False):
     """Save shows for a single source to its own JSON file.
 
     Each source gets its own file, so no merge logic is needed.
-    Updates last_successful_run only if at least 1 show exists.
+    Updates last_successful_run only if the scrape was successful (logged in
+    and found at least 1 show pre-filter).
     """
     pt_now = get_pacific_time()
     timestamp = pt_now.strftime("%Y-%m-%dT%H:%M:%S PT")
     output_file = get_output_file(source)
 
-    # Load existing last_successful_run to preserve it if this run has 0 shows
+    # Load existing last_successful_run to preserve it if this run wasn't successful
     existing_last_successful_run = None
     if output_file.exists():
         try:
@@ -928,7 +929,7 @@ def save_source_shows(source: str, shows: list):
             pass
 
     last_successful_run = existing_last_successful_run
-    if len(shows) >= 1:
+    if scrape_successful:
         last_successful_run = timestamp
 
     output = {
@@ -1125,10 +1126,10 @@ def main():
     # Save results per source (only for sources that were actually checked)
     if not args.no_houseseats and houseseats_shows is not None:
         hs_filtered = [s for s in filtered_shows if s.get("source") == "HouseSeats"]
-        save_source_shows("HouseSeats", hs_filtered)
+        save_source_shows("HouseSeats", hs_filtered, scrape_successful=len(houseseats_shows) >= 1)
     if not args.no_firsttix and firsttix_shows is not None:
         ft_filtered = [s for s in filtered_shows if s.get("source") == "1stTix"]
-        save_source_shows("1stTix", ft_filtered)
+        save_source_shows("1stTix", ft_filtered, scrape_successful=len(firsttix_shows) >= 1)
 
     # Push to GitHub for GitHub Pages
     push_to_github()
