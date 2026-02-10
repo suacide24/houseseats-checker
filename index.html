@@ -413,12 +413,17 @@
                 container.innerHTML = 'Last updated: unknown';
             }
 
-            // Show last successful run — use the most recent across both sources
+            // Show last successful run per source
             const runContainer = document.getElementById('lastRunContainer');
-            const runs = [sources['HouseSeats']?.last_successful_run, sources['1stTix']?.last_successful_run].filter(Boolean);
-            if (runs.length > 0) {
-                runs.sort().reverse();
-                runContainer.innerHTML = '✅ Last successful run: ' + formatDate(runs[0]);
+            const runParts = [];
+            if (sources['HouseSeats']?.last_successful_run) {
+                runParts.push(`<span class="source-label source-houseseats-label">HouseSeats</span> ${formatDate(sources['HouseSeats'].last_successful_run)}`);
+            }
+            if (sources['1stTix']?.last_successful_run) {
+                runParts.push(`<span class="source-label source-1sttix-label">1stTix</span> ${formatDate(sources['1stTix'].last_successful_run)}`);
+            }
+            if (runParts.length > 0) {
+                runContainer.innerHTML = '✅ Last successful run: ' + runParts.join(' &nbsp;•&nbsp; ');
             } else {
                 runContainer.innerHTML = '';
             }
