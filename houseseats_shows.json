@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-11T08:36:15 PT",
-  "last_successful_run": "2026-02-11T08:36:15 PT",
-  "count": 2,
+  "last_updated": "2026-02-11T10:00:09 PT",
+  "last_successful_run": "2026-02-11T10:00:09 PT",
+  "count": 3,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "February 11th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
