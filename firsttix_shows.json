@@ -1,8 +1,8 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-10T17:50:45 PT",
-  "last_successful_run": "2026-02-10T17:50:45 PT",
-  "count": 54,
+  "last_updated": "2026-02-10T18:22:22 PT",
+  "last_successful_run": "2026-02-10T18:22:22 PT",
+  "count": 52,
   "shows": [
     {
       "source": "1stTix",
@@ -27,14 +27,6 @@
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Chippendales",
-      "date": "Wed, 11 Feb '26 8:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607900",
-      "image": "https://ei-cdn.1sttix.org/preview-528565-tm.jpg",
-      "rare": true
     },
     {
       "source": "1stTix",
@@ -70,19 +62,19 @@
     },
     {
       "source": "1stTix",
-      "name": "Criss Angel Mindfreak",
-      "date": "Fri, 13 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607523",
-      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
       "name": "Future Stars of Wrestling Presents: Valentine's Day Massacre",
       "date": "Fri, 13 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607884",
       "image": "https://ei-cdn.1sttix.org/preview607884_1770666920.jpg",
       "rare": true
+    },
+    {
+      "source": "1stTix",
+      "name": "Criss Angel Mindfreak",
+      "date": "Fri, 13 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607523",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": false
     },
     {
       "source": "1stTix",
@@ -106,14 +98,6 @@
       "date": "Sat, 14 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "David Copperfield",
-      "date": "Sat, 14 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607637",
-      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
       "rare": false
     },
     {
