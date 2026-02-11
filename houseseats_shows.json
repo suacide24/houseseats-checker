@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-10T18:48:01 PT",
-  "last_successful_run": "2026-02-10T18:48:01 PT",
-  "count": 6,
+  "last_updated": "2026-02-10T21:06:43 PT",
+  "last_successful_run": "2026-02-10T21:06:43 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,22 +11,6 @@
       "date": "February 11th",
       "image": "https://lv.houseseats.com/resources/media/423.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Colin Cloud: Mastermind",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8414",
-      "date": "February 12th",
-      "image": "https://lv.houseseats.com/resources/media/8414.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Lioz - Master of Delusion",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
-      "date": "February 12th",
-      "image": "https://lv.houseseats.com/resources/media/8225.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
