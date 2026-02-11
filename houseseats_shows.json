@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-11T07:00:58 PT",
-  "last_successful_run": "2026-02-11T07:00:58 PT",
-  "count": 4,
+  "last_updated": "2026-02-11T08:36:15 PT",
+  "last_successful_run": "2026-02-11T08:36:15 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Australia's Thunder from Down Under",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=423",
-      "date": "February 11th",
-      "image": "https://lv.houseseats.com/resources/media/423.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
@@ -26,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9163",
       "date": "February 14th",
       "image": "https://lv.houseseats.com/resources/media/9163.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8140",
-      "date": "February 15th",
-      "image": "https://lv.houseseats.com/resources/media/8140.jpg",
       "rare": true
     }
   ]
