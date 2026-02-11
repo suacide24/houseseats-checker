@@ -1,7 +1,7 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-11T12:19:13 PT",
-  "last_successful_run": "2026-02-11T12:19:13 PT",
+  "last_updated": "2026-02-11T12:50:50 PT",
+  "last_successful_run": "2026-02-11T12:50:50 PT",
   "count": 44,
   "shows": [
     {
@@ -10,14 +10,6 @@
       "date": "Wed, 11 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Piff the Magic Dragon",
-      "date": "Wed, 11 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607596",
-      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
       "rare": false
     },
     {
@@ -138,6 +130,14 @@
       "date": "Sun, 15 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Awakening",
+      "date": "Mon, 16 Feb '26 9:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608250",
+      "image": "https://ei-cdn.1sttix.org/preview-588721-tm.jpg",
       "rare": false
     },
     {
