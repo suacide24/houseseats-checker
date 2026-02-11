@@ -1,8 +1,8 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-11T13:22:18 PT",
-  "last_successful_run": "2026-02-11T13:22:18 PT",
-  "count": 43,
+  "last_updated": "2026-02-11T15:34:40 PT",
+  "last_successful_run": "2026-02-11T15:34:40 PT",
+  "count": 42,
   "shows": [
     {
       "source": "1stTix",
@@ -50,14 +50,6 @@
       "date": "Thu, 12 Feb '26 10:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/603937",
       "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Criss Angel Mindfreak",
-      "date": "Fri, 13 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607523",
-      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
     },
     {
