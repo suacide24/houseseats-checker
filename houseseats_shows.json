@@ -1,14 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-11T11:24:39 PT",
-  "last_successful_run": "2026-02-11T11:24:39 PT",
+  "last_updated": "2026-02-11T11:26:34 PT",
+  "last_successful_run": "2026-02-11T11:26:34 PT",
   "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "X Country",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "February 11th",
+      "date": "February 11th 10:00pm",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": true
     },
@@ -16,7 +16,7 @@
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
-      "date": "February 14th",
+      "date": "February 14th 4:30pm",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
       "rare": true
     },
@@ -24,7 +24,7 @@
       "source": "HouseSeats",
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9163",
-      "date": "February 14th",
+      "date": "February 14th 7:00pm",
       "image": "https://lv.houseseats.com/resources/media/9163.jpg",
       "rare": true
     }
