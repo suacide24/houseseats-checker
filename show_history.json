@@ -5,7 +5,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-06",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|haunted brunch": {
@@ -395,21 +396,24 @@
       "name": "Colin Cloud: Mastermind",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|australia's thunder from down under": {
       "name": "Australia's Thunder from Down Under",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|farrell dillon at the magicians room": {
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -423,14 +427,16 @@
       "name": "Frank Marino\u2019s Divas, Drag & Drinks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|art laboe love jam at primm valley resorts (primm)": {
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     }
   }
