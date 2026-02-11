@@ -1,7 +1,7 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-11T11:24:39 PT",
-  "last_successful_run": "2026-02-11T11:24:39 PT",
+  "last_updated": "2026-02-11T11:45:41 PT",
+  "last_successful_run": "2026-02-11T11:45:41 PT",
   "count": 45,
   "shows": [
     {
@@ -94,19 +94,19 @@
     },
     {
       "source": "1stTix",
-      "name": "Art Laboe Love Jam",
-      "date": "Sat, 14 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/608245",
-      "image": "https://ei-cdn.1sttix.org/preview-608245-tm.jpg",
-      "rare": true
-    },
-    {
-      "source": "1stTix",
       "name": "Criss Angel Mindfreak",
       "date": "Sat, 14 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Art Laboe Love Jam",
+      "date": "Sat, 14 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608245",
+      "image": "https://ei-cdn.1sttix.org/preview-608245-tm.jpg",
+      "rare": true
     },
     {
       "source": "1stTix",
@@ -126,18 +126,18 @@
     },
     {
       "source": "1stTix",
-      "name": "David Copperfield",
-      "date": "Sun, 15 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607647",
-      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
       "name": "Criss Angel Mindfreak",
       "date": "Sun, 15 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "David Copperfield",
+      "date": "Sun, 15 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607647",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
       "rare": false
     },
     {
