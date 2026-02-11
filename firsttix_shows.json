@@ -1,8 +1,8 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-11T12:50:50 PT",
-  "last_successful_run": "2026-02-11T12:50:50 PT",
-  "count": 44,
+  "last_updated": "2026-02-11T13:22:18 PT",
+  "last_successful_run": "2026-02-11T13:22:18 PT",
+  "count": 43,
   "shows": [
     {
       "source": "1stTix",
@@ -118,14 +118,6 @@
     },
     {
       "source": "1stTix",
-      "name": "David Copperfield",
-      "date": "Sun, 15 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607647",
-      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
       "name": "Criss Angel Mindfreak",
       "date": "Sun, 15 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
@@ -134,10 +126,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Awakening",
-      "date": "Mon, 16 Feb '26 9:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/608250",
-      "image": "https://ei-cdn.1sttix.org/preview-588721-tm.jpg",
+      "name": "David Copperfield",
+      "date": "Sun, 15 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607647",
+      "image": "https://ei-cdn.1sttix.org/preview-476366-tm.jpg",
       "rare": false
     },
     {
