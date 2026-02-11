@@ -1,15 +1,15 @@
 {
   "source": "1stTix",
-  "last_updated": "2026-02-10T18:22:22 PT",
-  "last_successful_run": "2026-02-10T18:22:22 PT",
-  "count": 52,
+  "last_updated": "2026-02-11T10:42:48 PT",
+  "last_successful_run": "2026-02-11T10:42:48 PT",
+  "count": 46,
   "shows": [
     {
       "source": "1stTix",
-      "name": "X Country",
-      "date": "Tue, 10 Feb '26 10:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/603935",
-      "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
+      "name": "Criss Angel Mindfreak",
+      "date": "Wed, 11 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
+      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
     },
     {
@@ -18,15 +18,15 @@
       "date": "Wed, 11 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607596",
       "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "1stTix",
-      "name": "Criss Angel Mindfreak",
-      "date": "Wed, 11 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607562",
-      "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
-      "rare": false
+      "name": "Chippendales",
+      "date": "Wed, 11 Feb '26 8:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607900",
+      "image": "https://ei-cdn.1sttix.org/preview-528565-tm.jpg",
+      "rare": true
     },
     {
       "source": "1stTix",
@@ -50,7 +50,15 @@
       "date": "Thu, 12 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607597",
       "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
-      "rare": true
+      "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Piff the Magic Dragon",
+      "date": "Thu, 12 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/607597",
+      "image": "https://ei-cdn.1sttix.org/preview-585172-tm.jpg",
+      "rare": false
     },
     {
       "source": "1stTix",
@@ -59,14 +67,6 @@
       "link": "https://www.1sttix.org/tixer/get-tickets/event/603937",
       "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
       "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Future Stars of Wrestling Presents: Valentine's Day Massacre",
-      "date": "Fri, 13 Feb '26 7:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/607884",
-      "image": "https://ei-cdn.1sttix.org/preview607884_1770666920.jpg",
-      "rare": true
     },
     {
       "source": "1stTix",
@@ -86,6 +86,14 @@
     },
     {
       "source": "1stTix",
+      "name": "Punk Rock Brunch",
+      "date": "Sat, 14 Feb '26 10:00 AM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608164",
+      "image": "https://ei-cdn.1sttix.org/preview594376_1763753525.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
       "name": "Farrell Dillon Comedy Magician",
       "date": "Sat, 14 Feb '26 4:30 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607382",
@@ -99,6 +107,14 @@
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607524",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
       "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Art Laboe Love Jam",
+      "date": "Sat, 14 Feb '26 7:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608245",
+      "image": "https://ei-cdn.1sttix.org/preview-608245-tm.jpg",
+      "rare": true
     },
     {
       "source": "1stTix",
@@ -130,6 +146,14 @@
       "date": "Sun, 15 Feb '26 7:00 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607525",
       "image": "https://ei-cdn.1sttix.org/preview-476689-tm.jpg",
+      "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Awakening",
+      "date": "Mon, 16 Feb '26 9:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608250",
+      "image": "https://ei-cdn.1sttix.org/preview-588721-tm.jpg",
       "rare": false
     },
     {
@@ -171,6 +195,14 @@
       "link": "https://www.1sttix.org/tixer/get-tickets/event/603930",
       "image": "https://ei-cdn.1sttix.org/preview-483833-tm.jpg",
       "rare": false
+    },
+    {
+      "source": "1stTix",
+      "name": "Punk Rock Brunch",
+      "date": "Sun, 22 Feb '26 10:00 AM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608166",
+      "image": "https://ei-cdn.1sttix.org/preview594376_1763753525.jpg",
+      "rare": true
     },
     {
       "source": "1stTix",
@@ -222,6 +254,14 @@
     },
     {
       "source": "1stTix",
+      "name": "The MGM Slam Presented by Capital One",
+      "date": "Sun, 1 Mar '26 4:00 PM",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/608134",
+      "image": "https://ei-cdn.1sttix.org/preview608134_1770758102.jpg",
+      "rare": true
+    },
+    {
+      "source": "1stTix",
       "name": "Vegas Golden Knights - NHL",
       "date": "Sun, 8 Mar '26 6:30 PM",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/607265",
@@ -246,10 +286,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
       "rare": false
     },
     {
@@ -262,10 +302,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
       "rare": false
     },
     {
@@ -278,10 +318,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
       "rare": false
     },
     {
@@ -294,10 +334,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
+      "name": "Lvl Up Expo",
+      "date": "Fri, 24 Apr '26",
+      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
+      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
       "rare": false
     },
     {
@@ -310,14 +350,6 @@
     },
     {
       "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
       "name": "Lvl Up Expo",
       "date": "Fri, 24 Apr '26",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
@@ -326,90 +358,10 @@
     },
     {
       "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
       "name": "Lvl Up Expo",
       "date": "Fri, 24 Apr '26",
       "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
       "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Lvl Up Expo",
-      "date": "Fri, 24 Apr '26",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
-      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Lvl Up Expo",
-      "date": "Fri, 24 Apr '26",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
-      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Lvl Up Expo",
-      "date": "Fri, 24 Apr '26",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
-      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Lvl Up Expo",
-      "date": "Fri, 24 Apr '26",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/599882",
-      "image": "https://ei-cdn.1sttix.org/preview599882_1766520122.jpg",
-      "rare": false
-    },
-    {
-      "source": "1stTix",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "date": "Sun, 19 Apr '26 4:00 PM",
-      "link": "https://www.1sttix.org/tixer/get-tickets/event/606988",
-      "image": "https://ei-cdn.1sttix.org/preview601699_1767802758.jpg",
       "rare": false
     },
     {

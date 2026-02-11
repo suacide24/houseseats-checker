@@ -118,7 +118,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|x country": {
@@ -127,7 +128,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|piff the magic dragon (las vegas)": {
@@ -143,7 +145,8 @@
       "source": "1stTix",
       "appearances": [
         "2026-02-08",
-        "2026-02-09"
+        "2026-02-09",
+        "2026-02-11"
       ]
     },
     "1stTix|masters of magic": {
@@ -160,7 +163,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|david goldrake": {
@@ -184,7 +188,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|joan jett & the blackhearts": {
@@ -268,7 +273,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|the liuna": {
@@ -277,7 +283,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|pennzoil 400 pres by jiffy lube": {
@@ -286,7 +293,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|las vegas desert dogs - nll vs rochester knighthawks": {
@@ -339,7 +347,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|piff the magic dragon": {
@@ -347,7 +356,8 @@
       "source": "1stTix",
       "appearances": [
         "2026-02-09",
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|wayne: up close & personal": {
@@ -375,7 +385,8 @@
       "name": "Chippendales",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "1stTix|future stars of wrestling presents: valentine's day massacre": {
@@ -389,7 +400,8 @@
       "name": "2026 Rugby League Las Vegas",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10"
+        "2026-02-10",
+        "2026-02-11"
       ]
     },
     "HouseSeats|colin cloud: mastermind": {
@@ -442,6 +454,27 @@
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
+      "appearances": [
+        "2026-02-11"
+      ]
+    },
+    "1stTix|punk rock brunch": {
+      "name": "Punk Rock Brunch",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-11"
+      ]
+    },
+    "1stTix|art laboe love jam": {
+      "name": "Art Laboe Love Jam",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-11"
+      ]
+    },
+    "1stTix|the mgm slam presented by capital one": {
+      "name": "The MGM Slam Presented by Capital One",
+      "source": "1stTix",
       "appearances": [
         "2026-02-11"
       ]
