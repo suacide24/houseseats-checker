@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-12T14:37:02 PT",
-  "last_successful_run": "2026-02-12T14:37:02 PT",
+  "last_updated": "2026-02-12T15:35:14 PT",
+  "last_successful_run": "2026-02-12T15:35:14 PT",
   "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Jamie Kennedy at Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
-      "date": "February 12th",
-      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "February 14th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9163",
+      "date": "February 14th",
+      "image": "https://lv.houseseats.com/resources/media/9163.jpg",
       "rare": false
     }
   ]
