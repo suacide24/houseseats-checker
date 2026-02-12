@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-12T13:39:16 PT",
-  "last_successful_run": "2026-02-12T13:39:16 PT",
-  "count": 1,
+  "last_updated": "2026-02-12T14:37:02 PT",
+  "last_successful_run": "2026-02-12T14:37:02 PT",
+  "count": 2,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Jamie Kennedy at Laugh Factory Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
+      "date": "February 12th",
+      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
