@@ -129,7 +129,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|piff the magic dragon (las vegas)": {
@@ -146,7 +147,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|masters of magic": {
@@ -164,7 +166,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|david goldrake": {
@@ -189,7 +192,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|joan jett & the blackhearts": {
@@ -274,7 +278,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|the liuna": {
@@ -284,7 +289,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|pennzoil 400 pres by jiffy lube": {
@@ -294,7 +300,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|las vegas desert dogs - nll vs rochester knighthawks": {
@@ -348,7 +355,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|piff the magic dragon": {
@@ -401,7 +409,8 @@
       "source": "1stTix",
       "appearances": [
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "HouseSeats|colin cloud: mastermind": {
@@ -466,21 +475,24 @@
       "name": "Punk Rock Brunch",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|art laboe love jam": {
       "name": "Art Laboe Love Jam",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "1stTix|the mgm slam presented by capital one": {
       "name": "The MGM Slam Presented by Capital One",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-13"
       ]
     },
     "HouseSeats|donny osmond": {
@@ -495,6 +507,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-12"
+      ]
+    },
+    "1stTix|tj lavin": {
+      "name": "TJ Lavin",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-13"
+      ]
+    },
+    "1stTix|fantasy": {
+      "name": "Fantasy",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-13"
       ]
     }
   }
