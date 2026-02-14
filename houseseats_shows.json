@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-14T13:51:53 PT",
-  "last_successful_run": "2026-02-14T13:51:53 PT",
-  "count": 3,
+  "last_updated": "2026-02-14T14:29:59 PT",
+  "last_successful_run": "2026-02-14T14:29:59 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "THE JETS 80's & 90's Experience!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6641",
-      "date": "February 14th",
-      "image": "https://lv.houseseats.com/resources/media/6641.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
