@@ -436,7 +436,8 @@
         "2026-02-10",
         "2026-02-11",
         "2026-02-12",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-14"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -461,7 +462,8 @@
         "2026-02-10",
         "2026-02-11",
         "2026-02-12",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-14"
       ]
     },
     "HouseSeats|x country": {
@@ -522,6 +524,13 @@
       "source": "1stTix",
       "appearances": [
         "2026-02-13"
+      ]
+    },
+    "HouseSeats|the jets 80's & 90's experience!": {
+      "name": "THE JETS 80's & 90's Experience!",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-14"
       ]
     }
   }

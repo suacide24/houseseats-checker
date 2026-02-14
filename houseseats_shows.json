@@ -1,15 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-13T15:54:22 PT",
-  "last_successful_run": "2026-02-13T15:54:22 PT",
+  "last_updated": "2026-02-13T18:30:45 PT",
+  "last_successful_run": "2026-02-13T18:30:45 PT",
   "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Jamie Kennedy at Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
-      "date": "February 13th",
-      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
+      "name": "THE JETS 80's & 90's Experience!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6641",
+      "date": "February 14th",
+      "image": "https://lv.houseseats.com/resources/media/6641.jpg",
       "rare": true
     },
     {
