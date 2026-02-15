@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-14T22:02:45 PT",
-  "last_successful_run": "2026-02-14T22:02:45 PT",
-  "count": 2,
+  "last_updated": "2026-02-14T23:57:12 PT",
+  "last_successful_run": "2026-02-14T23:57:12 PT",
+  "count": 1,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "date": "February 15th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "February 15th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": true
     }
   ]
 }
