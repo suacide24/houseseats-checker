@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-15T11:30:33 PT",
-  "last_successful_run": "2026-02-15T11:30:33 PT",
-  "count": 2,
+  "last_updated": "2026-02-15T12:33:58 PT",
+  "last_successful_run": "2026-02-15T12:33:58 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,6 +19,14 @@
       "date": "February 15th",
       "image": "https://lv.houseseats.com/resources/media/9164.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Body Spa Salon - Hair by Patrick",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6690",
+      "date": "February 16th",
+      "image": "https://lv.houseseats.com/resources/media/6690.jpg",
+      "rare": true
     }
   ]
 }
