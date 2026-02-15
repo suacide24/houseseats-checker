@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-15T08:37:05 PT",
-  "last_successful_run": "2026-02-15T08:37:05 PT",
-  "count": 1,
+  "last_updated": "2026-02-15T09:54:49 PT",
+  "last_successful_run": "2026-02-15T09:54:49 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "February 15th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jamie Kennedy at Laugh Factory Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
+      "date": "February 15th",
+      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
       "rare": false
     }
   ]
