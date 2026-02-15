@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-15T12:33:58 PT",
-  "last_successful_run": "2026-02-15T12:33:58 PT",
+  "last_updated": "2026-02-15T13:30:26 PT",
+  "last_successful_run": "2026-02-15T13:30:26 PT",
   "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Farrell Dillon At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
-      "date": "February 15th",
-      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Jamie Kennedy at Laugh Factory Las Vegas",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=6690",
       "date": "February 16th",
       "image": "https://lv.houseseats.com/resources/media/6690.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Rant!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
+      "date": "February 19th",
+      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
       "rare": true
     }
   ]
