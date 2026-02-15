@@ -437,7 +437,8 @@
         "2026-02-11",
         "2026-02-12",
         "2026-02-13",
-        "2026-02-14"
+        "2026-02-14",
+        "2026-02-15"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -531,6 +532,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-14"
+      ]
+    },
+    "HouseSeats|chippendales at planet hollywood": {
+      "name": "Chippendales at Planet Hollywood",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-15"
       ]
     }
   }
