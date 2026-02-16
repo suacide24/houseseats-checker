@@ -1,15 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-16T10:52:27 PT",
-  "last_successful_run": "2026-02-16T10:52:27 PT",
+  "last_updated": "2026-02-16T11:34:57 PT",
+  "last_successful_run": "2026-02-16T11:34:57 PT",
   "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "The Body Spa Salon - Hair by Patrick",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6690",
-      "date": "February 18th",
-      "image": "https://lv.houseseats.com/resources/media/6690.jpg",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "February 16th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": true
     },
     {
