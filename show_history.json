@@ -130,7 +130,8 @@
         "2026-02-09",
         "2026-02-10",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|piff the magic dragon (las vegas)": {
@@ -138,7 +139,8 @@
       "source": "1stTix",
       "appearances": [
         "2026-02-08",
-        "2026-02-09"
+        "2026-02-09",
+        "2026-02-16"
       ]
     },
     "1stTix|awakening": {
@@ -148,7 +150,8 @@
         "2026-02-08",
         "2026-02-09",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|masters of magic": {
@@ -279,7 +282,8 @@
         "2026-02-09",
         "2026-02-10",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|the liuna": {
@@ -290,7 +294,8 @@
         "2026-02-09",
         "2026-02-10",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|pennzoil 400 pres by jiffy lube": {
@@ -301,7 +306,8 @@
         "2026-02-09",
         "2026-02-10",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|las vegas desert dogs - nll vs rochester knighthawks": {
@@ -356,7 +362,8 @@
         "2026-02-09",
         "2026-02-10",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|piff the magic dragon": {
@@ -410,7 +417,8 @@
       "appearances": [
         "2026-02-10",
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "HouseSeats|colin cloud: mastermind": {
@@ -479,7 +487,8 @@
       "source": "1stTix",
       "appearances": [
         "2026-02-11",
-        "2026-02-13"
+        "2026-02-13",
+        "2026-02-16"
       ]
     },
     "1stTix|art laboe love jam": {
@@ -558,16 +567,23 @@
         "2026-02-16"
       ]
     },
-    "HouseSeats|blue man group": {
-      "name": "Blue Man Group",
-      "source": "HouseSeats",
+    "1stTix|hansel & gretel": {
+      "name": "Hansel & Gretel",
+      "source": "1stTix",
       "appearances": [
         "2026-02-16"
       ]
     },
-    "HouseSeats|laugh factory las vegas": {
-      "name": "Laugh Factory Las Vegas",
-      "source": "HouseSeats",
+    "1stTix|the golden legends  burlesque skills challenge": {
+      "name": "The Golden Legends  Burlesque Skills Challenge",
+      "source": "1stTix",
+      "appearances": [
+        "2026-02-16"
+      ]
+    },
+    "1stTix|the heist at the balkan": {
+      "name": "The Heist at The Balkan",
+      "source": "1stTix",
       "appearances": [
         "2026-02-16"
       ]
