@@ -546,14 +546,16 @@
       "name": "The Body Spa Salon - Hair by Patrick",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-15"
+        "2026-02-15",
+        "2026-02-16"
       ]
     },
     "HouseSeats|the rant!": {
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-15"
+        "2026-02-15",
+        "2026-02-16"
       ]
     }
   }
