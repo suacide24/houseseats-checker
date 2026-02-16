@@ -587,6 +587,34 @@
       "appearances": [
         "2026-02-16"
       ]
+    },
+    "HouseSeats|blue man group": {
+      "name": "Blue Man Group",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-16"
+      ]
+    },
+    "HouseSeats|laugh factory las vegas": {
+      "name": "Laugh Factory Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-16"
+      ]
+    },
+    "HouseSeats|knockout!": {
+      "name": "Knockout!",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-16"
+      ]
+    },
+    "HouseSeats|chalmer, pull up reality, algorerhythm, and emerald empyre at tup": {
+      "name": "Chalmer, Pull Up Reality, Algorerhythm, and Emerald Empyre at TUP",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-16"
+      ]
     }
   }
 }
