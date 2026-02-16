@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-16T13:34:16 PT",
-  "last_successful_run": "2026-02-16T13:34:16 PT",
-  "count": 5,
+  "last_updated": "2026-02-16T14:34:36 PT",
+  "last_successful_run": "2026-02-16T14:34:36 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "February 19th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Knockout!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8145",
-      "date": "February 20th",
-      "image": "https://lv.houseseats.com/resources/media/8145.jpg",
       "rare": true
     },
     {
