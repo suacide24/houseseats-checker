@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-17T09:56:45 PT",
-  "last_successful_run": "2026-02-17T09:56:45 PT",
-  "count": 2,
+  "last_updated": "2026-02-17T11:08:58 PT",
+  "last_successful_run": "2026-02-17T11:08:58 PT",
+  "count": 3,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Donny Osmond",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7020",
+      "date": "February 18th",
+      "image": "https://lv.houseseats.com/resources/media/7020.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "The Rant!",
