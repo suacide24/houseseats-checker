@@ -618,6 +618,34 @@
         "2026-02-16",
         "2026-02-17"
       ]
+    },
+    "HouseSeats|pauly shore at wiseguys las vegas (town square)": {
+      "name": "Pauly Shore at Wiseguys Las Vegas (Town Square)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-17"
+      ]
+    },
+    "HouseSeats|bronco at primm valley resorts (primm)": {
+      "name": "Bronco at PRIMM VALLEY RESORTS (PRIMM)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-17"
+      ]
+    },
+    "HouseSeats|dumb human tricks": {
+      "name": "Dumb Human Tricks",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-17"
+      ]
+    },
+    "HouseSeats|rocklesque: alice in rockland": {
+      "name": "Rocklesque: Alice In Rockland",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-17"
+      ]
     }
   }
 }
