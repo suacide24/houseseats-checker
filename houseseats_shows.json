@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-17T14:41:41 PT",
-  "last_successful_run": "2026-02-17T14:41:41 PT",
+  "last_updated": "2026-02-17T15:34:50 PT",
+  "last_successful_run": "2026-02-17T15:34:50 PT",
   "count": 6,
   "shows": [
     {
@@ -30,10 +30,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Bronco at PRIMM VALLEY RESORTS (PRIMM)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9167",
-      "date": "February 21st",
-      "image": "https://lv.houseseats.com/resources/media/9167.jpg",
+      "name": "TEASE: A Burlesque Revue",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9168",
+      "date": "February 20th",
+      "image": "https://lv.houseseats.com/resources/media/9168.jpg",
       "rare": true
     },
     {
