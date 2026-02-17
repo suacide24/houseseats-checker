@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-16T15:34:42 PT",
-  "last_successful_run": "2026-02-16T15:34:42 PT",
-  "count": 4,
+  "last_updated": "2026-02-16T18:36:07 PT",
+  "last_successful_run": "2026-02-16T18:36:07 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "February 16th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
-      "date": "February 16th",
-      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The Rant!",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "February 19th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
