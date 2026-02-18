@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-17T18:40:11 PT",
-  "last_successful_run": "2026-02-17T18:40:11 PT",
-  "count": 7,
+  "last_updated": "2026-02-17T20:58:08 PT",
+  "last_successful_run": "2026-02-17T20:58:08 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
-      "date": "February 17th",
-      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
