@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-18T09:53:57 PT",
-  "last_successful_run": "2026-02-18T09:53:57 PT",
-  "count": 6,
+  "last_updated": "2026-02-18T11:02:50 PT",
+  "last_successful_run": "2026-02-18T11:02:50 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "February 18th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The Rant!",
