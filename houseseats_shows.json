@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-18T13:58:02 PT",
-  "last_successful_run": "2026-02-18T13:58:02 PT",
-  "count": 5,
+  "last_updated": "2026-02-18T14:44:36 PT",
+  "last_successful_run": "2026-02-18T14:44:36 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,14 +34,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
       "date": "February 21st",
       "image": "https://lv.houseseats.com/resources/media/8930.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Rocklesque: Alice In Rockland",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9166",
-      "date": "February 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9166.jpg",
       "rare": true
     }
   ]
