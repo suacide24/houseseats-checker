@@ -1,15 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-17T15:34:50 PT",
-  "last_successful_run": "2026-02-17T15:34:50 PT",
-  "count": 6,
+  "last_updated": "2026-02-17T18:40:11 PT",
+  "last_successful_run": "2026-02-17T18:40:11 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Pauly Shore at Wiseguys Las Vegas (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8344",
+      "name": "Laugh Factory Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
+      "date": "February 17th",
+      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
       "date": "February 18th",
-      "image": "https://lv.houseseats.com/resources/media/8344.jpg",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": true
     },
     {
@@ -26,7 +34,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9160",
       "date": "February 20th",
       "image": "https://lv.houseseats.com/resources/media/9160.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

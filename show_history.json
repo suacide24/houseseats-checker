@@ -479,7 +479,8 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-11"
+        "2026-02-11",
+        "2026-02-18"
       ]
     },
     "1stTix|punk rock brunch": {
@@ -566,7 +567,8 @@
       "appearances": [
         "2026-02-15",
         "2026-02-16",
-        "2026-02-17"
+        "2026-02-17",
+        "2026-02-18"
       ]
     },
     "1stTix|hansel & gretel": {
@@ -601,7 +603,8 @@
       "name": "Laugh Factory Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-16"
+        "2026-02-16",
+        "2026-02-18"
       ]
     },
     "HouseSeats|knockout!": {
@@ -616,7 +619,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-16",
-        "2026-02-17"
+        "2026-02-17",
+        "2026-02-18"
       ]
     },
     "HouseSeats|pauly shore at wiseguys las vegas (town square)": {
@@ -637,21 +641,24 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17"
+        "2026-02-17",
+        "2026-02-18"
       ]
     },
     "HouseSeats|rocklesque: alice in rockland": {
       "name": "Rocklesque: Alice In Rockland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17"
+        "2026-02-17",
+        "2026-02-18"
       ]
     },
     "HouseSeats|tease: a burlesque revue": {
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17"
+        "2026-02-17",
+        "2026-02-18"
       ]
     }
   }
