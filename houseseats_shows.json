@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-19T12:44:45 PT",
-  "last_successful_run": "2026-02-19T12:44:45 PT",
-  "count": 6,
+  "last_updated": "2026-02-19T13:38:08 PT",
+  "last_successful_run": "2026-02-19T13:38:08 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -46,11 +46,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Diva Royale",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7581",
+      "date": "February 21st",
+      "image": "https://lv.houseseats.com/resources/media/7581.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Dumb Human Tricks",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
       "date": "February 21st",
       "image": "https://lv.houseseats.com/resources/media/8930.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The 2026 World Series of Comedy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "date": "February 23rd",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
+      "rare": true
     }
   ]
 }

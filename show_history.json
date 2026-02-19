@@ -672,6 +672,20 @@
       "appearances": [
         "2026-02-19"
       ]
+    },
+    "HouseSeats|diva royale": {
+      "name": "Diva Royale",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-19"
+      ]
+    },
+    "HouseSeats|the 2026 world series of comedy": {
+      "name": "The 2026 World Series of Comedy",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-19"
+      ]
     }
   }
 }
