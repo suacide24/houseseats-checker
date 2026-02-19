@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-18T15:35:16 PT",
-  "last_successful_run": "2026-02-18T15:35:16 PT",
+  "last_updated": "2026-02-18T18:39:14 PT",
+  "last_successful_run": "2026-02-18T18:39:14 PT",
   "count": 4,
   "shows": [
     {
@@ -26,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9168",
       "date": "February 20th",
       "image": "https://lv.houseseats.com/resources/media/9168.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -34,7 +34,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
       "date": "February 21st",
       "image": "https://lv.houseseats.com/resources/media/8930.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
