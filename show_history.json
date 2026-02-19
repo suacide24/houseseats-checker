@@ -109,7 +109,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-08",
-        "2026-02-09"
+        "2026-02-09",
+        "2026-02-19"
       ]
     },
     "1stTix|david copperfield": {
@@ -662,6 +663,13 @@
       "appearances": [
         "2026-02-17",
         "2026-02-18",
+        "2026-02-19"
+      ]
+    },
+    "HouseSeats|the boyband remix": {
+      "name": "THE BOYBAND REMIX",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-02-19"
       ]
     }
