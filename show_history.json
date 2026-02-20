@@ -623,7 +623,8 @@
         "2026-02-16",
         "2026-02-17",
         "2026-02-18",
-        "2026-02-19"
+        "2026-02-19",
+        "2026-02-20"
       ]
     },
     "HouseSeats|pauly shore at wiseguys las vegas (town square)": {
@@ -646,7 +647,8 @@
       "appearances": [
         "2026-02-17",
         "2026-02-18",
-        "2026-02-19"
+        "2026-02-19",
+        "2026-02-20"
       ]
     },
     "HouseSeats|rocklesque: alice in rockland": {
@@ -663,7 +665,8 @@
       "appearances": [
         "2026-02-17",
         "2026-02-18",
-        "2026-02-19"
+        "2026-02-19",
+        "2026-02-20"
       ]
     },
     "HouseSeats|the boyband remix": {
@@ -677,14 +680,16 @@
       "name": "Diva Royale",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19"
+        "2026-02-19",
+        "2026-02-20"
       ]
     },
     "HouseSeats|the 2026 world series of comedy": {
       "name": "The 2026 World Series of Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19"
+        "2026-02-19",
+        "2026-02-20"
       ]
     }
   }
