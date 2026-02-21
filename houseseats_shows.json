@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-20T18:27:46 PT",
-  "last_successful_run": "2026-02-20T18:27:46 PT",
-  "count": 3,
+  "last_updated": "2026-02-20T20:17:47 PT",
+  "last_successful_run": "2026-02-20T20:17:47 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Diva Royale",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7581",
-      "date": "February 21st",
-      "image": "https://lv.houseseats.com/resources/media/7581.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Dumb Human Tricks",
