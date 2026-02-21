@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-21T12:31:30 PT",
-  "last_successful_run": "2026-02-21T12:31:30 PT",
-  "count": 3,
+  "last_updated": "2026-02-21T13:29:18 PT",
+  "last_successful_run": "2026-02-21T13:29:18 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,22 @@
       "date": "February 23rd",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Farrell Dillon At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
+      "date": "February 26th",
+      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Shark After Dark - Full House of Laughs",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
+      "date": "February 26th",
+      "image": "https://lv.houseseats.com/resources/media/9169.jpg",
+      "rare": true
     }
   ]
 }
