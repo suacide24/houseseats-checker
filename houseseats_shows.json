@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-20T15:33:20 PT",
-  "last_successful_run": "2026-02-20T15:33:20 PT",
-  "count": 5,
+  "last_updated": "2026-02-20T18:27:46 PT",
+  "last_successful_run": "2026-02-20T18:27:46 PT",
+  "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Chalmer, Pull Up Reality, Algorerhythm, and Emerald Empyre at TUP",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9160",
-      "date": "February 20th",
-      "image": "https://lv.houseseats.com/resources/media/9160.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "TEASE: A Burlesque Revue",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9168",
-      "date": "February 20th",
-      "image": "https://lv.houseseats.com/resources/media/9168.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Diva Royale",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7581",
       "date": "February 21st",
       "image": "https://lv.houseseats.com/resources/media/7581.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -42,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
       "date": "February 23rd",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }

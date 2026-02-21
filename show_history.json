@@ -648,7 +648,8 @@
         "2026-02-17",
         "2026-02-18",
         "2026-02-19",
-        "2026-02-20"
+        "2026-02-20",
+        "2026-02-21"
       ]
     },
     "HouseSeats|rocklesque: alice in rockland": {
@@ -681,7 +682,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-19",
-        "2026-02-20"
+        "2026-02-20",
+        "2026-02-21"
       ]
     },
     "HouseSeats|the 2026 world series of comedy": {
@@ -689,7 +691,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-19",
-        "2026-02-20"
+        "2026-02-20",
+        "2026-02-21"
       ]
     }
   }
