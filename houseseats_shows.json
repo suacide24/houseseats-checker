@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-21T13:50:11 PT",
-  "last_successful_run": "2026-02-21T13:50:11 PT",
-  "count": 5,
+  "last_updated": "2026-02-21T14:30:21 PT",
+  "last_successful_run": "2026-02-21T14:30:21 PT",
+  "count": 4,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "THE JETS 80's & 90's Experience!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6641",
-      "date": "February 21st",
-      "image": "https://lv.houseseats.com/resources/media/6641.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Dumb Human Tricks",
