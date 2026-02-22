@@ -713,6 +713,20 @@
       "appearances": [
         "2026-02-22"
       ]
+    },
+    "HouseSeats|sink or swim": {
+      "name": "Sink or Swim",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-22"
+      ]
+    },
+    "HouseSeats|y2k af": {
+      "name": "Y2K AF",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-22"
+      ]
     }
   }
 }

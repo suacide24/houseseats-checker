@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-22T12:33:13 PT",
-  "last_successful_run": "2026-02-22T12:33:13 PT",
-  "count": 4,
+  "last_updated": "2026-02-22T13:29:46 PT",
+  "last_successful_run": "2026-02-22T13:29:46 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,10 +30,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Sink or Swim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
+      "date": "February 26th",
+      "image": "https://lv.houseseats.com/resources/media/9136.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Shark After Dark - Full House of Laughs",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
       "date": "February 26th",
       "image": "https://lv.houseseats.com/resources/media/9169.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Y2K AF",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8446",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/8446.jpg",
       "rare": true
     }
   ]
