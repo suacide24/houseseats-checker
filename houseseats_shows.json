@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-21T15:51:16 PT",
-  "last_successful_run": "2026-02-21T15:51:16 PT",
-  "count": 4,
+  "last_updated": "2026-02-21T18:40:09 PT",
+  "last_successful_run": "2026-02-21T18:40:09 PT",
+  "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Dumb Human Tricks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
-      "date": "February 21st",
-      "image": "https://lv.houseseats.com/resources/media/8930.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The 2026 World Series of Comedy",
