@@ -732,6 +732,13 @@
         "2026-02-22",
         "2026-02-23"
       ]
+    },
+    "HouseSeats|tape face at mgm grand": {
+      "name": "Tape Face at MGM Grand",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-23"
+      ]
     }
   }
 }
