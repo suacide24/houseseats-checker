@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-23T14:49:02 PT",
-  "last_successful_run": "2026-02-23T14:49:02 PT",
-  "count": 8,
+  "last_updated": "2026-02-23T15:37:23 PT",
+  "last_successful_run": "2026-02-23T15:37:23 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "February 23rd",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The 2026 World Series of Comedy",
