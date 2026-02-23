@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-23T12:57:08 PT",
-  "last_successful_run": "2026-02-23T12:57:08 PT",
-  "count": 6,
+  "last_updated": "2026-02-23T13:55:47 PT",
+  "last_successful_run": "2026-02-23T13:55:47 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "date": "February 23rd",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "February 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -43,6 +35,22 @@
       "date": "February 26th",
       "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Von Clap Back Family Singers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
+      "date": "February 27th",
+      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Juniper Kills, Coffin Fit, One World (R)evolution, and Split Persona",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9161",
+      "date": "February 27th",
+      "image": "https://lv.houseseats.com/resources/media/9161.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
