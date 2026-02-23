@@ -449,7 +449,8 @@
         "2026-02-14",
         "2026-02-15",
         "2026-02-21",
-        "2026-02-22"
+        "2026-02-22",
+        "2026-02-23"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -696,7 +697,8 @@
         "2026-02-19",
         "2026-02-20",
         "2026-02-21",
-        "2026-02-22"
+        "2026-02-22",
+        "2026-02-23"
       ]
     },
     "HouseSeats|shark after dark - full house of laughs": {
@@ -704,7 +706,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-21",
-        "2026-02-22"
+        "2026-02-22",
+        "2026-02-23"
       ]
     },
     "HouseSeats|sam riddle\u2019s official single release party!": {
@@ -718,14 +721,16 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22"
+        "2026-02-22",
+        "2026-02-23"
       ]
     },
     "HouseSeats|y2k af": {
       "name": "Y2K AF",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22"
+        "2026-02-22",
+        "2026-02-23"
       ]
     }
   }

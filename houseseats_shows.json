@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-22T15:32:56 PT",
-  "last_successful_run": "2026-02-22T15:32:56 PT",
-  "count": 6,
+  "last_updated": "2026-02-22T18:40:31 PT",
+  "last_successful_run": "2026-02-22T18:40:31 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Sam Riddle\u2019s Official Single Release Party!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9174",
-      "date": "February 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9174.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The 2026 World Series of Comedy",
@@ -42,7 +34,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
       "date": "February 26th",
       "image": "https://lv.houseseats.com/resources/media/9169.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
