@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-24T11:09:28 PT",
-  "last_successful_run": "2026-02-24T11:09:28 PT",
-  "count": 7,
+  "last_updated": "2026-02-24T12:01:04 PT",
+  "last_successful_run": "2026-02-24T12:01:04 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,6 +11,14 @@
       "date": "February 24th",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9178",
+      "date": "February 25th",
+      "image": "https://lv.houseseats.com/resources/media/9178.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
