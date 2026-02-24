@@ -1,14 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-24T13:03:25 PT",
-  "last_successful_run": "2026-02-24T13:03:25 PT",
+  "last_updated": "2026-02-24T14:00:44 PT",
+  "last_successful_run": "2026-02-24T14:00:44 PT",
   "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "The 2026 World Series of Comedy",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "February 24th",
+      "date": "February 25th",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
