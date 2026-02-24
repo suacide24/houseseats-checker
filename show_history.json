@@ -774,6 +774,13 @@
       "appearances": [
         "2026-02-24"
       ]
+    },
+    "HouseSeats|scene stealers": {
+      "name": "Scene Stealers",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-24"
+      ]
     }
   }
 }

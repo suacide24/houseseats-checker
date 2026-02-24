@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-24T12:01:04 PT",
-  "last_successful_run": "2026-02-24T12:01:04 PT",
-  "count": 8,
+  "last_updated": "2026-02-24T13:03:25 PT",
+  "last_successful_run": "2026-02-24T13:03:25 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,6 +67,14 @@
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/8446.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Scene Stealers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": true
     }
   ]
 }
