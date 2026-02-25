@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-24T15:56:53 PT",
-  "last_successful_run": "2026-02-24T15:56:53 PT",
+  "last_updated": "2026-02-24T18:53:12 PT",
+  "last_successful_run": "2026-02-24T18:53:12 PT",
   "count": 9,
   "shows": [
     {
@@ -50,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "February 27th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -58,7 +58,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9161",
       "date": "February 27th",
       "image": "https://lv.houseseats.com/resources/media/9161.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

@@ -451,7 +451,8 @@
         "2026-02-21",
         "2026-02-22",
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -700,7 +701,8 @@
         "2026-02-21",
         "2026-02-22",
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|shark after dark - full house of laughs": {
@@ -710,7 +712,8 @@
         "2026-02-21",
         "2026-02-22",
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|sam riddle\u2019s official single release party!": {
@@ -726,7 +729,8 @@
       "appearances": [
         "2026-02-22",
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|y2k af": {
@@ -735,7 +739,8 @@
       "appearances": [
         "2026-02-22",
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|tape face at mgm grand": {
@@ -750,7 +755,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -758,7 +764,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-23",
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|mat franco": {
@@ -772,14 +779,16 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     },
     "HouseSeats|scene stealers": {
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24"
+        "2026-02-24",
+        "2026-02-25"
       ]
     }
   }
