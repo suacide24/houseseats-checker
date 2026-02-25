@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-25T11:59:28 PT",
-  "last_successful_run": "2026-02-25T11:59:28 PT",
-  "count": 9,
+  "last_updated": "2026-02-25T12:49:57 PT",
+  "last_successful_run": "2026-02-25T12:49:57 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -74,6 +74,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The MGM Slam at T-Mobile Arena",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9176",
+      "date": "March 1st",
+      "image": "https://lv.houseseats.com/resources/media/9176.jpg",
       "rare": true
     }
   ]
