@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-25T14:39:00 PT",
-  "last_successful_run": "2026-02-25T14:39:00 PT",
-  "count": 10,
+  "last_updated": "2026-02-25T18:33:35 PT",
+  "last_successful_run": "2026-02-25T18:33:35 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9178",
-      "date": "February 25th",
-      "image": "https://lv.houseseats.com/resources/media/9178.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
@@ -50,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "February 26th",
       "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -82,7 +74,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
