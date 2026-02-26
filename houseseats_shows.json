@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-26T14:41:46 PT",
-  "last_successful_run": "2026-02-26T14:41:46 PT",
-  "count": 12,
+  "last_updated": "2026-02-26T15:35:41 PT",
+  "last_successful_run": "2026-02-26T15:35:41 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Sink or Swim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
-      "date": "February 26th",
-      "image": "https://lv.houseseats.com/resources/media/9136.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tape Face at MGM Grand",
@@ -19,14 +11,6 @@
       "date": "February 26th",
       "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Shark After Dark - Full House of Laughs",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
-      "date": "February 26th",
-      "image": "https://lv.houseseats.com/resources/media/9169.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
