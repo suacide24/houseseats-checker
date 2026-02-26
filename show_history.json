@@ -789,7 +789,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-24",
-        "2026-02-25"
+        "2026-02-25",
+        "2026-02-26"
       ]
     },
     "HouseSeats|scene stealers": {
@@ -810,6 +811,13 @@
     },
     "HouseSeats|sweet home alabama - tribute to lynrd skynrd": {
       "name": "Sweet Home Alabama - Tribute to Lynrd Skynrd",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-26"
+      ]
+    },
+    "HouseSeats|phillip-michael scales at the smith center": {
+      "name": "Phillip-Michael Scales at The Smith Center",
       "source": "HouseSeats",
       "appearances": [
         "2026-02-26"

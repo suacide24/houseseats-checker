@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-26T12:01:50 PT",
-  "last_successful_run": "2026-02-26T12:01:50 PT",
-  "count": 9,
+  "last_updated": "2026-02-26T13:03:35 PT",
+  "last_successful_run": "2026-02-26T13:03:35 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,6 +35,14 @@
       "date": "February 26th",
       "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Phillip-Michael Scales at The Smith Center",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9181",
+      "date": "February 27th",
+      "image": "https://lv.houseseats.com/resources/media/9181.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -74,6 +82,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9178",
+      "date": "March 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9178.jpg",
       "rare": false
     }
   ]
