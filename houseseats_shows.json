@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-26T11:25:26 PT",
-  "last_successful_run": "2026-02-26T11:25:26 PT",
-  "count": 8,
+  "last_updated": "2026-02-26T12:01:50 PT",
+  "last_successful_run": "2026-02-26T12:01:50 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -51,6 +51,14 @@
       "date": "February 27th",
       "image": "https://lv.houseseats.com/resources/media/9161.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Sweet Home Alabama - Tribute to Lynrd Skynrd",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9180",
+      "date": "February 27th",
+      "image": "https://lv.houseseats.com/resources/media/9180.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
