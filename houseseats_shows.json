@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-27T15:29:47 PT",
-  "last_successful_run": "2026-02-27T15:29:47 PT",
-  "count": 11,
+  "last_updated": "2026-02-27T15:51:47 PT",
+  "last_successful_run": "2026-02-27T15:51:47 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Von Clap Back Family Singers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
-      "date": "February 27th",
-      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Juniper Kills, Coffin Fit, One World (R)evolution, and Split Persona",
