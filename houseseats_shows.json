@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-27T11:10:15 PT",
-  "last_successful_run": "2026-02-27T11:10:15 PT",
-  "count": 9,
+  "last_updated": "2026-02-27T11:55:07 PT",
+  "last_successful_run": "2026-02-27T11:55:07 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,6 +67,14 @@
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

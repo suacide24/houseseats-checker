@@ -844,6 +844,13 @@
       "appearances": [
         "2026-02-27"
       ]
+    },
+    "HouseSeats|x rocks": {
+      "name": "X ROCKS",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-27"
+      ]
     }
   }
 }
