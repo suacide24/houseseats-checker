@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-26T15:35:41 PT",
-  "last_successful_run": "2026-02-26T15:35:41 PT",
-  "count": 10,
+  "last_updated": "2026-02-26T18:32:20 PT",
+  "last_successful_run": "2026-02-26T18:32:20 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "February 26th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The 2026 World Series of Comedy",
@@ -19,14 +11,6 @@
       "date": "February 27th",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Phillip-Michael Scales at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9181",
-      "date": "February 27th",
-      "image": "https://lv.houseseats.com/resources/media/9181.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -43,14 +27,6 @@
       "date": "February 27th",
       "image": "https://lv.houseseats.com/resources/media/9161.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Sweet Home Alabama - Tribute to Lynrd Skynrd",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9180",
-      "date": "February 27th",
-      "image": "https://lv.houseseats.com/resources/media/9180.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
