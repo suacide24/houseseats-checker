@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-26T18:32:20 PT",
-  "last_successful_run": "2026-02-26T18:32:20 PT",
-  "count": 7,
+  "last_updated": "2026-02-26T20:48:59 PT",
+  "last_successful_run": "2026-02-26T20:48:59 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,11 +30,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Whisky Mixer - Improv Party Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
+      "date": "February 27th",
+      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "EIGHTIES THINGS: Stranger Things 80s Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9183",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/9183.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
