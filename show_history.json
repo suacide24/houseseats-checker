@@ -851,6 +851,13 @@
       "appearances": [
         "2026-02-27"
       ]
+    },
+    "HouseSeats|ladies night comedy show": {
+      "name": "Ladies Night Comedy Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-27"
+      ]
     }
   }
 }

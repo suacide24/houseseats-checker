@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-27T12:34:05 PT",
-  "last_successful_run": "2026-02-27T12:34:05 PT",
-  "count": 10,
+  "last_updated": "2026-02-27T13:33:55 PT",
+  "last_successful_run": "2026-02-27T13:33:55 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -83,6 +83,14 @@
       "date": "March 3rd",
       "image": "https://lv.houseseats.com/resources/media/9178.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ladies Night Comedy Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9177",
+      "date": "March 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9177.jpg",
+      "rare": true
     }
   ]
 }
