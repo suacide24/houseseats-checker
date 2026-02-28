@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-28T11:43:26 PT",
-  "last_successful_run": "2026-02-28T11:43:26 PT",
-  "count": 8,
+  "last_updated": "2026-02-28T12:31:31 PT",
+  "last_successful_run": "2026-02-28T12:31:31 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -50,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9176",
       "date": "March 1st",
       "image": "https://lv.houseseats.com/resources/media/9176.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "March 1st",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": true
     },
     {
