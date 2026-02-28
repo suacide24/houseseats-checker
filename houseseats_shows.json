@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-27T21:56:39 PT",
-  "last_successful_run": "2026-02-27T21:56:39 PT",
-  "count": 7,
+  "last_updated": "2026-02-27T22:52:08 PT",
+  "last_successful_run": "2026-02-27T22:52:08 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,14 +35,6 @@
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Matt Donnelly - The Mind Noodler",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
-      "date": "March 1st",
-      "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
