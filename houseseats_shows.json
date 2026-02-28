@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-28T12:31:31 PT",
-  "last_successful_run": "2026-02-28T12:31:31 PT",
-  "count": 9,
+  "last_updated": "2026-02-28T13:26:58 PT",
+  "last_successful_run": "2026-02-28T13:26:58 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -54,10 +54,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "March 1st",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "name": "Matt Donnelly - The Mind Noodler",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
+      "date": "March 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9185.jpg",
       "rare": true
     },
     {
@@ -74,6 +74,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9177",
       "date": "March 3rd",
       "image": "https://lv.houseseats.com/resources/media/9177.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jazz Vegas Orchestra Live",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7671",
+      "date": "March 4th",
+      "image": "https://lv.houseseats.com/resources/media/7671.jpg",
       "rare": true
     }
   ]
