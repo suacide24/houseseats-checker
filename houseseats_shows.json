@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-28T13:45:39 PT",
-  "last_successful_run": "2026-02-28T13:45:39 PT",
-  "count": 10,
+  "last_updated": "2026-02-28T14:28:27 PT",
+  "last_successful_run": "2026-02-28T14:28:27 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "THE JETS 80's & 90's Experience!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6641",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/6641.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "EIGHTIES THINGS: Stranger Things 80s Night",
