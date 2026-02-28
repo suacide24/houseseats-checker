@@ -1,9 +1,25 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-28T09:25:06 PT",
-  "last_successful_run": "2026-02-28T09:25:06 PT",
-  "count": 6,
+  "last_updated": "2026-02-28T09:46:26 PT",
+  "last_successful_run": "2026-02-28T09:46:26 PT",
+  "count": 8,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Allstars of Magic",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9112",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/9112.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "THE JETS 80's & 90's Experience!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6641",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/6641.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "EIGHTIES THINGS: Stranger Things 80s Night",

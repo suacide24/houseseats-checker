@@ -552,7 +552,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-14",
-        "2026-02-21"
+        "2026-02-21",
+        "2026-02-28"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -873,6 +874,13 @@
     },
     "HouseSeats|matt donnelly - the mind noodler": {
       "name": "Matt Donnelly - The Mind Noodler",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-02-28"
+      ]
+    },
+    "HouseSeats|allstars of magic": {
+      "name": "Allstars of Magic",
       "source": "HouseSeats",
       "appearances": [
         "2026-02-28"
