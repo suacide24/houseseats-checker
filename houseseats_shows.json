@@ -1,47 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-27T15:51:47 PT",
-  "last_successful_run": "2026-02-27T15:51:47 PT",
-  "count": 10,
+  "last_updated": "2026-02-27T18:21:54 PT",
+  "last_successful_run": "2026-02-27T18:21:54 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Juniper Kills, Coffin Fit, One World (R)evolution, and Split Persona",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9161",
-      "date": "February 27th",
-      "image": "https://lv.houseseats.com/resources/media/9161.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "February 27th",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Farrell Dillon At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The 2026 World Series of Comedy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "EIGHTIES THINGS: Stranger Things 80s Night",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9183",
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9183.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Guerrilla Radio - A Night of Musical Chaos",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9184",
+      "date": "February 28th",
+      "image": "https://lv.houseseats.com/resources/media/9184.jpg",
       "rare": true
     },
     {
@@ -62,10 +38,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "name": "Matt Donnelly - The Mind Noodler",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
+      "date": "March 1st",
+      "image": "https://lv.houseseats.com/resources/media/9185.jpg",
       "rare": true
     },
     {
