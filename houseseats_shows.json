@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-28T14:28:27 PT",
-  "last_successful_run": "2026-02-28T14:28:27 PT",
-  "count": 9,
+  "last_updated": "2026-02-28T14:50:39 PT",
+  "last_successful_run": "2026-02-28T14:50:39 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "date": "February 28th",
       "image": "https://lv.houseseats.com/resources/media/9184.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Y2K AF",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8446",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/8446.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
