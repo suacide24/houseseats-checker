@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-01T14:53:48 PT",
-  "last_successful_run": "2026-03-01T14:53:48 PT",
-  "count": 6,
+  "last_updated": "2026-03-01T15:29:35 PT",
+  "last_successful_run": "2026-03-01T15:29:35 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "March 1st",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
