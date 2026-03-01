@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-01T12:33:16 PT",
-  "last_successful_run": "2026-03-01T12:33:16 PT",
-  "count": 4,
+  "last_updated": "2026-03-01T13:28:26 PT",
+  "last_successful_run": "2026-03-01T13:28:26 PT",
+  "count": 7,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "March 1st",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Blue Man Group",
@@ -30,10 +38,26 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Jazz Vegas Orchestra Live",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7671",
-      "date": "March 4th",
-      "image": "https://lv.houseseats.com/resources/media/7671.jpg",
+      "name": "Matt Donnelly - The Mind Noodler",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
+      "date": "March 5th",
+      "image": "https://lv.houseseats.com/resources/media/9185.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nirvana Mania: A Tribute To Nirvana",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=5034",
+      "date": "March 6th",
+      "image": "https://lv.houseseats.com/resources/media/5034.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beetlejuice JR.",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9172",
+      "date": "March 6th",
+      "image": "https://lv.houseseats.com/resources/media/9172.jpg",
       "rare": true
     }
   ]

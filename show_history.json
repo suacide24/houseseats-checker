@@ -762,7 +762,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-23",
-        "2026-02-26"
+        "2026-02-26",
+        "2026-03-01"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -897,6 +898,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-28",
+        "2026-03-01"
+      ]
+    },
+    "HouseSeats|nirvana mania: a tribute to nirvana": {
+      "name": "Nirvana Mania: A Tribute To Nirvana",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-01"
+      ]
+    },
+    "HouseSeats|beetlejuice jr.": {
+      "name": "Beetlejuice JR.",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-03-01"
       ]
     }
