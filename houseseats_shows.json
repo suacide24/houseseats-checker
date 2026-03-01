@@ -1,33 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-28T15:47:15 PT",
-  "last_successful_run": "2026-02-28T15:47:15 PT",
-  "count": 7,
+  "last_updated": "2026-02-28T18:47:16 PT",
+  "last_successful_run": "2026-02-28T18:47:16 PT",
+  "count": 4,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "EIGHTIES THINGS: Stranger Things 80s Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9183",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/9183.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Guerrilla Radio - A Night of Musical Chaos",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9184",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/9184.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Scene Stealers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
-      "date": "February 28th",
-      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Matt Donnelly - The Mind Noodler",
@@ -50,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9177",
       "date": "March 3rd",
       "image": "https://lv.houseseats.com/resources/media/9177.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
