@@ -804,7 +804,8 @@
         "2026-02-26",
         "2026-02-27",
         "2026-02-28",
-        "2026-03-01"
+        "2026-03-01",
+        "2026-03-02"
       ]
     },
     "HouseSeats|scene stealers": {
@@ -868,7 +869,8 @@
       "appearances": [
         "2026-02-27",
         "2026-02-28",
-        "2026-03-01"
+        "2026-03-01",
+        "2026-03-02"
       ]
     },
     "HouseSeats|guerrilla radio - a night of musical chaos": {
@@ -883,7 +885,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-28",
-        "2026-03-01"
+        "2026-03-01",
+        "2026-03-02"
       ]
     },
     "HouseSeats|allstars of magic": {
@@ -905,14 +908,16 @@
       "name": "Nirvana Mania: A Tribute To Nirvana",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-01"
+        "2026-03-01",
+        "2026-03-02"
       ]
     },
     "HouseSeats|beetlejuice jr.": {
       "name": "Beetlejuice JR.",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-01"
+        "2026-03-01",
+        "2026-03-02"
       ]
     }
   }

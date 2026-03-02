@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-01T15:51:12 PT",
-  "last_successful_run": "2026-03-01T15:51:12 PT",
+  "last_updated": "2026-03-01T18:35:00 PT",
+  "last_successful_run": "2026-03-01T18:35:00 PT",
   "count": 5,
   "shows": [
     {
@@ -26,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 5th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
