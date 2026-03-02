@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-02T11:58:37 PT",
-  "last_successful_run": "2026-03-02T11:58:37 PT",
-  "count": 5,
+  "last_updated": "2026-03-02T12:48:51 PT",
+  "last_successful_run": "2026-03-02T12:48:51 PT",
+  "count": 8,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "FANTASY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
+      "date": "March 2nd",
+      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -22,11 +30,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "March 4th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Matt Donnelly - The Mind Noodler",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 5th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Addams Family",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9186",
+      "date": "March 5th",
+      "image": "https://lv.houseseats.com/resources/media/9186.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
