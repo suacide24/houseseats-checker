@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-02T12:48:51 PT",
-  "last_successful_run": "2026-03-02T12:48:51 PT",
-  "count": 8,
+  "last_updated": "2026-03-02T13:39:18 PT",
+  "last_successful_run": "2026-03-02T13:39:18 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -50,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9186",
       "date": "March 5th",
       "image": "https://lv.houseseats.com/resources/media/9186.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "PB&J: A Duo Improv Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9064",
+      "date": "March 5th",
+      "image": "https://lv.houseseats.com/resources/media/9064.jpg",
       "rare": true
     },
     {
