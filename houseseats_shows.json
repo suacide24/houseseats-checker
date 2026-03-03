@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-02T18:37:57 PT",
-  "last_successful_run": "2026-03-02T18:37:57 PT",
-  "count": 9,
+  "last_updated": "2026-03-02T20:50:23 PT",
+  "last_successful_run": "2026-03-02T20:50:23 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "FANTASY",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
-      "date": "March 2nd",
-      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
