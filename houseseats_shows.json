@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-03T10:06:22 PT",
-  "last_successful_run": "2026-03-03T10:06:22 PT",
-  "count": 11,
+  "last_updated": "2026-03-03T11:23:54 PT",
+  "last_successful_run": "2026-03-03T11:23:54 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "March 3rd",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -30,26 +22,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "March 3rd",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Blue Man Group",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
       "date": "March 3rd",
       "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "March 4th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
