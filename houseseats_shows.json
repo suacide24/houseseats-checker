@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-03T11:23:54 PT",
-  "last_successful_run": "2026-03-03T11:23:54 PT",
-  "count": 8,
+  "last_updated": "2026-03-03T11:58:10 PT",
+  "last_successful_run": "2026-03-03T11:58:10 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9177",
       "date": "March 3rd",
       "image": "https://lv.houseseats.com/resources/media/9177.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "March 3rd",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
