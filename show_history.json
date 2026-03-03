@@ -564,7 +564,8 @@
         "2026-02-15",
         "2026-02-25",
         "2026-02-26",
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|the body spa salon - hair by patrick": {
@@ -807,7 +808,8 @@
         "2026-02-27",
         "2026-02-28",
         "2026-03-01",
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|scene stealers": {
@@ -872,7 +874,8 @@
         "2026-02-27",
         "2026-02-28",
         "2026-03-01",
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|guerrilla radio - a night of musical chaos": {
@@ -888,7 +891,8 @@
       "appearances": [
         "2026-02-28",
         "2026-03-01",
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|allstars of magic": {
@@ -911,7 +915,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-01",
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|beetlejuice jr.": {
@@ -919,28 +924,32 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-01",
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|fantasy": {
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|the addams family": {
       "name": "The Addams Family",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     },
     "HouseSeats|pb&j: a duo improv show": {
       "name": "PB&J: A Duo Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-02"
+        "2026-03-02",
+        "2026-03-03"
       ]
     }
   }
