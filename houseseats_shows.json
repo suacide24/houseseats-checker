@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-04T14:37:21 PT",
-  "last_successful_run": "2026-03-04T14:37:21 PT",
-  "count": 7,
+  "last_updated": "2026-03-04T15:35:30 PT",
+  "last_successful_run": "2026-03-04T15:35:30 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "March 4th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "PB&J: A Duo Improv Show",
@@ -34,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 6th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Addams Family",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9186",
-      "date": "March 6th",
-      "image": "https://lv.houseseats.com/resources/media/9186.jpg",
       "rare": false
     },
     {
