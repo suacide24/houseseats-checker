@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-03T18:30:36 PT",
-  "last_successful_run": "2026-03-03T18:30:36 PT",
+  "last_updated": "2026-03-03T20:44:24 PT",
+  "last_successful_run": "2026-03-03T20:44:24 PT",
   "count": 5,
   "shows": [
     {
@@ -22,14 +22,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Addams Family",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9186",
-      "date": "March 6th",
-      "image": "https://lv.houseseats.com/resources/media/9186.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Nirvana Mania: A Tribute To Nirvana",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=5034",
       "date": "March 6th",
@@ -42,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9172",
       "date": "March 6th",
       "image": "https://lv.houseseats.com/resources/media/9172.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Addams Family",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9186",
+      "date": "March 7th",
+      "image": "https://lv.houseseats.com/resources/media/9186.jpg",
       "rare": false
     }
   ]
