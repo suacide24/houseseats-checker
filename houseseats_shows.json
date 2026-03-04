@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-04T11:58:43 PT",
-  "last_successful_run": "2026-03-04T11:58:43 PT",
-  "count": 5,
+  "last_updated": "2026-03-04T12:43:27 PT",
+  "last_successful_run": "2026-03-04T12:43:27 PT",
+  "count": 7,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "March 4th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "PB&J: A Duo Improv Show",
@@ -11,6 +19,14 @@
       "date": "March 5th",
       "image": "https://lv.houseseats.com/resources/media/9064.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "March 5th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
