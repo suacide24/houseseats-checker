@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-05T14:37:43 PT",
-  "last_successful_run": "2026-03-05T14:37:43 PT",
-  "count": 6,
+  "last_updated": "2026-03-05T15:54:35 PT",
+  "last_successful_run": "2026-03-05T15:54:35 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,22 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
       "date": "March 5th",
       "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "PB&J: A Duo Improv Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9064",
-      "date": "March 5th",
-      "image": "https://lv.houseseats.com/resources/media/9064.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "March 5th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -48,7 +32,7 @@
       "source": "HouseSeats",
       "name": "Matt Donnelly - The Mind Noodler",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
-      "date": "March 7th",
+      "date": "March 8th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
       "rare": false
     }
