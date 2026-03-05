@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-05T12:42:34 PT",
-  "last_successful_run": "2026-03-05T12:42:34 PT",
+  "last_updated": "2026-03-05T13:41:15 PT",
+  "last_successful_run": "2026-03-05T13:41:15 PT",
   "count": 6,
   "shows": [
     {
@@ -22,10 +22,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "March 5th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
