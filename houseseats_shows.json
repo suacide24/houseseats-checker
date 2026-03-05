@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-04T15:35:30 PT",
-  "last_successful_run": "2026-03-04T15:35:30 PT",
-  "count": 5,
+  "last_updated": "2026-03-04T18:33:29 PT",
+  "last_successful_run": "2026-03-04T18:33:29 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "date": "March 5th",
       "image": "https://lv.houseseats.com/resources/media/9064.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "March 5th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
