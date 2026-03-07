@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-07T12:31:40 PT",
-  "last_successful_run": "2026-03-07T12:31:40 PT",
-  "count": 4,
+  "last_updated": "2026-03-07T13:26:53 PT",
+  "last_successful_run": "2026-03-07T13:26:53 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,6 +34,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9192",
       "date": "March 9th",
       "image": "https://lv.houseseats.com/resources/media/9192.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Heist \u2013 A Musical Takeover at The Balkan",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8938",
+      "date": "March 12th",
+      "image": "https://lv.houseseats.com/resources/media/8938.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Shark After Dark - A Rooftop Comedy Experience",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
+      "date": "March 12th",
+      "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": true
     }
   ]
