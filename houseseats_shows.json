@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-08T09:36:01 PT",
-  "last_successful_run": "2026-03-08T09:36:01 PT",
-  "count": 5,
+  "last_updated": "2026-03-08T10:27:58 PT",
+  "last_successful_run": "2026-03-08T10:27:58 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 8th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "FANTASY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
+      "date": "March 8th",
+      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
       "rare": false
     },
     {
