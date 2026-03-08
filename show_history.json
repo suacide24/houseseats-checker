@@ -906,7 +906,8 @@
         "2026-03-04",
         "2026-03-05",
         "2026-03-06",
-        "2026-03-07"
+        "2026-03-07",
+        "2026-03-08"
       ]
     },
     "HouseSeats|allstars of magic": {
@@ -946,7 +947,8 @@
         "2026-03-04",
         "2026-03-05",
         "2026-03-06",
-        "2026-03-07"
+        "2026-03-07",
+        "2026-03-08"
       ]
     },
     "HouseSeats|fantasy": {
@@ -981,21 +983,24 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-06",
-        "2026-03-07"
+        "2026-03-07",
+        "2026-03-08"
       ]
     },
     "HouseSeats|the heist \u2013 a musical takeover at the balkan": {
       "name": "The Heist \u2013 A Musical Takeover at The Balkan",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07"
+        "2026-03-07",
+        "2026-03-08"
       ]
     },
     "HouseSeats|shark after dark - a rooftop comedy experience": {
       "name": "Shark After Dark - A Rooftop Comedy Experience",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07"
+        "2026-03-07",
+        "2026-03-08"
       ]
     }
   }
