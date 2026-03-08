@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-08T11:41:36 PT",
-  "last_successful_run": "2026-03-08T11:41:36 PT",
-  "count": 6,
+  "last_updated": "2026-03-08T12:27:58 PT",
+  "last_successful_run": "2026-03-08T12:27:58 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Beetlejuice JR.",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9172",
-      "date": "March 8th",
-      "image": "https://lv.houseseats.com/resources/media/9172.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Matt Donnelly - The Mind Noodler",
