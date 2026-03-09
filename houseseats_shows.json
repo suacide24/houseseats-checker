@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-09T10:25:16 PT",
-  "last_successful_run": "2026-03-09T10:25:16 PT",
-  "count": 5,
+  "last_updated": "2026-03-09T11:07:46 PT",
+  "last_successful_run": "2026-03-09T11:07:46 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 9th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "March 10th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
