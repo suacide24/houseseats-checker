@@ -1015,6 +1015,13 @@
       "appearances": [
         "2026-03-09"
       ]
+    },
+    "HouseSeats|secrets secrets": {
+      "name": "Secrets Secrets",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-09"
+      ]
     }
   }
 }
