@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-09T11:07:46 PT",
-  "last_successful_run": "2026-03-09T11:07:46 PT",
-  "count": 4,
+  "last_updated": "2026-03-09T12:23:10 PT",
+  "last_successful_run": "2026-03-09T12:23:10 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "date": "March 12th",
       "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9194",
-      "date": "March 14th",
-      "image": "https://lv.houseseats.com/resources/media/9194.jpg",
-      "rare": true
     }
   ]
 }
