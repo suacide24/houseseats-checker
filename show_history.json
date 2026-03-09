@@ -1007,6 +1007,13 @@
         "2026-03-08",
         "2026-03-09"
       ]
+    },
+    "HouseSeats|banda los recoditos at primm valley resorts (primm)": {
+      "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-09"
+      ]
     }
   }
 }

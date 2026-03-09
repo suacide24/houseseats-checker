@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-09T07:30:40 PT",
-  "last_successful_run": "2026-03-09T07:30:40 PT",
+  "last_updated": "2026-03-09T09:02:54 PT",
+  "last_successful_run": "2026-03-09T09:02:54 PT",
   "count": 4,
   "shows": [
     {
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 9th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Italian-American Comedy Show with Ed Regine",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9192",
-      "date": "March 9th",
-      "image": "https://lv.houseseats.com/resources/media/9192.jpg",
       "rare": false
     },
     {
@@ -35,6 +27,14 @@
       "date": "March 12th",
       "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9194",
+      "date": "March 14th",
+      "image": "https://lv.houseseats.com/resources/media/9194.jpg",
+      "rare": true
     }
   ]
 }
