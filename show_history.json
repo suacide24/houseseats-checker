@@ -1024,6 +1024,13 @@
         "2026-03-09",
         "2026-03-10"
       ]
+    },
+    "HouseSeats|nevada ballet theatre: legends & luminaries": {
+      "name": "Nevada Ballet Theatre: Legends & Luminaries",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-10"
+      ]
     }
   }
 }

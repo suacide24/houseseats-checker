@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-10T10:56:28 PT",
-  "last_successful_run": "2026-03-10T10:56:28 PT",
-  "count": 2,
+  "last_updated": "2026-03-10T12:01:33 PT",
+  "last_successful_run": "2026-03-10T12:01:33 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9135",
       "date": "March 13th",
       "image": "https://lv.houseseats.com/resources/media/9135.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nevada Ballet Theatre: Legends & Luminaries",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9190",
+      "date": "March 14th",
+      "image": "https://lv.houseseats.com/resources/media/9190.jpg",
       "rare": true
     }
   ]
