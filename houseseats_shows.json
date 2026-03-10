@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-10T12:01:33 PT",
-  "last_successful_run": "2026-03-10T12:01:33 PT",
+  "last_updated": "2026-03-10T12:59:03 PT",
+  "last_successful_run": "2026-03-10T12:59:03 PT",
   "count": 3,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "March 10th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Matt Donnelly - The Mind Noodler",
@@ -18,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9135",
       "date": "March 13th",
       "image": "https://lv.houseseats.com/resources/media/9135.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Nevada Ballet Theatre: Legends & Luminaries",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9190",
-      "date": "March 14th",
-      "image": "https://lv.houseseats.com/resources/media/9190.jpg",
       "rare": true
     }
   ]
