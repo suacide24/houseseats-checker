@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-11T13:00:17 PT",
-  "last_successful_run": "2026-03-11T13:00:17 PT",
+  "last_updated": "2026-03-11T13:58:26 PT",
+  "last_successful_run": "2026-03-11T13:58:26 PT",
   "count": 5,
   "shows": [
     {
@@ -38,11 +38,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "name": "Nevada Ballet Theatre: Legends & Luminaries",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9190",
       "date": "March 15th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9190.jpg",
+      "rare": true
     }
   ]
 }
