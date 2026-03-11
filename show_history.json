@@ -113,7 +113,8 @@
       "appearances": [
         "2026-02-08",
         "2026-02-09",
-        "2026-02-19"
+        "2026-02-19",
+        "2026-03-11"
       ]
     },
     "1stTix|david copperfield": {
@@ -1040,6 +1041,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-10",
+        "2026-03-11"
+      ]
+    },
+    "HouseSeats|franky perez and the all nighters": {
+      "name": "Franky Perez and the All Nighters",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-11"
+      ]
+    },
+    "HouseSeats|ivan kane's forty deuce burlesque show": {
+      "name": "Ivan Kane's Forty Deuce Burlesque Show",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-03-11"
       ]
     }
