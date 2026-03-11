@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-11T14:42:41 PT",
-  "last_successful_run": "2026-03-11T14:42:41 PT",
-  "count": 6,
+  "last_updated": "2026-03-11T15:31:55 PT",
+  "last_successful_run": "2026-03-11T15:31:55 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -42,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9189",
       "date": "March 14th",
       "image": "https://lv.houseseats.com/resources/media/9189.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Palmer Squares",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9198",
+      "date": "March 14th",
+      "image": "https://lv.houseseats.com/resources/media/9198.jpg",
       "rare": true
     },
     {
