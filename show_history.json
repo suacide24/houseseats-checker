@@ -911,7 +911,8 @@
         "2026-03-07",
         "2026-03-08",
         "2026-03-09",
-        "2026-03-10"
+        "2026-03-10",
+        "2026-03-11"
       ]
     },
     "HouseSeats|allstars of magic": {
@@ -1023,7 +1024,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-09",
-        "2026-03-10"
+        "2026-03-10",
+        "2026-03-11"
       ]
     },
     "HouseSeats|nevada ballet theatre: legends & luminaries": {
@@ -1037,7 +1039,8 @@
       "name": "When Women Women: An improv show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-10"
+        "2026-03-10",
+        "2026-03-11"
       ]
     }
   }
