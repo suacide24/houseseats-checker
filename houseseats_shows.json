@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-11T09:27:33 PT",
-  "last_successful_run": "2026-03-11T09:27:33 PT",
-  "count": 5,
+  "last_updated": "2026-03-11T10:29:01 PT",
+  "last_successful_run": "2026-03-11T10:29:01 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
       "date": "March 12th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "March 12th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
