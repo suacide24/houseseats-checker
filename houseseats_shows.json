@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-11T13:58:26 PT",
-  "last_successful_run": "2026-03-11T13:58:26 PT",
-  "count": 5,
+  "last_updated": "2026-03-11T14:42:41 PT",
+  "last_successful_run": "2026-03-11T14:42:41 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9195",
       "date": "March 11th",
       "image": "https://lv.houseseats.com/resources/media/9195.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Grieves \u2013 OUT COLD TOUR 4",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9197",
+      "date": "March 11th",
+      "image": "https://lv.houseseats.com/resources/media/9197.jpg",
       "rare": true
     },
     {
