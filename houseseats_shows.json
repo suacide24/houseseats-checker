@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-11T15:31:55 PT",
-  "last_successful_run": "2026-03-11T15:31:55 PT",
-  "count": 7,
+  "last_updated": "2026-03-11T16:31:28 PT",
+  "last_successful_run": "2026-03-11T16:31:28 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Franky Perez and the All Nighters",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9195",
-      "date": "March 11th",
-      "image": "https://lv.houseseats.com/resources/media/9195.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Grieves \u2013 OUT COLD TOUR 4",
@@ -27,6 +19,14 @@
       "date": "March 12th",
       "image": "https://lv.houseseats.com/resources/media/9185.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Franky Perez and the All Nighters",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9195",
+      "date": "March 12th",
+      "image": "https://lv.houseseats.com/resources/media/9195.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -50,14 +50,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9198",
       "date": "March 14th",
       "image": "https://lv.houseseats.com/resources/media/9198.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Nevada Ballet Theatre: Legends & Luminaries",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9190",
-      "date": "March 15th",
-      "image": "https://lv.houseseats.com/resources/media/9190.jpg",
       "rare": true
     }
   ]
