@@ -1079,6 +1079,13 @@
         "2026-03-11",
         "2026-03-12"
       ]
+    },
+    "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-12"
+      ]
     }
   }
 }
