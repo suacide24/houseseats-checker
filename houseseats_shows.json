@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-12T13:49:04 PT",
-  "last_successful_run": "2026-03-12T13:49:04 PT",
-  "count": 7,
+  "last_updated": "2026-03-12T14:38:34 PT",
+  "last_successful_run": "2026-03-12T14:38:34 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "March 12th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Franky Perez and the All Nighters",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9195",
-      "date": "March 12th",
-      "image": "https://lv.houseseats.com/resources/media/9195.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
@@ -30,34 +14,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Matt Donnelly - The Mind Noodler",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9185",
-      "date": "March 13th",
-      "image": "https://lv.houseseats.com/resources/media/9185.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9194",
       "date": "March 14th",
       "image": "https://lv.houseseats.com/resources/media/9194.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "When Women Women: An improv show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9189",
-      "date": "March 14th",
-      "image": "https://lv.houseseats.com/resources/media/9189.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Palmer Squares",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9198",
-      "date": "March 14th",
-      "image": "https://lv.houseseats.com/resources/media/9198.jpg",
       "rare": true
     }
   ]
