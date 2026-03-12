@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-11T16:31:28 PT",
-  "last_successful_run": "2026-03-11T16:31:28 PT",
+  "last_updated": "2026-03-11T19:35:14 PT",
+  "last_successful_run": "2026-03-11T19:35:14 PT",
   "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Grieves \u2013 OUT COLD TOUR 4",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9197",
-      "date": "March 11th",
-      "image": "https://lv.houseseats.com/resources/media/9197.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Matt Donnelly - The Mind Noodler",
@@ -38,11 +30,19 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9194",
+      "date": "March 14th",
+      "image": "https://lv.houseseats.com/resources/media/9194.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "When Women Women: An improv show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9189",
       "date": "March 14th",
       "image": "https://lv.houseseats.com/resources/media/9189.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
