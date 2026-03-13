@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-13T10:07:27 PT",
-  "last_successful_run": "2026-03-13T10:07:27 PT",
-  "count": 2,
+  "last_updated": "2026-03-13T11:01:12 PT",
+  "last_successful_run": "2026-03-13T11:01:12 PT",
+  "count": 3,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "March 13th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
