@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-12T16:33:30 PT",
-  "last_successful_run": "2026-03-12T16:33:30 PT",
+  "last_updated": "2026-03-12T19:33:10 PT",
+  "last_successful_run": "2026-03-12T19:33:10 PT",
   "count": 2,
   "shows": [
     {
@@ -10,7 +10,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
       "date": "March 13th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -18,7 +18,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9194",
       "date": "March 14th",
       "image": "https://lv.houseseats.com/resources/media/9194.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
