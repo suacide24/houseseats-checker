@@ -1022,7 +1022,8 @@
       "appearances": [
         "2026-03-09",
         "2026-03-12",
-        "2026-03-13"
+        "2026-03-13",
+        "2026-03-14"
       ]
     },
     "HouseSeats|secrets secrets": {
@@ -1065,7 +1066,8 @@
       "appearances": [
         "2026-03-11",
         "2026-03-12",
-        "2026-03-13"
+        "2026-03-13",
+        "2026-03-14"
       ]
     },
     "HouseSeats|grieves \u2013 out cold tour 4": {
@@ -1088,6 +1090,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-12"
+      ]
+    },
+    "HouseSeats|punk rock invasion": {
+      "name": "PUNK ROCK INVASION",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-14"
       ]
     }
   }
