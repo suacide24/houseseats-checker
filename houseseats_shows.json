@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-14T11:47:06 PT",
-  "last_successful_run": "2026-03-14T11:47:06 PT",
+  "last_updated": "2026-03-14T12:31:55 PT",
+  "last_successful_run": "2026-03-14T12:31:55 PT",
   "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "PUNK ROCK INVASION",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9201",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "March 14th",
-      "image": "https://lv.houseseats.com/resources/media/9201.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
