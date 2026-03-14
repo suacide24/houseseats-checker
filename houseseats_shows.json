@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-14T13:34:55 PT",
-  "last_successful_run": "2026-03-14T13:34:55 PT",
-  "count": 3,
+  "last_updated": "2026-03-14T14:32:17 PT",
+  "last_successful_run": "2026-03-14T14:32:17 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9194",
-      "date": "March 14th",
-      "image": "https://lv.houseseats.com/resources/media/9194.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
