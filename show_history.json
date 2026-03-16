@@ -1106,14 +1106,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-14",
-        "2026-03-15"
+        "2026-03-15",
+        "2026-03-16"
       ]
     },
     "HouseSeats|dcom: live! (a night of disney channel hits!)": {
       "name": "DCOM: Live! (A Night of Disney Channel Hits!)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-15"
+        "2026-03-15",
+        "2026-03-16"
       ]
     }
   }

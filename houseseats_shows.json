@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-15T16:34:26 PT",
-  "last_successful_run": "2026-03-15T16:34:26 PT",
+  "last_updated": "2026-03-15T19:52:02 PT",
+  "last_successful_run": "2026-03-15T19:52:02 PT",
   "count": 2,
   "shows": [
     {
@@ -10,7 +10,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9202",
       "date": "March 18th",
       "image": "https://lv.houseseats.com/resources/media/9202.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
