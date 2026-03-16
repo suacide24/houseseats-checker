@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-16T12:10:50 PT",
-  "last_successful_run": "2026-03-16T12:10:50 PT",
-  "count": 2,
+  "last_updated": "2026-03-16T13:00:57 PT",
+  "last_successful_run": "2026-03-16T13:00:57 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9202",
       "date": "March 18th",
       "image": "https://lv.houseseats.com/resources/media/9202.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Rant!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
+      "date": "March 19th",
+      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "March 20th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
