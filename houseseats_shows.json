@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-16T19:34:53 PT",
-  "last_successful_run": "2026-03-16T19:34:53 PT",
-  "count": 4,
+  "last_updated": "2026-03-16T21:56:20 PT",
+  "last_successful_run": "2026-03-16T21:56:20 PT",
+  "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "March 16th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "MARISSA NADLER w/ Gracie And Rachel",
