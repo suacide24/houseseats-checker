@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-17T12:34:36 PT",
-  "last_successful_run": "2026-03-17T12:34:36 PT",
-  "count": 3,
+  "last_updated": "2026-03-17T13:46:34 PT",
+  "last_successful_run": "2026-03-17T13:46:34 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,22 @@
       "date": "March 21st",
       "image": "https://lv.houseseats.com/resources/media/9199.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Dumb Human Tricks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
+      "date": "March 21st",
+      "image": "https://lv.houseseats.com/resources/media/8930.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Local Noise : Battle of The Bands Semi Finals",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9200",
+      "date": "March 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9200.jpg",
+      "rare": true
     }
   ]
 }
