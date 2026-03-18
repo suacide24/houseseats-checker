@@ -595,7 +595,8 @@
         "2026-02-18",
         "2026-02-19",
         "2026-03-16",
-        "2026-03-17"
+        "2026-03-17",
+        "2026-03-18"
       ]
     },
     "1stTix|hansel & gretel": {
@@ -679,7 +680,8 @@
         "2026-02-19",
         "2026-02-20",
         "2026-02-21",
-        "2026-03-17"
+        "2026-03-17",
+        "2026-03-18"
       ]
     },
     "HouseSeats|rocklesque: alice in rockland": {
@@ -1114,7 +1116,8 @@
         "2026-03-14",
         "2026-03-15",
         "2026-03-16",
-        "2026-03-17"
+        "2026-03-17",
+        "2026-03-18"
       ]
     },
     "HouseSeats|dcom: live! (a night of disney channel hits!)": {
@@ -1123,14 +1126,16 @@
       "appearances": [
         "2026-03-15",
         "2026-03-16",
-        "2026-03-17"
+        "2026-03-17",
+        "2026-03-18"
       ]
     },
     "HouseSeats|local noise : battle of the bands semi finals": {
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17"
+        "2026-03-17",
+        "2026-03-18"
       ]
     }
   }
