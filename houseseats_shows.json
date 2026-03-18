@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-18T09:37:22 PT",
-  "last_successful_run": "2026-03-18T09:37:22 PT",
-  "count": 5,
+  "last_updated": "2026-03-18T11:01:54 PT",
+  "last_successful_run": "2026-03-18T11:01:54 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -42,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9200",
       "date": "March 22nd",
       "image": "https://lv.houseseats.com/resources/media/9200.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROCKLESQUE: BRITNEY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9205",
+      "date": "March 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9205.jpg",
       "rare": true
     }
   ]
