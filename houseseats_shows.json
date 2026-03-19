@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-19T09:33:12 PT",
-  "last_successful_run": "2026-03-19T09:33:12 PT",
+  "last_updated": "2026-03-19T10:54:03 PT",
+  "last_successful_run": "2026-03-19T10:54:03 PT",
   "count": 5,
   "shows": [
     {
@@ -30,11 +30,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Dumb Human Tricks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
+      "name": "Whisky Mixer - Improv Party Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "March 21st",
-      "image": "https://lv.houseseats.com/resources/media/8930.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
