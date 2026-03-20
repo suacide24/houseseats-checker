@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-20T15:36:10 PT",
-  "last_successful_run": "2026-03-20T15:36:10 PT",
+  "last_updated": "2026-03-20T16:06:16 PT",
+  "last_successful_run": "2026-03-20T16:06:16 PT",
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ivan Kane's Forty Deuce Burlesque Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
-      "date": "March 20th",
-      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "DCOM: Live! (A Night of Disney Channel Hits!)",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "March 21st",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ivan Kane's Forty Deuce Burlesque Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
+      "date": "March 21st",
+      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
     },
     {
