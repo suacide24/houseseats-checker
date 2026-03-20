@@ -1,41 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-20T13:43:24 PT",
-  "last_successful_run": "2026-03-20T13:43:24 PT",
-  "count": 12,
+  "last_updated": "2026-03-20T13:44:24 PT",
+  "last_successful_run": "2026-03-20T13:44:24 PT",
+  "count": 4,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Marc Savard Comedy Hypnosis",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9106",
-      "date": "March 20th",
-      "image": "https://lv.houseseats.com/resources/media/9106.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Knockout!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8145",
-      "date": "March 20th",
-      "image": "https://lv.houseseats.com/resources/media/8145.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "David Goldrake At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
-      "date": "March 20th",
-      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Improv is Blind",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9037",
-      "date": "March 20th",
-      "image": "https://lv.houseseats.com/resources/media/9037.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
@@ -43,14 +11,6 @@
       "date": "March 20th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ComedySportz Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7514",
-      "date": "March 21st",
-      "image": "https://lv.houseseats.com/resources/media/7514.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -70,34 +30,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Foul Play",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8901",
-      "date": "March 21st",
-      "image": "https://lv.houseseats.com/resources/media/8901.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Haunted Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9008",
-      "date": "March 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9008.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9200",
       "date": "March 22nd",
       "image": "https://lv.houseseats.com/resources/media/9200.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Shark After Dark - A Rooftop Comedy Experience",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": false
     }
   ]
