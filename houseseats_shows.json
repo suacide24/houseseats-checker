@@ -1,9 +1,41 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-20T14:35:23 PT",
-  "last_successful_run": "2026-03-20T14:35:23 PT",
-  "count": 5,
+  "last_updated": "2026-03-20T14:43:47 PT",
+  "last_successful_run": "2026-03-20T14:43:47 PT",
+  "count": 13,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Marc Savard Comedy Hypnosis",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9106",
+      "date": "March 20th",
+      "image": "https://lv.houseseats.com/resources/media/9106.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Knockout!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8145",
+      "date": "March 20th",
+      "image": "https://lv.houseseats.com/resources/media/8145.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "David Goldrake At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
+      "date": "March 20th",
+      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Improv is Blind",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9037",
+      "date": "March 20th",
+      "image": "https://lv.houseseats.com/resources/media/9037.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
@@ -11,6 +43,14 @@
       "date": "March 20th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ComedySportz Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7514",
+      "date": "March 21st",
+      "image": "https://lv.houseseats.com/resources/media/7514.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -27,6 +67,22 @@
       "date": "March 21st",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Foul Play",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8901",
+      "date": "March 21st",
+      "image": "https://lv.houseseats.com/resources/media/8901.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Haunted Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9008",
+      "date": "March 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9008.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
