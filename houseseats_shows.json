@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-20T13:44:24 PT",
-  "last_successful_run": "2026-03-20T13:44:24 PT",
-  "count": 4,
+  "last_updated": "2026-03-20T14:13:41 PT",
+  "last_successful_run": "2026-03-20T14:13:41 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,6 +34,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9200",
       "date": "March 22nd",
       "image": "https://lv.houseseats.com/resources/media/9200.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Bad Suns: ACCELERATOUR USA 2026",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9213",
+      "date": "March 25th",
+      "image": "https://lv.houseseats.com/resources/media/9213.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Shark After Dark - A Rooftop Comedy Experience",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9169.jpg",
       "rare": false
     }
   ]
