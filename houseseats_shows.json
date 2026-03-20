@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-19T19:12:01 PT",
-  "last_successful_run": "2026-03-19T19:12:01 PT",
+  "last_updated": "2026-03-19T19:33:30 PT",
+  "last_successful_run": "2026-03-19T19:33:30 PT",
   "count": 4,
   "shows": [
     {
@@ -26,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "March 21st",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
