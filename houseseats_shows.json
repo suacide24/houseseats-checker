@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-21T13:33:19 PT",
-  "last_successful_run": "2026-03-21T13:33:19 PT",
-  "count": 7,
+  "last_updated": "2026-03-21T14:30:29 PT",
+  "last_successful_run": "2026-03-21T14:30:29 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "March 21st",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "March 21st",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
