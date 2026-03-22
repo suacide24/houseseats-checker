@@ -467,7 +467,8 @@
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
-        "2026-02-27"
+        "2026-02-27",
+        "2026-03-22"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -772,7 +773,8 @@
         "2026-02-23",
         "2026-02-24",
         "2026-02-25",
-        "2026-02-26"
+        "2026-02-26",
+        "2026-03-22"
       ]
     },
     "HouseSeats|y2k af": {
@@ -1196,6 +1198,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-21",
+        "2026-03-22"
+      ]
+    },
+    "HouseSeats|the conjurors secret wonders": {
+      "name": "The Conjurors Secret Wonders",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-22"
+      ]
+    },
+    "HouseSeats|thom kaz\u2019s hypnaughty live at primm valley resorts (primm)": {
+      "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-03-22"
       ]
     }

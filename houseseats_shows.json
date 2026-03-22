@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-22T12:30:37 PT",
-  "last_successful_run": "2026-03-22T12:30:37 PT",
-  "count": 4,
+  "last_updated": "2026-03-22T13:34:31 PT",
+  "last_successful_run": "2026-03-22T13:34:31 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,10 +14,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "March 25th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Bad Suns: ACCELERATOUR USA 2026",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9213",
       "date": "March 25th",
       "image": "https://lv.houseseats.com/resources/media/9213.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Farrell Dillon At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Sink or Swim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9136.jpg",
       "rare": false
     },
     {
@@ -34,6 +58,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9208",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9208.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9211.jpg",
       "rare": true
     }
   ]
