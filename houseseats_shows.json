@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-21T16:30:47 PT",
-  "last_successful_run": "2026-03-21T16:30:47 PT",
-  "count": 7,
+  "last_updated": "2026-03-21T19:43:26 PT",
+  "last_successful_run": "2026-03-21T19:43:26 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "March 21st",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "March 21st",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Local Noise : Battle of The Bands Semi Finals",
@@ -42,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9213",
       "date": "March 25th",
       "image": "https://lv.houseseats.com/resources/media/9213.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
