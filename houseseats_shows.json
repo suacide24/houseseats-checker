@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-22T15:30:52 PT",
-  "last_successful_run": "2026-03-22T15:30:52 PT",
-  "count": 7,
+  "last_updated": "2026-03-22T16:33:38 PT",
+  "last_successful_run": "2026-03-22T16:33:38 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ivan Kane's Forty Deuce Burlesque Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
-      "date": "March 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Bad Suns: ACCELERATOUR USA 2026",
