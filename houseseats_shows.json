@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-21T19:43:26 PT",
-  "last_successful_run": "2026-03-21T19:43:26 PT",
+  "last_updated": "2026-03-21T20:07:26 PT",
+  "last_successful_run": "2026-03-21T20:07:26 PT",
   "count": 5,
   "shows": [
     {
@@ -27,6 +27,22 @@
       "date": "March 25th",
       "image": "https://lv.houseseats.com/resources/media/9213.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9203",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9203.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9208",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9208.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
