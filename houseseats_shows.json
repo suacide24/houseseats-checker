@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-22T16:33:38 PT",
-  "last_successful_run": "2026-03-22T16:33:38 PT",
+  "last_updated": "2026-03-22T19:44:06 PT",
+  "last_successful_run": "2026-03-22T19:44:06 PT",
   "count": 6,
   "shows": [
     {
@@ -34,7 +34,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9203",
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9203.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -42,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9208",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9208.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

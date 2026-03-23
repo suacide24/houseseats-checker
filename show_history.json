@@ -468,7 +468,8 @@
         "2026-02-25",
         "2026-02-26",
         "2026-02-27",
-        "2026-03-22"
+        "2026-03-22",
+        "2026-03-23"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -774,7 +775,8 @@
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
-        "2026-03-22"
+        "2026-03-22",
+        "2026-03-23"
       ]
     },
     "HouseSeats|y2k af": {
@@ -1182,7 +1184,8 @@
       "appearances": [
         "2026-03-20",
         "2026-03-21",
-        "2026-03-22"
+        "2026-03-22",
+        "2026-03-23"
       ]
     },
     "HouseSeats|the space presents: battle of the bands": {
@@ -1190,7 +1193,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-21",
-        "2026-03-22"
+        "2026-03-22",
+        "2026-03-23"
       ]
     },
     "HouseSeats|above the belt - gold rush - showcase finale": {
@@ -1198,14 +1202,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-21",
-        "2026-03-22"
+        "2026-03-22",
+        "2026-03-23"
       ]
     },
     "HouseSeats|thom kaz\u2019s hypnaughty live at primm valley resorts (primm)": {
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22"
+        "2026-03-22",
+        "2026-03-23"
       ]
     }
   }
