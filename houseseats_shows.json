@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-23T15:48:31 PT",
-  "last_successful_run": "2026-03-23T15:48:31 PT",
-  "count": 10,
+  "last_updated": "2026-03-23T16:18:36 PT",
+  "last_successful_run": "2026-03-23T16:18:36 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
