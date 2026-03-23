@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-23T12:28:40 PT",
-  "last_successful_run": "2026-03-23T12:28:40 PT",
-  "count": 6,
+  "last_updated": "2026-03-23T13:05:03 PT",
+  "last_successful_run": "2026-03-23T13:05:03 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -22,6 +22,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Sink or Swim",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
       "date": "March 26th",
@@ -38,6 +46,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Von Clap Back Family Singers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9208",
       "date": "March 27th",
@@ -50,6 +66,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9211.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9206",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9206.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9212",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9212.jpg",
       "rare": true
     }
   ]
