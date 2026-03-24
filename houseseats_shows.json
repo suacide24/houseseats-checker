@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-24T12:17:12 PT",
-  "last_successful_run": "2026-03-24T12:17:12 PT",
-  "count": 9,
+  "last_updated": "2026-03-24T12:21:02 PT",
+  "last_successful_run": "2026-03-24T12:21:02 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9203.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Hillbilly Casino and The Crotches",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9216",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9216.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
