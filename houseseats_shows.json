@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-24T12:51:07 PT",
-  "last_successful_run": "2026-03-24T12:51:07 PT",
-  "count": 10,
+  "last_updated": "2026-03-24T13:02:58 PT",
+  "last_successful_run": "2026-03-24T13:02:58 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,6 +34,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9216",
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9216.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ivan Kane's Forty Deuce Burlesque Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": true
     },
     {
@@ -70,6 +86,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/8963.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9206",
       "date": "March 28th",
@@ -83,6 +107,14 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9212.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Scene Stealers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": false
     }
   ]
 }
