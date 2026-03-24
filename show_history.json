@@ -1244,6 +1244,13 @@
         "2026-03-23",
         "2026-03-24"
       ]
+    },
+    "HouseSeats|vegas' dumbest show, dumbest hits": {
+      "name": "Vegas' Dumbest Show, Dumbest Hits",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-24"
+      ]
     }
   }
 }
