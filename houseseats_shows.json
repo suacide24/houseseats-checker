@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-23T19:18:57 PT",
-  "last_successful_run": "2026-03-23T19:18:57 PT",
+  "last_updated": "2026-03-23T19:35:03 PT",
+  "last_successful_run": "2026-03-23T19:35:03 PT",
   "count": 9,
   "shows": [
     {
@@ -58,7 +58,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9211.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
