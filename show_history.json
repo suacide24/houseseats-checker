@@ -1282,6 +1282,13 @@
         "2026-03-24",
         "2026-03-25"
       ]
+    },
+    "HouseSeats|kings of las vegas screening and panel q&a": {
+      "name": "Kings of Las Vegas Screening and Panel Q&A",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-25"
+      ]
     }
   }
 }

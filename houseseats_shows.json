@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-25T14:43:38 PT",
-  "last_successful_run": "2026-03-25T14:43:38 PT",
+  "last_updated": "2026-03-25T15:02:58 PT",
+  "last_successful_run": "2026-03-25T15:02:58 PT",
   "count": 14,
   "shows": [
     {
@@ -86,11 +86,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "name": "Kings of Las Vegas Screening and Panel Q&A",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9217",
       "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9217.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
