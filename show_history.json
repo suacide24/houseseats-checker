@@ -471,7 +471,8 @@
         "2026-03-22",
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|a public fit theatre company presents: eurydice": {
@@ -780,7 +781,8 @@
         "2026-03-22",
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|y2k af": {
@@ -821,7 +823,8 @@
         "2026-02-27",
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -868,7 +871,8 @@
         "2026-02-27",
         "2026-02-28",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -1114,7 +1118,8 @@
         "2026-03-21",
         "2026-03-22",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|grieves \u2013 out cold tour 4": {
@@ -1208,7 +1213,8 @@
         "2026-03-22",
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|above the belt - gold rush - showcase finale": {
@@ -1219,7 +1225,8 @@
         "2026-03-22",
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|thom kaz\u2019s hypnaughty live at primm valley resorts (primm)": {
@@ -1229,7 +1236,8 @@
         "2026-03-22",
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
@@ -1247,7 +1255,8 @@
       "appearances": [
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|sexxy the show at primm valley resorts (primm)": {
@@ -1256,7 +1265,8 @@
       "appearances": [
         "2026-03-23",
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|hillbilly casino and the crotches": {
@@ -1264,7 +1274,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|vegas' dumbest show, dumbest hits": {
@@ -1272,7 +1283,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|punk rock brunch": {
@@ -1280,14 +1292,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-24",
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     },
     "HouseSeats|kings of las vegas screening and panel q&a": {
       "name": "Kings of Las Vegas Screening and Panel Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25"
+        "2026-03-25",
+        "2026-03-26"
       ]
     }
   }
