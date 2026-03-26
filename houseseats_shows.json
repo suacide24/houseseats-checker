@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T14:36:19 PT",
-  "last_successful_run": "2026-03-26T14:36:19 PT",
-  "count": 20,
+  "last_updated": "2026-03-26T14:46:55 PT",
+  "last_successful_run": "2026-03-26T14:46:55 PT",
+  "count": 19,
   "shows": [
     {
       "source": "HouseSeats",
@@ -114,14 +114,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9221",
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9221.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Fundora vs Thurman at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9224",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9224.jpg",
       "rare": true
     },
     {
