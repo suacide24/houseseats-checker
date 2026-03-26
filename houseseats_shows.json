@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T10:16:06 PT",
-  "last_successful_run": "2026-03-26T10:16:06 PT",
-  "count": 14,
+  "last_updated": "2026-03-26T10:46:11 PT",
+  "last_successful_run": "2026-03-26T10:46:11 PT",
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
@@ -54,6 +46,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Pasquale Grasso Trio at The Smith Center",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9220",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9220.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Vegas' Dumbest Show, Dumbest Hits",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9215",
       "date": "March 27th",
@@ -67,6 +67,14 @@
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Shuler King",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9219",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9219.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

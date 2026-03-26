@@ -1322,6 +1322,20 @@
       "appearances": [
         "2026-03-26"
       ]
+    },
+    "HouseSeats|pasquale grasso trio at the smith center": {
+      "name": "Pasquale Grasso Trio at The Smith Center",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-26"
+      ]
+    },
+    "HouseSeats|shuler king": {
+      "name": "Shuler King",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-26"
+      ]
     }
   }
 }
