@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T14:46:55 PT",
-  "last_successful_run": "2026-03-26T14:46:55 PT",
-  "count": 19,
+  "last_updated": "2026-03-26T15:16:59 PT",
+  "last_successful_run": "2026-03-26T15:16:59 PT",
+  "count": 18,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Sink or Swim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9136.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9203",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9203.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Hillbilly Casino and The Crotches",
@@ -50,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9203",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9203.jpg",
       "rare": false
     },
     {
