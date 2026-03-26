@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T11:16:17 PT",
-  "last_successful_run": "2026-03-26T11:16:17 PT",
-  "count": 16,
+  "last_updated": "2026-03-26T11:46:23 PT",
+  "last_successful_run": "2026-03-26T11:46:23 PT",
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -43,14 +43,6 @@
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Pasquale Grasso Trio at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9220",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9220.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
