@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T11:01:20 PT",
-  "last_successful_run": "2026-03-26T11:01:20 PT",
-  "count": 15,
+  "last_updated": "2026-03-26T11:16:17 PT",
+  "last_successful_run": "2026-03-26T11:16:17 PT",
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -99,6 +99,14 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/8963.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Major League Indoor Soccer Finals",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9221",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9221.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
