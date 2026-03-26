@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T13:16:38 PT",
-  "last_successful_run": "2026-03-26T13:16:38 PT",
-  "count": 17,
+  "last_updated": "2026-03-26T13:40:29 PT",
+  "last_successful_run": "2026-03-26T13:40:29 PT",
+  "count": 18,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Farrell Dillon At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Sink or Swim",
@@ -50,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Farrell Dillon At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
       "rare": false
     },
     {
@@ -106,6 +106,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9221",
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9221.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fundora vs Thurman at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9224",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9224.jpg",
       "rare": true
     },
     {
