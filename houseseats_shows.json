@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T12:16:29 PT",
-  "last_successful_run": "2026-03-26T12:16:29 PT",
-  "count": 15,
+  "last_updated": "2026-03-26T12:37:13 PT",
+  "last_successful_run": "2026-03-26T12:37:13 PT",
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,6 +35,14 @@
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9216.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
+      "date": "March 26th",
+      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
