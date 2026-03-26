@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T13:46:43 PT",
-  "last_successful_run": "2026-03-26T13:46:43 PT",
-  "count": 18,
+  "last_updated": "2026-03-26T14:16:49 PT",
+  "last_successful_run": "2026-03-26T14:16:49 PT",
+  "count": 20,
   "shows": [
     {
       "source": "HouseSeats",
@@ -94,6 +94,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mimi Gibson\u2019s Golden Age Hollywood Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9225",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9225.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
       "date": "March 28th",
@@ -114,6 +122,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9224",
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9224.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Kings of Las Vegas Screening and Panel Q&A",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9217",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9217.jpg",
       "rare": true
     },
     {
