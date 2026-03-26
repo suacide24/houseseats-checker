@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T15:16:59 PT",
-  "last_successful_run": "2026-03-26T15:16:59 PT",
-  "count": 18,
+  "last_updated": "2026-03-26T15:35:46 PT",
+  "last_successful_run": "2026-03-26T15:35:46 PT",
+  "count": 17,
   "shows": [
     {
       "source": "HouseSeats",
@@ -106,14 +106,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9221",
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9221.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Kings of Las Vegas Screening and Panel Q&A",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9217",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9217.jpg",
       "rare": true
     },
     {
