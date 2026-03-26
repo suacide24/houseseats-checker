@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T09:46:00 PT",
-  "last_successful_run": "2026-03-26T09:46:00 PT",
-  "count": 25,
+  "last_updated": "2026-03-26T10:16:06 PT",
+  "last_successful_run": "2026-03-26T10:16:06 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,11 +14,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "BattleBots Destruct-A-Thon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7559",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
       "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/7559.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -26,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9136.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Heist \u2013 A Musical Takeover at The Balkan",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8938",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/8938.jpg",
       "rare": false
     },
     {
@@ -54,51 +46,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Shark After Dark - A Rooftop Comedy Experience",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9169",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9169.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Franky Perez and the All Nighters",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9195",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9195.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "David Goldrake At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9063",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9063.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
       "date": "March 26th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Haunted Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9008",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9008.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Marc Savard Comedy Hypnosis",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9106",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9106.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -126,14 +78,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Improv Ol\u00e9",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9035",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9035.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
       "date": "March 27th",
@@ -147,22 +91,6 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/8963.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "THE JETS 80's & 90's Experience!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6641",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/6641.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ComedySportz Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7514",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/7514.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -187,22 +115,6 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Foul Play",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8901",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/8901.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8140",
-      "date": "March 29th",
-      "image": "https://lv.houseseats.com/resources/media/8140.jpg",
-      "rare": true
     }
   ]
 }
