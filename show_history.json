@@ -14,7 +14,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-06",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-03-26"
       ]
     },
     "HouseSeats|david goldrake at the magicians room": {
@@ -25,14 +26,16 @@
         "2026-02-07",
         "2026-02-08",
         "2026-02-09",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-03-26"
       ]
     },
     "HouseSeats|improv ol\u00e9": {
       "name": "Improv Ol\u00e9",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06"
+        "2026-02-06",
+        "2026-03-26"
       ]
     },
     "HouseSeats|r/amithea**hole": {
@@ -47,7 +50,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-06",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-03-26"
       ]
     },
     "HouseSeats|let's play: an improvised game show": {
@@ -62,7 +66,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-06",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-03-26"
       ]
     },
     "HouseSeats|red velvet burlesque show": {
@@ -91,7 +96,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-08",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-03-26"
       ]
     },
     "HouseSeats|wow - the vegas spectacular": {
@@ -487,7 +493,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-02-10",
-        "2026-02-11"
+        "2026-02-11",
+        "2026-03-26"
       ]
     },
     "HouseSeats|art laboe love jam at primm valley resorts (primm)": {
@@ -577,7 +584,8 @@
         "2026-02-14",
         "2026-02-21",
         "2026-02-28",
-        "2026-03-07"
+        "2026-03-07",
+        "2026-03-26"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -1047,7 +1055,8 @@
       "appearances": [
         "2026-03-07",
         "2026-03-08",
-        "2026-03-09"
+        "2026-03-09",
+        "2026-03-26"
       ]
     },
     "HouseSeats|shark after dark - a rooftop comedy experience": {
@@ -1057,7 +1066,8 @@
         "2026-03-07",
         "2026-03-08",
         "2026-03-09",
-        "2026-03-20"
+        "2026-03-20",
+        "2026-03-26"
       ]
     },
     "HouseSeats|banda los recoditos at primm valley resorts (primm)": {
@@ -1101,7 +1111,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-11",
-        "2026-03-12"
+        "2026-03-12",
+        "2026-03-26"
       ]
     },
     "HouseSeats|ivan kane's forty deuce burlesque show": {
@@ -1301,6 +1312,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-25",
+        "2026-03-26"
+      ]
+    },
+    "HouseSeats|battlebots destruct-a-thon": {
+      "name": "BattleBots Destruct-A-Thon",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-03-26"
       ]
     }
