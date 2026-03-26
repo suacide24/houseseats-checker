@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T16:17:10 PT",
-  "last_successful_run": "2026-03-26T16:17:10 PT",
-  "count": 17,
+  "last_updated": "2026-03-26T16:37:25 PT",
+  "last_successful_run": "2026-03-26T16:37:25 PT",
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -51,14 +51,6 @@
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Shuler King",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9219",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9219.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
