@@ -1,31 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T15:52:31 PT",
-  "last_successful_run": "2026-03-27T15:52:31 PT",
-  "count": 11,
+  "last_updated": "2026-03-27T16:22:35 PT",
+  "last_successful_run": "2026-03-27T16:22:35 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9208",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9208.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9211.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ivan Kane's Forty Deuce Burlesque Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
     },
     {
@@ -83,6 +67,14 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9227.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ivan Kane's Forty Deuce Burlesque Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
