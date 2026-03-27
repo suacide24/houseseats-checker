@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T12:23:42 PT",
-  "last_successful_run": "2026-03-27T12:23:42 PT",
+  "last_updated": "2026-03-27T12:51:24 PT",
+  "last_successful_run": "2026-03-27T12:51:24 PT",
   "count": 13,
   "shows": [
     {
@@ -62,14 +62,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mimi Gibson\u2019s Golden Age Hollywood Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9225",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9225.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
       "date": "March 28th",
@@ -107,6 +99,14 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Feminine Rage: A Hysteria Inducing Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9227",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/9227.jpg",
+      "rare": true
     }
   ]
 }
