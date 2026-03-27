@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T10:51:08 PT",
-  "last_successful_run": "2026-03-27T10:51:08 PT",
-  "count": 14,
+  "last_updated": "2026-03-27T11:11:29 PT",
+  "last_successful_run": "2026-03-27T11:11:29 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9203",
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9203.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vegas' Dumbest Show, Dumbest Hits",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9215",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9215.jpg",
       "rare": false
     },
     {
