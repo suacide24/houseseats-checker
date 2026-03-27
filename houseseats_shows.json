@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T10:21:04 PT",
-  "last_successful_run": "2026-03-27T10:21:04 PT",
-  "count": 13,
+  "last_updated": "2026-03-27T10:51:08 PT",
+  "last_successful_run": "2026-03-27T10:51:08 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9215.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
+      "date": "March 27th",
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

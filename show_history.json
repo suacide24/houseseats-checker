@@ -1378,6 +1378,13 @@
         "2026-03-26",
         "2026-03-27"
       ]
+    },
+    "HouseSeats|cluex": {
+      "name": "ClueX",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-27"
+      ]
     }
   }
 }
