@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T13:51:35 PT",
-  "last_successful_run": "2026-03-27T13:51:35 PT",
-  "count": 13,
+  "last_updated": "2026-03-27T14:21:40 PT",
+  "last_successful_run": "2026-03-27T14:21:40 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "date": "March 27th",
       "image": "https://lv.houseseats.com/resources/media/9203.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ClueX",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -62,11 +54,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Farrell Dillon At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
       "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
