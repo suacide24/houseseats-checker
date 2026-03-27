@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T13:21:30 PT",
-  "last_successful_run": "2026-03-27T13:21:30 PT",
-  "count": 14,
+  "last_updated": "2026-03-27T13:51:35 PT",
+  "last_successful_run": "2026-03-27T13:51:35 PT",
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Farrell Dillon At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
@@ -70,10 +62,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "name": "Farrell Dillon At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
       "rare": false
     },
     {
