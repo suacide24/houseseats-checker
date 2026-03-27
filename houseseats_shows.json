@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T15:21:48 PT",
-  "last_successful_run": "2026-03-27T15:21:48 PT",
-  "count": 12,
+  "last_updated": "2026-03-27T15:37:54 PT",
+  "last_successful_run": "2026-03-27T15:37:54 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Von Clap Back Family Singers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
