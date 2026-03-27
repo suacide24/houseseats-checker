@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-26T18:17:26 PT",
-  "last_successful_run": "2026-03-26T18:17:26 PT",
-  "count": 14,
+  "last_updated": "2026-03-26T18:47:30 PT",
+  "last_successful_run": "2026-03-26T18:47:30 PT",
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
-      "date": "March 26th",
-      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Farrell Dillon At The Magicians Room",
