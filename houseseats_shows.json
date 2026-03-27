@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T12:59:02 PT",
-  "last_successful_run": "2026-03-27T12:59:02 PT",
-  "count": 13,
+  "last_updated": "2026-03-27T13:21:30 PT",
+  "last_successful_run": "2026-03-27T13:21:30 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -62,19 +62,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/8963.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Major League Indoor Soccer Finals",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9221",
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9221.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "March 28th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -107,6 +107,14 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9227.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
+      "date": "March 29th",
+      "image": "https://lv.houseseats.com/resources/media/8963.jpg",
+      "rare": false
     }
   ]
 }
