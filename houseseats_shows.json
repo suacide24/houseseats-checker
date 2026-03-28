@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-27T17:52:46 PT",
-  "last_successful_run": "2026-03-27T17:52:46 PT",
-  "count": 10,
+  "last_updated": "2026-03-27T18:22:49 PT",
+  "last_successful_run": "2026-03-27T18:22:49 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
-      "date": "March 27th",
-      "image": "https://lv.houseseats.com/resources/media/9211.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Major League Indoor Soccer Finals",
