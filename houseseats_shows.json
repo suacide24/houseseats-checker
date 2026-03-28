@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-28T12:33:56 PT",
-  "last_successful_run": "2026-03-28T12:33:56 PT",
-  "count": 9,
+  "last_updated": "2026-03-28T13:37:27 PT",
+  "last_successful_run": "2026-03-28T13:37:27 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "date": "March 28th",
       "image": "https://lv.houseseats.com/resources/media/9226.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9206",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9206.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -74,6 +66,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9221",
       "date": "March 29th",
       "image": "https://lv.houseseats.com/resources/media/9221.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 1st",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jazz Vegas Orchestra Live",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7671",
+      "date": "April 1st",
+      "image": "https://lv.houseseats.com/resources/media/7671.jpg",
       "rare": false
     }
   ]
