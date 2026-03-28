@@ -1,33 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-28T14:34:52 PT",
-  "last_successful_run": "2026-03-28T14:34:52 PT",
-  "count": 10,
+  "last_updated": "2026-03-28T15:35:02 PT",
+  "last_successful_run": "2026-03-28T15:35:02 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9203",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9203.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ClueX",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9212",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9212.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Whisky Mixer - Improv Party Night",
