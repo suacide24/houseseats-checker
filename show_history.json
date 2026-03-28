@@ -885,7 +885,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -1136,7 +1137,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|grieves \u2013 out cold tour 4": {
@@ -1232,7 +1234,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|above the belt - gold rush - showcase finale": {
@@ -1278,7 +1281,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|sexxy the show at primm valley resorts (primm)": {
@@ -1289,7 +1293,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|hillbilly casino and the crotches": {
@@ -1318,7 +1323,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|kings of las vegas screening and panel q&a": {
@@ -1355,7 +1361,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1384,14 +1391,16 @@
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     },
     "HouseSeats|feminine rage: a hysteria inducing variety show": {
       "name": "Feminine Rage: A Hysteria Inducing Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27"
+        "2026-03-27",
+        "2026-03-28"
       ]
     }
   }
