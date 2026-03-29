@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-29T12:35:52 PT",
-  "last_successful_run": "2026-03-29T12:35:52 PT",
-  "count": 2,
+  "last_updated": "2026-03-29T13:38:56 PT",
+  "last_successful_run": "2026-03-29T13:38:56 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,6 +19,14 @@
       "date": "March 29th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Cumbiatron \u2013 The Cumbia Rave",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
+      "date": "April 4th",
+      "image": "https://lv.houseseats.com/resources/media/8513.jpg",
+      "rare": true
     }
   ]
 }
