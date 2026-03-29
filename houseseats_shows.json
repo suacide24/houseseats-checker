@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-28T16:36:18 PT",
-  "last_successful_run": "2026-03-28T16:36:18 PT",
-  "count": 7,
+  "last_updated": "2026-03-28T19:23:11 PT",
+  "last_successful_run": "2026-03-28T19:23:11 PT",
+  "count": 4,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Feminine Rage: A Hysteria Inducing Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9227",
-      "date": "March 28th",
-      "image": "https://lv.houseseats.com/resources/media/9227.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -42,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
       "date": "March 29th",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 1st",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
