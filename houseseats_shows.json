@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-30T12:39:49 PT",
-  "last_successful_run": "2026-03-30T12:39:49 PT",
-  "count": 2,
+  "last_updated": "2026-03-30T13:05:36 PT",
+  "last_successful_run": "2026-03-30T13:05:36 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
       "date": "April 2nd",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
+      "date": "April 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
       "rare": false
     },
     {
