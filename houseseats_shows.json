@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-31T12:33:35 PT",
-  "last_successful_run": "2026-03-31T12:33:35 PT",
-  "count": 4,
+  "last_updated": "2026-03-31T13:50:04 PT",
+  "last_successful_run": "2026-03-31T13:50:04 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "date": "April 4th",
       "image": "https://lv.houseseats.com/resources/media/9144.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
+      "date": "April 4th",
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
