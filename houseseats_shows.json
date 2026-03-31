@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-30T16:36:47 PT",
-  "last_successful_run": "2026-03-30T16:36:47 PT",
+  "last_updated": "2026-03-30T17:00:10 PT",
+  "last_successful_run": "2026-03-30T17:00:10 PT",
   "count": 4,
   "shows": [
     {
@@ -34,7 +34,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
       "date": "April 4th",
       "image": "https://lv.houseseats.com/resources/media/8513.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
