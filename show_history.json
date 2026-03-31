@@ -1424,6 +1424,13 @@
         "2026-03-30",
         "2026-03-31"
       ]
+    },
+    "HouseSeats|firelight barn - spotlight preview variety show": {
+      "name": "Firelight Barn - Spotlight Preview Variety Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-03-31"
+      ]
     }
   }
 }
