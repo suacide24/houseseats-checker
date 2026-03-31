@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-03T05:01:41 PT",
-  "last_successful_run": "2026-04-03T05:01:41 PT",
-  "count": 6,
+  "last_updated": "2026-03-31T09:30:18 PT",
+  "last_successful_run": "2026-03-31T09:30:18 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,16 +30,8 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
-      "date": "April 4th",
-      "image": "https://lv.houseseats.com/resources/media/8963.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Game of Groans: Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "April 4th",
       "image": "https://lv.houseseats.com/resources/media/9233.jpg",
       "rare": true
