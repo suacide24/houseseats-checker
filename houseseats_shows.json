@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-03-31T09:30:18 PT",
-  "last_successful_run": "2026-03-31T09:30:18 PT",
-  "count": 3,
+  "last_updated": "2026-04-01T15:10:14 PT",
+  "last_successful_run": "2026-04-01T15:10:14 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,11 +30,35 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
+      "date": "April 4th",
+      "image": "https://lv.houseseats.com/resources/media/8963.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Firelight Barn - Spotlight Preview Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
+      "date": "April 4th",
+      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Cumbiatron \u2013 The Cumbia Rave",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
+      "date": "April 4th",
+      "image": "https://lv.houseseats.com/resources/media/8513.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 4th",
-      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
-      "rare": true
+      "date": "April 5th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
