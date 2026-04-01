@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-01T12:10:15 PT",
-  "last_successful_run": "2026-04-01T12:10:15 PT",
-  "count": 4,
+  "last_updated": "2026-04-01T13:07:34 PT",
+  "last_successful_run": "2026-04-01T13:07:34 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,6 +34,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
       "date": "April 4th",
       "image": "https://lv.houseseats.com/resources/media/8513.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 5th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Local Noise : Battle of The Bands Semi Finals",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9200",
+      "date": "April 6th",
+      "image": "https://lv.houseseats.com/resources/media/9200.jpg",
       "rare": false
     }
   ]
