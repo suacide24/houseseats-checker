@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-02T15:02:18 PT",
-  "last_successful_run": "2026-04-02T15:02:18 PT",
-  "count": 7,
+  "last_updated": "2026-04-02T16:01:11 PT",
+  "last_successful_run": "2026-04-02T16:01:11 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,6 +11,14 @@
       "date": "April 2nd",
       "image": "https://lv.houseseats.com/resources/media/9232.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "April 2nd",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
