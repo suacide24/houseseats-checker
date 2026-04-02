@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-01T16:58:02 PT",
-  "last_successful_run": "2026-04-01T16:58:02 PT",
-  "count": 7,
+  "last_updated": "2026-04-01T20:19:10 PT",
+  "last_successful_run": "2026-04-01T20:19:10 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "date": "April 4th",
       "image": "https://lv.houseseats.com/resources/media/8963.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Firelight Barn - Spotlight Preview Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
-      "date": "April 4th",
-      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
