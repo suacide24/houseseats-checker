@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-02T12:29:38 PT",
-  "last_successful_run": "2026-04-02T12:29:38 PT",
-  "count": 5,
+  "last_updated": "2026-04-02T13:04:42 PT",
+  "last_successful_run": "2026-04-02T13:04:42 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
       "date": "April 2nd",
       "image": "https://lv.houseseats.com/resources/media/9196.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "April 3rd",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
@@ -42,6 +50,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9200",
       "date": "April 6th",
       "image": "https://lv.houseseats.com/resources/media/9200.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 6th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
+      "date": "April 6th",
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
       "rare": false
     }
   ]
