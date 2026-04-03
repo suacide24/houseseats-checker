@@ -1,23 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-02T16:59:50 PT",
-  "last_successful_run": "2026-04-02T16:59:50 PT",
+  "last_updated": "2026-04-02T20:22:40 PT",
+  "last_successful_run": "2026-04-02T20:22:40 PT",
   "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "HIT USA RADIO",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
-      "date": "April 2nd",
+      "date": "April 3rd",
       "image": "https://lv.houseseats.com/resources/media/9232.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "April 2nd",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
@@ -35,6 +27,14 @@
       "date": "April 4th",
       "image": "https://lv.houseseats.com/resources/media/8963.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Game of Groans: Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
+      "date": "April 4th",
+      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
