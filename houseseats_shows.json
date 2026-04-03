@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-01T15:10:14 PT",
-  "last_successful_run": "2026-04-01T15:10:14 PT",
+  "last_updated": "2026-04-03T05:07:10 PT",
+  "last_successful_run": "2026-04-03T05:07:10 PT",
   "count": 6,
   "shows": [
     {
@@ -10,7 +10,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
       "date": "April 3rd",
       "image": "https://lv.houseseats.com/resources/media/9232.jpg",
-      "rare": false
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -38,27 +38,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Firelight Barn - Spotlight Preview Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
+      "name": "Game of Groans: Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
       "date": "April 4th",
-      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Cumbiatron \u2013 The Cumbia Rave",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
-      "date": "April 4th",
-      "image": "https://lv.houseseats.com/resources/media/8513.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 5th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",

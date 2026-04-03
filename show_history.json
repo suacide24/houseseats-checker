@@ -1148,7 +1148,8 @@
         "2026-03-29",
         "2026-03-30",
         "2026-03-31",
-        "2026-04-01"
+        "2026-04-01",
+        "2026-04-03"
       ]
     },
     "HouseSeats|grieves \u2013 out cold tour 4": {
@@ -1214,7 +1215,8 @@
         "2026-03-20",
         "2026-03-21",
         "2026-03-22",
-        "2026-04-01"
+        "2026-04-01",
+        "2026-04-03"
       ]
     },
     "HouseSeats|rocklesque: britney": {
@@ -1341,7 +1343,8 @@
         "2026-03-27",
         "2026-03-28",
         "2026-03-29",
-        "2026-04-01"
+        "2026-04-01",
+        "2026-04-03"
       ]
     },
     "HouseSeats|kings of las vegas screening and panel q&a": {
@@ -1441,6 +1444,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-01"
+      ]
+    },
+    "HouseSeats|hit usa radio": {
+      "name": "HIT USA RADIO",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-03"
+      ]
+    },
+    "HouseSeats|game of groans: variety show": {
+      "name": "Game of Groans: Variety Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-03"
       ]
     }
   }
