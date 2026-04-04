@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-03T19:38:04 PT",
-  "last_successful_run": "2026-04-03T19:38:04 PT",
-  "count": 8,
+  "last_updated": "2026-04-03T21:55:09 PT",
+  "last_successful_run": "2026-04-03T21:55:09 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "College Basketball Crown at T-Mobile Arena",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9234",
-      "date": "April 4th",
-      "image": "https://lv.houseseats.com/resources/media/9234.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
