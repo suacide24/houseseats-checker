@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-04T12:34:55 PT",
-  "last_successful_run": "2026-04-04T12:34:55 PT",
-  "count": 5,
+  "last_updated": "2026-04-04T13:38:26 PT",
+  "last_successful_run": "2026-04-04T13:38:26 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -38,10 +38,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 8th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9212",
       "date": "April 9th",
       "image": "https://lv.houseseats.com/resources/media/9212.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9211",
+      "date": "April 10th",
+      "image": "https://lv.houseseats.com/resources/media/9211.jpg",
       "rare": false
     }
   ]
