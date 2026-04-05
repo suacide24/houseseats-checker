@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-05T15:36:59 PT",
-  "last_successful_run": "2026-04-05T15:36:59 PT",
-  "count": 7,
+  "last_updated": "2026-04-05T16:38:53 PT",
+  "last_successful_run": "2026-04-05T16:38:53 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Texas Tenors",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9238",
-      "date": "April 5th",
-      "image": "https://lv.houseseats.com/resources/media/9238.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "HIT USA RADIO",
