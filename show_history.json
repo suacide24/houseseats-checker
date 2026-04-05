@@ -1488,6 +1488,13 @@
       "appearances": [
         "2026-04-05"
       ]
+    },
+    "HouseSeats|the texas tenors": {
+      "name": "The Texas Tenors",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-05"
+      ]
     }
   }
 }
