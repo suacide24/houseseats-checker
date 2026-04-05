@@ -924,7 +924,8 @@
         "2026-03-20",
         "2026-03-21",
         "2026-03-28",
-        "2026-04-03"
+        "2026-04-03",
+        "2026-04-05"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1100,7 +1101,8 @@
       "appearances": [
         "2026-03-09",
         "2026-03-10",
-        "2026-03-11"
+        "2026-03-11",
+        "2026-04-05"
       ]
     },
     "HouseSeats|nevada ballet theatre: legends & luminaries": {
@@ -1478,6 +1480,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-04"
+      ]
+    },
+    "HouseSeats|\u00f8g from the g\u00f8 fest": {
+      "name": "\u00d8G From The G\u00f8 Fest",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-05"
       ]
     }
   }
