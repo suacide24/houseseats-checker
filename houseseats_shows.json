@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-07T10:33:26 PT",
-  "last_successful_run": "2026-04-07T10:33:26 PT",
-  "count": 6,
+  "last_updated": "2026-04-07T12:12:10 PT",
+  "last_successful_run": "2026-04-07T12:12:10 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,6 +35,14 @@
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Big Bad Voodoo Daddy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9239",
+      "date": "April 10th",
+      "image": "https://lv.houseseats.com/resources/media/9239.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

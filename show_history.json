@@ -1506,6 +1506,13 @@
         "2026-04-06",
         "2026-04-07"
       ]
+    },
+    "HouseSeats|big bad voodoo daddy": {
+      "name": "Big Bad Voodoo Daddy",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-07"
+      ]
     }
   }
 }
