@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-06T17:00:23 PT",
-  "last_successful_run": "2026-04-06T17:00:23 PT",
-  "count": 8,
+  "last_updated": "2026-04-06T20:38:00 PT",
+  "last_successful_run": "2026-04-06T20:38:00 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "April 6th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X ROCKS",
