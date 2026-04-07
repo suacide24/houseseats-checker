@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-07T12:12:10 PT",
-  "last_successful_run": "2026-04-07T12:12:10 PT",
+  "last_updated": "2026-04-07T13:06:32 PT",
+  "last_successful_run": "2026-04-07T13:06:32 PT",
   "count": 7,
   "shows": [
     {
@@ -38,14 +38,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Big Bad Voodoo Daddy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9239",
-      "date": "April 10th",
-      "image": "https://lv.houseseats.com/resources/media/9239.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Secrets Secrets",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8964",
       "date": "April 10th",
@@ -58,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "April 11th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     }
   ]
