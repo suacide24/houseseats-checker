@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-07T09:12:28 PT",
-  "last_successful_run": "2026-04-07T09:12:28 PT",
-  "count": 7,
+  "last_updated": "2026-04-07T10:33:26 PT",
+  "last_successful_run": "2026-04-07T10:33:26 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "April 8th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "HIT USA RADIO",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
       "date": "April 9th",
       "image": "https://lv.houseseats.com/resources/media/9232.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "April 9th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {
@@ -51,14 +51,6 @@
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Spring Fling and Comedy Things Girls Gone Wild",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9218",
-      "date": "April 11th",
-      "image": "https://lv.houseseats.com/resources/media/9218.jpg",
-      "rare": true
     }
   ]
 }
