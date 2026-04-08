@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-08T15:47:57 PT",
-  "last_successful_run": "2026-04-08T15:47:57 PT",
-  "count": 10,
+  "last_updated": "2026-04-08T16:42:17 PT",
+  "last_successful_run": "2026-04-08T16:42:17 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -59,14 +59,6 @@
       "date": "April 11th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chris Botti",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8552",
-      "date": "April 11th",
-      "image": "https://lv.houseseats.com/resources/media/8552.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
