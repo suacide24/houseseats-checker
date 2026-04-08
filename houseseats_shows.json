@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-07T17:03:58 PT",
-  "last_successful_run": "2026-04-07T17:03:58 PT",
+  "last_updated": "2026-04-07T20:40:07 PT",
+  "last_successful_run": "2026-04-07T20:40:07 PT",
   "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "April 8th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "HIT USA RADIO",
@@ -42,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8964",
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/8964.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "April 10th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
