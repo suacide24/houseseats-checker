@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-08T12:47:21 PT",
-  "last_successful_run": "2026-04-08T12:47:21 PT",
-  "count": 5,
+  "last_updated": "2026-04-08T13:51:57 PT",
+  "last_successful_run": "2026-04-08T13:51:57 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,10 +14,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Lovecraft and Libations Spookeasy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9240",
+      "date": "April 10th",
+      "image": "https://lv.houseseats.com/resources/media/9240.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "\u00d8G From The G\u00f8 Fest",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9236",
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9236.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
+      "date": "April 10th",
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
       "rare": false
     },
     {
@@ -38,10 +54,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 11th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Chris Botti",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8552",
       "date": "April 11th",
       "image": "https://lv.houseseats.com/resources/media/8552.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "April 11th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "April 12th",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": true
     }
   ]

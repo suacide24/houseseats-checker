@@ -1312,7 +1312,8 @@
         "2026-04-04",
         "2026-04-05",
         "2026-04-06",
-        "2026-04-07"
+        "2026-04-07",
+        "2026-04-08"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1445,7 +1446,8 @@
         "2026-03-31",
         "2026-04-01",
         "2026-04-02",
-        "2026-04-03"
+        "2026-04-03",
+        "2026-04-08"
       ]
     },
     "HouseSeats|feminine rage: a hysteria inducing variety show": {
@@ -1525,6 +1527,20 @@
     },
     "HouseSeats|chris botti": {
       "name": "Chris Botti",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-08"
+      ]
+    },
+    "HouseSeats|lovecraft and libations spookeasy": {
+      "name": "Lovecraft and Libations Spookeasy",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-08"
+      ]
+    },
+    "HouseSeats|vegas knight hawks": {
+      "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
         "2026-04-08"
