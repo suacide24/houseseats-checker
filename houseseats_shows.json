@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-09T12:15:24 PT",
-  "last_successful_run": "2026-04-09T12:15:24 PT",
-  "count": 7,
+  "last_updated": "2026-04-09T13:25:55 PT",
+  "last_successful_run": "2026-04-09T13:25:55 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -59,6 +59,14 @@
       "date": "April 11th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "OVER Budget: No Ring - No Rules Wrestling",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9235",
+      "date": "April 14th",
+      "image": "https://lv.houseseats.com/resources/media/9235.jpg",
+      "rare": true
     }
   ]
 }
