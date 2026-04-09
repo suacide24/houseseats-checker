@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-09T13:25:55 PT",
-  "last_successful_run": "2026-04-09T13:25:55 PT",
-  "count": 8,
+  "last_updated": "2026-04-09T14:11:52 PT",
+  "last_successful_run": "2026-04-09T14:11:52 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -51,6 +51,14 @@
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jon McLaughlin at The Smith Center",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9242",
+      "date": "April 11th",
+      "image": "https://lv.houseseats.com/resources/media/9242.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
