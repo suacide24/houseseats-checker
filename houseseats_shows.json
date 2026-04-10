@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-10T12:26:44 PT",
-  "last_successful_run": "2026-04-10T12:26:44 PT",
-  "count": 6,
+  "last_updated": "2026-04-10T13:03:00 PT",
+  "last_successful_run": "2026-04-10T13:03:00 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -50,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
       "date": "April 11th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ricky Tenacious presents The Dropkick Disco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9229",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9229.jpg",
       "rare": true
     }
   ]
