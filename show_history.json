@@ -1542,7 +1542,8 @@
       "name": "Chris Botti",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-08"
+        "2026-04-08",
+        "2026-04-10"
       ]
     },
     "HouseSeats|lovecraft and libations spookeasy": {
@@ -1574,6 +1575,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-09"
+      ]
+    },
+    "HouseSeats|puntification": {
+      "name": "Puntification",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-10"
       ]
     }
   }

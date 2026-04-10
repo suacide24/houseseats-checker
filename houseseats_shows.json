@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-10T10:00:47 PT",
-  "last_successful_run": "2026-04-10T10:00:47 PT",
-  "count": 5,
+  "last_updated": "2026-04-10T11:08:33 PT",
+  "last_successful_run": "2026-04-10T11:08:33 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -43,6 +43,22 @@
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chris Botti",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8552",
+      "date": "April 11th",
+      "image": "https://lv.houseseats.com/resources/media/8552.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Puntification",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
+      "date": "April 11th",
+      "image": "https://lv.houseseats.com/resources/media/9243.jpg",
+      "rare": true
     }
   ]
 }
