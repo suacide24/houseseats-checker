@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-09T16:10:01 PT",
-  "last_successful_run": "2026-04-09T16:10:01 PT",
+  "last_updated": "2026-04-09T17:03:08 PT",
+  "last_successful_run": "2026-04-09T17:03:08 PT",
   "count": 8,
   "shows": [
     {
@@ -18,7 +18,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9240",
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9240.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
