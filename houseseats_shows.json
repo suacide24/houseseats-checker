@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-10T11:08:33 PT",
-  "last_successful_run": "2026-04-10T11:08:33 PT",
-  "count": 7,
+  "last_updated": "2026-04-10T12:26:44 PT",
+  "last_successful_run": "2026-04-10T12:26:44 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9240",
       "date": "April 10th",
       "image": "https://lv.houseseats.com/resources/media/9240.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "\u00d8G From The G\u00f8 Fest",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9236",
-      "date": "April 10th",
-      "image": "https://lv.houseseats.com/resources/media/9236.jpg",
       "rare": false
     },
     {
