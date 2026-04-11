@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-11T10:36:35 PT",
-  "last_successful_run": "2026-04-11T10:36:35 PT",
-  "count": 3,
+  "last_updated": "2026-04-11T11:53:47 PT",
+  "last_successful_run": "2026-04-11T11:53:47 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
       "date": "April 11th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tom Papa at The Palazzo Theatre",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9246",
-      "date": "April 11th",
-      "image": "https://lv.houseseats.com/resources/media/9246.jpg",
       "rare": true
     },
     {
