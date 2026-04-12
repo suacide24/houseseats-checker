@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-11T16:40:07 PT",
-  "last_successful_run": "2026-04-11T16:40:07 PT",
-  "count": 3,
+  "last_updated": "2026-04-11T20:20:54 PT",
+  "last_successful_run": "2026-04-11T20:20:54 PT",
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Puntification",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
-      "date": "April 11th",
-      "image": "https://lv.houseseats.com/resources/media/9243.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "HIT USA RADIO",
