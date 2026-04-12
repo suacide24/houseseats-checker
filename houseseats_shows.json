@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-12T13:00:13 PT",
-  "last_successful_run": "2026-04-12T13:00:13 PT",
-  "count": 3,
+  "last_updated": "2026-04-12T13:49:51 PT",
+  "last_successful_run": "2026-04-12T13:49:51 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,22 @@
       "date": "April 15th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Rant!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wrestling Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9230",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9230.jpg",
+      "rare": true
     }
   ]
 }

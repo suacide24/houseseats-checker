@@ -634,7 +634,8 @@
         "2026-03-16",
         "2026-03-17",
         "2026-03-18",
-        "2026-03-19"
+        "2026-03-19",
+        "2026-04-12"
       ]
     },
     "1stTix|hansel & gretel": {
@@ -1603,6 +1604,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-11"
+      ]
+    },
+    "HouseSeats|wrestling trivia night": {
+      "name": "Wrestling Trivia Night",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-12"
       ]
     }
   }
