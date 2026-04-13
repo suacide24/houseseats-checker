@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-13T09:43:23 PT",
-  "last_successful_run": "2026-04-13T09:43:23 PT",
-  "count": 4,
+  "last_updated": "2026-04-13T11:07:07 PT",
+  "last_successful_run": "2026-04-13T11:07:07 PT",
+  "count": 5,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "April 13th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "HIT USA RADIO",
