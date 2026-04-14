@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-14T10:43:40 PT",
-  "last_successful_run": "2026-04-14T10:43:40 PT",
-  "count": 8,
+  "last_updated": "2026-04-14T12:23:53 PT",
+  "last_successful_run": "2026-04-14T12:23:53 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "April 15th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
