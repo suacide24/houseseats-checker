@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-14T12:23:53 PT",
-  "last_successful_run": "2026-04-14T12:23:53 PT",
-  "count": 10,
+  "last_updated": "2026-04-14T13:30:35 PT",
+  "last_successful_run": "2026-04-14T13:30:35 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -78,10 +78,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Motion City Soundtrack",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9249",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/9249.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9250",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/9250.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Guess Who's High",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8273",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/8273.jpg",
       "rare": true
     }
   ]
