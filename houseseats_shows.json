@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-13T17:07:37 PT",
-  "last_successful_run": "2026-04-13T17:07:37 PT",
+  "last_updated": "2026-04-13T20:49:30 PT",
+  "last_successful_run": "2026-04-13T20:49:30 PT",
   "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "HIT USA RADIO",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
-      "date": "April 13th",
-      "image": "https://lv.houseseats.com/resources/media/9232.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "April 16th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "HIT USA RADIO",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9232.jpg",
       "rare": false
     },
     {
