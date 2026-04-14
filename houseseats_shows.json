@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-13T16:11:41 PT",
-  "last_successful_run": "2026-04-13T16:11:41 PT",
+  "last_updated": "2026-04-13T17:07:37 PT",
+  "last_successful_run": "2026-04-13T17:07:37 PT",
   "count": 7,
   "shows": [
     {
@@ -42,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9230",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9230.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

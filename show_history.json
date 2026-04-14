@@ -636,7 +636,8 @@
         "2026-03-18",
         "2026-03-19",
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     },
     "1stTix|hansel & gretel": {
@@ -943,7 +944,8 @@
         "2026-04-09",
         "2026-04-10",
         "2026-04-11",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1330,7 +1332,8 @@
         "2026-04-09",
         "2026-04-11",
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1467,7 +1470,8 @@
         "2026-04-08",
         "2026-04-09",
         "2026-04-10",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     },
     "HouseSeats|feminine rage: a hysteria inducing variety show": {
@@ -1508,7 +1512,8 @@
         "2026-04-10",
         "2026-04-11",
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     },
     "HouseSeats|game of groans: variety show": {
@@ -1618,14 +1623,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-12",
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     },
     "HouseSeats|royal thunder w/ drowning spree, heroine honey": {
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-13"
+        "2026-04-13",
+        "2026-04-14"
       ]
     }
   }
