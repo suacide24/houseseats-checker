@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-14T09:11:31 PT",
-  "last_successful_run": "2026-04-14T09:11:31 PT",
-  "count": 7,
+  "last_updated": "2026-04-14T10:43:40 PT",
+  "last_successful_run": "2026-04-14T10:43:40 PT",
+  "count": 8,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "April 14th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
