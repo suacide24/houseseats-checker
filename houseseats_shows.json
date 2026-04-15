@@ -1,7 +1,104 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-07T17:41:07 PT",
-  "last_successful_run": "2026-04-06T10:43:40 PT",
-  "count": 0,
-  "shows": []
+  "last_updated": "2026-04-15T09:06:49 PT",
+  "last_successful_run": "2026-04-15T09:06:49 PT",
+  "count": 12,
+  "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Zazu Comedy Nights",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Rant!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "HIT USA RADIO",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9232.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ClueX",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9226.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wrestling Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9230",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9230.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Billy Gardell",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Whisky Mixer - Improv Party Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9250",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/9250.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Guess Who's High",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8273",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/8273.jpg",
+      "rare": true
+    }
+  ]
 }
