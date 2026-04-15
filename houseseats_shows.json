@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T15:21:53 PT",
-  "last_successful_run": "2026-04-15T15:21:53 PT",
-  "count": 13,
+  "last_updated": "2026-04-15T16:11:23 PT",
+  "last_successful_run": "2026-04-15T16:11:23 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,6 +11,14 @@
       "date": "April 15th",
       "image": "https://lv.houseseats.com/resources/media/9256.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -35,14 +43,6 @@
       "date": "April 16th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "April 16th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -90,14 +90,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8273",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/8273.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Black Box Sessions - Habaka & Soulful Stew",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9193",
-      "date": "April 19th",
-      "image": "https://lv.houseseats.com/resources/media/9193.jpg",
       "rare": true
     },
     {
