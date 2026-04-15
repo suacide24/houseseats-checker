@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T14:27:21 PT",
-  "last_successful_run": "2026-04-15T14:27:21 PT",
-  "count": 14,
+  "last_updated": "2026-04-15T14:45:01 PT",
+  "last_successful_run": "2026-04-15T14:45:01 PT",
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 15th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Zazu Comedy Nights",
