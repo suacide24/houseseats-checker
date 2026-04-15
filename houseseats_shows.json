@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T13:44:53 PT",
-  "last_successful_run": "2026-04-15T13:44:53 PT",
-  "count": 15,
+  "last_updated": "2026-04-15T14:14:58 PT",
+  "last_successful_run": "2026-04-15T14:14:58 PT",
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "April 15th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
