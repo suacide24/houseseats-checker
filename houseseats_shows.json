@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T12:44:56 PT",
-  "last_successful_run": "2026-04-15T12:44:56 PT",
-  "count": 14,
+  "last_updated": "2026-04-15T13:05:12 PT",
+  "last_successful_run": "2026-04-15T13:05:12 PT",
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -114,6 +114,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9193",
       "date": "April 19th",
       "image": "https://lv.houseseats.com/resources/media/9193.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROCKLESQUE: SWEET TOOTH AND OTHER DELIGHTS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
+      "date": "April 19th",
+      "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": true
     }
   ]
