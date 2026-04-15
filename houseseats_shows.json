@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T16:23:32 PT",
-  "last_successful_run": "2026-04-15T16:23:32 PT",
-  "count": 12,
+  "last_updated": "2026-04-15T16:53:37 PT",
+  "last_successful_run": "2026-04-15T16:53:37 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -75,6 +75,14 @@
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Braxton Cook at The Smith Center",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9257",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/9257.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
