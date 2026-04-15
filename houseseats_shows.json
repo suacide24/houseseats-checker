@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T07:10:44 PT",
-  "last_successful_run": "2026-04-15T07:10:44 PT",
+  "last_updated": "2026-04-15T08:48:13 PT",
+  "last_successful_run": "2026-04-15T08:48:13 PT",
   "count": 12,
   "shows": [
     {
@@ -54,14 +54,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Billy Gardell",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
-      "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "ClueX",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
       "date": "April 17th",
@@ -75,6 +67,14 @@
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9230.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Billy Gardell",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
