@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-14T16:48:42 PT",
-  "last_successful_run": "2026-04-14T16:48:42 PT",
-  "count": 12,
+  "last_updated": "2026-04-14T19:56:49 PT",
+  "last_successful_run": "2026-04-14T19:56:49 PT",
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "April 14th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -19,6 +11,14 @@
       "date": "April 15th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Zazu Comedy Nights",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
+      "date": "April 15th",
+      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -51,6 +51,14 @@
       "date": "April 16th",
       "image": "https://lv.houseseats.com/resources/media/9232.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Billy Gardell",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -90,7 +98,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9250",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/9250.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
