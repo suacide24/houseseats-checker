@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T11:44:46 PT",
-  "last_successful_run": "2026-04-15T11:44:46 PT",
-  "count": 13,
+  "last_updated": "2026-04-15T12:14:51 PT",
+  "last_successful_run": "2026-04-15T12:14:51 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -106,6 +106,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8273",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/8273.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Black Box Sessions - Habaka & Soulful Stew",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9193",
+      "date": "April 19th",
+      "image": "https://lv.houseseats.com/resources/media/9193.jpg",
       "rare": true
     }
   ]
