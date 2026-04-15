@@ -1596,9 +1596,6 @@
       "name": "Wrestling Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-12",
-        "2026-04-13",
-        "2026-04-14",
         "2026-04-15"
       ]
     },
@@ -1606,8 +1603,6 @@
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-13",
-        "2026-04-14",
         "2026-04-15"
       ]
     },
@@ -1623,7 +1618,6 @@
       "name": "Guess Who's High",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-14",
         "2026-04-15"
       ]
     },
@@ -1636,41 +1630,6 @@
     },
     "HouseSeats|billy gardell": {
       "name": "Billy Gardell",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-15"
-      ]
-    },
-    "HouseSeats|zazu comedy nights": {
-      "name": "Zazu Comedy Nights",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-15"
-      ]
-    },
-    "HouseSeats|wrestling trivia night": {
-      "name": "Wrestling Trivia Night",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-15"
-      ]
-    },
-    "HouseSeats|billy gardell": {
-      "name": "Billy Gardell",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-15"
-      ]
-    },
-    "HouseSeats|royal thunder w/ drowning spree, heroine honey": {
-      "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-15"
-      ]
-    },
-    "HouseSeats|guess who's high": {
-      "name": "Guess Who's High",
       "source": "HouseSeats",
       "appearances": [
         "2026-04-15"
