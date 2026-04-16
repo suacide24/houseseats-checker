@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-16T14:20:00 PT",
-  "last_successful_run": "2026-04-16T14:20:00 PT",
-  "count": 13,
+  "last_updated": "2026-04-16T14:50:06 PT",
+  "last_successful_run": "2026-04-16T14:50:06 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -75,14 +75,6 @@
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "A Live Taping with David Letterman",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9254",
-      "date": "April 18th",
-      "image": "https://lv.houseseats.com/resources/media/9254.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
