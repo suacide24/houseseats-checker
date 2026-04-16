@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T16:53:37 PT",
-  "last_successful_run": "2026-04-15T16:53:37 PT",
-  "count": 13,
+  "last_updated": "2026-04-15T17:07:37 PT",
+  "last_successful_run": "2026-04-15T17:07:37 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "date": "April 16th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "King of Pop Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9259",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9259.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

@@ -530,7 +530,8 @@
         "2026-03-18",
         "2026-03-21",
         "2026-04-02",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "1stTix|punk rock brunch": {
@@ -635,7 +636,8 @@
         "2026-03-17",
         "2026-03-18",
         "2026-03-19",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "1stTix|hansel & gretel": {
@@ -938,7 +940,8 @@
         "2026-03-28",
         "2026-04-03",
         "2026-04-06",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -957,7 +960,8 @@
         "2026-03-04",
         "2026-03-06",
         "2026-03-13",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|ladies night comedy show": {
@@ -1453,7 +1457,8 @@
         "2026-04-01",
         "2026-04-02",
         "2026-04-03",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|feminine rage: a hysteria inducing variety show": {
@@ -1488,7 +1493,8 @@
         "2026-04-03",
         "2026-04-04",
         "2026-04-06",
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|game of groans: variety show": {
@@ -1597,14 +1603,16 @@
       "name": "Wrestling Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|royal thunder w/ drowning spree, heroine honey": {
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|motion city soundtrack": {
@@ -1619,21 +1627,24 @@
       "name": "Guess Who's High",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|zazu comedy nights": {
       "name": "Zazu Comedy Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|billy gardell": {
       "name": "Billy Gardell",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|the black box sessions - habaka & soulful stew": {
@@ -1647,14 +1658,23 @@
       "name": "ROCKLESQUE: SWEET TOOTH AND OTHER DELIGHTS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
       ]
     },
     "HouseSeats|braxton cook at the smith center": {
       "name": "Braxton Cook at The Smith Center",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-15"
+        "2026-04-15",
+        "2026-04-16"
+      ]
+    },
+    "HouseSeats|king of pop trivia night": {
+      "name": "King of Pop Trivia Night",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-16"
       ]
     }
   }
