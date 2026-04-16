@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T17:32:46 PT",
-  "last_successful_run": "2026-04-15T17:32:46 PT",
+  "last_updated": "2026-04-15T18:02:51 PT",
+  "last_successful_run": "2026-04-15T18:02:51 PT",
   "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Zazu Comedy Nights",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
-      "date": "April 15th",
-      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
@@ -34,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9259",
       "date": "April 16th",
       "image": "https://lv.houseseats.com/resources/media/9259.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Zazu Comedy Nights",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
+      "date": "April 16th",
+      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
       "rare": true
     },
     {
