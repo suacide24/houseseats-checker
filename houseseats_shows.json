@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-16T13:54:52 PT",
-  "last_successful_run": "2026-04-16T13:54:52 PT",
-  "count": 14,
+  "last_updated": "2026-04-16T14:20:00 PT",
+  "last_successful_run": "2026-04-16T14:20:00 PT",
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "April 16th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The Rant!",
@@ -19,14 +11,6 @@
       "date": "April 16th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "King of Pop Trivia Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9259",
-      "date": "April 16th",
-      "image": "https://lv.houseseats.com/resources/media/9259.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -91,6 +75,14 @@
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "A Live Taping with David Letterman",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9254",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/9254.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
