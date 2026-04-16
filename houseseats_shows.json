@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-16T14:50:32 PT",
-  "last_successful_run": "2026-04-16T14:50:32 PT",
-  "count": 12,
+  "last_updated": "2026-04-16T15:20:09 PT",
+  "last_successful_run": "2026-04-16T15:20:09 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Rant!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
-      "date": "April 16th",
-      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Zazu Comedy Nights",
