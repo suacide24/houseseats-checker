@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-15T19:02:58 PT",
-  "last_successful_run": "2026-04-15T19:02:58 PT",
-  "count": 14,
+  "last_updated": "2026-04-15T19:33:01 PT",
+  "last_successful_run": "2026-04-15T19:33:01 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -46,14 +46,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "April 16th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "ClueX",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
       "date": "April 17th",
@@ -83,14 +75,6 @@
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Braxton Cook at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9257",
-      "date": "April 18th",
-      "image": "https://lv.houseseats.com/resources/media/9257.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
