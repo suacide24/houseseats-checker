@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-17T14:59:25 PT",
-  "last_successful_run": "2026-04-17T14:59:25 PT",
-  "count": 9,
+  "last_updated": "2026-04-17T15:06:30 PT",
+  "last_successful_run": "2026-04-17T15:06:30 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,30 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9226.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Billy Gardell",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
-      "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Zazu Comedy Nights",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
-      "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "HIT USA RADIO",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9232",
-      "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9232.jpg",
       "rare": false
     },
     {
@@ -59,14 +35,6 @@
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/8273.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Frank LaSpina Presents: Get Happy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9260",
-      "date": "April 19th",
-      "image": "https://lv.houseseats.com/resources/media/9260.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
