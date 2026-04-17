@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-16T17:49:38 PT",
-  "last_successful_run": "2026-04-16T17:49:38 PT",
+  "last_updated": "2026-04-16T20:18:48 PT",
+  "last_successful_run": "2026-04-16T20:18:48 PT",
   "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Zazu Comedy Nights",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
-      "date": "April 16th",
-      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
-      "rare": true
+      "name": "Billy Gardell",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -26,15 +26,15 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9230",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9230.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "Billy Gardell",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
+      "name": "Zazu Comedy Nights",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9256",
       "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/9256.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -66,7 +66,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9250",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/9250.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -74,7 +74,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8273",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/8273.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -82,7 +82,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
       "date": "April 19th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
