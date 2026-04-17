@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-17T12:09:47 PT",
-  "last_successful_run": "2026-04-17T12:09:47 PT",
-  "count": 9,
+  "last_updated": "2026-04-17T13:08:33 PT",
+  "last_successful_run": "2026-04-17T13:08:33 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Billy Gardell",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
-      "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ClueX",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9230",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9230.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Billy Gardell",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9255",
+      "date": "April 17th",
+      "image": "https://lv.houseseats.com/resources/media/9255.jpg",
       "rare": false
     },
     {
@@ -50,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
