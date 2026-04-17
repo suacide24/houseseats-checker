@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-17T13:56:47 PT",
-  "last_successful_run": "2026-04-17T13:56:47 PT",
+  "last_updated": "2026-04-17T14:10:51 PT",
+  "last_successful_run": "2026-04-17T14:10:51 PT",
   "count": 9,
   "shows": [
     {
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9226",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9226.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Wrestling Trivia Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9230",
-      "date": "April 17th",
-      "image": "https://lv.houseseats.com/resources/media/9230.jpg",
       "rare": false
     },
     {
@@ -67,6 +59,14 @@
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/8273.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Frank LaSpina Presents: Get Happy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9260",
+      "date": "April 19th",
+      "image": "https://lv.houseseats.com/resources/media/9260.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
