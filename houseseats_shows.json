@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-17T13:19:35 PT",
-  "last_successful_run": "2026-04-17T13:19:35 PT",
+  "last_updated": "2026-04-17T13:56:47 PT",
+  "last_successful_run": "2026-04-17T13:56:47 PT",
   "count": 9,
   "shows": [
     {
@@ -50,14 +50,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "April 17th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "April 18th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
