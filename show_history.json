@@ -877,7 +877,8 @@
       "appearances": [
         "2026-02-23",
         "2026-03-02",
-        "2026-03-05"
+        "2026-03-05",
+        "2026-04-18"
       ]
     },
     "HouseSeats|steve falcon's comedy hypnosis hour": {
@@ -1708,6 +1709,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-17"
+      ]
+    },
+    "HouseSeats|twist & shout: the beatles tribute show": {
+      "name": "Twist & SHOUT: The Beatles Tribute Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-18"
       ]
     }
   }

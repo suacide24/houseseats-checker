@@ -1,9 +1,25 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-17T22:43:09 PT",
-  "last_successful_run": "2026-04-17T22:43:09 PT",
-  "count": 3,
+  "last_updated": "2026-04-18T00:16:19 PT",
+  "last_successful_run": "2026-04-18T00:16:19 PT",
+  "count": 5,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Twist & SHOUT: The Beatles Tribute Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mat Franco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "date": "April 18th",
+      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
