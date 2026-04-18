@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-18T13:00:56 PT",
-  "last_successful_run": "2026-04-18T13:00:56 PT",
-  "count": 7,
+  "last_updated": "2026-04-18T14:03:07 PT",
+  "last_successful_run": "2026-04-18T14:03:07 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "April 18th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
@@ -26,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8273",
       "date": "April 18th",
       "image": "https://lv.houseseats.com/resources/media/8273.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "April 19th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
