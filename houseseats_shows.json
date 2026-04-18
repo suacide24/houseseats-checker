@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-18T12:23:47 PT",
-  "last_successful_run": "2026-04-18T12:23:47 PT",
-  "count": 4,
+  "last_updated": "2026-04-18T13:00:56 PT",
+  "last_successful_run": "2026-04-18T13:00:56 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,11 +30,35 @@
     },
     {
       "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "April 19th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "ROCKLESQUE: SWEET TOOTH AND OTHER DELIGHTS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
       "date": "April 19th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Sink or Swim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
+      "date": "April 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9136.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Taming of the Shrew",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9245",
+      "date": "April 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9245.jpg",
+      "rare": true
     }
   ]
 }
