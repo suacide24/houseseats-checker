@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-18T20:25:58 PT",
-  "last_successful_run": "2026-04-18T20:25:58 PT",
-  "count": 3,
+  "last_updated": "2026-04-18T22:40:31 PT",
+  "last_successful_run": "2026-04-18T22:40:31 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,18 +14,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Sink or Swim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9136",
-      "date": "April 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9136.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Taming of the Shrew",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9245",
-      "date": "April 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9245.jpg",
+      "name": "Mat Franco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "date": "April 19th",
+      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
       "rare": true
     }
   ]
