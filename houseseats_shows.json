@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-18T22:40:31 PT",
-  "last_successful_run": "2026-04-18T22:40:31 PT",
-  "count": 2,
+  "last_updated": "2026-04-19T00:26:40 PT",
+  "last_successful_run": "2026-04-19T00:26:40 PT",
+  "count": 1,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "date": "April 19th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "April 19th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
-      "rare": true
     }
   ]
 }
