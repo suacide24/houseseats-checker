@@ -116,7 +116,8 @@
         "2026-04-02",
         "2026-04-07",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-20"
       ]
     },
     "HouseSeats|7 minutes in heaven": {
@@ -862,7 +863,8 @@
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
-        "2026-03-27"
+        "2026-03-27",
+        "2026-04-20"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -954,7 +956,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-17",
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-20"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1725,7 +1728,8 @@
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18"
+        "2026-04-18",
+        "2026-04-20"
       ]
     },
     "HouseSeats|the taming of the shrew": {
@@ -1734,6 +1738,13 @@
       "appearances": [
         "2026-04-18",
         "2026-04-19"
+      ]
+    },
+    "HouseSeats|gasolina - a reggeaton party": {
+      "name": "Gasolina - A Reggeaton Party",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-20"
       ]
     }
   }
