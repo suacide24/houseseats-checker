@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-20T13:00:51 PT",
-  "last_successful_run": "2026-04-20T13:00:51 PT",
-  "count": 7,
+  "last_updated": "2026-04-20T13:22:43 PT",
+  "last_successful_run": "2026-04-20T13:22:43 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "April 20th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "April 21st",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
