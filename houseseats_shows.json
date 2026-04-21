@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-21T12:47:38 PT",
-  "last_successful_run": "2026-04-21T12:47:38 PT",
-  "count": 5,
+  "last_updated": "2026-04-21T13:19:07 PT",
+  "last_successful_run": "2026-04-21T13:19:07 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -38,10 +38,42 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Vegas' Dumbest Show about Spring",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Twist & SHOUT: The Beatles Tribute Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Gasolina - A Reggeaton Party",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=5684",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/5684.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Scene Stealers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9251",
+      "date": "April 26th",
+      "image": "https://lv.houseseats.com/resources/media/9251.jpg",
       "rare": true
     }
   ]

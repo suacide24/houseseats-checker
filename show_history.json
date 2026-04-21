@@ -918,7 +918,8 @@
         "2026-03-25",
         "2026-03-26",
         "2026-03-27",
-        "2026-03-28"
+        "2026-03-28",
+        "2026-04-21"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -1757,6 +1758,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-20",
+        "2026-04-21"
+      ]
+    },
+    "HouseSeats|vegas' dumbest show about spring": {
+      "name": "Vegas' Dumbest Show about Spring",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-21"
+      ]
+    },
+    "HouseSeats|peek! the show - true confessions": {
+      "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-04-21"
       ]
     }
