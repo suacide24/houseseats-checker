@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-21T15:41:50 PT",
-  "last_successful_run": "2026-04-21T15:41:50 PT",
-  "count": 9,
+  "last_updated": "2026-04-21T16:39:49 PT",
+  "last_successful_run": "2026-04-21T16:39:49 PT",
+  "count": 10,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "April 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
