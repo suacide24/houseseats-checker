@@ -864,7 +864,8 @@
         "2026-03-25",
         "2026-03-26",
         "2026-03-27",
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-21"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -957,7 +958,8 @@
         "2026-04-16",
         "2026-04-17",
         "2026-04-18",
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-21"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1342,7 +1344,8 @@
         "2026-04-05",
         "2026-04-06",
         "2026-04-15",
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-21"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1744,14 +1747,16 @@
       "name": "Gasolina - A Reggeaton Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-21"
       ]
     },
     "HouseSeats|nathan burton magic show": {
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20"
+        "2026-04-20",
+        "2026-04-21"
       ]
     }
   }
