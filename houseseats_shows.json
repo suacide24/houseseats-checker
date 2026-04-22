@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T10:33:27 PT",
-  "last_successful_run": "2026-04-22T10:33:27 PT",
-  "count": 9,
+  "last_updated": "2026-04-22T10:43:22 PT",
+  "last_successful_run": "2026-04-22T10:43:22 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,6 +19,22 @@
       "date": "April 22nd",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "LETDOWN.",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9265",
+      "date": "April 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9265.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "NECROT",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9266",
+      "date": "April 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9266.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

@@ -1790,6 +1790,20 @@
         "2026-04-21",
         "2026-04-22"
       ]
+    },
+    "HouseSeats|letdown.": {
+      "name": "LETDOWN.",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-22"
+      ]
+    },
+    "HouseSeats|necrot": {
+      "name": "NECROT",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-22"
+      ]
     }
   }
 }
