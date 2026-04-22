@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T15:52:28 PT",
-  "last_successful_run": "2026-04-22T15:52:28 PT",
-  "count": 17,
+  "last_updated": "2026-04-22T16:19:18 PT",
+  "last_successful_run": "2026-04-22T16:19:18 PT",
+  "count": 16,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "LETDOWN.",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9265",
-      "date": "April 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9265.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
@@ -32,7 +24,7 @@
       "source": "HouseSeats",
       "name": "X ROCKS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "April 23rd",
+      "date": "April 22nd",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
