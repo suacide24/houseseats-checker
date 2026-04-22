@@ -536,7 +536,8 @@
         "2026-03-21",
         "2026-04-02",
         "2026-04-15",
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-22"
       ]
     },
     "1stTix|punk rock brunch": {
@@ -983,7 +984,8 @@
         "2026-03-06",
         "2026-03-13",
         "2026-04-15",
-        "2026-04-16"
+        "2026-04-16",
+        "2026-04-22"
       ]
     },
     "HouseSeats|ladies night comedy show": {
@@ -1800,6 +1802,13 @@
     },
     "HouseSeats|necrot": {
       "name": "NECROT",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-22"
+      ]
+    },
+    "HouseSeats|the american ride - toby keith tribute": {
+      "name": "The American Ride - Toby Keith Tribute",
       "source": "HouseSeats",
       "appearances": [
         "2026-04-22"

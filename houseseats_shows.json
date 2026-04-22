@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T10:43:22 PT",
-  "last_successful_run": "2026-04-22T10:43:22 PT",
-  "count": 11,
+  "last_updated": "2026-04-22T11:13:28 PT",
+  "last_successful_run": "2026-04-22T11:13:28 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -38,6 +38,22 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "April 23rd",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "April 23rd",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Viva Thrash Vegas",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9264",
       "date": "April 24th",
@@ -66,6 +82,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The American Ride - Toby Keith Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9262",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9262.jpg",
       "rare": true
     },
     {
