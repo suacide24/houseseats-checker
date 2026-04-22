@@ -865,7 +865,8 @@
         "2026-03-26",
         "2026-03-27",
         "2026-04-20",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -919,7 +920,8 @@
         "2026-03-26",
         "2026-03-27",
         "2026-03-28",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -960,7 +962,8 @@
         "2026-04-17",
         "2026-04-18",
         "2026-04-20",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1346,7 +1349,8 @@
         "2026-04-06",
         "2026-04-15",
         "2026-04-20",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1750,7 +1754,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-20",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|nathan burton magic show": {
@@ -1758,28 +1763,32 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-20",
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
       "name": "Vegas' Dumbest Show about Spring",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|peek! the show - true confessions": {
       "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     },
     "HouseSeats|viva thrash vegas": {
       "name": "Viva Thrash Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-21"
+        "2026-04-21",
+        "2026-04-22"
       ]
     }
   }
