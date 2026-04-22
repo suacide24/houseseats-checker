@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T15:19:07 PT",
-  "last_successful_run": "2026-04-22T15:19:07 PT",
-  "count": 16,
+  "last_updated": "2026-04-22T15:49:12 PT",
+  "last_successful_run": "2026-04-22T15:49:12 PT",
+  "count": 17,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,6 +67,14 @@
       "date": "April 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Brett Young 2.0 Tour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9270",
+      "date": "April 24th",
+      "image": "https://lv.houseseats.com/resources/media/9270.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
