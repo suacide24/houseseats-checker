@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T16:19:18 PT",
-  "last_successful_run": "2026-04-22T16:19:18 PT",
-  "count": 16,
+  "last_updated": "2026-04-22T16:49:43 PT",
+  "last_successful_run": "2026-04-22T16:49:43 PT",
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -90,14 +90,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ashley Loren at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9269",
-      "date": "April 25th",
-      "image": "https://lv.houseseats.com/resources/media/9269.jpg",
       "rare": true
     },
     {
