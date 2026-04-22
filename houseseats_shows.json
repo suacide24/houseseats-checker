@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T14:54:11 PT",
-  "last_successful_run": "2026-04-22T14:54:11 PT",
-  "count": 14,
+  "last_updated": "2026-04-22T15:19:07 PT",
+  "last_successful_run": "2026-04-22T15:19:07 PT",
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -78,10 +78,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Vegas' Dumbest Show about Spring",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ashley Loren at The Smith Center",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9269",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9269.jpg",
       "rare": true
     },
     {

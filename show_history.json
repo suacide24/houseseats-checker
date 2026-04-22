@@ -1591,7 +1591,8 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-08"
+        "2026-04-08",
+        "2026-04-22"
       ]
     },
     "HouseSeats|over budget: no ring - no rules wrestling": {
@@ -1809,6 +1810,13 @@
     },
     "HouseSeats|the american ride - toby keith tribute": {
       "name": "The American Ride - Toby Keith Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-22"
+      ]
+    },
+    "HouseSeats|ashley loren at the smith center": {
+      "name": "Ashley Loren at The Smith Center",
       "source": "HouseSeats",
       "appearances": [
         "2026-04-22"
