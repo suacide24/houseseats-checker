@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T20:07:09 PT",
-  "last_successful_run": "2026-04-22T20:07:09 PT",
+  "last_updated": "2026-04-22T20:21:33 PT",
+  "last_successful_run": "2026-04-22T20:21:33 PT",
   "count": 14,
   "shows": [
     {
@@ -42,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9264",
       "date": "April 24th",
       "image": "https://lv.houseseats.com/resources/media/9264.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -74,7 +74,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/8253.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -82,7 +82,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -114,7 +114,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9251",
       "date": "April 26th",
       "image": "https://lv.houseseats.com/resources/media/9251.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
