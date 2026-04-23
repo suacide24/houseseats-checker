@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-22T16:50:48 PT",
-  "last_successful_run": "2026-04-22T16:50:48 PT",
-  "count": 15,
+  "last_updated": "2026-04-22T19:37:05 PT",
+  "last_successful_run": "2026-04-22T19:37:05 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -24,7 +24,7 @@
       "source": "HouseSeats",
       "name": "X ROCKS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "April 22nd",
+      "date": "April 23rd",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
@@ -59,14 +59,6 @@
       "date": "April 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Brett Young 2.0 Tour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9270",
-      "date": "April 24th",
-      "image": "https://lv.houseseats.com/resources/media/9270.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
