@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-23T15:53:06 PT",
-  "last_successful_run": "2026-04-23T15:53:06 PT",
-  "count": 13,
+  "last_updated": "2026-04-23T16:09:07 PT",
+  "last_successful_run": "2026-04-23T16:09:07 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
       "date": "April 23rd",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Viva Thrash Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9264",
-      "date": "April 24th",
-      "image": "https://lv.houseseats.com/resources/media/9264.jpg",
       "rare": false
     },
     {
