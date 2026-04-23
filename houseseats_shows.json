@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-23T10:08:18 PT",
-  "last_successful_run": "2026-04-23T10:08:18 PT",
+  "last_updated": "2026-04-23T10:38:22 PT",
+  "last_successful_run": "2026-04-23T10:38:22 PT",
   "count": 13,
   "shows": [
     {
@@ -46,14 +46,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 24th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "April 24th",
@@ -66,6 +58,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "April 24th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
