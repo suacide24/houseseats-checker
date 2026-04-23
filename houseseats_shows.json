@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-23T13:38:49 PT",
-  "last_successful_run": "2026-04-23T13:38:49 PT",
-  "count": 14,
+  "last_updated": "2026-04-23T14:08:53 PT",
+  "last_successful_run": "2026-04-23T14:08:53 PT",
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "April 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "NECROT",
