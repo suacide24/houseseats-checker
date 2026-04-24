@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-23T17:09:14 PT",
-  "last_successful_run": "2026-04-23T17:09:14 PT",
-  "count": 11,
+  "last_updated": "2026-04-23T20:23:52 PT",
+  "last_successful_run": "2026-04-23T20:23:52 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "April 23rd",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "April 23rd",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
@@ -66,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9262",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9262.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
