@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-24T13:08:02 PT",
-  "last_successful_run": "2026-04-24T13:08:02 PT",
-  "count": 11,
+  "last_updated": "2026-04-24T14:25:15 PT",
+  "last_successful_run": "2026-04-24T14:25:15 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -82,6 +82,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "April 26th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
