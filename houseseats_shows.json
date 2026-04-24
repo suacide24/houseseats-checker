@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-24T09:32:57 PT",
-  "last_successful_run": "2026-04-24T09:32:57 PT",
-  "count": 9,
+  "last_updated": "2026-04-24T10:52:24 PT",
+  "last_successful_run": "2026-04-24T10:52:24 PT",
+  "count": 11,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Wonderland",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9274",
+      "date": "April 24th",
+      "image": "https://lv.houseseats.com/resources/media/9274.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
@@ -67,6 +75,14 @@
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Naomi Watanabe at The Palazzo Theatre",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9272",
+      "date": "April 25th",
+      "image": "https://lv.houseseats.com/resources/media/9272.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
