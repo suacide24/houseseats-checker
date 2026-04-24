@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-23T16:52:56 PT",
-  "last_successful_run": "2026-04-23T16:52:56 PT",
-  "count": 12,
+  "last_updated": "2026-04-23T17:09:14 PT",
+  "last_successful_run": "2026-04-23T17:09:14 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "NECROT",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9266",
-      "date": "April 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9266.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "X ROCKS",
