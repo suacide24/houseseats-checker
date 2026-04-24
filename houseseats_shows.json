@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-24T12:01:08 PT",
-  "last_successful_run": "2026-04-24T12:01:08 PT",
-  "count": 12,
+  "last_updated": "2026-04-24T13:08:02 PT",
+  "last_successful_run": "2026-04-24T13:08:02 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -83,14 +83,6 @@
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Naomi Watanabe at The Palazzo Theatre",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9272",
-      "date": "April 25th",
-      "image": "https://lv.houseseats.com/resources/media/9272.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
