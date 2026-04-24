@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-24T10:52:24 PT",
-  "last_successful_run": "2026-04-24T10:52:24 PT",
-  "count": 11,
+  "last_updated": "2026-04-24T11:34:30 PT",
+  "last_successful_run": "2026-04-24T11:34:30 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "date": "April 24th",
       "image": "https://lv.houseseats.com/resources/media/9267.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "April 24th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
