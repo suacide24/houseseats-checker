@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-25T10:10:16 PT",
-  "last_successful_run": "2026-04-25T10:10:16 PT",
-  "count": 10,
+  "last_updated": "2026-04-25T11:05:26 PT",
+  "last_successful_run": "2026-04-25T11:05:26 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Vegas' Dumbest Show about Spring",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
-      "date": "April 25th",
-      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Wonderland",
