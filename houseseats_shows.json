@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-25T12:52:46 PT",
-  "last_successful_run": "2026-04-25T12:52:46 PT",
+  "last_updated": "2026-04-25T13:03:57 PT",
+  "last_successful_run": "2026-04-25T13:03:57 PT",
   "count": 9,
   "shows": [
     {
@@ -74,14 +74,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9251",
       "date": "April 26th",
       "image": "https://lv.houseseats.com/resources/media/9251.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Twist & SHOUT: The Beatles Tribute Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
-      "date": "May 1st",
-      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
       "rare": false
     }
   ]
