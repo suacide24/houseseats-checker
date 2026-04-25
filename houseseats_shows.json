@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-24T18:27:10 PT",
-  "last_successful_run": "2026-04-24T18:27:10 PT",
-  "count": 10,
+  "last_updated": "2026-04-24T18:57:14 PT",
+  "last_successful_run": "2026-04-24T18:57:14 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "April 24th",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Wonderland",
