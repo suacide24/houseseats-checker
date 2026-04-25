@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-25T14:05:43 PT",
-  "last_successful_run": "2026-04-25T14:05:43 PT",
-  "count": 8,
+  "last_updated": "2026-04-25T15:02:20 PT",
+  "last_successful_run": "2026-04-25T15:02:20 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Wonderland",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9274",
-      "date": "April 25th",
-      "image": "https://lv.houseseats.com/resources/media/9274.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "TEASE: A Burlesque Revue",
@@ -22,19 +14,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Gasolina - A Reggeaton Party",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=5684",
-      "date": "April 25th",
-      "image": "https://lv.houseseats.com/resources/media/5684.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Scene Stealers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "April 25th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wonderland",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9274",
+      "date": "April 26th",
+      "image": "https://lv.houseseats.com/resources/media/9274.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -50,14 +42,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "April 26th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "April 26th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
