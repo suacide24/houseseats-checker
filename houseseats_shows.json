@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-24T17:57:06 PT",
-  "last_successful_run": "2026-04-24T17:57:06 PT",
-  "count": 11,
+  "last_updated": "2026-04-24T18:27:10 PT",
+  "last_successful_run": "2026-04-24T18:27:10 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ICONIQUE Nights",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9267",
-      "date": "April 24th",
-      "image": "https://lv.houseseats.com/resources/media/9267.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Whisky Mixer - Improv Party Night",
