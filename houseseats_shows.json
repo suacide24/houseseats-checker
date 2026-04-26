@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-25T23:23:47 PT",
-  "last_successful_run": "2026-04-25T23:23:47 PT",
-  "count": 4,
+  "last_updated": "2026-04-26T01:02:55 PT",
+  "last_successful_run": "2026-04-26T01:02:55 PT",
+  "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Wonderland",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9274",
-      "date": "April 26th",
-      "image": "https://lv.houseseats.com/resources/media/9274.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
