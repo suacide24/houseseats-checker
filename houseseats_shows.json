@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-25T16:06:08 PT",
-  "last_successful_run": "2026-04-25T16:06:08 PT",
-  "count": 6,
+  "last_updated": "2026-04-25T17:04:14 PT",
+  "last_successful_run": "2026-04-25T17:04:14 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,19 +14,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Scene Stealers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
-      "date": "April 25th",
-      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Wonderland",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9274",
       "date": "April 26th",
       "image": "https://lv.houseseats.com/resources/media/9274.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
