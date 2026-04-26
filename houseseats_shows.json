@@ -1,16 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-27T09:08:57 PT",
-  "last_successful_run": "2026-04-27T09:08:57 PT",
-  "count": 1,
-  "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 30th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    }
-  ]
+  "last_updated": "2026-04-26T13:59:15 PT",
+  "last_successful_run": "2026-04-25T12:52:46 PT",
+  "count": 0,
+  "shows": []
 }
