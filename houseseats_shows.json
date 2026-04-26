@@ -1,31 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-26T14:05:41 PT",
-  "last_successful_run": "2026-04-26T14:05:41 PT",
-  "count": 3,
+  "last_updated": "2026-04-26T15:03:59 PT",
+  "last_successful_run": "2026-04-26T15:03:59 PT",
+  "count": 1,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "April 26th",
+      "date": "April 29th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9251",
-      "date": "April 26th",
-      "image": "https://lv.houseseats.com/resources/media/9251.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Twist & SHOUT: The Beatles Tribute Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
-      "date": "May 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
       "rare": false
     }
   ]
