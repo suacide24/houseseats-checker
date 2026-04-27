@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-27T13:33:32 PT",
-  "last_successful_run": "2026-04-27T13:33:32 PT",
-  "count": 4,
+  "last_updated": "2026-04-27T14:03:35 PT",
+  "last_successful_run": "2026-04-27T14:03:35 PT",
+  "count": 5,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Mat Franco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "date": "April 27th",
+      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
