@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-28T15:10:18 PT",
-  "last_successful_run": "2026-04-28T15:10:18 PT",
-  "count": 9,
+  "last_updated": "2026-04-28T15:40:24 PT",
+  "last_successful_run": "2026-04-28T15:40:24 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,6 +67,14 @@
       "date": "May 1st",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Emo Orchestra",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9280",
+      "date": "May 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9280.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
