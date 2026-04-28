@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-28T15:40:24 PT",
-  "last_successful_run": "2026-04-28T15:40:24 PT",
-  "count": 10,
+  "last_updated": "2026-04-28T16:13:30 PT",
+  "last_successful_run": "2026-04-28T16:13:30 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -74,6 +74,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9280",
       "date": "May 2nd",
       "image": "https://lv.houseseats.com/resources/media/9280.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "End of the Line: The Allman Brothers Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9281",
+      "date": "May 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9281.jpg",
       "rare": true
     },
     {
