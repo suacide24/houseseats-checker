@@ -146,7 +146,8 @@
         "2026-04-16",
         "2026-04-17",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-04-28"
       ]
     },
     "1stTix|david copperfield": {
@@ -1911,6 +1912,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-27",
+        "2026-04-28"
+      ]
+    },
+    "HouseSeats|the soulful sounds of cj scala": {
+      "name": "The Soulful Sounds of CJ Scala",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-04-28"
+      ]
+    },
+    "HouseSeats|those it girls": {
+      "name": "Those It Girls",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-04-28"
       ]
     }

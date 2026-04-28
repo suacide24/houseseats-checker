@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-28T14:40:11 PT",
-  "last_successful_run": "2026-04-28T14:40:11 PT",
-  "count": 6,
+  "last_updated": "2026-04-28T15:02:39 PT",
+  "last_successful_run": "2026-04-28T15:02:39 PT",
+  "count": 9,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "The Soulful Sounds of CJ Scala",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9278",
+      "date": "April 29th",
+      "image": "https://lv.houseseats.com/resources/media/9278.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -11,6 +19,14 @@
       "date": "April 30th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Those It Girls",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9279",
+      "date": "April 30th",
+      "image": "https://lv.houseseats.com/resources/media/9279.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -42,6 +58,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9267",
       "date": "May 1st",
       "image": "https://lv.houseseats.com/resources/media/9267.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "May 1st",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
