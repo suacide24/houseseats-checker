@@ -147,7 +147,8 @@
         "2026-04-17",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "1stTix|david copperfield": {
@@ -984,7 +985,8 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1378,7 +1380,8 @@
         "2026-04-24",
         "2026-04-25",
         "2026-04-27",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1620,7 +1623,8 @@
         "2026-04-08",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|over budget: no ring - no rules wrestling": {
@@ -1886,7 +1890,8 @@
         "2026-04-24",
         "2026-04-25",
         "2026-04-27",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|wonderland": {
@@ -1897,7 +1902,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-04-27",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|naomi watanabe at the palazzo theatre": {
@@ -1912,35 +1918,40 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-27",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|the soulful sounds of cj scala": {
       "name": "The Soulful Sounds of CJ Scala",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|those it girls": {
       "name": "Those It Girls",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|emo orchestra": {
       "name": "Emo Orchestra",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     },
     "HouseSeats|end of the line: the allman brothers tribute": {
       "name": "End of the Line: The Allman Brothers Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28"
+        "2026-04-28",
+        "2026-04-29"
       ]
     }
   }

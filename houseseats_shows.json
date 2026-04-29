@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-28T17:22:42 PT",
-  "last_successful_run": "2026-04-28T17:22:42 PT",
+  "last_updated": "2026-04-28T18:18:45 PT",
+  "last_successful_run": "2026-04-28T18:18:45 PT",
   "count": 11,
   "shows": [
     {
@@ -42,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9065",
       "date": "May 1st",
       "image": "https://lv.houseseats.com/resources/media/9065.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
