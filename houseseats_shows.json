@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-30T16:03:27 PT",
-  "last_successful_run": "2026-04-30T16:03:27 PT",
-  "count": 6,
+  "last_updated": "2026-04-30T16:33:31 PT",
+  "last_successful_run": "2026-04-30T16:33:31 PT",
+  "count": 7,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "April 30th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Wonderland",
