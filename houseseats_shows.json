@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-29T18:52:09 PT",
-  "last_successful_run": "2026-04-29T18:52:09 PT",
+  "last_updated": "2026-04-29T20:56:52 PT",
+  "last_successful_run": "2026-04-29T20:56:52 PT",
   "count": 7,
   "shows": [
     {
@@ -50,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9280",
       "date": "May 2nd",
       "image": "https://lv.houseseats.com/resources/media/9280.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -58,7 +58,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9281",
       "date": "May 2nd",
       "image": "https://lv.houseseats.com/resources/media/9281.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
