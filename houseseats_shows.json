@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-29T16:58:45 PT",
-  "last_successful_run": "2026-04-29T16:58:45 PT",
-  "count": 9,
+  "last_updated": "2026-04-29T17:05:42 PT",
+  "last_successful_run": "2026-04-29T17:05:42 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Soulful Sounds of CJ Scala",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9278",
-      "date": "April 29th",
-      "image": "https://lv.houseseats.com/resources/media/9278.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Those It Girls",
