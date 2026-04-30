@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-04-29T17:05:42 PT",
-  "last_successful_run": "2026-04-29T17:05:42 PT",
-  "count": 8,
+  "last_updated": "2026-04-29T17:35:47 PT",
+  "last_successful_run": "2026-04-29T17:35:47 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Those It Girls",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9279",
-      "date": "April 30th",
-      "image": "https://lv.houseseats.com/resources/media/9279.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Wonderland",
