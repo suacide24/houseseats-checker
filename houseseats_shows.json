@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-01T11:39:04 PT",
-  "last_successful_run": "2026-05-01T11:39:04 PT",
-  "count": 4,
+  "last_updated": "2026-05-01T13:07:54 PT",
+  "last_successful_run": "2026-05-01T13:07:54 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,10 +30,50 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Faaabulous! - The Ultimate Drag Brunch Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9284",
+      "date": "May 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9284.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "May 2nd",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "End of the Line: The Allman Brothers Tribute",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9281",
       "date": "May 2nd",
       "image": "https://lv.houseseats.com/resources/media/9281.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9282",
+      "date": "May 4th",
+      "image": "https://lv.houseseats.com/resources/media/9282.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
+      "date": "May 4th",
+      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Twist & SHOUT: The Beatles Tribute Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
+      "date": "May 7th",
+      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
       "rare": false
     }
   ]

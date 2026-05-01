@@ -119,7 +119,8 @@
         "2026-04-18",
         "2026-04-20",
         "2026-04-25",
-        "2026-04-28"
+        "2026-04-28",
+        "2026-05-01"
       ]
     },
     "HouseSeats|7 minutes in heaven": {
@@ -1781,7 +1782,8 @@
         "2026-04-20",
         "2026-04-21",
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-05-01"
       ]
     },
     "HouseSeats|the taming of the shrew": {
@@ -1966,6 +1968,27 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
+        "2026-05-01"
+      ]
+    },
+    "HouseSeats|faaabulous! - the ultimate drag brunch show": {
+      "name": "Faaabulous! - The Ultimate Drag Brunch Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-01"
+      ]
+    },
+    "HouseSeats|merle norman cosmetic studio - makeup service (las vegas)": {
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-01"
+      ]
+    },
+    "HouseSeats|merle norman cosmetic studio - makeup service (henderson)": {
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-05-01"
       ]
     }
