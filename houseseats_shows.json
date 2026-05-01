@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-01T15:33:45 PT",
-  "last_successful_run": "2026-05-01T15:33:45 PT",
-  "count": 8,
+  "last_updated": "2026-05-01T16:03:50 PT",
+  "last_successful_run": "2026-05-01T16:03:50 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -50,14 +50,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
       "date": "May 4th",
       "image": "https://lv.houseseats.com/resources/media/9283.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9282",
-      "date": "May 5th",
-      "image": "https://lv.houseseats.com/resources/media/9282.jpg",
       "rare": true
     },
     {
