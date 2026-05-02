@@ -1389,7 +1389,8 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -2029,6 +2030,13 @@
     },
     "HouseSeats|cristela alonzo: the midlife mixtape tour": {
       "name": "Cristela Alonzo: The Midlife Mixtape Tour",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-02"
+      ]
+    },
+    "HouseSeats|murray's madhouse": {
+      "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
         "2026-05-02"
