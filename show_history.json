@@ -1013,7 +1013,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-30",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ]
     },
     "HouseSeats|ladies night comedy show": {
@@ -1783,7 +1784,8 @@
         "2026-04-21",
         "2026-04-25",
         "2026-04-26",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ]
     },
     "HouseSeats|the taming of the shrew": {
@@ -1915,7 +1917,8 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ]
     },
     "HouseSeats|naomi watanabe at the palazzo theatre": {
@@ -1968,14 +1971,16 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ]
     },
     "HouseSeats|faaabulous! - the ultimate drag brunch show": {
       "name": "Faaabulous! - The Ultimate Drag Brunch Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
       ]
     },
     "HouseSeats|merle norman cosmetic studio - makeup service (las vegas)": {
@@ -1989,7 +1994,15 @@
       "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-02"
+      ]
+    },
+    "HouseSeats|mondays dark": {
+      "name": "Mondays Dark",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-02"
       ]
     }
   }
