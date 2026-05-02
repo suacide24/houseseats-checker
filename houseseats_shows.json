@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-02T13:04:34 PT",
-  "last_successful_run": "2026-05-02T13:04:34 PT",
-  "count": 8,
+  "last_updated": "2026-05-02T14:09:30 PT",
+  "last_successful_run": "2026-05-02T14:09:30 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Cristela Alonzo: The Midlife Mixtape Tour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9290",
-      "date": "May 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9290.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "End of the Line: The Allman Brothers Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9281",
-      "date": "May 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9281.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mondays Dark",
@@ -34,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9286",
       "date": "May 4th",
       "image": "https://lv.houseseats.com/resources/media/9286.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
-      "date": "May 5th",
-      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
       "rare": true
     },
     {
