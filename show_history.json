@@ -2004,6 +2004,20 @@
       "appearances": [
         "2026-05-02"
       ]
+    },
+    "HouseSeats|rebel trivia night": {
+      "name": "Rebel Trivia Night",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-02"
+      ]
+    },
+    "HouseSeats|empire trivia night": {
+      "name": "Empire Trivia Night",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-02"
+      ]
     }
   }
 }

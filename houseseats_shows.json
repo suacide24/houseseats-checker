@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-01T18:13:43 PT",
-  "last_successful_run": "2026-05-01T18:13:43 PT",
+  "last_updated": "2026-05-01T21:42:48 PT",
+  "last_successful_run": "2026-05-01T21:42:48 PT",
   "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "May 1st",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Faaabulous! - The Ultimate Drag Brunch Show",
@@ -38,18 +30,26 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
-      "date": "May 4th",
-      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Mondays Dark",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9285",
       "date": "May 4th",
       "image": "https://lv.houseseats.com/resources/media/9285.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Rebel Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9286",
+      "date": "May 4th",
+      "image": "https://lv.houseseats.com/resources/media/9286.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Empire Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9287",
+      "date": "May 5th",
+      "image": "https://lv.houseseats.com/resources/media/9287.jpg",
       "rare": true
     },
     {
