@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-02T06:53:45 PT",
-  "last_successful_run": "2026-05-02T06:53:45 PT",
-  "count": 7,
+  "last_updated": "2026-05-02T07:53:13 PT",
+  "last_successful_run": "2026-05-02T07:53:13 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Faaabulous! - The Ultimate Drag Brunch Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9284",
-      "date": "May 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9284.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Wonderland",
