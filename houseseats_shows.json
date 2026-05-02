@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-02T09:55:43 PT",
-  "last_successful_run": "2026-05-02T09:55:43 PT",
-  "count": 4,
+  "last_updated": "2026-05-02T10:51:20 PT",
+  "last_successful_run": "2026-05-02T10:51:20 PT",
+  "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Priscilla Presley",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9289",
+      "date": "May 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9289.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "End of the Line: The Allman Brothers Tribute",
@@ -26,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9286",
       "date": "May 4th",
       "image": "https://lv.houseseats.com/resources/media/9286.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
+      "date": "May 5th",
+      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
       "rare": true
     },
     {
