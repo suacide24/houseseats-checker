@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-03T13:52:06 PT",
-  "last_successful_run": "2026-05-03T13:52:06 PT",
-  "count": 6,
+  "last_updated": "2026-05-03T14:50:30 PT",
+  "last_successful_run": "2026-05-03T14:50:30 PT",
+  "count": 8,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "May 3rd",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Mondays Dark",
@@ -27,6 +35,14 @@
       "date": "May 5th",
       "image": "https://lv.houseseats.com/resources/media/9287.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
+      "date": "May 6th",
+      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
