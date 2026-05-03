@@ -1390,7 +1390,8 @@
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -2004,21 +2005,24 @@
       "name": "Mondays Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ]
     },
     "HouseSeats|rebel trivia night": {
       "name": "Rebel Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ]
     },
     "HouseSeats|empire trivia night": {
       "name": "Empire Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ]
     },
     "HouseSeats|priscilla presley": {
@@ -2039,7 +2043,8 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02"
+        "2026-05-02",
+        "2026-05-03"
       ]
     }
   }
