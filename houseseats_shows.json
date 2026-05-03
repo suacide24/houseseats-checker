@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-03T08:43:54 PT",
-  "last_successful_run": "2026-05-03T08:43:54 PT",
-  "count": 5,
+  "last_updated": "2026-05-03T09:10:43 PT",
+  "last_successful_run": "2026-05-03T09:10:43 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -42,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "May 6th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Yachtzilla - Monsters of Soft Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8869",
+      "date": "May 9th",
+      "image": "https://lv.houseseats.com/resources/media/8869.jpg",
       "rare": true
     }
   ]
