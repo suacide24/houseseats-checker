@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-03T12:36:12 PT",
-  "last_successful_run": "2026-05-03T12:36:12 PT",
-  "count": 5,
+  "last_updated": "2026-05-03T13:52:06 PT",
+  "last_successful_run": "2026-05-03T13:52:06 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,6 +35,14 @@
       "date": "May 6th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jazz Vegas Orchestra Live",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7671",
+      "date": "May 6th",
+      "image": "https://lv.houseseats.com/resources/media/7671.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
