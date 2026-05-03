@@ -1,7 +1,48 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-02T06:22:33 PT",
-  "last_successful_run": "2026-05-01T17:03:57 PT",
-  "count": 0,
-  "shows": []
+  "last_updated": "2026-05-03T07:09:43 PT",
+  "last_successful_run": "2026-05-03T07:09:43 PT",
+  "count": 5,
+  "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Mondays Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9285",
+      "date": "May 4th",
+      "image": "https://lv.houseseats.com/resources/media/9285.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Rebel Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9286",
+      "date": "May 4th",
+      "image": "https://lv.houseseats.com/resources/media/9286.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Empire Trivia Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9287",
+      "date": "May 5th",
+      "image": "https://lv.houseseats.com/resources/media/9287.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "May 6th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
+      "date": "May 6th",
+      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": true
+    }
+  ]
 }
