@@ -2005,7 +2005,6 @@
       "name": "Mondays Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-03"
       ]
     },
@@ -2013,7 +2012,6 @@
       "name": "Rebel Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-03"
       ]
     },
@@ -2021,7 +2019,6 @@
       "name": "Empire Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-03"
       ]
     },
@@ -2037,35 +2034,6 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-02"
-      ]
-    },
-    "HouseSeats|murray's madhouse": {
-      "name": "Murray's Madhouse",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-02",
-        "2026-05-03"
-      ]
-    },
-    "HouseSeats|mondays dark": {
-      "name": "Mondays Dark",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-03"
-      ]
-    },
-    "HouseSeats|rebel trivia night": {
-      "name": "Rebel Trivia Night",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-03"
-      ]
-    },
-    "HouseSeats|empire trivia night": {
-      "name": "Empire Trivia Night",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-03"
       ]
     },
     "HouseSeats|murray's madhouse": {
