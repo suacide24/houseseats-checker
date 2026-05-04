@@ -1,15 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-04T15:50:41 PT",
-  "last_successful_run": "2026-05-04T15:50:41 PT",
+  "last_updated": "2026-05-04T16:20:45 PT",
+  "last_successful_run": "2026-05-04T16:20:45 PT",
   "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Mondays Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9285",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "May 4th",
-      "image": "https://lv.houseseats.com/resources/media/9285.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": true
     },
     {
