@@ -1910,7 +1910,8 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-05-04"
       ]
     },
     "HouseSeats|wonderland": {
@@ -2005,7 +2006,8 @@
       "appearances": [
         "2026-05-01",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-05-04"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2058,6 +2060,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-03"
+      ]
+    },
+    "HouseSeats|horns up tribute night: high priest": {
+      "name": "Horns Up Tribute Night: High Priest",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-04"
       ]
     }
   }
