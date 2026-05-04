@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-03T19:52:25 PT",
-  "last_successful_run": "2026-05-03T19:52:25 PT",
+  "last_updated": "2026-05-03T20:41:02 PT",
+  "last_successful_run": "2026-05-03T20:41:02 PT",
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "May 3rd",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mondays Dark",
