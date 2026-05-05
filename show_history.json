@@ -2074,6 +2074,13 @@
         "2026-05-04",
         "2026-05-05"
       ]
+    },
+    "HouseSeats|bighorn rodeo 2026": {
+      "name": "BigHorn Rodeo 2026",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-05"
+      ]
     }
   }
 }

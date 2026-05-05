@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-05T12:52:42 PT",
-  "last_successful_run": "2026-05-05T12:52:42 PT",
-  "count": 4,
+  "last_updated": "2026-05-05T13:22:46 PT",
+  "last_successful_run": "2026-05-05T13:22:46 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "date": "May 8th",
       "image": "https://lv.houseseats.com/resources/media/9267.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "BigHorn Rodeo 2026",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9291",
+      "date": "May 9th",
+      "image": "https://lv.houseseats.com/resources/media/9291.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
