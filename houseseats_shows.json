@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-05T13:52:51 PT",
-  "last_successful_run": "2026-05-05T13:52:51 PT",
-  "count": 5,
+  "last_updated": "2026-05-05T14:07:21 PT",
+  "last_successful_run": "2026-05-05T14:07:21 PT",
+  "count": 4,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Empire Trivia Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9287",
-      "date": "May 5th",
-      "image": "https://lv.houseseats.com/resources/media/9287.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
