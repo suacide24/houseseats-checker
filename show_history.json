@@ -1396,7 +1396,8 @@
         "2026-04-30",
         "2026-05-01",
         "2026-05-03",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-05"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1912,7 +1913,8 @@
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-05"
       ]
     },
     "HouseSeats|wonderland": {
@@ -2032,7 +2034,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-03",
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-05"
       ]
     },
     "HouseSeats|priscilla presley": {
@@ -2067,7 +2070,8 @@
       "name": "Horns Up Tribute Night: High Priest",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-04"
+        "2026-05-04",
+        "2026-05-05"
       ]
     }
   }
