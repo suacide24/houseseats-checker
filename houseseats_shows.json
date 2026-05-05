@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-04T17:21:47 PT",
-  "last_successful_run": "2026-05-04T17:21:47 PT",
-  "count": 6,
+  "last_updated": "2026-05-04T17:51:51 PT",
+  "last_successful_run": "2026-05-04T17:51:51 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "May 4th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Empire Trivia Night",
