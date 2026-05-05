@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-04T16:58:17 PT",
-  "last_successful_run": "2026-05-04T16:58:17 PT",
-  "count": 7,
+  "last_updated": "2026-05-04T17:21:47 PT",
+  "last_successful_run": "2026-05-04T17:21:47 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,14 +34,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "May 7th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
-      "date": "May 8th",
-      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
       "rare": false
     },
     {
