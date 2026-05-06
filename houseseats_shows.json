@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-06T15:51:45 PT",
-  "last_successful_run": "2026-05-06T15:51:45 PT",
-  "count": 6,
+  "last_updated": "2026-05-06T16:21:48 PT",
+  "last_successful_run": "2026-05-06T16:21:48 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "May 6th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
