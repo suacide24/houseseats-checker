@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-06T14:51:35 PT",
-  "last_successful_run": "2026-05-06T14:51:35 PT",
-  "count": 5,
+  "last_updated": "2026-05-06T15:21:39 PT",
+  "last_successful_run": "2026-05-06T15:21:39 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "May 7th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "May 7th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
