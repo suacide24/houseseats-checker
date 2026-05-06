@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-06T10:25:00 PT",
-  "last_successful_run": "2026-05-06T10:25:00 PT",
-  "count": 6,
+  "last_updated": "2026-05-06T10:45:16 PT",
+  "last_successful_run": "2026-05-06T10:45:16 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "May 6th",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
