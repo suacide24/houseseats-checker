@@ -2098,6 +2098,13 @@
         "2026-05-06",
         "2026-05-07"
       ]
+    },
+    "HouseSeats|an evening with rachel bay jones at the smith center": {
+      "name": "An Evening with Rachel Bay Jones at The Smith Center",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-07"
+      ]
     }
   }
 }
