@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-06T17:53:41 PT",
-  "last_successful_run": "2026-05-06T17:53:41 PT",
+  "last_updated": "2026-05-06T18:17:43 PT",
+  "last_successful_run": "2026-05-06T18:17:43 PT",
   "count": 5,
   "shows": [
     {
@@ -42,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9291",
       "date": "May 10th",
       "image": "https://lv.houseseats.com/resources/media/9291.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
