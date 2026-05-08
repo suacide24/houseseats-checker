@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-07T16:43:04 PT",
-  "last_successful_run": "2026-05-07T16:43:04 PT",
-  "count": 7,
+  "last_updated": "2026-05-07T17:17:21 PT",
+  "last_successful_run": "2026-05-07T17:17:21 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "date": "May 8th",
       "image": "https://lv.houseseats.com/resources/media/9267.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "An Evening with Rachel Bay Jones at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9306",
-      "date": "May 9th",
-      "image": "https://lv.houseseats.com/resources/media/9306.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
