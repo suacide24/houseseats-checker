@@ -124,7 +124,8 @@
         "2026-04-24",
         "2026-04-25",
         "2026-04-28",
-        "2026-04-29"
+        "2026-04-29",
+        "2026-05-08"
       ]
     },
     "1stTix|david copperfield": {
@@ -2083,6 +2084,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-07"
+      ]
+    },
+    "HouseSeats|dead meadow w/ cory shane, peaceful retreat": {
+      "name": "DEAD MEADOW w/ Cory Shane, Peaceful Retreat",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-08"
       ]
     }
   }
