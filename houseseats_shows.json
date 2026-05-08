@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-08T13:50:37 PT",
-  "last_successful_run": "2026-05-08T13:50:37 PT",
-  "count": 7,
+  "last_updated": "2026-05-08T15:01:27 PT",
+  "last_successful_run": "2026-05-08T15:01:27 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "May 8th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "May 8th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ICONIQUE Nights",
