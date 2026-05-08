@@ -4,7 +4,6 @@
       "name": "Lioz - Master of Delusion",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06",
         "2026-02-10",
         "2026-02-11"
       ]
@@ -13,7 +12,6 @@
       "name": "Haunted Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06",
         "2026-03-20",
         "2026-03-26"
       ]
@@ -22,7 +20,6 @@
       "name": "David Goldrake At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06",
         "2026-02-07",
         "2026-02-08",
         "2026-02-09",
@@ -34,47 +31,23 @@
       "name": "Improv Ol\u00e9",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06",
         "2026-03-26"
-      ]
-    },
-    "HouseSeats|r/amithea**hole": {
-      "name": "r/AmITheA**hole",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-06"
       ]
     },
     "HouseSeats|comedysportz las vegas": {
       "name": "ComedySportz Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06",
         "2026-03-20",
         "2026-03-26"
-      ]
-    },
-    "HouseSeats|let's play: an improvised game show": {
-      "name": "Let's Play: An Improvised Game Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-06"
       ]
     },
     "HouseSeats|foul play": {
       "name": "Foul Play",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-06",
         "2026-03-20",
         "2026-03-26"
-      ]
-    },
-    "HouseSeats|red velvet burlesque show": {
-      "name": "Red Velvet Burlesque Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-06"
       ]
     },
     "HouseSeats|elton john & beatles: made in england": {
@@ -549,7 +522,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-05-06",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ]
     },
     "1stTix|punk rock brunch": {
@@ -1405,7 +1379,8 @@
         "2026-05-04",
         "2026-05-05",
         "2026-05-06",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1924,7 +1899,8 @@
         "2026-05-04",
         "2026-05-05",
         "2026-05-06",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ]
     },
     "HouseSeats|wonderland": {
@@ -2011,7 +1987,8 @@
         "2026-05-01",
         "2026-05-02",
         "2026-05-04",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ]
     },
     "HouseSeats|merle norman cosmetic studio - makeup service (henderson)": {
@@ -2087,7 +2064,8 @@
         "2026-05-04",
         "2026-05-05",
         "2026-05-06",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ]
     },
     "HouseSeats|bighorn rodeo 2026": {
@@ -2096,7 +2074,8 @@
       "appearances": [
         "2026-05-05",
         "2026-05-06",
-        "2026-05-07"
+        "2026-05-07",
+        "2026-05-08"
       ]
     },
     "HouseSeats|an evening with rachel bay jones at the smith center": {
