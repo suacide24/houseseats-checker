@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-09T10:31:14 PT",
-  "last_successful_run": "2026-05-09T10:31:14 PT",
-  "count": 4,
+  "last_updated": "2026-05-09T12:10:08 PT",
+  "last_successful_run": "2026-05-09T12:10:08 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9291",
       "date": "May 10th",
       "image": "https://lv.houseseats.com/resources/media/9291.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "May 10th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     }
   ]
