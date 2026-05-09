@@ -20,7 +20,6 @@
       "name": "David Goldrake At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-07",
         "2026-02-08",
         "2026-02-09",
         "2026-03-20",
@@ -48,20 +47,6 @@
       "appearances": [
         "2026-03-20",
         "2026-03-26"
-      ]
-    },
-    "HouseSeats|elton john & beatles: made in england": {
-      "name": "Elton John & Beatles: Made In England",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-07"
-      ]
-    },
-    "HouseSeats|babes and blues valentine's revue": {
-      "name": "Babes and Blues Valentine's Revue",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-07"
       ]
     },
     "HouseSeats|marc savard comedy hypnosis": {
@@ -96,7 +81,8 @@
         "2026-05-01",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ]
     },
     "HouseSeats|7 minutes in heaven": {
@@ -126,7 +112,8 @@
         "2026-04-25",
         "2026-04-28",
         "2026-04-29",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ]
     },
     "1stTix|david copperfield": {
@@ -1981,7 +1968,8 @@
       "appearances": [
         "2026-05-01",
         "2026-05-02",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ]
     },
     "HouseSeats|merle norman cosmetic studio - makeup service (las vegas)": {
@@ -2069,7 +2057,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ]
     },
     "HouseSeats|bighorn rodeo 2026": {
@@ -2079,7 +2068,8 @@
         "2026-05-05",
         "2026-05-06",
         "2026-05-07",
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ]
     },
     "HouseSeats|an evening with rachel bay jones at the smith center": {
@@ -2093,7 +2083,8 @@
       "name": "DEAD MEADOW w/ Cory Shane, Peaceful Retreat",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08"
+        "2026-05-08",
+        "2026-05-09"
       ]
     }
   }
