@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-10T09:01:43 PT",
-  "last_successful_run": "2026-05-10T09:01:43 PT",
-  "count": 2,
+  "last_updated": "2026-05-10T10:29:42 PT",
+  "last_successful_run": "2026-05-10T10:29:42 PT",
+  "count": 3,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "FANTASY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
+      "date": "May 10th",
+      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
