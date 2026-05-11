@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-11T13:56:05 PT",
-  "last_successful_run": "2026-05-11T13:56:05 PT",
-  "count": 7,
+  "last_updated": "2026-05-11T14:26:09 PT",
+  "last_successful_run": "2026-05-11T14:26:09 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,14 +34,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Nevada Ballet Theatre: Hansel & Gretel",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9292",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/9292.jpg",
       "rare": true
     },
     {
