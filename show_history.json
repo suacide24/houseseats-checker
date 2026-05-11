@@ -20,7 +20,6 @@
       "name": "David Goldrake At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-09",
         "2026-03-20",
         "2026-03-26"
       ]
@@ -82,18 +81,10 @@
         "2026-05-09"
       ]
     },
-    "HouseSeats|7 minutes in heaven": {
-      "name": "7 Minutes in Heaven",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-09"
-      ]
-    },
     "HouseSeats|rouge": {
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-09",
         "2026-02-19",
         "2026-03-11",
         "2026-04-03",
@@ -115,7 +106,6 @@
       "name": "David Copperfield",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11"
       ]
@@ -124,7 +114,6 @@
       "name": "X Country",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13",
@@ -135,7 +124,6 @@
       "name": "Piff the Magic Dragon (Las Vegas)",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-16"
       ]
     },
@@ -143,86 +131,33 @@
       "name": "Awakening",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
-      ]
-    },
-    "1stTix|masters of magic": {
-      "name": "Masters of Magic",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
       ]
     },
     "1stTix|criss angel mindfreak": {
       "name": "Criss Angel Mindfreak",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13"
-      ]
-    },
-    "1stTix|david goldrake": {
-      "name": "David Goldrake",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
       ]
     },
     "1stTix|farrell dillon comedy magician": {
       "name": "Farrell Dillon Comedy Magician",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13"
-      ]
-    },
-    "1stTix|joan jett & the blackhearts": {
-      "name": "Joan Jett & the Blackhearts",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
-      ]
-    },
-    "1stTix|michael shannon & jason narducy play r.e.m.'s lifes rich pageant": {
-      "name": "Michael Shannon & Jason Narducy play R.E.M.'s Lifes Rich Pageant",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
-      ]
-    },
-    "1stTix|jazz oasis with the syn-phonics": {
-      "name": "Jazz Oasis with the Syn-Phonics",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
-      ]
-    },
-    "1stTix|tahoe knight monsters - echl vs idaho steelheads": {
-      "name": "Tahoe Knight Monsters - ECHL vs Idaho Steelheads",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
-      ]
-    },
-    "1stTix|al jardine and the pet sounds band": {
-      "name": "Al Jardine And The Pet Sounds Band",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-09"
       ]
     },
     "1stTix|vegas golden knights - nhl": {
       "name": "Vegas Golden Knights - NHL",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13",
@@ -233,7 +168,6 @@
       "name": "The LiUNA",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13",
@@ -244,7 +178,6 @@
       "name": "Pennzoil 400 Pres By Jiffy Lube",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13",
@@ -255,7 +188,6 @@
       "name": "Frank Marino\u2019s Divas, Drag & Drinks",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10"
       ]
     },
@@ -263,7 +195,6 @@
       "name": "Lvl Up Expo",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11",
         "2026-02-13",
@@ -274,30 +205,14 @@
       "name": "Piff the Magic Dragon",
       "source": "1stTix",
       "appearances": [
-        "2026-02-09",
         "2026-02-10",
         "2026-02-11"
-      ]
-    },
-    "HouseSeats|wayne: up close & personal": {
-      "name": "Wayne: Up Close & Personal",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-09"
-      ]
-    },
-    "HouseSeats|albert cummings": {
-      "name": "Albert Cummings",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-09"
       ]
     },
     "HouseSeats|improv is blind": {
       "name": "Improv is Blind",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-09",
         "2026-03-20"
       ]
     },
@@ -1273,7 +1188,8 @@
         "2026-05-07",
         "2026-05-08",
         "2026-05-09",
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-11"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1540,7 +1456,8 @@
       "appearances": [
         "2026-04-10",
         "2026-04-11",
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-11"
       ]
     },
     "HouseSeats|ricky tenacious presents the dropkick disco": {
@@ -1945,7 +1862,8 @@
         "2026-05-03",
         "2026-05-06",
         "2026-05-09",
-        "2026-05-10"
+        "2026-05-10",
+        "2026-05-11"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
