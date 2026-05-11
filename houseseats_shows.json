@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-11T12:54:36 PT",
-  "last_successful_run": "2026-05-11T12:54:36 PT",
-  "count": 4,
+  "last_updated": "2026-05-11T13:17:32 PT",
+  "last_successful_run": "2026-05-11T13:17:32 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,6 +35,30 @@
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nevada Ballet Theatre: Hansel & Gretel",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9292",
+      "date": "May 15th",
+      "image": "https://lv.houseseats.com/resources/media/9292.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mik Thomas Presents: The Gauntlet",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
+      "date": "May 15th",
+      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ICONIQUE Nights",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9267",
+      "date": "May 15th",
+      "image": "https://lv.houseseats.com/resources/media/9267.jpg",
+      "rare": false
     }
   ]
 }
