@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-11T05:41:08 PT",
-  "last_successful_run": "2026-05-11T05:41:08 PT",
+  "last_updated": "2026-05-11T07:23:10 PT",
+  "last_successful_run": "2026-05-11T07:23:10 PT",
   "count": 3,
   "shows": [
     {
@@ -26,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
-      "rare": false
+      "rare": true
     }
   ]
 }
