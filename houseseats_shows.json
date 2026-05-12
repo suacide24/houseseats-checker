@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-12T08:22:10 PT",
-  "last_successful_run": "2026-05-12T08:22:10 PT",
-  "count": 6,
+  "last_updated": "2026-05-12T10:33:24 PT",
+  "last_successful_run": "2026-05-12T10:33:24 PT",
+  "count": 7,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "May 12th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
