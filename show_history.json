@@ -1899,6 +1899,20 @@
         "2026-05-11",
         "2026-05-12"
       ]
+    },
+    "HouseSeats|aeromyth": {
+      "name": "Aeromyth",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-12"
+      ]
+    },
+    "HouseSeats|dose of adolescence": {
+      "name": "Dose of Adolescence",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-12"
+      ]
     }
   }
 }
