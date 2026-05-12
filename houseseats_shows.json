@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-12T12:59:29 PT",
-  "last_successful_run": "2026-05-12T12:59:29 PT",
-  "count": 9,
+  "last_updated": "2026-05-12T14:36:03 PT",
+  "last_successful_run": "2026-05-12T14:36:03 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -62,6 +62,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The 2000s Throwback Dance Party: Hollywood vs Bollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9317",
+      "date": "May 15th",
+      "image": "https://lv.houseseats.com/resources/media/9317.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "ICONIQUE Nights",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9267",
       "date": "May 15th",
@@ -70,10 +78,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Brunch and Beats - Live Sessions at Cantinetta",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/9311.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Dose of Adolescence",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9312",
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9312.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Whisky Mixer - Improv Party Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
+      "date": "May 17th",
+      "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": true
     }
   ]
