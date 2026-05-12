@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-11T17:06:00 PT",
-  "last_successful_run": "2026-05-11T17:06:00 PT",
-  "count": 5,
+  "last_updated": "2026-05-11T19:19:48 PT",
+  "last_successful_run": "2026-05-11T19:19:48 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Comedy for the Ladies",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9310",
+      "date": "May 14th",
+      "image": "https://lv.houseseats.com/resources/media/9310.jpg",
       "rare": true
     },
     {

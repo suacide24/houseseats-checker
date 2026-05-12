@@ -1890,6 +1890,13 @@
         "2026-05-11",
         "2026-05-12"
       ]
+    },
+    "HouseSeats|comedy for the ladies": {
+      "name": "Comedy for the Ladies",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-11"
+      ]
     }
   }
 }
