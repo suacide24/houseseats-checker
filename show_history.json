@@ -4,7 +4,6 @@
       "name": "Lioz - Master of Delusion",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10",
         "2026-02-11"
       ]
     },
@@ -106,7 +105,6 @@
       "name": "David Copperfield",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11"
       ]
     },
@@ -114,7 +112,6 @@
       "name": "X Country",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
@@ -140,7 +137,6 @@
       "name": "Criss Angel Mindfreak",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13"
       ]
@@ -149,7 +145,6 @@
       "name": "Farrell Dillon Comedy Magician",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13"
       ]
@@ -158,7 +153,6 @@
       "name": "Vegas Golden Knights - NHL",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
@@ -168,7 +162,6 @@
       "name": "The LiUNA",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
@@ -178,24 +171,15 @@
       "name": "Pennzoil 400 Pres By Jiffy Lube",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
-      ]
-    },
-    "1stTix|frank marino\u2019s divas, drag & drinks": {
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-10"
       ]
     },
     "1stTix|lvl up expo": {
       "name": "Lvl Up Expo",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
@@ -205,7 +189,6 @@
       "name": "Piff the Magic Dragon",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11"
       ]
     },
@@ -220,22 +203,13 @@
       "name": "Chippendales",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11"
-      ]
-    },
-    "1stTix|future stars of wrestling presents: valentine's day massacre": {
-      "name": "Future Stars of Wrestling Presents: Valentine's Day Massacre",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-10"
       ]
     },
     "1stTix|2026 rugby league las vegas": {
       "name": "2026 Rugby League Las Vegas",
       "source": "1stTix",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-13",
         "2026-02-16"
@@ -245,7 +219,6 @@
       "name": "Colin Cloud: Mastermind",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10",
         "2026-02-11"
       ]
     },
@@ -253,7 +226,6 @@
       "name": "Australia's Thunder from Down Under",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10",
         "2026-02-11"
       ]
     },
@@ -261,7 +233,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-12",
         "2026-02-13",
@@ -282,18 +253,10 @@
         "2026-03-27"
       ]
     },
-    "HouseSeats|a public fit theatre company presents: eurydice": {
-      "name": "A Public Fit Theatre Company Presents: Eurydice",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-10"
-      ]
-    },
     "HouseSeats|frank marino\u2019s divas, drag & drinks": {
       "name": "Frank Marino\u2019s Divas, Drag & Drinks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-03-26"
       ]
@@ -302,7 +265,6 @@
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-10",
         "2026-02-11",
         "2026-02-12",
         "2026-02-13",
@@ -1189,7 +1151,8 @@
         "2026-05-07",
         "2026-05-08",
         "2026-05-09",
-        "2026-05-11"
+        "2026-05-11",
+        "2026-05-12"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1456,7 +1419,8 @@
       "appearances": [
         "2026-04-10",
         "2026-04-11",
-        "2026-05-11"
+        "2026-05-11",
+        "2026-05-12"
       ]
     },
     "HouseSeats|ricky tenacious presents the dropkick disco": {
@@ -1711,7 +1675,8 @@
         "2026-05-06",
         "2026-05-07",
         "2026-05-08",
-        "2026-05-11"
+        "2026-05-11",
+        "2026-05-12"
       ]
     },
     "HouseSeats|wonderland": {
@@ -1862,7 +1827,8 @@
         "2026-05-03",
         "2026-05-06",
         "2026-05-09",
-        "2026-05-11"
+        "2026-05-11",
+        "2026-05-12"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1921,7 +1887,8 @@
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-11"
+        "2026-05-11",
+        "2026-05-12"
       ]
     }
   }
