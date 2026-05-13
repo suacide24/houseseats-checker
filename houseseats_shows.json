@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-13T14:53:42 PT",
-  "last_successful_run": "2026-05-13T14:53:42 PT",
-  "count": 12,
+  "last_updated": "2026-05-13T16:08:47 PT",
+  "last_successful_run": "2026-05-13T16:08:47 PT",
+  "count": 13,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "May 13th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Puntification",
