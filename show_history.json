@@ -1,12 +1,5 @@
 {
   "shows": {
-    "HouseSeats|lioz - master of delusion": {
-      "name": "Lioz - Master of Delusion",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-11"
-      ]
-    },
     "HouseSeats|haunted brunch": {
       "name": "Haunted Brunch",
       "source": "HouseSeats",
@@ -101,18 +94,10 @@
         "2026-05-09"
       ]
     },
-    "1stTix|david copperfield": {
-      "name": "David Copperfield",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-11"
-      ]
-    },
     "1stTix|x country": {
       "name": "X Country",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
       ]
@@ -128,7 +113,6 @@
       "name": "Awakening",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
       ]
@@ -137,7 +121,6 @@
       "name": "Criss Angel Mindfreak",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13"
       ]
     },
@@ -145,7 +128,6 @@
       "name": "Farrell Dillon Comedy Magician",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13"
       ]
     },
@@ -153,7 +135,6 @@
       "name": "Vegas Golden Knights - NHL",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
       ]
@@ -162,7 +143,6 @@
       "name": "The LiUNA",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
       ]
@@ -171,7 +151,6 @@
       "name": "Pennzoil 400 Pres By Jiffy Lube",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
       ]
@@ -180,16 +159,8 @@
       "name": "Lvl Up Expo",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
-      ]
-    },
-    "1stTix|piff the magic dragon": {
-      "name": "Piff the Magic Dragon",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-11"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -199,41 +170,18 @@
         "2026-03-20"
       ]
     },
-    "1stTix|chippendales": {
-      "name": "Chippendales",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-11"
-      ]
-    },
     "1stTix|2026 rugby league las vegas": {
       "name": "2026 Rugby League Las Vegas",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
-      ]
-    },
-    "HouseSeats|colin cloud: mastermind": {
-      "name": "Colin Cloud: Mastermind",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-11"
-      ]
-    },
-    "HouseSeats|australia's thunder from down under": {
-      "name": "Australia's Thunder from Down Under",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-11"
       ]
     },
     "HouseSeats|farrell dillon at the magicians room": {
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-11",
         "2026-02-12",
         "2026-02-13",
         "2026-02-14",
@@ -257,7 +205,6 @@
       "name": "Frank Marino\u2019s Divas, Drag & Drinks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-11",
         "2026-03-26"
       ]
     },
@@ -265,7 +212,6 @@
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-11",
         "2026-02-12",
         "2026-02-13",
         "2026-02-14"
@@ -275,7 +221,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-11",
         "2026-02-18",
         "2026-03-04",
         "2026-03-16",
@@ -296,7 +241,6 @@
       "name": "Punk Rock Brunch",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13",
         "2026-02-16"
       ]
@@ -305,7 +249,6 @@
       "name": "Art Laboe Love Jam",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13"
       ]
     },
@@ -313,7 +256,6 @@
       "name": "The MGM Slam Presented by Capital One",
       "source": "1stTix",
       "appearances": [
-        "2026-02-11",
         "2026-02-13"
       ]
     },
@@ -321,7 +263,6 @@
       "name": "Donny Osmond",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-11",
         "2026-02-17"
       ]
     },
@@ -742,7 +683,8 @@
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1154,7 +1096,8 @@
         "2026-05-08",
         "2026-05-09",
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1422,7 +1365,8 @@
         "2026-04-10",
         "2026-04-11",
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|ricky tenacious presents the dropkick disco": {
@@ -1678,7 +1622,8 @@
         "2026-05-07",
         "2026-05-08",
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|wonderland": {
@@ -1830,7 +1775,8 @@
         "2026-05-06",
         "2026-05-09",
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1891,7 +1837,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1899,42 +1846,48 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|aeromyth": {
       "name": "Aeromyth",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|dose of adolescence": {
       "name": "Dose of Adolescence",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|the 2000s throwback dance party: hollywood vs bollywood": {
       "name": "The 2000s Throwback Dance Party: Hollywood vs Bollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|brunch and beats - live sessions at cantinetta": {
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
       "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-13"
       ]
     }
   }
