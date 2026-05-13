@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-12T18:23:20 PT",
-  "last_successful_run": "2026-05-12T18:23:20 PT",
-  "count": 12,
+  "last_updated": "2026-05-12T22:12:35 PT",
+  "last_successful_run": "2026-05-12T22:12:35 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Murray's Madhouse",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
-      "date": "May 13th",
-      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Puntification",
@@ -26,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9310",
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9310.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
@@ -75,6 +59,14 @@
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9311.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
