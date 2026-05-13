@@ -1889,6 +1889,13 @@
         "2026-05-12",
         "2026-05-13"
       ]
+    },
+    "HouseSeats|fomato improv show": {
+      "name": "Fomato Improv Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-13"
+      ]
     }
   }
 }
