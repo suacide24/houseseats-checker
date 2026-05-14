@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-13T18:26:25 PT",
-  "last_successful_run": "2026-05-13T18:26:25 PT",
-  "count": 14,
+  "last_updated": "2026-05-13T22:27:07 PT",
+  "last_successful_run": "2026-05-13T22:27:07 PT",
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "May 13th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Puntification",
@@ -26,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9310",
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9310.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aeromyth",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9316",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/9316.jpg",
       "rare": false
     },
     {
