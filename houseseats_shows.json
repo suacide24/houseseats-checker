@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-14T12:19:35 PT",
-  "last_successful_run": "2026-05-14T12:19:35 PT",
+  "last_updated": "2026-05-14T13:53:38 PT",
+  "last_successful_run": "2026-05-14T13:53:38 PT",
   "count": 11,
   "shows": [
     {
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
       "date": "May 14th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Comedy for the Ladies",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9310",
-      "date": "May 14th",
-      "image": "https://lv.houseseats.com/resources/media/9310.jpg",
       "rare": false
     },
     {
@@ -54,14 +46,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Dose of Adolescence",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9312",
       "date": "May 16th",
@@ -78,11 +62,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Fur & Thundur: Vegas' Premier Musical Puppet Improv Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9308",
+      "date": "May 17th",
+      "image": "https://lv.houseseats.com/resources/media/9308.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Fomato Improv Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9309",
       "date": "May 17th",
       "image": "https://lv.houseseats.com/resources/media/9309.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "May 17th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
