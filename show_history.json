@@ -91,7 +91,8 @@
         "2026-04-28",
         "2026-04-29",
         "2026-05-08",
-        "2026-05-09"
+        "2026-05-09",
+        "2026-05-14"
       ]
     },
     "1stTix|x country": {
@@ -182,7 +183,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-12",
         "2026-02-13",
         "2026-02-14",
         "2026-02-15",
@@ -212,7 +212,6 @@
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-12",
         "2026-02-13",
         "2026-02-14"
       ]
@@ -270,7 +269,6 @@
       "name": "Jamie Kennedy at Laugh Factory Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-12",
         "2026-02-13",
         "2026-02-15"
       ]
@@ -685,7 +683,8 @@
         "2026-04-30",
         "2026-05-01",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1098,7 +1097,8 @@
         "2026-05-09",
         "2026-05-11",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1367,7 +1367,8 @@
         "2026-04-11",
         "2026-05-11",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|ricky tenacious presents the dropkick disco": {
@@ -1624,7 +1625,8 @@
         "2026-05-08",
         "2026-05-11",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|wonderland": {
@@ -1839,7 +1841,8 @@
       "appearances": [
         "2026-05-11",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1848,7 +1851,8 @@
       "appearances": [
         "2026-05-11",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|aeromyth": {
@@ -1856,7 +1860,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|dose of adolescence": {
@@ -1864,7 +1869,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|the 2000s throwback dance party: hollywood vs bollywood": {
@@ -1872,7 +1878,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|brunch and beats - live sessions at cantinetta": {
@@ -1880,7 +1887,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1888,14 +1896,23 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
       ]
     },
     "HouseSeats|fomato improv show": {
       "name": "Fomato Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-14"
+      ]
+    },
+    "HouseSeats|the peter gabriel project": {
+      "name": "The Peter Gabriel Project",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-14"
       ]
     }
   }
