@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-14T10:21:13 PT",
-  "last_successful_run": "2026-05-14T10:21:13 PT",
-  "count": 12,
+  "last_updated": "2026-05-14T12:19:35 PT",
+  "last_successful_run": "2026-05-14T12:19:35 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,14 +67,6 @@
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9312.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Peter Gabriel Project",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9318",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9318.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
