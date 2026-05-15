@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-14T16:29:43 PT",
-  "last_successful_run": "2026-05-14T16:29:43 PT",
+  "last_updated": "2026-05-14T18:25:28 PT",
+  "last_successful_run": "2026-05-14T18:25:28 PT",
   "count": 10,
   "shows": [
     {
@@ -66,7 +66,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9309",
       "date": "May 17th",
       "image": "https://lv.houseseats.com/resources/media/9309.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

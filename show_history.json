@@ -99,7 +99,6 @@
       "name": "X Country",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
       ]
     },
@@ -114,29 +113,13 @@
       "name": "Awakening",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
-      ]
-    },
-    "1stTix|criss angel mindfreak": {
-      "name": "Criss Angel Mindfreak",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-13"
-      ]
-    },
-    "1stTix|farrell dillon comedy magician": {
-      "name": "Farrell Dillon Comedy Magician",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-13"
       ]
     },
     "1stTix|vegas golden knights - nhl": {
       "name": "Vegas Golden Knights - NHL",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
       ]
     },
@@ -144,7 +127,6 @@
       "name": "The LiUNA",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
       ]
     },
@@ -152,7 +134,6 @@
       "name": "Pennzoil 400 Pres By Jiffy Lube",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
       ]
     },
@@ -160,7 +141,6 @@
       "name": "Lvl Up Expo",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
       ]
     },
@@ -175,7 +155,6 @@
       "name": "2026 Rugby League Las Vegas",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
       ]
     },
@@ -183,7 +162,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-13",
         "2026-02-14",
         "2026-02-15",
         "2026-02-21",
@@ -212,7 +190,6 @@
       "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-13",
         "2026-02-14"
       ]
     },
@@ -240,22 +217,7 @@
       "name": "Punk Rock Brunch",
       "source": "1stTix",
       "appearances": [
-        "2026-02-13",
         "2026-02-16"
-      ]
-    },
-    "1stTix|art laboe love jam": {
-      "name": "Art Laboe Love Jam",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-13"
-      ]
-    },
-    "1stTix|the mgm slam presented by capital one": {
-      "name": "The MGM Slam Presented by Capital One",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-13"
       ]
     },
     "HouseSeats|donny osmond": {
@@ -269,22 +231,7 @@
       "name": "Jamie Kennedy at Laugh Factory Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-13",
         "2026-02-15"
-      ]
-    },
-    "1stTix|tj lavin": {
-      "name": "TJ Lavin",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-13"
-      ]
-    },
-    "1stTix|fantasy": {
-      "name": "Fantasy",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-13"
       ]
     },
     "HouseSeats|the jets 80's & 90's experience!": {
@@ -684,7 +631,8 @@
         "2026-05-01",
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1098,7 +1046,8 @@
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1626,7 +1575,8 @@
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|wonderland": {
@@ -1842,7 +1792,8 @@
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1870,7 +1821,8 @@
       "appearances": [
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|the 2000s throwback dance party: hollywood vs bollywood": {
@@ -1879,7 +1831,8 @@
       "appearances": [
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|brunch and beats - live sessions at cantinetta": {
@@ -1888,7 +1841,8 @@
       "appearances": [
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1897,7 +1851,8 @@
       "appearances": [
         "2026-05-12",
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|fomato improv show": {
@@ -1905,7 +1860,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-13",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     },
     "HouseSeats|the peter gabriel project": {
@@ -1919,7 +1875,8 @@
       "name": "Fur & Thundur: Vegas' Premier Musical Puppet Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-15"
       ]
     }
   }
