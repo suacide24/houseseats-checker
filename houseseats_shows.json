@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-15T15:30:42 PT",
-  "last_successful_run": "2026-05-15T15:30:42 PT",
-  "count": 11,
+  "last_updated": "2026-05-15T16:57:23 PT",
+  "last_successful_run": "2026-05-15T16:57:23 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -50,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9322.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "John Waite & John Cafferty",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9323",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/9323.jpg",
       "rare": true
     },
     {
