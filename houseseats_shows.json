@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-15T14:09:00 PT",
-  "last_successful_run": "2026-05-15T14:09:00 PT",
-  "count": 12,
+  "last_updated": "2026-05-15T15:30:42 PT",
+  "last_successful_run": "2026-05-15T15:30:42 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mik Thomas Presents: The Gauntlet",
