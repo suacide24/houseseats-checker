@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-15T08:36:58 PT",
-  "last_successful_run": "2026-05-15T08:36:58 PT",
+  "last_updated": "2026-05-15T10:45:01 PT",
+  "last_successful_run": "2026-05-15T10:45:01 PT",
   "count": 10,
   "shows": [
     {
@@ -38,6 +38,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Jukebox Jams",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9321",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/9321.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Dose of Adolescence",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9312",
       "date": "May 16th",
@@ -66,14 +74,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9309",
       "date": "May 17th",
       "image": "https://lv.houseseats.com/resources/media/9309.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "May 17th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {

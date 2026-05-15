@@ -1885,6 +1885,13 @@
       "appearances": [
         "2026-05-15"
       ]
+    },
+    "HouseSeats|jukebox jams": {
+      "name": "Jukebox Jams",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-15"
+      ]
     }
   }
 }
