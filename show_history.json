@@ -325,7 +325,8 @@
         "2026-04-14",
         "2026-05-03",
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-15"
       ]
     },
     "HouseSeats|laugh factory las vegas": {
@@ -1888,6 +1889,13 @@
     },
     "HouseSeats|jukebox jams": {
       "name": "Jukebox Jams",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-15"
+      ]
+    },
+    "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
       "source": "HouseSeats",
       "appearances": [
         "2026-05-15"

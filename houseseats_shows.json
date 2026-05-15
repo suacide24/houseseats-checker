@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-15T10:45:01 PT",
-  "last_successful_run": "2026-05-15T10:45:01 PT",
-  "count": 10,
+  "last_updated": "2026-05-15T12:45:06 PT",
+  "last_successful_run": "2026-05-15T12:45:06 PT",
+  "count": 12,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "May 15th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Mik Thomas Presents: The Gauntlet",
@@ -42,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9321",
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9321.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
       "rare": true
     },
     {
