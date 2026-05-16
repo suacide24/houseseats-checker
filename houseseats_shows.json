@@ -1,31 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-16T15:12:15 PT",
-  "last_successful_run": "2026-05-16T15:12:15 PT",
-  "count": 9,
+  "last_updated": "2026-05-16T16:28:04 PT",
+  "last_successful_run": "2026-05-16T16:28:04 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Dose of Adolescence",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9312",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9312.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Whisky Mixer - Improv Party Night",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -46,10 +30,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "May 18th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "May 17th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
