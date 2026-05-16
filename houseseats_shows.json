@@ -1,41 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-15T16:57:23 PT",
-  "last_successful_run": "2026-05-15T16:57:23 PT",
-  "count": 12,
+  "last_updated": "2026-05-15T20:53:26 PT",
+  "last_successful_run": "2026-05-15T20:53:26 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mik Thomas Presents: The Gauntlet",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The 2000s Throwback Dance Party: Hollywood vs Bollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9317",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/9317.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ICONIQUE Nights",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9267",
-      "date": "May 15th",
-      "image": "https://lv.houseseats.com/resources/media/9267.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Brunch and Beats - Live Sessions at Cantinetta",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9311.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Jukebox Jams",
@@ -50,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9322.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "John Waite & John Cafferty",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9323",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9323.jpg",
       "rare": true
     },
     {
@@ -82,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "May 16th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "May 16th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {

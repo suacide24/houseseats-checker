@@ -92,7 +92,8 @@
         "2026-04-29",
         "2026-05-08",
         "2026-05-09",
-        "2026-05-14"
+        "2026-05-14",
+        "2026-05-16"
       ]
     },
     "1stTix|x country": {
@@ -162,7 +163,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-14",
         "2026-02-15",
         "2026-02-21",
         "2026-02-22",
@@ -184,13 +184,6 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-26"
-      ]
-    },
-    "HouseSeats|art laboe love jam at primm valley resorts (primm)": {
-      "name": "Art Laboe Love Jam at PRIMM VALLEY RESORTS (PRIMM)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-14"
       ]
     },
     "HouseSeats|x country": {
@@ -238,7 +231,6 @@
       "name": "THE JETS 80's & 90's Experience!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-14",
         "2026-02-21",
         "2026-02-28",
         "2026-03-07",
@@ -633,7 +625,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1823,7 +1816,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|the 2000s throwback dance party: hollywood vs bollywood": {
@@ -1853,7 +1847,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|fomato improv show": {
@@ -1862,7 +1857,8 @@
       "appearances": [
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|the peter gabriel project": {
@@ -1884,21 +1880,24 @@
       "name": "Sunset Jazz Series Presents: JaRez",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|jukebox jams": {
       "name": "Jukebox Jams",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
       "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|john waite & john cafferty": {
