@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-16T11:31:22 PT",
-  "last_successful_run": "2026-05-16T11:31:22 PT",
-  "count": 7,
+  "last_updated": "2026-05-16T13:02:58 PT",
+  "last_successful_run": "2026-05-16T13:02:58 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Jukebox Jams",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9321",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9321.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Dose of Adolescence",
@@ -59,6 +51,30 @@
       "date": "May 17th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "May 20th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
+      "date": "May 20th",
+      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Movie Night - An Improv Double Feature",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
+      "date": "May 21st",
+      "image": "https://lv.houseseats.com/resources/media/9303.jpg",
+      "rare": true
     }
   ]
 }

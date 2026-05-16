@@ -1041,7 +1041,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-16"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1723,7 +1724,8 @@
         "2026-05-09",
         "2026-05-11",
         "2026-05-12",
-        "2026-05-13"
+        "2026-05-13",
+        "2026-05-16"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1905,6 +1907,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-15"
+      ]
+    },
+    "HouseSeats|movie night - an improv double feature": {
+      "name": "Movie Night - An Improv Double Feature",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-16"
       ]
     }
   }
