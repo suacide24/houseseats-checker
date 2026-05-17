@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-16T16:28:04 PT",
-  "last_successful_run": "2026-05-16T16:28:04 PT",
-  "count": 7,
+  "last_updated": "2026-05-16T18:26:30 PT",
+  "last_successful_run": "2026-05-16T18:26:30 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "May 16th",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Fomato Improv Show",
