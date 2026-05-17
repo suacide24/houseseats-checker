@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-16T18:26:30 PT",
-  "last_successful_run": "2026-05-16T18:26:30 PT",
-  "count": 6,
+  "last_updated": "2026-05-16T22:29:57 PT",
+  "last_successful_run": "2026-05-16T22:29:57 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,22 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9309",
       "date": "May 17th",
       "image": "https://lv.houseseats.com/resources/media/9309.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
-      "date": "May 17th",
-      "image": "https://lv.houseseats.com/resources/media/9252.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "May 17th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
