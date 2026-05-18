@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-18T14:47:03 PT",
-  "last_successful_run": "2026-05-18T14:47:03 PT",
-  "count": 8,
+  "last_updated": "2026-05-18T16:07:22 PT",
+  "last_successful_run": "2026-05-18T16:07:22 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mondays Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9324",
-      "date": "May 18th",
-      "image": "https://lv.houseseats.com/resources/media/9324.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
