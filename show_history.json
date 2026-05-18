@@ -198,7 +198,8 @@
         "2026-03-18",
         "2026-03-19",
         "2026-04-15",
-        "2026-04-16"
+        "2026-04-16",
+        "2026-05-18"
       ]
     },
     "HouseSeats|blue man group": {
@@ -404,7 +405,8 @@
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
-        "2026-04-24"
+        "2026-04-24",
+        "2026-05-18"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -1740,7 +1742,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-05-18"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1818,6 +1821,13 @@
       "appearances": [
         "2026-05-16",
         "2026-05-17",
+        "2026-05-18"
+      ]
+    },
+    "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
+      "name": "Vegas' Dumbest Show: Crazy, Stupid, Sexy",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-05-18"
       ]
     }
