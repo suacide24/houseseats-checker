@@ -97,67 +97,11 @@
         "2026-05-17"
       ]
     },
-    "1stTix|x country": {
-      "name": "X Country",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|piff the magic dragon (las vegas)": {
-      "name": "Piff the Magic Dragon (Las Vegas)",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|awakening": {
-      "name": "Awakening",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|vegas golden knights - nhl": {
-      "name": "Vegas Golden Knights - NHL",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|the liuna": {
-      "name": "The LiUNA",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|pennzoil 400 pres by jiffy lube": {
-      "name": "Pennzoil 400 Pres By Jiffy Lube",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|lvl up expo": {
-      "name": "Lvl Up Expo",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
     "HouseSeats|improv is blind": {
       "name": "Improv is Blind",
       "source": "HouseSeats",
       "appearances": [
         "2026-03-20"
-      ]
-    },
-    "1stTix|2026 rugby league las vegas": {
-      "name": "2026 Rugby League Las Vegas",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
       ]
     },
     "HouseSeats|farrell dillon at the magicians room": {
@@ -206,13 +150,6 @@
         "2026-05-08"
       ]
     },
-    "1stTix|punk rock brunch": {
-      "name": "Punk Rock Brunch",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
     "HouseSeats|donny osmond": {
       "name": "Donny Osmond",
       "source": "HouseSeats",
@@ -249,18 +186,10 @@
         "2026-05-13"
       ]
     },
-    "HouseSeats|the body spa salon - hair by patrick": {
-      "name": "The Body Spa Salon - Hair by Patrick",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
     "HouseSeats|the rant!": {
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-16",
         "2026-02-17",
         "2026-02-18",
         "2026-02-19",
@@ -272,32 +201,10 @@
         "2026-04-16"
       ]
     },
-    "1stTix|hansel & gretel": {
-      "name": "Hansel & Gretel",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|the golden legends  burlesque skills challenge": {
-      "name": "The Golden Legends  Burlesque Skills Challenge",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
-    "1stTix|the heist at the balkan": {
-      "name": "The Heist at The Balkan",
-      "source": "1stTix",
-      "appearances": [
-        "2026-02-16"
-      ]
-    },
     "HouseSeats|blue man group": {
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-16",
         "2026-03-01",
         "2026-03-03",
         "2026-03-05",
@@ -315,7 +222,6 @@
       "name": "Laugh Factory Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-16",
         "2026-02-18"
       ]
     },
@@ -323,7 +229,6 @@
       "name": "Knockout!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-16",
         "2026-03-20"
       ]
     },
@@ -331,7 +236,6 @@
       "name": "Chalmer, Pull Up Reality, Algorerhythm, and Emerald Empyre at TUP",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-16",
         "2026-02-17",
         "2026-02-18",
         "2026-02-19",
@@ -1034,7 +938,8 @@
         "2026-05-14",
         "2026-05-15",
         "2026-05-16",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-18"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1674,7 +1579,8 @@
       "appearances": [
         "2026-05-03",
         "2026-05-04",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-18"
       ]
     },
     "HouseSeats|rebel trivia night": {
@@ -1719,7 +1625,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-16",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-18"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1910,7 +1817,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-16",
-        "2026-05-17"
+        "2026-05-17",
+        "2026-05-18"
       ]
     }
   }
