@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-19T11:22:52 PT",
-  "last_successful_run": "2026-05-19T11:22:52 PT",
-  "count": 10,
+  "last_updated": "2026-05-19T13:14:58 PT",
+  "last_successful_run": "2026-05-19T13:14:58 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -78,11 +78,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Nevada Ballet Theatre: Hansel & Gretel",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9292",
+      "name": "Lockwood Barr and Megan Baker",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9313",
       "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9292.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9313.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Swan Songs of a Tiger Mom",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9304",
+      "date": "May 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9304.jpg",
+      "rare": true
     }
   ]
 }
