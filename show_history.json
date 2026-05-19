@@ -1659,7 +1659,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-11",
-        "2026-05-12"
+        "2026-05-12",
+        "2026-05-19"
       ]
     },
     "HouseSeats|mik thomas presents: the gauntlet": {
@@ -1809,6 +1810,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-18",
+        "2026-05-19"
+      ]
+    },
+    "HouseSeats|jerrod niemann": {
+      "name": "Jerrod Niemann",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-19"
+      ]
+    },
+    "HouseSeats|murder mystery: cocktail party at the tavern": {
+      "name": "Murder Mystery: Cocktail Party at the Tavern",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-05-19"
       ]
     }

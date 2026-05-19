@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-19T09:24:45 PT",
-  "last_successful_run": "2026-05-19T09:24:45 PT",
-  "count": 7,
+  "last_updated": "2026-05-19T11:22:52 PT",
+  "last_successful_run": "2026-05-19T11:22:52 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -38,6 +38,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Jerrod Niemann",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9327",
+      "date": "May 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9327.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Rant!",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "May 22nd",
@@ -54,11 +62,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Murder Mystery: Cocktail Party at the Tavern",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
+      "date": "May 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Vegas' Dumbest Show: Crazy, Stupid, Sexy",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9215",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9215.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nevada Ballet Theatre: Hansel & Gretel",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9292",
+      "date": "May 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9292.jpg",
+      "rare": false
     }
   ]
 }
