@@ -150,13 +150,6 @@
         "2026-05-08"
       ]
     },
-    "HouseSeats|donny osmond": {
-      "name": "Donny Osmond",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-17"
-      ]
-    },
     "HouseSeats|the jets 80's & 90's experience!": {
       "name": "THE JETS 80's & 90's Experience!",
       "source": "HouseSeats",
@@ -190,7 +183,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17",
         "2026-02-18",
         "2026-02-19",
         "2026-03-16",
@@ -199,7 +191,8 @@
         "2026-03-19",
         "2026-04-15",
         "2026-04-16",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     },
     "HouseSeats|blue man group": {
@@ -237,31 +230,15 @@
       "name": "Chalmer, Pull Up Reality, Algorerhythm, and Emerald Empyre at TUP",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17",
         "2026-02-18",
         "2026-02-19",
         "2026-02-20"
-      ]
-    },
-    "HouseSeats|pauly shore at wiseguys las vegas (town square)": {
-      "name": "Pauly Shore at Wiseguys Las Vegas (Town Square)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-17"
-      ]
-    },
-    "HouseSeats|bronco at primm valley resorts (primm)": {
-      "name": "Bronco at PRIMM VALLEY RESORTS (PRIMM)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-17"
       ]
     },
     "HouseSeats|dumb human tricks": {
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17",
         "2026-02-18",
         "2026-02-19",
         "2026-02-20",
@@ -275,7 +252,6 @@
       "name": "Rocklesque: Alice In Rockland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17",
         "2026-02-18"
       ]
     },
@@ -283,7 +259,6 @@
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-17",
         "2026-02-18",
         "2026-02-19",
         "2026-02-20",
@@ -406,7 +381,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -941,7 +917,8 @@
         "2026-05-15",
         "2026-05-16",
         "2026-05-17",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1628,7 +1605,8 @@
         "2026-05-13",
         "2026-05-16",
         "2026-05-17",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1743,7 +1721,8 @@
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1821,14 +1800,16 @@
       "appearances": [
         "2026-05-16",
         "2026-05-17",
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
       "name": "Vegas' Dumbest Show: Crazy, Stupid, Sexy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-18"
+        "2026-05-18",
+        "2026-05-19"
       ]
     }
   }
