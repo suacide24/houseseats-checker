@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-20T09:28:33 PT",
-  "last_successful_run": "2026-05-20T09:28:33 PT",
-  "count": 12,
+  "last_updated": "2026-05-20T12:01:39 PT",
+  "last_successful_run": "2026-05-20T12:01:39 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "May 20th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "May 20th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
