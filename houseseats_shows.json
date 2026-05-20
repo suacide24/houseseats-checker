@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-20T12:01:39 PT",
-  "last_successful_run": "2026-05-20T12:01:39 PT",
-  "count": 13,
+  "last_updated": "2026-05-20T14:18:18 PT",
+  "last_successful_run": "2026-05-20T14:18:18 PT",
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -106,6 +106,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9304",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9304.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "May 24th",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
       "rare": true
     }
   ]

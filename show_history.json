@@ -1836,6 +1836,13 @@
         "2026-05-19",
         "2026-05-20"
       ]
+    },
+    "HouseSeats|wastin' away": {
+      "name": "Wastin' Away",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-20"
+      ]
     }
   }
 }
