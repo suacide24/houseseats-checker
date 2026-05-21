@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-20T17:10:59 PT",
-  "last_successful_run": "2026-05-20T17:10:59 PT",
-  "count": 12,
+  "last_updated": "2026-05-20T21:53:58 PT",
+  "last_successful_run": "2026-05-20T21:53:58 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Murray's Madhouse",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
-      "date": "May 20th",
-      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
