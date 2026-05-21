@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-21T14:58:59 PT",
-  "last_successful_run": "2026-05-21T14:58:59 PT",
+  "last_updated": "2026-05-21T16:12:43 PT",
+  "last_successful_run": "2026-05-21T16:12:43 PT",
   "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Movie Night - An Improv Double Feature",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "May 21st",
-      "image": "https://lv.houseseats.com/resources/media/9303.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
