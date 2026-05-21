@@ -77,7 +77,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-03-11",
         "2026-04-03",
         "2026-04-04",
@@ -185,7 +184,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-03-16",
         "2026-03-17",
         "2026-03-18",
@@ -194,7 +192,8 @@
         "2026-04-16",
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|blue man group": {
@@ -226,7 +225,6 @@
       "name": "Chalmer, Pull Up Reality, Algorerhythm, and Emerald Empyre at TUP",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-02-20"
       ]
     },
@@ -234,7 +232,6 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-02-20",
         "2026-02-21",
         "2026-03-17",
@@ -246,24 +243,15 @@
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-02-20",
         "2026-04-25",
         "2026-04-26"
-      ]
-    },
-    "HouseSeats|the boyband remix": {
-      "name": "THE BOYBAND REMIX",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-19"
       ]
     },
     "HouseSeats|diva royale": {
       "name": "Diva Royale",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-02-20",
         "2026-02-21"
       ]
@@ -272,7 +260,6 @@
       "name": "The 2026 World Series of Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-19",
         "2026-02-20",
         "2026-02-21",
         "2026-02-22",
@@ -369,7 +356,8 @@
         "2026-04-24",
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
@@ -756,7 +744,8 @@
         "2026-04-15",
         "2026-04-16",
         "2026-04-18",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|punk rock invasion": {
@@ -907,7 +896,8 @@
         "2026-05-17",
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1596,7 +1586,8 @@
         "2026-05-17",
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1714,7 +1705,8 @@
         "2026-05-15",
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1794,7 +1786,8 @@
         "2026-05-17",
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
@@ -1803,7 +1796,8 @@
       "appearances": [
         "2026-05-18",
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|jerrod niemann": {
@@ -1811,7 +1805,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|murder mystery: cocktail party at the tavern": {
@@ -1819,7 +1814,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|lockwood barr and megan baker": {
@@ -1827,7 +1823,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|swan songs of a tiger mom": {
@@ -1835,7 +1832,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-19",
-        "2026-05-20"
+        "2026-05-20",
+        "2026-05-21"
       ]
     },
     "HouseSeats|wastin' away": {

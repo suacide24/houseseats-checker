@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-20T15:53:33 PT",
-  "last_successful_run": "2026-05-20T15:53:33 PT",
-  "count": 14,
+  "last_updated": "2026-05-20T17:10:59 PT",
+  "last_successful_run": "2026-05-20T17:10:59 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "May 20th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "May 20th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -58,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9327",
       "date": "May 22nd",
       "image": "https://lv.houseseats.com/resources/media/9327.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -82,7 +74,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9325.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -98,7 +90,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9313",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9313.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -106,15 +98,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9304",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9304.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Wastin' Away",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
-      "date": "May 24th",
-      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
