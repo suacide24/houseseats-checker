@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-21T08:58:10 PT",
-  "last_successful_run": "2026-05-21T08:58:10 PT",
+  "last_updated": "2026-05-21T11:06:39 PT",
+  "last_successful_run": "2026-05-21T11:06:39 PT",
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "May 21st",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -83,6 +75,14 @@
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9313.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Dustin Lynch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9329",
+      "date": "May 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9329.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
