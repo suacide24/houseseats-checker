@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-21T18:30:06 PT",
-  "last_successful_run": "2026-05-21T18:30:06 PT",
-  "count": 12,
+  "last_updated": "2026-05-21T22:46:54 PT",
+  "last_successful_run": "2026-05-21T22:46:54 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "May 21st",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -58,14 +50,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9311.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder Mystery: Cocktail Party at the Tavern",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
-      "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
       "rare": false
     },
     {
