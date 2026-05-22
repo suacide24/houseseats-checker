@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-21T16:12:43 PT",
-  "last_successful_run": "2026-05-21T16:12:43 PT",
+  "last_updated": "2026-05-21T18:30:06 PT",
+  "last_successful_run": "2026-05-21T18:30:06 PT",
   "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "May 21st",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "X ROCKS",
@@ -54,6 +46,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "May 22nd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
       "date": "May 23rd",
@@ -86,19 +86,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Dustin Lynch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9329",
-      "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9329.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Swan Songs of a Tiger Mom",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9304",
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9304.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8963",
+      "date": "May 24th",
+      "image": "https://lv.houseseats.com/resources/media/8963.jpg",
+      "rare": true
     }
   ]
 }
