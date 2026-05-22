@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-22T13:00:34 PT",
-  "last_successful_run": "2026-05-22T13:00:34 PT",
+  "last_updated": "2026-05-22T14:43:17 PT",
+  "last_successful_run": "2026-05-22T14:43:17 PT",
   "count": 13,
   "shows": [
     {
@@ -14,10 +14,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Jerrod Niemann",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9327",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "May 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9327.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
