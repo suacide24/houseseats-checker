@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-22T10:56:51 PT",
-  "last_successful_run": "2026-05-22T10:56:51 PT",
-  "count": 9,
+  "last_updated": "2026-05-22T13:00:34 PT",
+  "last_successful_run": "2026-05-22T13:00:34 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -30,6 +30,22 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Kings of Queen - Tribute to Queen",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9331",
+      "date": "May 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9331.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "May 22nd",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "May 22nd",
@@ -43,6 +59,14 @@
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9311.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "THE ERAS OF TAYLOR - Taylor Swift Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9332",
+      "date": "May 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9332.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -75,6 +99,14 @@
       "date": "May 24th",
       "image": "https://lv.houseseats.com/resources/media/8963.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "May 26th",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
     }
   ]
 }
