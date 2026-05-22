@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-21T22:46:54 PT",
-  "last_successful_run": "2026-05-21T22:46:54 PT",
-  "count": 10,
+  "last_updated": "2026-05-22T02:37:04 PT",
+  "last_successful_run": "2026-05-22T02:37:04 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "May 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
