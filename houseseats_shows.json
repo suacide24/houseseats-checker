@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-22T14:43:17 PT",
-  "last_successful_run": "2026-05-22T14:43:17 PT",
-  "count": 13,
+  "last_updated": "2026-05-22T16:05:44 PT",
+  "last_successful_run": "2026-05-22T16:05:44 PT",
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Von Clap Back Family Singers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
-      "date": "May 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "May 22nd",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Rant!",
