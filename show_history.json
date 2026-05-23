@@ -96,7 +96,8 @@
         "2026-05-17",
         "2026-05-19",
         "2026-05-20",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -110,7 +111,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-21",
         "2026-02-22",
         "2026-02-23",
         "2026-02-24",
@@ -155,7 +155,6 @@
       "name": "THE JETS 80's & 90's Experience!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-21",
         "2026-02-28",
         "2026-03-07",
         "2026-03-26"
@@ -227,7 +226,6 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-21",
         "2026-03-17",
         "2026-03-18",
         "2026-03-19"
@@ -241,18 +239,10 @@
         "2026-04-26"
       ]
     },
-    "HouseSeats|diva royale": {
-      "name": "Diva Royale",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-21"
-      ]
-    },
     "HouseSeats|the 2026 world series of comedy": {
       "name": "The 2026 World Series of Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-21",
         "2026-02-22",
         "2026-02-23",
         "2026-02-24",
@@ -265,7 +255,6 @@
       "name": "Shark After Dark - Full House of Laughs",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-21",
         "2026-02-22",
         "2026-02-23",
         "2026-02-24",
@@ -495,7 +484,8 @@
         "2026-05-01",
         "2026-05-02",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|ladies night comedy show": {
@@ -954,7 +944,8 @@
         "2026-04-01",
         "2026-04-03",
         "2026-04-04",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|kings of las vegas screening and panel q&a": {
@@ -1797,7 +1788,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|jerrod niemann": {
@@ -1827,7 +1819,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|swan songs of a tiger mom": {
@@ -1837,7 +1830,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|wastin' away": {
@@ -1846,7 +1840,8 @@
       "appearances": [
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1860,14 +1855,16 @@
       "name": "The Kings of Queen - Tribute to Queen",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     },
     "HouseSeats|the eras of taylor - taylor swift tribute": {
       "name": "THE ERAS OF TAYLOR - Taylor Swift Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-23"
       ]
     }
   }
