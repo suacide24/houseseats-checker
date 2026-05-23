@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-23T13:07:58 PT",
-  "last_successful_run": "2026-05-23T13:07:58 PT",
+  "last_updated": "2026-05-23T14:27:04 PT",
+  "last_successful_run": "2026-05-23T14:27:04 PT",
   "count": 5,
   "shows": [
     {
@@ -24,7 +24,7 @@
       "source": "HouseSeats",
       "name": "X ROCKS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "May 23rd",
+      "date": "May 24th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
