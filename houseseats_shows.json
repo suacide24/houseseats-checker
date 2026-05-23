@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-23T08:43:35 PT",
-  "last_successful_run": "2026-05-23T08:43:35 PT",
-  "count": 6,
+  "last_updated": "2026-05-23T10:05:41 PT",
+  "last_successful_run": "2026-05-23T10:05:41 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9313.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Summer Comedy Series",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9334",
-      "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9334.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
