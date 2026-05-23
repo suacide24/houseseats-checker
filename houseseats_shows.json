@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-23T11:33:59 PT",
-  "last_successful_run": "2026-05-23T11:33:59 PT",
+  "last_updated": "2026-05-23T13:07:58 PT",
+  "last_successful_run": "2026-05-23T13:07:58 PT",
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "THE ERAS OF TAYLOR - Taylor Swift Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9332",
-      "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9332.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Lockwood Barr and Megan Baker",
@@ -38,11 +30,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "name": "Murray's Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
+      "date": "May 27th",
+      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Hot Fix Side Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8855",
+      "date": "May 27th",
+      "image": "https://lv.houseseats.com/resources/media/8855.jpg",
+      "rare": true
     }
   ]
 }

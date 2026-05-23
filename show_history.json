@@ -1576,7 +1576,8 @@
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
-        "2026-05-21"
+        "2026-05-21",
+        "2026-05-23"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1870,6 +1871,13 @@
     },
     "HouseSeats|summer comedy series": {
       "name": "Summer Comedy Series",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-23"
+      ]
+    },
+    "HouseSeats|hot fix side show": {
+      "name": "Hot Fix Side Show",
       "source": "HouseSeats",
       "appearances": [
         "2026-05-23"
