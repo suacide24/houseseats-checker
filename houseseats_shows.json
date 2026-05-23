@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-22T22:05:47 PT",
-  "last_successful_run": "2026-05-22T22:05:47 PT",
-  "count": 8,
+  "last_updated": "2026-05-23T00:54:47 PT",
+  "last_successful_run": "2026-05-23T00:54:47 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,14 +35,6 @@
       "date": "May 23rd",
       "image": "https://lv.houseseats.com/resources/media/9334.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Swan Songs of a Tiger Mom",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9304",
-      "date": "May 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9304.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
