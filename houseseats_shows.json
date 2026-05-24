@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-23T16:33:11 PT",
-  "last_successful_run": "2026-05-23T16:33:11 PT",
-  "count": 4,
+  "last_updated": "2026-05-23T21:04:48 PT",
+  "last_successful_run": "2026-05-23T21:04:48 PT",
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "date": "May 27th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Hot Fix Side Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8855",
-      "date": "May 27th",
-      "image": "https://lv.houseseats.com/resources/media/8855.jpg",
-      "rare": true
     }
   ]
 }

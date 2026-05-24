@@ -111,7 +111,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22",
         "2026-02-23",
         "2026-02-24",
         "2026-02-25",
@@ -243,7 +242,6 @@
       "name": "The 2026 World Series of Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22",
         "2026-02-23",
         "2026-02-24",
         "2026-02-25",
@@ -255,25 +253,16 @@
       "name": "Shark After Dark - Full House of Laughs",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22",
         "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26"
       ]
     },
-    "HouseSeats|sam riddle\u2019s official single release party!": {
-      "name": "Sam Riddle\u2019s official single release party!",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-22"
-      ]
-    },
     "HouseSeats|sink or swim": {
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22",
         "2026-02-23",
         "2026-02-24",
         "2026-02-25",
@@ -291,7 +280,6 @@
       "name": "Y2K AF",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-22",
         "2026-02-23",
         "2026-02-24",
         "2026-02-25",
@@ -485,7 +473,8 @@
         "2026-05-02",
         "2026-05-21",
         "2026-05-22",
-        "2026-05-23"
+        "2026-05-23",
+        "2026-05-24"
       ]
     },
     "HouseSeats|ladies night comedy show": {
@@ -1577,7 +1566,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-23"
+        "2026-05-23",
+        "2026-05-24"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1887,7 +1877,8 @@
       "name": "Broadway Unhinged",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23"
+        "2026-05-23",
+        "2026-05-24"
       ]
     }
   }
