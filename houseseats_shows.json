@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-24T07:26:03 PT",
-  "last_successful_run": "2026-05-24T07:26:03 PT",
-  "count": 3,
+  "last_updated": "2026-05-24T08:44:35 PT",
+  "last_successful_run": "2026-05-24T08:44:35 PT",
+  "count": 2,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "date": "May 24th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Broadway Unhinged",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9335",
-      "date": "May 27th",
-      "image": "https://lv.houseseats.com/resources/media/9335.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
