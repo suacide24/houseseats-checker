@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-24T13:09:10 PT",
-  "last_successful_run": "2026-05-24T13:09:10 PT",
-  "count": 2,
+  "last_updated": "2026-05-24T14:30:23 PT",
+  "last_successful_run": "2026-05-24T14:30:23 PT",
+  "count": 1,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "May 24th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
