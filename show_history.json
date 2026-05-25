@@ -111,7 +111,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
@@ -242,7 +241,6 @@
       "name": "The 2026 World Series of Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
@@ -253,7 +251,6 @@
       "name": "Shark After Dark - Full House of Laughs",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26"
@@ -263,7 +260,6 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
@@ -280,7 +276,6 @@
       "name": "Y2K AF",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
@@ -292,7 +287,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-26",
         "2026-03-01",
         "2026-03-03",
@@ -309,7 +303,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
@@ -335,7 +328,6 @@
       "name": "Juniper Kills, Coffin Fit, One World (R)evolution, and Split Persona",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-02-24",
         "2026-02-25",
         "2026-02-26",
@@ -346,7 +338,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-23",
         "2026-03-02",
         "2026-03-05",
         "2026-04-18",
@@ -1567,7 +1558,8 @@
         "2026-05-20",
         "2026-05-21",
         "2026-05-23",
-        "2026-05-24"
+        "2026-05-24",
+        "2026-05-25"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
