@@ -382,7 +382,8 @@
         "2026-04-22",
         "2026-04-23",
         "2026-04-24",
-        "2026-04-25"
+        "2026-04-25",
+        "2026-05-25"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -436,7 +437,8 @@
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
-        "2026-05-16"
+        "2026-05-16",
+        "2026-05-25"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1871,6 +1873,20 @@
       "appearances": [
         "2026-05-23",
         "2026-05-24"
+      ]
+    },
+    "HouseSeats|jaq jaq, lexsey, big kev and the missing piece": {
+      "name": "Jaq Jaq, Lexsey, Big Kev and the Missing Piece",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-25"
+      ]
+    },
+    "HouseSeats|america\u2019s next top model minority": {
+      "name": "America\u2019s Next Top Model Minority",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-25"
       ]
     }
   }
