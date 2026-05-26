@@ -97,7 +97,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-22",
-        "2026-05-23"
+        "2026-05-23",
+        "2026-05-26"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -1675,7 +1676,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-26"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1897,6 +1899,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-25",
+        "2026-05-26"
+      ]
+    },
+    "HouseSeats|dtlv melodic rap showcase": {
+      "name": "DTLV Melodic Rap Showcase",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-05-26"
       ]
     }
