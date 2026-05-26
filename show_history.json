@@ -111,7 +111,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27",
@@ -241,7 +240,6 @@
       "name": "The 2026 World Series of Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27"
@@ -251,7 +249,6 @@
       "name": "Shark After Dark - Full House of Laughs",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26"
       ]
@@ -260,7 +257,6 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-03-22",
@@ -276,7 +272,6 @@
       "name": "Y2K AF",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27",
@@ -303,7 +298,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27",
@@ -328,7 +322,6 @@
       "name": "Juniper Kills, Coffin Fit, One World (R)evolution, and Split Persona",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27"
@@ -354,7 +347,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27",
@@ -368,7 +360,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-24",
         "2026-02-25",
         "2026-02-26",
         "2026-02-27",
@@ -383,7 +374,8 @@
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -438,7 +430,8 @@
         "2026-05-14",
         "2026-05-15",
         "2026-05-16",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
@@ -1561,7 +1554,8 @@
         "2026-05-21",
         "2026-05-23",
         "2026-05-24",
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1879,14 +1873,16 @@
       "name": "Jaq Jaq, Lexsey, Big Kev and the Missing Piece",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ]
     },
     "HouseSeats|america\u2019s next top model minority": {
       "name": "America\u2019s Next Top Model Minority",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ]
     },
     "HouseSeats|mj the evolution": {
@@ -1900,7 +1896,8 @@
       "name": "SeoulMates Comey Night and BTS Karaoke After Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25"
+        "2026-05-25",
+        "2026-05-26"
       ]
     }
   }
