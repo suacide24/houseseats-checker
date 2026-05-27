@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-27T05:23:38 PT",
-  "last_successful_run": "2026-05-27T05:23:38 PT",
-  "count": 8,
+  "last_updated": "2026-05-27T09:23:42 PT",
+  "last_successful_run": "2026-05-27T09:23:42 PT",
+  "count": 9,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Broadway Unhinged",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9335",
+      "date": "May 27th",
+      "image": "https://lv.houseseats.com/resources/media/9335.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
