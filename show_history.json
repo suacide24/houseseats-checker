@@ -1818,7 +1818,8 @@
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
-        "2026-05-23"
+        "2026-05-23",
+        "2026-05-27"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1856,7 +1857,8 @@
       "name": "Hot Fix Side Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23"
+        "2026-05-23",
+        "2026-05-27"
       ]
     },
     "HouseSeats|broadway unhinged": {
@@ -1906,6 +1908,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-26",
+        "2026-05-27"
+      ]
+    },
+    "HouseSeats|peek! the show \u2014 after hours": {
+      "name": "PEEK! THE SHOW \u2014 AFTER HOURS",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-05-27"
       ]
     }

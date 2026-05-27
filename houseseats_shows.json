@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-27T11:38:33 PT",
-  "last_successful_run": "2026-05-27T11:38:33 PT",
-  "count": 9,
+  "last_updated": "2026-05-27T14:02:29 PT",
+  "last_successful_run": "2026-05-27T14:02:29 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,6 +11,14 @@
       "date": "May 27th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Hot Fix Side Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8855",
+      "date": "May 27th",
+      "image": "https://lv.houseseats.com/resources/media/8855.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -75,6 +83,22 @@
       "date": "May 31st",
       "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "May 31st",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "PEEK! THE SHOW \u2014 AFTER HOURS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9251",
+      "date": "May 31st",
+      "image": "https://lv.houseseats.com/resources/media/9251.jpg",
+      "rare": true
     }
   ]
 }
