@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-27T09:23:42 PT",
-  "last_successful_run": "2026-05-27T09:23:42 PT",
+  "last_updated": "2026-05-27T11:38:33 PT",
+  "last_successful_run": "2026-05-27T11:38:33 PT",
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Broadway Unhinged",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9335",
-      "date": "May 27th",
-      "image": "https://lv.houseseats.com/resources/media/9335.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
@@ -22,10 +14,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "May 27th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -74,6 +66,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9305",
       "date": "May 30th",
       "image": "https://lv.houseseats.com/resources/media/9305.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "May 31st",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": false
     }
   ]
