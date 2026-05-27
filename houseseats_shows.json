@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-26T17:11:51 PT",
-  "last_successful_run": "2026-05-26T17:11:51 PT",
-  "count": 7,
+  "last_updated": "2026-05-26T21:56:13 PT",
+  "last_successful_run": "2026-05-26T21:56:13 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "May 27th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "May 27th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
