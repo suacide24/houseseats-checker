@@ -1897,6 +1897,13 @@
         "2026-05-27",
         "2026-05-28"
       ]
+    },
+    "HouseSeats|murder mystery speakeasy": {
+      "name": "Murder Mystery Speakeasy",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-28"
+      ]
     }
   }
 }
