@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-28T05:31:59 PT",
-  "last_successful_run": "2026-05-28T05:31:59 PT",
-  "count": 8,
+  "last_updated": "2026-05-28T09:56:30 PT",
+  "last_successful_run": "2026-05-28T09:56:30 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -42,14 +42,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9315",
       "date": "May 30th",
       "image": "https://lv.houseseats.com/resources/media/9315.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vegas Knight Hawks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
-      "date": "May 31st",
-      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": false
     },
     {
