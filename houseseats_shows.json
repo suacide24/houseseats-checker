@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-27T15:56:56 PT",
-  "last_successful_run": "2026-05-27T15:56:56 PT",
+  "last_updated": "2026-05-27T17:06:03 PT",
+  "last_successful_run": "2026-05-27T17:06:03 PT",
   "count": 11,
   "shows": [
     {
@@ -58,7 +58,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9315",
       "date": "May 30th",
       "image": "https://lv.houseseats.com/resources/media/9315.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
