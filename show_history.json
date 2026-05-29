@@ -114,7 +114,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-03-22",
         "2026-03-23",
         "2026-03-24",
@@ -236,13 +235,6 @@
         "2026-04-26"
       ]
     },
-    "HouseSeats|the 2026 world series of comedy": {
-      "name": "The 2026 World Series of Comedy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-27"
-      ]
-    },
     "HouseSeats|sink or swim": {
       "name": "Sink or Swim",
       "source": "HouseSeats",
@@ -260,7 +252,6 @@
       "name": "Y2K AF",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-02-28"
       ]
     },
@@ -283,7 +274,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-03-23",
         "2026-03-24",
         "2026-03-25",
@@ -299,13 +289,6 @@
         "2026-05-20",
         "2026-05-21",
         "2026-05-22"
-      ]
-    },
-    "HouseSeats|juniper kills, coffin fit, one world (r)evolution, and split persona": {
-      "name": "Juniper Kills, Coffin Fit, One World (R)evolution, and Split Persona",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-02-27"
       ]
     },
     "HouseSeats|mat franco": {
@@ -328,7 +311,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-02-28",
         "2026-03-01",
         "2026-03-02",
@@ -339,7 +321,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-02-28",
         "2026-03-24",
         "2026-03-25",
@@ -354,7 +335,8 @@
         "2026-05-25",
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|the mgm slam at t-mobile arena": {
@@ -368,7 +350,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-03-19",
         "2026-03-20",
         "2026-03-21",
@@ -397,14 +378,14 @@
         "2026-05-25",
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|eighties things: stranger things 80s night": {
       "name": "EIGHTIES THINGS: Stranger Things 80s Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-02-28"
       ]
     },
@@ -412,7 +393,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-03-04",
         "2026-03-06",
         "2026-03-13",
@@ -433,7 +413,6 @@
       "name": "Ladies Night Comedy Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-02-27",
         "2026-02-28",
         "2026-03-01",
         "2026-03-02",
@@ -1009,7 +988,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-03",
-        "2026-04-04"
+        "2026-04-04",
+        "2026-05-29"
       ]
     },
     "HouseSeats|college basketball crown at t-mobile arena": {
@@ -1648,7 +1628,8 @@
         "2026-05-22",
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1795,7 +1776,8 @@
         "2026-05-22",
         "2026-05-23",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1853,7 +1835,8 @@
         "2026-05-25",
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|america\u2019s next top model minority": {
@@ -1887,7 +1870,8 @@
       "appearances": [
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|peek! the show \u2014 after hours": {
@@ -1895,14 +1879,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
       "name": "Murder Mystery Speakeasy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     }
   }
