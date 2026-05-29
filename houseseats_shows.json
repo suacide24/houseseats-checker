@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-29T10:50:40 PT",
-  "last_successful_run": "2026-05-29T10:50:40 PT",
-  "count": 8,
+  "last_updated": "2026-05-29T13:31:39 PT",
+  "last_successful_run": "2026-05-29T13:31:39 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Scene Stealers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
-      "date": "May 29th",
-      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Game of Groans: Variety Show",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9314",
       "date": "May 29th",
       "image": "https://lv.houseseats.com/resources/media/9314.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "May 29th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -66,6 +66,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
       "date": "June 1st",
       "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Make That Sh*t Funny Mondays",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9343",
+      "date": "June 1st",
+      "image": "https://lv.houseseats.com/resources/media/9343.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
+      "date": "June 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
       "rare": false
     }
   ]

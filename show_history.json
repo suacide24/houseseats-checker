@@ -100,7 +100,8 @@
         "2026-05-23",
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -1505,7 +1506,8 @@
         "2026-05-25",
         "2026-05-26",
         "2026-05-27",
-        "2026-05-28"
+        "2026-05-28",
+        "2026-05-29"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1888,6 +1890,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-28",
+        "2026-05-29"
+      ]
+    },
+    "HouseSeats|make that sh*t funny mondays": {
+      "name": "Make That Sh*t Funny Mondays",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-05-29"
       ]
     }
