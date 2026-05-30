@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-30T11:03:49 PT",
-  "last_successful_run": "2026-05-30T11:03:49 PT",
+  "last_updated": "2026-05-30T12:49:22 PT",
+  "last_successful_run": "2026-05-30T12:49:22 PT",
   "count": 4,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "PIANO MAN",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7378",
+      "date": "May 30th",
+      "image": "https://lv.houseseats.com/resources/media/7378.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "DTLV Melodic Rap Showcase",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9315",
       "date": "May 30th",
       "image": "https://lv.houseseats.com/resources/media/9315.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder Mystery Speakeasy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9340",
-      "date": "May 31st",
-      "image": "https://lv.houseseats.com/resources/media/9340.jpg",
       "rare": false
     },
     {
