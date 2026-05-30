@@ -764,7 +764,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-05-30"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1867,6 +1868,13 @@
     },
     "HouseSeats|piano man": {
       "name": "PIANO MAN",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-05-30"
+      ]
+    },
+    "HouseSeats|kelsey cook": {
+      "name": "Kelsey Cook",
       "source": "HouseSeats",
       "appearances": [
         "2026-05-30"

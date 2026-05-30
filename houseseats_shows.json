@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-30T12:49:22 PT",
-  "last_successful_run": "2026-05-30T12:49:22 PT",
-  "count": 4,
+  "last_updated": "2026-05-30T14:04:18 PT",
+  "last_successful_run": "2026-05-30T14:04:18 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7378",
       "date": "May 30th",
       "image": "https://lv.houseseats.com/resources/media/7378.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Kelsey Cook",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9344",
+      "date": "May 30th",
+      "image": "https://lv.houseseats.com/resources/media/9344.jpg",
       "rare": true
     },
     {
@@ -27,6 +35,14 @@
       "date": "June 1st",
       "image": "https://lv.houseseats.com/resources/media/9343.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
