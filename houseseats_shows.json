@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-05-29T17:12:00 PT",
-  "last_successful_run": "2026-05-29T17:12:00 PT",
-  "count": 7,
+  "last_updated": "2026-05-29T21:34:34 PT",
+  "last_successful_run": "2026-05-29T21:34:34 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "May 29th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "DTLV Melodic Rap Showcase",
@@ -38,19 +30,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Wastin' Away",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
-      "date": "June 1st",
-      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Make That Sh*t Funny Mondays",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9343",
       "date": "June 1st",
       "image": "https://lv.houseseats.com/resources/media/9343.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "June 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
