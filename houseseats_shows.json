@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-01T06:12:29 PT",
-  "last_successful_run": "2026-06-01T06:12:29 PT",
-  "count": 4,
+  "last_updated": "2026-06-01T12:08:11 PT",
+  "last_successful_run": "2026-06-01T12:08:11 PT",
+  "count": 5,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 1st",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Make That Sh*t Funny Mondays",
