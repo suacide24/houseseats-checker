@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-01T15:20:57 PT",
-  "last_successful_run": "2026-06-01T15:20:57 PT",
-  "count": 7,
+  "last_updated": "2026-06-01T16:51:46 PT",
+  "last_successful_run": "2026-06-01T16:51:46 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Make That Sh*t Funny Mondays",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9343",
-      "date": "June 1st",
-      "image": "https://lv.houseseats.com/resources/media/9343.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
