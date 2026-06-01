@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-01T12:08:11 PT",
-  "last_successful_run": "2026-06-01T12:08:11 PT",
-  "count": 5,
+  "last_updated": "2026-06-01T15:20:57 PT",
+  "last_successful_run": "2026-06-01T15:20:57 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "June 1st",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Make That Sh*t Funny Mondays",
@@ -43,6 +35,30 @@
       "date": "June 4th",
       "image": "https://lv.houseseats.com/resources/media/9338.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Brunch and Beats - Live Sessions at Cantinetta",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/9311.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "One of These Nights - Eagles Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9294",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/9294.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "June 7th",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
     }
   ]
 }

@@ -1581,7 +1581,8 @@
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-01"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1730,7 +1731,8 @@
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
-        "2026-05-30"
+        "2026-05-30",
+        "2026-06-01"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1876,6 +1878,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-05-31",
+        "2026-06-01"
+      ]
+    },
+    "HouseSeats|one of these nights - eagles tribute": {
+      "name": "One of These Nights - Eagles Tribute",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-06-01"
       ]
     }
