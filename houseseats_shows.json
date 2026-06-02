@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-01T16:51:46 PT",
-  "last_successful_run": "2026-06-01T16:51:46 PT",
+  "last_updated": "2026-06-01T21:25:27 PT",
+  "last_successful_run": "2026-06-01T21:25:27 PT",
   "count": 6,
   "shows": [
     {
@@ -14,19 +14,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 4th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9338",
       "date": "June 4th",
       "image": "https://lv.houseseats.com/resources/media/9338.jpg",
-      "rare": true
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 5th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
