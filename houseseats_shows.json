@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-02T10:26:19 PT",
-  "last_successful_run": "2026-06-02T10:26:19 PT",
-  "count": 6,
+  "last_updated": "2026-06-02T13:26:54 PT",
+  "last_successful_run": "2026-06-02T13:26:54 PT",
+  "count": 10,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 2nd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -38,10 +46,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Damage Inc - A Tribute to Metallica",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9129",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/9129.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "One of These Nights - Eagles Tribute",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9294",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9294.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Summer Soul Affair with Sin City Soul and Mi Linda Soul",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9345",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/9345.jpg",
       "rare": true
     },
     {
