@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-03T13:38:50 PT",
-  "last_successful_run": "2026-06-03T13:38:50 PT",
+  "last_updated": "2026-06-03T16:06:36 PT",
+  "last_successful_run": "2026-06-03T16:06:36 PT",
   "count": 10,
   "shows": [
     {
@@ -26,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9338",
       "date": "June 4th",
       "image": "https://lv.houseseats.com/resources/media/9338.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "June 4th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {
@@ -74,14 +82,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
       "date": "June 7th",
       "image": "https://lv.houseseats.com/resources/media/9326.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "June 7th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     }
   ]
