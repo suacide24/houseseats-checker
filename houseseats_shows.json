@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-02T18:41:59 PT",
-  "last_successful_run": "2026-06-02T18:41:59 PT",
-  "count": 9,
+  "last_updated": "2026-06-02T23:57:27 PT",
+  "last_successful_run": "2026-06-02T23:57:27 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "WOW - The Vegas Spectacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
-      "date": "June 3rd",
-      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murray's Madhouse",
@@ -30,18 +22,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 5th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9311.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
