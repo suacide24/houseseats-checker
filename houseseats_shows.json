@@ -1,23 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-02T15:35:35 PT",
-  "last_successful_run": "2026-06-02T15:35:35 PT",
+  "last_updated": "2026-06-02T18:41:59 PT",
+  "last_successful_run": "2026-06-02T18:41:59 PT",
   "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 2nd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
       "date": "June 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
       "rare": false
     },
     {
@@ -34,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9338",
       "date": "June 4th",
       "image": "https://lv.houseseats.com/resources/media/9338.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 5th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
@@ -58,7 +58,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9294",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9294.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
