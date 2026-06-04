@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-04T12:38:19 PT",
-  "last_successful_run": "2026-06-04T12:38:19 PT",
-  "count": 11,
+  "last_updated": "2026-06-04T14:44:52 PT",
+  "last_successful_run": "2026-06-04T14:44:52 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7378",
       "date": "June 4th",
       "image": "https://lv.houseseats.com/resources/media/7378.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9349",
+      "date": "June 4th",
+      "image": "https://lv.houseseats.com/resources/media/9349.jpg",
       "rare": true
     },
     {
