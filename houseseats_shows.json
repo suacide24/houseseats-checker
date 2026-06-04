@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-04T07:06:07 PT",
-  "last_successful_run": "2026-06-04T07:06:07 PT",
-  "count": 9,
+  "last_updated": "2026-06-04T10:29:35 PT",
+  "last_successful_run": "2026-06-04T10:29:35 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -74,6 +74,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
       "date": "June 7th",
       "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 7th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     }
   ]
