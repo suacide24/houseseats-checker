@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-03T16:06:36 PT",
-  "last_successful_run": "2026-06-03T16:06:36 PT",
-  "count": 10,
+  "last_updated": "2026-06-03T19:06:22 PT",
+  "last_successful_run": "2026-06-03T19:06:22 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Murray's Madhouse",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
-      "date": "June 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 3rd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
@@ -58,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9129",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9129.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -74,6 +58,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9345",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9345.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Spice Wannabe \u2013 Tribute to the Spice Girls",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9346",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/9346.jpg",
       "rare": true
     },
     {

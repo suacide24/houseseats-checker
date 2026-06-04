@@ -198,7 +198,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-05",
         "2026-03-10",
         "2026-04-12",
         "2026-04-13",
@@ -251,7 +250,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-05",
         "2026-03-14",
         "2026-03-20",
         "2026-03-21",
@@ -288,7 +286,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-05",
         "2026-04-18",
         "2026-04-19",
         "2026-04-20",
@@ -373,14 +370,14 @@
         "2026-05-22",
         "2026-05-23",
         "2026-05-24",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|matt donnelly - the mind noodler": {
       "name": "Matt Donnelly - The Mind Noodler",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-05",
         "2026-03-06",
         "2026-03-07",
         "2026-03-08",
@@ -404,7 +401,6 @@
       "name": "Nirvana Mania: A Tribute To Nirvana",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-05",
         "2026-03-06"
       ]
     },
@@ -412,7 +408,6 @@
       "name": "Beetlejuice JR.",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-05",
         "2026-03-06",
         "2026-03-07",
         "2026-03-08"
@@ -425,13 +420,6 @@
         "2026-03-08",
         "2026-04-12",
         "2026-05-10"
-      ]
-    },
-    "HouseSeats|pb&j: a duo improv show": {
-      "name": "PB&J: A Duo Improv Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-05"
       ]
     },
     "HouseSeats|italian-american comedy show with ed regine": {
@@ -723,7 +711,8 @@
         "2026-05-31",
         "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1557,7 +1546,8 @@
         "2026-05-29",
         "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1709,7 +1699,8 @@
         "2026-05-30",
         "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1857,7 +1848,8 @@
         "2026-05-31",
         "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|one of these nights - eagles tribute": {
@@ -1866,7 +1858,8 @@
       "appearances": [
         "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|damage inc - a tribute to metallica": {
@@ -1874,7 +1867,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
       ]
     },
     "HouseSeats|summer soul affair with sin city soul and mi linda soul": {
@@ -1882,7 +1876,15 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-04"
+      ]
+    },
+    "HouseSeats|spice wannabe \u2013 tribute to the spice girls": {
+      "name": "Spice Wannabe \u2013 Tribute to the Spice Girls",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-04"
       ]
     }
   }
