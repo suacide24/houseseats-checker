@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-04T14:44:52 PT",
-  "last_successful_run": "2026-06-04T14:44:52 PT",
+  "last_updated": "2026-06-04T16:12:06 PT",
+  "last_successful_run": "2026-06-04T16:12:06 PT",
   "count": 12,
   "shows": [
     {
@@ -22,10 +22,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9338",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
       "date": "June 4th",
-      "image": "https://lv.houseseats.com/resources/media/9338.jpg",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
