@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-05T03:50:36 PT",
-  "last_successful_run": "2026-06-05T03:50:36 PT",
+  "last_updated": "2026-06-05T06:53:18 PT",
+  "last_successful_run": "2026-06-05T06:53:18 PT",
   "count": 10,
   "shows": [
     {
@@ -27,14 +27,6 @@
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9349.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -74,6 +66,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
       "date": "June 7th",
       "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 7th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
