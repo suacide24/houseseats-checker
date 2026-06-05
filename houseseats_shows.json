@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-04T18:37:31 PT",
-  "last_successful_run": "2026-06-04T18:37:31 PT",
-  "count": 11,
+  "last_updated": "2026-06-04T23:36:14 PT",
+  "last_successful_run": "2026-06-04T23:36:14 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "June 4th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "PIANO MAN",
