@@ -69,7 +69,8 @@
         "2026-05-07",
         "2026-05-08",
         "2026-05-09",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-05"
       ]
     },
     "HouseSeats|rouge": {
@@ -261,7 +262,8 @@
         "2026-05-22",
         "2026-06-01",
         "2026-06-02",
-        "2026-06-03"
+        "2026-06-03",
+        "2026-06-05"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -1894,6 +1896,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-04",
+        "2026-06-05"
+      ]
+    },
+    "HouseSeats|seth robichaux: no filter, all glitter - a vegas cabaret show": {
+      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-06-05"
       ]
     }

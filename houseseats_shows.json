@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-05T11:58:51 PT",
-  "last_successful_run": "2026-06-05T11:58:51 PT",
-  "count": 10,
+  "last_updated": "2026-06-05T13:51:12 PT",
+  "last_successful_run": "2026-06-05T13:51:12 PT",
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,10 +14,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "June 5th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -43,6 +43,14 @@
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9349.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "WOW - The Vegas Spectacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4878",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/4878.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -83,6 +91,22 @@
       "date": "June 7th",
       "image": "https://lv.houseseats.com/resources/media/9326.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 7th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
+      "date": "June 10th",
+      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": true
     }
   ]
 }
