@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-05T15:18:29 PT",
-  "last_successful_run": "2026-06-05T15:18:29 PT",
+  "last_updated": "2026-06-05T16:46:18 PT",
+  "last_successful_run": "2026-06-05T16:46:18 PT",
   "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "PIANO MAN",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7378",
+      "name": "John Lloyd Young: Jukebox Hero",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9351",
       "date": "June 5th",
-      "image": "https://lv.houseseats.com/resources/media/7378.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9351.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
