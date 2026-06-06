@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-06T09:40:36 PT",
-  "last_successful_run": "2026-06-06T09:40:36 PT",
-  "count": 7,
+  "last_updated": "2026-06-06T11:10:36 PT",
+  "last_successful_run": "2026-06-06T11:10:36 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -38,6 +38,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 6th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Wastin' Away",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
       "date": "June 7th",
@@ -50,6 +58,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "June 8th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mondays Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9352",
+      "date": "June 8th",
+      "image": "https://lv.houseseats.com/resources/media/9352.jpg",
       "rare": false
     },
     {
