@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-06T12:53:54 PT",
-  "last_successful_run": "2026-06-06T12:53:54 PT",
-  "count": 9,
+  "last_updated": "2026-06-06T14:08:59 PT",
+  "last_successful_run": "2026-06-06T14:08:59 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9349",
+      "name": "MICK ADAMS AND THE STONES",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9353",
       "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9349.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9353.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -22,26 +22,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Summer Soul Affair with Sin City Soul and Mi Linda Soul",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9345",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9345.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Spice Wannabe \u2013 Tribute to the Spice Girls",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9346",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9346.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9349",
+      "date": "June 7th",
+      "image": "https://lv.houseseats.com/resources/media/9349.jpg",
       "rare": false
     },
     {
@@ -74,6 +66,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "June 10th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
+      "date": "June 10th",
+      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "New Nostalgics featuring Austin Morris",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9350",
+      "date": "June 11th",
+      "image": "https://lv.houseseats.com/resources/media/9350.jpg",
       "rare": true
     }
   ]
