@@ -158,7 +158,6 @@
       "name": "THE JETS 80's & 90's Experience!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07",
         "2026-03-26"
       ]
     },
@@ -383,7 +382,6 @@
       "name": "Matt Donnelly - The Mind Noodler",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07",
         "2026-03-08",
         "2026-03-09",
         "2026-03-10",
@@ -405,7 +403,6 @@
       "name": "Beetlejuice JR.",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07",
         "2026-03-08"
       ]
     },
@@ -422,7 +419,6 @@
       "name": "Italian-American Comedy Show with Ed Regine",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07",
         "2026-03-08",
         "2026-03-09"
       ]
@@ -431,7 +427,6 @@
       "name": "The Heist \u2013 A Musical Takeover at The Balkan",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07",
         "2026-03-08",
         "2026-03-09",
         "2026-03-26"
@@ -441,7 +436,6 @@
       "name": "Shark After Dark - A Rooftop Comedy Experience",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-07",
         "2026-03-08",
         "2026-03-09",
         "2026-03-20",
@@ -708,7 +702,8 @@
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1698,7 +1693,8 @@
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1860,7 +1856,8 @@
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|damage inc - a tribute to metallica": {
@@ -1870,7 +1867,8 @@
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|summer soul affair with sin city soul and mi linda soul": {
@@ -1880,7 +1878,8 @@
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|spice wannabe \u2013 tribute to the spice girls": {
@@ -1888,7 +1887,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|fallout fringe festival - times square las vegas": {
@@ -1896,14 +1896,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-04",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|seth robichaux: no filter, all glitter - a vegas cabaret show": {
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-06"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {

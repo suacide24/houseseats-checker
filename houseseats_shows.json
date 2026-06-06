@@ -1,40 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-05T16:46:18 PT",
-  "last_successful_run": "2026-06-05T16:46:18 PT",
-  "count": 11,
+  "last_updated": "2026-06-05T20:56:05 PT",
+  "last_successful_run": "2026-06-05T20:56:05 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "John Lloyd Young: Jukebox Hero",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9351",
-      "date": "June 5th",
-      "image": "https://lv.houseseats.com/resources/media/9351.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 5th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Brunch and Beats - Live Sessions at Cantinetta",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9311.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9349",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9349.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -66,7 +42,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9346",
       "date": "June 6th",
       "image": "https://lv.houseseats.com/resources/media/9346.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
