@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-06T17:08:36 PT",
-  "last_successful_run": "2026-06-06T17:08:36 PT",
-  "count": 8,
+  "last_updated": "2026-06-06T22:08:19 PT",
+  "last_successful_run": "2026-06-06T22:08:19 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
@@ -22,10 +14,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Wastin' Away",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "June 7th",
-      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
