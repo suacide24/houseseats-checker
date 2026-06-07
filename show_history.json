@@ -108,7 +108,8 @@
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -383,7 +384,6 @@
       "name": "Matt Donnelly - The Mind Noodler",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-08",
         "2026-03-09",
         "2026-03-10",
         "2026-03-11",
@@ -400,18 +400,10 @@
         "2026-05-04"
       ]
     },
-    "HouseSeats|beetlejuice jr.": {
-      "name": "Beetlejuice JR.",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-08"
-      ]
-    },
     "HouseSeats|fantasy": {
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-08",
         "2026-04-12",
         "2026-05-10"
       ]
@@ -420,7 +412,6 @@
       "name": "Italian-American Comedy Show with Ed Regine",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-08",
         "2026-03-09"
       ]
     },
@@ -428,7 +419,6 @@
       "name": "The Heist \u2013 A Musical Takeover at The Balkan",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-08",
         "2026-03-09",
         "2026-03-26"
       ]
@@ -437,7 +427,6 @@
       "name": "Shark After Dark - A Rooftop Comedy Experience",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-08",
         "2026-03-09",
         "2026-03-20",
         "2026-03-26"
@@ -704,7 +693,8 @@
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1351,7 +1341,8 @@
         "2026-05-04",
         "2026-05-17",
         "2026-05-18",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|rebel trivia night": {
@@ -1413,7 +1404,8 @@
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1697,7 +1689,8 @@
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1900,7 +1893,8 @@
       "appearances": [
         "2026-06-04",
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|seth robichaux: no filter, all glitter - a vegas cabaret show": {
@@ -1908,7 +1902,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-05",
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1929,7 +1924,8 @@
       "name": "New Nostalgics featuring Austin Morris",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06"
+        "2026-06-06",
+        "2026-06-07"
       ]
     }
   }

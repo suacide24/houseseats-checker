@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-06T15:37:14 PT",
-  "last_successful_run": "2026-06-06T15:37:14 PT",
-  "count": 10,
+  "last_updated": "2026-06-06T17:08:36 PT",
+  "last_successful_run": "2026-06-06T17:08:36 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "MICK ADAMS AND THE STONES",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9353",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9353.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "One of These Nights - Eagles Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9294",
-      "date": "June 6th",
-      "image": "https://lv.houseseats.com/resources/media/9294.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -66,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "June 10th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
