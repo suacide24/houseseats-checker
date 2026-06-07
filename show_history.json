@@ -265,7 +265,8 @@
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
-        "2026-06-05"
+        "2026-06-05",
+        "2026-06-07"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -1926,6 +1927,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-06",
+        "2026-06-07"
+      ]
+    },
+    "HouseSeats|gemini splash pool and line dance party": {
+      "name": "Gemini Splash Pool and Line Dance Party",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-06-07"
       ]
     }
