@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-08T15:11:47 PT",
-  "last_successful_run": "2026-06-08T15:11:47 PT",
-  "count": 10,
+  "last_updated": "2026-06-08T16:47:17 PT",
+  "last_successful_run": "2026-06-08T16:47:17 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mondays Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9352",
-      "date": "June 8th",
-      "image": "https://lv.houseseats.com/resources/media/9352.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
@@ -51,14 +43,6 @@
       "date": "June 12th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "June 12th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
