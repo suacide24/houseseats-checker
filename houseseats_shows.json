@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-08T10:58:41 PT",
-  "last_successful_run": "2026-06-08T10:58:41 PT",
-  "count": 6,
+  "last_updated": "2026-06-08T13:28:33 PT",
+  "last_successful_run": "2026-06-08T13:28:33 PT",
+  "count": 10,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 8th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Mondays Dark",
@@ -46,11 +54,35 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 12th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Gemini Splash Pool and Line Dance Party",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9347",
       "date": "June 12th",
       "image": "https://lv.houseseats.com/resources/media/9347.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Brunch and Beats - Live Sessions at Cantinetta",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
+      "date": "June 13th",
+      "image": "https://lv.houseseats.com/resources/media/9311.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "June 14th",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
     }
   ]
 }
