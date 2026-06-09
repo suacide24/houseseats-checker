@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-09T12:33:37 PT",
-  "last_successful_run": "2026-06-09T12:33:37 PT",
-  "count": 8,
+  "last_updated": "2026-06-09T14:50:15 PT",
+  "last_successful_run": "2026-06-09T14:50:15 PT",
+  "count": 12,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "June 9th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -58,6 +66,30 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
       "date": "June 13th",
       "image": "https://lv.houseseats.com/resources/media/9311.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 13th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "June 13th",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 13th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
