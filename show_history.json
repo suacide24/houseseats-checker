@@ -108,7 +108,8 @@
         "2026-06-06",
         "2026-06-07",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -268,7 +269,8 @@
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -382,14 +384,8 @@
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
-        "2026-06-10"
-      ]
-    },
-    "HouseSeats|matt donnelly - the mind noodler": {
-      "name": "Matt Donnelly - The Mind Noodler",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-12"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|jazz vegas orchestra live": {
@@ -429,7 +425,6 @@
       "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-12",
         "2026-03-13",
         "2026-03-14"
       ]
@@ -445,18 +440,10 @@
         "2026-04-10"
       ]
     },
-    "HouseSeats|when women women: an improv show": {
-      "name": "When Women Women: An improv show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-12"
-      ]
-    },
     "HouseSeats|franky perez and the all nighters": {
       "name": "Franky Perez and the All Nighters",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-12",
         "2026-03-26"
       ]
     },
@@ -464,7 +451,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-12",
         "2026-03-13",
         "2026-03-14",
         "2026-03-15",
@@ -485,18 +471,10 @@
         "2026-04-04"
       ]
     },
-    "HouseSeats|the palmer squares": {
-      "name": "The Palmer Squares",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-12"
-      ]
-    },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-12",
         "2026-04-15",
         "2026-04-16",
         "2026-04-18",
@@ -667,7 +645,8 @@
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1111,7 +1090,8 @@
         "2026-04-26",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1387,7 +1367,8 @@
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1519,7 +1500,8 @@
         "2026-06-05",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1678,7 +1660,8 @@
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1919,7 +1902,8 @@
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|gemini splash pool and line dance party": {
@@ -1929,14 +1913,16 @@
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     },
     "HouseSeats|rocklesque: invasion": {
       "name": "ROCKLESQUE: INVASION",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10"
+        "2026-06-10",
+        "2026-06-11"
       ]
     }
   }
