@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-10T17:20:02 PT",
-  "last_successful_run": "2026-06-10T17:20:02 PT",
-  "count": 11,
+  "last_updated": "2026-06-10T22:10:40 PT",
+  "last_successful_run": "2026-06-10T22:10:40 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Murray's Madhouse",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
-      "date": "June 10th",
-      "image": "https://lv.houseseats.com/resources/media/9263.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 10th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -83,14 +67,6 @@
       "date": "June 14th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "June 14th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
     }
   ]
 }
