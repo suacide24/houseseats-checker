@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-11T15:23:05 PT",
-  "last_successful_run": "2026-06-11T15:23:05 PT",
+  "last_updated": "2026-06-11T17:03:58 PT",
+  "last_successful_run": "2026-06-11T17:03:58 PT",
   "count": 6,
   "shows": [
     {
@@ -50,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
       "date": "June 14th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }

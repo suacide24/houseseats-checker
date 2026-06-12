@@ -369,7 +369,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-13",
         "2026-04-15",
         "2026-04-16",
         "2026-04-22",
@@ -425,7 +424,6 @@
       "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-13",
         "2026-03-14"
       ]
     },
@@ -451,7 +449,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-13",
         "2026-03-14",
         "2026-03-15",
         "2026-03-19",
@@ -646,7 +643,8 @@
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1091,7 +1089,8 @@
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1501,7 +1500,8 @@
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ]
     },
     "HouseSeats|rocklesque: the downward spiral": {
@@ -1661,7 +1661,8 @@
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1914,7 +1915,8 @@
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ]
     },
     "HouseSeats|rocklesque: invasion": {
@@ -1922,7 +1924,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-10",
-        "2026-06-11"
+        "2026-06-11",
+        "2026-06-12"
       ]
     }
   }
