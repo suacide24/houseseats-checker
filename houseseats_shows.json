@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-12T09:24:57 PT",
-  "last_successful_run": "2026-06-12T09:24:57 PT",
+  "last_updated": "2026-06-12T11:23:52 PT",
+  "last_successful_run": "2026-06-12T11:23:52 PT",
   "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 12th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Gemini Splash Pool and Line Dance Party",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9347",
       "date": "June 12th",
       "image": "https://lv.houseseats.com/resources/media/9347.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Brunch and Beats - Live Sessions at Cantinetta",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9311",
-      "date": "June 13th",
-      "image": "https://lv.houseseats.com/resources/media/9311.jpg",
       "rare": false
     },
     {
