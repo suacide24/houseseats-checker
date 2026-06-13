@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-13T08:17:25 PT",
-  "last_successful_run": "2026-06-13T08:17:25 PT",
+  "last_updated": "2026-06-13T09:56:36 PT",
+  "last_successful_run": "2026-06-13T09:56:36 PT",
   "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Vegas Knight Hawks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
-      "date": "June 13th",
-      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murder Mystery at the Tavern",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
       "date": "June 13th",
       "image": "https://lv.houseseats.com/resources/media/9325.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Alain Whyte Band",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9358",
+      "date": "June 13th",
+      "image": "https://lv.houseseats.com/resources/media/9358.jpg",
       "rare": true
     },
     {
