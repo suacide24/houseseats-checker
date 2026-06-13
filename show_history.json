@@ -1921,6 +1921,13 @@
         "2026-06-12",
         "2026-06-13"
       ]
+    },
+    "HouseSeats|murder mystery at the tavern": {
+      "name": "Murder Mystery at the Tavern",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-13"
+      ]
     }
   }
 }
