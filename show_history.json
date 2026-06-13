@@ -110,7 +110,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|improv is blind": {
@@ -257,7 +258,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-14",
         "2026-03-20",
         "2026-03-21",
         "2026-05-04",
@@ -421,13 +421,6 @@
         "2026-03-26"
       ]
     },
-    "HouseSeats|banda los recoditos at primm valley resorts (primm)": {
-      "name": "Banda Los Recoditos at PRIMM VALLEY RESORTS (PRIMM)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-14"
-      ]
-    },
     "HouseSeats|secrets secrets": {
       "name": "Secrets Secrets",
       "source": "HouseSeats",
@@ -450,7 +443,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-14",
         "2026-03-15",
         "2026-03-19",
         "2026-03-20",
@@ -481,18 +473,10 @@
         "2026-06-10"
       ]
     },
-    "HouseSeats|punk rock invasion": {
-      "name": "PUNK ROCK INVASION",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-14"
-      ]
-    },
     "HouseSeats|marissa nadler w/ gracie and rachel": {
       "name": "MARISSA NADLER w/ Gracie And Rachel",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-14",
         "2026-03-15",
         "2026-03-16",
         "2026-03-17",
@@ -645,7 +629,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -896,7 +881,8 @@
         "2026-05-28",
         "2026-06-09",
         "2026-06-10",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|over budget: no ring - no rules wrestling": {
@@ -1092,7 +1078,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1370,7 +1357,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1665,7 +1653,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1919,7 +1908,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     },
     "HouseSeats|rocklesque: invasion": {
@@ -1928,7 +1918,8 @@
       "appearances": [
         "2026-06-10",
         "2026-06-11",
-        "2026-06-12"
+        "2026-06-12",
+        "2026-06-13"
       ]
     }
   }
