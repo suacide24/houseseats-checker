@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-14T14:17:45 PT",
-  "last_successful_run": "2026-06-14T14:17:45 PT",
-  "count": 8,
+  "last_updated": "2026-06-14T15:43:19 PT",
+  "last_successful_run": "2026-06-14T15:43:19 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Wastin' Away",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
-      "date": "June 14th",
-      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROCKLESQUE: INVASION",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
-      "date": "June 14th",
-      "image": "https://lv.houseseats.com/resources/media/9252.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -34,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "June 15th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "June 15th",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
       "rare": false
     },
     {
