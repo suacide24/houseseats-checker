@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-14T12:50:43 PT",
-  "last_successful_run": "2026-06-14T12:50:43 PT",
-  "count": 6,
+  "last_updated": "2026-06-14T14:17:45 PT",
+  "last_successful_run": "2026-06-14T14:17:45 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -46,11 +46,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 17th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Murray's Madhouse",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "June 17th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Amor Prohibido - Tribute to Selena",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9328",
+      "date": "June 19th",
+      "image": "https://lv.houseseats.com/resources/media/9328.jpg",
+      "rare": true
     }
   ]
 }

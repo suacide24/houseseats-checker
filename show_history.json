@@ -628,7 +628,8 @@
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
-        "2026-06-13"
+        "2026-06-13",
+        "2026-06-14"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1938,6 +1939,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-13"
+      ]
+    },
+    "HouseSeats|amor prohibido - tribute to selena": {
+      "name": "Amor Prohibido - Tribute to Selena",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-14"
       ]
     }
   }
