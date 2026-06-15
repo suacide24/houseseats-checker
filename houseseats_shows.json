@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-15T10:32:32 PT",
-  "last_successful_run": "2026-06-15T10:32:32 PT",
-  "count": 5,
+  "last_updated": "2026-06-15T14:09:38 PT",
+  "last_successful_run": "2026-06-15T14:09:38 PT",
+  "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 16th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
