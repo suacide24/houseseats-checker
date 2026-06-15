@@ -1,15 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-14T15:43:19 PT",
-  "last_successful_run": "2026-06-14T15:43:19 PT",
-  "count": 7,
+  "last_updated": "2026-06-14T17:16:45 PT",
+  "last_successful_run": "2026-06-14T17:16:45 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "June 14th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -24,7 +24,7 @@
       "source": "HouseSeats",
       "name": "Wastin' Away",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
-      "date": "June 15th",
+      "date": "June 16th",
       "image": "https://lv.houseseats.com/resources/media/9326.jpg",
       "rare": false
     },
@@ -50,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "June 17th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "June 17th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
