@@ -1,14 +1,30 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-16T06:14:30 PT",
-  "last_successful_run": "2026-06-16T06:14:30 PT",
-  "count": 6,
+  "last_updated": "2026-06-16T11:16:50 PT",
+  "last_successful_run": "2026-06-16T11:16:50 PT",
+  "count": 8,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 16th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 16th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 16th",
+      "date": "June 17th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
