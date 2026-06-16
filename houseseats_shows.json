@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-16T11:16:50 PT",
-  "last_successful_run": "2026-06-16T11:16:50 PT",
+  "last_updated": "2026-06-16T14:27:19 PT",
+  "last_successful_run": "2026-06-16T14:27:19 PT",
   "count": 8,
   "shows": [
     {
@@ -38,14 +38,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 17th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Murray's Madhouse",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "June 17th",
@@ -58,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "June 17th",
       "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 18th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
