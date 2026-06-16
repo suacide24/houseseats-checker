@@ -144,7 +144,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17",
         "2026-03-18",
         "2026-03-21",
         "2026-04-02",
@@ -182,14 +181,14 @@
         "2026-05-31",
         "2026-06-07",
         "2026-06-09",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ]
     },
     "HouseSeats|the rant!": {
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17",
         "2026-03-18",
         "2026-03-19",
         "2026-04-15",
@@ -227,7 +226,6 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17",
         "2026-03-18",
         "2026-03-19"
       ]
@@ -476,7 +474,6 @@
       "name": "MARISSA NADLER w/ Gracie And Rachel",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17",
         "2026-03-18"
       ]
     },
@@ -484,7 +481,6 @@
       "name": "DCOM: Live! (A Night of Disney Channel Hits!)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17",
         "2026-03-18",
         "2026-03-19",
         "2026-03-20",
@@ -495,7 +491,6 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-17",
         "2026-03-18",
         "2026-03-19",
         "2026-03-20",
@@ -627,7 +622,8 @@
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1078,7 +1074,8 @@
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1359,7 +1356,8 @@
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1876,7 +1874,8 @@
         "2026-06-10",
         "2026-06-13",
         "2026-06-14",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1948,7 +1947,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-14",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-06-16"
       ]
     }
   }

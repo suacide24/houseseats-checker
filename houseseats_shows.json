@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-15T16:18:17 PT",
-  "last_successful_run": "2026-06-15T16:18:17 PT",
+  "last_updated": "2026-06-15T19:09:04 PT",
+  "last_successful_run": "2026-06-15T19:09:04 PT",
   "count": 6,
   "shows": [
     {
@@ -50,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9328",
       "date": "June 19th",
       "image": "https://lv.houseseats.com/resources/media/9328.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
