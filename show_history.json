@@ -270,7 +270,8 @@
         "2026-06-10",
         "2026-06-11",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -1938,6 +1939,13 @@
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
+        "2026-06-17"
+      ]
+    },
+    "HouseSeats|jordan davis summer '26": {
+      "name": "Jordan Davis Summer '26",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-06-17"
       ]
     }

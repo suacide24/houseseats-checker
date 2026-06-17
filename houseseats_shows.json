@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-17T12:06:15 PT",
-  "last_successful_run": "2026-06-17T12:06:15 PT",
-  "count": 7,
+  "last_updated": "2026-06-17T14:29:08 PT",
+  "last_successful_run": "2026-06-17T14:29:08 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -38,10 +38,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
       "date": "June 18th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -54,11 +54,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 19th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Amor Prohibido - Tribute to Selena",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9328",
       "date": "June 19th",
       "image": "https://lv.houseseats.com/resources/media/9328.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jordan Davis Summer '26",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9360",
+      "date": "June 19th",
+      "image": "https://lv.houseseats.com/resources/media/9360.jpg",
+      "rare": true
     }
   ]
 }
