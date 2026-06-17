@@ -51,7 +51,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-18",
         "2026-03-26",
         "2026-03-27",
         "2026-04-02",
@@ -145,7 +144,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-18",
         "2026-03-21",
         "2026-04-02",
         "2026-04-15",
@@ -183,14 +181,14 @@
         "2026-06-07",
         "2026-06-09",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     },
     "HouseSeats|the rant!": {
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-18",
         "2026-03-19",
         "2026-04-15",
         "2026-04-16",
@@ -227,7 +225,6 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-18",
         "2026-03-19"
       ]
     },
@@ -472,18 +469,10 @@
         "2026-06-10"
       ]
     },
-    "HouseSeats|marissa nadler w/ gracie and rachel": {
-      "name": "MARISSA NADLER w/ Gracie And Rachel",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-18"
-      ]
-    },
     "HouseSeats|dcom: live! (a night of disney channel hits!)": {
       "name": "DCOM: Live! (A Night of Disney Channel Hits!)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-18",
         "2026-03-19",
         "2026-03-20",
         "2026-03-21"
@@ -493,7 +482,6 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-18",
         "2026-03-19",
         "2026-03-20",
         "2026-03-21",
@@ -502,13 +490,6 @@
         "2026-04-03",
         "2026-04-04",
         "2026-04-06"
-      ]
-    },
-    "HouseSeats|rocklesque: britney": {
-      "name": "ROCKLESQUE: BRITNEY",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-18"
       ]
     },
     "HouseSeats|bad suns: acceleratour usa 2026": {
@@ -625,7 +606,8 @@
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1077,7 +1059,8 @@
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1359,7 +1342,8 @@
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     },
     "HouseSeats|yachtzilla - monsters of soft rock": {
@@ -1877,7 +1861,8 @@
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1950,7 +1935,8 @@
       "appearances": [
         "2026-06-14",
         "2026-06-15",
-        "2026-06-16"
+        "2026-06-16",
+        "2026-06-17"
       ]
     }
   }
