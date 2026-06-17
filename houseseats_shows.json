@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-17T14:29:08 PT",
-  "last_successful_run": "2026-06-17T14:29:08 PT",
-  "count": 9,
+  "last_updated": "2026-06-17T16:03:39 PT",
+  "last_successful_run": "2026-06-17T16:03:39 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9263",
       "date": "June 17th",
       "image": "https://lv.houseseats.com/resources/media/9263.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "June 17th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -35,14 +27,6 @@
       "date": "June 17th",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "June 18th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
