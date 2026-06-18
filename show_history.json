@@ -191,7 +191,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-19",
         "2026-04-15",
         "2026-04-16",
         "2026-05-18",
@@ -221,13 +220,6 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-03-20"
-      ]
-    },
-    "HouseSeats|dumb human tricks": {
-      "name": "Dumb Human Tricks",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-19"
       ]
     },
     "HouseSeats|tease: a burlesque revue": {
@@ -334,7 +326,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-19",
         "2026-03-20",
         "2026-03-21",
         "2026-03-28",
@@ -443,7 +434,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-19",
         "2026-03-20",
         "2026-03-21",
         "2026-03-22",
@@ -476,7 +466,6 @@
       "name": "DCOM: Live! (A Night of Disney Channel Hits!)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-19",
         "2026-03-20",
         "2026-03-21"
       ]
@@ -485,7 +474,6 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-19",
         "2026-03-20",
         "2026-03-21",
         "2026-03-22",
@@ -610,7 +598,8 @@
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
-        "2026-06-17"
+        "2026-06-17",
+        "2026-06-18"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1063,7 +1052,8 @@
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
-        "2026-06-17"
+        "2026-06-17",
+        "2026-06-18"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1939,7 +1929,8 @@
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
-        "2026-06-17"
+        "2026-06-17",
+        "2026-06-18"
       ]
     },
     "HouseSeats|jordan davis summer '26": {
