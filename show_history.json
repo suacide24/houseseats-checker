@@ -4,7 +4,6 @@
       "name": "Haunted Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-26"
       ]
     },
@@ -12,7 +11,6 @@
       "name": "David Goldrake At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-26"
       ]
     },
@@ -27,7 +25,6 @@
       "name": "ComedySportz Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-26"
       ]
     },
@@ -35,7 +32,6 @@
       "name": "Foul Play",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-26"
       ]
     },
@@ -43,7 +39,6 @@
       "name": "Marc Savard Comedy Hypnosis",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-26"
       ]
     },
@@ -114,13 +109,6 @@
         "2026-06-16",
         "2026-06-17",
         "2026-06-18"
-      ]
-    },
-    "HouseSeats|improv is blind": {
-      "name": "Improv is Blind",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-20"
       ]
     },
     "HouseSeats|farrell dillon at the magicians room": {
@@ -216,13 +204,6 @@
         "2026-06-04"
       ]
     },
-    "HouseSeats|knockout!": {
-      "name": "Knockout!",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-20"
-      ]
-    },
     "HouseSeats|tease: a burlesque revue": {
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
@@ -248,7 +229,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-21",
         "2026-05-04",
         "2026-05-21",
@@ -327,7 +307,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-21",
         "2026-03-28",
         "2026-04-03",
@@ -409,7 +388,6 @@
       "name": "Shark After Dark - A Rooftop Comedy Experience",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-26"
       ]
     },
@@ -435,7 +413,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-21",
         "2026-03-22",
         "2026-03-24",
@@ -467,7 +444,6 @@
       "name": "DCOM: Live! (A Night of Disney Channel Hits!)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-21"
       ]
     },
@@ -475,7 +451,6 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-21",
         "2026-03-22",
         "2026-04-01",
@@ -488,7 +463,6 @@
       "name": "Bad Suns: ACCELERATOUR USA 2026",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-20",
         "2026-03-21",
         "2026-03-22",
         "2026-03-23",
@@ -600,7 +574,8 @@
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
-        "2026-06-18"
+        "2026-06-18",
+        "2026-06-19"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1054,7 +1029,8 @@
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
-        "2026-06-18"
+        "2026-06-18",
+        "2026-06-19"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1931,7 +1907,8 @@
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
-        "2026-06-18"
+        "2026-06-18",
+        "2026-06-19"
       ]
     },
     "HouseSeats|jordan davis summer '26": {
