@@ -761,7 +761,8 @@
       "appearances": [
         "2026-04-03",
         "2026-04-04",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-06-19"
       ]
     },
     "HouseSeats|college basketball crown at t-mobile arena": {
@@ -1917,6 +1918,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-17"
+      ]
+    },
+    "HouseSeats|the proud queer improv festival: fur & thundur and water street improv": {
+      "name": "The Proud Queer Improv Festival: Fur & Thundur and Water Street Improv",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-19"
+      ]
+    },
+    "HouseSeats|tease after dark: burlesque revue": {
+      "name": "Tease After Dark: Burlesque Revue",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-19"
       ]
     }
   }

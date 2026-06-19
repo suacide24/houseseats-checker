@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-19T11:02:09 PT",
-  "last_successful_run": "2026-06-19T11:02:09 PT",
-  "count": 3,
+  "last_updated": "2026-06-19T13:15:56 PT",
+  "last_successful_run": "2026-06-19T13:15:56 PT",
+  "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Game of Groans: Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
+      "date": "June 19th",
+      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -22,11 +30,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Proud Queer Improv Festival: Fur & Thundur and Water Street Improv",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9308",
+      "date": "June 21st",
+      "image": "https://lv.houseseats.com/resources/media/9308.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "June 21st",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tease After Dark: Burlesque Revue",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
+      "date": "June 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9362.jpg",
+      "rare": true
     }
   ]
 }
