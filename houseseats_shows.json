@@ -1,14 +1,22 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-20T09:23:13 PT",
-  "last_successful_run": "2026-06-20T09:23:13 PT",
-  "count": 4,
+  "last_updated": "2026-06-20T10:54:56 PT",
+  "last_successful_run": "2026-06-20T10:54:56 PT",
+  "count": 5,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 20th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 20th",
+      "date": "June 21st",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
