@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-19T16:02:03 PT",
-  "last_successful_run": "2026-06-19T16:02:03 PT",
+  "last_updated": "2026-06-19T18:35:53 PT",
+  "last_successful_run": "2026-06-19T18:35:53 PT",
   "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Game of Groans: Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
-      "date": "June 19th",
-      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -27,6 +19,14 @@
       "date": "June 20th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Pablo Cruise & Pure Prairie League",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9363",
+      "date": "June 20th",
+      "image": "https://lv.houseseats.com/resources/media/9363.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
