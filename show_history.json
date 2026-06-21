@@ -117,7 +117,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-23",
         "2026-03-24",
         "2026-03-25",
@@ -217,7 +216,6 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-23",
         "2026-03-24",
         "2026-03-25",
@@ -412,7 +410,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-24",
         "2026-03-25",
         "2026-03-26",
@@ -442,7 +439,6 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-04-01",
         "2026-04-03",
         "2026-04-04",
@@ -453,7 +449,6 @@
       "name": "Bad Suns: ACCELERATOUR USA 2026",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-23",
         "2026-03-24"
       ]
@@ -462,7 +457,6 @@
       "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-23",
         "2026-03-24",
         "2026-03-25",
@@ -475,7 +469,6 @@
       "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-23",
         "2026-03-24",
         "2026-03-25",
@@ -487,7 +480,6 @@
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-22",
         "2026-03-23",
         "2026-03-24",
         "2026-03-25",
@@ -563,7 +555,8 @@
         "2026-06-17",
         "2026-06-18",
         "2026-06-19",
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-21"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
@@ -1020,7 +1013,8 @@
         "2026-06-17",
         "2026-06-18",
         "2026-06-19",
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-21"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1823,7 +1817,8 @@
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-21"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1914,7 +1909,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-19",
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-21"
       ]
     },
     "HouseSeats|tease after dark: burlesque revue": {
@@ -1922,7 +1918,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-19",
-        "2026-06-20"
+        "2026-06-20",
+        "2026-06-21"
       ]
     },
     "HouseSeats|pablo cruise & pure prairie league": {
