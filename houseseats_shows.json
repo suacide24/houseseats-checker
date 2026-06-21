@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-20T17:12:55 PT",
-  "last_successful_run": "2026-06-20T17:12:55 PT",
+  "last_updated": "2026-06-20T22:26:04 PT",
+  "last_successful_run": "2026-06-20T22:26:04 PT",
   "count": 5,
   "shows": [
     {
@@ -22,14 +22,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 21st",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Tease After Dark: Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
       "date": "June 23rd",
@@ -42,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "June 24th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "June 24th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     }
   ]
