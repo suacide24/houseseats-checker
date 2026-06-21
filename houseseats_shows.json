@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-21T11:06:28 PT",
-  "last_successful_run": "2026-06-21T11:06:28 PT",
+  "last_updated": "2026-06-21T13:12:47 PT",
+  "last_successful_run": "2026-06-21T13:12:47 PT",
   "count": 5,
   "shows": [
     {
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "June 22nd",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "June 22nd",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -43,6 +35,14 @@
       "date": "June 24th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "TOBY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9295",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9295.jpg",
+      "rare": true
     }
   ]
 }
