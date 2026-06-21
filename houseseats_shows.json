@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-21T09:16:02 PT",
-  "last_successful_run": "2026-06-21T09:16:02 PT",
+  "last_updated": "2026-06-21T11:06:28 PT",
+  "last_successful_run": "2026-06-21T11:06:28 PT",
   "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 21st",
+      "date": "June 22nd",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "The Proud Queer Improv Festival: Fur & Thundur and Water Street Improv",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9308",
-      "date": "June 21st",
-      "image": "https://lv.houseseats.com/resources/media/9308.jpg",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 22nd",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
