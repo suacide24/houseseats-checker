@@ -1,14 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-22T07:44:42 PT",
-  "last_successful_run": "2026-06-22T07:44:42 PT",
+  "last_updated": "2026-06-22T11:49:27 PT",
+  "last_successful_run": "2026-06-22T11:49:27 PT",
   "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 22nd",
+      "date": "June 23rd",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
