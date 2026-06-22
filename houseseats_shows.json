@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-21T16:21:09 PT",
-  "last_successful_run": "2026-06-21T16:21:09 PT",
-  "count": 5,
+  "last_updated": "2026-06-21T19:03:09 PT",
+  "last_successful_run": "2026-06-21T19:03:09 PT",
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,14 +35,6 @@
       "date": "June 24th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "TOBY",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9295",
-      "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/9295.jpg",
-      "rare": true
     }
   ]
 }
