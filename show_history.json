@@ -241,7 +241,8 @@
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
-        "2026-06-21"
+        "2026-06-21",
+        "2026-06-22"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -1930,6 +1931,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-21"
+      ]
+    },
+    "HouseSeats|garage rock tribute night": {
+      "name": "Garage Rock Tribute Night",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-22"
       ]
     }
   }

@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-22T11:49:27 PT",
-  "last_successful_run": "2026-06-22T11:49:27 PT",
-  "count": 3,
+  "last_updated": "2026-06-22T14:32:38 PT",
+  "last_successful_run": "2026-06-22T14:32:38 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "June 23rd",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 23rd",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -27,6 +35,14 @@
       "date": "June 24th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Garage Rock Tribute Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9359",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9359.jpg",
+      "rare": true
     }
   ]
 }
