@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-23T13:33:52 PT",
-  "last_successful_run": "2026-06-23T13:33:52 PT",
-  "count": 10,
+  "last_updated": "2026-06-23T15:17:40 PT",
+  "last_successful_run": "2026-06-23T15:17:40 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tease After Dark: Burlesque Revue",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
-      "date": "June 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9362.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -50,14 +42,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
       "date": "June 26th",
       "image": "https://lv.houseseats.com/resources/media/9322.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": true
     },
     {
