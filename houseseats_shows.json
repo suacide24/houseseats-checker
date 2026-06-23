@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-22T18:31:33 PT",
-  "last_successful_run": "2026-06-22T18:31:33 PT",
+  "last_updated": "2026-06-22T23:12:14 PT",
+  "last_successful_run": "2026-06-22T23:12:14 PT",
   "count": 4,
   "shows": [
     {
@@ -24,7 +24,7 @@
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 24th",
+      "date": "June 25th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
