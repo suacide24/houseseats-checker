@@ -1,23 +1,31 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-23T09:09:35 PT",
-  "last_successful_run": "2026-06-23T09:09:35 PT",
-  "count": 5,
+  "last_updated": "2026-06-23T11:21:31 PT",
+  "last_successful_run": "2026-06-23T11:21:31 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tease After Dark: Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
       "date": "June 23rd",
       "image": "https://lv.houseseats.com/resources/media/9362.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 23rd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 24th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
@@ -35,6 +43,14 @@
       "date": "June 25th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
+      "date": "June 26th",
+      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
