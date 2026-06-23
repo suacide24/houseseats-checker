@@ -1925,6 +1925,27 @@
         "2026-06-22",
         "2026-06-23"
       ]
+    },
+    "HouseSeats|america - the show": {
+      "name": "America - The Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-23"
+      ]
+    },
+    "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
+      "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-23"
+      ]
+    },
+    "HouseSeats|veterans comedy event": {
+      "name": "Veterans Comedy Event",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-23"
+      ]
     }
   }
 }

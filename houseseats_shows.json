@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-23T11:21:31 PT",
-  "last_successful_run": "2026-06-23T11:21:31 PT",
-  "count": 7,
+  "last_updated": "2026-06-23T13:33:52 PT",
+  "last_successful_run": "2026-06-23T13:33:52 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -54,10 +54,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Garage Rock Tribute Night",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9359",
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/9359.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Veterans Comedy Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9365",
+      "date": "June 28th",
+      "image": "https://lv.houseseats.com/resources/media/9365.jpg",
       "rare": true
     }
   ]
