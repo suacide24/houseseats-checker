@@ -111,7 +111,8 @@
         "2026-06-18",
         "2026-06-19",
         "2026-06-20",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|farrell dillon at the magicians room": {
@@ -771,7 +772,8 @@
         "2026-06-09",
         "2026-06-10",
         "2026-06-12",
-        "2026-06-13"
+        "2026-06-13",
+        "2026-06-24"
       ]
     },
     "HouseSeats|over budget: no ring - no rules wrestling": {
@@ -1936,6 +1938,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-23",
+        "2026-06-24"
+      ]
+    },
+    "HouseSeats|tiki frenzy": {
+      "name": "Tiki Frenzy",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-06-24"
       ]
     }

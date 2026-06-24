@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-24T09:24:44 PT",
-  "last_successful_run": "2026-06-24T09:24:44 PT",
-  "count": 7,
+  "last_updated": "2026-06-24T11:17:43 PT",
+  "last_successful_run": "2026-06-24T11:17:43 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 24th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "June 24th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 24th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -35,6 +35,14 @@
       "date": "June 26th",
       "image": "https://lv.houseseats.com/resources/media/9322.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -58,6 +66,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9365",
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9365.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tiki Frenzy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9367",
+      "date": "June 28th",
+      "image": "https://lv.houseseats.com/resources/media/9367.jpg",
       "rare": true
     }
   ]
