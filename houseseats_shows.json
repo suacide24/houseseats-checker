@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-23T16:36:02 PT",
-  "last_successful_run": "2026-06-23T16:36:02 PT",
-  "count": 8,
+  "last_updated": "2026-06-23T21:00:41 PT",
+  "last_successful_run": "2026-06-23T21:00:41 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
@@ -32,7 +24,7 @@
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 25th",
+      "date": "June 26th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
@@ -58,7 +50,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9359",
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/9359.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

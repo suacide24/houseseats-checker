@@ -118,7 +118,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27"
       ]
@@ -215,7 +214,6 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-04-18",
         "2026-04-19"
@@ -248,7 +246,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-04-20",
@@ -281,7 +278,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-03-28",
@@ -408,7 +404,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-03-28",
@@ -446,7 +441,6 @@
       "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-03-28"
@@ -456,7 +450,6 @@
       "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27"
       ]
@@ -465,7 +458,6 @@
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-04-04"
@@ -475,7 +467,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-28",
         "2026-03-30",
@@ -539,14 +530,14 @@
         "2026-06-20",
         "2026-06-21",
         "2026-06-22",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
       "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-03-28"
@@ -556,7 +547,6 @@
       "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-03-28",
@@ -567,7 +557,6 @@
       "name": "Hillbilly Casino and The Crotches",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26"
       ]
     },
@@ -575,7 +564,6 @@
       "name": "Vegas' Dumbest Show, Dumbest Hits",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27"
       ]
@@ -584,7 +572,6 @@
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26",
         "2026-03-27",
         "2026-03-28",
@@ -600,7 +587,6 @@
       "name": "Kings of Las Vegas Screening and Panel Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-25",
         "2026-03-26"
       ]
     },
@@ -992,7 +978,8 @@
         "2026-06-20",
         "2026-06-21",
         "2026-06-22",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1472,7 +1459,8 @@
       "appearances": [
         "2026-05-15",
         "2026-05-16",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|john waite & john cafferty": {
@@ -1799,7 +1787,8 @@
         "2026-06-20",
         "2026-06-21",
         "2026-06-22",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1923,7 +1912,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-22",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|america - the show": {
@@ -1937,14 +1927,16 @@
       "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     },
     "HouseSeats|veterans comedy event": {
       "name": "Veterans Comedy Event",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23"
+        "2026-06-23",
+        "2026-06-24"
       ]
     }
   }
