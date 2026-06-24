@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-24T11:17:43 PT",
-  "last_successful_run": "2026-06-24T11:17:43 PT",
+  "last_updated": "2026-06-24T13:18:01 PT",
+  "last_successful_run": "2026-06-24T13:18:01 PT",
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
-      "date": "June 24th",
-      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -59,6 +51,14 @@
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/9359.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "June 28th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
