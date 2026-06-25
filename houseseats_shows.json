@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-25T08:24:36 PT",
-  "last_successful_run": "2026-06-25T08:24:36 PT",
+  "last_updated": "2026-06-25T10:30:54 PT",
+  "last_successful_run": "2026-06-25T10:30:54 PT",
   "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "A$AP Rocky at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9369",
-      "date": "June 26th",
-      "image": "https://lv.houseseats.com/resources/media/9369.jpg",
-      "rare": true
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 25th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
