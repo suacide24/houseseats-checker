@@ -1,47 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-24T16:08:42 PT",
-  "last_successful_run": "2026-06-24T16:08:42 PT",
-  "count": 9,
+  "last_updated": "2026-06-24T18:32:01 PT",
+  "last_successful_run": "2026-06-24T18:32:01 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 24th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "June 25th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "name": "A$AP Rocky at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9369",
+      "date": "June 26th",
+      "image": "https://lv.houseseats.com/resources/media/9369.jpg",
       "rare": true
     },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 26th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
-      "date": "June 26th",
-      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vegas Knight Hawks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
       "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
@@ -50,7 +26,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -62,11 +38,19 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Love & Theft",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9368",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9368.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Veterans Comedy Event",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9365",
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9365.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

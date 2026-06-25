@@ -1,52 +1,9 @@
 {
   "shows": {
-    "HouseSeats|haunted brunch": {
-      "name": "Haunted Brunch",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|david goldrake at the magicians room": {
-      "name": "David Goldrake At The Magicians Room",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|improv ol\u00e9": {
-      "name": "Improv Ol\u00e9",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|comedysportz las vegas": {
-      "name": "ComedySportz Las Vegas",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|foul play": {
-      "name": "Foul Play",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|marc savard comedy hypnosis": {
-      "name": "Marc Savard Comedy Hypnosis",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
     "HouseSeats|wow - the vegas spectacular": {
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-04-02",
         "2026-04-07",
@@ -119,15 +76,7 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27"
-      ]
-    },
-    "HouseSeats|frank marino\u2019s divas, drag & drinks": {
-      "name": "Frank Marino\u2019s Divas, Drag & Drinks",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
       ]
     },
     "HouseSeats|x country": {
@@ -143,13 +92,6 @@
         "2026-05-07",
         "2026-05-08",
         "2026-06-17"
-      ]
-    },
-    "HouseSeats|the jets 80's & 90's experience!": {
-      "name": "THE JETS 80's & 90's Experience!",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -215,7 +157,6 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-04-18",
         "2026-04-19"
       ]
@@ -247,7 +188,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-04-20",
         "2026-04-21",
@@ -279,7 +219,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28",
         "2026-04-21",
@@ -369,20 +308,6 @@
         "2026-06-22"
       ]
     },
-    "HouseSeats|the heist \u2013 a musical takeover at the balkan": {
-      "name": "The Heist \u2013 A Musical Takeover at The Balkan",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|shark after dark - a rooftop comedy experience": {
-      "name": "Shark After Dark - A Rooftop Comedy Experience",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
     "HouseSeats|secrets secrets": {
       "name": "Secrets Secrets",
       "source": "HouseSeats",
@@ -394,18 +319,10 @@
         "2026-04-10"
       ]
     },
-    "HouseSeats|franky perez and the all nighters": {
-      "name": "Franky Perez and the All Nighters",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
     "HouseSeats|ivan kane's forty deuce burlesque show": {
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28",
         "2026-03-29",
@@ -443,7 +360,6 @@
       "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28"
       ]
@@ -452,7 +368,6 @@
       "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27"
       ]
     },
@@ -460,7 +375,6 @@
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-04-04"
       ]
@@ -469,7 +383,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-28",
         "2026-03-30",
         "2026-03-31",
@@ -533,14 +446,14 @@
         "2026-06-21",
         "2026-06-22",
         "2026-06-23",
-        "2026-06-24"
+        "2026-06-24",
+        "2026-06-25"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
       "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28"
       ]
@@ -549,24 +462,15 @@
       "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28",
         "2026-04-04"
-      ]
-    },
-    "HouseSeats|hillbilly casino and the crotches": {
-      "name": "Hillbilly Casino and The Crotches",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
       ]
     },
     "HouseSeats|vegas' dumbest show, dumbest hits": {
       "name": "Vegas' Dumbest Show, Dumbest Hits",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27"
       ]
     },
@@ -574,7 +478,6 @@
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28",
         "2026-03-29",
@@ -585,63 +488,19 @@
         "2026-05-23"
       ]
     },
-    "HouseSeats|kings of las vegas screening and panel q&a": {
-      "name": "Kings of Las Vegas Screening and Panel Q&A",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|battlebots destruct-a-thon": {
-      "name": "BattleBots Destruct-A-Thon",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|pasquale grasso trio at the smith center": {
-      "name": "Pasquale Grasso Trio at The Smith Center",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|shuler king": {
-      "name": "Shuler King",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
     "HouseSeats|major league indoor soccer finals": {
       "name": "Major League Indoor Soccer Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27",
         "2026-03-28",
         "2026-03-29"
-      ]
-    },
-    "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
-      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
-      ]
-    },
-    "HouseSeats|fundora vs thurman at mgm grand": {
-      "name": "Fundora vs Thurman at MGM Grand",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-26"
       ]
     },
     "HouseSeats|mimi gibson\u2019s golden age hollywood show": {
       "name": "Mimi Gibson\u2019s Golden Age Hollywood Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-26",
         "2026-03-27"
       ]
     },
@@ -1916,7 +1775,8 @@
       "appearances": [
         "2026-06-22",
         "2026-06-23",
-        "2026-06-24"
+        "2026-06-24",
+        "2026-06-25"
       ]
     },
     "HouseSeats|america - the show": {
@@ -1932,7 +1792,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-23",
-        "2026-06-24"
+        "2026-06-24",
+        "2026-06-25"
       ]
     },
     "HouseSeats|veterans comedy event": {
@@ -1940,14 +1801,30 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-23",
-        "2026-06-24"
+        "2026-06-24",
+        "2026-06-25"
       ]
     },
     "HouseSeats|tiki frenzy": {
       "name": "Tiki Frenzy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-24"
+        "2026-06-24",
+        "2026-06-25"
+      ]
+    },
+    "HouseSeats|a$ap rocky at mgm grand": {
+      "name": "A$AP Rocky at MGM Grand",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-25"
+      ]
+    },
+    "HouseSeats|love & theft": {
+      "name": "Love & Theft",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-25"
       ]
     }
   }
