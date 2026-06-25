@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-25T13:06:56 PT",
-  "last_successful_run": "2026-06-25T13:06:56 PT",
-  "count": 9,
+  "last_updated": "2026-06-25T15:04:52 PT",
+  "last_successful_run": "2026-06-25T15:04:52 PT",
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "June 25th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -19,6 +11,30 @@
       "date": "June 25th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "June 25th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "June 25th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "A$AP Rocky at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9369",
+      "date": "June 26th",
+      "image": "https://lv.houseseats.com/resources/media/9369.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -75,6 +91,14 @@
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9367.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
+      "date": "July 1st",
+      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
     }
   ]
 }
