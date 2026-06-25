@@ -1,15 +1,31 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-25T10:30:54 PT",
-  "last_successful_run": "2026-06-25T10:30:54 PT",
-  "count": 7,
+  "last_updated": "2026-06-25T13:06:56 PT",
+  "last_successful_run": "2026-06-25T13:06:56 PT",
+  "count": 9,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "June 25th",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "June 25th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
