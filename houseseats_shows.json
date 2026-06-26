@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-26T09:20:08 PT",
-  "last_successful_run": "2026-06-26T09:20:08 PT",
+  "last_updated": "2026-06-26T11:10:02 PT",
+  "last_successful_run": "2026-06-26T11:10:02 PT",
   "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "A$AP Rocky at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9369",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "June 26th",
-      "image": "https://lv.houseseats.com/resources/media/9369.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -46,6 +46,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Firelight Barn - Spotlight Preview Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Garage Rock Tribute Night",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9359",
       "date": "June 27th",
@@ -59,14 +67,6 @@
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/9368.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Veterans Comedy Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9365",
-      "date": "June 28th",
-      "image": "https://lv.houseseats.com/resources/media/9365.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
