@@ -1,33 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-25T16:53:18 PT",
-  "last_successful_run": "2026-06-25T16:53:18 PT",
-  "count": 12,
+  "last_updated": "2026-06-25T21:08:13 PT",
+  "last_successful_run": "2026-06-25T21:08:13 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 25th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "June 25th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "June 25th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "A$AP Rocky at MGM Grand",
@@ -35,6 +11,14 @@
       "date": "June 26th",
       "image": "https://lv.houseseats.com/resources/media/9369.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "June 26th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -90,7 +74,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9367",
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9367.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-04-02",
         "2026-04-07",
         "2026-04-17",
@@ -73,13 +72,6 @@
         "2026-06-25"
       ]
     },
-    "HouseSeats|farrell dillon at the magicians room": {
-      "name": "Farrell Dillon At The Magicians Room",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-27"
-      ]
-    },
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
@@ -93,7 +85,8 @@
         "2026-05-07",
         "2026-05-08",
         "2026-06-17",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -190,7 +183,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
@@ -221,7 +213,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28",
         "2026-04-21",
         "2026-04-22",
@@ -326,7 +317,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28",
         "2026-03-29",
         "2026-03-30",
@@ -364,22 +354,13 @@
       "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28"
-      ]
-    },
-    "HouseSeats|above the belt - gold rush - showcase finale": {
-      "name": "ABOVE THE BELT - GOLD RUSH - Showcase Finale",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-27"
       ]
     },
     "HouseSeats|thom kaz\u2019s hypnaughty live at primm valley resorts (primm)": {
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-04-04"
       ]
     },
@@ -451,14 +432,14 @@
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
       "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28"
       ]
     },
@@ -466,23 +447,14 @@
       "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28",
         "2026-04-04"
-      ]
-    },
-    "HouseSeats|vegas' dumbest show, dumbest hits": {
-      "name": "Vegas' Dumbest Show, Dumbest Hits",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-27"
       ]
     },
     "HouseSeats|punk rock brunch": {
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28",
         "2026-03-29",
         "2026-04-01",
@@ -496,23 +468,14 @@
       "name": "Major League Indoor Soccer Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28",
         "2026-03-29"
-      ]
-    },
-    "HouseSeats|mimi gibson\u2019s golden age hollywood show": {
-      "name": "Mimi Gibson\u2019s Golden Age Hollywood Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-27"
       ]
     },
     "HouseSeats|cluex": {
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28",
         "2026-03-30",
         "2026-03-31",
@@ -529,7 +492,6 @@
       "name": "Feminine Rage: A Hysteria Inducing Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-27",
         "2026-03-28"
       ]
     },
@@ -846,7 +808,8 @@
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1656,7 +1619,8 @@
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1782,7 +1746,8 @@
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|america - the show": {
@@ -1799,7 +1764,8 @@
       "appearances": [
         "2026-06-23",
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|veterans comedy event": {
@@ -1808,7 +1774,8 @@
       "appearances": [
         "2026-06-23",
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|tiki frenzy": {
@@ -1816,21 +1783,24 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-24",
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|a$ap rocky at mgm grand": {
       "name": "A$AP Rocky at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     },
     "HouseSeats|love & theft": {
       "name": "Love & Theft",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25"
+        "2026-06-25",
+        "2026-06-26"
       ]
     }
   }
