@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-27T10:16:17 PT",
-  "last_successful_run": "2026-06-27T10:16:17 PT",
+  "last_updated": "2026-06-27T11:45:26 PT",
+  "last_successful_run": "2026-06-27T11:45:26 PT",
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
-      "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Firelight Barn - Spotlight Preview Variety Show",
@@ -34,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9368",
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/9368.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 27th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
