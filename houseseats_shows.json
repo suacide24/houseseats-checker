@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-27T05:13:58 PT",
-  "last_successful_run": "2026-06-27T05:13:58 PT",
-  "count": 9,
+  "last_updated": "2026-06-27T07:13:44 PT",
+  "last_successful_run": "2026-06-27T07:13:44 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Golden Girls",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9370",
-      "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/9370.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
