@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-27T11:45:26 PT",
-  "last_successful_run": "2026-06-27T11:45:26 PT",
+  "last_updated": "2026-06-27T13:10:47 PT",
+  "last_successful_run": "2026-06-27T13:10:47 PT",
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Firelight Barn - Spotlight Preview Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
-      "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Garage Rock Tribute Night",
@@ -46,18 +38,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "June 28th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Tiki Frenzy",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9367",
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9367.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 28th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -74,6 +66,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "July 1st",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "July 1st",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     }
   ]
