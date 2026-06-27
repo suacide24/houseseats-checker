@@ -70,7 +70,8 @@
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|x country": {
@@ -87,7 +88,8 @@
         "2026-05-08",
         "2026-06-17",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -214,7 +216,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
@@ -231,7 +232,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-04-03",
         "2026-04-06",
         "2026-04-15",
@@ -287,7 +287,6 @@
       "name": "Jazz Vegas Orchestra Live",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-03-29",
         "2026-05-03",
         "2026-05-04"
@@ -318,7 +317,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-03-29",
         "2026-03-30",
         "2026-03-31",
@@ -351,13 +349,6 @@
         "2026-04-06"
       ]
     },
-    "HouseSeats|the space presents: battle of the bands": {
-      "name": "THE SPACE PRESENTS: BATTLE OF THE BANDS",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-28"
-      ]
-    },
     "HouseSeats|thom kaz\u2019s hypnaughty live at primm valley resorts (primm)": {
       "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
@@ -369,7 +360,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-03-30",
         "2026-03-31",
         "2026-04-01",
@@ -434,21 +424,14 @@
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
-      ]
-    },
-    "HouseSeats|guerilla\u00a0radio - a tribute to rage against the machine": {
-      "name": "Guerilla\u00a0Radio - A Tribute to Rage Against the Machine",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-28"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|sexxy the show at primm valley resorts (primm)": {
       "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-04-04"
       ]
     },
@@ -456,7 +439,6 @@
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-03-29",
         "2026-04-01",
         "2026-04-03",
@@ -469,7 +451,6 @@
       "name": "Major League Indoor Soccer Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-03-29"
       ]
     },
@@ -477,7 +458,6 @@
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-28",
         "2026-03-30",
         "2026-03-31",
         "2026-04-01",
@@ -487,13 +467,6 @@
         "2026-04-16",
         "2026-04-17",
         "2026-04-18"
-      ]
-    },
-    "HouseSeats|feminine rage: a hysteria inducing variety show": {
-      "name": "Feminine Rage: A Hysteria Inducing Variety Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-28"
       ]
     },
     "HouseSeats|cumbiatron \u2013 the cumbia rave": {
@@ -511,7 +484,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-01",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|hit usa radio": {
@@ -811,7 +785,8 @@
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1622,7 +1597,8 @@
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1749,7 +1725,8 @@
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|america - the show": {
@@ -1767,7 +1744,8 @@
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|veterans comedy event": {
@@ -1786,7 +1764,8 @@
       "appearances": [
         "2026-06-24",
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
       ]
     },
     "HouseSeats|a$ap rocky at mgm grand": {
@@ -1802,7 +1781,15 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-25",
-        "2026-06-26"
+        "2026-06-26",
+        "2026-06-27"
+      ]
+    },
+    "HouseSeats|golden girls": {
+      "name": "Golden Girls",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-27"
       ]
     }
   }
