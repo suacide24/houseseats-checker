@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-26T18:28:27 PT",
-  "last_successful_run": "2026-06-26T18:28:27 PT",
-  "count": 11,
+  "last_updated": "2026-06-26T22:32:23 PT",
+  "last_successful_run": "2026-06-26T22:32:23 PT",
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "June 26th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 27th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Golden Girls",
@@ -66,6 +50,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
       "date": "June 27th",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 28th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
