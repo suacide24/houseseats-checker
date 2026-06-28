@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-28T14:07:24 PT",
-  "last_successful_run": "2026-06-28T14:07:24 PT",
+  "last_updated": "2026-06-28T15:35:11 PT",
+  "last_successful_run": "2026-06-28T15:35:11 PT",
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tiki Frenzy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9367",
-      "date": "June 28th",
-      "image": "https://lv.houseseats.com/resources/media/9367.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "June 29th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "June 29th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
