@@ -71,7 +71,8 @@
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
-        "2026-06-27"
+        "2026-06-27",
+        "2026-06-28"
       ]
     },
     "HouseSeats|x country": {
@@ -289,7 +290,6 @@
       "name": "Jazz Vegas Orchestra Live",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-29",
         "2026-05-03",
         "2026-05-04"
       ]
@@ -319,7 +319,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-29",
         "2026-03-30",
         "2026-03-31",
         "2026-04-01",
@@ -427,7 +426,8 @@
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
-        "2026-06-27"
+        "2026-06-27",
+        "2026-06-28"
       ]
     },
     "HouseSeats|sexxy the show at primm valley resorts (primm)": {
@@ -441,19 +441,11 @@
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-29",
         "2026-04-01",
         "2026-04-03",
         "2026-04-04",
         "2026-05-22",
         "2026-05-23"
-      ]
-    },
-    "HouseSeats|major league indoor soccer finals": {
-      "name": "Major League Indoor Soccer Finals",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-03-29"
       ]
     },
     "HouseSeats|cluex": {
@@ -475,7 +467,6 @@
       "name": "Cumbiatron \u2013 The Cumbia Rave",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-29",
         "2026-03-30",
         "2026-03-31",
         "2026-04-01"
@@ -788,7 +779,8 @@
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
-        "2026-06-27"
+        "2026-06-27",
+        "2026-06-28"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1600,7 +1592,8 @@
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
-        "2026-06-27"
+        "2026-06-27",
+        "2026-06-28"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1767,7 +1760,8 @@
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
-        "2026-06-27"
+        "2026-06-27",
+        "2026-06-28"
       ]
     },
     "HouseSeats|a$ap rocky at mgm grand": {

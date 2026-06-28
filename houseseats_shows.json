@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-27T16:07:37 PT",
-  "last_successful_run": "2026-06-27T16:07:37 PT",
-  "count": 6,
+  "last_updated": "2026-06-27T18:34:01 PT",
+  "last_successful_run": "2026-06-27T18:34:01 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9367",
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9367.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "June 28th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
