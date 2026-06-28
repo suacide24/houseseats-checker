@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-28T12:54:43 PT",
-  "last_successful_run": "2026-06-28T12:54:43 PT",
-  "count": 4,
+  "last_updated": "2026-06-28T14:07:24 PT",
+  "last_successful_run": "2026-06-28T14:07:24 PT",
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -34,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "July 1st",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "July 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     }
   ]
