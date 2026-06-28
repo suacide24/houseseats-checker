@@ -1,23 +1,31 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-06-28T09:42:59 PT",
-  "last_successful_run": "2026-06-28T09:42:59 PT",
-  "count": 4,
+  "last_updated": "2026-06-28T11:07:33 PT",
+  "last_successful_run": "2026-06-28T11:07:33 PT",
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "June 28th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tiki Frenzy",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9367",
       "date": "June 28th",
       "image": "https://lv.houseseats.com/resources/media/9367.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "June 28th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "June 29th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
