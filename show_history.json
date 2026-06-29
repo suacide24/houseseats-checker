@@ -1730,7 +1730,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-23",
-        "2026-06-24"
+        "2026-06-24",
+        "2026-06-29"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1787,6 +1788,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-27"
+      ]
+    },
+    "HouseSeats|joyas prestadas - the jenni rivera tribute": {
+      "name": "Joyas Prestadas - The Jenni Rivera Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-29"
+      ]
+    },
+    "HouseSeats|the big easy live - boots & bourbon tour": {
+      "name": "The Big Easy Live - Boots & Bourbon Tour",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-06-29"
       ]
     }
   }
