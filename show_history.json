@@ -321,7 +321,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-31",
         "2026-04-01",
         "2026-04-03",
         "2026-04-04"
@@ -362,7 +361,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-31",
         "2026-04-01",
         "2026-04-04",
         "2026-04-05",
@@ -453,7 +451,6 @@
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-31",
         "2026-04-01",
         "2026-04-02",
         "2026-04-03",
@@ -467,7 +464,6 @@
       "name": "Cumbiatron \u2013 The Cumbia Rave",
       "source": "HouseSeats",
       "appearances": [
-        "2026-03-31",
         "2026-04-01"
       ]
     },
@@ -780,7 +776,8 @@
         "2026-06-26",
         "2026-06-27",
         "2026-06-28",
-        "2026-06-29"
+        "2026-06-29",
+        "2026-06-30"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1594,7 +1591,8 @@
         "2026-06-26",
         "2026-06-27",
         "2026-06-28",
-        "2026-06-29"
+        "2026-06-29",
+        "2026-06-30"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1794,14 +1792,16 @@
       "name": "Joyas Prestadas - The Jenni Rivera Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29"
+        "2026-06-29",
+        "2026-06-30"
       ]
     },
     "HouseSeats|the big easy live - boots & bourbon tour": {
       "name": "The Big Easy Live - Boots & Bourbon Tour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29"
+        "2026-06-29",
+        "2026-06-30"
       ]
     }
   }
