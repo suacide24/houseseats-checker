@@ -74,7 +74,8 @@
         "2026-06-27",
         "2026-06-28",
         "2026-06-29",
-        "2026-06-30"
+        "2026-06-30",
+        "2026-07-01"
       ]
     },
     "HouseSeats|x country": {
@@ -322,7 +323,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-01",
         "2026-04-03",
         "2026-04-04"
       ]
@@ -345,7 +345,6 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-01",
         "2026-04-03",
         "2026-04-04",
         "2026-04-06"
@@ -362,7 +361,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-01",
         "2026-04-04",
         "2026-04-05",
         "2026-04-06",
@@ -428,7 +426,8 @@
         "2026-06-27",
         "2026-06-28",
         "2026-06-29",
-        "2026-06-30"
+        "2026-06-30",
+        "2026-07-01"
       ]
     },
     "HouseSeats|sexxy the show at primm valley resorts (primm)": {
@@ -442,7 +441,6 @@
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-01",
         "2026-04-03",
         "2026-04-04",
         "2026-05-22",
@@ -453,7 +451,6 @@
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-01",
         "2026-04-02",
         "2026-04-03",
         "2026-04-15",
@@ -462,18 +459,10 @@
         "2026-04-18"
       ]
     },
-    "HouseSeats|cumbiatron \u2013 the cumbia rave": {
-      "name": "Cumbiatron \u2013 The Cumbia Rave",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-01"
-      ]
-    },
     "HouseSeats|firelight barn - spotlight preview variety show": {
       "name": "Firelight Barn - Spotlight Preview Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-01",
         "2026-06-26",
         "2026-06-27"
       ]
@@ -779,7 +768,8 @@
         "2026-06-27",
         "2026-06-28",
         "2026-06-29",
-        "2026-06-30"
+        "2026-06-30",
+        "2026-07-01"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1594,7 +1584,8 @@
         "2026-06-27",
         "2026-06-28",
         "2026-06-29",
-        "2026-06-30"
+        "2026-06-30",
+        "2026-07-01"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1796,7 +1787,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-29",
-        "2026-06-30"
+        "2026-06-30",
+        "2026-07-01"
       ]
     },
     "HouseSeats|the big easy live - boots & bourbon tour": {
@@ -1804,7 +1796,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-29",
-        "2026-06-30"
+        "2026-06-30",
+        "2026-07-01"
       ]
     }
   }
