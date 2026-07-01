@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-01T12:20:57 PT",
-  "last_successful_run": "2026-07-01T12:20:57 PT",
-  "count": 6,
+  "last_updated": "2026-07-01T14:07:33 PT",
+  "last_successful_run": "2026-07-01T14:07:33 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "July 2nd",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "July 2nd",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
