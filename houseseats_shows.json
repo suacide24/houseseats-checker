@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-02T12:38:15 PT",
-  "last_successful_run": "2026-07-02T12:38:15 PT",
-  "count": 5,
+  "last_updated": "2026-07-02T14:13:14 PT",
+  "last_successful_run": "2026-07-02T14:13:14 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -42,6 +42,30 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9296",
       "date": "July 4th",
       "image": "https://lv.houseseats.com/resources/media/9296.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 6th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 6th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
+      "date": "July 8th",
+      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
       "rare": false
     }
   ]
