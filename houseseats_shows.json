@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-02T17:10:20 PT",
-  "last_successful_run": "2026-07-02T17:10:20 PT",
-  "count": 10,
+  "last_updated": "2026-07-02T21:26:13 PT",
+  "last_successful_run": "2026-07-02T21:26:13 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "July 2nd",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "July 2nd",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
@@ -38,14 +22,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Joyas Prestadas - The Jenni Rivera Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9354",
-      "date": "July 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9354.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 3rd",
@@ -58,6 +34,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9296",
       "date": "July 4th",
       "image": "https://lv.houseseats.com/resources/media/9296.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "July 4th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "July 4th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
