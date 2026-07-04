@@ -23,7 +23,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-04",
         "2026-04-08",
         "2026-04-09",
         "2026-04-10",
@@ -75,7 +74,8 @@
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|x country": {
@@ -93,7 +93,8 @@
         "2026-06-25",
         "2026-06-26",
         "2026-06-27",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -288,7 +289,8 @@
         "2026-06-10",
         "2026-06-11",
         "2026-06-25",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|jazz vegas orchestra live": {
@@ -320,13 +322,6 @@
         "2026-04-10"
       ]
     },
-    "HouseSeats|ivan kane's forty deuce burlesque show": {
-      "name": "Ivan Kane's Forty Deuce Burlesque Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-04"
-      ]
-    },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
@@ -346,22 +341,13 @@
       "name": "Local Noise : Battle of The Bands Semi Finals",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-04",
         "2026-04-06"
-      ]
-    },
-    "HouseSeats|thom kaz\u2019s hypnaughty live at primm valley resorts (primm)": {
-      "name": "Thom Kaz\u2019s Hypnaughty Live at PRIMM VALLEY RESORTS (PRIMM)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-04"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-04",
         "2026-04-05",
         "2026-04-06",
         "2026-04-15",
@@ -432,18 +418,10 @@
         "2026-07-03"
       ]
     },
-    "HouseSeats|sexxy the show at primm valley resorts (primm)": {
-      "name": "Sexxy The Show at PRIMM VALLEY RESORTS (PRIMM)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-04"
-      ]
-    },
     "HouseSeats|punk rock brunch": {
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-04",
         "2026-05-22",
         "2026-05-23"
       ]
@@ -470,7 +448,6 @@
       "name": "HIT USA RADIO",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-04",
         "2026-04-06",
         "2026-04-15",
         "2026-04-16",
@@ -481,16 +458,8 @@
       "name": "Game of Groans: Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-04",
         "2026-05-29",
         "2026-06-19"
-      ]
-    },
-    "HouseSeats|college basketball crown at t-mobile arena": {
-      "name": "College Basketball Crown at T-Mobile Arena",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-04"
       ]
     },
     "HouseSeats|\u00f8g from the g\u00f8 fest": {
@@ -768,7 +737,8 @@
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1586,7 +1556,8 @@
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1802,7 +1773,8 @@
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (henderson)": {
@@ -1810,7 +1782,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-02",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1818,7 +1791,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-02",
-        "2026-07-03"
+        "2026-07-03",
+        "2026-07-04"
       ]
     }
   }
