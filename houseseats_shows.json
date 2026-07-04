@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-04T12:45:25 PT",
-  "last_successful_run": "2026-07-04T12:45:25 PT",
-  "count": 8,
+  "last_updated": "2026-07-04T14:02:45 PT",
+  "last_successful_run": "2026-07-04T14:02:45 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
       "date": "July 4th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "July 4th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
