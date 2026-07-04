@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-04T15:28:54 PT",
-  "last_successful_run": "2026-07-04T15:28:54 PT",
-  "count": 7,
+  "last_updated": "2026-07-04T16:35:52 PT",
+  "last_successful_run": "2026-07-04T16:35:52 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Big Easy Live - Boots & Bourbon Tour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9296",
-      "date": "July 4th",
-      "image": "https://lv.houseseats.com/resources/media/9296.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
