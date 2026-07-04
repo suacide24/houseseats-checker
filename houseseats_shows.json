@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-03T17:09:06 PT",
-  "last_successful_run": "2026-07-03T17:09:06 PT",
-  "count": 8,
+  "last_updated": "2026-07-03T21:20:31 PT",
+  "last_successful_run": "2026-07-03T21:20:31 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 3rd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
@@ -22,10 +14,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Firefall, Atlanta Rhythm Section & Orleans in Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9376",
+      "date": "July 4th",
+      "image": "https://lv.houseseats.com/resources/media/9376.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Big Easy Live - Boots & Bourbon Tour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9296",
       "date": "July 4th",
       "image": "https://lv.houseseats.com/resources/media/9296.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 4th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
