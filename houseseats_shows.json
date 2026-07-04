@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-04T09:32:39 PT",
-  "last_successful_run": "2026-07-04T09:32:39 PT",
+  "last_updated": "2026-07-04T11:04:58 PT",
+  "last_successful_run": "2026-07-04T11:04:58 PT",
   "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "July 4th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Big Easy Live - Boots & Bourbon Tour",
@@ -42,6 +34,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
       "date": "July 4th",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "July 5th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
