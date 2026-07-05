@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-05T14:06:59 PT",
-  "last_successful_run": "2026-07-05T14:06:59 PT",
-  "count": 8,
+  "last_updated": "2026-07-05T15:31:41 PT",
+  "last_successful_run": "2026-07-05T15:31:41 PT",
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -22,9 +22,17 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mondays Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9378",
+      "date": "July 6th",
+      "image": "https://lv.houseseats.com/resources/media/9378.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 6th",
+      "date": "July 7th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
