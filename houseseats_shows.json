@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-05T11:07:01 PT",
-  "last_successful_run": "2026-07-05T11:07:01 PT",
-  "count": 5,
+  "last_updated": "2026-07-05T12:51:52 PT",
+  "last_successful_run": "2026-07-05T12:51:52 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -22,18 +22,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 6th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
       "date": "July 6th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 7th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
@@ -43,6 +43,14 @@
       "date": "July 8th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Players Honors 2026",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9375",
+      "date": "July 10th",
+      "image": "https://lv.houseseats.com/resources/media/9375.jpg",
+      "rare": true
     }
   ]
 }

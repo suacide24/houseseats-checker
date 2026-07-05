@@ -1805,6 +1805,13 @@
       "appearances": [
         "2026-07-04"
       ]
+    },
+    "HouseSeats|players honors 2026": {
+      "name": "Players Honors 2026",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-05"
+      ]
     }
   }
 }
