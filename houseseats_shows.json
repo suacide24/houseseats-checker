@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-06T11:58:22 PT",
-  "last_successful_run": "2026-07-06T11:58:22 PT",
-  "count": 6,
+  "last_updated": "2026-07-06T13:56:08 PT",
+  "last_successful_run": "2026-07-06T13:56:08 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -51,6 +51,14 @@
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9375.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "July 10th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
     }
   ]
 }
