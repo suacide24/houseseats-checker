@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-05T17:11:04 PT",
-  "last_successful_run": "2026-07-05T17:11:04 PT",
-  "count": 9,
+  "last_updated": "2026-07-05T21:52:54 PT",
+  "last_successful_run": "2026-07-05T21:52:54 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 5th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
