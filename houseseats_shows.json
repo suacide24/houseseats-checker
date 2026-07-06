@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-06T09:38:23 PT",
-  "last_successful_run": "2026-07-06T09:38:23 PT",
-  "count": 8,
+  "last_updated": "2026-07-06T11:58:22 PT",
+  "last_successful_run": "2026-07-06T11:58:22 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "July 6th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mondays Dark",
@@ -34,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
       "date": "July 7th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
-      "date": "July 8th",
-      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
       "rare": false
     },
     {
