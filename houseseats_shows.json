@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-06T13:56:08 PT",
-  "last_successful_run": "2026-07-06T13:56:08 PT",
+  "last_updated": "2026-07-06T15:19:37 PT",
+  "last_successful_run": "2026-07-06T15:19:37 PT",
   "count": 7,
   "shows": [
     {
@@ -14,17 +14,9 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 7th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 7th",
+      "date": "July 8th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
@@ -34,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "July 8th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
@@ -54,11 +54,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "name": "Grace Potter",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
       "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9379.jpg",
+      "rare": true
     }
   ]
 }

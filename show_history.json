@@ -1812,6 +1812,13 @@
         "2026-07-05",
         "2026-07-06"
       ]
+    },
+    "HouseSeats|grace potter": {
+      "name": "Grace Potter",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-06"
+      ]
     }
   }
 }
