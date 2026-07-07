@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-07",
         "2026-04-17",
         "2026-04-18",
         "2026-04-20",
@@ -103,7 +102,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-07",
         "2026-04-08",
         "2026-04-14",
         "2026-04-19",
@@ -316,7 +314,6 @@
       "name": "Secrets Secrets",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-07",
         "2026-04-08",
         "2026-04-09",
         "2026-04-10"
@@ -408,7 +405,8 @@
         "2026-07-02",
         "2026-07-03",
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     },
     "HouseSeats|punk rock brunch": {
@@ -458,24 +456,9 @@
       "name": "\u00d8G From The G\u00f8 Fest",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-07",
         "2026-04-08",
         "2026-04-09",
         "2026-04-10"
-      ]
-    },
-    "HouseSeats|spring fling and comedy things girls gone wild": {
-      "name": "Spring Fling and Comedy Things Girls Gone Wild",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-07"
-      ]
-    },
-    "HouseSeats|big bad voodoo daddy": {
-      "name": "Big Bad Voodoo Daddy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-07"
       ]
     },
     "HouseSeats|chris botti": {
@@ -539,7 +522,8 @@
         "2026-05-13",
         "2026-05-14",
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     },
     "HouseSeats|ricky tenacious presents the dropkick disco": {
@@ -1784,7 +1768,8 @@
         "2026-07-03",
         "2026-07-04",
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1795,7 +1780,8 @@
         "2026-07-03",
         "2026-07-04",
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1810,14 +1796,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     },
     "HouseSeats|grace potter": {
       "name": "Grace Potter",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     }
   }
