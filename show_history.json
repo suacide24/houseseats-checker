@@ -76,7 +76,8 @@
         "2026-07-03",
         "2026-07-04",
         "2026-07-05",
-        "2026-07-06"
+        "2026-07-06",
+        "2026-07-07"
       ]
     },
     "HouseSeats|x country": {
@@ -1805,6 +1806,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-06",
+        "2026-07-07"
+      ]
+    },
+    "HouseSeats|players honors 2026 at mgm grand": {
+      "name": "Players Honors 2026 at MGM Grand",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-07-07"
       ]
     }

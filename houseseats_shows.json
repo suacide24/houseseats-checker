@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-07T09:34:09 PT",
-  "last_successful_run": "2026-07-07T09:34:09 PT",
-  "count": 6,
+  "last_updated": "2026-07-07T12:04:44 PT",
+  "last_successful_run": "2026-07-07T12:04:44 PT",
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "July 8th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 8th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -38,11 +46,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Players Honors 2026",
+      "name": "Players Honors 2026 at MGM Grand",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9375",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9375.jpg",
-      "rare": false
+      "rare": true
     },
     {
       "source": "HouseSeats",
