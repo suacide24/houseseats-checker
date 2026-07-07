@@ -1,9 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-07T12:04:44 PT",
-  "last_successful_run": "2026-07-07T12:04:44 PT",
-  "count": 7,
+  "last_updated": "2026-07-07T14:07:04 PT",
+  "last_successful_run": "2026-07-07T14:07:04 PT",
+  "count": 8,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "July 8th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
