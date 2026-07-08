@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-07T15:38:05 PT",
-  "last_successful_run": "2026-07-07T15:38:05 PT",
+  "last_updated": "2026-07-07T17:01:14 PT",
+  "last_successful_run": "2026-07-07T17:01:14 PT",
   "count": 8,
   "shows": [
     {
@@ -66,7 +66,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9379.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
