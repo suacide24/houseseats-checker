@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-08T12:39:17 PT",
-  "last_successful_run": "2026-07-08T12:39:17 PT",
-  "count": 8,
+  "last_updated": "2026-07-08T14:12:34 PT",
+  "last_successful_run": "2026-07-08T14:12:34 PT",
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,18 +14,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "July 8th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
       "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
@@ -46,10 +46,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 10th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
     {
@@ -66,6 +82,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9379.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "July 12th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "July 12th",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": false
     }
   ]
