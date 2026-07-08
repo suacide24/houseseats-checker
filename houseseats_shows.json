@@ -1,9 +1,25 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-08T14:12:34 PT",
-  "last_successful_run": "2026-07-08T14:12:34 PT",
-  "count": 12,
+  "last_updated": "2026-07-08T15:33:25 PT",
+  "last_successful_run": "2026-07-08T15:33:25 PT",
+  "count": 28,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Australia's Thunder from Down Under",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=423",
+      "date": "July 8th",
+      "image": "https://lv.houseseats.com/resources/media/423.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Laugh Factory Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
+      "date": "July 8th",
+      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -22,11 +38,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "name": "Farrell Dillon At The Magicians Room",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
       "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -46,6 +62,46 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Twist & SHOUT: The Beatles Tribute Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Elton John & Beatles: Made In England",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8823",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/8823.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Marc Savard Comedy Hypnosis",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9106",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/9106.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Colin Cloud: Mastermind",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8414",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/8414.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Lioz - Master of Delusion",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/8225.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "X ROCKS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
       "date": "July 9th",
@@ -54,10 +110,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ivan Kane's Forty Deuce Burlesque Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
+      "date": "July 9th",
+      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 10th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
@@ -78,11 +150,51 @@
     },
     {
       "source": "HouseSeats",
+      "name": "ComedySportz: Minor League",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8613",
+      "date": "July 10th",
+      "image": "https://lv.houseseats.com/resources/media/8613.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Grace Potter",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/9379.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Foul Play",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8901",
+      "date": "July 10th",
+      "image": "https://lv.houseseats.com/resources/media/8901.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ComedySportz Las Vegas",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7514",
+      "date": "July 11th",
+      "image": "https://lv.houseseats.com/resources/media/7514.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "TEASE: A Burlesque Revue",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9276",
+      "date": "July 11th",
+      "image": "https://lv.houseseats.com/resources/media/9276.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Improv is Blind",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9037",
+      "date": "July 11th",
+      "image": "https://lv.houseseats.com/resources/media/9037.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -99,6 +211,22 @@
       "date": "July 12th",
       "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Wastin' Away",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
+      "date": "July 12th",
+      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Sir Elton \u2013 At the Piano: The Music of Elton John",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8878",
+      "date": "July 13th",
+      "image": "https://lv.houseseats.com/resources/media/8878.jpg",
+      "rare": true
     }
   ]
 }

@@ -156,7 +156,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-04-25",
-        "2026-04-26"
+        "2026-04-26",
+        "2026-07-08"
       ]
     },
     "HouseSeats|sink or swim": {
@@ -654,7 +655,8 @@
         "2026-04-26",
         "2026-05-01",
         "2026-05-02",
-        "2026-05-03"
+        "2026-05-03",
+        "2026-07-08"
       ]
     },
     "HouseSeats|the taming of the shrew": {
@@ -1303,7 +1305,8 @@
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
-        "2026-06-15"
+        "2026-06-15",
+        "2026-07-08"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1819,6 +1822,97 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-07",
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|australia's thunder from down under": {
+      "name": "Australia's Thunder from Down Under",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|laugh factory las vegas": {
+      "name": "Laugh Factory Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|farrell dillon at the magicians room": {
+      "name": "Farrell Dillon At The Magicians Room",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|elton john & beatles: made in england": {
+      "name": "Elton John & Beatles: Made In England",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|marc savard comedy hypnosis": {
+      "name": "Marc Savard Comedy Hypnosis",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|colin cloud: mastermind": {
+      "name": "Colin Cloud: Mastermind",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|lioz - master of delusion": {
+      "name": "Lioz - Master of Delusion",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|ivan kane's forty deuce burlesque show": {
+      "name": "Ivan Kane's Forty Deuce Burlesque Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|comedysportz: minor league": {
+      "name": "ComedySportz: Minor League",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|foul play": {
+      "name": "Foul Play",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|comedysportz las vegas": {
+      "name": "ComedySportz Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|improv is blind": {
+      "name": "Improv is Blind",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-08"
+      ]
+    },
+    "HouseSeats|sir elton \u2013 at the piano: the music of elton john": {
+      "name": "Sir Elton \u2013 At the Piano: The Music of Elton John",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-07-08"
       ]
     }
