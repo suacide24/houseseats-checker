@@ -1,41 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-08T17:15:26 PT",
-  "last_successful_run": "2026-07-08T17:15:26 PT",
-  "count": 24,
+  "last_updated": "2026-07-08T21:31:41 PT",
+  "last_successful_run": "2026-07-08T21:31:41 PT",
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
-      "date": "July 8th",
-      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 8th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "July 8th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Farrell Dillon At The Magicians Room",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9062",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9062.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -54,35 +22,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Twist & SHOUT: The Beatles Tribute Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Elton John & Beatles: Made In England",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8823",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/8823.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Marc Savard Comedy Hypnosis",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9106",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9106.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Lioz - Master of Delusion",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/8225.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -91,14 +35,6 @@
       "date": "July 9th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ivan Kane's Forty Deuce Burlesque Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9196",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/9196.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -126,14 +62,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ComedySportz: Minor League",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8613",
-      "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/8613.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Grace Potter",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
       "date": "July 10th",
@@ -142,58 +70,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Foul Play",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8901",
-      "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/8901.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ComedySportz Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7514",
-      "date": "July 11th",
-      "image": "https://lv.houseseats.com/resources/media/7514.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "TEASE: A Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9276",
       "date": "July 11th",
       "image": "https://lv.houseseats.com/resources/media/9276.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Improv is Blind",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9037",
-      "date": "July 11th",
-      "image": "https://lv.houseseats.com/resources/media/9037.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vegas Knight Hawks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
-      "date": "July 12th",
-      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Wastin' Away",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
-      "date": "July 12th",
-      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Sir Elton \u2013 At the Piano: The Music of Elton John",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8878",
-      "date": "July 13th",
-      "image": "https://lv.houseseats.com/resources/media/8878.jpg",
       "rare": true
     }
   ]
