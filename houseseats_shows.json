@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-08T15:33:25 PT",
-  "last_successful_run": "2026-07-08T15:33:25 PT",
-  "count": 28,
+  "last_updated": "2026-07-08T17:15:26 PT",
+  "last_successful_run": "2026-07-08T17:15:26 PT",
+  "count": 24,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Australia's Thunder from Down Under",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=423",
-      "date": "July 8th",
-      "image": "https://lv.houseseats.com/resources/media/423.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Laugh Factory Las Vegas",
@@ -86,14 +78,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Colin Cloud: Mastermind",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8414",
-      "date": "July 9th",
-      "image": "https://lv.houseseats.com/resources/media/8414.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Lioz - Master of Delusion",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8225",
       "date": "July 9th",
@@ -142,14 +126,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Players Honors 2026 at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9375",
-      "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/9375.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "ComedySportz: Minor League",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8613",
       "date": "July 10th",
@@ -195,14 +171,6 @@
       "date": "July 11th",
       "image": "https://lv.houseseats.com/resources/media/9037.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "July 12th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
