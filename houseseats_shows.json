@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-10T08:15:00 PT",
-  "last_successful_run": "2026-07-10T08:15:00 PT",
-  "count": 9,
+  "last_updated": "2026-07-10T10:19:32 PT",
+  "last_successful_run": "2026-07-10T10:19:32 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
       "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "Grace Potter",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
+      "name": "LED ZEPAGAIN - Led Zeppelin Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9380",
       "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/9379.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9380.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -26,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 10th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "July 11th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {

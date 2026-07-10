@@ -1645,7 +1645,8 @@
         "2026-06-29",
         "2026-06-30",
         "2026-07-06",
-        "2026-07-08"
+        "2026-07-08",
+        "2026-07-10"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1892,6 +1893,13 @@
       "appearances": [
         "2026-07-08",
         "2026-07-09"
+      ]
+    },
+    "HouseSeats|led zepagain - led zeppelin tribute": {
+      "name": "LED ZEPAGAIN - Led Zeppelin Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-10"
       ]
     }
   }
