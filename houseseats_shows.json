@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-10T15:09:05 PT",
-  "last_successful_run": "2026-07-10T15:09:05 PT",
+  "last_updated": "2026-07-10T16:30:57 PT",
+  "last_successful_run": "2026-07-10T16:30:57 PT",
   "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "LED ZEPAGAIN - Led Zeppelin Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9380",
+      "name": "Grace Potter",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
       "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/9380.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/9379.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
