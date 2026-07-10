@@ -22,7 +22,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-10",
         "2026-04-16",
         "2026-04-17",
         "2026-04-24",
@@ -77,7 +76,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|x country": {
@@ -159,7 +159,8 @@
         "2026-04-25",
         "2026-04-26",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|sink or swim": {
@@ -295,7 +296,8 @@
         "2026-07-03",
         "2026-07-04",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|jazz vegas orchestra live": {
@@ -314,13 +316,6 @@
         "2026-05-10",
         "2026-06-21",
         "2026-06-22"
-      ]
-    },
-    "HouseSeats|secrets secrets": {
-      "name": "Secrets Secrets",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-10"
       ]
     },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
@@ -412,7 +407,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|punk rock brunch": {
@@ -458,27 +454,6 @@
         "2026-06-19"
       ]
     },
-    "HouseSeats|\u00f8g from the g\u00f8 fest": {
-      "name": "\u00d8G From The G\u00f8 Fest",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-10"
-      ]
-    },
-    "HouseSeats|chris botti": {
-      "name": "Chris Botti",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-10"
-      ]
-    },
-    "HouseSeats|lovecraft and libations spookeasy": {
-      "name": "Lovecraft and Libations Spookeasy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-10"
-      ]
-    },
     "HouseSeats|vegas knight hawks": {
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
@@ -498,18 +473,10 @@
         "2026-07-09"
       ]
     },
-    "HouseSeats|over budget: no ring - no rules wrestling": {
-      "name": "OVER Budget: No Ring - No Rules Wrestling",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-10"
-      ]
-    },
     "HouseSeats|puntification": {
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-10",
         "2026-04-11",
         "2026-05-11",
         "2026-05-12",
@@ -520,13 +487,6 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09"
-      ]
-    },
-    "HouseSeats|ricky tenacious presents the dropkick disco": {
-      "name": "Ricky Tenacious presents The Dropkick Disco",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-10"
       ]
     },
     "HouseSeats|tom papa at the palazzo theatre": {
@@ -717,7 +677,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1543,7 +1504,8 @@
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1776,7 +1738,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1790,7 +1753,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1816,7 +1780,8 @@
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-10"
       ]
     },
     "HouseSeats|players honors 2026 at mgm grand": {
