@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-11T12:44:32 PT",
-  "last_successful_run": "2026-07-11T12:44:32 PT",
-  "count": 7,
+  "last_updated": "2026-07-11T13:55:36 PT",
+  "last_successful_run": "2026-07-11T13:55:36 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,14 +35,6 @@
       "date": "July 12th",
       "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Penn & Teller",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
-      "date": "July 12th",
-      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
