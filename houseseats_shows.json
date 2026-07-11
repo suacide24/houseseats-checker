@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-11T08:31:29 PT",
-  "last_successful_run": "2026-07-11T08:31:29 PT",
+  "last_updated": "2026-07-11T10:02:00 PT",
+  "last_successful_run": "2026-07-11T10:02:00 PT",
   "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Nathan Burton Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
-      "date": "July 11th",
-      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -34,6 +26,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 11th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Nathan Burton Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9028",
+      "date": "July 12th",
+      "image": "https://lv.houseseats.com/resources/media/9028.jpg",
       "rare": false
     },
     {
