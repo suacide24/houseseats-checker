@@ -77,7 +77,8 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11"
       ]
     },
     "HouseSeats|x country": {
@@ -160,7 +161,8 @@
         "2026-04-26",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11"
       ]
     },
     "HouseSeats|sink or swim": {
@@ -408,7 +410,8 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11"
       ]
     },
     "HouseSeats|punk rock brunch": {
@@ -477,7 +480,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-11",
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
@@ -487,13 +489,6 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09"
-      ]
-    },
-    "HouseSeats|tom papa at the palazzo theatre": {
-      "name": "Tom Papa at The Palazzo Theatre",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-11"
       ]
     },
     "HouseSeats|wrestling trivia night": {
@@ -678,7 +673,8 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11"
       ]
     },
     "HouseSeats|vegas' dumbest show about spring": {
@@ -1505,7 +1501,8 @@
         "2026-07-05",
         "2026-07-06",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1755,7 +1752,8 @@
         "2026-07-07",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-11"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {

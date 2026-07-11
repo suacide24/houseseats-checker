@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-10T16:30:57 PT",
-  "last_successful_run": "2026-07-10T16:30:57 PT",
-  "count": 8,
+  "last_updated": "2026-07-10T20:13:07 PT",
+  "last_successful_run": "2026-07-10T20:13:07 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Grace Potter",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9379",
-      "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/9379.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 10th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
@@ -46,18 +30,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 14th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 11th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
       "date": "July 14th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
     {
