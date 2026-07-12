@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-12T12:42:25 PT",
-  "last_successful_run": "2026-07-12T12:42:25 PT",
-  "count": 5,
+  "last_updated": "2026-07-12T13:55:33 PT",
+  "last_successful_run": "2026-07-12T13:55:33 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,6 +10,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "July 12th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "July 12th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
       "rare": false
     },
     {
@@ -43,6 +51,22 @@
       "date": "July 15th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Movie Night - An Improv Double Feature",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
+      "date": "July 16th",
+      "image": "https://lv.houseseats.com/resources/media/9303.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9366",
+      "date": "July 18th",
+      "image": "https://lv.houseseats.com/resources/media/9366.jpg",
+      "rare": true
     }
   ]
 }

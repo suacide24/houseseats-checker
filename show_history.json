@@ -196,7 +196,8 @@
         "2026-06-21",
         "2026-06-22",
         "2026-06-27",
-        "2026-06-28"
+        "2026-06-28",
+        "2026-07-12"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -1178,7 +1179,8 @@
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
-        "2026-05-21"
+        "2026-05-21",
+        "2026-07-12"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
@@ -1911,6 +1913,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-11"
+      ]
+    },
+    "HouseSeats|planet funk: an old-school freestyle and hip hop party": {
+      "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-12"
       ]
     }
   }
