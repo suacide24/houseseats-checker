@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-12T13:55:33 PT",
-  "last_successful_run": "2026-07-12T13:55:33 PT",
-  "count": 8,
+  "last_updated": "2026-07-12T14:56:38 PT",
+  "last_successful_run": "2026-07-12T14:56:38 PT",
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "July 12th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tape Face at MGM Grand",
