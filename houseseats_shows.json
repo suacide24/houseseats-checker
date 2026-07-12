@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-11T17:00:27 PT",
-  "last_successful_run": "2026-07-11T17:00:27 PT",
-  "count": 7,
+  "last_updated": "2026-07-11T21:06:46 PT",
+  "last_successful_run": "2026-07-11T21:06:46 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "TEASE: A Burlesque Revue",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9276",
-      "date": "July 11th",
-      "image": "https://lv.houseseats.com/resources/media/9276.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Nathan Burton Magic Show",
