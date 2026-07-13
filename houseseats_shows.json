@@ -1,33 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-13T14:29:06 PT",
-  "last_successful_run": "2026-07-13T14:29:06 PT",
-  "count": 11,
+  "last_updated": "2026-07-13T15:31:21 PT",
+  "last_successful_run": "2026-07-13T15:31:21 PT",
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "July 13th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "MIND MAGIC LIVE: MENTALIST JOSHUA SETH",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9381",
-      "date": "July 13th",
-      "image": "https://lv.houseseats.com/resources/media/9381.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 14th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -46,6 +22,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 15th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "July 15th",
@@ -59,14 +43,6 @@
       "date": "July 16th",
       "image": "https://lv.houseseats.com/resources/media/9303.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "July 17th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
