@@ -150,7 +150,8 @@
         "2026-05-12",
         "2026-05-15",
         "2026-05-20",
-        "2026-06-04"
+        "2026-06-04",
+        "2026-07-13"
       ]
     },
     "HouseSeats|tease: a burlesque revue": {
@@ -1924,6 +1925,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-12",
+        "2026-07-13"
+      ]
+    },
+    "HouseSeats|mind magic live: mentalist joshua seth": {
+      "name": "MIND MAGIC LIVE: MENTALIST JOSHUA SETH",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-07-13"
       ]
     }
