@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-13T11:45:34 PT",
-  "last_successful_run": "2026-07-13T11:45:34 PT",
-  "count": 8,
+  "last_updated": "2026-07-13T13:18:14 PT",
+  "last_successful_run": "2026-07-13T13:18:14 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -58,6 +58,30 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
       "date": "July 16th",
       "image": "https://lv.houseseats.com/resources/media/9303.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "July 17th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mik Thomas Presents: The Gauntlet",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
+      "date": "July 17th",
+      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Banda World - Live Banda X Perreo Party",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8929",
+      "date": "July 17th",
+      "image": "https://lv.houseseats.com/resources/media/8929.jpg",
       "rare": true
     },
     {

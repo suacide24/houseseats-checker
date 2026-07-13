@@ -1028,7 +1028,8 @@
         "2026-05-12",
         "2026-05-13",
         "2026-05-14",
-        "2026-05-15"
+        "2026-05-15",
+        "2026-07-13"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1651,7 +1652,8 @@
         "2026-06-30",
         "2026-07-06",
         "2026-07-08",
-        "2026-07-10"
+        "2026-07-10",
+        "2026-07-13"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1930,6 +1932,13 @@
     },
     "HouseSeats|mind magic live: mentalist joshua seth": {
       "name": "MIND MAGIC LIVE: MENTALIST JOSHUA SETH",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-13"
+      ]
+    },
+    "HouseSeats|banda world - live banda x perreo party": {
+      "name": "Banda World - Live Banda X Perreo Party",
       "source": "HouseSeats",
       "appearances": [
         "2026-07-13"
