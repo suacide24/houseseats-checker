@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-12T15:57:50 PT",
-  "last_successful_run": "2026-07-12T15:57:50 PT",
-  "count": 7,
+  "last_updated": "2026-07-12T17:02:46 PT",
+  "last_successful_run": "2026-07-12T17:02:46 PT",
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "July 12th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",

@@ -79,7 +79,8 @@
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-13"
       ]
     },
     "HouseSeats|x country": {
@@ -143,7 +144,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-13",
         "2026-04-14",
         "2026-05-03",
         "2026-05-11",
@@ -1180,7 +1180,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-13"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
@@ -1507,7 +1508,8 @@
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-13"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1744,7 +1746,8 @@
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-13"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1761,7 +1764,8 @@
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-13"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1919,7 +1923,8 @@
       "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-13"
       ]
     }
   }
