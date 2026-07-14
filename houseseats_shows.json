@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-14T14:30:48 PT",
-  "last_successful_run": "2026-07-14T14:30:48 PT",
-  "count": 9,
+  "last_updated": "2026-07-14T15:59:43 PT",
+  "last_successful_run": "2026-07-14T15:59:43 PT",
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -14,18 +14,26 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 15th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "July 15th",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "July 15th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 16th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
     {
