@@ -80,7 +80,8 @@
         "2026-07-10",
         "2026-07-11",
         "2026-07-12",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|x country": {
@@ -108,7 +109,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-14",
         "2026-04-19",
         "2026-04-20",
         "2026-04-28",
@@ -144,7 +144,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-14",
         "2026-05-03",
         "2026-05-11",
         "2026-05-12",
@@ -517,7 +516,6 @@
       "name": "Motion City Soundtrack",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-14",
         "2026-04-15"
       ]
     },
@@ -1029,7 +1027,8 @@
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1183,7 +1182,8 @@
         "2026-05-20",
         "2026-05-21",
         "2026-07-12",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
@@ -1511,7 +1511,8 @@
         "2026-07-10",
         "2026-07-11",
         "2026-07-12",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1750,7 +1751,8 @@
         "2026-07-10",
         "2026-07-11",
         "2026-07-12",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1768,7 +1770,8 @@
         "2026-07-10",
         "2026-07-11",
         "2026-07-12",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1927,7 +1930,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-12",
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     },
     "HouseSeats|mind magic live: mentalist joshua seth": {
@@ -1941,7 +1945,8 @@
       "name": "Banda World - Live Banda X Perreo Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-13"
+        "2026-07-13",
+        "2026-07-14"
       ]
     }
   }
