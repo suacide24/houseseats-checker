@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-14T15:59:43 PT",
-  "last_successful_run": "2026-07-14T15:59:43 PT",
+  "last_updated": "2026-07-14T17:00:35 PT",
+  "last_successful_run": "2026-07-14T17:00:35 PT",
   "count": 10,
   "shows": [
     {
@@ -22,11 +22,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "July 15th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": true
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -58,7 +58,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "July 17th",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -66,7 +66,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8929",
       "date": "July 17th",
       "image": "https://lv.houseseats.com/resources/media/8929.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
