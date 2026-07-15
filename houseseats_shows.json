@@ -1,17 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-14T17:00:35 PT",
-  "last_successful_run": "2026-07-14T17:00:35 PT",
+  "last_updated": "2026-07-14T20:44:42 PT",
+  "last_successful_run": "2026-07-14T20:44:42 PT",
   "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 14th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
@@ -26,6 +18,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "July 15th",
       "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 15th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
