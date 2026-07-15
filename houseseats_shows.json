@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-14T23:18:54 PT",
-  "last_successful_run": "2026-07-14T23:18:54 PT",
+  "last_updated": "2026-07-15T01:55:03 PT",
+  "last_successful_run": "2026-07-15T01:55:03 PT",
   "count": 10,
   "shows": [
     {
@@ -38,18 +38,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 16th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Movie Night - An Improv Double Feature",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
       "date": "July 16th",
       "image": "https://lv.houseseats.com/resources/media/9303.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 17th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
