@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-15T15:05:34 PT",
-  "last_successful_run": "2026-07-15T15:05:34 PT",
-  "count": 12,
+  "last_updated": "2026-07-15T16:30:18 PT",
+  "last_successful_run": "2026-07-15T16:30:18 PT",
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -83,14 +83,6 @@
       "date": "July 18th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "July 19th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
