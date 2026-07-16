@@ -1,25 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-16T14:35:18 PT",
-  "last_successful_run": "2026-07-16T14:35:18 PT",
+  "last_updated": "2026-07-16T16:00:53 PT",
+  "last_successful_run": "2026-07-16T16:00:53 PT",
   "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Movie Night - An Improv Double Feature",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
-      "date": "July 16th",
-      "image": "https://lv.houseseats.com/resources/media/9303.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "July 16th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -38,18 +22,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "name": "Penn & Teller",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
       "date": "July 17th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "July 17th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
       "rare": true
     },
     {
@@ -78,6 +54,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
+      "date": "July 18th",
+      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9366",
       "date": "July 18th",
@@ -99,6 +83,22 @@
       "date": "July 19th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 20th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
+      "date": "July 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
     }
   ]
 }
