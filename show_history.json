@@ -22,7 +22,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17",
         "2026-04-24",
         "2026-04-25",
@@ -82,14 +81,14 @@
         "2026-07-12",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-22",
         "2026-04-23",
         "2026-05-06",
@@ -132,7 +131,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
@@ -250,7 +248,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17",
         "2026-04-18",
         "2026-04-20",
@@ -274,14 +271,14 @@
         "2026-05-28",
         "2026-05-29",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|x rocks": {
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-22",
         "2026-04-23",
         "2026-04-30",
@@ -302,7 +299,8 @@
         "2026-07-08",
         "2026-07-09",
         "2026-07-10",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|jazz vegas orchestra live": {
@@ -326,7 +324,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-18",
         "2026-05-20",
         "2026-05-21",
@@ -427,7 +424,6 @@
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17",
         "2026-04-18"
       ]
@@ -444,7 +440,6 @@
       "name": "HIT USA RADIO",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17"
       ]
     },
@@ -494,7 +489,6 @@
       "name": "Wrestling Trivia Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17"
       ]
     },
@@ -502,7 +496,6 @@
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17",
         "2026-04-18"
       ]
@@ -511,7 +504,6 @@
       "name": "Guess Who's High",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17",
         "2026-04-18"
       ]
@@ -520,7 +512,6 @@
       "name": "Zazu Comedy Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17"
       ]
     },
@@ -528,7 +519,6 @@
       "name": "Billy Gardell",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17"
       ]
     },
@@ -536,31 +526,9 @@
       "name": "ROCKLESQUE: SWEET TOOTH AND OTHER DELIGHTS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-16",
         "2026-04-17",
         "2026-04-18",
         "2026-04-19"
-      ]
-    },
-    "HouseSeats|braxton cook at the smith center": {
-      "name": "Braxton Cook at The Smith Center",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-16"
-      ]
-    },
-    "HouseSeats|king of pop trivia night": {
-      "name": "King of Pop Trivia Night",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-16"
-      ]
-    },
-    "HouseSeats|a live taping with david letterman": {
-      "name": "A Live Taping with David Letterman",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-16"
       ]
     },
     "HouseSeats|frank laspina presents: get happy": {
@@ -1004,7 +972,8 @@
         "2026-05-15",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1160,7 +1129,8 @@
         "2026-07-12",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
@@ -1732,7 +1702,8 @@
         "2026-07-12",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1752,7 +1723,8 @@
         "2026-07-12",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1913,7 +1885,8 @@
         "2026-07-12",
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|mind magic live: mentalist joshua seth": {
@@ -1929,7 +1902,8 @@
       "appearances": [
         "2026-07-13",
         "2026-07-14",
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|mike hammer comedy magic": {
@@ -1943,14 +1917,16 @@
       "name": "ROCKLESQUE: ALTER EGO",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     },
     "HouseSeats|mike hammer comedy magic show": {
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-15"
+        "2026-07-15",
+        "2026-07-16"
       ]
     }
   }
