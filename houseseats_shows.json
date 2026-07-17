@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-17T07:45:53 PT",
-  "last_successful_run": "2026-07-17T07:45:53 PT",
-  "count": 9,
+  "last_updated": "2026-07-17T09:18:25 PT",
+  "last_successful_run": "2026-07-17T09:18:25 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -26,14 +26,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
       "date": "July 18th",
       "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
-      "date": "July 18th",
-      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
       "rare": false
     },
     {
