@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-18",
         "2026-04-20",
         "2026-04-25",
@@ -22,7 +21,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-24",
         "2026-04-25",
         "2026-04-28",
@@ -249,7 +247,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-18",
         "2026-04-20",
         "2026-04-21",
@@ -273,7 +270,8 @@
         "2026-05-29",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|x rocks": {
@@ -425,7 +423,6 @@
       "name": "ClueX",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-18"
       ]
     },
@@ -435,13 +432,6 @@
       "appearances": [
         "2026-06-26",
         "2026-06-27"
-      ]
-    },
-    "HouseSeats|hit usa radio": {
-      "name": "HIT USA RADIO",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-17"
       ]
     },
     "HouseSeats|game of groans: variety show": {
@@ -486,18 +476,10 @@
         "2026-07-09"
       ]
     },
-    "HouseSeats|wrestling trivia night": {
-      "name": "Wrestling Trivia Night",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-17"
-      ]
-    },
     "HouseSeats|royal thunder w/ drowning spree, heroine honey": {
       "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-18"
       ]
     },
@@ -505,38 +487,15 @@
       "name": "Guess Who's High",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-18"
-      ]
-    },
-    "HouseSeats|zazu comedy nights": {
-      "name": "Zazu Comedy Nights",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-17"
-      ]
-    },
-    "HouseSeats|billy gardell": {
-      "name": "Billy Gardell",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-17"
       ]
     },
     "HouseSeats|rocklesque: sweet tooth and other delights": {
       "name": "ROCKLESQUE: SWEET TOOTH AND OTHER DELIGHTS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-17",
         "2026-04-18",
         "2026-04-19"
-      ]
-    },
-    "HouseSeats|frank laspina presents: get happy": {
-      "name": "Frank LaSpina Presents: Get Happy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-17"
       ]
     },
     "HouseSeats|twist & shout: the beatles tribute show": {
@@ -974,7 +933,8 @@
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|comedy for the ladies": {
@@ -1108,7 +1068,8 @@
         "2026-05-16",
         "2026-06-23",
         "2026-06-24",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|john waite & john cafferty": {
@@ -1463,7 +1424,8 @@
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1706,7 +1668,8 @@
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1727,7 +1690,8 @@
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1890,7 +1854,8 @@
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|mind magic live: mentalist joshua seth": {
@@ -1907,7 +1872,8 @@
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|mike hammer comedy magic": {
@@ -1922,7 +1888,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-15",
-        "2026-07-16"
+        "2026-07-16",
+        "2026-07-17"
       ]
     },
     "HouseSeats|mike hammer comedy magic show": {
