@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-17T13:27:41 PT",
-  "last_successful_run": "2026-07-17T13:27:41 PT",
-  "count": 9,
+  "last_updated": "2026-07-17T14:24:00 PT",
+  "last_successful_run": "2026-07-17T14:24:00 PT",
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -18,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "July 17th",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Banda World - Live Banda X Perreo Party",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8929",
-      "date": "July 17th",
-      "image": "https://lv.houseseats.com/resources/media/8929.jpg",
       "rare": false
     },
     {
