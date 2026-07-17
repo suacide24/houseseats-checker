@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-17T14:24:00 PT",
-  "last_successful_run": "2026-07-17T14:24:00 PT",
+  "last_updated": "2026-07-17T15:23:04 PT",
+  "last_successful_run": "2026-07-17T15:23:04 PT",
   "count": 8,
   "shows": [
     {
@@ -18,14 +18,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "July 17th",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 18th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
@@ -50,6 +42,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
       "date": "July 19th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 20th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
