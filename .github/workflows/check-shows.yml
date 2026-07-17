@@ -33,6 +33,10 @@ jobs:
           SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
+          # Toggle email from the GitHub UI: Settings > Secrets and variables >
+          # Actions > Variables. Set EMAIL_ENABLED=false to mute; unset/anything
+          # else = emails on.
+          EMAIL_ENABLED: ${{ vars.EMAIL_ENABLED }}
         run: python houseseats_checker.py --fast --no-firsttix
 
       - name: Commit and push if changed

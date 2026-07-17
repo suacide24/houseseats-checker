@@ -55,6 +55,9 @@ parser.add_argument(
     "--no-houseseats", action="store_true", help="Skip HouseSeats checking"
 )
 parser.add_argument("--no-firsttix", action="store_true", help="Skip 1stTix checking")
+parser.add_argument(
+    "--no-email", action="store_true", help="Disable email notifications for this run"
+)
 args = parser.parse_args()
 
 # Configuration - HouseSeats
@@ -72,6 +75,16 @@ FIRSTTIX_EMAIL = os.environ.get("FIRSTTIX_EMAIL", "ryan.sua.rn@gmail.com")
 FIRSTTIX_PASSWORD = os.environ.get("FIRSTTIX_PASSWORD", "")
 
 # Email configuration
+def _env_flag(name: str, default: bool = True) -> bool:
+    """Read an on/off env var. Empty/unset -> default; off values: 0/false/no/off."""
+    val = os.environ.get(name)
+    if val is None or val.strip() == "":
+        return default
+    return val.strip().lower() not in ("0", "false", "no", "off")
+
+
+# Master email on/off switch. Set EMAIL_ENABLED=false (or 0/no/off) to mute email.
+EMAIL_ENABLED = _env_flag("EMAIL_ENABLED", True)
 NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "rsua95@gmail.com")
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
@@ -375,6 +388,12 @@ def group_shows_by_name(shows: list) -> list:
 def send_email_notification(new_shows: list) -> bool:
     """Send an email notification about new shows, grouped by show name."""
     if not new_shows:
+        return True
+
+    if args.no_email or not EMAIL_ENABLED:
+        log_message(
+            "Email notifications disabled (EMAIL_ENABLED=false / --no-email) - skipping email"
+        )
         return True
 
     if not SMTP_PASSWORD:
