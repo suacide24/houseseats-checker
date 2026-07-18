@@ -1,8 +1,8 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-17T23:28:29 PT",
-  "last_successful_run": "2026-07-17T23:28:29 PT",
-  "count": 7,
+  "last_updated": "2026-07-18T01:23:22 PT",
+  "last_successful_run": "2026-07-18T01:23:22 PT",
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -10,14 +10,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 18th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9366",
-      "date": "July 18th",
-      "image": "https://lv.houseseats.com/resources/media/9366.jpg",
       "rare": false
     },
     {
