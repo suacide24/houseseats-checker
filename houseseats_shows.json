@@ -2,6 +2,7 @@
   "source": "HouseSeats",
   "last_updated": "2026-07-18T10:34:06 PT",
   "last_successful_run": "2026-07-18T10:34:06 PT",
+  "email_enabled": false,
   "count": 6,
   "shows": [
     {

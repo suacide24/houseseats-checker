@@ -1075,6 +1075,7 @@ def save_source_shows(source: str, shows: list, scrape_successful: bool = False)
         "source": source,
         "last_updated": timestamp,
         "last_successful_run": last_successful_run,
+        "email_enabled": EMAIL_ENABLED,
         "count": len(shows),
         "shows": shows,
     }

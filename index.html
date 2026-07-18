@@ -211,6 +211,7 @@
             <h1>🎭 Available Shows</h1>
             <p class="last-updated" id="lastUpdatedContainer">Loading...</p>
             <p class="last-updated" id="lastRunContainer" style="margin-top: 4px;"></p>
+            <p class="last-updated" id="emailStatusContainer" style="margin-top: 4px;"></p>
             <div class="show-count"><span id="showCount">0</span> unique shows <span class="slot-count">(<span id="slotCount">0</span> time slots)</span></div>
         </header>
         <div class="shows-grid" id="showsGrid">
@@ -427,6 +428,22 @@
             } else {
                 runContainer.innerHTML = '';
             }
+
+            // Email-notification status + quick link to toggle the EMAIL_ENABLED
+            // repo Variable on GitHub.
+            const emailContainer = document.getElementById('emailStatusContainer');
+            const settingsUrl = 'https://github.com/suacide24/houseseats-checker/settings/variables/actions';
+            const configureLink = `<a href="${settingsUrl}" target="_blank" rel="noopener" style="color:#f39c12; text-decoration:none;">⚙️ Configure</a>`;
+            const emailEnabled = sources['HouseSeats']?.email_enabled;
+            let statusHtml;
+            if (emailEnabled === true) {
+                statusHtml = '📧 Email alerts: <strong style="color:#2ecc71;">ON</strong>';
+            } else if (emailEnabled === false) {
+                statusHtml = '🔕 Email alerts: <strong style="color:#e74c3c;">OFF</strong>';
+            } else {
+                statusHtml = '📧 Email alerts';  // state not yet published
+            }
+            emailContainer.innerHTML = `${statusHtml} &nbsp;•&nbsp; ${configureLink}`;
         }
 
         function renderShows(data) {
