@@ -36,12 +36,6 @@ SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "rsua95@gmail.com")
 SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
 NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "rsua95@gmail.com")
 
-# Hours since the last successful scrape before we consider the checker down.
-# Runs are nominally every 30 min but GitHub cron jitter pushes them 75-90 min
-# apart with occasional multi-hour gaps, so 6h avoids false alarms while still
-# catching a real outage within a few hours.
-STALE_THRESHOLD_HOURS = float(os.environ.get("HEALTH_STALE_HOURS", "6"))
-
 TIMESTAMP_FMT = "%Y-%m-%dT%H:%M:%S PT"
 
 
@@ -53,8 +47,26 @@ def _env_flag(name: str, default: bool = True) -> bool:
     return val.strip().lower() not in ("0", "false", "no", "off")
 
 
+def _env_float(name: str, default: float) -> float:
+    """Read a numeric env var. Empty/unset/invalid -> default. (GitHub Actions
+    passes an unset repo Variable as an empty string, not an absent key.)"""
+    val = os.environ.get(name)
+    if val is None or val.strip() == "":
+        return default
+    try:
+        return float(val)
+    except ValueError:
+        return default
+
+
 # Master switch for failure alerts (independent of show-notification EMAIL_ENABLED).
 HEALTH_ALERTS_ENABLED = _env_flag("HEALTH_ALERTS_ENABLED", True)
+
+# Hours since the last successful scrape before we consider the checker down.
+# Runs are nominally every 30 min but GitHub cron jitter pushes them 75-90 min
+# apart with occasional multi-hour gaps, so 6h avoids false alarms while still
+# catching a real outage within a few hours.
+STALE_THRESHOLD_HOURS = _env_float("HEALTH_STALE_HOURS", 6.0)
 
 
 def get_pacific_time() -> datetime:
