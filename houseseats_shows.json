@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-18T14:24:59 PT",
-  "last_successful_run": "2026-07-18T14:24:59 PT",
+  "last_updated": "2026-07-18T15:24:26 PT",
+  "last_successful_run": "2026-07-18T15:24:26 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
       "date": "July 19th",
       "image": "https://lv.houseseats.com/resources/media/9252.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Penn & Teller",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
-      "date": "July 19th",
-      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
       "rare": false
     },
     {
