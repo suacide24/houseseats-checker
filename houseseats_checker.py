@@ -6,10 +6,13 @@ filtering out any shows on the denylist.
 Sends email notifications for new shows (only once per show+date).
 """
 
+from __future__ import annotations
+
 import argparse
 import json
 import os
 import random
+import re
 import smtplib
 import time
 from datetime import datetime, timedelta, timezone
@@ -325,12 +328,129 @@ def cleanup_old_history(history: dict, max_age_days: int = 90) -> dict:
     return history
 
 
+# Month name/abbreviation -> month number, for resolving bare show dates.
+_MONTH_TO_NUM = {}
+for _i, _name in enumerate(
+    [
+        "january", "february", "march", "april", "may", "june",
+        "july", "august", "september", "october", "november", "december",
+    ],
+    start=1,
+):
+    _MONTH_TO_NUM[_name] = _i
+    _MONTH_TO_NUM[_name[:3]] = _i
+
+_ISO_DATE_RE = re.compile(r"^\d{4}-\d{2}-\d{2}$")
+
+
+def _pick_nearest_year(month: int, day: int, now: datetime) -> int:
+    """Choose the calendar year (prev/current/next) whose month+day lands
+    closest to `now` — resolves a year-less date to the occurrence a human
+    would mean when they see it."""
+    now_naive = now.replace(tzinfo=None)
+    best_year, best_dist = now.year, None
+    for year in (now.year - 1, now.year, now.year + 1):
+        try:
+            candidate = datetime(year, month, day)
+        except ValueError:
+            continue  # e.g. Feb 29 in a non-leap year
+        dist = abs((candidate - now_naive).days)
+        if best_dist is None or dist < best_dist:
+            best_dist, best_year = dist, year
+    return best_year
+
+
+def resolve_show_date(date_str: str, now: datetime) -> str | None:
+    """Normalize a show's display date to a canonical ``YYYY-MM-DD`` string,
+    inferring the year from ``now`` when the date carries none (HouseSeats
+    dates look like "July 18th"; 1stTix embeds a year like "Fri, 13 Feb '26").
+    Returns None if no month+day can be parsed, so callers can fall back."""
+    if not date_str:
+        return None
+    s = date_str.strip().lower()
+    month_match = re.search(
+        r"(jan|feb|mar|apr|may|jun|jul|aug|sep|oct|nov|dec)[a-z]*", s
+    )
+    day_match = re.search(r"\b(\d{1,2})(?:st|nd|rd|th)?\b", s)
+    if not month_match or not day_match:
+        return None
+    month = _MONTH_TO_NUM.get(month_match.group(1))
+    day = int(day_match.group(1))
+    if not month or not (1 <= day <= 31):
+        return None
+    # Explicit year: 4-digit (2026) or apostrophe 2-digit ('26). A bare 2-digit
+    # number is treated as the day, never the year, to avoid ambiguity.
+    year_match = re.search(r"\b(20\d{2})\b", s) or re.search(r"'(\d{2})\b", s)
+    if year_match:
+        y = int(year_match.group(1))
+        year = y if y >= 2000 else 2000 + y
+    else:
+        year = _pick_nearest_year(month, day, now)
+    return f"{year:04d}-{month:02d}-{day:02d}"
+
+
 def get_show_key(show: dict) -> str:
-    """Generate a unique key for a show+date+source combination."""
+    """Generate a unique key for a show+date+source combination.
+
+    The date is normalized to ``YYYY-MM-DD`` with an inferred year so the same
+    calendar date in different years produces distinct keys — the checker
+    re-notifies year after year instead of suppressing a date it saw once.
+    Falls back to the raw date string if it can't be parsed."""
     name = show.get("name", "").strip()
-    date = show.get("date", "").strip()
     source = show.get("source", "").strip()
-    return f"{source}|{name}|{date}"
+    raw_date = show.get("date", "").strip()
+    iso_date = resolve_show_date(raw_date, get_pacific_time())
+    date_part = iso_date if iso_date else raw_date
+    return f"{source}|{name}|{date_part}"
+
+
+def migrate_notified_keys(notified: set, now: datetime) -> tuple[set, bool]:
+    """One-time upgrade of legacy ``source|name|July 18th`` keys to the
+    year-aware ``source|name|2026-07-18`` form so existing notifications keep
+    matching (no re-notification flood) while future years get fresh keys.
+    Returns (possibly-migrated set, changed?)."""
+    migrated, changed = set(), False
+    for key in notified:
+        parts = key.split("|", 2)
+        if len(parts) != 3:
+            migrated.add(key)
+            continue
+        source, name, date_part = parts
+        if _ISO_DATE_RE.match(date_part):
+            migrated.add(key)  # already year-aware
+            continue
+        iso_date = resolve_show_date(date_part, now)
+        if iso_date:
+            migrated.add(f"{source}|{name}|{iso_date}")
+            changed = True
+        else:
+            migrated.add(key)  # unparseable — leave as-is
+    return migrated, changed
+
+
+def cleanup_old_notified(
+    notified: set, now: datetime, max_age_days: int = 400
+) -> tuple[set, bool]:
+    """Drop notified keys whose (year-aware) show date is more than
+    ``max_age_days`` in the past. 400d keeps well over a year so the annual
+    re-notify logic is never affected; only ancient entries are pruned.
+    Legacy/unparseable keys are always kept. Returns (kept set, changed?)."""
+    now_naive = now.replace(tzinfo=None)
+    cutoff = now_naive - timedelta(days=max_age_days)
+    kept, changed = set(), False
+    for key in notified:
+        parts = key.split("|", 2)
+        if len(parts) == 3 and _ISO_DATE_RE.match(parts[2]):
+            try:
+                show_date = datetime.strptime(parts[2], "%Y-%m-%d")
+            except ValueError:
+                kept.add(key)
+                continue
+            if show_date < cutoff:
+                changed = True
+                continue  # prune
+        kept.add(key)
+    return kept, changed
 
 
 def get_chatgpt_link(show: dict) -> str:
@@ -1078,6 +1198,18 @@ def main():
     log_message(
         f"Loaded {len(notified_shows)} previously notified show+date combinations"
     )
+
+    # Upgrade legacy year-less keys, then prune ancient ones. Save only if
+    # something changed (migration is a one-time no-op afterward).
+    _now = get_pacific_time()
+    notified_shows, _migrated = migrate_notified_keys(notified_shows, _now)
+    notified_shows, _pruned = cleanup_old_notified(notified_shows, _now)
+    if _migrated or _pruned:
+        save_notified_shows(notified_shows)
+        log_message(
+            f"notified_shows: migrated={_migrated}, pruned old entries={_pruned}; "
+            f"now {len(notified_shows)} keys"
+        )
 
     # Create session with random user agent
     session = create_session_with_random_ua()

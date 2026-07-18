@@ -6,6 +6,11 @@ on:
     - cron: '*/30 * * * *'
   workflow_dispatch:  # Allow manual trigger
 
+# Serialize with the health-check workflow so their pushes don't race.
+concurrency:
+  group: houseseats-git
+  cancel-in-progress: false
+
 jobs:
   check-shows:
     runs-on: ubuntu-latest
