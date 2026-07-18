@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-20",
         "2026-04-25",
         "2026-04-28",
@@ -81,7 +80,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|x country": {
@@ -167,7 +167,6 @@
       "name": "Sink or Swim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-19"
       ]
     },
@@ -194,7 +193,8 @@
         "2026-06-22",
         "2026-06-27",
         "2026-06-28",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-07-18"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -217,7 +217,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-19",
         "2026-04-20",
         "2026-04-26",
@@ -248,7 +247,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-20",
         "2026-04-21",
         "2026-04-22",
@@ -272,7 +270,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|x rocks": {
@@ -324,7 +323,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-05-20",
         "2026-05-21",
         "2026-06-10",
@@ -420,13 +418,6 @@
         "2026-05-23"
       ]
     },
-    "HouseSeats|cluex": {
-      "name": "ClueX",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-18"
-      ]
-    },
     "HouseSeats|firelight barn - spotlight preview variety show": {
       "name": "Firelight Barn - Spotlight Preview Variety Show",
       "source": "HouseSeats",
@@ -477,25 +468,10 @@
         "2026-07-09"
       ]
     },
-    "HouseSeats|royal thunder w/ drowning spree, heroine honey": {
-      "name": "ROYAL THUNDER w/ Drowning Spree, Heroine Honey",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-18"
-      ]
-    },
-    "HouseSeats|guess who's high": {
-      "name": "Guess Who's High",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-18"
-      ]
-    },
     "HouseSeats|rocklesque: sweet tooth and other delights": {
       "name": "ROCKLESQUE: SWEET TOOTH AND OTHER DELIGHTS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-19"
       ]
     },
@@ -503,7 +479,6 @@
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-20",
         "2026-04-21",
         "2026-04-25",
@@ -519,7 +494,6 @@
       "name": "The Taming of the Shrew",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-18",
         "2026-04-19"
       ]
     },
@@ -1426,7 +1400,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1670,7 +1645,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1692,7 +1668,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1856,7 +1833,8 @@
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|mind magic live: mentalist joshua seth": {
@@ -1890,7 +1868,8 @@
       "appearances": [
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     },
     "HouseSeats|mike hammer comedy magic show": {
@@ -1899,7 +1878,8 @@
       "appearances": [
         "2026-07-15",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-07-18"
       ]
     }
   }
