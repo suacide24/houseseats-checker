@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-18T18:04:17 PT",
-  "last_successful_run": "2026-07-18T18:04:17 PT",
+  "last_updated": "2026-07-18T21:50:12 PT",
+  "last_successful_run": "2026-07-18T21:50:12 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
@@ -39,18 +39,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "July 21st",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "July 22nd",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "July 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     }
   ]
