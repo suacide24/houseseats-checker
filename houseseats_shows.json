@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-20T15:03:33 PT",
-  "last_successful_run": "2026-07-20T15:03:33 PT",
+  "last_updated": "2026-07-20T16:32:01 PT",
+  "last_successful_run": "2026-07-20T16:32:01 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "July 20th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -51,14 +43,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "July 23rd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "July 24th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     },
     {
