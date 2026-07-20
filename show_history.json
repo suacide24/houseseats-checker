@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-25",
         "2026-04-28",
         "2026-05-01",
@@ -108,7 +107,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-28",
         "2026-05-05",
         "2026-05-06",
@@ -195,7 +193,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
@@ -211,7 +208,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-26",
         "2026-04-27",
         "2026-05-03",
@@ -240,7 +236,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
@@ -310,7 +305,8 @@
         "2026-05-10",
         "2026-06-21",
         "2026-06-22",
-        "2026-07-19"
+        "2026-07-19",
+        "2026-07-20"
       ]
     },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
@@ -329,7 +325,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
@@ -466,7 +461,6 @@
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-25",
         "2026-04-26",
@@ -481,7 +475,6 @@
       "name": "Gasolina - A Reggeaton Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
@@ -493,7 +486,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-20",
         "2026-04-21",
         "2026-04-22",
         "2026-04-23",
@@ -1382,7 +1374,8 @@
         "2026-07-16",
         "2026-07-17",
         "2026-07-18",
-        "2026-07-19"
+        "2026-07-19",
+        "2026-07-20"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1628,7 +1621,8 @@
         "2026-07-16",
         "2026-07-17",
         "2026-07-18",
-        "2026-07-19"
+        "2026-07-19",
+        "2026-07-20"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1652,7 +1646,8 @@
         "2026-07-16",
         "2026-07-17",
         "2026-07-18",
-        "2026-07-19"
+        "2026-07-19",
+        "2026-07-20"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1865,7 +1860,8 @@
         "2026-07-16",
         "2026-07-17",
         "2026-07-18",
-        "2026-07-19"
+        "2026-07-19",
+        "2026-07-20"
       ]
     }
   }
