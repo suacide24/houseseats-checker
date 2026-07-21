@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-21T14:40:04 PT",
-  "last_successful_run": "2026-07-21T14:40:04 PT",
+  "last_updated": "2026-07-21T16:00:48 PT",
+  "last_successful_run": "2026-07-21T16:00:48 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,22 +11,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 21st",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
     {
@@ -39,19 +23,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
