@@ -233,7 +233,8 @@
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
-        "2026-05-29"
+        "2026-05-29",
+        "2026-07-21"
       ]
     },
     "HouseSeats|whisky mixer - improv party night": {
@@ -441,7 +442,8 @@
         "2026-06-13",
         "2026-06-24",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-21"
       ]
     },
     "HouseSeats|puntification": {
@@ -1516,7 +1518,8 @@
         "2026-07-10",
         "2026-07-13",
         "2026-07-15",
-        "2026-07-20"
+        "2026-07-20",
+        "2026-07-21"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1862,6 +1865,13 @@
         "2026-07-18",
         "2026-07-19",
         "2026-07-20"
+      ]
+    },
+    "HouseSeats|vegas' dumbest show about 'murica": {
+      "name": "Vegas' Dumbest Show about 'Murica",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-21"
       ]
     }
   }

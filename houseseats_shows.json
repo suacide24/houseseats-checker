@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-21T11:18:41 PT",
-  "last_successful_run": "2026-07-21T11:18:41 PT",
+  "last_updated": "2026-07-21T13:01:03 PT",
+  "last_successful_run": "2026-07-21T13:01:03 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "July 21st",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -51,6 +43,38 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas Knight Hawks",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas' Dumbest Show about 'Murica",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Scene Stealers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": true
     }
   ]
