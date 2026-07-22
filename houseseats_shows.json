@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-22T13:40:18 PT",
-  "last_successful_run": "2026-07-22T13:40:18 PT",
+  "last_updated": "2026-07-22T15:07:35 PT",
+  "last_successful_run": "2026-07-22T15:07:35 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -23,9 +23,25 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 23rd",
+      "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
@@ -33,16 +49,8 @@
       "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 23rd",
+      "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "July 23rd",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
       "rare": false
     },
     {
@@ -71,11 +79,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "name": "Island Style Comedy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9228",
       "date": "July 26th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9228.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

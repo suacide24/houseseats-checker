@@ -1839,7 +1839,8 @@
         "2026-07-17",
         "2026-07-18",
         "2026-07-19",
-        "2026-07-20"
+        "2026-07-20",
+        "2026-07-22"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1855,6 +1856,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-21",
+        "2026-07-22"
+      ]
+    },
+    "HouseSeats|island style comedy": {
+      "name": "Island Style Comedy",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-07-22"
       ]
     }
