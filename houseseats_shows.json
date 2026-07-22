@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-22T12:26:36 PT",
-  "last_successful_run": "2026-07-22T12:26:36 PT",
+  "last_updated": "2026-07-22T13:40:18 PT",
+  "last_successful_run": "2026-07-22T13:40:18 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -39,6 +39,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "July 24th",
@@ -60,6 +68,14 @@
       "date": "July 25th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "July 26th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
