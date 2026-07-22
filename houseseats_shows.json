@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-22T15:07:35 PT",
-  "last_successful_run": "2026-07-22T15:07:35 PT",
+  "last_updated": "2026-07-22T16:31:06 PT",
+  "last_successful_run": "2026-07-22T16:31:06 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
@@ -23,18 +23,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "July 23rd",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "July 23rd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {
@@ -71,6 +71,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Murder Mystery at the Tavern",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Scene Stealers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "July 25th",
@@ -83,14 +91,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9228",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/9228.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Louie TheSinger",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9384",
-      "date": "July 26th",
-      "image": "https://lv.houseseats.com/resources/media/9384.jpg",
       "rare": true
     }
   ]
