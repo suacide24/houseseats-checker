@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-22T10:49:02 PT",
-  "last_successful_run": "2026-07-22T10:49:02 PT",
+  "last_updated": "2026-07-22T12:26:36 PT",
+  "last_successful_run": "2026-07-22T12:26:36 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
-      "date": "July 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Chippendales at Planet Hollywood",
