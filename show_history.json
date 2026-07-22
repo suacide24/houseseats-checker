@@ -83,14 +83,14 @@
         "2026-07-18",
         "2026-07-19",
         "2026-07-20",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-05-06",
         "2026-05-07",
@@ -197,7 +197,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-05-18",
@@ -206,7 +205,8 @@
         "2026-05-21",
         "2026-05-22",
         "2026-07-20",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|mat franco": {
@@ -225,7 +225,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
@@ -234,14 +233,14 @@
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|whisky mixer - improv party night": {
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
@@ -270,7 +269,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-30",
         "2026-05-01",
@@ -329,7 +327,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
@@ -430,7 +427,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-28",
         "2026-04-29",
@@ -443,7 +439,8 @@
         "2026-06-24",
         "2026-07-08",
         "2026-07-09",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|puntification": {
@@ -478,7 +475,6 @@
       "name": "Gasolina - A Reggeaton Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25"
@@ -488,7 +484,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
@@ -534,7 +529,6 @@
       "name": "Vegas' Dumbest Show about Spring",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25"
@@ -544,7 +538,6 @@
       "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25",
@@ -555,22 +548,13 @@
       "name": "Viva Thrash Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23"
-      ]
-    },
-    "HouseSeats|letdown.": {
-      "name": "LETDOWN.",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-22"
       ]
     },
     "HouseSeats|necrot": {
       "name": "NECROT",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23"
       ]
     },
@@ -578,24 +562,9 @@
       "name": "The American Ride - Toby Keith Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-22",
         "2026-04-23",
         "2026-04-24",
         "2026-04-25"
-      ]
-    },
-    "HouseSeats|ashley loren at the smith center": {
-      "name": "Ashley Loren at The Smith Center",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-22"
-      ]
-    },
-    "HouseSeats|brett young 2.0 tour": {
-      "name": "Brett Young 2.0 Tour",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-22"
       ]
     },
     "HouseSeats|iconique nights": {
@@ -1374,7 +1343,8 @@
         "2026-07-18",
         "2026-07-19",
         "2026-07-20",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1624,7 +1594,8 @@
         "2026-07-18",
         "2026-07-19",
         "2026-07-20",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1650,7 +1621,8 @@
         "2026-07-18",
         "2026-07-19",
         "2026-07-20",
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1871,14 +1843,16 @@
       "name": "Vegas' Dumbest Show about 'Murica",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     },
     "HouseSeats|louie thesinger": {
       "name": "Louie TheSinger",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-21"
+        "2026-07-21",
+        "2026-07-22"
       ]
     }
   }
