@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-21T17:56:04 PT",
-  "last_successful_run": "2026-07-21T17:56:04 PT",
+  "last_updated": "2026-07-21T21:21:35 PT",
+  "last_successful_run": "2026-07-21T21:21:35 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 21st",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "July 22nd",
       "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 22nd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -43,14 +43,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vegas Knight Hawks",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8253",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/8253.jpg",
       "rare": false
     },
     {
