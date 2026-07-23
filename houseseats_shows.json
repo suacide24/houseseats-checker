@@ -1,32 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-22T16:31:06 PT",
-  "last_successful_run": "2026-07-22T16:31:06 PT",
+  "last_updated": "2026-07-22T20:20:13 PT",
+  "last_successful_run": "2026-07-22T20:20:13 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "July 22nd",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 22nd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "July 23rd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 23rd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -67,7 +59,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "July 25th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -83,7 +75,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "July 25th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
