@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-23T11:46:49 PT",
-  "last_successful_run": "2026-07-23T11:46:49 PT",
+  "last_updated": "2026-07-23T13:16:00 PT",
+  "last_successful_run": "2026-07-23T13:16:00 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -71,6 +71,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Stone Temple Pilots",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9386",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9386.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Scene Stealers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "July 25th",
@@ -83,6 +91,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9228",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/9228.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Acoustic Night with Robin Nievera",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
+      "date": "July 27th",
+      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
       "rare": true
     }
   ]

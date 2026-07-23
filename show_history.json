@@ -1850,6 +1850,20 @@
         "2026-07-22",
         "2026-07-23"
       ]
+    },
+    "HouseSeats|stone temple pilots": {
+      "name": "Stone Temple Pilots",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-23"
+      ]
+    },
+    "HouseSeats|acoustic night with robin nievera": {
+      "name": "Acoustic Night with Robin Nievera",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-23"
+      ]
     }
   }
 }
