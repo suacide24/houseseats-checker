@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-23T14:35:58 PT",
-  "last_successful_run": "2026-07-23T14:35:58 PT",
+  "last_updated": "2026-07-23T16:00:19 PT",
+  "last_successful_run": "2026-07-23T16:00:19 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "July 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -23,26 +15,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "July 23rd",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "July 24th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 24th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -51,6 +27,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
     {
