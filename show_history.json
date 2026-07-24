@@ -19,7 +19,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-28",
         "2026-04-29",
@@ -85,7 +84,8 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|x country": {
@@ -102,7 +102,8 @@
         "2026-07-03",
         "2026-07-04",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-07-24"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -198,7 +199,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
@@ -207,7 +207,8 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|mat franco": {
@@ -226,7 +227,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-05-25",
         "2026-05-26",
@@ -235,14 +235,14 @@
         "2026-05-29",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|whisky mixer - improv party night": {
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-28",
         "2026-04-29",
@@ -329,7 +329,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-27",
         "2026-04-28",
@@ -475,7 +474,6 @@
       "name": "Gasolina - A Reggeaton Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25"
       ]
     },
@@ -483,7 +481,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-26",
         "2026-06-08",
@@ -527,7 +524,6 @@
       "name": "Vegas' Dumbest Show about Spring",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25"
       ]
     },
@@ -535,7 +531,6 @@
       "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-26"
       ]
@@ -544,7 +539,6 @@
       "name": "The American Ride - Toby Keith Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25"
       ]
     },
@@ -552,7 +546,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-27",
         "2026-04-28",
@@ -575,7 +568,6 @@
       "name": "Wonderland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-24",
         "2026-04-25",
         "2026-04-26",
         "2026-04-27",
@@ -584,13 +576,6 @@
         "2026-04-30",
         "2026-05-01",
         "2026-05-02"
-      ]
-    },
-    "HouseSeats|naomi watanabe at the palazzo theatre": {
-      "name": "Naomi Watanabe at The Palazzo Theatre",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-24"
       ]
     },
     "HouseSeats|extremeprov": {
@@ -1383,7 +1368,8 @@
       "appearances": [
         "2026-06-13",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|the alain whyte band": {
@@ -1579,7 +1565,8 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1607,7 +1594,8 @@
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1823,7 +1811,8 @@
         "2026-07-19",
         "2026-07-20",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1832,7 +1821,8 @@
       "appearances": [
         "2026-07-21",
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|louie thesinger": {
@@ -1848,7 +1838,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-22",
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     },
     "HouseSeats|stone temple pilots": {
@@ -1862,7 +1853,8 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23"
+        "2026-07-23",
+        "2026-07-24"
       ]
     }
   }
