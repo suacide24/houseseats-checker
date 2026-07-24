@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-23T17:56:12 PT",
-  "last_successful_run": "2026-07-23T17:56:12 PT",
+  "last_updated": "2026-07-23T21:20:05 PT",
+  "last_successful_run": "2026-07-23T21:20:05 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "July 23rd",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
@@ -35,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "July 24th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 24th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
