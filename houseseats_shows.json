@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-24T11:59:27 PT",
-  "last_successful_run": "2026-07-24T11:59:27 PT",
+  "last_updated": "2026-07-24T13:36:31 PT",
+  "last_successful_run": "2026-07-24T13:36:31 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9228",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/9228.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Louie TheSinger",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9384",
+      "date": "July 26th",
+      "image": "https://lv.houseseats.com/resources/media/9384.jpg",
       "rare": false
     },
     {
