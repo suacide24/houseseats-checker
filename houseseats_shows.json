@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-23T21:20:05 PT",
-  "last_successful_run": "2026-07-23T21:20:05 PT",
+  "last_updated": "2026-07-24T00:08:36 PT",
+  "last_successful_run": "2026-07-24T00:08:36 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "July 24th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
