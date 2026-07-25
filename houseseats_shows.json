@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-24T16:33:52 PT",
-  "last_successful_run": "2026-07-24T16:33:52 PT",
+  "last_updated": "2026-07-24T20:13:47 PT",
+  "last_successful_run": "2026-07-24T20:13:47 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 24th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Vegas' Dumbest Show about 'Murica",
@@ -36,6 +28,14 @@
       "date": "July 25th",
       "image": "https://lv.houseseats.com/resources/media/9388.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 25th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -83,7 +83,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "July 27th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
