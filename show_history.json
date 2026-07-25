@@ -124,7 +124,8 @@
         "2026-06-27",
         "2026-07-01",
         "2026-07-15",
-        "2026-07-22"
+        "2026-07-22",
+        "2026-07-25"
       ]
     },
     "HouseSeats|the rant!": {
@@ -1836,6 +1837,13 @@
       "appearances": [
         "2026-07-23",
         "2026-07-24",
+        "2026-07-25"
+      ]
+    },
+    "HouseSeats|when we were warped": {
+      "name": "When We Were Warped",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-07-25"
       ]
     }
