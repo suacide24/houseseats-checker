@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-25T08:41:22 PT",
-  "last_successful_run": "2026-07-25T08:41:22 PT",
+  "last_updated": "2026-07-25T10:03:46 PT",
+  "last_successful_run": "2026-07-25T10:03:46 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -59,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9384",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/9384.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Penn & Teller",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
+      "date": "July 26th",
+      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
       "rare": false
     },
     {
