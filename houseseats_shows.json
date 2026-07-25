@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-25T12:46:25 PT",
-  "last_successful_run": "2026-07-25T12:46:25 PT",
+  "last_updated": "2026-07-25T13:57:13 PT",
+  "last_successful_run": "2026-07-25T13:57:13 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Murder Mystery at the Tavern",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Summer Comedy Series",
