@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-25T10:03:46 PT",
-  "last_successful_run": "2026-07-25T10:03:46 PT",
+  "last_updated": "2026-07-25T11:27:24 PT",
+  "last_successful_run": "2026-07-25T11:27:24 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Vegas' Dumbest Show about 'Murica",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Murder Mystery at the Tavern",
@@ -59,14 +51,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9384",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/9384.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Penn & Teller",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
-      "date": "July 26th",
-      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
       "rare": false
     },
     {
