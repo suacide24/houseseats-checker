@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-25T15:01:24 PT",
-  "last_successful_run": "2026-07-25T15:01:24 PT",
+  "last_updated": "2026-07-25T16:31:30 PT",
+  "last_successful_run": "2026-07-25T16:31:30 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Summer Comedy Series",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9388",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/9388.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "When We Were Warped",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9390",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/9390.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
