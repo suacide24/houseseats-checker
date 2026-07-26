@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-26T14:27:32 PT",
-  "last_successful_run": "2026-07-26T14:27:32 PT",
+  "last_updated": "2026-07-26T15:32:32 PT",
+  "last_successful_run": "2026-07-26T15:32:32 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
@@ -23,18 +23,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 27th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Acoustic Night with Robin Nievera",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "July 27th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 28th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
