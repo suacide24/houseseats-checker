@@ -84,7 +84,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|x country": {
@@ -125,7 +126,8 @@
         "2026-07-01",
         "2026-07-15",
         "2026-07-22",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|the rant!": {
@@ -156,7 +158,6 @@
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-26",
         "2026-07-08",
         "2026-07-09",
         "2026-07-10",
@@ -214,7 +215,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-26",
         "2026-04-27",
         "2026-05-03",
         "2026-05-08",
@@ -458,7 +458,6 @@
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-26",
         "2026-05-01",
         "2026-05-02",
         "2026-05-03",
@@ -470,7 +469,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-26",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -508,13 +506,6 @@
         "2026-07-12"
       ]
     },
-    "HouseSeats|peek! the show - true confessions": {
-      "name": "PEEK! THE SHOW - TRUE CONFESSIONS",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-26"
-      ]
-    },
     "HouseSeats|iconique nights": {
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
@@ -540,7 +531,6 @@
       "name": "Wonderland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-26",
         "2026-04-27",
         "2026-04-28",
         "2026-04-29",
@@ -1541,7 +1531,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1571,7 +1562,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1790,7 +1782,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1811,7 +1804,8 @@
         "2026-07-21",
         "2026-07-22",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|island style comedy": {
@@ -1821,7 +1815,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|stone temple pilots": {
@@ -1837,7 +1832,8 @@
       "appearances": [
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-07-26"
       ]
     },
     "HouseSeats|when we were warped": {

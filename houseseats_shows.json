@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-25T16:31:30 PT",
-  "last_successful_run": "2026-07-25T16:31:30 PT",
+  "last_updated": "2026-07-25T20:26:06 PT",
+  "last_successful_run": "2026-07-25T20:26:06 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Scene Stealers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
-      "date": "July 25th",
-      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Island Style Comedy",
@@ -43,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 26th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
