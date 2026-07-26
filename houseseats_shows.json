@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-26T11:33:11 PT",
-  "last_successful_run": "2026-07-26T11:33:11 PT",
+  "last_updated": "2026-07-26T13:12:06 PT",
+  "last_successful_run": "2026-07-26T13:12:06 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Island Style Comedy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9228",
-      "date": "July 26th",
-      "image": "https://lv.houseseats.com/resources/media/9228.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "FANTASY",
@@ -23,26 +15,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Louie TheSinger",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9384",
-      "date": "July 26th",
-      "image": "https://lv.houseseats.com/resources/media/9384.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 26th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 27th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
     {
@@ -59,6 +35,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "July 27th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 28th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "July 29th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     }
   ]
