@@ -139,7 +139,8 @@
         "2026-05-19",
         "2026-05-20",
         "2026-05-21",
-        "2026-05-22"
+        "2026-05-22",
+        "2026-07-27"
       ]
     },
     "HouseSeats|blue man group": {
@@ -546,7 +547,8 @@
         "2026-04-28",
         "2026-04-29",
         "2026-04-30",
-        "2026-05-01"
+        "2026-05-01",
+        "2026-07-27"
       ]
     },
     "HouseSeats|the soulful sounds of cj scala": {
@@ -1844,6 +1846,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-25"
+      ]
+    },
+    "HouseSeats|the spanish magician - enrique de leon": {
+      "name": "The Spanish Magician - Enrique De Leon",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-27"
       ]
     }
   }
