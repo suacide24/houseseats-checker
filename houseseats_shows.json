@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-27T14:41:51 PT",
-  "last_successful_run": "2026-07-27T14:41:51 PT",
+  "last_updated": "2026-07-27T16:07:03 PT",
+  "last_successful_run": "2026-07-27T16:07:03 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 28th",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 28th",
-      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -31,19 +15,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
+      "date": "July 29th",
+      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
+      "date": "July 29th",
+      "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "July 30th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "July 31st",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
