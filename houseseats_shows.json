@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-27T10:01:16 PT",
-  "last_successful_run": "2026-07-27T10:01:16 PT",
+  "last_updated": "2026-07-27T11:56:06 PT",
+  "last_successful_run": "2026-07-27T11:56:06 PT",
   "email_enabled": false,
-  "count": 4,
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
       "date": "July 28th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "July 28th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
