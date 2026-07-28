@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-28T14:40:23 PT",
-  "last_successful_run": "2026-07-28T14:40:23 PT",
+  "last_updated": "2026-07-28T16:03:23 PT",
+  "last_successful_run": "2026-07-28T16:03:23 PT",
   "email_enabled": false,
   "count": 8,
   "shows": [
@@ -25,7 +25,7 @@
       "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 29th",
+      "date": "July 30th",
       "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
@@ -63,11 +63,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "August 1st",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": true
+      "name": "Acoustic Night with Robin Nievera",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
+      "date": "August 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
     }
   ]
 }
