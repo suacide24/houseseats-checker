@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-27T21:15:55 PT",
-  "last_successful_run": "2026-07-27T21:15:55 PT",
+  "last_updated": "2026-07-28T00:15:47 PT",
+  "last_successful_run": "2026-07-28T00:15:47 PT",
   "email_enabled": false,
   "count": 5,
   "shows": [
@@ -25,7 +25,7 @@
       "source": "HouseSeats",
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
-      "date": "July 29th",
+      "date": "July 30th",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
       "rare": false
     },
