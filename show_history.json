@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-05-01",
         "2026-05-06",
         "2026-05-07",
@@ -18,7 +17,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-05-08",
         "2026-05-09",
@@ -86,7 +84,8 @@
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ]
     },
     "HouseSeats|x country": {
@@ -111,7 +110,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-05-05",
         "2026-05-06",
         "2026-05-13",
@@ -140,7 +138,8 @@
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ]
     },
     "HouseSeats|blue man group": {
@@ -244,7 +243,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
@@ -331,7 +329,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
@@ -427,7 +424,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-05-27",
         "2026-05-28",
@@ -513,7 +509,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
@@ -533,7 +528,6 @@
       "name": "Wonderland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
@@ -544,18 +538,17 @@
       "name": "Extremeprov",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ]
     },
     "HouseSeats|the soulful sounds of cj scala": {
       "name": "The Soulful Sounds of CJ Scala",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29"
       ]
     },
@@ -563,7 +556,6 @@
       "name": "Those It Girls",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29"
       ]
     },
@@ -571,7 +563,6 @@
       "name": "Emo Orchestra",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30"
       ]
@@ -580,7 +571,6 @@
       "name": "End of the Line: The Allman Brothers Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-28",
         "2026-04-29",
         "2026-04-30",
         "2026-05-01",
@@ -1423,7 +1413,8 @@
         "2026-07-15",
         "2026-07-20",
         "2026-07-21",
-        "2026-07-22"
+        "2026-07-22",
+        "2026-07-28"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1534,7 +1525,8 @@
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1566,7 +1558,8 @@
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1787,7 +1780,8 @@
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
-        "2026-07-27"
+        "2026-07-27",
+        "2026-07-28"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {

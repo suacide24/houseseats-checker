@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-27T16:07:03 PT",
-  "last_successful_run": "2026-07-27T16:07:03 PT",
+  "last_updated": "2026-07-27T17:56:24 PT",
+  "last_successful_run": "2026-07-27T17:56:24 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -52,6 +52,14 @@
       "date": "July 31st",
       "image": "https://lv.houseseats.com/resources/media/9065.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "August 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
     }
   ]
 }
