@@ -17,7 +17,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-05-08",
         "2026-05-09",
         "2026-05-14",
@@ -85,7 +84,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|x country": {
@@ -139,7 +139,8 @@
         "2026-05-21",
         "2026-05-22",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|blue man group": {
@@ -244,7 +245,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30",
         "2026-05-01",
         "2026-05-12",
@@ -330,7 +330,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30",
         "2026-05-01",
         "2026-05-03",
@@ -425,7 +424,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-05-27",
         "2026-05-28",
         "2026-06-09",
@@ -510,7 +508,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30",
         "2026-05-01",
         "2026-05-04",
@@ -529,7 +526,6 @@
       "name": "Wonderland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30",
         "2026-05-01",
         "2026-05-02"
@@ -539,32 +535,17 @@
       "name": "Extremeprov",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30",
         "2026-05-01",
         "2026-07-27",
-        "2026-07-28"
-      ]
-    },
-    "HouseSeats|the soulful sounds of cj scala": {
-      "name": "The Soulful Sounds of CJ Scala",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-29"
-      ]
-    },
-    "HouseSeats|those it girls": {
-      "name": "Those It Girls",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-29"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|emo orchestra": {
       "name": "Emo Orchestra",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30"
       ]
     },
@@ -572,7 +553,6 @@
       "name": "End of the Line: The Allman Brothers Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-29",
         "2026-04-30",
         "2026-05-01",
         "2026-05-02"
@@ -1527,7 +1507,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
@@ -1560,7 +1541,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1782,7 +1764,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1834,7 +1817,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-07-29"
       ]
     },
     "HouseSeats|when we were warped": {

@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-28T16:03:23 PT",
-  "last_successful_run": "2026-07-28T16:03:23 PT",
+  "last_updated": "2026-07-28T17:59:24 PT",
+  "last_successful_run": "2026-07-28T17:59:24 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "July 28th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "July 28th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "July 29th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -39,19 +39,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "July 31st",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "The Rant!",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "July 31st",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -59,7 +51,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9065",
       "date": "July 31st",
       "image": "https://lv.houseseats.com/resources/media/9065.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
