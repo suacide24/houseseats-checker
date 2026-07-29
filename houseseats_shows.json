@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-07-29T15:03:47 PT",
-  "last_successful_run": "2026-07-29T15:03:47 PT",
+  "last_updated": "2026-07-29T16:31:56 PT",
+  "last_successful_run": "2026-07-29T16:31:56 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "July 29th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "July 30th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -27,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9374",
       "date": "July 31st",
       "image": "https://lv.houseseats.com/resources/media/9374.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9373",
-      "date": "July 31st",
-      "image": "https://lv.houseseats.com/resources/media/9373.jpg",
       "rare": false
     },
     {
