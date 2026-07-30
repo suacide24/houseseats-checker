@@ -104,7 +104,8 @@
         "2026-07-08",
         "2026-07-09",
         "2026-07-24",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -128,7 +129,8 @@
         "2026-07-22",
         "2026-07-25",
         "2026-07-26",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|the rant!": {
@@ -142,7 +144,8 @@
         "2026-05-22",
         "2026-07-27",
         "2026-07-28",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|blue man group": {
@@ -247,7 +250,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-05-12",
         "2026-05-13",
@@ -270,7 +272,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-05-02",
         "2026-05-21",
@@ -332,7 +333,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-05-03",
         "2026-05-04",
@@ -437,7 +437,8 @@
         "2026-07-09",
         "2026-07-21",
         "2026-07-22",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|puntification": {
@@ -511,7 +512,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-05-04",
         "2026-05-05",
@@ -529,7 +529,6 @@
       "name": "Wonderland",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-05-02"
       ]
@@ -538,25 +537,17 @@
       "name": "Extremeprov",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-07-27",
         "2026-07-28",
-        "2026-07-29"
-      ]
-    },
-    "HouseSeats|emo orchestra": {
-      "name": "Emo Orchestra",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-04-30"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|end of the line: the allman brothers tribute": {
       "name": "End of the Line: The Allman Brothers Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-04-30",
         "2026-05-01",
         "2026-05-02"
       ]
@@ -1545,7 +1536,8 @@
         "2026-07-26",
         "2026-07-27",
         "2026-07-28",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
@@ -1821,7 +1813,8 @@
         "2026-07-26",
         "2026-07-27",
         "2026-07-28",
-        "2026-07-29"
+        "2026-07-29",
+        "2026-07-30"
       ]
     },
     "HouseSeats|when we were warped": {
