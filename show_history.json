@@ -1831,6 +1831,13 @@
         "2026-07-27",
         "2026-07-28"
       ]
+    },
+    "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
+      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-07-30"
+      ]
     }
   }
 }
