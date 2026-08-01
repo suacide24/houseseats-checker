@@ -86,7 +86,8 @@
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-01"
       ]
     },
     "HouseSeats|x country": {
@@ -107,7 +108,8 @@
         "2026-07-24",
         "2026-07-29",
         "2026-07-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-01"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -274,7 +276,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-21",
         "2026-05-22",
         "2026-05-23",
@@ -461,7 +462,6 @@
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-03",
         "2026-07-08",
         "2026-07-09"
@@ -524,13 +524,6 @@
         "2026-05-15"
       ]
     },
-    "HouseSeats|wonderland": {
-      "name": "Wonderland",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-02"
-      ]
-    },
     "HouseSeats|extremeprov": {
       "name": "Extremeprov",
       "source": "HouseSeats",
@@ -542,18 +535,10 @@
         "2026-07-31"
       ]
     },
-    "HouseSeats|end of the line: the allman brothers tribute": {
-      "name": "End of the Line: The Allman Brothers Tribute",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-02"
-      ]
-    },
     "HouseSeats|faaabulous! - the ultimate drag brunch show": {
       "name": "Faaabulous! - The Ultimate Drag Brunch Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-08",
         "2026-05-09"
       ]
@@ -562,7 +547,6 @@
       "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-04",
         "2026-05-07",
         "2026-05-08"
@@ -572,7 +556,6 @@
       "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-02",
         "2026-05-03",
         "2026-05-04",
         "2026-05-05",
@@ -609,20 +592,6 @@
         "2026-05-03",
         "2026-05-04",
         "2026-05-05"
-      ]
-    },
-    "HouseSeats|priscilla presley": {
-      "name": "Priscilla Presley",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-02"
-      ]
-    },
-    "HouseSeats|cristela alonzo: the midlife mixtape tour": {
-      "name": "Cristela Alonzo: The Midlife Mixtape Tour",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-02"
       ]
     },
     "HouseSeats|murray's madhouse": {
@@ -1809,7 +1778,8 @@
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-01"
       ]
     },
     "HouseSeats|when we were warped": {
