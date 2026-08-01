@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-01T09:03:36 PT",
-  "last_successful_run": "2026-08-01T09:03:36 PT",
+  "last_updated": "2026-08-01T10:32:04 PT",
+  "last_successful_run": "2026-08-01T10:32:04 PT",
   "email_enabled": false,
   "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "August 1st",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -27,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "August 3rd",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     }
   ]
