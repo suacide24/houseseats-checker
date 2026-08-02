@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-01T16:32:06 PT",
-  "last_successful_run": "2026-08-01T16:32:06 PT",
+  "last_updated": "2026-08-01T20:23:48 PT",
+  "last_successful_run": "2026-08-01T20:23:48 PT",
   "email_enabled": false,
-  "count": 4,
+  "count": 2,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "August 1st",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 1st",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Acoustic Night with Robin Nievera",
