@@ -1,10 +1,18 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-03T13:12:53 PT",
-  "last_successful_run": "2026-08-03T13:12:53 PT",
+  "last_updated": "2026-08-03T14:41:37 PT",
+  "last_successful_run": "2026-08-03T14:41:37 PT",
   "email_enabled": false,
-  "count": 5,
+  "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
