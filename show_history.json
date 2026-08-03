@@ -268,7 +268,8 @@
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
-        "2026-07-18"
+        "2026-07-18",
+        "2026-08-03"
       ]
     },
     "HouseSeats|x rocks": {
@@ -1765,7 +1766,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-27",
-        "2026-07-28"
+        "2026-07-28",
+        "2026-08-03"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1774,6 +1776,13 @@
       "appearances": [
         "2026-07-30",
         "2026-07-31"
+      ]
+    },
+    "HouseSeats|pb&j: a duo improv show": {
+      "name": "PB&J: A Duo Improv Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-03"
       ]
     }
   }

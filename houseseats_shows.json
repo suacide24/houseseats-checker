@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-03T11:20:08 PT",
-  "last_successful_run": "2026-08-03T11:20:08 PT",
+  "last_updated": "2026-08-03T13:12:53 PT",
+  "last_successful_run": "2026-08-03T13:12:53 PT",
   "email_enabled": false,
-  "count": 3,
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Acoustic Night with Robin Nievera",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
-      "date": "August 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -27,6 +19,30 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "August 4th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "PB&J: A Duo Improv Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9064",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9064.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Whisky Mixer - Improv Party Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
       "rare": false
     }
   ]
