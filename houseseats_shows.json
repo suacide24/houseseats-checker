@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-03T14:41:37 PT",
-  "last_successful_run": "2026-08-03T14:41:37 PT",
+  "last_updated": "2026-08-03T16:06:05 PT",
+  "last_successful_run": "2026-08-03T16:06:05 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "August 4th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "August 7th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
