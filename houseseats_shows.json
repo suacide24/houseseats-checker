@@ -1,10 +1,18 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-04T14:15:07 PT",
-  "last_successful_run": "2026-08-04T14:15:07 PT",
+  "last_updated": "2026-08-04T15:36:22 PT",
+  "last_successful_run": "2026-08-04T15:36:22 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "August 4th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -35,14 +43,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "August 7th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "August 8th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
