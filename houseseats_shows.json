@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-03T18:00:30 PT",
-  "last_successful_run": "2026-08-03T18:00:30 PT",
+  "last_updated": "2026-08-03T21:44:52 PT",
+  "last_successful_run": "2026-08-03T21:44:52 PT",
   "email_enabled": false,
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "ROUGE",
@@ -23,9 +15,17 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 4th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "August 4th",
+      "date": "August 5th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
