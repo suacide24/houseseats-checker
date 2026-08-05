@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-07",
         "2026-05-08",
         "2026-05-09",
@@ -89,14 +88,14 @@
         "2026-07-31",
         "2026-08-01",
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ]
     },
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-07",
         "2026-05-08",
         "2026-06-17",
@@ -118,7 +117,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-13",
         "2026-05-20",
         "2026-05-27",
@@ -207,7 +205,8 @@
         "2026-07-27",
         "2026-07-28",
         "2026-08-01",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -271,7 +270,8 @@
         "2026-07-17",
         "2026-07-18",
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ]
     },
     "HouseSeats|x rocks": {
@@ -330,7 +330,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-07",
         "2026-05-08",
         "2026-05-09",
@@ -503,7 +502,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-07",
         "2026-05-08",
         "2026-05-11",
@@ -564,7 +562,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-09",
         "2026-05-11",
         "2026-05-12",
@@ -605,7 +602,6 @@
       "name": "Horns Up Tribute Night: High Priest",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-07",
         "2026-05-08",
         "2026-05-09"
@@ -615,7 +611,6 @@
       "name": "BigHorn Rodeo 2026",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-06",
         "2026-05-07",
         "2026-05-08",
         "2026-05-09"
@@ -1743,7 +1738,8 @@
         "2026-08-01",
         "2026-08-02",
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1776,7 +1772,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
       ]
     },
     "HouseSeats|steve falcon's comedy hypnosis hour": {
@@ -1784,7 +1781,15 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-03",
-        "2026-08-04"
+        "2026-08-04",
+        "2026-08-05"
+      ]
+    },
+    "HouseSeats|coco and friends": {
+      "name": "Coco and Friends",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-05"
       ]
     }
   }
