@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-05T16:04:14 PT",
-  "last_successful_run": "2026-08-05T16:04:14 PT",
+  "last_updated": "2026-08-05T17:51:44 PT",
+  "last_successful_run": "2026-08-05T17:51:44 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 5th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Derek Hughes",

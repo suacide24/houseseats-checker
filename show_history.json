@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08",
         "2026-05-09",
         "2026-06-03",
@@ -96,7 +95,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08",
         "2026-06-17",
         "2026-06-25",
@@ -271,7 +269,8 @@
         "2026-07-18",
         "2026-08-03",
         "2026-08-04",
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     },
     "HouseSeats|x rocks": {
@@ -330,7 +329,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08",
         "2026-05-09",
         "2026-05-11",
@@ -502,7 +500,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08",
         "2026-05-11",
         "2026-05-12",
@@ -534,15 +531,7 @@
       "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08"
-      ]
-    },
-    "HouseSeats|merle norman cosmetic studio - makeup service (henderson)": {
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-07"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -602,7 +591,6 @@
       "name": "Horns Up Tribute Night: High Priest",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08",
         "2026-05-09"
       ]
@@ -611,16 +599,8 @@
       "name": "BigHorn Rodeo 2026",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-07",
         "2026-05-08",
         "2026-05-09"
-      ]
-    },
-    "HouseSeats|an evening with rachel bay jones at the smith center": {
-      "name": "An Evening with Rachel Bay Jones at The Smith Center",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-07"
       ]
     },
     "HouseSeats|dead meadow w/ cory shane, peaceful retreat": {
@@ -1680,7 +1660,8 @@
         "2026-08-02",
         "2026-08-03",
         "2026-08-04",
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1740,7 +1721,8 @@
         "2026-08-02",
         "2026-08-03",
         "2026-08-04",
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1774,7 +1756,8 @@
       "appearances": [
         "2026-08-03",
         "2026-08-04",
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     },
     "HouseSeats|steve falcon's comedy hypnosis hour": {
@@ -1783,21 +1766,24 @@
       "appearances": [
         "2026-08-03",
         "2026-08-04",
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     },
     "HouseSeats|coco and friends": {
       "name": "Coco and Friends",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     },
     "HouseSeats|derek hughes": {
       "name": "Derek Hughes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-06"
       ]
     }
   }
