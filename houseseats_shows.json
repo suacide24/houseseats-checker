@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-07T12:30:43 PT",
-  "last_successful_run": "2026-08-07T12:30:43 PT",
+  "last_updated": "2026-08-07T13:45:55 PT",
+  "last_successful_run": "2026-08-07T13:45:55 PT",
   "email_enabled": false,
   "count": 5,
   "shows": [
@@ -23,14 +23,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "August 7th",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 7th",
@@ -43,6 +35,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "August 10th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Derek Hughes",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8170",
+      "date": "August 11th",
+      "image": "https://lv.houseseats.com/resources/media/8170.jpg",
       "rare": false
     }
   ]
