@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-06T07:55:32 PT",
-  "last_successful_run": "2026-08-06T07:55:32 PT",
+  "last_updated": "2026-08-06T17:25:00 PT",
+  "last_successful_run": "2026-08-06T17:25:00 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Coco and Friends",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9393",
-      "date": "August 6th",
-      "image": "https://lv.houseseats.com/resources/media/9393.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -23,10 +15,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "August 6th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Derek Hughes",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8170",
       "date": "August 7th",
       "image": "https://lv.houseseats.com/resources/media/8170.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "An Evening with Rita Lim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
       "rare": true
     },
     {
@@ -39,10 +47,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Clues & Cocktails - A Live Murder Mystery Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9396.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "PB&J: A Duo Improv Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9064",
       "date": "August 7th",
       "image": "https://lv.houseseats.com/resources/media/9064.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {

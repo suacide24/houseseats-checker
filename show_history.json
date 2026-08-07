@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09",
         "2026-06-03",
         "2026-06-05"
@@ -14,7 +13,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09",
         "2026-05-14",
         "2026-05-16",
@@ -88,14 +86,14 @@
         "2026-08-01",
         "2026-08-03",
         "2026-08-04",
-        "2026-08-05"
+        "2026-08-05",
+        "2026-08-07"
       ]
     },
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-06-17",
         "2026-06-25",
         "2026-06-26",
@@ -108,7 +106,8 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-01"
+        "2026-08-01",
+        "2026-08-07"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -227,7 +226,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-16",
         "2026-07-16"
       ]
@@ -270,7 +268,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ]
     },
     "HouseSeats|x rocks": {
@@ -329,7 +328,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09",
         "2026-05-11",
         "2026-05-12",
@@ -500,7 +498,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
@@ -523,15 +520,7 @@
       "name": "Faaabulous! - The Ultimate Drag Brunch Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09"
-      ]
-    },
-    "HouseSeats|merle norman cosmetic studio - makeup service (las vegas)": {
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-08"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -591,7 +580,6 @@
       "name": "Horns Up Tribute Night: High Priest",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09"
       ]
     },
@@ -599,7 +587,6 @@
       "name": "BigHorn Rodeo 2026",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09"
       ]
     },
@@ -607,7 +594,6 @@
       "name": "DEAD MEADOW w/ Cory Shane, Peaceful Retreat",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-08",
         "2026-05-09"
       ]
     },
@@ -1661,7 +1647,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1722,7 +1709,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1757,7 +1745,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ]
     },
     "HouseSeats|steve falcon's comedy hypnosis hour": {
@@ -1767,7 +1756,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1783,7 +1773,22 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-05",
-        "2026-08-06"
+        "2026-08-06",
+        "2026-08-07"
+      ]
+    },
+    "HouseSeats|an evening with rita lim": {
+      "name": "An Evening with Rita Lim",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-07"
+      ]
+    },
+    "HouseSeats|clues & cocktails - a live murder mystery night": {
+      "name": "Clues & Cocktails - A Live Murder Mystery Night",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-07"
       ]
     }
   }
