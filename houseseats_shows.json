@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-06T17:25:00 PT",
-  "last_successful_run": "2026-08-06T17:25:00 PT",
+  "last_updated": "2026-08-06T20:30:02 PT",
+  "last_successful_run": "2026-08-06T20:30:02 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 6th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "August 6th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Derek Hughes",
@@ -75,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
       "date": "August 7th",
       "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 7th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
