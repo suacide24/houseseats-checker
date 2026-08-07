@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-07T07:33:00 PT",
-  "last_successful_run": "2026-08-07T07:33:00 PT",
+  "last_updated": "2026-08-07T08:59:19 PT",
+  "last_successful_run": "2026-08-07T08:59:19 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
       "date": "August 7th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Clues & Cocktails - A Live Murder Mystery Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
-      "date": "August 7th",
-      "image": "https://lv.houseseats.com/resources/media/9396.jpg",
       "rare": true
     },
     {
