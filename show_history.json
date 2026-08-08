@@ -4,7 +4,6 @@
       "name": "WOW - The Vegas Spectacular",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-09",
         "2026-06-03",
         "2026-06-05"
       ]
@@ -13,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-09",
         "2026-05-14",
         "2026-05-16",
         "2026-05-17",
@@ -87,7 +85,8 @@
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-08-08"
       ]
     },
     "HouseSeats|x country": {
@@ -328,7 +327,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-09",
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
@@ -516,13 +514,6 @@
         "2026-07-31"
       ]
     },
-    "HouseSeats|faaabulous! - the ultimate drag brunch show": {
-      "name": "Faaabulous! - The Ultimate Drag Brunch Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-09"
-      ]
-    },
     "HouseSeats|mondays dark": {
       "name": "Mondays Dark",
       "source": "HouseSeats",
@@ -540,7 +531,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-09",
         "2026-05-11",
         "2026-05-12",
         "2026-05-13",
@@ -574,27 +564,6 @@
         "2026-06-15",
         "2026-06-16",
         "2026-06-17"
-      ]
-    },
-    "HouseSeats|horns up tribute night: high priest": {
-      "name": "Horns Up Tribute Night: High Priest",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-09"
-      ]
-    },
-    "HouseSeats|bighorn rodeo 2026": {
-      "name": "BigHorn Rodeo 2026",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-09"
-      ]
-    },
-    "HouseSeats|dead meadow w/ cory shane, peaceful retreat": {
-      "name": "DEAD MEADOW w/ Cory Shane, Peaceful Retreat",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-09"
       ]
     },
     "HouseSeats|nevada ballet theatre: hansel & gretel": {
@@ -1710,7 +1679,8 @@
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-08-08"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1757,7 +1727,8 @@
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-08-08"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1774,7 +1745,8 @@
       "appearances": [
         "2026-08-05",
         "2026-08-06",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-08-08"
       ]
     },
     "HouseSeats|an evening with rita lim": {
@@ -1789,6 +1761,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-07"
+      ]
+    },
+    "HouseSeats|ial playoffs at orleans arena": {
+      "name": "IAL Playoffs at Orleans Arena",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-08"
       ]
     }
   }
