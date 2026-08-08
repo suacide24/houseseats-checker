@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-08T11:42:43 PT",
-  "last_successful_run": "2026-08-08T11:42:43 PT",
+  "last_updated": "2026-08-08T12:33:16 PT",
+  "last_successful_run": "2026-08-08T12:33:16 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "IAL Playoffs at Orleans Arena",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9400",
-      "date": "August 8th",
-      "image": "https://lv.houseseats.com/resources/media/9400.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
