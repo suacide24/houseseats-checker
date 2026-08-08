@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-07T18:55:03 PT",
-  "last_successful_run": "2026-08-07T18:55:03 PT",
+  "last_updated": "2026-08-07T20:37:07 PT",
+  "last_successful_run": "2026-08-07T20:37:07 PT",
   "email_enabled": false,
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 7th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "IAL Playoffs at Orleans Arena",
@@ -27,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 8th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 8th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
