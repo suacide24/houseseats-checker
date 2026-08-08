@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-08T10:34:18 PT",
-  "last_successful_run": "2026-08-08T10:34:18 PT",
+  "last_updated": "2026-08-08T11:42:43 PT",
+  "last_successful_run": "2026-08-08T11:42:43 PT",
   "email_enabled": false,
-  "count": 5,
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -44,6 +44,14 @@
       "date": "August 11th",
       "image": "https://lv.houseseats.com/resources/media/8170.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Film Screening - Meduza w/ Q&A",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9401",
+      "date": "August 13th",
+      "image": "https://lv.houseseats.com/resources/media/9401.jpg",
+      "rare": true
     }
   ]
 }
