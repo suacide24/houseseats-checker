@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-09T15:35:09 PT",
-  "last_successful_run": "2026-08-09T15:35:09 PT",
+  "last_updated": "2026-08-09T16:35:22 PT",
+  "last_successful_run": "2026-08-09T16:35:22 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -60,14 +60,6 @@
       "date": "August 13th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "August 15th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
     }
   ]
 }
