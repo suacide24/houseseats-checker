@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-09T12:36:31 PT",
-  "last_successful_run": "2026-08-09T12:36:31 PT",
+  "last_updated": "2026-08-09T13:37:16 PT",
+  "last_successful_run": "2026-08-09T13:37:16 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -52,6 +52,22 @@
       "date": "August 13th",
       "image": "https://lv.houseseats.com/resources/media/9401.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Puntification",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9243",
+      "date": "August 13th",
+      "image": "https://lv.houseseats.com/resources/media/9243.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "August 15th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
     }
   ]
 }
