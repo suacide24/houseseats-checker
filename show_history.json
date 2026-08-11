@@ -88,7 +88,8 @@
         "2026-08-07",
         "2026-08-08",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     },
     "HouseSeats|x country": {
@@ -154,7 +155,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-15",
         "2026-05-20",
         "2026-06-04",
@@ -251,7 +251,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
@@ -329,7 +328,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
@@ -433,7 +431,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-07-05",
@@ -442,7 +439,8 @@
         "2026-07-08",
         "2026-07-09",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     },
     "HouseSeats|twist & shout: the beatles tribute show": {
@@ -498,7 +496,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15"
@@ -532,7 +529,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-16",
         "2026-05-17",
@@ -570,7 +566,6 @@
       "name": "Nevada Ballet Theatre: Hansel & Gretel",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-19"
       ]
     },
@@ -578,7 +573,6 @@
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
@@ -593,7 +587,6 @@
       "name": "Comedy for the Ladies",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14"
       ]
@@ -602,7 +595,6 @@
       "name": "Aeromyth",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14"
       ]
@@ -611,7 +603,6 @@
       "name": "Dose of Adolescence",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
@@ -622,7 +613,6 @@
       "name": "The 2000s Throwback Dance Party: Hollywood vs Bollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15"
@@ -632,7 +622,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
@@ -661,7 +650,6 @@
       "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-12",
         "2026-05-13",
         "2026-05-14",
         "2026-05-15",
@@ -1618,7 +1606,8 @@
         "2026-08-06",
         "2026-08-07",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1701,7 +1690,8 @@
         "2026-07-28",
         "2026-08-03",
         "2026-08-04",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1734,7 +1724,8 @@
         "2026-08-07",
         "2026-08-08",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1754,7 +1745,8 @@
         "2026-08-07",
         "2026-08-08",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     },
     "HouseSeats|an evening with rita lim": {
@@ -1784,7 +1776,8 @@
       "appearances": [
         "2026-08-08",
         "2026-08-09",
-        "2026-08-10"
+        "2026-08-10",
+        "2026-08-11"
       ]
     }
   }
