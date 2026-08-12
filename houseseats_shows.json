@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-12T10:30:16 PT",
-  "last_successful_run": "2026-08-12T10:30:16 PT",
+  "last_updated": "2026-08-12T12:05:53 PT",
+  "last_successful_run": "2026-08-12T12:05:53 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Derek Hughes",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8170",
-      "date": "August 12th",
-      "image": "https://lv.houseseats.com/resources/media/8170.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "August 12th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -31,10 +15,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "August 12th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "August 12th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Derek Hughes",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8170",
+      "date": "August 13th",
+      "image": "https://lv.houseseats.com/resources/media/8170.jpg",
       "rare": false
     },
     {
@@ -52,6 +52,30 @@
       "date": "August 13th",
       "image": "https://lv.houseseats.com/resources/media/9243.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "August 13th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "A Night Of Burlesque",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9408",
+      "date": "August 13th",
+      "image": "https://lv.houseseats.com/resources/media/9408.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Brantley Gilbert - The Real American Tour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9407",
+      "date": "August 14th",
+      "image": "https://lv.houseseats.com/resources/media/9407.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

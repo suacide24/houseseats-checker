@@ -132,7 +132,8 @@
         "2026-07-25",
         "2026-07-26",
         "2026-07-29",
-        "2026-07-30"
+        "2026-07-30",
+        "2026-08-12"
       ]
     },
     "HouseSeats|the rant!": {
@@ -1790,6 +1791,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-11",
+        "2026-08-12"
+      ]
+    },
+    "HouseSeats|a night of burlesque": {
+      "name": "A Night Of Burlesque",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-12"
+      ]
+    },
+    "HouseSeats|brantley gilbert - the real american tour": {
+      "name": "Brantley Gilbert - The Real American Tour",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-08-12"
       ]
     }
