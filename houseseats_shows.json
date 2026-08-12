@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-12T15:11:24 PT",
-  "last_successful_run": "2026-08-12T15:11:24 PT",
+  "last_updated": "2026-08-12T16:11:09 PT",
+  "last_successful_run": "2026-08-12T16:11:09 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -99,6 +99,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
       "date": "August 15th",
       "image": "https://lv.houseseats.com/resources/media/8930.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Summer Songs",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9409",
+      "date": "August 16th",
+      "image": "https://lv.houseseats.com/resources/media/9409.jpg",
       "rare": true
     },
     {
