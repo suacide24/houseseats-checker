@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-12T12:05:53 PT",
-  "last_successful_run": "2026-08-12T12:05:53 PT",
+  "last_updated": "2026-08-12T13:09:17 PT",
+  "last_successful_run": "2026-08-12T13:09:17 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "August 12th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "August 12th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
@@ -68,6 +76,14 @@
       "date": "August 13th",
       "image": "https://lv.houseseats.com/resources/media/9408.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "August 13th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
