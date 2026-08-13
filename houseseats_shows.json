@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-13T05:10:33 PT",
-  "last_successful_run": "2026-08-13T05:10:33 PT",
+  "last_updated": "2026-08-13T06:58:17 PT",
+  "last_successful_run": "2026-08-13T06:58:17 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -36,14 +36,6 @@
       "date": "August 13th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "A Night Of Burlesque",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9408",
-      "date": "August 13th",
-      "image": "https://lv.houseseats.com/resources/media/9408.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
