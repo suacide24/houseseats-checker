@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-12T16:11:09 PT",
-  "last_successful_run": "2026-08-12T16:11:09 PT",
+  "last_updated": "2026-08-12T17:07:52 PT",
+  "last_successful_run": "2026-08-12T17:07:52 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 12th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "August 12th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -99,7 +91,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
       "date": "August 15th",
       "image": "https://lv.houseseats.com/resources/media/8930.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

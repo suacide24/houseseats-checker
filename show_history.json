@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-16",
         "2026-05-17",
         "2026-05-19",
@@ -90,7 +89,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|x country": {
@@ -111,7 +111,8 @@
         "2026-07-31",
         "2026-08-01",
         "2026-08-07",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -254,7 +255,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-05-16",
         "2026-05-25",
@@ -297,7 +297,8 @@
         "2026-07-16",
         "2026-07-22",
         "2026-07-23",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|fantasy": {
@@ -331,7 +332,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-05-16",
         "2026-05-17",
@@ -433,7 +433,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-07-05",
         "2026-07-06",
         "2026-07-07",
@@ -442,7 +441,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|twist & shout: the beatles tribute show": {
@@ -498,7 +498,6 @@
       "name": "ICONIQUE Nights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15"
       ]
     },
@@ -573,7 +572,6 @@
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-07-13",
         "2026-07-14",
@@ -582,25 +580,10 @@
         "2026-07-17"
       ]
     },
-    "HouseSeats|comedy for the ladies": {
-      "name": "Comedy for the Ladies",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-14"
-      ]
-    },
-    "HouseSeats|aeromyth": {
-      "name": "Aeromyth",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-14"
-      ]
-    },
     "HouseSeats|dose of adolescence": {
       "name": "Dose of Adolescence",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-05-16"
       ]
@@ -609,7 +592,6 @@
       "name": "The 2000s Throwback Dance Party: Hollywood vs Bollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15"
       ]
     },
@@ -617,7 +599,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-05-18",
         "2026-05-19",
@@ -644,7 +625,6 @@
       "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-05-16",
         "2026-05-17"
@@ -654,24 +634,15 @@
       "name": "Fomato Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15",
         "2026-05-16",
         "2026-05-17"
-      ]
-    },
-    "HouseSeats|the peter gabriel project": {
-      "name": "The Peter Gabriel Project",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-14"
       ]
     },
     "HouseSeats|fur & thundur: vegas' premier musical puppet improv show": {
       "name": "Fur & Thundur: Vegas' Premier Musical Puppet Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-14",
         "2026-05-15"
       ]
     },
@@ -1600,7 +1571,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1667,7 +1639,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1721,7 +1694,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1743,7 +1717,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|an evening with rita lim": {
@@ -1752,7 +1727,8 @@
       "appearances": [
         "2026-08-07",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1777,7 +1753,8 @@
         "2026-08-09",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|dumb human tricks": {
@@ -1785,7 +1762,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-11",
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|film screening - the end of the tour w/ q&a": {
@@ -1800,7 +1778,8 @@
       "name": "A Night Of Burlesque",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     },
     "HouseSeats|brantley gilbert - the real american tour": {
@@ -1814,7 +1793,8 @@
       "name": "Summer Songs",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12"
+        "2026-08-12",
+        "2026-08-13"
       ]
     }
   }
