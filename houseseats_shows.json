@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-13T15:48:31 PT",
-  "last_successful_run": "2026-08-13T15:48:31 PT",
+  "last_updated": "2026-08-13T16:46:22 PT",
+  "last_successful_run": "2026-08-13T16:46:22 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -52,6 +52,14 @@
       "date": "August 14th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "IAL Playoffs: Second Round",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9400",
+      "date": "August 15th",
+      "image": "https://lv.houseseats.com/resources/media/9400.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
