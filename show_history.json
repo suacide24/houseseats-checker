@@ -1803,6 +1803,20 @@
       "appearances": [
         "2026-08-13"
       ]
+    },
+    "HouseSeats|double vision - a foreigner tribute": {
+      "name": "Double Vision - A Foreigner Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-13"
+      ]
+    },
+    "HouseSeats|three lock box - the ultimate sammy hagar tribute": {
+      "name": "Three Lock Box - The Ultimate Sammy Hagar Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-13"
+      ]
     }
   }
 }
