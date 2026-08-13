@@ -1796,6 +1796,13 @@
         "2026-08-12",
         "2026-08-13"
       ]
+    },
+    "HouseSeats|vertical horizon & tonic": {
+      "name": "Vertical Horizon & Tonic",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-13"
+      ]
     }
   }
 }
