@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-13T13:53:13 PT",
-  "last_successful_run": "2026-08-13T13:53:13 PT",
+  "last_updated": "2026-08-13T14:50:50 PT",
+  "last_successful_run": "2026-08-13T14:50:50 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Film Screening - Meduza w/ Q&A",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9401",
-      "date": "August 13th",
-      "image": "https://lv.houseseats.com/resources/media/9401.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Puntification",
@@ -36,6 +28,14 @@
       "date": "August 13th",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "August 14th",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -67,14 +67,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "August 14th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Derek Hughes",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8170",
-      "date": "August 15th",
-      "image": "https://lv.houseseats.com/resources/media/8170.jpg",
       "rare": false
     },
     {
