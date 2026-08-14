@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-13T19:19:16 PT",
-  "last_successful_run": "2026-08-13T19:19:16 PT",
+  "last_updated": "2026-08-13T21:22:58 PT",
+  "last_successful_run": "2026-08-13T21:22:58 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "August 13th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "August 14th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vertical Horizon & Tonic",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9410",
-      "date": "August 14th",
-      "image": "https://lv.houseseats.com/resources/media/9410.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
