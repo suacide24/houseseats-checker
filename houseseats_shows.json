@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-14T15:27:31 PT",
-  "last_successful_run": "2026-08-14T15:27:31 PT",
+  "last_updated": "2026-08-14T15:52:24 PT",
+  "last_successful_run": "2026-08-14T15:52:24 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,14 +35,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
       "date": "August 15th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
-      "date": "August 15th",
-      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
       "rare": false
     },
     {
