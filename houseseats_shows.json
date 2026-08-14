@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-14T13:56:33 PT",
-  "last_successful_run": "2026-08-14T13:56:33 PT",
+  "last_updated": "2026-08-14T14:32:09 PT",
+  "last_successful_run": "2026-08-14T14:32:09 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "August 14th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
