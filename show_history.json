@@ -643,7 +643,8 @@
         "2026-06-23",
         "2026-06-24",
         "2026-07-16",
-        "2026-07-17"
+        "2026-07-17",
+        "2026-08-14"
       ]
     },
     "HouseSeats|movie night - an improv double feature": {
@@ -1796,6 +1797,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-13",
+        "2026-08-14"
+      ]
+    },
+    "HouseSeats|lizz hader and special guests": {
+      "name": "Lizz Hader and Special Guests",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-08-14"
       ]
     }

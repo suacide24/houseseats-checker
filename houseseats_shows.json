@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-14T08:55:44 PT",
-  "last_successful_run": "2026-08-14T08:55:44 PT",
+  "last_updated": "2026-08-14T09:58:39 PT",
+  "last_successful_run": "2026-08-14T09:58:39 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -23,10 +23,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "IAL Playoffs: Second Round",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9400",
-      "date": "August 15th",
-      "image": "https://lv.houseseats.com/resources/media/9400.jpg",
+      "name": "Lizz Hader and Special Guests",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9413",
+      "date": "August 14th",
+      "image": "https://lv.houseseats.com/resources/media/9413.jpg",
       "rare": true
     },
     {
@@ -35,6 +35,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
       "date": "August 15th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
+      "date": "August 15th",
+      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
       "rare": false
     },
     {
