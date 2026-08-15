@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-17",
         "2026-05-19",
         "2026-05-20",
@@ -91,7 +90,8 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     },
     "HouseSeats|x country": {
@@ -232,7 +232,6 @@
       "name": "Mat Franco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-07-16"
       ]
     },
@@ -256,7 +255,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-25",
         "2026-05-26",
         "2026-05-27",
@@ -298,7 +296,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-08-12",
-        "2026-08-13"
+        "2026-08-13",
+        "2026-08-15"
       ]
     },
     "HouseSeats|fantasy": {
@@ -334,7 +333,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-17",
         "2026-05-18",
         "2026-05-19",
@@ -523,7 +521,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-17",
         "2026-05-18",
         "2026-05-19",
@@ -573,13 +570,6 @@
         "2026-07-17"
       ]
     },
-    "HouseSeats|dose of adolescence": {
-      "name": "Dose of Adolescence",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-16"
-      ]
-    },
     "HouseSeats|brunch and beats - live sessions at cantinetta": {
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
@@ -609,7 +599,6 @@
       "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-17"
       ]
     },
@@ -617,29 +606,13 @@
       "name": "Fomato Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-17"
-      ]
-    },
-    "HouseSeats|sunset jazz series presents: jarez": {
-      "name": "Sunset Jazz Series Presents: JaRez",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-16"
-      ]
-    },
-    "HouseSeats|jukebox jams": {
-      "name": "Jukebox Jams",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-16"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
       "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-06-23",
         "2026-06-24",
         "2026-07-16",
@@ -651,7 +624,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-16",
         "2026-05-17",
         "2026-05-18",
         "2026-05-19",
@@ -1002,7 +974,8 @@
         "2026-07-21",
         "2026-07-22",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1610,7 +1583,8 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1666,7 +1640,8 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1700,7 +1675,8 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1736,7 +1712,8 @@
         "2026-08-11",
         "2026-08-12",
         "2026-08-13",
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     },
     "HouseSeats|film screening - the end of the tour w/ q&a": {
@@ -1811,7 +1788,8 @@
       "name": "Velvet Nights with Sina Foley",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14"
+        "2026-08-14",
+        "2026-08-15"
       ]
     }
   }
