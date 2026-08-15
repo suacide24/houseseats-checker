@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-15T11:34:37 PT",
-  "last_successful_run": "2026-08-15T11:34:37 PT",
+  "last_updated": "2026-08-15T12:24:14 PT",
+  "last_successful_run": "2026-08-15T12:24:14 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "An Evening with Rita Lim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
-      "date": "August 15th",
-      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
