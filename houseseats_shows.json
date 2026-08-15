@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-15T12:24:14 PT",
-  "last_successful_run": "2026-08-15T12:24:14 PT",
+  "last_updated": "2026-08-15T12:45:58 PT",
+  "last_successful_run": "2026-08-15T12:45:58 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
@@ -15,18 +15,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 15th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Dumb Human Tricks",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8930",
       "date": "August 15th",
       "image": "https://lv.houseseats.com/resources/media/8930.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 16th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
