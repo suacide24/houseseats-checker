@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-17",
         "2026-05-19",
         "2026-05-20",
         "2026-05-22",
@@ -91,7 +90,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-15"
+        "2026-08-15",
+        "2026-08-16"
       ]
     },
     "HouseSeats|x country": {
@@ -333,7 +333,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-17",
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
@@ -508,7 +507,6 @@
       "name": "Mondays Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-17",
         "2026-05-18",
         "2026-06-06",
         "2026-06-07",
@@ -521,7 +519,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-17",
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
@@ -595,20 +592,6 @@
         "2026-06-12"
       ]
     },
-    "HouseSeats|rocklesque: the downward spiral": {
-      "name": "ROCKLESQUE: THE DOWNWARD SPIRAL",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-17"
-      ]
-    },
-    "HouseSeats|fomato improv show": {
-      "name": "Fomato Improv Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-17"
-      ]
-    },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
       "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
       "source": "HouseSeats",
@@ -624,7 +607,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-17",
         "2026-05-18",
         "2026-05-19",
         "2026-05-20",
@@ -975,7 +957,8 @@
         "2026-07-22",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-15"
+        "2026-08-15",
+        "2026-08-16"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1584,7 +1567,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-15"
+        "2026-08-15",
+        "2026-08-16"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1641,7 +1625,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-15"
+        "2026-08-15",
+        "2026-08-16"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1789,7 +1774,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-14",
-        "2026-08-15"
+        "2026-08-15",
+        "2026-08-16"
       ]
     }
   }
