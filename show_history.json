@@ -446,7 +446,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-08-17"
       ]
     },
     "HouseSeats|nathan burton magic show": {
@@ -695,7 +696,8 @@
         "2026-06-14",
         "2026-06-15",
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-08-17"
       ]
     },
     "HouseSeats|dustin lynch": {
@@ -1308,7 +1310,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-08-17"
       ]
     },
     "HouseSeats|farrell dillon at the magicians room": {
@@ -1324,7 +1327,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-07-08",
-        "2026-07-09"
+        "2026-07-09",
+        "2026-08-17"
       ]
     },
     "HouseSeats|marc savard comedy hypnosis": {
@@ -1775,6 +1779,48 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
+        "2026-08-17"
+      ]
+    },
+    "HouseSeats|rich little at laugh factory las vegas": {
+      "name": "Rich Little at Laugh Factory Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-17"
+      ]
+    },
+    "HouseSeats|merle norman cosmetic studio - makeup service (henderson)": {
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-17"
+      ]
+    },
+    "HouseSeats|merle norman cosmetic studio - makeup service (las vegas)": {
+      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-17"
+      ]
+    },
+    "HouseSeats|the heist \u2013 a musical takeover": {
+      "name": "The Heist \u2013 A Musical Takeover",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-17"
+      ]
+    },
+    "HouseSeats|late night lumpia comedy show - come lap wit us!": {
+      "name": "Late Night Lumpia Comedy Show - Come Lap Wit Us!",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-17"
+      ]
+    },
+    "HouseSeats|flashpants - 80's party band": {
+      "name": "FlashPants - 80's Party Band",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-08-17"
       ]
     }
