@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-17T08:52:42 PT",
-  "last_successful_run": "2026-08-17T08:52:42 PT",
+  "last_updated": "2026-08-17T09:31:57 PT",
+  "last_successful_run": "2026-08-17T09:31:57 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -15,51 +15,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Rich Little at Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9231",
-      "date": "August 17th",
-      "image": "https://lv.houseseats.com/resources/media/9231.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Wastin' Away",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9326",
-      "date": "August 17th",
-      "image": "https://lv.houseseats.com/resources/media/9326.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 17th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Laugh Factory Las Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9164",
-      "date": "August 17th",
-      "image": "https://lv.houseseats.com/resources/media/9164.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9283",
-      "date": "August 18th",
-      "image": "https://lv.houseseats.com/resources/media/9283.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9282",
-      "date": "August 18th",
-      "image": "https://lv.houseseats.com/resources/media/9282.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -79,50 +39,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Twist & SHOUT: The Beatles Tribute Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9261",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/9261.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Movie Night - An Improv Double Feature",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
       "date": "August 20th",
       "image": "https://lv.houseseats.com/resources/media/9303.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Elton John & Beatles: Made In England",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8823",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/8823.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Heist \u2013 A Musical Takeover",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8938",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/8938.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Late Night Lumpia Comedy Show - Come Lap Wit Us!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9204",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/9204.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "FlashPants - 80's Party Band",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9293",
-      "date": "August 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9293.jpg",
       "rare": true
     }
   ]
