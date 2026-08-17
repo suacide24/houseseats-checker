@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-17T12:31:07 PT",
-  "last_successful_run": "2026-08-17T12:31:07 PT",
+  "last_updated": "2026-08-17T13:31:09 PT",
+  "last_successful_run": "2026-08-17T13:31:09 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Acoustic Night with Robin Nievera",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
-      "date": "August 17th",
-      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -51,6 +43,38 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
       "date": "August 20th",
       "image": "https://lv.houseseats.com/resources/media/9303.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Las Vegas Songwriters Festival at Mandalay Bay",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9417",
+      "date": "August 20th",
+      "image": "https://lv.houseseats.com/resources/media/9417.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "James Caselton: Timeless Tunes",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9404",
+      "date": "August 21st",
+      "image": "https://lv.houseseats.com/resources/media/9404.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "August 21st",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mik Thomas Presents: The Gauntlet",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
+      "date": "August 21st",
+      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
       "rare": true
     }
   ]
