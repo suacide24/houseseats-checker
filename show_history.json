@@ -246,7 +246,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-07-25"
+        "2026-07-25",
+        "2026-08-18"
       ]
     },
     "HouseSeats|whisky mixer - improv party night": {
@@ -1657,7 +1658,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-15"
+        "2026-08-15",
+        "2026-08-18"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1836,6 +1838,13 @@
     },
     "HouseSeats|cookie watkins - tina turner tribute": {
       "name": "Cookie Watkins - Tina Turner Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-18"
+      ]
+    },
+    "HouseSeats|amore with kelly vohnn - an evening of love songs and fun": {
+      "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
       "source": "HouseSeats",
       "appearances": [
         "2026-08-18"

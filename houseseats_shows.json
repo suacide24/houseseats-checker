@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-18T12:30:23 PT",
-  "last_successful_run": "2026-08-18T12:30:23 PT",
+  "last_updated": "2026-08-18T13:28:27 PT",
+  "last_successful_run": "2026-08-18T13:28:27 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -84,6 +84,30 @@
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "An Evening with Rita Lim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9416",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9416.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Scene Stealers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
