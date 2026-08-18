@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-22",
         "2026-05-23",
@@ -92,7 +91,8 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|x country": {
@@ -145,7 +145,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -217,7 +216,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -333,7 +331,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -518,7 +515,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-23",
@@ -547,13 +543,6 @@
         "2026-06-17"
       ]
     },
-    "HouseSeats|nevada ballet theatre: hansel & gretel": {
-      "name": "Nevada Ballet Theatre: Hansel & Gretel",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-19"
-      ]
-    },
     "HouseSeats|mik thomas presents: the gauntlet": {
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
@@ -563,14 +552,14 @@
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|brunch and beats - live sessions at cantinetta": {
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -605,7 +594,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-07-12",
@@ -614,14 +602,14 @@
         "2026-07-15",
         "2026-07-16",
         "2026-08-16",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
       "name": "Vegas' Dumbest Show: Crazy, Stupid, Sexy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -632,7 +620,6 @@
       "name": "Jerrod Niemann",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22"
@@ -642,7 +629,6 @@
       "name": "Murder Mystery: Cocktail Party at the Tavern",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22"
@@ -652,7 +638,6 @@
       "name": "Lockwood Barr and Megan Baker",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -663,7 +648,6 @@
       "name": "Swan Songs of a Tiger Mom",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-19",
         "2026-05-20",
         "2026-05-21",
         "2026-05-22",
@@ -958,7 +942,8 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1501,7 +1486,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1593,7 +1579,8 @@
         "2026-08-04",
         "2026-08-10",
         "2026-08-11",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1633,7 +1620,8 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1783,7 +1771,8 @@
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1832,14 +1821,16 @@
       "name": "Las Vegas Songwriters Festival at Mandalay Bay",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     },
     "HouseSeats|james caselton: timeless tunes": {
       "name": "James Caselton: Timeless Tunes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17"
+        "2026-08-17",
+        "2026-08-18"
       ]
     }
   }
