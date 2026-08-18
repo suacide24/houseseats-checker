@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-18T11:42:50 PT",
-  "last_successful_run": "2026-08-18T11:42:50 PT",
+  "last_updated": "2026-08-18T12:30:23 PT",
+  "last_successful_run": "2026-08-18T12:30:23 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Velvet Nights with Sina Foley",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
-      "date": "August 18th",
-      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
