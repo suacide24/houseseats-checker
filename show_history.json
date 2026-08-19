@@ -1858,6 +1858,13 @@
         "2026-08-18",
         "2026-08-19"
       ]
+    },
+    "HouseSeats|las vegas minifest": {
+      "name": "Las Vegas miniFEST",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-19"
+      ]
     }
   }
 }

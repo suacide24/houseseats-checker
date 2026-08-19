@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-19T12:52:52 PT",
-  "last_successful_run": "2026-08-19T12:52:52 PT",
+  "last_updated": "2026-08-19T13:32:40 PT",
+  "last_successful_run": "2026-08-19T13:32:40 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -92,6 +92,14 @@
       "date": "August 22nd",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Las Vegas miniFEST",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9415",
+      "date": "August 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9415.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
