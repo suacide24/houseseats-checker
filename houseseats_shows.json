@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-19T10:53:31 PT",
-  "last_successful_run": "2026-08-19T10:53:31 PT",
+  "last_updated": "2026-08-19T11:40:09 PT",
+  "last_successful_run": "2026-08-19T11:40:09 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -115,6 +115,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "August 24th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Velvet Nights with Sina Foley",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
+      "date": "August 25th",
+      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
     }
   ]
