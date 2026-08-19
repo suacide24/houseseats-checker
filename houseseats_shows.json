@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-19T15:53:39 PT",
-  "last_successful_run": "2026-08-19T15:53:39 PT",
+  "last_updated": "2026-08-19T16:26:15 PT",
+  "last_successful_run": "2026-08-19T16:26:15 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 19th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "August 19th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -35,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
       "date": "August 20th",
       "image": "https://lv.houseseats.com/resources/media/9303.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Las Vegas Songwriters Festival at Mandalay Bay",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9417",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/9417.jpg",
       "rare": false
     },
     {
