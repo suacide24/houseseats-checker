@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-22",
         "2026-05-23",
         "2026-05-26",
@@ -92,7 +91,8 @@
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|x country": {
@@ -122,7 +122,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-27",
         "2026-05-31",
         "2026-06-07",
@@ -145,7 +144,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-07-27",
@@ -159,7 +157,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-06-04",
         "2026-07-13",
         "2026-08-10",
@@ -217,7 +214,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-07-20",
@@ -248,7 +244,8 @@
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|whisky mixer - improv party night": {
@@ -318,7 +315,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-06-10",
         "2026-06-24",
@@ -333,7 +329,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-05-30",
@@ -517,7 +512,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-23",
         "2026-05-24",
@@ -555,14 +549,14 @@
         "2026-07-16",
         "2026-07-17",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|brunch and beats - live sessions at cantinetta": {
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-05-26",
@@ -596,7 +590,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-07-12",
         "2026-07-13",
@@ -605,14 +598,14 @@
         "2026-07-16",
         "2026-08-16",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
       "name": "Vegas' Dumbest Show: Crazy, Stupid, Sexy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-05-23"
@@ -622,7 +615,6 @@
       "name": "Jerrod Niemann",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22"
       ]
@@ -631,7 +623,6 @@
       "name": "Murder Mystery: Cocktail Party at the Tavern",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22"
       ]
@@ -640,7 +631,6 @@
       "name": "Lockwood Barr and Megan Baker",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-05-23"
@@ -650,7 +640,6 @@
       "name": "Swan Songs of a Tiger Mom",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-05-23"
@@ -660,7 +649,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-20",
         "2026-05-21",
         "2026-05-22",
         "2026-05-23",
@@ -945,7 +933,8 @@
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|john lloyd young: jukebox hero": {
@@ -1489,7 +1478,8 @@
         "2026-08-13",
         "2026-08-14",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1562,7 +1552,8 @@
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1583,7 +1574,8 @@
         "2026-08-10",
         "2026-08-11",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1624,7 +1616,8 @@
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1660,7 +1653,8 @@
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1826,7 +1820,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|james caselton: timeless tunes": {
@@ -1834,28 +1829,32 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-17",
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|cookie watkins - tina turner tribute": {
       "name": "Cookie Watkins - Tina Turner Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|amore with kelly vohnn - an evening of love songs and fun": {
       "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     },
     "HouseSeats|rocklesque: the final girl sleep away camp": {
       "name": "ROCKLESQUE: The Final Girl Sleep Away Camp",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18"
+        "2026-08-18",
+        "2026-08-19"
       ]
     }
   }

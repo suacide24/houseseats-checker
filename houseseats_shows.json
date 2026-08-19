@@ -1,23 +1,23 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-18T16:48:35 PT",
-  "last_successful_run": "2026-08-18T16:48:35 PT",
+  "last_updated": "2026-08-18T18:31:44 PT",
+  "last_successful_run": "2026-08-18T18:31:44 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "August 18th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
+      "date": "August 19th",
+      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 18th",
+      "date": "August 19th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
@@ -25,16 +25,8 @@
       "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 18th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
       "date": "August 19th",
-      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -51,7 +43,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9417",
       "date": "August 20th",
       "image": "https://lv.houseseats.com/resources/media/9417.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -59,7 +51,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9404",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9404.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -91,7 +83,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
