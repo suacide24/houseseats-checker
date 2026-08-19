@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-19T11:40:09 PT",
-  "last_successful_run": "2026-08-19T11:40:09 PT",
+  "last_updated": "2026-08-19T12:29:04 PT",
+  "last_successful_run": "2026-08-19T12:29:04 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9342",
-      "date": "August 19th",
-      "image": "https://lv.houseseats.com/resources/media/9342.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
