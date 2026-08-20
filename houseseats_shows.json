@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T05:56:20 PT",
-  "last_successful_run": "2026-08-20T05:56:20 PT",
+  "last_updated": "2026-08-20T06:51:01 PT",
+  "last_successful_run": "2026-08-20T06:51:01 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -84,14 +84,6 @@
       "date": "August 23rd",
       "image": "https://lv.houseseats.com/resources/media/9415.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROCKLESQUE: The Final Girl Sleep Away Camp",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9252",
-      "date": "August 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9252.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
