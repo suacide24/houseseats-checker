@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T13:32:32 PT",
-  "last_successful_run": "2026-08-20T13:32:32 PT",
+  "last_updated": "2026-08-20T14:31:39 PT",
+  "last_successful_run": "2026-08-20T14:31:39 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 20th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "August 20th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
