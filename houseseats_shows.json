@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T09:38:57 PT",
-  "last_successful_run": "2026-08-20T09:38:57 PT",
+  "last_updated": "2026-08-20T10:33:04 PT",
+  "last_successful_run": "2026-08-20T10:33:04 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Movie Night - An Improv Double Feature",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9303",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/9303.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
