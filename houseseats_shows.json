@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T11:45:17 PT",
-  "last_successful_run": "2026-08-20T11:45:17 PT",
+  "last_updated": "2026-08-20T12:34:07 PT",
+  "last_successful_run": "2026-08-20T12:34:07 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
@@ -27,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9404",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9404.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -75,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9416",
       "date": "August 22nd",
       "image": "https://lv.houseseats.com/resources/media/9416.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
