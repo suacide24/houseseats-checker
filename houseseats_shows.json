@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T18:37:17 PT",
-  "last_successful_run": "2026-08-20T18:37:17 PT",
+  "last_updated": "2026-08-20T20:06:39 PT",
+  "last_successful_run": "2026-08-20T20:06:39 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "James Caselton: Timeless Tunes",
