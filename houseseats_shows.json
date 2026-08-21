@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-21T13:54:01 PT",
-  "last_successful_run": "2026-08-21T13:54:01 PT",
+  "last_updated": "2026-08-21T14:28:26 PT",
+  "last_successful_run": "2026-08-21T14:28:26 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -35,14 +35,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "An Evening with Rita Lim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
-      "date": "August 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
       "rare": false
     },
     {
