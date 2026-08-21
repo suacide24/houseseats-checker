@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T16:53:26 PT",
-  "last_successful_run": "2026-08-20T16:53:26 PT",
+  "last_updated": "2026-08-20T18:37:17 PT",
+  "last_successful_run": "2026-08-20T18:37:17 PT",
   "email_enabled": false,
   "count": 15,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 20th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
@@ -44,6 +36,14 @@
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 21st",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -107,7 +107,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9415",
       "date": "August 23rd",
       "image": "https://lv.houseseats.com/resources/media/9415.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
