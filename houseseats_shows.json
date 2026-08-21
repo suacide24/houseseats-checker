@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-21T12:50:17 PT",
-  "last_successful_run": "2026-08-21T12:50:17 PT",
+  "last_updated": "2026-08-21T13:29:35 PT",
+  "last_successful_run": "2026-08-21T13:29:35 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "August 21st",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
@@ -84,6 +92,22 @@
       "date": "August 25th",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "August 25th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tease After Dark: Burlesque Revue",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
+      "date": "August 25th",
+      "image": "https://lv.houseseats.com/resources/media/9362.jpg",
+      "rare": true
     }
   ]
 }

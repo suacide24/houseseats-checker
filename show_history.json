@@ -1007,7 +1007,8 @@
         "2026-06-19",
         "2026-06-20",
         "2026-06-21",
-        "2026-06-23"
+        "2026-06-23",
+        "2026-08-21"
       ]
     },
     "HouseSeats|pablo cruise & pure prairie league": {
@@ -1864,6 +1865,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-20",
+        "2026-08-21"
+      ]
+    },
+    "HouseSeats|ikons of rock": {
+      "name": "Ikons of Rock",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-08-21"
       ]
     }
