@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-20T20:06:39 PT",
-  "last_successful_run": "2026-08-20T20:06:39 PT",
+  "last_updated": "2026-08-20T21:10:06 PT",
+  "last_successful_run": "2026-08-20T21:10:06 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -12,14 +12,6 @@
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9404.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder at Boca Park - A Scandal In High Society",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9340",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/9340.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
