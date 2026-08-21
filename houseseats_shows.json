@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-21T07:38:49 PT",
-  "last_successful_run": "2026-08-21T07:38:49 PT",
+  "last_updated": "2026-08-21T08:37:11 PT",
+  "last_successful_run": "2026-08-21T08:37:11 PT",
   "email_enabled": false,
   "count": 12,
   "shows": [
@@ -31,18 +31,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Mik Thomas Presents: The Gauntlet",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/9273.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 21st",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
