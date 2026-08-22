@@ -1826,11 +1826,19 @@
       "name": "Ikons of Rock",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
       "name": "ROMERO VS LOPEZ at T-Mobile Arena",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-22"
+      ]
+    },
+    "HouseSeats|film screening: goodfellas w/ geoff schumacher": {
+      "name": "Film Screening: Goodfellas w/ Geoff Schumacher",
       "source": "HouseSeats",
       "appearances": [
         "2026-08-22"
