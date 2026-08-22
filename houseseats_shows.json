@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-21T19:37:22 PT",
-  "last_successful_run": "2026-08-21T19:37:22 PT",
+  "last_updated": "2026-08-21T20:44:43 PT",
+  "last_successful_run": "2026-08-21T20:44:43 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROMERO VS LOPEZ at T-Mobile Arena",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9421",
-      "date": "August 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9421.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
