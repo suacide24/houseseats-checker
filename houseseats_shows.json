@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-21T18:25:52 PT",
-  "last_successful_run": "2026-08-21T18:25:52 PT",
+  "last_updated": "2026-08-21T19:37:22 PT",
+  "last_successful_run": "2026-08-21T19:37:22 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
@@ -11,14 +11,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
       "date": "August 21st",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "August 22nd",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
