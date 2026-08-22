@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-22T02:30:15 PT",
-  "last_successful_run": "2026-08-22T02:30:15 PT",
+  "last_updated": "2026-08-22T03:27:24 PT",
+  "last_successful_run": "2026-08-22T03:27:24 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
@@ -31,18 +31,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 22nd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Scene Stealers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "August 22nd",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     },
     {
