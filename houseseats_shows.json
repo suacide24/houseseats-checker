@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-22T14:47:42 PT",
-  "last_successful_run": "2026-08-22T14:47:42 PT",
+  "last_updated": "2026-08-22T15:25:56 PT",
+  "last_successful_run": "2026-08-22T15:25:56 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,14 +67,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
       "date": "August 25th",
       "image": "https://lv.houseseats.com/resources/media/9362.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Film Screening: Goodfellas w/ Geoff Schumacher",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9420",
-      "date": "August 26th",
-      "image": "https://lv.houseseats.com/resources/media/9420.jpg",
       "rare": true
     }
   ]
