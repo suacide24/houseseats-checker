@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
@@ -93,7 +92,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|x country": {
@@ -119,7 +119,8 @@
         "2026-08-14",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -246,7 +247,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|whisky mixer - improv party night": {
@@ -274,7 +276,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-05-24",
         "2026-06-03",
         "2026-06-04",
@@ -370,13 +371,6 @@
         "2026-07-10",
         "2026-07-11",
         "2026-07-12"
-      ]
-    },
-    "HouseSeats|punk rock brunch": {
-      "name": "Punk Rock Brunch",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -507,7 +501,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-05-24",
         "2026-05-25",
         "2026-05-26",
@@ -596,32 +589,10 @@
         "2026-08-20"
       ]
     },
-    "HouseSeats|vegas' dumbest show: crazy, stupid, sexy": {
-      "name": "Vegas' Dumbest Show: Crazy, Stupid, Sexy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
-      ]
-    },
-    "HouseSeats|lockwood barr and megan baker": {
-      "name": "Lockwood Barr and Megan Baker",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
-      ]
-    },
-    "HouseSeats|swan songs of a tiger mom": {
-      "name": "Swan Songs of a Tiger Mom",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
-      ]
-    },
     "HouseSeats|wastin' away": {
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -646,32 +617,10 @@
         "2026-08-17"
       ]
     },
-    "HouseSeats|dustin lynch": {
-      "name": "Dustin Lynch",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
-      ]
-    },
-    "HouseSeats|the kings of queen - tribute to queen": {
-      "name": "The Kings of Queen - Tribute to Queen",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
-      ]
-    },
-    "HouseSeats|the eras of taylor - taylor swift tribute": {
-      "name": "THE ERAS OF TAYLOR - Taylor Swift Tribute",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-23"
-      ]
-    },
     "HouseSeats|summer comedy series": {
       "name": "Summer Comedy Series",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-07-24",
         "2026-07-25"
       ]
@@ -680,7 +629,6 @@
       "name": "Hot Fix Side Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-05-27"
       ]
     },
@@ -688,7 +636,6 @@
       "name": "Broadway Unhinged",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-23",
         "2026-05-24",
         "2026-05-27"
       ]
@@ -1008,7 +955,8 @@
         "2026-06-20",
         "2026-06-21",
         "2026-06-23",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|pablo cruise & pure prairie league": {
@@ -1449,7 +1397,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1525,7 +1474,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1591,7 +1541,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1749,7 +1700,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1831,7 +1783,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|rocklesque: the final girl sleep away camp": {
@@ -1849,7 +1802,8 @@
       "appearances": [
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-08-22"
       ]
     },
     "HouseSeats|tony n\u2019 tina\u2019s wedding": {
@@ -1873,6 +1827,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-21"
+      ]
+    },
+    "HouseSeats|romero vs lopez at t-mobile arena": {
+      "name": "ROMERO VS LOPEZ at T-Mobile Arena",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-22"
       ]
     }
   }

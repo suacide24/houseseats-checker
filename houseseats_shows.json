@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-21T16:51:19 PT",
-  "last_successful_run": "2026-08-21T16:51:19 PT",
+  "last_updated": "2026-08-21T18:25:52 PT",
+  "last_successful_run": "2026-08-21T18:25:52 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mik Thomas Presents: The Gauntlet",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
-      "date": "August 21st",
-      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
@@ -39,6 +23,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "ROMERO VS LOPEZ at T-Mobile Arena",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9421",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9421.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9416",
       "date": "August 22nd",
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "August 22nd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
