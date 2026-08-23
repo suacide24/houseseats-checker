@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-23T13:51:32 PT",
-  "last_successful_run": "2026-08-23T13:51:32 PT",
+  "last_updated": "2026-08-23T14:25:26 PT",
+  "last_successful_run": "2026-08-23T14:25:26 PT",
   "email_enabled": false,
   "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Las Vegas miniFEST",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9415",
-      "date": "August 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9415.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -67,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "August 27th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "August 29th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     }
   ]
