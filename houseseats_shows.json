@@ -1,32 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-22T16:46:57 PT",
-  "last_successful_run": "2026-08-22T16:46:57 PT",
+  "last_updated": "2026-08-22T18:40:26 PT",
+  "last_successful_run": "2026-08-22T18:40:26 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Scene Stealers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
-      "date": "August 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Las Vegas miniFEST",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9415",
       "date": "August 23rd",
       "image": "https://lv.houseseats.com/resources/media/9415.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
@@ -67,7 +59,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
       "date": "August 25th",
       "image": "https://lv.houseseats.com/resources/media/9362.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
