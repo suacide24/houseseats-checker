@@ -156,7 +156,8 @@
         "2026-07-28",
         "2026-07-29",
         "2026-07-30",
-        "2026-07-31"
+        "2026-07-31",
+        "2026-08-24"
       ]
     },
     "HouseSeats|blue man group": {
@@ -222,7 +223,8 @@
         "2026-07-21",
         "2026-07-22",
         "2026-07-23",
-        "2026-07-24"
+        "2026-07-24",
+        "2026-08-24"
       ]
     },
     "HouseSeats|mat franco": {
@@ -995,7 +997,8 @@
         "2026-08-08",
         "2026-08-09",
         "2026-08-16",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1842,6 +1845,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-22"
+      ]
+    },
+    "HouseSeats|mj the evolution": {
+      "name": "MJ The Evolution",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-24"
       ]
     }
   }
