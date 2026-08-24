@@ -235,7 +235,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
@@ -256,7 +255,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
@@ -501,7 +499,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
@@ -642,7 +639,6 @@
       "name": "Jaq Jaq, Lexsey, Big Kev and the Missing Piece",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28",
@@ -653,24 +649,15 @@
       "name": "America\u2019s Next Top Model Minority",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25",
         "2026-05-26",
         "2026-05-27",
         "2026-05-28"
-      ]
-    },
-    "HouseSeats|mj the evolution": {
-      "name": "MJ The Evolution",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-25"
       ]
     },
     "HouseSeats|seoulmates comey night and bts karaoke after party": {
       "name": "SeoulMates Comey Night and BTS Karaoke After Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-25",
         "2026-05-26"
       ]
     },
@@ -955,7 +942,8 @@
         "2026-06-23",
         "2026-08-21",
         "2026-08-22",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|pablo cruise & pure prairie league": {
@@ -1399,7 +1387,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-22",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1477,7 +1466,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-22",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1545,7 +1535,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-22",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1705,7 +1696,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-22",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1833,7 +1825,8 @@
       "appearances": [
         "2026-08-21",
         "2026-08-22",
-        "2026-08-23"
+        "2026-08-23",
+        "2026-08-24"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {

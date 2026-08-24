@@ -1,32 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-23T16:47:26 PT",
-  "last_successful_run": "2026-08-23T16:47:26 PT",
+  "last_updated": "2026-08-23T18:38:20 PT",
+  "last_successful_run": "2026-08-23T18:38:20 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Acoustic Night with Robin Nievera",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "August 24th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 24th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
