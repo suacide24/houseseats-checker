@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-24T15:30:26 PT",
-  "last_successful_run": "2026-08-24T15:30:26 PT",
+  "last_updated": "2026-08-24T16:25:25 PT",
+  "last_successful_run": "2026-08-24T16:25:25 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -39,19 +39,19 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "August 25th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "ROUGE",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
       "date": "August 25th",
       "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Atomic Saloon Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9397",
-      "date": "August 25th",
-      "image": "https://lv.houseseats.com/resources/media/9397.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -75,14 +75,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "August 28th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "August 30th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     }
   ]
