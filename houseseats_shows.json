@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-24T13:34:32 PT",
-  "last_successful_run": "2026-08-24T13:34:32 PT",
+  "last_updated": "2026-08-24T14:33:05 PT",
+  "last_successful_run": "2026-08-24T14:33:05 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "MJ The Evolution",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7611",
-      "date": "August 24th",
-      "image": "https://lv.houseseats.com/resources/media/7611.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
