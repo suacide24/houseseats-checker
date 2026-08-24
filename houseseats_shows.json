@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-23T18:38:20 PT",
-  "last_successful_run": "2026-08-23T18:38:20 PT",
+  "last_updated": "2026-08-23T20:07:23 PT",
+  "last_successful_run": "2026-08-23T20:07:23 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -43,14 +43,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9362",
       "date": "August 25th",
       "image": "https://lv.houseseats.com/resources/media/9362.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "August 27th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     }
   ]
