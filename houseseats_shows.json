@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-24T21:09:06 PT",
-  "last_successful_run": "2026-08-24T21:09:06 PT",
+  "last_updated": "2026-08-24T22:05:52 PT",
+  "last_successful_run": "2026-08-24T22:05:52 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
@@ -55,14 +55,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "August 28th",
@@ -75,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "August 28th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "August 29th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     }
   ]
