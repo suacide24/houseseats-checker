@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -95,7 +94,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|x country": {
@@ -146,7 +146,8 @@
         "2026-07-30",
         "2026-08-12",
         "2026-08-19",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|the rant!": {
@@ -158,7 +159,8 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|blue man group": {
@@ -225,7 +227,8 @@
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|mat franco": {
@@ -239,7 +242,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -259,7 +261,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -503,7 +504,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -546,7 +546,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -643,7 +642,6 @@
       "name": "Jaq Jaq, Lexsey, Big Kev and the Missing Piece",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29"
@@ -653,23 +651,14 @@
       "name": "America\u2019s Next Top Model Minority",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28"
-      ]
-    },
-    "HouseSeats|seoulmates comey night and bts karaoke after party": {
-      "name": "SeoulMates Comey Night and BTS Karaoke After Party",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-26"
       ]
     },
     "HouseSeats|dtlv melodic rap showcase": {
       "name": "DTLV Melodic Rap Showcase",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-26",
         "2026-05-27",
         "2026-05-28",
         "2026-05-29",
@@ -947,7 +936,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|pablo cruise & pure prairie league": {
@@ -1393,7 +1383,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1541,7 +1532,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1702,7 +1694,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1831,7 +1824,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
