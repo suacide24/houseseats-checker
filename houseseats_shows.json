@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-25T09:41:10 PT",
-  "last_successful_run": "2026-08-25T09:41:10 PT",
+  "last_updated": "2026-08-25T10:34:39 PT",
+  "last_successful_run": "2026-08-25T10:34:39 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -59,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "August 28th",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Heather Anne Lomax",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9422",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9422.jpg",
       "rare": true
     },
     {
