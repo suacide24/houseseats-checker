@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-25T11:43:55 PT",
-  "last_successful_run": "2026-08-25T11:43:55 PT",
+  "last_updated": "2026-08-25T12:34:50 PT",
+  "last_successful_run": "2026-08-25T12:34:50 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Velvet Nights with Sina Foley",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
-      "date": "August 25th",
-      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tease After Dark: Burlesque Revue",
@@ -47,10 +39,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Atomic Saloon Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9397",
+      "date": "August 26th",
+      "image": "https://lv.houseseats.com/resources/media/9397.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "August 27th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9416",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9416.jpg",
       "rare": false
     },
     {
@@ -75,6 +83,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "August 28th",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Acoustic Night with Robin Nievera",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
+      "date": "August 31st",
+      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
       "rare": false
     }
   ]

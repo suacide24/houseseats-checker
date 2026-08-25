@@ -1463,7 +1463,8 @@
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1778,7 +1779,8 @@
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
-        "2026-08-22"
+        "2026-08-22",
+        "2026-08-25"
       ]
     },
     "HouseSeats|rocklesque: the final girl sleep away camp": {
@@ -1853,7 +1855,8 @@
       "name": "Atomic Saloon Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-24"
+        "2026-08-24",
+        "2026-08-25"
       ]
     },
     "HouseSeats|heather anne lomax": {
