@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-05-30",
@@ -95,7 +94,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|x country": {
@@ -129,7 +129,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-31",
         "2026-06-07",
         "2026-06-09",
@@ -160,7 +159,8 @@
         "2026-07-30",
         "2026-07-31",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|blue man group": {
@@ -228,7 +228,8 @@
         "2026-07-23",
         "2026-07-24",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|mat franco": {
@@ -242,7 +243,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-07-21",
@@ -261,7 +261,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-07-14",
@@ -396,7 +395,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-06-09",
         "2026-06-10",
@@ -487,7 +485,8 @@
         "2026-07-29",
         "2026-07-30",
         "2026-07-31",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -505,7 +504,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-05-30",
@@ -547,7 +545,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-06-01",
@@ -593,7 +590,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-05-30",
@@ -625,25 +621,10 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|hot fix side show": {
-      "name": "Hot Fix Side Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-27"
-      ]
-    },
-    "HouseSeats|broadway unhinged": {
-      "name": "Broadway Unhinged",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-27"
-      ]
-    },
     "HouseSeats|jaq jaq, lexsey, big kev and the missing piece": {
       "name": "Jaq Jaq, Lexsey, Big Kev and the Missing Piece",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29"
       ]
@@ -652,7 +633,6 @@
       "name": "America\u2019s Next Top Model Minority",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28"
       ]
     },
@@ -660,7 +640,6 @@
       "name": "DTLV Melodic Rap Showcase",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-05-30"
@@ -670,7 +649,6 @@
       "name": "PEEK! THE SHOW \u2014 AFTER HOURS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-27",
         "2026-05-28",
         "2026-05-29",
         "2026-05-30"
@@ -1385,7 +1363,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1465,7 +1444,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1536,7 +1516,8 @@
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1782,7 +1763,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-22",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     },
     "HouseSeats|rocklesque: the final girl sleep away camp": {
@@ -1865,7 +1847,8 @@
       "name": "Heather Anne Lomax",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-25"
+        "2026-08-25",
+        "2026-08-26"
       ]
     }
   }
