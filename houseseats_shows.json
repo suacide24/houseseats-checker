@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-26T11:17:03 PT",
-  "last_successful_run": "2026-08-26T11:17:03 PT",
+  "last_updated": "2026-08-26T13:39:50 PT",
+  "last_successful_run": "2026-08-26T13:39:50 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
@@ -39,6 +39,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Von Clap Back Family Singers",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "August 28th",
@@ -63,6 +71,22 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "August 29th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder Mystery at the Tavern",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
+      "date": "August 29th",
+      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Extremeprov",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9065",
       "date": "August 29th",
@@ -71,10 +95,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "August 30th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Acoustic Night with Robin Nievera",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "August 31st",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Velvet Nights with Sina Foley",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
+      "date": "September 1st",
+      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
     }
   ]
