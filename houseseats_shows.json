@@ -1,24 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-26T17:34:27 PT",
-  "last_successful_run": "2026-08-26T17:34:27 PT",
+  "last_updated": "2026-08-27T04:02:17 PT",
+  "last_successful_run": "2026-08-27T04:02:17 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 26th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 26th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "August 27th",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
       "rare": false
     },
     {
@@ -27,6 +19,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "August 27th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 27th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 27th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
@@ -63,26 +71,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Murder Mystery at the Tavern",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
-      "date": "August 29th",
-      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Extremeprov",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9065",
       "date": "August 29th",
       "image": "https://lv.houseseats.com/resources/media/9065.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "August 30th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
