@@ -390,7 +390,8 @@
       "name": "Game of Groans: Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19"
+        "2026-06-19",
+        "2026-08-28"
       ]
     },
     "HouseSeats|vegas knight hawks": {
@@ -1863,6 +1864,20 @@
     },
     "HouseSeats|the extraorindary card magic of jason ladanye": {
       "name": "The Extraorindary Card Magic of Jason Ladanye",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-28"
+      ]
+    },
+    "HouseSeats|twisted gypsy: fleetwood mack tribute": {
+      "name": "TWISTED GYPSY: Fleetwood Mack Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-28"
+      ]
+    },
+    "HouseSeats|petty and the heartshakers": {
+      "name": "Petty and the Heartshakers",
       "source": "HouseSeats",
       "appearances": [
         "2026-08-28"

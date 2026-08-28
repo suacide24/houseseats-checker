@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-27T22:33:14 PT",
-  "last_successful_run": "2026-08-27T22:33:14 PT",
+  "last_updated": "2026-08-28T11:24:29 PT",
+  "last_successful_run": "2026-08-28T11:24:29 PT",
   "email_enabled": false,
   "count": 12,
   "shows": [
@@ -15,11 +15,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "name": "TWISTED GYPSY: Fleetwood Mack Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9428",
       "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9428.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -36,6 +36,14 @@
       "date": "August 28th",
       "image": "https://lv.houseseats.com/resources/media/9422.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Game of Groans: Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -63,26 +71,18 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Petty and the Heartshakers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9429",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9429.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Players Era Volleyball Showcase at T-Mobile Arena",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9425",
       "date": "August 29th",
       "image": "https://lv.houseseats.com/resources/media/9425.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Extraorindary Card Magic of Jason Ladanye",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9427",
-      "date": "August 29th",
-      "image": "https://lv.houseseats.com/resources/media/9427.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Josh Tatofi",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9426",
-      "date": "August 29th",
-      "image": "https://lv.houseseats.com/resources/media/9426.jpg",
       "rare": true
     },
     {
