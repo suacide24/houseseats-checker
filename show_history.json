@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30",
         "2026-05-31",
         "2026-06-02",
@@ -95,7 +94,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|x country": {
@@ -162,7 +162,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|blue man group": {
@@ -232,7 +233,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|mat franco": {
@@ -246,7 +248,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-07-21",
         "2026-07-22",
         "2026-07-23",
@@ -263,7 +264,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-07-14",
         "2026-07-15",
         "2026-07-16",
@@ -390,7 +390,6 @@
       "name": "Game of Groans: Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-06-19"
       ]
     },
@@ -507,7 +506,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30",
         "2026-05-31",
         "2026-06-01",
@@ -547,7 +545,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
@@ -591,7 +588,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30",
         "2026-06-01",
         "2026-06-02",
@@ -621,18 +617,10 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|jaq jaq, lexsey, big kev and the missing piece": {
-      "name": "Jaq Jaq, Lexsey, Big Kev and the Missing Piece",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-29"
-      ]
-    },
     "HouseSeats|dtlv melodic rap showcase": {
       "name": "DTLV Melodic Rap Showcase",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30"
       ]
     },
@@ -640,7 +628,6 @@
       "name": "PEEK! THE SHOW \u2014 AFTER HOURS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30"
       ]
     },
@@ -648,7 +635,6 @@
       "name": "Murder Mystery Speakeasy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30"
       ]
     },
@@ -656,7 +642,6 @@
       "name": "Make That Sh*t Funny Mondays",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-29",
         "2026-05-30",
         "2026-05-31",
         "2026-06-01"
@@ -1356,7 +1341,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1438,7 +1424,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1513,7 +1500,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1677,7 +1665,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1763,7 +1752,8 @@
         "2026-08-22",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|rocklesque: the final girl sleep away camp": {
@@ -1851,21 +1841,31 @@
       "appearances": [
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|players era volleyball showcase at t-mobile arena": {
       "name": "Players Era Volleyball Showcase at T-Mobile Arena",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
       ]
     },
     "HouseSeats|josh tatofi": {
       "name": "Josh Tatofi",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-28"
+      ]
+    },
+    "HouseSeats|the extraorindary card magic of jason ladanye": {
+      "name": "The Extraorindary Card Magic of Jason Ladanye",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-08-28"
       ]
     }
   }

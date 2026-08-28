@@ -1,56 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-27T14:05:49 PT",
-  "last_successful_run": "2026-08-27T14:05:49 PT",
+  "last_updated": "2026-08-27T22:33:14 PT",
+  "last_successful_run": "2026-08-27T22:33:14 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "August 27th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "August 27th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
-      "date": "August 27th",
-      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "August 27th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "August 27th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9416",
       "date": "August 28th",
       "image": "https://lv.houseseats.com/resources/media/9416.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -87,10 +55,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "August 28th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Players Era Volleyball Showcase at T-Mobile Arena",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9425",
       "date": "August 29th",
       "image": "https://lv.houseseats.com/resources/media/9425.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Extraorindary Card Magic of Jason Ladanye",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9427",
+      "date": "August 29th",
+      "image": "https://lv.houseseats.com/resources/media/9427.jpg",
       "rare": true
     },
     {
