@@ -1,66 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-28T11:24:29 PT",
-  "last_successful_run": "2026-08-28T11:24:29 PT",
+  "last_updated": "2026-08-28T18:50:51 PT",
+  "last_successful_run": "2026-08-28T18:50:51 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9416",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9416.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "TWISTED GYPSY: Fleetwood Mack Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9428",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9428.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Von Clap Back Family Singers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Heather Anne Lomax",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9422",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9422.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Game of Groans: Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Rant!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -71,19 +15,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Petty and the Heartshakers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9429",
-      "date": "August 28th",
-      "image": "https://lv.houseseats.com/resources/media/9429.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Players Era Volleyball Showcase at T-Mobile Arena",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9425",
       "date": "August 29th",
       "image": "https://lv.houseseats.com/resources/media/9425.jpg",
-      "rare": true
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "August 29th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -91,6 +35,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "August 31st",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "August 31st",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {

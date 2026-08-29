@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-30",
         "2026-05-31",
         "2026-06-02",
         "2026-06-03",
@@ -95,7 +94,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-29"
       ]
     },
     "HouseSeats|x country": {
@@ -298,7 +298,8 @@
         "2026-08-12",
         "2026-08-13",
         "2026-08-15",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-08-29"
       ]
     },
     "HouseSeats|fantasy": {
@@ -333,7 +334,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-30",
         "2026-05-31",
         "2026-06-01",
         "2026-06-02",
@@ -507,7 +507,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-30",
         "2026-05-31",
         "2026-06-01",
         "2026-06-02",
@@ -589,7 +588,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-30",
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
@@ -618,32 +616,10 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|dtlv melodic rap showcase": {
-      "name": "DTLV Melodic Rap Showcase",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-30"
-      ]
-    },
-    "HouseSeats|peek! the show \u2014 after hours": {
-      "name": "PEEK! THE SHOW \u2014 AFTER HOURS",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-30"
-      ]
-    },
-    "HouseSeats|murder mystery speakeasy": {
-      "name": "Murder Mystery Speakeasy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-30"
-      ]
-    },
     "HouseSeats|make that sh*t funny mondays": {
       "name": "Make That Sh*t Funny Mondays",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-30",
         "2026-05-31",
         "2026-06-01"
       ]
@@ -652,16 +628,8 @@
       "name": "PIANO MAN",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-30",
         "2026-06-04",
         "2026-06-05"
-      ]
-    },
-    "HouseSeats|kelsey cook": {
-      "name": "Kelsey Cook",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-05-30"
       ]
     },
     "HouseSeats|the laughter you've been waiting for: featuring tom schurr": {
@@ -1426,7 +1394,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-29"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1502,7 +1471,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-29"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1667,7 +1637,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-29"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1851,7 +1822,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-08-29"
       ]
     },
     "HouseSeats|josh tatofi": {
