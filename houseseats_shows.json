@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-30T06:55:44 PT",
-  "last_successful_run": "2026-08-30T06:55:44 PT",
+  "last_updated": "2026-08-30T10:59:51 PT",
+  "last_successful_run": "2026-08-30T10:59:51 PT",
   "email_enabled": false,
-  "count": 3,
+  "count": 4,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
       "date": "September 1st",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "September 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     }
   ]
