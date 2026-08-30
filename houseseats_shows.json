@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-30T13:58:28 PT",
-  "last_successful_run": "2026-08-30T13:58:28 PT",
+  "last_updated": "2026-08-30T16:23:56 PT",
+  "last_successful_run": "2026-08-30T16:23:56 PT",
   "email_enabled": false,
-  "count": 5,
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -43,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "September 2nd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "An Evening with Rita Lim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
+      "date": "September 5th",
+      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
       "rare": false
     }
   ]
