@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-31",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -95,7 +94,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-30"
       ]
     },
     "HouseSeats|x country": {
@@ -129,7 +129,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-31",
         "2026-06-07",
         "2026-06-09",
         "2026-06-15",
@@ -148,7 +147,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-27",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-30"
       ]
     },
     "HouseSeats|the rant!": {
@@ -335,7 +335,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-31",
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
@@ -508,7 +507,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-31",
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
@@ -621,7 +619,6 @@
       "name": "Make That Sh*t Funny Mondays",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-31",
         "2026-06-01"
       ]
     },
@@ -637,7 +634,6 @@
       "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
       "source": "HouseSeats",
       "appearances": [
-        "2026-05-31",
         "2026-06-01",
         "2026-06-02",
         "2026-06-03",
@@ -1396,7 +1392,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-30"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1639,7 +1636,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-08-30"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
