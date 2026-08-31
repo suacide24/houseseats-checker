@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-08-31T09:19:12 PT",
-  "last_successful_run": "2026-08-31T09:19:12 PT",
+  "last_updated": "2026-08-31T14:34:25 PT",
+  "last_successful_run": "2026-08-31T14:34:25 PT",
   "email_enabled": false,
-  "count": 4,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Acoustic Night with Robin Nievera",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
       "date": "August 31st",
-      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
@@ -23,10 +23,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "GOOD TERMS w/ Stateside, Worseforwear, Pure Sport",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9434",
+      "date": "September 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9434.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "September 2nd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROYALE LYNN w/ Hollow Pact",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9435",
+      "date": "September 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9435.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "September 4th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
