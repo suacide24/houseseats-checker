@@ -194,7 +194,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-05",
@@ -315,7 +314,8 @@
         "2026-07-27",
         "2026-08-02",
         "2026-08-09",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-08-31"
       ]
     },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
@@ -336,7 +336,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -508,7 +507,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-06",
@@ -545,7 +543,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -588,7 +585,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -616,13 +612,6 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|make that sh*t funny mondays": {
-      "name": "Make That Sh*t Funny Mondays",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-01"
-      ]
-    },
     "HouseSeats|piano man": {
       "name": "PIANO MAN",
       "source": "HouseSeats",
@@ -635,7 +624,6 @@
       "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04"
@@ -645,7 +633,6 @@
       "name": "One of These Nights - Eagles Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-01",
         "2026-06-02",
         "2026-06-03",
         "2026-06-04",
@@ -1310,7 +1297,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-08-31"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1395,7 +1383,8 @@
         "2026-08-27",
         "2026-08-28",
         "2026-08-29",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-08-31"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1512,7 +1501,8 @@
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-08-31"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1640,7 +1630,8 @@
         "2026-08-27",
         "2026-08-28",
         "2026-08-29",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-08-31"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
