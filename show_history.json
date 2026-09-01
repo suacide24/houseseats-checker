@@ -1377,7 +1377,8 @@
         "2026-08-28",
         "2026-08-29",
         "2026-08-30",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1878,6 +1879,13 @@
     },
     "HouseSeats|smells like nirvana - tribute": {
       "name": "Smells Like Nirvana - Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-01"
+      ]
+    },
+    "HouseSeats|coco and friends jazz showcase": {
+      "name": "Coco and Friends Jazz Showcase",
       "source": "HouseSeats",
       "appearances": [
         "2026-09-01"

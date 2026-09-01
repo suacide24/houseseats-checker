@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-01T12:47:19 PT",
-  "last_successful_run": "2026-09-01T12:47:19 PT",
+  "last_updated": "2026-09-01T15:29:11 PT",
+  "last_successful_run": "2026-09-01T15:29:11 PT",
   "email_enabled": false,
   "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "September 1st",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "September 1st",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "GOOD TERMS w/ Stateside, Worseforwear, Pure Sport",
@@ -47,6 +31,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Coco and Friends Jazz Showcase",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9393",
+      "date": "September 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9393.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Spanish Magician - Enrique De Leon",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "September 4th",
@@ -68,6 +60,14 @@
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9436.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Acoustic Night with Robin Nievera",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
+      "date": "September 7th",
+      "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
     }
   ]
 }
