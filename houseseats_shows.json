@@ -1,16 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-01T09:51:36 PT",
-  "last_successful_run": "2026-09-01T09:51:36 PT",
+  "last_updated": "2026-09-01T12:47:19 PT",
+  "last_successful_run": "2026-09-01T12:47:19 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Velvet Nights with Sina Foley",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "September 1st",
-      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "September 1st",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
@@ -47,19 +55,19 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Band Perry",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9433",
-      "date": "September 4th",
-      "image": "https://lv.houseseats.com/resources/media/9433.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "An Evening with Rita Lim",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Smells Like Nirvana - Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9436",
+      "date": "September 5th",
+      "image": "https://lv.houseseats.com/resources/media/9436.jpg",
+      "rare": true
     }
   ]
 }
