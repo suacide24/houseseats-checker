@@ -12,7 +12,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -195,7 +194,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-05",
         "2026-06-07",
@@ -337,7 +335,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -508,7 +505,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-06",
         "2026-06-07",
@@ -544,7 +540,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -586,7 +581,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -625,7 +619,6 @@
       "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04"
       ]
@@ -634,7 +627,6 @@
       "name": "One of These Nights - Eagles Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -645,7 +637,6 @@
       "name": "Damage Inc - A Tribute to Metallica",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -656,7 +647,6 @@
       "name": "Summer Soul Affair with Sin City Soul and Mi Linda Soul",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-02",
         "2026-06-03",
         "2026-06-04",
         "2026-06-05",
@@ -1299,7 +1289,8 @@
         "2026-08-27",
         "2026-08-28",
         "2026-08-30",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1410,7 +1401,8 @@
         "2026-08-19",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1504,7 +1496,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-30",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1633,7 +1626,8 @@
         "2026-08-28",
         "2026-08-29",
         "2026-08-30",
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1861,14 +1855,16 @@
       "name": "GOOD TERMS w/ Stateside, Worseforwear, Pure Sport",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     },
     "HouseSeats|royale lynn w/ hollow pact": {
       "name": "ROYALE LYNN w/ Hollow Pact",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-31"
+        "2026-08-31",
+        "2026-09-01"
       ]
     }
   }
