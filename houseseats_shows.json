@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-01T05:27:46 PT",
-  "last_successful_run": "2026-09-01T05:27:46 PT",
+  "last_updated": "2026-09-01T09:51:36 PT",
+  "last_successful_run": "2026-09-01T09:51:36 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -44,6 +44,14 @@
       "date": "September 4th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Band Perry",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9433",
+      "date": "September 4th",
+      "image": "https://lv.houseseats.com/resources/media/9433.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

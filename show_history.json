@@ -1866,6 +1866,13 @@
         "2026-08-31",
         "2026-09-01"
       ]
+    },
+    "HouseSeats|the band perry": {
+      "name": "The Band Perry",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-01"
+      ]
     }
   }
 }
