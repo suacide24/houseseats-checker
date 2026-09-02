@@ -120,7 +120,8 @@
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
-        "2026-08-22"
+        "2026-08-22",
+        "2026-09-02"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -296,7 +297,8 @@
         "2026-08-13",
         "2026-08-15",
         "2026-08-27",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-09-02"
       ]
     },
     "HouseSeats|fantasy": {
@@ -1622,7 +1624,8 @@
         "2026-08-29",
         "2026-08-30",
         "2026-08-31",
-        "2026-09-01"
+        "2026-09-01",
+        "2026-09-02"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1885,6 +1888,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-01",
+        "2026-09-02"
+      ]
+    },
+    "HouseSeats|got groove at cantinetta": {
+      "name": "Got Groove at Cantinetta",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-09-02"
       ]
     }

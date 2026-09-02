@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-02T06:49:24 PT",
-  "last_successful_run": "2026-09-02T06:49:24 PT",
+  "last_updated": "2026-09-02T10:45:48 PT",
+  "last_successful_run": "2026-09-02T10:45:48 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -39,6 +39,22 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "September 3rd",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "September 3rd",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Spanish Magician - Enrique De Leon",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "September 4th",
@@ -52,6 +68,14 @@
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Got Groove at Cantinetta",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9437",
+      "date": "September 5th",
+      "image": "https://lv.houseseats.com/resources/media/9437.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -75,6 +99,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9385",
       "date": "September 7th",
       "image": "https://lv.houseseats.com/resources/media/9385.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Velvet Nights with Sina Foley",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
+      "date": "September 8th",
+      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
     }
   ]
