@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-02T13:48:52 PT",
-  "last_successful_run": "2026-09-02T13:48:52 PT",
+  "last_updated": "2026-09-02T16:09:29 PT",
+  "last_successful_run": "2026-09-02T16:09:29 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "GOOD TERMS w/ Stateside, Worseforwear, Pure Sport",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9434",
-      "date": "September 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9434.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "September 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "ROYALE LYNN w/ Hollow Pact",
@@ -28,6 +12,14 @@
       "date": "September 3rd",
       "image": "https://lv.houseseats.com/resources/media/9435.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Penn & Teller",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
+      "date": "September 3rd",
+      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -60,6 +52,22 @@
       "date": "September 4th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "September 4th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Band Perry",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9433",
+      "date": "September 4th",
+      "image": "https://lv.houseseats.com/resources/media/9433.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
