@@ -1776,7 +1776,8 @@
       "name": "MJ The Evolution",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-24"
+        "2026-08-24",
+        "2026-09-03"
       ]
     },
     "HouseSeats|atomic saloon show": {
@@ -1892,6 +1893,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-02",
+        "2026-09-03"
+      ]
+    },
+    "HouseSeats|queensryche": {
+      "name": "Queensryche",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-09-03"
       ]
     }

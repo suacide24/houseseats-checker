@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-03T14:50:36 PT",
-  "last_successful_run": "2026-09-03T14:50:36 PT",
+  "last_updated": "2026-09-03T16:52:11 PT",
+  "last_successful_run": "2026-09-03T16:52:11 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "ROYALE LYNN w/ Hollow Pact",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9435",
-      "date": "September 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9435.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Coco and Friends Jazz Showcase",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9393",
-      "date": "September 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9393.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
@@ -28,6 +12,14 @@
       "date": "September 3rd",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "MJ The Evolution",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7611",
+      "date": "September 4th",
+      "image": "https://lv.houseseats.com/resources/media/7611.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9437",
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9437.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Queensryche",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7595",
+      "date": "September 5th",
+      "image": "https://lv.houseseats.com/resources/media/7595.jpg",
       "rare": true
     },
     {
