@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-02T16:09:29 PT",
-  "last_successful_run": "2026-09-02T16:09:29 PT",
+  "last_updated": "2026-09-02T18:20:24 PT",
+  "last_successful_run": "2026-09-02T18:20:24 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
@@ -15,19 +15,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Penn & Teller",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3072",
-      "date": "September 3rd",
-      "image": "https://lv.houseseats.com/resources/media/3072.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Coco and Friends Jazz Showcase",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9393",
       "date": "September 3rd",
       "image": "https://lv.houseseats.com/resources/media/9393.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -67,7 +59,15 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9433",
       "date": "September 4th",
       "image": "https://lv.houseseats.com/resources/media/9433.jpg",
-      "rare": true
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Whisky Mixer - Improv Party Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
+      "date": "September 4th",
+      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",

@@ -11,7 +11,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06",
         "2026-06-07",
@@ -93,7 +92,8 @@
         "2026-08-28",
         "2026-08-29",
         "2026-08-30",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|x country": {
@@ -121,7 +121,8 @@
         "2026-08-20",
         "2026-08-21",
         "2026-08-22",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -170,7 +171,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-07-13",
         "2026-08-10",
         "2026-08-11",
@@ -272,14 +272,14 @@
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
-        "2026-08-07"
+        "2026-08-07",
+        "2026-09-03"
       ]
     },
     "HouseSeats|x rocks": {
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-10",
         "2026-06-11",
@@ -298,7 +298,8 @@
         "2026-08-15",
         "2026-08-27",
         "2026-08-29",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|fantasy": {
@@ -335,7 +336,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06",
         "2026-06-07",
@@ -538,7 +538,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-08",
         "2026-06-09",
@@ -578,7 +577,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06",
         "2026-06-07",
@@ -607,22 +605,13 @@
       "name": "PIANO MAN",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05"
-      ]
-    },
-    "HouseSeats|the laughter you've been waiting for: featuring tom schurr": {
-      "name": "The Laughter You've Been Waiting For: Featuring Tom Schurr",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-04"
       ]
     },
     "HouseSeats|one of these nights - eagles tribute": {
       "name": "One of These Nights - Eagles Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06"
       ]
@@ -631,7 +620,6 @@
       "name": "Damage Inc - A Tribute to Metallica",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06"
       ]
@@ -640,7 +628,6 @@
       "name": "Summer Soul Affair with Sin City Soul and Mi Linda Soul",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06"
       ]
@@ -649,7 +636,6 @@
       "name": "Spice Wannabe \u2013 Tribute to the Spice Girls",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06"
       ]
@@ -658,7 +644,6 @@
       "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-04",
         "2026-06-05",
         "2026-06-06",
         "2026-06-07"
@@ -1372,7 +1357,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1399,7 +1385,8 @@
         "2026-08-26",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1495,7 +1482,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1626,7 +1614,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1745,7 +1734,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1867,7 +1857,8 @@
       "appearances": [
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|the band perry": {
@@ -1875,7 +1866,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|smells like nirvana - tribute": {
@@ -1891,14 +1883,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     },
     "HouseSeats|got groove at cantinetta": {
       "name": "Got Groove at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-03"
       ]
     }
   }
