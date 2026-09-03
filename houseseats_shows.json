@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-03T04:34:47 PT",
-  "last_successful_run": "2026-09-03T04:34:47 PT",
+  "last_updated": "2026-09-03T09:08:23 PT",
+  "last_successful_run": "2026-09-03T09:08:23 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9393",
       "date": "September 3rd",
       "image": "https://lv.houseseats.com/resources/media/9393.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "September 3rd",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {
