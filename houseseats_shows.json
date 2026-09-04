@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-04T09:58:44 PT",
-  "last_successful_run": "2026-09-04T09:58:44 PT",
+  "last_updated": "2026-09-04T12:25:35 PT",
+  "last_successful_run": "2026-09-04T12:25:35 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
@@ -31,11 +31,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "September 5th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": false
+      "name": "Jazz After Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9441",
+      "date": "September 7th",
+      "image": "https://lv.houseseats.com/resources/media/9441.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

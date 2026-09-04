@@ -1876,6 +1876,13 @@
         "2026-09-03",
         "2026-09-04"
       ]
+    },
+    "HouseSeats|jazz after dark": {
+      "name": "Jazz After Dark",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-04"
+      ]
     }
   }
 }
