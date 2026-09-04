@@ -1,17 +1,9 @@
 {
   "shows": {
-    "HouseSeats|wow - the vegas spectacular": {
-      "name": "WOW - The Vegas Spectacular",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-05"
-      ]
-    },
     "HouseSeats|rouge": {
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06",
         "2026-06-07",
         "2026-06-09",
@@ -93,7 +85,8 @@
         "2026-08-29",
         "2026-08-30",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     },
     "HouseSeats|x country": {
@@ -195,7 +188,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
@@ -273,14 +265,14 @@
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     },
     "HouseSeats|x rocks": {
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-10",
         "2026-06-11",
         "2026-06-25",
@@ -336,7 +328,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06",
         "2026-06-07",
         "2026-06-08",
@@ -538,7 +529,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -577,7 +567,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06",
         "2026-06-07",
         "2026-06-08",
@@ -601,18 +590,10 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|piano man": {
-      "name": "PIANO MAN",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-05"
-      ]
-    },
     "HouseSeats|one of these nights - eagles tribute": {
       "name": "One of These Nights - Eagles Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06"
       ]
     },
@@ -620,7 +601,6 @@
       "name": "Damage Inc - A Tribute to Metallica",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06"
       ]
     },
@@ -628,7 +608,6 @@
       "name": "Summer Soul Affair with Sin City Soul and Mi Linda Soul",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06"
       ]
     },
@@ -636,7 +615,6 @@
       "name": "Spice Wannabe \u2013 Tribute to the Spice Girls",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06"
       ]
     },
@@ -644,7 +622,6 @@
       "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06",
         "2026-06-07"
       ]
@@ -653,7 +630,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-05",
         "2026-06-06",
         "2026-06-07",
         "2026-06-08",
@@ -702,13 +678,6 @@
         "2026-08-17",
         "2026-08-18",
         "2026-08-19"
-      ]
-    },
-    "HouseSeats|john lloyd young: jukebox hero": {
-      "name": "John Lloyd Young: Jukebox Hero",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-05"
       ]
     },
     "HouseSeats|mick adams and the stones": {
@@ -1358,7 +1327,8 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1483,7 +1453,8 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1615,7 +1586,8 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1893,14 +1865,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     },
     "HouseSeats|queensryche": {
       "name": "Queensryche",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-04"
       ]
     }
   }
