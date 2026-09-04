@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-04T06:19:28 PT",
-  "last_successful_run": "2026-09-04T06:19:28 PT",
+  "last_updated": "2026-09-04T09:58:44 PT",
+  "last_successful_run": "2026-09-04T09:58:44 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -28,14 +28,6 @@
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9437.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Queensryche",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7595",
-      "date": "September 5th",
-      "image": "https://lv.houseseats.com/resources/media/7595.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
