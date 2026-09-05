@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-09",
         "2026-06-10",
@@ -329,7 +328,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
@@ -485,7 +483,6 @@
       "name": "Mondays Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-08",
         "2026-07-05",
@@ -496,7 +493,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
@@ -568,7 +564,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
@@ -591,39 +586,10 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|one of these nights - eagles tribute": {
-      "name": "One of These Nights - Eagles Tribute",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-06"
-      ]
-    },
-    "HouseSeats|damage inc - a tribute to metallica": {
-      "name": "Damage Inc - A Tribute to Metallica",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-06"
-      ]
-    },
-    "HouseSeats|summer soul affair with sin city soul and mi linda soul": {
-      "name": "Summer Soul Affair with Sin City Soul and Mi Linda Soul",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-06"
-      ]
-    },
-    "HouseSeats|spice wannabe \u2013 tribute to the spice girls": {
-      "name": "Spice Wannabe \u2013 Tribute to the Spice Girls",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-06"
-      ]
-    },
     "HouseSeats|fallout fringe festival - times square las vegas": {
       "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07"
       ]
     },
@@ -631,7 +597,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
@@ -681,18 +646,10 @@
         "2026-08-19"
       ]
     },
-    "HouseSeats|mick adams and the stones": {
-      "name": "MICK ADAMS AND THE STONES",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-06"
-      ]
-    },
     "HouseSeats|new nostalgics featuring austin morris": {
       "name": "New Nostalgics featuring Austin Morris",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-06",
         "2026-06-07",
         "2026-06-08",
         "2026-06-09",
@@ -837,7 +794,8 @@
         "2026-08-16",
         "2026-08-23",
         "2026-08-24",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1330,7 +1288,8 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1456,7 +1415,8 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1589,7 +1549,8 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1869,7 +1830,8 @@
       "appearances": [
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05"
       ]
     },
     "HouseSeats|queensryche": {
@@ -1884,7 +1846,8 @@
       "name": "Jazz After Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-05"
       ]
     }
   }

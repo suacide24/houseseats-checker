@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-04T16:49:56 PT",
-  "last_successful_run": "2026-09-04T16:49:56 PT",
+  "last_updated": "2026-09-04T20:47:42 PT",
+  "last_successful_run": "2026-09-04T20:47:42 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "September 4th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "An Evening with Rita Lim",
@@ -59,14 +51,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
       "date": "September 8th",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 9th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     }
   ]
