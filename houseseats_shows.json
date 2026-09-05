@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-05T08:02:59 PT",
-  "last_successful_run": "2026-09-05T08:02:59 PT",
+  "last_updated": "2026-09-05T10:29:41 PT",
+  "last_successful_run": "2026-09-05T10:29:41 PT",
   "email_enabled": false,
   "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "An Evening with Rita Lim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
-      "date": "September 5th",
-      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Got Groove at Cantinetta",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9437",
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9437.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Queensryche",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7595",
+      "date": "September 5th",
+      "image": "https://lv.houseseats.com/resources/media/7595.jpg",
       "rare": false
     },
     {
