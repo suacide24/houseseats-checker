@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-04T20:47:42 PT",
-  "last_successful_run": "2026-09-04T20:47:42 PT",
+  "last_updated": "2026-09-05T01:12:59 PT",
+  "last_successful_run": "2026-09-05T01:12:59 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9437",
       "date": "September 5th",
       "image": "https://lv.houseseats.com/resources/media/9437.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "September 6th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     },
     {
