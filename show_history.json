@@ -360,7 +360,8 @@
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
-        "2026-07-12"
+        "2026-07-12",
+        "2026-09-06"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -1303,7 +1304,8 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-06"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1402,7 +1404,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-04",
-        "2026-09-05"
+        "2026-09-05",
+        "2026-09-06"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1678,7 +1681,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-06"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1841,6 +1845,13 @@
     },
     "HouseSeats|travis cloer - a frankie valli songbook": {
       "name": "Travis Cloer - A Frankie Valli Songbook",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-06"
+      ]
+    },
+    "HouseSeats|true story": {
+      "name": "True Story",
       "source": "HouseSeats",
       "appearances": [
         "2026-09-06"
