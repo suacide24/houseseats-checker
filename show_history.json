@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-09",
         "2026-06-10",
         "2026-06-11",
@@ -122,7 +121,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-09",
         "2026-06-15",
         "2026-06-16",
@@ -188,7 +186,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -330,7 +327,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -485,7 +481,6 @@
       "name": "Mondays Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-07-05",
         "2026-07-06"
@@ -495,7 +490,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -566,7 +560,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -588,18 +581,10 @@
         "2026-07-25"
       ]
     },
-    "HouseSeats|fallout fringe festival - times square las vegas": {
-      "name": "Fallout Fringe Festival - TIMES SQUARE LAS VEGAS",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-07"
-      ]
-    },
     "HouseSeats|seth robichaux: no filter, all glitter - a vegas cabaret show": {
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -652,7 +637,6 @@
       "name": "New Nostalgics featuring Austin Morris",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -663,7 +647,6 @@
       "name": "Gemini Splash Pool and Line Dance Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-07",
         "2026-06-08",
         "2026-06-09",
         "2026-06-10",
@@ -1291,7 +1274,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-04",
-        "2026-09-05"
+        "2026-09-05",
+        "2026-09-06"
       ]
     },
     "HouseSeats|when we were warped": {
@@ -1552,7 +1536,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-04",
-        "2026-09-05"
+        "2026-09-05",
+        "2026-09-06"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1850,7 +1835,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-04",
-        "2026-09-05"
+        "2026-09-05",
+        "2026-09-06"
       ]
     }
   }
