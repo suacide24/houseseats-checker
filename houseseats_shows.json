@@ -1,17 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-06T09:04:06 PT",
-  "last_successful_run": "2026-09-06T09:04:06 PT",
+  "last_updated": "2026-09-06T11:33:03 PT",
+  "last_successful_run": "2026-09-06T11:33:03 PT",
   "email_enabled": false,
   "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Jazz After Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9441",
-      "date": "September 7th",
-      "image": "https://lv.houseseats.com/resources/media/9441.jpg",
-      "rare": false
+      "name": "Travis Cloer - A Frankie Valli Songbook",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9442",
+      "date": "September 6th",
+      "image": "https://lv.houseseats.com/resources/media/9442.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
