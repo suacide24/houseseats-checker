@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-06T23:31:46 PT",
-  "last_successful_run": "2026-09-06T23:31:46 PT",
+  "last_updated": "2026-09-07T06:22:53 PT",
+  "last_successful_run": "2026-09-07T06:22:53 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -28,14 +28,6 @@
       "date": "September 8th",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "September 10th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
