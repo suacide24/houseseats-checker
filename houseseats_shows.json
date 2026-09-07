@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-07T06:22:53 PT",
-  "last_successful_run": "2026-09-07T06:22:53 PT",
+  "last_updated": "2026-09-07T11:20:10 PT",
+  "last_successful_run": "2026-09-07T11:20:10 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -31,6 +31,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "September 8th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "True Story",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
       "date": "September 10th",
@@ -44,6 +52,14 @@
       "date": "September 10th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aces High - A Tribute To Iron Maiden",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8180",
+      "date": "September 11th",
+      "image": "https://lv.houseseats.com/resources/media/8180.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

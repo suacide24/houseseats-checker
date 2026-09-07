@@ -1176,7 +1176,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-01",
-        "2026-09-02"
+        "2026-09-02",
+        "2026-09-07"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1851,6 +1852,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-06",
+        "2026-09-07"
+      ]
+    },
+    "HouseSeats|aces high - a tribute to iron maiden": {
+      "name": "Aces High - A Tribute To Iron Maiden",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-09-07"
       ]
     }
