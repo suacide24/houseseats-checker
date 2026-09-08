@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-07T14:42:57 PT",
-  "last_successful_run": "2026-09-07T14:42:57 PT",
+  "last_updated": "2026-09-07T17:04:35 PT",
+  "last_successful_run": "2026-09-07T17:04:35 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "September 7th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Velvet Nights with Sina Foley",
@@ -35,7 +27,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
       "date": "September 10th",
       "image": "https://lv.houseseats.com/resources/media/9438.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -51,7 +43,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "September 11th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

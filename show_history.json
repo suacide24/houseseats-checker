@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
@@ -121,7 +120,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
@@ -186,7 +184,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-15",
@@ -327,7 +324,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
@@ -361,7 +357,8 @@
         "2026-07-11",
         "2026-07-12",
         "2026-09-06",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -384,7 +381,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-12",
         "2026-06-13",
@@ -427,7 +423,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
@@ -489,7 +484,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
@@ -520,7 +514,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12"
@@ -557,7 +550,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
@@ -581,7 +573,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-13",
         "2026-06-14",
@@ -632,7 +623,6 @@
       "name": "New Nostalgics featuring Austin Morris",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11"
       ]
@@ -641,7 +631,6 @@
       "name": "Gemini Splash Pool and Line Dance Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-09",
         "2026-06-10",
         "2026-06-11",
         "2026-06-12",
@@ -1177,7 +1166,8 @@
         "2026-08-31",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1300,7 +1290,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-06",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1401,7 +1392,8 @@
         "2026-09-04",
         "2026-09-05",
         "2026-09-06",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1537,7 +1529,8 @@
         "2026-09-04",
         "2026-09-05",
         "2026-09-06",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1852,14 +1845,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-06",
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
       "name": "Aces High - A Tribute To Iron Maiden",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-07"
+        "2026-09-07",
+        "2026-09-08"
       ]
     }
   }
