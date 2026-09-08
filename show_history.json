@@ -1672,7 +1672,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-09-04",
-        "2026-09-06"
+        "2026-09-06",
+        "2026-09-08"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1854,6 +1855,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-07",
+        "2026-09-08"
+      ]
+    },
+    "HouseSeats|jmsn with samy sharif": {
+      "name": "JMSN with Samy Sharif",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-08"
+      ]
+    },
+    "HouseSeats|mexican independence day concert": {
+      "name": "Mexican Independence Day Concert",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-09-08"
       ]
     }

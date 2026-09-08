@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-08T11:00:59 PT",
-  "last_successful_run": "2026-09-08T11:00:59 PT",
+  "last_updated": "2026-09-08T14:19:53 PT",
+  "last_successful_run": "2026-09-08T14:19:53 PT",
   "email_enabled": false,
-  "count": 5,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Velvet Nights with Sina Foley",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
-      "date": "September 8th",
-      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
@@ -31,6 +23,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 11th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Aces High - A Tribute To Iron Maiden",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8180",
       "date": "September 11th",
@@ -39,10 +39,42 @@
     },
     {
       "source": "HouseSeats",
+      "name": "JMSN with Samy Sharif",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9443",
+      "date": "September 11th",
+      "image": "https://lv.houseseats.com/resources/media/9443.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "September 12th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "An Evening with Rita Lim",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
       "date": "September 12th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mexican Independence Day Concert",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9431",
+      "date": "September 12th",
+      "image": "https://lv.houseseats.com/resources/media/9431.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "September 12th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     }
   ]
