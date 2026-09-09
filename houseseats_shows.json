@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-09T10:43:04 PT",
-  "last_successful_run": "2026-09-09T10:43:04 PT",
+  "last_updated": "2026-09-09T13:44:00 PT",
+  "last_successful_run": "2026-09-09T13:44:00 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -83,6 +83,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "September 12th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 13th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     }
   ]
