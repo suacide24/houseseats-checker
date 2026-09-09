@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-08T16:34:13 PT",
-  "last_successful_run": "2026-09-08T16:34:13 PT",
+  "last_updated": "2026-09-08T20:59:23 PT",
+  "last_successful_run": "2026-09-08T20:59:23 PT",
   "email_enabled": false,
   "count": 8,
   "shows": [
@@ -27,7 +27,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8180",
       "date": "September 11th",
       "image": "https://lv.houseseats.com/resources/media/8180.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",

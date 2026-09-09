@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
@@ -184,7 +183,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-15",
         "2026-06-16",
@@ -267,7 +265,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-25",
         "2026-07-03",
@@ -310,7 +307,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-24",
         "2026-06-25",
         "2026-07-01",
@@ -324,7 +320,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
@@ -358,7 +353,8 @@
         "2026-07-12",
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -381,7 +377,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-12",
         "2026-06-13",
         "2026-06-24",
@@ -423,7 +418,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
@@ -484,7 +478,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
@@ -514,7 +507,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12"
       ]
@@ -550,7 +542,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
@@ -573,7 +564,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
@@ -623,7 +613,6 @@
       "name": "New Nostalgics featuring Austin Morris",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11"
       ]
     },
@@ -631,7 +620,6 @@
       "name": "Gemini Splash Pool and Line Dance Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13"
@@ -641,7 +629,6 @@
       "name": "ROCKLESQUE: INVASION",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-10",
         "2026-06-11",
         "2026-06-12",
         "2026-06-13",
@@ -1167,7 +1154,8 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1291,7 +1279,8 @@
         "2026-09-03",
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1393,7 +1382,8 @@
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1847,7 +1837,8 @@
       "appearances": [
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1855,21 +1846,24 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|jmsn with samy sharif": {
       "name": "JMSN with Samy Sharif",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     },
     "HouseSeats|mexican independence day concert": {
       "name": "Mexican Independence Day Concert",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-09"
       ]
     }
   }
