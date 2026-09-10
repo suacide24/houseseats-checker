@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
@@ -113,7 +112,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-05",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -184,7 +184,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
@@ -266,7 +265,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-25",
         "2026-07-03",
         "2026-07-04",
@@ -286,7 +284,8 @@
         "2026-09-03",
         "2026-09-05",
         "2026-09-07",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|fantasy": {
@@ -322,7 +321,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
@@ -356,7 +354,8 @@
         "2026-09-06",
         "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -420,7 +419,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
@@ -480,7 +478,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
@@ -509,7 +506,6 @@
       "name": "Brunch and Beats - Live Sessions at Cantinetta",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12"
       ]
     },
@@ -544,7 +540,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13",
         "2026-06-14",
@@ -611,18 +606,10 @@
         "2026-08-19"
       ]
     },
-    "HouseSeats|new nostalgics featuring austin morris": {
-      "name": "New Nostalgics featuring Austin Morris",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-11"
-      ]
-    },
     "HouseSeats|gemini splash pool and line dance party": {
       "name": "Gemini Splash Pool and Line Dance Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13"
       ]
@@ -631,7 +618,6 @@
       "name": "ROCKLESQUE: INVASION",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-11",
         "2026-06-12",
         "2026-06-13",
         "2026-06-14"
@@ -1157,7 +1143,8 @@
         "2026-09-02",
         "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1282,7 +1269,8 @@
         "2026-09-06",
         "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1385,7 +1373,8 @@
         "2026-09-06",
         "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1522,7 +1511,8 @@
         "2026-09-05",
         "2026-09-06",
         "2026-09-07",
-        "2026-09-08"
+        "2026-09-08",
+        "2026-09-10"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1841,7 +1831,8 @@
         "2026-09-06",
         "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1850,7 +1841,8 @@
       "appearances": [
         "2026-09-07",
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|jmsn with samy sharif": {
@@ -1858,7 +1850,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     },
     "HouseSeats|mexican independence day concert": {
@@ -1866,7 +1859,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-08",
-        "2026-09-09"
+        "2026-09-09",
+        "2026-09-10"
       ]
     }
   }
