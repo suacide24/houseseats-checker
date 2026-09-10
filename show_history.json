@@ -1632,7 +1632,8 @@
         "2026-08-27",
         "2026-09-01",
         "2026-09-02",
-        "2026-09-03"
+        "2026-09-03",
+        "2026-09-10"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1860,6 +1861,34 @@
       "appearances": [
         "2026-09-08",
         "2026-09-09",
+        "2026-09-10"
+      ]
+    },
+    "HouseSeats|turn the beat - a tribute to gloria estefan": {
+      "name": "Turn The Beat - A Tribute to Gloria Estefan",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-10"
+      ]
+    },
+    "HouseSeats|little luchas midget wrestling vegas takeover": {
+      "name": "Little Luchas Midget Wrestling Vegas Takeover",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-10"
+      ]
+    },
+    "HouseSeats|punk rock brunch": {
+      "name": "Punk Rock Brunch",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-10"
+      ]
+    },
+    "HouseSeats|las vegas southern soul & blues iii": {
+      "name": "Las Vegas Southern Soul & Blues III",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-09-10"
       ]
     }
