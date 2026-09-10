@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-09T18:20:10 PT",
-  "last_successful_run": "2026-09-09T18:20:10 PT",
+  "last_updated": "2026-09-09T23:29:17 PT",
+  "last_successful_run": "2026-09-09T23:29:17 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
@@ -81,7 +81,7 @@
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "September 12th",
+      "date": "September 13th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
