@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-11T12:57:26 PT",
-  "last_successful_run": "2026-09-11T12:57:26 PT",
+  "last_updated": "2026-09-11T15:29:19 PT",
+  "last_successful_run": "2026-09-11T15:29:19 PT",
   "email_enabled": false,
   "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "September 11th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Aces High - A Tribute To Iron Maiden",
@@ -68,6 +60,14 @@
       "date": "September 15th",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Trio Boh\u00e9mo at ChamberFest VEGAS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9430",
+      "date": "September 15th",
+      "image": "https://lv.houseseats.com/resources/media/9430.jpg",
+      "rare": true
     }
   ]
 }
