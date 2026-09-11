@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-14",
         "2026-06-16",
@@ -321,7 +320,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
@@ -378,7 +376,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-24",
         "2026-07-08",
@@ -419,7 +416,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
@@ -478,7 +474,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
@@ -500,13 +495,6 @@
         "2026-08-19",
         "2026-08-20",
         "2026-08-21"
-      ]
-    },
-    "HouseSeats|brunch and beats - live sessions at cantinetta": {
-      "name": "Brunch and Beats - Live Sessions at Cantinetta",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-12"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
@@ -540,7 +528,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-14",
         "2026-06-15",
@@ -610,7 +597,6 @@
       "name": "Gemini Splash Pool and Line Dance Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13"
       ]
     },
@@ -618,7 +604,6 @@
       "name": "ROCKLESQUE: INVASION",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-12",
         "2026-06-13",
         "2026-06-14"
       ]
@@ -1374,7 +1359,8 @@
         "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1512,7 +1498,8 @@
         "2026-09-06",
         "2026-09-07",
         "2026-09-08",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1843,7 +1830,8 @@
         "2026-09-07",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|jmsn with samy sharif": {
@@ -1852,7 +1840,8 @@
       "appearances": [
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|mexican independence day concert": {
@@ -1861,14 +1850,16 @@
       "appearances": [
         "2026-09-08",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|turn the beat - a tribute to gloria estefan": {
       "name": "Turn The Beat - A Tribute to Gloria Estefan",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|little luchas midget wrestling vegas takeover": {
@@ -1882,7 +1873,8 @@
       "name": "Punk Rock Brunch",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-11"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {

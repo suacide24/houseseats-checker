@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-10T16:51:30 PT",
-  "last_successful_run": "2026-09-10T16:51:30 PT",
+  "last_updated": "2026-09-10T20:54:53 PT",
+  "last_successful_run": "2026-09-10T20:54:53 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "September 10th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "September 10th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "September 10th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Aces High - A Tribute To Iron Maiden",
@@ -55,14 +31,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Little Luchas Midget Wrestling Vegas Takeover",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9447",
-      "date": "September 11th",
-      "image": "https://lv.houseseats.com/resources/media/9447.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "September 12th",
@@ -84,14 +52,6 @@
       "date": "September 12th",
       "image": "https://lv.houseseats.com/resources/media/9431.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Las Vegas Southern Soul & Blues III",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9449",
-      "date": "September 12th",
-      "image": "https://lv.houseseats.com/resources/media/9449.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
