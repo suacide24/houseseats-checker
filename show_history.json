@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14",
         "2026-06-16",
         "2026-06-17",
@@ -321,7 +320,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
@@ -377,7 +375,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-24",
         "2026-07-08",
         "2026-07-09",
@@ -417,7 +414,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
@@ -475,7 +471,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
@@ -529,7 +524,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14",
         "2026-06-15",
         "2026-07-08",
@@ -549,7 +543,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14",
         "2026-06-15",
         "2026-06-16",
@@ -594,18 +587,10 @@
         "2026-08-19"
       ]
     },
-    "HouseSeats|gemini splash pool and line dance party": {
-      "name": "Gemini Splash Pool and Line Dance Party",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-13"
-      ]
-    },
     "HouseSeats|rocklesque: invasion": {
       "name": "ROCKLESQUE: INVASION",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-06-14"
       ]
     },
@@ -613,20 +598,12 @@
       "name": "Murder Mystery at the Tavern",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-13",
         "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-08-26",
         "2026-08-27"
-      ]
-    },
-    "HouseSeats|the alain whyte band": {
-      "name": "The Alain Whyte Band",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-13"
       ]
     },
     "HouseSeats|amor prohibido - tribute to selena": {
@@ -1361,7 +1338,8 @@
         "2026-09-08",
         "2026-09-09",
         "2026-09-10",
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1500,7 +1478,8 @@
         "2026-09-07",
         "2026-09-08",
         "2026-09-10",
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1675,7 +1654,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-24",
-        "2026-08-25"
+        "2026-08-25",
+        "2026-09-12"
       ]
     },
     "HouseSeats|heather anne lomax": {
@@ -1875,7 +1855,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-10",
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1889,7 +1870,8 @@
       "name": "Trio Boh\u00e9mo at ChamberFest VEGAS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-11"
+        "2026-09-11",
+        "2026-09-12"
       ]
     }
   }

@@ -1,41 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-11T15:29:19 PT",
-  "last_successful_run": "2026-09-11T15:29:19 PT",
+  "last_updated": "2026-09-11T17:32:34 PT",
+  "last_successful_run": "2026-09-11T17:32:34 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Aces High - A Tribute To Iron Maiden",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8180",
-      "date": "September 11th",
-      "image": "https://lv.houseseats.com/resources/media/8180.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "JMSN with Samy Sharif",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9443",
-      "date": "September 11th",
-      "image": "https://lv.houseseats.com/resources/media/9443.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Turn The Beat - A Tribute to Gloria Estefan",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9448",
-      "date": "September 11th",
-      "image": "https://lv.houseseats.com/resources/media/9448.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "September 12th",
       "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -43,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
       "date": "September 12th",
       "image": "https://lv.houseseats.com/resources/media/9394.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mexican Independence Day Concert",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9431",
-      "date": "September 12th",
-      "image": "https://lv.houseseats.com/resources/media/9431.jpg",
       "rare": false
     },
     {
@@ -68,6 +36,14 @@
       "date": "September 15th",
       "image": "https://lv.houseseats.com/resources/media/9430.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Atomic Saloon Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9397",
+      "date": "September 17th",
+      "image": "https://lv.houseseats.com/resources/media/9397.jpg",
+      "rare": false
     }
   ]
 }
