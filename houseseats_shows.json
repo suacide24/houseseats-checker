@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-12T09:27:22 PT",
-  "last_successful_run": "2026-09-12T09:27:22 PT",
+  "last_updated": "2026-09-12T11:39:18 PT",
+  "last_successful_run": "2026-09-12T11:39:18 PT",
   "email_enabled": false,
-  "count": 4,
+  "count": 3,
   "shows": [
     {
       "source": "HouseSeats",
@@ -28,14 +28,6 @@
       "date": "September 15th",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Trio Boh\u00e9mo at ChamberFest VEGAS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9430",
-      "date": "September 15th",
-      "image": "https://lv.houseseats.com/resources/media/9430.jpg",
-      "rare": true
     }
   ]
 }
