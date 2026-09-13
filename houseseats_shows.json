@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-13T12:14:27 PT",
-  "last_successful_run": "2026-09-13T12:14:27 PT",
+  "last_updated": "2026-09-13T14:35:34 PT",
+  "last_successful_run": "2026-09-13T14:35:34 PT",
   "email_enabled": false,
-  "count": 2,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -15,11 +15,59 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "September 13th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Velvet Nights with Sina Foley",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
       "date": "September 15th",
       "image": "https://lv.houseseats.com/resources/media/9405.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Trio Boh\u00e9mo at ChamberFest VEGAS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9430",
+      "date": "September 15th",
+      "image": "https://lv.houseseats.com/resources/media/9430.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "September 17th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "True Story",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
+      "date": "September 17th",
+      "image": "https://lv.houseseats.com/resources/media/9438.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "September 17th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Foxtide with Jade Street",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9423",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9423.jpg",
+      "rare": true
     }
   ]
 }
