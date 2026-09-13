@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-16",
         "2026-06-17",
         "2026-06-18",
@@ -320,7 +319,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
@@ -414,7 +412,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
@@ -471,7 +468,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17"
@@ -524,7 +520,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-15",
         "2026-07-08",
         "2026-07-09",
@@ -543,7 +538,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
@@ -587,13 +581,6 @@
         "2026-08-19"
       ]
     },
-    "HouseSeats|rocklesque: invasion": {
-      "name": "ROCKLESQUE: INVASION",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-14"
-      ]
-    },
     "HouseSeats|murder mystery at the tavern": {
       "name": "Murder Mystery at the Tavern",
       "source": "HouseSeats",
@@ -610,7 +597,6 @@
       "name": "Amor Prohibido - Tribute to Selena",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-14",
         "2026-06-15",
         "2026-06-16",
         "2026-06-17",
@@ -1479,7 +1465,8 @@
         "2026-09-08",
         "2026-09-10",
         "2026-09-11",
-        "2026-09-12"
+        "2026-09-12",
+        "2026-09-13"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -1625,7 +1612,8 @@
         "2026-09-06",
         "2026-09-08",
         "2026-09-09",
-        "2026-09-12"
+        "2026-09-12",
+        "2026-09-13"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1857,7 +1845,8 @@
       "appearances": [
         "2026-09-10",
         "2026-09-11",
-        "2026-09-12"
+        "2026-09-12",
+        "2026-09-13"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
