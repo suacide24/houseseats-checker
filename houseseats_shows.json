@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-14T13:28:15 PT",
-  "last_successful_run": "2026-09-14T13:28:15 PT",
+  "last_updated": "2026-09-14T16:22:26 PT",
+  "last_successful_run": "2026-09-14T16:22:26 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 14th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X ROCKS",
@@ -35,6 +27,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "September 15th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Phantom Planet",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9455",
+      "date": "September 15th",
+      "image": "https://lv.houseseats.com/resources/media/9455.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 17th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
