@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-13T16:58:34 PT",
-  "last_successful_run": "2026-09-13T16:58:34 PT",
+  "last_updated": "2026-09-13T21:43:51 PT",
+  "last_successful_run": "2026-09-13T21:43:51 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "FANTASY",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
-      "date": "September 13th",
-      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 14th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -39,14 +39,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Trio Boh\u00e9mo at ChamberFest VEGAS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9430",
-      "date": "September 15th",
-      "image": "https://lv.houseseats.com/resources/media/9430.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "September 17th",
@@ -67,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "September 17th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "An Evening with Rita Lim",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
       "rare": false
     },
     {
