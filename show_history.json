@@ -110,7 +110,8 @@
         "2026-09-03",
         "2026-09-05",
         "2026-09-09",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-14"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -488,7 +489,8 @@
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
-        "2026-08-21"
+        "2026-08-21",
+        "2026-09-14"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
@@ -1878,6 +1880,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-13",
+        "2026-09-14"
+      ]
+    },
+    "HouseSeats|notoriety comedy club": {
+      "name": "Notoriety Comedy Club",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-09-14"
       ]
     }

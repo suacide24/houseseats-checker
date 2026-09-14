@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-14T09:29:05 PT",
-  "last_successful_run": "2026-09-14T09:29:05 PT",
+  "last_updated": "2026-09-14T13:28:15 PT",
+  "last_successful_run": "2026-09-14T13:28:15 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "September 14th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "September 14th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
@@ -31,10 +23,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Velvet Nights with Sina Foley",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9405",
-      "date": "September 15th",
-      "image": "https://lv.houseseats.com/resources/media/9405.jpg",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "September 14th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
@@ -59,6 +51,30 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "September 17th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mik Thomas Presents: The Gauntlet",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
       "rare": false
     },
     {
