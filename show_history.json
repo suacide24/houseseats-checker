@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-18",
         "2026-06-19",
@@ -118,7 +117,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-27",
         "2026-07-01",
@@ -183,7 +181,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-21",
         "2026-06-22",
@@ -323,7 +320,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-18",
         "2026-06-19",
@@ -355,7 +351,8 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -417,7 +414,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-18",
         "2026-06-19",
@@ -472,7 +468,6 @@
       "name": "Murray's Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17"
       ]
     },
@@ -490,7 +485,8 @@
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
@@ -541,7 +537,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-20",
         "2026-06-21",
@@ -599,7 +594,6 @@
       "name": "Amor Prohibido - Tribute to Selena",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-16",
         "2026-06-17",
         "2026-06-18",
         "2026-06-19"
@@ -1096,7 +1090,8 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1224,7 +1219,8 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1277,7 +1273,8 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28",
-        "2026-08-29"
+        "2026-08-29",
+        "2026-09-15"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1331,7 +1328,8 @@
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1800,7 +1798,8 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1880,21 +1879,24 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-13",
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|notoriety comedy club": {
       "name": "Notoriety Comedy Club",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     },
     "HouseSeats|phantom planet": {
       "name": "Phantom Planet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-14"
+        "2026-09-14",
+        "2026-09-15"
       ]
     }
   }
