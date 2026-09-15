@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-15T10:33:49 PT",
-  "last_successful_run": "2026-09-15T10:33:49 PT",
+  "last_updated": "2026-09-15T14:02:57 PT",
+  "last_successful_run": "2026-09-15T14:02:57 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -39,6 +39,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "September 17th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "September 18th",
@@ -51,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9340",
       "date": "September 18th",
       "image": "https://lv.houseseats.com/resources/media/9340.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
