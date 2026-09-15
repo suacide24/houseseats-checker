@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-14T18:47:21 PT",
-  "last_successful_run": "2026-09-14T18:47:21 PT",
+  "last_updated": "2026-09-15T00:28:18 PT",
+  "last_successful_run": "2026-09-15T00:28:18 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "September 14th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
