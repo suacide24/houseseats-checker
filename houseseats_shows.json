@@ -1,10 +1,18 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-15T16:36:21 PT",
-  "last_successful_run": "2026-09-15T16:36:21 PT",
+  "last_updated": "2026-09-15T21:09:53 PT",
+  "last_successful_run": "2026-09-15T21:09:53 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 12,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "September 16th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "True Story",
@@ -67,7 +75,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "September 18th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
