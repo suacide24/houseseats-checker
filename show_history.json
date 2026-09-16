@@ -1578,7 +1578,8 @@
         "2026-09-01",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-10"
+        "2026-09-10",
+        "2026-09-16"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1846,7 +1847,8 @@
         "2026-09-10",
         "2026-09-11",
         "2026-09-12",
-        "2026-09-13"
+        "2026-09-13",
+        "2026-09-16"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1890,6 +1892,27 @@
       "appearances": [
         "2026-09-14",
         "2026-09-15"
+      ]
+    },
+    "HouseSeats|the goddess effect": {
+      "name": "The Goddess Effect",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-16"
+      ]
+    },
+    "HouseSeats|the world series of comedy main event": {
+      "name": "The World Series of Comedy Main Event",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-16"
+      ]
+    },
+    "HouseSeats|rocklesque - the prince controversy": {
+      "name": "ROCKLESQUE - The PRINCE Controversy",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-16"
       ]
     }
   }
