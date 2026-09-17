@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-17T12:11:09 PT",
-  "last_successful_run": "2026-09-17T12:11:09 PT",
+  "last_updated": "2026-09-17T15:22:14 PT",
+  "last_successful_run": "2026-09-17T15:22:14 PT",
   "email_enabled": false,
   "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "True Story",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
-      "date": "September 17th",
-      "image": "https://lv.houseseats.com/resources/media/9438.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Goddess Effect",
@@ -92,6 +84,14 @@
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9423.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Summer Comedy Series",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9462",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9462.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
