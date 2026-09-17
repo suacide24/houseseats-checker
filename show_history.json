@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-18",
         "2026-06-19",
         "2026-06-20",
         "2026-06-23",
@@ -318,7 +317,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-18",
         "2026-06-19",
         "2026-06-20",
         "2026-06-21",
@@ -350,7 +348,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -412,7 +411,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-18",
         "2026-06-19",
         "2026-06-20",
         "2026-06-21",
@@ -477,7 +475,8 @@
         "2026-08-21",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
@@ -584,7 +583,6 @@
       "name": "Amor Prohibido - Tribute to Selena",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-18",
         "2026-06-19"
       ]
     },
@@ -1204,7 +1202,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1259,7 +1258,8 @@
         "2026-08-28",
         "2026-08-29",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1315,7 +1315,8 @@
         "2026-09-12",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1579,7 +1580,8 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-10",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1610,7 +1612,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1791,7 +1794,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1848,7 +1852,8 @@
         "2026-09-11",
         "2026-09-12",
         "2026-09-13",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1874,7 +1879,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|notoriety comedy club": {
@@ -1883,7 +1889,8 @@
       "appearances": [
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1898,21 +1905,24 @@
       "name": "The Goddess Effect",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|the world series of comedy main event": {
       "name": "The World Series of Comedy Main Event",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
       "name": "ROCKLESQUE - The PRINCE Controversy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-17"
       ]
     }
   }
