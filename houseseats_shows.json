@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-17T08:12:37 PT",
-  "last_successful_run": "2026-09-17T08:12:37 PT",
+  "last_updated": "2026-09-17T12:11:09 PT",
+  "last_successful_run": "2026-09-17T12:11:09 PT",
   "email_enabled": false,
   "count": 12,
   "shows": [
@@ -79,6 +79,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Foxtide with Jade Street",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9423",
       "date": "September 19th",
@@ -92,14 +100,6 @@
       "date": "September 20th",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 20th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
     }
   ]
 }
