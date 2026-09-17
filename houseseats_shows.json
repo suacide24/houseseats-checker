@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-17T03:18:18 PT",
-  "last_successful_run": "2026-09-17T03:18:18 PT",
+  "last_updated": "2026-09-17T08:12:37 PT",
+  "last_successful_run": "2026-09-17T08:12:37 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "September 17th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "True Story",
@@ -28,14 +20,6 @@
       "date": "September 17th",
       "image": "https://lv.houseseats.com/resources/media/9458.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "September 17th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -75,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9445.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
