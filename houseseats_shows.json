@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-18T07:53:50 PT",
-  "last_successful_run": "2026-09-18T07:53:50 PT",
+  "last_updated": "2026-09-18T11:11:29 PT",
+  "last_successful_run": "2026-09-18T11:11:29 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,6 +19,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "September 18th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Zelly Vibes with 24 Motion and DJ The Great",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9463",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/9463.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -71,6 +87,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Firelight Barn - Spotlight Preview Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Foxtide with Jade Street",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9423",
       "date": "September 19th",
@@ -83,6 +107,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9462",
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9462.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Juniper Kills with AntiTrust, Annelida, and Bury The Fear",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9464",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9464.jpg",
       "rare": true
     },
     {

@@ -127,7 +127,8 @@
         "2026-08-25",
         "2026-08-27",
         "2026-08-29",
-        "2026-08-30"
+        "2026-08-30",
+        "2026-09-18"
       ]
     },
     "HouseSeats|the rant!": {
@@ -356,7 +357,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-06-26",
-        "2026-06-27"
+        "2026-06-27",
+        "2026-09-18"
       ]
     },
     "HouseSeats|game of groans: variety show": {
@@ -1923,6 +1925,20 @@
       "appearances": [
         "2026-09-16",
         "2026-09-17"
+      ]
+    },
+    "HouseSeats|zelly vibes with 24 motion and dj the great": {
+      "name": "Zelly Vibes with 24 Motion and DJ The Great",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-18"
+      ]
+    },
+    "HouseSeats|juniper kills with antitrust, annelida, and bury the fear": {
+      "name": "Juniper Kills with AntiTrust, Annelida, and Bury The Fear",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-18"
       ]
     }
   }
