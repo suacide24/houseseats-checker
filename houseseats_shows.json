@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-18T14:08:30 PT",
-  "last_successful_run": "2026-09-18T14:08:30 PT",
+  "last_updated": "2026-09-18T16:30:14 PT",
+  "last_successful_run": "2026-09-18T16:30:14 PT",
   "email_enabled": false,
-  "count": 17,
+  "count": 15,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Zelly Vibes with 24 Motion and DJ The Great",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9463",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/9463.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "LMAOF - Stand Up Comedy (LIVE TAPING)",
@@ -100,6 +76,14 @@
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9144.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
