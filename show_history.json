@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19",
         "2026-06-20",
         "2026-06-23",
         "2026-06-24",
@@ -317,7 +316,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19",
         "2026-06-20",
         "2026-06-21",
         "2026-06-22",
@@ -349,7 +347,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -364,7 +363,6 @@
       "name": "Game of Groans: Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19",
         "2026-08-28"
       ]
     },
@@ -411,7 +409,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19",
         "2026-06-20",
         "2026-06-21",
         "2026-06-22",
@@ -476,7 +473,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
@@ -488,7 +486,8 @@
         "2026-07-16",
         "2026-07-17",
         "2026-08-14",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|movie night - an improv double feature": {
@@ -522,7 +521,8 @@
       "appearances": [
         "2026-07-24",
         "2026-07-25",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|seth robichaux: no filter, all glitter - a vegas cabaret show": {
@@ -581,18 +581,10 @@
         "2026-08-27"
       ]
     },
-    "HouseSeats|amor prohibido - tribute to selena": {
-      "name": "Amor Prohibido - Tribute to Selena",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-19"
-      ]
-    },
     "HouseSeats|the proud queer improv festival: fur & thundur and water street improv": {
       "name": "The Proud Queer Improv Festival: Fur & Thundur and Water Street Improv",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19",
         "2026-06-20",
         "2026-06-21"
       ]
@@ -601,7 +593,6 @@
       "name": "Tease After Dark: Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-19",
         "2026-06-20",
         "2026-06-21",
         "2026-06-23",
@@ -1205,7 +1196,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1261,7 +1253,8 @@
         "2026-08-29",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1318,7 +1311,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|clues & cocktails - a live murder mystery night": {
@@ -1855,7 +1849,8 @@
         "2026-09-12",
         "2026-09-13",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1882,7 +1877,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|notoriety comedy club": {
@@ -1892,7 +1888,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1916,7 +1913,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
