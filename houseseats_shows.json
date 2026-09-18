@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-18T11:11:29 PT",
-  "last_successful_run": "2026-09-18T11:11:29 PT",
+  "last_updated": "2026-09-18T14:08:30 PT",
+  "last_successful_run": "2026-09-18T14:08:30 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 17,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9463",
       "date": "September 18th",
       "image": "https://lv.houseseats.com/resources/media/9463.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "LMAOF - Stand Up Comedy (LIVE TAPING)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9465",
+      "date": "September 18th",
+      "image": "https://lv.houseseats.com/resources/media/9465.jpg",
       "rare": true
     },
     {
@@ -123,6 +131,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
       "date": "September 20th",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     }
   ]

@@ -1611,7 +1611,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-17"
+        "2026-09-17",
+        "2026-09-18"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1936,6 +1937,13 @@
     },
     "HouseSeats|juniper kills with antitrust, annelida, and bury the fear": {
       "name": "Juniper Kills with AntiTrust, Annelida, and Bury The Fear",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-18"
+      ]
+    },
+    "HouseSeats|lmaof - stand up comedy (live taping)": {
+      "name": "LMAOF - Stand Up Comedy (LIVE TAPING)",
       "source": "HouseSeats",
       "appearances": [
         "2026-09-18"
