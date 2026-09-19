@@ -1,40 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-19T11:44:56 PT",
-  "last_successful_run": "2026-09-19T11:44:56 PT",
+  "last_updated": "2026-09-19T14:21:28 PT",
+  "last_successful_run": "2026-09-19T14:21:28 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "An Evening with Rita Lim",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9394",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/9394.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Firelight Barn - Spotlight Preview Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9144",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/9144.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Foxtide with Jade Street",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9423",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/9423.jpg",
       "rare": false
     },
     {
@@ -87,11 +63,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "September 20th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The World Series of Comedy Main Event",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
       "date": "September 20th",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Brass Queens at The Smith Center",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9461",
+      "date": "September 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9461.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
