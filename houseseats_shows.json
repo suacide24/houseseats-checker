@@ -1,48 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-19T14:21:28 PT",
-  "last_successful_run": "2026-09-19T14:21:28 PT",
+  "last_updated": "2026-09-19T16:23:58 PT",
+  "last_successful_run": "2026-09-19T16:23:58 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Summer Comedy Series",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9462",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/9462.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Juniper Kills with AntiTrust, Annelida, and Bury The Fear",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9464",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/9464.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {
@@ -63,14 +31,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "September 20th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "The World Series of Comedy Main Event",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
       "date": "September 20th",
@@ -79,11 +39,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Brass Queens at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9461",
-      "date": "September 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9461.jpg",
-      "rare": true
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "September 20th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
