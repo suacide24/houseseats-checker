@@ -1,42 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-18T16:30:14 PT",
-  "last_successful_run": "2026-09-18T16:30:14 PT",
+  "last_updated": "2026-09-18T20:58:25 PT",
+  "last_successful_run": "2026-09-18T20:58:25 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "LMAOF - Stand Up Comedy (LIVE TAPING)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9465",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/9465.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mik Thomas Presents: The Gauntlet",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "September 18th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -67,7 +35,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9322.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -99,7 +67,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9462",
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9462.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -108,6 +76,14 @@
       "date": "September 19th",
       "image": "https://lv.houseseats.com/resources/media/9464.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "September 19th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
