@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-20T05:08:43 PT",
-  "last_successful_run": "2026-09-20T05:08:43 PT",
+  "last_updated": "2026-09-20T09:24:07 PT",
+  "last_successful_run": "2026-09-20T09:24:07 PT",
   "email_enabled": false,
-  "count": 4,
+  "count": 3,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "September 20th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The World Series of Comedy Main Event",
