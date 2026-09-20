@@ -280,7 +280,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|fantasy": {
@@ -1041,7 +1042,8 @@
         "2026-09-13",
         "2026-09-14",
         "2026-09-15",
-        "2026-09-16"
+        "2026-09-16",
+        "2026-09-20"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1942,6 +1944,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-19"
+      ]
+    },
+    "HouseSeats|cypress hill: once upon a time in the summer tour": {
+      "name": "Cypress Hill: Once Upon a Time in the Summer Tour",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-20"
       ]
     }
   }
