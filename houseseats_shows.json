@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-19T16:23:58 PT",
-  "last_successful_run": "2026-09-19T16:23:58 PT",
+  "last_updated": "2026-09-19T18:28:18 PT",
+  "last_successful_run": "2026-09-19T18:28:18 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
@@ -15,18 +15,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "September 19th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "September 20th",
       "image": "https://lv.houseseats.com/resources/media/9445.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "September 20th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
       "rare": false
     },
     {

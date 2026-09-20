@@ -177,7 +177,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-21",
         "2026-06-22",
         "2026-06-27",
         "2026-06-28",
@@ -288,7 +287,6 @@
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-21",
         "2026-06-22",
         "2026-07-19",
         "2026-07-20",
@@ -318,7 +316,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-21",
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
@@ -412,7 +409,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-21",
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
@@ -533,7 +529,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-21",
         "2026-06-22",
         "2026-06-23",
         "2026-06-24",
@@ -584,31 +579,16 @@
         "2026-08-27"
       ]
     },
-    "HouseSeats|the proud queer improv festival: fur & thundur and water street improv": {
-      "name": "The Proud Queer Improv Festival: Fur & Thundur and Water Street Improv",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-21"
-      ]
-    },
     "HouseSeats|tease after dark: burlesque revue": {
       "name": "Tease After Dark: Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-21",
         "2026-06-23",
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
         "2026-08-24",
         "2026-08-25"
-      ]
-    },
-    "HouseSeats|toby": {
-      "name": "TOBY",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-21"
       ]
     },
     "HouseSeats|garage rock tribute night": {
@@ -649,7 +629,8 @@
         "2026-08-24",
         "2026-09-04",
         "2026-09-05",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
@@ -1251,7 +1232,8 @@
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1609,7 +1591,8 @@
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1851,7 +1834,8 @@
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1892,7 +1876,8 @@
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1918,7 +1903,8 @@
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-19"
+        "2026-09-19",
+        "2026-09-20"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
