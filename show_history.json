@@ -73,7 +73,8 @@
         "2026-08-30",
         "2026-09-02",
         "2026-09-03",
-        "2026-09-04"
+        "2026-09-04",
+        "2026-09-21"
       ]
     },
     "HouseSeats|x country": {
@@ -177,7 +178,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-22",
         "2026-06-27",
         "2026-06-28",
         "2026-07-12",
@@ -282,14 +282,14 @@
         "2026-09-15",
         "2026-09-16",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|fantasy": {
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-22",
         "2026-07-19",
         "2026-07-20",
         "2026-07-26",
@@ -318,7 +318,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-22",
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
@@ -411,7 +410,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-22",
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
@@ -531,7 +529,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-22",
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
@@ -597,7 +594,6 @@
       "name": "Garage Rock Tribute Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-22",
         "2026-06-23",
         "2026-06-24",
         "2026-06-25",
@@ -1044,7 +1040,8 @@
         "2026-09-14",
         "2026-09-15",
         "2026-09-16",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1178,7 +1175,8 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1237,7 +1235,8 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1596,7 +1595,8 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1908,7 +1908,8 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
