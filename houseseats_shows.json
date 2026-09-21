@@ -1,24 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-21T06:57:25 PT",
-  "last_successful_run": "2026-09-21T06:57:25 PT",
+  "last_updated": "2026-09-21T12:16:34 PT",
+  "last_successful_run": "2026-09-21T12:16:34 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "September 21st",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "September 21st",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -27,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
       "date": "September 21st",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The World Series of Comedy Main Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "date": "September 21st",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
     {
@@ -59,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "September 24th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "September 24th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
       "rare": false
     }
   ]
