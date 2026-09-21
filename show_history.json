@@ -1882,7 +1882,8 @@
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-09-21"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1955,6 +1956,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-20"
+      ]
+    },
+    "HouseSeats|when september ends emo prom": {
+      "name": "When September Ends Emo Prom",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-21"
+      ]
+    },
+    "HouseSeats|vegas' dumbest show presents: dumbest dungeons and dragons": {
+      "name": "Vegas' Dumbest Show Presents: Dumbest Dungeons and Dragons",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-21"
       ]
     }
   }
