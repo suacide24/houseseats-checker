@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-22T14:04:08 PT",
-  "last_successful_run": "2026-09-22T14:04:08 PT",
+  "last_updated": "2026-09-22T16:43:37 PT",
+  "last_successful_run": "2026-09-22T16:43:37 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "September 22nd",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -33,7 +17,7 @@
       "source": "HouseSeats",
       "name": "The World Series of Comedy Main Event",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 22nd",
+      "date": "September 23rd",
       "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
@@ -43,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "September 23rd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -83,14 +75,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9454",
       "date": "September 26th",
       "image": "https://lv.houseseats.com/resources/media/9454.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Cypress Hill: Once Upon a Time in the Summer Tour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9456",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/9456.jpg",
       "rare": true
     }
   ]
