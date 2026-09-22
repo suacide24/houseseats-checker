@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
@@ -284,7 +283,8 @@
         "2026-09-16",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|fantasy": {
@@ -319,7 +319,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
@@ -411,7 +410,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
@@ -480,7 +478,6 @@
       "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-07-16",
         "2026-07-17",
@@ -530,7 +527,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
@@ -583,7 +579,6 @@
       "name": "Tease After Dark: Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-08-21",
         "2026-08-22",
         "2026-08-23",
@@ -595,7 +590,6 @@
       "name": "Garage Rock Tribute Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
@@ -606,7 +600,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-29",
         "2026-06-30",
@@ -636,7 +629,6 @@
       "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26",
@@ -647,7 +639,6 @@
       "name": "Veterans Comedy Event",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-23",
         "2026-06-24",
         "2026-06-25",
         "2026-06-26"
@@ -1042,7 +1033,8 @@
         "2026-09-15",
         "2026-09-16",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1177,7 +1169,8 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1237,7 +1230,8 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1597,7 +1591,8 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1883,7 +1878,8 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1911,7 +1907,8 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
@@ -1962,14 +1959,16 @@
       "name": "When September Ends Emo Prom",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     },
     "HouseSeats|vegas' dumbest show presents: dumbest dungeons and dragons": {
       "name": "Vegas' Dumbest Show Presents: Dumbest Dungeons and Dragons",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-21"
+        "2026-09-21",
+        "2026-09-22"
       ]
     }
   }
