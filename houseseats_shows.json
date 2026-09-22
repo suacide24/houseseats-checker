@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-22T06:14:27 PT",
-  "last_successful_run": "2026-09-22T06:14:27 PT",
+  "last_updated": "2026-09-22T10:42:09 PT",
+  "last_successful_run": "2026-09-22T10:42:09 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 22nd",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "September 22nd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -31,10 +31,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "name": "The World Series of Comedy Main Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "date": "September 22nd",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
     {
@@ -67,6 +67,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "September 26th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Absolute Britney",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9453",
+      "date": "September 26th",
+      "image": "https://lv.houseseats.com/resources/media/9453.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Vegas' Rising Music Icon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9454",
+      "date": "September 26th",
+      "image": "https://lv.houseseats.com/resources/media/9454.jpg",
       "rare": true
     }
   ]

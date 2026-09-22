@@ -1970,6 +1970,20 @@
         "2026-09-21",
         "2026-09-22"
       ]
+    },
+    "HouseSeats|absolute britney": {
+      "name": "Absolute Britney",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-22"
+      ]
+    },
+    "HouseSeats|vegas' rising music icon": {
+      "name": "Vegas' Rising Music Icon",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-22"
+      ]
     }
   }
 }
