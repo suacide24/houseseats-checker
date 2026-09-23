@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-23T07:20:33 PT",
-  "last_successful_run": "2026-09-23T07:20:33 PT",
+  "last_updated": "2026-09-23T11:31:53 PT",
+  "last_successful_run": "2026-09-23T11:31:53 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
@@ -27,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "September 23rd",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The World Series of Comedy Main Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "date": "September 23rd",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
     {
