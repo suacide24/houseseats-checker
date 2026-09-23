@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-22T21:07:17 PT",
-  "last_successful_run": "2026-09-22T21:07:17 PT",
+  "last_updated": "2026-09-23T02:26:44 PT",
+  "last_successful_run": "2026-09-23T02:26:44 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
@@ -33,7 +33,7 @@
       "source": "HouseSeats",
       "name": "Ikons of Rock",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 24th",
+      "date": "September 25th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
