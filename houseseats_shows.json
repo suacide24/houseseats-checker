@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-23T17:45:26 PT",
-  "last_successful_run": "2026-09-23T17:45:26 PT",
+  "last_updated": "2026-09-23T22:57:04 PT",
+  "last_successful_run": "2026-09-23T22:57:04 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "September 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "September 23rd",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The World Series of Comedy Main Event",
@@ -47,14 +31,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "September 24th",
@@ -63,10 +39,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "September 24th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "X ROCKS",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
       "date": "September 24th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "September 25th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
