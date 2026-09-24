@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-24T04:34:51 PT",
-  "last_successful_run": "2026-09-24T04:34:51 PT",
+  "last_updated": "2026-09-24T09:50:28 PT",
+  "last_successful_run": "2026-09-24T09:50:28 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
@@ -23,10 +15,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "name": "The World Series of Comedy Main Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
       "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
     {
@@ -99,6 +91,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "September 26th",
       "image": "https://lv.houseseats.com/resources/media/9253.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "September 26th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
