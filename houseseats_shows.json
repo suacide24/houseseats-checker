@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-24T09:50:28 PT",
-  "last_successful_run": "2026-09-24T09:50:28 PT",
+  "last_updated": "2026-09-24T13:18:33 PT",
+  "last_successful_run": "2026-09-24T13:18:33 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
@@ -28,6 +12,14 @@
       "date": "September 24th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
+      "date": "September 24th",
+      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -39,10 +31,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "name": "The World Series of Comedy Main Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "date": "September 25th",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
       "rare": false
     },
     {
