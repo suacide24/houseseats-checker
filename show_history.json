@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27",
         "2026-06-28",
@@ -79,7 +78,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27",
         "2026-07-03",
@@ -105,7 +103,8 @@
         "2026-09-09",
         "2026-09-10",
         "2026-09-14",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -257,7 +256,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-07-03",
         "2026-07-04",
         "2026-07-08",
@@ -286,7 +284,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|fantasy": {
@@ -308,20 +307,19 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-07-01",
         "2026-07-22",
         "2026-08-13",
         "2026-08-14",
         "2026-08-27",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27",
         "2026-06-28",
@@ -410,7 +408,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27",
         "2026-06-28",
@@ -525,7 +522,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27",
         "2026-06-28",
@@ -587,7 +583,6 @@
       "name": "Garage Rock Tribute Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27"
       ]
@@ -624,7 +619,6 @@
       "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27"
       ]
@@ -633,7 +627,6 @@
       "name": "Veterans Comedy Event",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26"
       ]
     },
@@ -641,7 +634,6 @@
       "name": "Tiki Frenzy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27",
         "2026-06-28"
@@ -651,7 +643,6 @@
       "name": "A$AP Rocky at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26"
       ]
     },
@@ -659,7 +650,6 @@
       "name": "Love & Theft",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-25",
         "2026-06-26",
         "2026-06-27"
       ]
@@ -1027,7 +1017,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1164,7 +1155,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1226,7 +1218,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1551,7 +1544,8 @@
         "2026-09-10",
         "2026-09-16",
         "2026-09-17",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1589,7 +1583,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1833,7 +1828,8 @@
         "2026-09-18",
         "2026-09-19",
         "2026-09-20",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1878,7 +1874,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1908,7 +1905,8 @@
         "2026-09-20",
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
@@ -1962,7 +1960,8 @@
       "appearances": [
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|vegas' dumbest show presents: dumbest dungeons and dragons": {
@@ -1971,7 +1970,8 @@
       "appearances": [
         "2026-09-21",
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     },
     "HouseSeats|absolute britney": {
@@ -1986,7 +1986,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-22",
-        "2026-09-23"
+        "2026-09-23",
+        "2026-09-24"
       ]
     }
   }
