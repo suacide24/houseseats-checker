@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-25T10:50:37 PT",
-  "last_successful_run": "2026-09-25T10:50:37 PT",
+  "last_updated": "2026-09-25T14:19:08 PT",
+  "last_successful_run": "2026-09-25T14:19:08 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -75,14 +75,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9454",
       "date": "September 26th",
       "image": "https://lv.houseseats.com/resources/media/9454.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Cypress Hill: Once Upon a Time in the Summer Tour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9456",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/9456.jpg",
       "rare": false
     },
     {
