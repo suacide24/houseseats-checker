@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-25T05:53:39 PT",
-  "last_successful_run": "2026-09-25T05:53:39 PT",
+  "last_updated": "2026-09-25T10:50:37 PT",
+  "last_successful_run": "2026-09-25T10:50:37 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 25th",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "September 25th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -63,6 +47,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The World Series of Comedy Main Event",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
+      "date": "September 26th",
+      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Vegas' Dumbest Show Presents: Dumbest Dungeons and Dragons",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
       "date": "September 26th",
@@ -84,6 +76,22 @@
       "date": "September 26th",
       "image": "https://lv.houseseats.com/resources/media/9454.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Cypress Hill: Once Upon a Time in the Summer Tour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9456",
+      "date": "September 26th",
+      "image": "https://lv.houseseats.com/resources/media/9456.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "UNLV Dance: Golden Glow",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9466",
+      "date": "October 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9466.jpg",
+      "rare": true
     }
   ]
 }
