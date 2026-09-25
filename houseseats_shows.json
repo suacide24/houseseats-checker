@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-24T18:46:08 PT",
-  "last_successful_run": "2026-09-24T18:46:08 PT",
+  "last_updated": "2026-09-25T00:24:06 PT",
+  "last_successful_run": "2026-09-25T00:24:06 PT",
   "email_enabled": false,
   "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "September 24th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The World Series of Comedy Main Event",
@@ -43,6 +35,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9406",
       "date": "September 25th",
       "image": "https://lv.houseseats.com/resources/media/9406.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "September 25th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
