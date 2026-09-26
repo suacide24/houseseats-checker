@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-26T07:39:31 PT",
-  "last_successful_run": "2026-09-26T07:39:31 PT",
+  "last_updated": "2026-09-26T11:25:49 PT",
+  "last_successful_run": "2026-09-26T11:25:49 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The World Series of Comedy Main Event",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7905",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/7905.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vegas' Dumbest Show Presents: Dumbest Dungeons and Dragons",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9253",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/9253.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
