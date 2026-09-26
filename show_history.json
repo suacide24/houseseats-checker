@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-06-28",
         "2026-06-29",
         "2026-06-30",
@@ -77,7 +76,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-07-03",
         "2026-07-04",
         "2026-07-08",
@@ -109,7 +107,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-07-01",
         "2026-07-15",
         "2026-07-22",
@@ -176,7 +173,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-06-28",
         "2026-07-12",
         "2026-07-18",
@@ -318,7 +314,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-06-28",
         "2026-06-29",
         "2026-06-30",
@@ -350,7 +345,6 @@
       "name": "Firelight Barn - Spotlight Preview Variety Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-09-18",
         "2026-09-19"
       ]
@@ -404,7 +398,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-06-28",
         "2026-06-29",
         "2026-06-30",
@@ -517,7 +510,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-06-28",
         "2026-06-29",
         "2026-06-30",
@@ -573,13 +565,6 @@
         "2026-08-25"
       ]
     },
-    "HouseSeats|garage rock tribute night": {
-      "name": "Garage Rock Tribute Night",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-27"
-      ]
-    },
     "HouseSeats|america - the show": {
       "name": "America - The Show",
       "source": "HouseSeats",
@@ -608,33 +593,11 @@
         "2026-09-20"
       ]
     },
-    "HouseSeats|vegas' dumbest show: 7 dumbest sins": {
-      "name": "Vegas' Dumbest Show: 7 Dumbest Sins",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-27"
-      ]
-    },
     "HouseSeats|tiki frenzy": {
       "name": "Tiki Frenzy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-27",
         "2026-06-28"
-      ]
-    },
-    "HouseSeats|love & theft": {
-      "name": "Love & Theft",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-27"
-      ]
-    },
-    "HouseSeats|golden girls": {
-      "name": "Golden Girls",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-27"
       ]
     },
     "HouseSeats|joyas prestadas - the jenni rivera tribute": {
@@ -995,7 +958,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1134,7 +1098,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1199,7 +1164,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1811,7 +1777,8 @@
         "2026-09-20",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1858,7 +1825,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1890,7 +1858,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|rocklesque - the prince controversy": {
@@ -1958,7 +1927,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|absolute britney": {
@@ -1975,14 +1945,16 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     },
     "HouseSeats|unlv dance: golden glow": {
       "name": "UNLV Dance: Golden Glow",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-25"
+        "2026-09-25",
+        "2026-09-26"
       ]
     }
   }
