@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-25T17:02:47 PT",
-  "last_successful_run": "2026-09-25T17:02:47 PT",
+  "last_updated": "2026-09-25T22:19:25 PT",
+  "last_successful_run": "2026-09-25T22:19:25 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "September 25th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -67,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9454",
       "date": "September 26th",
       "image": "https://lv.houseseats.com/resources/media/9454.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "September 26th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
