@@ -1955,6 +1955,27 @@
         "2026-09-26",
         "2026-09-27"
       ]
+    },
+    "HouseSeats|film screening: cuddly toys w/ director q&a": {
+      "name": "Film Screening: Cuddly Toys w/ Director Q&A",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-27"
+      ]
+    },
+    "HouseSeats|things i shouldn't tell you": {
+      "name": "Things I Shouldn't Tell You",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-27"
+      ]
+    },
+    "HouseSeats|murray's halloween madhouse": {
+      "name": "Murray's Halloween Madhouse",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-27"
+      ]
     }
   }
 }
