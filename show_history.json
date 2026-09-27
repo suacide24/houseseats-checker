@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-28",
         "2026-06-29",
         "2026-06-30",
         "2026-07-01",
@@ -173,7 +172,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-28",
         "2026-07-12",
         "2026-07-18",
         "2026-07-19",
@@ -314,7 +312,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-28",
         "2026-06-29",
         "2026-06-30",
         "2026-07-01",
@@ -339,7 +336,8 @@
         "2026-09-16",
         "2026-09-17",
         "2026-09-18",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -399,7 +397,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-28",
         "2026-06-29",
         "2026-06-30",
         "2026-07-01",
@@ -511,7 +508,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-28",
         "2026-06-29",
         "2026-06-30",
         "2026-07-01",
@@ -592,13 +588,6 @@
         "2026-09-05",
         "2026-09-19",
         "2026-09-20"
-      ]
-    },
-    "HouseSeats|tiki frenzy": {
-      "name": "Tiki Frenzy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-06-28"
       ]
     },
     "HouseSeats|joyas prestadas - the jenni rivera tribute": {
@@ -1100,7 +1089,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-09-25",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1166,7 +1156,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-09-25",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1533,7 +1524,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-09-25",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1780,7 +1772,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-09-25",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1828,7 +1821,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-09-25",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1956,7 +1950,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-25",
-        "2026-09-26"
+        "2026-09-26",
+        "2026-09-27"
       ]
     }
   }

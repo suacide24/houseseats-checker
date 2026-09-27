@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-26T16:46:20 PT",
-  "last_successful_run": "2026-09-26T16:46:20 PT",
+  "last_updated": "2026-09-26T21:37:45 PT",
+  "last_successful_run": "2026-09-26T21:37:45 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Vegas' Rising Music Icon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9454",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/9454.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "September 26th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -35,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "September 27th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "September 27th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
@@ -67,7 +59,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9466",
       "date": "October 2nd",
       "image": "https://lv.houseseats.com/resources/media/9466.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
