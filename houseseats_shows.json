@@ -1,10 +1,26 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-27T08:14:02 PT",
-  "last_successful_run": "2026-09-27T08:14:02 PT",
+  "last_updated": "2026-09-27T12:11:15 PT",
+  "last_successful_run": "2026-09-27T12:11:15 PT",
   "email_enabled": false,
-  "count": 5,
+  "count": 7,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "September 27th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "FANTASY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
+      "date": "September 27th",
+      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
