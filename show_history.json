@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -294,7 +293,8 @@
         "2026-08-30",
         "2026-08-31",
         "2026-09-13",
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
@@ -314,7 +314,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -399,7 +398,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -510,7 +508,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -568,7 +565,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-06",
         "2026-07-08",
@@ -596,7 +592,6 @@
       "name": "Joyas Prestadas - The Jenni Rivera Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -607,7 +602,6 @@
       "name": "The Big Easy Live - Boots & Bourbon Tour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-29",
         "2026-06-30",
         "2026-07-01",
         "2026-07-02",
@@ -1092,7 +1086,8 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-26",
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1159,7 +1154,8 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-26",
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1527,7 +1523,8 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-26",
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1824,7 +1821,8 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-26",
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1953,28 +1951,32 @@
       "appearances": [
         "2026-09-25",
         "2026-09-26",
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|film screening: cuddly toys w/ director q&a": {
       "name": "Film Screening: Cuddly Toys w/ Director Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|things i shouldn't tell you": {
       "name": "Things I Shouldn't Tell You",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
       "name": "Murray's Halloween Madhouse",
       "source": "HouseSeats",
       "appearances": [
-        "2026-09-27"
+        "2026-09-27",
+        "2026-09-28"
       ]
     }
   }
