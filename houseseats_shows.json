@@ -1,10 +1,18 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-09-29T07:59:56 PT",
-  "last_successful_run": "2026-09-29T07:59:56 PT",
+  "last_updated": "2026-09-29T12:56:26 PT",
+  "last_successful_run": "2026-09-29T12:56:26 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 11,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "September 29th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
@@ -51,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "October 1st",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Coco and Friends Jazz Showcase",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9393",
+      "date": "October 1st",
+      "image": "https://lv.houseseats.com/resources/media/9393.jpg",
       "rare": false
     },
     {
