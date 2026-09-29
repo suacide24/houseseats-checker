@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-01",
         "2026-07-02",
         "2026-07-03",
@@ -278,7 +277,8 @@
         "2026-09-22",
         "2026-09-23",
         "2026-09-24",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|fantasy": {
@@ -315,7 +315,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-01",
         "2026-07-02",
         "2026-07-03",
@@ -399,7 +398,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-01",
         "2026-07-02",
         "2026-07-03",
@@ -509,7 +507,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-01",
         "2026-07-02",
         "2026-07-03",
@@ -566,7 +563,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-06",
         "2026-07-08",
         "2026-07-10",
@@ -593,7 +589,6 @@
       "name": "Joyas Prestadas - The Jenni Rivera Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-01",
         "2026-07-02",
         "2026-07-03"
@@ -603,7 +598,6 @@
       "name": "The Big Easy Live - Boots & Bourbon Tour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-06-30",
         "2026-07-01",
         "2026-07-02",
         "2026-07-03",
@@ -947,7 +941,8 @@
         "2026-09-24",
         "2026-09-25",
         "2026-09-26",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1089,7 +1084,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1157,7 +1153,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1526,7 +1523,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1824,7 +1822,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1954,7 +1953,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|film screening: cuddly toys w/ director q&a": {
@@ -1962,7 +1962,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|things i shouldn't tell you": {
@@ -1970,7 +1971,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-27",
-        "2026-09-28"
+        "2026-09-28",
+        "2026-09-29"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
@@ -1986,6 +1988,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-28"
+      ]
+    },
+    "HouseSeats|cumbiatron \u2013 the cumbia rave": {
+      "name": "Cumbiatron \u2013 The Cumbia Rave",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-09-29"
       ]
     }
   }
