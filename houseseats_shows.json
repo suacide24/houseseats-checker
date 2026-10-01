@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-01T00:00:54 PT",
-  "last_successful_run": "2026-10-01T00:00:54 PT",
+  "last_updated": "2026-10-01T07:41:18 PT",
+  "last_successful_run": "2026-10-01T07:41:18 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9468",
       "date": "October 1st",
       "image": "https://lv.houseseats.com/resources/media/9468.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Things I Shouldn't Tell You",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
-      "date": "October 1st",
-      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
       "rare": false
     },
     {
@@ -71,6 +63,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Things I Shouldn't Tell You",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
+      "date": "October 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Cumbiatron \u2013 The Cumbia Rave",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
       "date": "October 2nd",
@@ -100,14 +100,6 @@
       "date": "October 4th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "BACK TO BASICS TOUR - GYM CLASS HEROES, LUPE FIASCO, AND B.O.B.",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9472",
-      "date": "October 4th",
-      "image": "https://lv.houseseats.com/resources/media/9472.jpg",
-      "rare": true
     }
   ]
 }
