@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-01T07:41:18 PT",
-  "last_successful_run": "2026-10-01T07:41:18 PT",
+  "last_updated": "2026-10-01T13:13:15 PT",
+  "last_successful_run": "2026-10-01T13:13:15 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -23,10 +23,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Film Screening: Cuddly Toys w/ Director Q&A",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9468",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "October 1st",
-      "image": "https://lv.houseseats.com/resources/media/9468.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
@@ -55,6 +55,22 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "October 1st",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Clues & Cocktails - A Live Murder Mystery Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
+      "date": "October 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9396.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 2nd",
@@ -75,6 +91,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
       "date": "October 2nd",
       "image": "https://lv.houseseats.com/resources/media/8513.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
+      "date": "October 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
       "rare": false
     },
     {
