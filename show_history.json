@@ -2022,6 +2022,13 @@
         "2026-10-01",
         "2026-10-02"
       ]
+    },
+    "HouseSeats|who's the star?": {
+      "name": "Who's the Star?",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-02"
+      ]
     }
   }
 }
