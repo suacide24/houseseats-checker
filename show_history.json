@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
@@ -71,7 +70,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-08",
         "2026-07-09",
@@ -245,7 +243,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-08",
         "2026-07-09",
@@ -277,7 +274,8 @@
         "2026-09-24",
         "2026-09-28",
         "2026-09-29",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|fantasy": {
@@ -313,7 +311,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-05",
         "2026-07-06",
         "2026-07-07",
@@ -337,7 +334,8 @@
         "2026-09-27",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -397,7 +395,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
@@ -504,7 +501,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
@@ -580,18 +576,10 @@
         "2026-09-20"
       ]
     },
-    "HouseSeats|joyas prestadas - the jenni rivera tribute": {
-      "name": "Joyas Prestadas - The Jenni Rivera Tribute",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-03"
-      ]
-    },
     "HouseSeats|the big easy live - boots & bourbon tour": {
       "name": "The Big Easy Live - Boots & Bourbon Tour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04"
       ]
     },
@@ -599,7 +587,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
@@ -632,7 +619,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-03",
         "2026-07-04",
         "2026-07-05",
         "2026-07-06",
@@ -1078,7 +1064,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1149,7 +1136,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1216,7 +1204,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-07",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|ial playoffs at orleans arena": {
@@ -1477,7 +1466,8 @@
         "2026-09-17",
         "2026-09-23",
         "2026-09-24",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1523,7 +1513,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1775,7 +1766,8 @@
         "2026-09-25",
         "2026-09-26",
         "2026-09-27",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1828,7 +1820,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1961,7 +1954,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|film screening: cuddly toys w/ director q&a": {
@@ -1983,7 +1977,8 @@
         "2026-09-28",
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
@@ -2007,7 +2002,8 @@
       "appearances": [
         "2026-09-29",
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|back to basics tour - gym class heroes, lupe fiasco, and b.o.b.": {
@@ -2015,14 +2011,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-09-30",
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     },
     "HouseSeats|hinder": {
       "name": "Hinder",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-01"
+        "2026-10-01",
+        "2026-10-02"
       ]
     }
   }
