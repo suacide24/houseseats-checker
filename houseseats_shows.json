@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-01T17:03:11 PT",
-  "last_successful_run": "2026-10-01T17:03:11 PT",
+  "last_updated": "2026-10-01T23:02:04 PT",
+  "last_successful_run": "2026-10-01T23:02:04 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 1st",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "October 1st",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Clues & Cocktails - A Live Murder Mystery Night",
@@ -28,14 +12,6 @@
       "date": "October 2nd",
       "image": "https://lv.houseseats.com/resources/media/9396.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -71,6 +47,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "October 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "October 3rd",
@@ -79,10 +63,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "UNLV Dance: Golden Glow",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9466",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9466.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
