@@ -1,50 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-02T11:37:29 PT",
-  "last_successful_run": "2026-10-02T11:37:29 PT",
+  "last_updated": "2026-10-02T15:51:18 PT",
+  "last_successful_run": "2026-10-02T15:51:18 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Clues & Cocktails - A Live Murder Mystery Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
-      "date": "October 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9396.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Things I Shouldn't Tell You",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
-      "date": "October 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Cumbiatron \u2013 The Cumbia Rave",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8513",
-      "date": "October 2nd",
-      "image": "https://lv.houseseats.com/resources/media/8513.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -71,10 +31,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     },
     {
@@ -84,6 +52,14 @@
       "date": "October 3rd",
       "image": "https://lv.houseseats.com/resources/media/9475.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Things I Shouldn't Tell You",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
+      "date": "October 4th",
+      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -100,6 +76,14 @@
       "date": "October 4th",
       "image": "https://lv.houseseats.com/resources/media/9472.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Johnny's Bucket LIVE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9473",
+      "date": "October 6th",
+      "image": "https://lv.houseseats.com/resources/media/9473.jpg",
+      "rare": true
     }
   ]
 }
