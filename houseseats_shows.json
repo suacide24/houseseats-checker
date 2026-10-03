@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-03T10:31:32 PT",
-  "last_successful_run": "2026-10-03T10:31:32 PT",
+  "last_updated": "2026-10-03T13:49:20 PT",
+  "last_successful_run": "2026-10-03T13:49:20 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Who's the Star?",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9477",
-      "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9477.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -84,6 +76,22 @@
       "date": "October 6th",
       "image": "https://lv.houseseats.com/resources/media/9473.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 6th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Halloween Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
+      "date": "October 8th",
+      "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
     }
   ]
 }
