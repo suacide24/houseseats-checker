@@ -2034,6 +2034,13 @@
       "appearances": [
         "2026-10-03"
       ]
+    },
+    "HouseSeats|lit with special guest sponge": {
+      "name": "Lit with Special Guest Sponge",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-03"
+      ]
     }
   }
 }

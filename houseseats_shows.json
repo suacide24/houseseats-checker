@@ -1,25 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-03T13:49:20 PT",
-  "last_successful_run": "2026-10-03T13:49:20 PT",
+  "last_updated": "2026-10-03T16:37:47 PT",
+  "last_successful_run": "2026-10-03T16:37:47 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "name": "Lit with Special Guest Sponge",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9479",
       "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Hinder",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9475",
-      "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9475.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9479.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "October 4th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 4th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     },
     {
