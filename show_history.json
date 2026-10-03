@@ -2025,6 +2025,13 @@
         "2026-10-02",
         "2026-10-03"
       ]
+    },
+    "HouseSeats|scene queen": {
+      "name": "Scene Queen",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-03"
+      ]
     }
   }
 }

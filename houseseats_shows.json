@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-03T06:10:46 PT",
-  "last_successful_run": "2026-10-03T06:10:46 PT",
+  "last_updated": "2026-10-03T10:31:32 PT",
+  "last_successful_run": "2026-10-03T10:31:32 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Who's the Star?",
@@ -47,6 +39,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
+      "date": "October 4th",
+      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Things I Shouldn't Tell You",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
       "date": "October 4th",
@@ -68,6 +68,14 @@
       "date": "October 4th",
       "image": "https://lv.houseseats.com/resources/media/9472.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Scene Queen",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9478",
+      "date": "October 4th",
+      "image": "https://lv.houseseats.com/resources/media/9478.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
