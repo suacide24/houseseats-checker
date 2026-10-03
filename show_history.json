@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-05",
         "2026-07-06",
         "2026-07-07",
@@ -70,7 +69,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-08",
         "2026-07-09",
         "2026-07-24",
@@ -243,7 +241,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-08",
         "2026-07-09",
         "2026-07-10",
@@ -335,7 +332,8 @@
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -395,7 +393,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-05",
         "2026-07-06",
         "2026-07-07",
@@ -501,7 +498,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-05",
         "2026-07-06",
         "2026-07-09",
@@ -576,18 +572,10 @@
         "2026-09-20"
       ]
     },
-    "HouseSeats|the big easy live - boots & bourbon tour": {
-      "name": "The Big Easy Live - Boots & Bourbon Tour",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-04"
-      ]
-    },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (henderson)": {
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-05",
         "2026-07-06",
         "2026-07-07",
@@ -619,7 +607,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-04",
         "2026-07-05",
         "2026-07-06",
         "2026-07-07",
@@ -646,13 +633,6 @@
         "2026-07-28",
         "2026-07-29",
         "2026-07-30"
-      ]
-    },
-    "HouseSeats|firefall, atlanta rhythm section & orleans in las vegas": {
-      "name": "Firefall, Atlanta Rhythm Section & Orleans in Las Vegas",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-04"
       ]
     },
     "HouseSeats|players honors 2026": {
@@ -1137,7 +1117,8 @@
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1467,7 +1448,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1767,7 +1749,8 @@
         "2026-09-26",
         "2026-09-27",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1821,7 +1804,8 @@
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1978,7 +1962,8 @@
         "2026-09-29",
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
@@ -2012,7 +1997,8 @@
       "appearances": [
         "2026-09-30",
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|hinder": {
@@ -2020,21 +2006,24 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-01",
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|who's the star?": {
       "name": "Who's the Star?",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     },
     "HouseSeats|johnny's bucket live": {
       "name": "Johnny's Bucket LIVE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-02"
+        "2026-10-02",
+        "2026-10-03"
       ]
     }
   }
