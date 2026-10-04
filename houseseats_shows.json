@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-04T12:22:17 PT",
-  "last_successful_run": "2026-10-04T12:22:17 PT",
+  "last_updated": "2026-10-04T15:27:11 PT",
+  "last_successful_run": "2026-10-04T15:27:11 PT",
   "email_enabled": false,
-  "count": 5,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 4th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Scene Queen",
@@ -20,6 +12,14 @@
       "date": "October 4th",
       "image": "https://lv.houseseats.com/resources/media/9478.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "October 4th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -39,10 +39,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Things I Shouldn't Tell You",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
+      "date": "October 8th",
+      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Murray's Halloween Madhouse",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
       "date": "October 8th",
       "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 8th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 9th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     }
   ]
