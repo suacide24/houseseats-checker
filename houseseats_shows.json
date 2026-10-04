@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-04T04:13:42 PT",
-  "last_successful_run": "2026-10-04T04:13:42 PT",
+  "last_updated": "2026-10-04T08:55:31 PT",
+  "last_successful_run": "2026-10-04T08:55:31 PT",
   "email_enabled": false,
-  "count": 8,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "October 4th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Things I Shouldn't Tell You",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
       "date": "October 4th",
       "image": "https://lv.houseseats.com/resources/media/9470.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "October 4th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     },
     {
