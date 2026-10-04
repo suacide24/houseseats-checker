@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-04T08:55:31 PT",
-  "last_successful_run": "2026-10-04T08:55:31 PT",
+  "last_updated": "2026-10-04T12:22:17 PT",
+  "last_successful_run": "2026-10-04T12:22:17 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 5,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Things I Shouldn't Tell You",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
-      "date": "October 4th",
-      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
