@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -308,7 +307,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -333,7 +331,8 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -368,7 +367,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -393,7 +391,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -421,7 +418,6 @@
       "name": "Mondays Dark",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06"
       ]
     },
@@ -498,7 +494,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-09",
         "2026-07-10",
@@ -576,7 +571,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -607,7 +601,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07",
         "2026-07-08",
@@ -639,7 +632,6 @@
       "name": "Players Honors 2026",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-05",
         "2026-07-06",
         "2026-07-07"
       ]
@@ -1497,7 +1489,8 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1751,7 +1744,8 @@
         "2026-09-27",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1806,7 +1800,8 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1964,7 +1959,8 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-02",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
@@ -1973,7 +1969,8 @@
       "appearances": [
         "2026-09-27",
         "2026-09-28",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -2025,14 +2022,16 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-02",
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|scene queen": {
       "name": "Scene Queen",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-03"
+        "2026-10-03",
+        "2026-10-04"
       ]
     },
     "HouseSeats|lit with special guest sponge": {

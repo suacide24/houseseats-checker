@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-03T16:37:47 PT",
-  "last_successful_run": "2026-10-03T16:37:47 PT",
+  "last_updated": "2026-10-03T22:10:29 PT",
+  "last_successful_run": "2026-10-03T22:10:29 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Lit with Special Guest Sponge",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9479",
-      "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9479.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -55,14 +39,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "BACK TO BASICS TOUR - GYM CLASS HEROES, LUPE FIASCO, AND B.O.B.",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9472",
-      "date": "October 4th",
-      "image": "https://lv.houseseats.com/resources/media/9472.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Scene Queen",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9478",
       "date": "October 4th",
@@ -75,7 +51,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9473",
       "date": "October 6th",
       "image": "https://lv.houseseats.com/resources/media/9473.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
