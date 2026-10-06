@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-06T03:40:43 PT",
-  "last_successful_run": "2026-10-06T03:40:43 PT",
+  "last_updated": "2026-10-06T10:05:04 PT",
+  "last_successful_run": "2026-10-06T10:05:04 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -20,6 +20,14 @@
       "date": "October 6th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mat Franco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "date": "October 6th",
+      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
