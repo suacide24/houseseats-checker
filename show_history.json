@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
@@ -66,7 +65,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-24",
         "2026-07-29",
@@ -152,13 +150,13 @@
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
         "2026-07-12",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|tape face at mgm grand": {
@@ -242,7 +240,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-15",
@@ -310,7 +307,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
@@ -355,7 +351,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-21",
         "2026-07-22",
@@ -368,7 +363,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-08-09",
         "2026-08-10",
@@ -381,7 +375,6 @@
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-08-17"
       ]
@@ -390,7 +383,6 @@
       "name": "Nathan Burton Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
@@ -464,7 +456,6 @@
       "name": "Wastin' Away",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-08-17"
       ]
@@ -534,7 +525,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-10",
         "2026-07-13",
         "2026-07-15",
@@ -559,7 +549,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
@@ -587,7 +576,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10",
         "2026-07-11",
@@ -616,30 +604,14 @@
       "name": "Grace Potter",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-07-10"
-      ]
-    },
-    "HouseSeats|players honors 2026 at mgm grand": {
-      "name": "Players Honors 2026 at MGM Grand",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-08"
-      ]
-    },
-    "HouseSeats|australia's thunder from down under": {
-      "name": "Australia's Thunder from Down Under",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-08"
       ]
     },
     "HouseSeats|laugh factory las vegas": {
       "name": "Laugh Factory Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-08-17"
       ]
@@ -648,7 +620,6 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -656,7 +627,6 @@
       "name": "Elton John & Beatles: Made In England",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09",
         "2026-08-17"
       ]
@@ -665,22 +635,13 @@
       "name": "Marc Savard Comedy Hypnosis",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
-      ]
-    },
-    "HouseSeats|colin cloud: mastermind": {
-      "name": "Colin Cloud: Mastermind",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-08"
       ]
     },
     "HouseSeats|lioz - master of delusion": {
       "name": "Lioz - Master of Delusion",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -688,7 +649,6 @@
       "name": "Ivan Kane's Forty Deuce Burlesque Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -696,7 +656,6 @@
       "name": "ComedySportz: Minor League",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -704,7 +663,6 @@
       "name": "Foul Play",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -712,7 +670,6 @@
       "name": "ComedySportz Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -720,7 +677,6 @@
       "name": "Improv is Blind",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -728,7 +684,6 @@
       "name": "Sir Elton \u2013 At the Piano: The Music of Elton John",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-08",
         "2026-07-09"
       ]
     },
@@ -866,7 +821,8 @@
         "2026-09-30",
         "2026-10-01",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -1015,7 +971,8 @@
         "2026-10-02",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1090,7 +1047,8 @@
         "2026-10-02",
         "2026-10-03",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1423,7 +1381,8 @@
         "2026-10-02",
         "2026-10-03",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1474,7 +1433,8 @@
         "2026-10-03",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1729,7 +1689,8 @@
         "2026-10-01",
         "2026-10-02",
         "2026-10-03",
-        "2026-10-04"
+        "2026-10-04",
+        "2026-10-07"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1787,7 +1748,8 @@
         "2026-10-03",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1948,7 +1910,8 @@
         "2026-10-03",
         "2026-10-04",
         "2026-10-05",
-        "2026-10-06"
+        "2026-10-06",
+        "2026-10-07"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
