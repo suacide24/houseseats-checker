@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-08T07:48:20 PT",
-  "last_successful_run": "2026-10-08T07:48:20 PT",
+  "last_updated": "2026-10-08T13:35:03 PT",
+  "last_successful_run": "2026-10-08T13:35:03 PT",
   "email_enabled": false,
   "count": 10,
   "shows": [
@@ -35,14 +35,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "October 8th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 9th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
@@ -84,6 +76,14 @@
       "date": "October 11th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Dazed and Confused LIVE!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9481",
+      "date": "October 13th",
+      "image": "https://lv.houseseats.com/resources/media/9481.jpg",
+      "rare": true
     }
   ]
 }
