@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-08T18:03:52 PT",
-  "last_successful_run": "2026-10-08T18:03:52 PT",
+  "last_updated": "2026-10-09T00:51:54 PT",
+  "last_successful_run": "2026-10-09T00:51:54 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 8th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "October 8th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "October 8th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "October 9th",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
       "rare": false
     },
     {
@@ -71,18 +55,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mo Amer at The Cosmopolitan",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9484",
-      "date": "October 10th",
-      "image": "https://lv.houseseats.com/resources/media/9484.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "TEASE: A Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9276",
       "date": "October 10th",
       "image": "https://lv.houseseats.com/resources/media/9276.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "October 10th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
