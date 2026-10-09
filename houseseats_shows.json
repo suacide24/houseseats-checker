@@ -1,40 +1,40 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-08T13:35:03 PT",
-  "last_successful_run": "2026-10-08T13:35:03 PT",
+  "last_updated": "2026-10-08T18:03:52 PT",
+  "last_successful_run": "2026-10-08T18:03:52 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 8th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 8th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Things I Shouldn't Tell You",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
-      "date": "October 8th",
-      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "October 8th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "October 8th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "October 8th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 9th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -60,6 +60,22 @@
       "date": "October 10th",
       "image": "https://lv.houseseats.com/resources/media/9445.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Things I Shouldn't Tell You",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
+      "date": "October 10th",
+      "image": "https://lv.houseseats.com/resources/media/9470.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mo Amer at The Cosmopolitan",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9484",
+      "date": "October 10th",
+      "image": "https://lv.houseseats.com/resources/media/9484.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
