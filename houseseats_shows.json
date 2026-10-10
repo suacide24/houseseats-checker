@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-09T17:14:30 PT",
-  "last_successful_run": "2026-10-09T17:14:30 PT",
+  "last_updated": "2026-10-09T23:15:16 PT",
+  "last_successful_run": "2026-10-09T23:15:16 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -31,6 +31,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Brit Floyd: The Moon, The Wall, And Beyond",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9485",
+      "date": "October 10th",
+      "image": "https://lv.houseseats.com/resources/media/9485.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "TEASE: A Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9276",
       "date": "October 10th",
@@ -44,6 +52,14 @@
       "date": "October 10th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "October 10th",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
