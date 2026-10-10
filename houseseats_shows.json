@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-10T10:43:16 PT",
-  "last_successful_run": "2026-10-10T10:43:16 PT",
+  "last_updated": "2026-10-10T14:22:53 PT",
+  "last_successful_run": "2026-10-10T14:22:53 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9470",
       "date": "October 10th",
       "image": "https://lv.houseseats.com/resources/media/9470.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "TEASE: A Burlesque Revue",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9276",
-      "date": "October 10th",
-      "image": "https://lv.houseseats.com/resources/media/9276.jpg",
       "rare": false
     },
     {
@@ -55,6 +47,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "October 10th",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "October 11th",
@@ -67,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 11th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 13th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
