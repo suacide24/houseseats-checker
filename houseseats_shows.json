@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-10T05:55:36 PT",
-  "last_successful_run": "2026-10-10T05:55:36 PT",
+  "last_updated": "2026-10-10T10:43:16 PT",
+  "last_successful_run": "2026-10-10T10:43:16 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "October 10th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -28,14 +20,6 @@
       "date": "October 10th",
       "image": "https://lv.houseseats.com/resources/media/9470.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Brit Floyd: The Moon, The Wall, And Beyond",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9485",
-      "date": "October 10th",
-      "image": "https://lv.houseseats.com/resources/media/9485.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
