@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
@@ -147,7 +146,6 @@
       "name": "TEASE: A Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-10-05",
         "2026-10-06",
         "2026-10-07",
@@ -160,7 +158,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-18",
         "2026-07-19",
         "2026-07-20",
@@ -268,7 +265,8 @@
         "2026-10-02",
         "2026-10-05",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|fantasy": {
@@ -305,7 +303,6 @@
       "name": "The Conjurors Secret Wonders",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-09-06",
         "2026-09-07",
         "2026-09-08",
@@ -328,7 +325,8 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -373,13 +371,6 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-08-17"
-      ]
-    },
-    "HouseSeats|nathan burton magic show": {
-      "name": "Nathan Burton Magic Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-12"
       ]
     },
     "HouseSeats|extremeprov": {
@@ -433,7 +424,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
@@ -467,7 +457,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
@@ -538,7 +527,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
@@ -562,7 +550,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
@@ -611,7 +598,6 @@
       "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-12",
         "2026-07-13",
         "2026-07-14",
         "2026-07-15",
@@ -726,7 +712,8 @@
         "2026-10-06",
         "2026-10-07",
         "2026-10-08",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -958,7 +945,8 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1348,7 +1336,8 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1669,7 +1658,8 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1834,7 +1824,8 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|murray's halloween madhouse": {
@@ -1924,7 +1915,8 @@
       "appearances": [
         "2026-10-08",
         "2026-10-09",
-        "2026-10-10"
+        "2026-10-10",
+        "2026-10-11"
       ]
     },
     "HouseSeats|mo amer at the cosmopolitan": {
