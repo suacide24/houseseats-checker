@@ -1934,6 +1934,13 @@
       "appearances": [
         "2026-10-10"
       ]
+    },
+    "HouseSeats|mondays dark": {
+      "name": "Mondays Dark",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-12"
+      ]
     }
   }
 }

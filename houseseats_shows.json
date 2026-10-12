@@ -1,17 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-12T01:52:47 PT",
-  "last_successful_run": "2026-10-12T01:52:47 PT",
+  "last_updated": "2026-10-12T11:47:23 PT",
+  "last_successful_run": "2026-10-12T11:47:23 PT",
   "email_enabled": false,
   "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "name": "Mondays Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9490",
       "date": "October 12th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9490.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
