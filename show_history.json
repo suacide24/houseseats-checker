@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -216,7 +215,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -327,7 +325,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -392,7 +391,6 @@
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -405,7 +403,8 @@
         "2026-09-15",
         "2026-09-16",
         "2026-09-17",
-        "2026-09-18"
+        "2026-09-18",
+        "2026-10-13"
       ]
     },
     "HouseSeats|murder at the steakhouse - murder mystery dinner show": {
@@ -424,7 +423,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-08-16",
@@ -456,7 +454,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -524,7 +521,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -546,7 +542,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -593,7 +588,6 @@
       "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17",
@@ -604,17 +598,9 @@
       "name": "Banda World - Live Banda X Perreo Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-14",
         "2026-07-15",
         "2026-07-16",
         "2026-07-17"
-      ]
-    },
-    "HouseSeats|mike hammer comedy magic": {
-      "name": "Mike Hammer Comedy Magic",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-14"
       ]
     },
     "HouseSeats|rocklesque: alter ego": {
@@ -700,7 +686,8 @@
         "2026-10-08",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
@@ -855,7 +842,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -936,7 +924,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1328,7 +1317,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1651,7 +1641,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1830,7 +1821,8 @@
         "2026-10-04",
         "2026-10-05",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -1911,7 +1903,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-11",
-        "2026-10-12"
+        "2026-10-12",
+        "2026-10-13"
       ]
     },
     "HouseSeats|mo amer at the cosmopolitan": {
@@ -1940,6 +1933,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-12"
+      ]
+    },
+    "HouseSeats|taylor hunnicutt at stoney's north forty": {
+      "name": "Taylor Hunnicutt at Stoney's North Forty",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-13"
       ]
     }
   }

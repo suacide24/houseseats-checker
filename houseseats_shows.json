@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-12T11:47:23 PT",
-  "last_successful_run": "2026-10-12T11:47:23 PT",
+  "last_updated": "2026-10-12T18:10:15 PT",
+  "last_successful_run": "2026-10-12T18:10:15 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mondays Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9490",
-      "date": "October 12th",
-      "image": "https://lv.houseseats.com/resources/media/9490.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "October 12th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 13th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -55,6 +39,22 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 14th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Taylor Hunnicutt at Stoney's North Forty",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9491",
+      "date": "October 14th",
+      "image": "https://lv.houseseats.com/resources/media/9491.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Murray's Halloween Madhouse",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
       "date": "October 15th",
@@ -75,6 +75,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 16th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mik Thomas Presents: The Gauntlet",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
+      "date": "October 16th",
+      "image": "https://lv.houseseats.com/resources/media/9273.jpg",
       "rare": false
     }
   ]
