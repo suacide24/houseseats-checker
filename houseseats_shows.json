@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-14T04:38:50 PT",
-  "last_successful_run": "2026-10-14T04:38:50 PT",
+  "last_updated": "2026-10-14T09:52:31 PT",
+  "last_successful_run": "2026-10-14T09:52:31 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -108,6 +108,14 @@
       "date": "October 16th",
       "image": "https://lv.houseseats.com/resources/media/9493.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
+      "date": "October 17th",
+      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
