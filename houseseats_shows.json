@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-14T13:30:51 PT",
-  "last_successful_run": "2026-10-14T13:30:51 PT",
+  "last_updated": "2026-10-14T16:47:01 PT",
+  "last_successful_run": "2026-10-14T16:47:01 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 15,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "October 14th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 14th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 14th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X ROCKS",
@@ -43,6 +19,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
       "date": "October 14th",
       "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "October 15th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 15th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -67,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "October 15th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 16th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -100,14 +100,6 @@
       "date": "October 16th",
       "image": "https://lv.houseseats.com/resources/media/9493.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9322",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9322.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
