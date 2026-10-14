@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-14T09:52:31 PT",
-  "last_successful_run": "2026-10-14T09:52:31 PT",
+  "last_updated": "2026-10-14T13:30:51 PT",
+  "last_successful_run": "2026-10-14T13:30:51 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -36,14 +36,6 @@
       "date": "October 14th",
       "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Taylor Hunnicutt at Stoney's North Forty",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9491",
-      "date": "October 14th",
-      "image": "https://lv.houseseats.com/resources/media/9491.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -123,6 +115,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9483",
       "date": "October 17th",
       "image": "https://lv.houseseats.com/resources/media/9483.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fur & Thundur Spooktacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9488",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/9488.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Fomato Improv Show: Throw-tacular",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9489",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/9489.jpg",
       "rare": true
     }
   ]

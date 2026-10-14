@@ -1956,6 +1956,20 @@
       "appearances": [
         "2026-10-14"
       ]
+    },
+    "HouseSeats|fur & thundur spooktacular": {
+      "name": "Fur & Thundur Spooktacular",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-14"
+      ]
+    },
+    "HouseSeats|the fomato improv show: throw-tacular": {
+      "name": "The Fomato Improv Show: Throw-tacular",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-14"
+      ]
     }
   }
 }
