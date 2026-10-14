@@ -477,7 +477,8 @@
         "2026-07-24",
         "2026-07-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-10-14"
       ]
     },
     "HouseSeats|tease after dark: burlesque revue": {
@@ -1945,6 +1946,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-13",
+        "2026-10-14"
+      ]
+    },
+    "HouseSeats|elvie shane at stoney's rockin' country (town square)": {
+      "name": "Elvie Shane at Stoney's Rockin' Country (Town Square)",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-10-14"
       ]
     }
