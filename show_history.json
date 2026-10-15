@@ -1968,6 +1968,13 @@
         "2026-10-14",
         "2026-10-15"
       ]
+    },
+    "HouseSeats|hex and the sin city": {
+      "name": "Hex and the Sin City",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-15"
+      ]
     }
   }
 }
