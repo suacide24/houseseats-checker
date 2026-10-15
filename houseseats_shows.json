@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-14T16:47:01 PT",
-  "last_successful_run": "2026-10-14T16:47:01 PT",
+  "last_updated": "2026-10-14T20:58:59 PT",
+  "last_successful_run": "2026-10-14T20:58:59 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "October 14th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "October 14th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
@@ -79,14 +63,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Murder Mystery at the Tavern",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9325",
-      "date": "October 16th",
-      "image": "https://lv.houseseats.com/resources/media/9325.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Mik Thomas Presents: The Gauntlet",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9273",
       "date": "October 16th",
@@ -107,15 +83,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9483",
       "date": "October 17th",
       "image": "https://lv.houseseats.com/resources/media/9483.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Fur & Thundur Spooktacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9488",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/9488.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
