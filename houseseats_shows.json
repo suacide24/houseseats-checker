@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-16T04:02:38 PT",
-  "last_successful_run": "2026-10-16T04:02:38 PT",
+  "last_updated": "2026-10-16T08:27:27 PT",
+  "last_successful_run": "2026-10-16T08:27:27 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,14 +67,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9489",
       "date": "October 18th",
       "image": "https://lv.houseseats.com/resources/media/9489.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     }
   ]
