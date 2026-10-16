@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-15T15:00:38 PT",
-  "last_successful_run": "2026-10-15T15:00:38 PT",
+  "last_updated": "2026-10-15T17:37:15 PT",
+  "last_successful_run": "2026-10-15T17:37:15 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 15th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -63,11 +55,19 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 16th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Elvie Shane at Stoney's Rockin' Country (Town Square)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9493",
       "date": "October 16th",
       "image": "https://lv.houseseats.com/resources/media/9493.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -91,7 +91,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9489",
       "date": "October 18th",
       "image": "https://lv.houseseats.com/resources/media/9489.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
