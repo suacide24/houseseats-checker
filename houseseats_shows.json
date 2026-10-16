@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-16T11:57:32 PT",
-  "last_successful_run": "2026-10-16T11:57:32 PT",
+  "last_updated": "2026-10-16T14:59:16 PT",
+  "last_successful_run": "2026-10-16T14:59:16 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 16th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -27,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "October 16th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Elvie Shane at Stoney's Rockin' Country (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9493",
-      "date": "October 16th",
-      "image": "https://lv.houseseats.com/resources/media/9493.jpg",
       "rare": false
     },
     {
@@ -60,6 +44,14 @@
       "date": "October 18th",
       "image": "https://lv.houseseats.com/resources/media/9489.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Deadtime Stories: Tales From The Tip!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9482",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/9482.jpg",
+      "rare": true
     }
   ]
 }
