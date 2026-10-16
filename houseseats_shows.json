@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-15T17:37:15 PT",
-  "last_successful_run": "2026-10-15T17:37:15 PT",
+  "last_updated": "2026-10-15T22:37:48 PT",
+  "last_successful_run": "2026-10-15T22:37:48 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 15th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X ROCKS",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
-      "date": "October 15th",
-      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "October 15th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
@@ -71,14 +47,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Laffs Vegas",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9483",
       "date": "October 17th",
@@ -87,10 +55,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "October 17th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Fomato Improv Show: Throw-tacular",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9489",
       "date": "October 18th",
       "image": "https://lv.houseseats.com/resources/media/9489.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
     }
   ]
