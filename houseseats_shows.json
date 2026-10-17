@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-16T17:20:03 PT",
-  "last_successful_run": "2026-10-16T17:20:03 PT",
+  "last_updated": "2026-10-16T21:52:09 PT",
+  "last_successful_run": "2026-10-16T21:52:09 PT",
   "email_enabled": false,
-  "count": 6,
+  "count": 7,
   "shows": [
     {
       "source": "HouseSeats",
@@ -51,6 +51,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9482",
       "date": "October 20th",
       "image": "https://lv.houseseats.com/resources/media/9482.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Hex Appeal",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9497",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/9497.jpg",
       "rare": true
     }
   ]

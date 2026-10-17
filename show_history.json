@@ -1966,6 +1966,13 @@
         "2026-10-16",
         "2026-10-17"
       ]
+    },
+    "HouseSeats|hex appeal": {
+      "name": "Hex Appeal",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-17"
+      ]
     }
   }
 }
