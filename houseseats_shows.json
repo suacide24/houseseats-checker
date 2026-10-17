@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-17T14:38:18 PT",
-  "last_successful_run": "2026-10-17T14:38:18 PT",
+  "last_updated": "2026-10-17T16:52:18 PT",
+  "last_successful_run": "2026-10-17T16:52:18 PT",
   "email_enabled": false,
   "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Laffs Vegas",
@@ -107,6 +99,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     },
     {
