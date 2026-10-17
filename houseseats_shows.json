@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-16T14:59:16 PT",
-  "last_successful_run": "2026-10-16T14:59:16 PT",
+  "last_updated": "2026-10-16T17:20:03 PT",
+  "last_successful_run": "2026-10-16T17:20:03 PT",
   "email_enabled": false,
   "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 16th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 17th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 16th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 17th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     },
     {

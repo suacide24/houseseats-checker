@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
@@ -156,7 +155,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
@@ -213,7 +211,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-08-03",
         "2026-08-04",
         "2026-08-05",
@@ -449,7 +446,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
@@ -513,7 +509,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
@@ -531,7 +526,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19",
         "2026-07-20",
         "2026-07-21",
@@ -564,23 +558,14 @@
       "name": "Penn & Teller",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-25",
         "2026-09-02"
-      ]
-    },
-    "HouseSeats|planet funk: an old-school freestyle and hip hop party": {
-      "name": "Planet Funk: An Old-School Freestyle and Hip Hop Party",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-18"
       ]
     },
     "HouseSeats|rocklesque: alter ego": {
       "name": "ROCKLESQUE: ALTER EGO",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19"
       ]
     },
@@ -588,7 +573,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-18",
         "2026-07-19",
         "2026-07-20",
         "2026-07-22",
@@ -816,7 +800,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -901,7 +886,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1625,7 +1611,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1935,7 +1922,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     },
     "HouseSeats|elvie shane at stoney's rockin' country (town square)": {
@@ -1960,7 +1948,8 @@
       "appearances": [
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     },
     "HouseSeats|hex and the sin city": {
@@ -1974,7 +1963,8 @@
       "name": "Deadtime Stories: Tales From The Tip!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     }
   }
