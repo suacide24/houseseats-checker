@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-17T12:07:11 PT",
-  "last_successful_run": "2026-10-17T12:07:11 PT",
+  "last_updated": "2026-10-17T14:38:18 PT",
+  "last_successful_run": "2026-10-17T14:38:18 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -63,6 +55,30 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Deadtime Stories: Tales From The Tip!",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9482",
       "date": "October 20th",
@@ -84,6 +100,22 @@
       "date": "October 21st",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Halloween Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
+      "date": "October 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "3B RICH IN CONCERT",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9469",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9469.jpg",
+      "rare": true
     }
   ]
 }

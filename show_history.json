@@ -287,7 +287,8 @@
         "2026-08-27",
         "2026-09-23",
         "2026-09-24",
-        "2026-10-09"
+        "2026-10-09",
+        "2026-10-17"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
@@ -1286,7 +1287,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-17"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1797,7 +1799,8 @@
         "2026-10-12",
         "2026-10-13",
         "2026-10-14",
-        "2026-10-15"
+        "2026-10-15",
+        "2026-10-17"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -1973,6 +1976,13 @@
     },
     "HouseSeats|hex appeal": {
       "name": "Hex Appeal",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-17"
+      ]
+    },
+    "HouseSeats|3b rich in concert": {
+      "name": "3B RICH IN CONCERT",
       "source": "HouseSeats",
       "appearances": [
         "2026-10-17"
