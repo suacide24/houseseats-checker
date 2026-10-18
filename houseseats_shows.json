@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-17T20:51:57 PT",
-  "last_successful_run": "2026-10-17T20:51:57 PT",
+  "last_updated": "2026-10-18T01:43:10 PT",
+  "last_successful_run": "2026-10-18T01:43:10 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9489",
       "date": "October 18th",
       "image": "https://lv.houseseats.com/resources/media/9489.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
       "rare": false
     },
     {
