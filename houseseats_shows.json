@@ -1,10 +1,26 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-18T09:44:21 PT",
-  "last_successful_run": "2026-10-18T09:44:21 PT",
+  "last_updated": "2026-10-18T12:19:33 PT",
+  "last_successful_run": "2026-10-18T12:19:33 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 13,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mat Franco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "rare": true
+    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -19,6 +35,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "October 19th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -59,6 +83,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
