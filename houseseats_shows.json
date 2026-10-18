@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-18T06:05:31 PT",
-  "last_successful_run": "2026-10-18T06:05:31 PT",
+  "last_updated": "2026-10-18T09:44:21 PT",
+  "last_successful_run": "2026-10-18T09:44:21 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Fomato Improv Show: Throw-tacular",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9489",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/9489.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
