@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
@@ -155,7 +154,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-21",
         "2026-07-27",
@@ -264,7 +262,6 @@
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-26",
         "2026-07-27",
@@ -288,7 +285,8 @@
         "2026-09-23",
         "2026-09-24",
         "2026-10-09",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
@@ -324,7 +322,8 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -448,7 +447,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
@@ -511,7 +509,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
@@ -528,7 +525,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-21",
         "2026-07-22",
@@ -564,18 +560,10 @@
         "2026-09-02"
       ]
     },
-    "HouseSeats|rocklesque: alter ego": {
-      "name": "ROCKLESQUE: ALTER EGO",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-19"
-      ]
-    },
     "HouseSeats|mike hammer comedy magic show": {
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-19",
         "2026-07-20",
         "2026-07-22",
         "2026-07-23",
@@ -889,7 +877,8 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1226,7 +1215,8 @@
         "2026-10-07",
         "2026-10-08",
         "2026-10-13",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1288,7 +1278,8 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1548,7 +1539,8 @@
         "2026-10-08",
         "2026-10-09",
         "2026-10-10",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1617,7 +1609,8 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1800,7 +1793,8 @@
         "2026-10-13",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -1956,7 +1950,8 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|hex and the sin city": {
@@ -1971,21 +1966,24 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|hex appeal": {
       "name": "Hex Appeal",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     },
     "HouseSeats|3b rich in concert": {
       "name": "3B RICH IN CONCERT",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-18"
       ]
     }
   }

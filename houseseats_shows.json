@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-17T16:52:18 PT",
-  "last_successful_run": "2026-10-17T16:52:18 PT",
+  "last_updated": "2026-10-17T20:51:57 PT",
+  "last_successful_run": "2026-10-17T20:51:57 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Laffs Vegas",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9483",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9483.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 17th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -55,9 +31,17 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "October 18th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 18th",
+      "date": "October 19th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
@@ -75,7 +59,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9482",
       "date": "October 20th",
       "image": "https://lv.houseseats.com/resources/media/9482.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
