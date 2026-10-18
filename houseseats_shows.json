@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-18T12:19:33 PT",
-  "last_successful_run": "2026-10-18T12:19:33 PT",
+  "last_updated": "2026-10-18T14:43:17 PT",
+  "last_successful_run": "2026-10-18T14:43:17 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
@@ -12,14 +12,6 @@
       "date": "October 18th",
       "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -35,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "October 19th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "October 19th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
