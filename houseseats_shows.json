@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-19T04:05:38 PT",
-  "last_successful_run": "2026-10-19T04:05:38 PT",
+  "last_updated": "2026-10-19T10:39:46 PT",
+  "last_successful_run": "2026-10-19T10:39:46 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "October 19th",
       "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "FANTASY",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
+      "date": "October 19th",
+      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
       "rare": false
     },
     {
