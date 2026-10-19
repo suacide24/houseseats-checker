@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-18T14:43:17 PT",
-  "last_successful_run": "2026-10-18T14:43:17 PT",
+  "last_updated": "2026-10-18T17:00:43 PT",
+  "last_successful_run": "2026-10-18T17:00:43 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "October 18th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -28,6 +20,14 @@
       "date": "October 19th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "VRMI Concert Series",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9498",
+      "date": "October 19th",
+      "image": "https://lv.houseseats.com/resources/media/9498.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -67,7 +67,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9497",
       "date": "October 20th",
       "image": "https://lv.houseseats.com/resources/media/9497.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -107,7 +107,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9469",
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9469.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
