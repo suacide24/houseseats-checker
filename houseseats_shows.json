@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-19T10:39:46 PT",
-  "last_successful_run": "2026-10-19T10:39:46 PT",
+  "last_updated": "2026-10-19T15:09:08 PT",
+  "last_successful_run": "2026-10-19T15:09:08 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 17,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 19th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "VRMI Concert Series",
@@ -27,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
       "date": "October 19th",
       "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "October 19th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
@@ -51,6 +51,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 20th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
@@ -100,6 +108,30 @@
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fastball",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9499",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9499.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Von Clap Back Family Singers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Rant!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

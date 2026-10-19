@@ -77,7 +77,8 @@
         "2026-10-09",
         "2026-10-14",
         "2026-10-15",
-        "2026-10-16"
+        "2026-10-16",
+        "2026-10-19"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -118,7 +119,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-10-19"
       ]
     },
     "HouseSeats|blue man group": {
@@ -179,7 +181,8 @@
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-08-28"
+        "2026-08-28",
+        "2026-10-19"
       ]
     },
     "HouseSeats|mat franco": {
@@ -1997,6 +2000,13 @@
     },
     "HouseSeats|vrmi concert series": {
       "name": "VRMI Concert Series",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-19"
+      ]
+    },
+    "HouseSeats|fastball": {
+      "name": "Fastball",
       "source": "HouseSeats",
       "appearances": [
         "2026-10-19"
