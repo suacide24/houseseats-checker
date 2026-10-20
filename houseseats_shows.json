@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-20T13:19:47 PT",
-  "last_successful_run": "2026-10-20T13:19:47 PT",
+  "last_updated": "2026-10-20T16:17:57 PT",
+  "last_successful_run": "2026-10-20T16:17:57 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -17,7 +17,7 @@
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 20th",
+      "date": "October 21st",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
@@ -25,25 +25,9 @@
       "source": "HouseSeats",
       "name": "Ikons of Rock",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 20th",
+      "date": "October 21st",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Deadtime Stories: Tales From The Tip!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9482",
-      "date": "October 20th",
-      "image": "https://lv.houseseats.com/resources/media/9482.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tape Face at MGM Grand",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
-      "date": "October 20th",
-      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
