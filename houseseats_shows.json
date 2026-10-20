@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-19T18:09:34 PT",
-  "last_successful_run": "2026-10-19T18:09:34 PT",
+  "last_updated": "2026-10-19T23:24:45 PT",
+  "last_successful_run": "2026-10-19T23:24:45 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "October 19th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "FANTASY",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
-      "date": "October 19th",
-      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
@@ -35,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 20th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 20th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
