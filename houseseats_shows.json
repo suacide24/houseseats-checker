@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-20T04:57:49 PT",
-  "last_successful_run": "2026-10-20T04:57:49 PT",
+  "last_updated": "2026-10-20T09:47:47 PT",
+  "last_successful_run": "2026-10-20T09:47:47 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
@@ -76,14 +76,6 @@
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "3B RICH IN CONCERT",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9469",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9469.jpg",
-      "rare": false
     }
   ]
 }
