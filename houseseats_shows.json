@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-19T15:09:08 PT",
-  "last_successful_run": "2026-10-19T15:09:08 PT",
+  "last_updated": "2026-10-19T18:09:34 PT",
+  "last_successful_run": "2026-10-19T18:09:34 PT",
   "email_enabled": false,
-  "count": 17,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "VRMI Concert Series",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9498",
-      "date": "October 19th",
-      "image": "https://lv.houseseats.com/resources/media/9498.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "October 19th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
@@ -108,14 +92,6 @@
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Fastball",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9499",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9499.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
