@@ -140,7 +140,8 @@
         "2026-09-27",
         "2026-09-29",
         "2026-10-04",
-        "2026-10-18"
+        "2026-10-18",
+        "2026-10-20"
       ]
     },
     "HouseSeats|tease: a burlesque revue": {
@@ -166,7 +167,8 @@
         "2026-08-05",
         "2026-09-04",
         "2026-09-13",
-        "2026-09-20"
+        "2026-09-20",
+        "2026-10-20"
       ]
     },
     "HouseSeats|von clap back family singers": {
@@ -2013,6 +2015,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-19"
+      ]
+    },
+    "HouseSeats|honey revenge x dead poet society": {
+      "name": "Honey Revenge x Dead Poet Society",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-20"
       ]
     }
   }

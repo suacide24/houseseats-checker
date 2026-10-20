@@ -1,10 +1,18 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-20T09:47:47 PT",
-  "last_successful_run": "2026-10-20T09:47:47 PT",
+  "last_updated": "2026-10-20T13:19:47 PT",
+  "last_successful_run": "2026-10-20T13:19:47 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 12,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
@@ -28,6 +36,14 @@
       "date": "October 20th",
       "image": "https://lv.houseseats.com/resources/media/9482.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tape Face at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7918",
+      "date": "October 20th",
+      "image": "https://lv.houseseats.com/resources/media/7918.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -75,6 +91,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Honey Revenge x Dead Poet Society",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9501",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9501.jpg",
       "rare": true
     }
   ]
