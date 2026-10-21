@@ -288,7 +288,8 @@
         "2026-09-24",
         "2026-10-09",
         "2026-10-17",
-        "2026-10-18"
+        "2026-10-18",
+        "2026-10-21"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
@@ -326,7 +327,8 @@
         "2026-10-16",
         "2026-10-17",
         "2026-10-18",
-        "2026-10-19"
+        "2026-10-19",
+        "2026-10-21"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -1210,7 +1212,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1537,7 +1540,8 @@
         "2026-10-09",
         "2026-10-10",
         "2026-10-17",
-        "2026-10-18"
+        "2026-10-18",
+        "2026-10-21"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1901,7 +1905,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-10",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-10-21"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2026,6 +2031,20 @@
     },
     "HouseSeats|a date with cali tucker": {
       "name": "A Date with Cali Tucker",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-21"
+      ]
+    },
+    "HouseSeats|an evening with peter liu": {
+      "name": "An Evening with Peter Liu",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-21"
+      ]
+    },
+    "HouseSeats|the laugh after dark comedy festival": {
+      "name": "The Laugh After Dark Comedy Festival",
       "source": "HouseSeats",
       "appearances": [
         "2026-10-21"

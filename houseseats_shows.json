@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-21T11:11:03 PT",
-  "last_successful_run": "2026-10-21T11:11:03 PT",
+  "last_updated": "2026-10-21T14:54:21 PT",
+  "last_successful_run": "2026-10-21T14:54:21 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -23,10 +23,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
+      "date": "October 22nd",
+      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "October 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Spanish Magician - Enrique De Leon",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "October 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
       "rare": false
     },
     {
@@ -36,14 +60,6 @@
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ty Herndon at The Smith Center",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9503",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9503.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -71,6 +87,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Honey Revenge x Dead Poet Society",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9501",
       "date": "October 24th",
@@ -83,6 +107,30 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9502",
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9502.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "October 25th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "An Evening with Peter Liu",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9506",
+      "date": "October 25th",
+      "image": "https://lv.houseseats.com/resources/media/9506.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Laugh After Dark Comedy Festival",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
+      "date": "October 26th",
+      "image": "https://lv.houseseats.com/resources/media/9505.jpg",
       "rare": true
     }
   ]
