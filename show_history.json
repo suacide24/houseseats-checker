@@ -2016,6 +2016,20 @@
         "2026-10-20",
         "2026-10-21"
       ]
+    },
+    "HouseSeats|ty herndon at the smith center": {
+      "name": "Ty Herndon at The Smith Center",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-21"
+      ]
+    },
+    "HouseSeats|a date with cali tucker": {
+      "name": "A Date with Cali Tucker",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-21"
+      ]
     }
   }
 }
