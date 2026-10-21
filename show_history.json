@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -85,7 +84,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-25",
         "2026-07-26",
         "2026-07-29",
@@ -121,7 +119,8 @@
         "2026-08-27",
         "2026-08-28",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|blue man group": {
@@ -175,7 +174,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-08-24",
@@ -184,7 +182,8 @@
         "2026-08-27",
         "2026-08-28",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|mat franco": {
@@ -199,7 +198,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -227,7 +225,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-08-12",
         "2026-08-13",
@@ -284,7 +281,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-08-13",
         "2026-08-14",
         "2026-08-27",
@@ -352,7 +348,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-29",
         "2026-07-30",
         "2026-07-31"
@@ -453,7 +448,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
@@ -467,7 +461,6 @@
       "name": "Murder Mystery at the Tavern",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -491,7 +484,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-28",
         "2026-08-01",
         "2026-08-03",
@@ -511,7 +503,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -525,7 +516,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -562,7 +552,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -631,14 +620,14 @@
         "2026-10-16",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
       "name": "Vegas' Dumbest Show about 'Murica",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25"
@@ -648,7 +637,6 @@
       "name": "Louie TheSinger",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26"
@@ -658,7 +646,6 @@
       "name": "Island Style Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-22",
         "2026-07-23",
         "2026-07-24",
         "2026-07-25",
@@ -792,7 +779,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -881,7 +869,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1286,7 +1275,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1619,7 +1609,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1805,7 +1796,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -2021,7 +2013,8 @@
       "name": "Honey Revenge x Dead Poet Society",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-21"
       ]
     }
   }
