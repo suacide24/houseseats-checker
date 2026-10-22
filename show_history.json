@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
@@ -120,7 +119,8 @@
         "2026-08-28",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|blue man group": {
@@ -174,7 +174,6 @@
       "name": "Von Clap Back Family Singers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-08-24",
         "2026-08-25",
@@ -183,7 +182,8 @@
         "2026-08-28",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|mat franco": {
@@ -198,7 +198,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-08-18",
@@ -225,7 +224,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-08-12",
         "2026-08-13",
         "2026-08-15",
@@ -289,7 +287,8 @@
         "2026-10-09",
         "2026-10-17",
         "2026-10-18",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|the conjurors secret wonders": {
@@ -328,7 +327,8 @@
         "2026-10-17",
         "2026-10-18",
         "2026-10-19",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|firelight barn - spotlight preview variety show": {
@@ -463,7 +463,6 @@
       "name": "Murder Mystery at the Tavern",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-08-26",
@@ -505,7 +504,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
@@ -518,7 +516,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
@@ -554,7 +551,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
@@ -623,14 +619,14 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|vegas' dumbest show about 'murica": {
       "name": "Vegas' Dumbest Show about 'Murica",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25"
       ]
@@ -648,24 +644,15 @@
       "name": "Island Style Comedy",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26"
-      ]
-    },
-    "HouseSeats|stone temple pilots": {
-      "name": "Stone Temple Pilots",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-23"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-23",
         "2026-07-24",
         "2026-07-25",
         "2026-07-26",
@@ -782,7 +769,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -872,7 +860,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1213,7 +1202,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1279,7 +1269,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1541,7 +1532,8 @@
         "2026-10-10",
         "2026-10-17",
         "2026-10-18",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1614,7 +1606,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1906,7 +1899,8 @@
       "appearances": [
         "2026-10-10",
         "2026-10-17",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2019,7 +2013,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|ty herndon at the smith center": {
@@ -2033,21 +2028,24 @@
       "name": "A Date with Cali Tucker",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|an evening with peter liu": {
       "name": "An Evening with Peter Liu",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     },
     "HouseSeats|the laugh after dark comedy festival": {
       "name": "The Laugh After Dark Comedy Festival",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-22"
       ]
     }
   }

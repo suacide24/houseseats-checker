@@ -1,32 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-21T14:54:21 PT",
-  "last_successful_run": "2026-10-21T14:54:21 PT",
+  "last_updated": "2026-10-21T17:30:13 PT",
+  "last_successful_run": "2026-10-21T17:30:13 PT",
   "email_enabled": false,
   "count": 16,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 21st",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 21st",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/2280.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -47,18 +39,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "October 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
       "rare": false
     },
     {
@@ -75,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
       "rare": false
     },
     {
@@ -99,7 +99,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9501",
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9501.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
