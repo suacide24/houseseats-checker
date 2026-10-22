@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-22T08:59:19 PT",
-  "last_successful_run": "2026-10-22T08:59:19 PT",
+  "last_updated": "2026-10-22T12:58:19 PT",
+  "last_successful_run": "2026-10-22T12:58:19 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -36,6 +36,14 @@
       "date": "October 22nd",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder at Boca Park - A Scandal In High Society",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9340",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9340.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -79,6 +87,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "3B RICH IN CONCERT",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9469",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9469.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "October 24th",
@@ -100,6 +116,14 @@
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9502.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Conjurors Secret Wonders",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
+      "date": "October 25th",
+      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
