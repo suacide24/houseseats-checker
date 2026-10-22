@@ -2049,6 +2049,13 @@
         "2026-10-21",
         "2026-10-22"
       ]
+    },
+    "HouseSeats|jose madero - usa tour 2026": {
+      "name": "Jose Madero - USA Tour 2026",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-22"
+      ]
     }
   }
 }

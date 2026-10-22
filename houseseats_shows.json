@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-22T12:58:19 PT",
-  "last_successful_run": "2026-10-22T12:58:19 PT",
+  "last_updated": "2026-10-22T16:13:36 PT",
+  "last_successful_run": "2026-10-22T16:13:36 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 17,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -131,6 +131,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
       "date": "October 26th",
       "image": "https://lv.houseseats.com/resources/media/9505.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jose Madero - USA Tour 2026",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9496",
+      "date": "October 28th",
+      "image": "https://lv.houseseats.com/resources/media/9496.jpg",
       "rare": true
     }
   ]
