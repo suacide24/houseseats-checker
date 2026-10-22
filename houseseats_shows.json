@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-21T17:30:13 PT",
-  "last_successful_run": "2026-10-21T17:30:13 PT",
+  "last_updated": "2026-10-21T22:52:14 PT",
+  "last_successful_run": "2026-10-21T22:52:14 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=2280",
-      "date": "October 22nd",
-      "image": "https://lv.houseseats.com/resources/media/2280.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
@@ -116,14 +108,6 @@
       "date": "October 25th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "An Evening with Peter Liu",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9506",
-      "date": "October 25th",
-      "image": "https://lv.houseseats.com/resources/media/9506.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
