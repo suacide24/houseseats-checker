@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-22T18:47:23 PT",
-  "last_successful_run": "2026-10-22T18:47:23 PT",
+  "last_updated": "2026-10-23T00:13:10 PT",
+  "last_successful_run": "2026-10-23T00:13:10 PT",
   "email_enabled": false,
-  "count": 20,
+  "count": 19,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Noche De Campeones - Night of Champions",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9509",
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9509.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "MANA Luau at Treasure Island",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9510",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9510.jpg",
       "rare": true
     },
     {
@@ -79,14 +63,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Aussie Heat",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
       "date": "October 23rd",
@@ -127,6 +103,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Honey Revenge x Dead Poet Society",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9501",
       "date": "October 24th",
@@ -135,11 +119,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "A Date with Cali Tucker",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9502",
+      "name": "Jeffrey Osborne",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9513",
       "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9502.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9513.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -147,6 +131,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "October 25th",
       "image": "https://lv.houseseats.com/resources/media/9209.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "October 25th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
