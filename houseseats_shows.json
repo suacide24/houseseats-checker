@@ -1,50 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-23T10:47:19 PT",
-  "last_successful_run": "2026-10-23T10:47:19 PT",
+  "last_updated": "2026-10-23T14:12:25 PT",
+  "last_successful_run": "2026-10-23T14:12:25 PT",
   "email_enabled": false,
   "count": 18,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Noche De Campeones - Night of Champions",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9509",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9509.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder at Boca Park - A Scandal In High Society",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9340",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9340.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -60,6 +20,14 @@
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9059.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Game of Groans: Variety Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
+      "date": "October 23rd",
+      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -111,10 +79,34 @@
     },
     {
       "source": "HouseSeats",
+      "name": "America - The Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Honey Revenge x Dead Poet Society",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9501",
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9501.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
@@ -140,6 +132,14 @@
       "date": "October 26th",
       "image": "https://lv.houseseats.com/resources/media/9505.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tease After Dark: Burlesque Revue",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9512",
+      "date": "October 27th",
+      "image": "https://lv.houseseats.com/resources/media/9512.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
