@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-23T00:13:10 PT",
-  "last_successful_run": "2026-10-23T00:13:10 PT",
+  "last_updated": "2026-10-23T05:46:50 PT",
+  "last_successful_run": "2026-10-23T05:46:50 PT",
   "email_enabled": false,
-  "count": 19,
+  "count": 18,
   "shows": [
     {
       "source": "HouseSeats",
@@ -116,14 +116,6 @@
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9501.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Jeffrey Osborne",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9513",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9513.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
