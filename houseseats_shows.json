@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-23T14:12:25 PT",
-  "last_successful_run": "2026-10-23T14:12:25 PT",
+  "last_updated": "2026-10-23T16:56:06 PT",
+  "last_successful_run": "2026-10-23T16:56:06 PT",
   "email_enabled": false,
-  "count": 18,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Von Clap Back Family Singers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Game of Groans: Variety Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9233",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9233.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Aussie Heat",
@@ -44,22 +20,6 @@
       "date": "October 23rd",
       "image": "https://lv.houseseats.com/resources/media/9036.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "3B RICH IN CONCERT",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9469",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9469.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Harper Grace at Stoney's Rockin' Country (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9508",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9508.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -107,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     },
     {
