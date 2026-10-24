@@ -2104,6 +2104,13 @@
       "appearances": [
         "2026-10-24"
       ]
+    },
+    "HouseSeats|vinyl room comedy club": {
+      "name": "Vinyl Room Comedy Club",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-24"
+      ]
     }
   }
 }
