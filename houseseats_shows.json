@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-23T16:56:06 PT",
-  "last_successful_run": "2026-10-23T16:56:06 PT",
+  "last_updated": "2026-10-23T21:15:07 PT",
+  "last_successful_run": "2026-10-23T21:15:07 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 15,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Rant!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
-      "date": "October 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -36,14 +20,6 @@
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -79,6 +55,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "SMILE EMPTY SOUL w/ Revis, Yellow No. 5",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9514",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9514.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Conjurors Secret Wonders",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
       "date": "October 25th",
@@ -103,6 +87,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "October 26th",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Tease After Dark: Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9512",
       "date": "October 27th",
@@ -111,11 +103,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "October 27th",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "CASTLE w/ Death Rock Collective",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9515",
+      "date": "October 27th",
+      "image": "https://lv.houseseats.com/resources/media/9515.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Jose Madero - USA Tour 2026",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9496",
       "date": "October 28th",
       "image": "https://lv.houseseats.com/resources/media/9496.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
