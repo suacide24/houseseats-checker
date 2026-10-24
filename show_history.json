@@ -73,7 +73,8 @@
         "2026-10-15",
         "2026-10-16",
         "2026-10-19",
-        "2026-10-20"
+        "2026-10-20",
+        "2026-10-24"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
@@ -1778,7 +1779,8 @@
         "2026-10-18",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-21"
+        "2026-10-21",
+        "2026-10-24"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -2107,6 +2109,13 @@
     },
     "HouseSeats|vinyl room comedy club": {
       "name": "Vinyl Room Comedy Club",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-24"
+      ]
+    },
+    "HouseSeats|big head todd & the monsters": {
+      "name": "BIG HEAD TODD & THE MONSTERS",
       "source": "HouseSeats",
       "appearances": [
         "2026-10-24"

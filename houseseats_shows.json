@@ -1,17 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-24T12:40:55 PT",
-  "last_successful_run": "2026-10-24T12:40:55 PT",
+  "last_updated": "2026-10-24T15:18:46 PT",
+  "last_successful_run": "2026-10-24T15:18:46 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "name": "BIG HEAD TODD & THE MONSTERS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9521",
       "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
+      "image": "https://lv.houseseats.com/resources/media/9521.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -79,6 +79,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "X Country",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
+      "date": "October 26th",
+      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Ikons of Rock",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 27th",
@@ -116,6 +124,14 @@
       "date": "October 28th",
       "image": "https://lv.houseseats.com/resources/media/9518.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murray's Halloween Madhouse",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
     }
   ]
 }
