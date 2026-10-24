@@ -1,40 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-24T06:30:35 PT",
-  "last_successful_run": "2026-10-24T06:30:35 PT",
+  "last_updated": "2026-10-24T10:16:03 PT",
+  "last_successful_run": "2026-10-24T10:16:03 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 14,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Honey Revenge x Dead Poet Society",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9501",
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9501.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -51,6 +27,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 24th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
@@ -95,18 +79,18 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "October 27th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Tease After Dark: Burlesque Revue",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9512",
       "date": "October 27th",
       "image": "https://lv.houseseats.com/resources/media/9512.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Beyond featuring Mark Bautista",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
       "rare": true
     },
     {
@@ -124,6 +108,14 @@
       "date": "October 28th",
       "image": "https://lv.houseseats.com/resources/media/9496.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "October 28th",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "rare": true
     }
   ]
 }
