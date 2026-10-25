@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
@@ -74,14 +73,14 @@
         "2026-10-16",
         "2026-10-19",
         "2026-10-20",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-29",
         "2026-07-30",
         "2026-08-12",
@@ -258,7 +257,6 @@
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-27",
         "2026-08-02",
         "2026-08-09",
@@ -475,7 +473,8 @@
         "2026-08-24",
         "2026-08-25",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|america - the show": {
@@ -502,7 +501,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29"
@@ -512,7 +510,6 @@
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
@@ -544,7 +541,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
@@ -615,25 +611,10 @@
         "2026-10-23"
       ]
     },
-    "HouseSeats|louie thesinger": {
-      "name": "Louie TheSinger",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-26"
-      ]
-    },
-    "HouseSeats|island style comedy": {
-      "name": "Island Style Comedy",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-26"
-      ]
-    },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-26",
         "2026-07-27",
         "2026-07-28",
         "2026-07-29",
@@ -836,7 +817,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1180,7 +1162,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1251,7 +1234,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1592,7 +1576,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1780,7 +1765,8 @@
         "2026-10-19",
         "2026-10-20",
         "2026-10-21",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -2039,7 +2025,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|jose madero - usa tour 2026": {
@@ -2048,7 +2035,8 @@
       "appearances": [
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|noche de campeones - night of champions": {
@@ -2090,21 +2078,24 @@
       "name": "Finding Wonder",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
       "name": "Beyond featuring Mark Bautista",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
       "name": "CASTLE w/ Death Rock Collective",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     },
     "HouseSeats|vinyl room comedy club": {
@@ -2118,7 +2109,8 @@
       "name": "BIG HEAD TODD & THE MONSTERS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-25"
       ]
     }
   }

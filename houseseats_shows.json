@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-24T15:18:46 PT",
-  "last_successful_run": "2026-10-24T15:18:46 PT",
+  "last_updated": "2026-10-24T17:27:28 PT",
+  "last_successful_run": "2026-10-24T17:27:28 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -12,38 +12,6 @@
       "date": "October 24th",
       "image": "https://lv.houseseats.com/resources/media/9521.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "SMILE EMPTY SOUL w/ Revis, Yellow No. 5",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9514",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9514.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Vinyl Room Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9520",
-      "date": "October 24th",
-      "image": "https://lv.houseseats.com/resources/media/9520.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Conjurors Secret Wonders",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9209",
-      "date": "October 25th",
-      "image": "https://lv.houseseats.com/resources/media/9209.jpg",
-      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -99,7 +67,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9512",
       "date": "October 27th",
       "image": "https://lv.houseseats.com/resources/media/9512.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -131,6 +99,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
       "date": "October 29th",
       "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 30th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     }
   ]
