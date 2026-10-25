@@ -1,16 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-25T11:15:43 PT",
-  "last_successful_run": "2026-10-25T11:15:43 PT",
+  "last_updated": "2026-10-25T14:07:30 PT",
+  "last_successful_run": "2026-10-25T14:07:30 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Mat Franco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=4087",
+      "name": "Blue Man Group",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
       "date": "October 25th",
-      "image": "https://lv.houseseats.com/resources/media/4087.jpg",
+      "image": "https://lv.houseseats.com/resources/media/58.jpg",
       "rare": false
     },
     {
@@ -95,10 +95,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "True Story",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9438.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Murray's Halloween Madhouse",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
       "date": "October 29th",
       "image": "https://lv.houseseats.com/resources/media/9467.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
@@ -108,6 +124,14 @@
       "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Haunted Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9504",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9504.jpg",
+      "rare": true
     }
   ]
 }
