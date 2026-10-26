@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-25T16:28:01 PT",
-  "last_successful_run": "2026-10-25T16:28:01 PT",
+  "last_updated": "2026-10-25T18:34:37 PT",
+  "last_successful_run": "2026-10-25T18:34:37 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 15,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "October 25th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -75,7 +67,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9515",
       "date": "October 27th",
       "image": "https://lv.houseseats.com/resources/media/9515.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -91,7 +83,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
       "date": "October 28th",
       "image": "https://lv.houseseats.com/resources/media/9518.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
