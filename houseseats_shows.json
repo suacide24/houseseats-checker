@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-26T07:59:23 PT",
-  "last_successful_run": "2026-10-26T07:59:23 PT",
+  "last_updated": "2026-10-26T13:25:17 PT",
+  "last_successful_run": "2026-10-26T13:25:17 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 17,
   "shows": [
     {
       "source": "HouseSeats",
@@ -79,6 +79,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 28th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Beyond featuring Mark Bautista",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
       "date": "October 28th",
@@ -116,6 +124,14 @@
       "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9511.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
