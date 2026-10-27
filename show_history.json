@@ -378,7 +378,8 @@
         "2026-07-31",
         "2026-08-25",
         "2026-08-26",
-        "2026-08-27"
+        "2026-08-27",
+        "2026-10-27"
       ]
     },
     "HouseSeats|mik thomas presents: the gauntlet": {
@@ -1502,7 +1503,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-24"
+        "2026-10-24",
+        "2026-10-27"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1879,7 +1881,8 @@
         "2026-10-17",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-10-27"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2141,6 +2144,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-26"
+      ]
+    },
+    "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
+      "name": "Scoot Teasley at Stoney's Rockin' Country (Town Square)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-27"
+      ]
+    },
+    "HouseSeats|jay webb at stoney's north forty": {
+      "name": "Jay Webb at Stoney's North Forty",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-27"
       ]
     }
   }

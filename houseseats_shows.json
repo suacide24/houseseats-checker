@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-27T09:16:53 PT",
-  "last_successful_run": "2026-10-27T09:16:53 PT",
+  "last_updated": "2026-10-27T13:51:41 PT",
+  "last_successful_run": "2026-10-27T13:51:41 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 19,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 27th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
@@ -79,6 +71,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "True Story",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
       "date": "October 29th",
@@ -103,6 +103,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 30th",
@@ -111,10 +119,42 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Scoot Teasley at Stoney's Rockin' Country (Town Square)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9522",
+      "date": "October 30th",
+      "image": "https://lv.houseseats.com/resources/media/9522.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Haunted Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9504",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9504.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Extremeprov",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9065",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9065.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jay Webb at Stoney's North Forty",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9523",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9523.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
+      "date": "November 1st",
+      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
       "rare": false
     }
   ]
