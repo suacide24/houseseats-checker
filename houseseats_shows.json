@@ -1,24 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-26T17:00:52 PT",
-  "last_successful_run": "2026-10-26T17:00:52 PT",
+  "last_updated": "2026-10-26T22:25:45 PT",
+  "last_successful_run": "2026-10-26T22:25:45 PT",
   "email_enabled": false,
-  "count": 15,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "The Laugh After Dark Comedy Festival",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
-      "date": "October 26th",
+      "date": "October 27th",
       "image": "https://lv.houseseats.com/resources/media/9505.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "October 26th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
       "rare": false
     },
     {
