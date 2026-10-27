@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-26T13:25:17 PT",
-  "last_successful_run": "2026-10-26T13:25:17 PT",
+  "last_updated": "2026-10-26T17:00:52 PT",
+  "last_successful_run": "2026-10-26T17:00:52 PT",
   "email_enabled": false,
-  "count": 17,
+  "count": 15,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,14 +11,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
       "date": "October 26th",
       "image": "https://lv.houseseats.com/resources/media/9505.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "October 26th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
       "rare": false
     },
     {
@@ -79,14 +71,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 28th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Beyond featuring Mark Bautista",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
       "date": "October 28th",
@@ -95,11 +79,19 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "True Story",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
       "date": "October 29th",
       "image": "https://lv.houseseats.com/resources/media/9438.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -127,19 +119,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9511.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "The Haunted Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9504",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9504.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
