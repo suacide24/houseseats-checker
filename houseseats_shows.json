@@ -1,23 +1,15 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-27T17:19:46 PT",
-  "last_successful_run": "2026-10-27T17:19:46 PT",
+  "last_updated": "2026-10-27T23:06:09 PT",
+  "last_successful_run": "2026-10-27T23:06:09 PT",
   "email_enabled": false,
   "count": 17,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "The Laugh After Dark Comedy Festival",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
-      "date": "October 27th",
+      "date": "October 28th",
       "image": "https://lv.houseseats.com/resources/media/9505.jpg",
       "rare": false
     },
@@ -116,6 +108,14 @@
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9504.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Joy in the Dark presents: Night of the Dead",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9524",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9524.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

@@ -2160,6 +2160,13 @@
         "2026-10-27",
         "2026-10-28"
       ]
+    },
+    "HouseSeats|joy in the dark presents: night of the dead": {
+      "name": "Joy in the Dark presents: Night of the Dead",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-10-28"
+      ]
     }
   }
 }
