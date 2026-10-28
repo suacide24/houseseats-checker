@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-28T06:24:07 PT",
-  "last_successful_run": "2026-10-28T06:24:07 PT",
+  "last_updated": "2026-10-28T12:00:14 PT",
+  "last_successful_run": "2026-10-28T12:00:14 PT",
   "email_enabled": false,
   "count": 17,
   "shows": [
@@ -79,14 +79,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "ROUGE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 30th",
@@ -99,6 +91,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9522",
       "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9522.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9511.jpg",
       "rare": true
     },
     {
