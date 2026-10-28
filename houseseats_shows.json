@@ -1,48 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-27T13:51:41 PT",
-  "last_successful_run": "2026-10-27T13:51:41 PT",
+  "last_updated": "2026-10-27T17:19:46 PT",
+  "last_successful_run": "2026-10-27T17:19:46 PT",
   "email_enabled": false,
-  "count": 19,
+  "count": 17,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Laugh After Dark Comedy Festival",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9505.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tease After Dark: Burlesque Revue",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9512",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9512.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "CASTLE w/ Death Rock Collective",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9515",
-      "date": "October 27th",
-      "image": "https://lv.houseseats.com/resources/media/9515.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "October 27th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Laugh After Dark Comedy Festival",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
+      "date": "October 27th",
+      "image": "https://lv.houseseats.com/resources/media/9505.jpg",
       "rare": false
     },
     {
@@ -55,10 +31,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Beyond featuring Mark Bautista",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 28th",
-      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -108,6 +84,14 @@
       "date": "October 29th",
       "image": "https://lv.houseseats.com/resources/media/9486.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "ROUGE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7118",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/7118.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",

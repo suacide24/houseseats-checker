@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-07-31",
         "2026-08-01",
@@ -38,14 +37,14 @@
         "2026-09-02",
         "2026-09-03",
         "2026-09-04",
-        "2026-09-21"
+        "2026-09-21",
+        "2026-10-28"
       ]
     },
     "HouseSeats|x country": {
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-07-31",
         "2026-08-01",
@@ -81,7 +80,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-08-12",
         "2026-08-19",
@@ -105,7 +103,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-07-31",
         "2026-08-24",
@@ -346,7 +343,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-07-31"
       ]
@@ -373,13 +369,13 @@
       "name": "Extremeprov",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-07-31",
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|mik thomas presents: the gauntlet": {
@@ -496,18 +492,10 @@
         "2026-10-23"
       ]
     },
-    "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (henderson)": {
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Henderson)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-29"
-      ]
-    },
     "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
       "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30"
       ]
     },
@@ -536,7 +524,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-08-01",
         "2026-08-02",
         "2026-08-03",
@@ -603,14 +590,14 @@
         "2026-10-22",
         "2026-10-23",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-29",
         "2026-07-30",
         "2026-07-31",
         "2026-08-01",
@@ -718,7 +705,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -814,7 +802,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1161,7 +1150,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1235,7 +1225,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1423,7 +1414,8 @@
         "2026-09-17",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1504,7 +1496,8 @@
         "2026-10-22",
         "2026-10-23",
         "2026-10-24",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1583,7 +1576,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1774,7 +1768,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -1882,7 +1877,8 @@
         "2026-10-21",
         "2026-10-22",
         "2026-10-23",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2037,7 +2033,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|jose madero - usa tour 2026": {
@@ -2049,7 +2046,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|noche de campeones - night of champions": {
@@ -2136,7 +2134,8 @@
       "appearances": [
         "2026-10-25",
         "2026-10-26",
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|the jets 80\u2019s & 90\u2019s experience at treasure island": {
@@ -2150,14 +2149,16 @@
       "name": "Scoot Teasley at Stoney's Rockin' Country (Town Square)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     },
     "HouseSeats|jay webb at stoney's north forty": {
       "name": "Jay Webb at Stoney's North Forty",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-27"
+        "2026-10-27",
+        "2026-10-28"
       ]
     }
   }
