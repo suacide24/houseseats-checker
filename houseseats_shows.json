@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-28T19:42:23 PT",
-  "last_successful_run": "2026-10-28T19:42:23 PT",
+  "last_updated": "2026-10-29T02:39:50 PT",
+  "last_successful_run": "2026-10-29T02:39:50 PT",
   "email_enabled": false,
-  "count": 19,
+  "count": 16,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "X Country",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=3644",
-      "date": "October 28th",
-      "image": "https://lv.houseseats.com/resources/media/3644.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
@@ -108,14 +92,6 @@
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Fernando Velasco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9519",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9519.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
