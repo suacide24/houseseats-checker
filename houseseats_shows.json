@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-29T09:45:49 PT",
-  "last_successful_run": "2026-10-29T09:45:49 PT",
+  "last_updated": "2026-10-29T14:40:33 PT",
+  "last_successful_run": "2026-10-29T14:40:33 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -27,14 +27,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
       "date": "October 29th",
       "image": "https://lv.houseseats.com/resources/media/9438.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murray's Halloween Madhouse",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9467",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9467.jpg",
       "rare": false
     },
     {
@@ -71,14 +63,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "18th Annual Thriller Halloween Party",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9525",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/9525.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "Scoot Teasley at Stoney's Rockin' Country (Town Square)",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9522",
       "date": "October 30th",
@@ -91,14 +75,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Haunted Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9504",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9504.jpg",
       "rare": false
     },
     {
