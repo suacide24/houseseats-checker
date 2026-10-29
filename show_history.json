@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-01",
         "2026-08-03",
@@ -45,7 +44,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-01",
         "2026-08-07",
@@ -74,14 +72,14 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|chippendales at planet hollywood": {
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-08-12",
         "2026-08-19",
         "2026-08-24",
@@ -104,7 +102,6 @@
       "name": "The Rant!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-24",
         "2026-08-25",
@@ -344,7 +341,6 @@
       "name": "Vegas Knight Hawks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31"
       ]
     },
@@ -370,13 +366,13 @@
       "name": "Extremeprov",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-25",
         "2026-08-26",
         "2026-08-27",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|mik thomas presents: the gauntlet": {
@@ -493,13 +489,6 @@
         "2026-10-23"
       ]
     },
-    "HouseSeats|merle norman cosmetic studio: skin assessment/express facial service (las vegas)": {
-      "name": "Merle Norman Cosmetic Studio: Skin Assessment/Express Facial Service (Las Vegas)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-07-30"
-      ]
-    },
     "HouseSeats|laugh factory las vegas": {
       "name": "Laugh Factory Las Vegas",
       "source": "HouseSeats",
@@ -592,14 +581,14 @@
         "2026-10-23",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-01",
         "2026-08-02",
@@ -707,17 +696,18 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
       "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-07-30",
         "2026-07-31",
         "2026-08-27",
-        "2026-09-24"
+        "2026-09-24",
+        "2026-10-29"
       ]
     },
     "HouseSeats|pb&j: a duo improv show": {
@@ -1152,7 +1142,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1227,7 +1218,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1416,7 +1408,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1498,7 +1491,8 @@
         "2026-10-23",
         "2026-10-24",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1578,7 +1572,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1770,7 +1765,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|nevada ballet theatre: carmina burana & serenade": {
@@ -1879,7 +1875,8 @@
         "2026-10-22",
         "2026-10-23",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2136,7 +2133,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|the jets 80\u2019s & 90\u2019s experience at treasure island": {
@@ -2144,7 +2142,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-26",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2152,7 +2151,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|jay webb at stoney's north forty": {
@@ -2160,28 +2160,32 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|joy in the dark presents: night of the dead": {
       "name": "Joy in the Dark presents: Night of the Dead",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|18th annual thriller halloween party": {
       "name": "18th Annual Thriller Halloween Party",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     },
     "HouseSeats|fernando velasco": {
       "name": "Fernando Velasco",
       "source": "HouseSeats",
       "appearances": [
-        "2026-10-28"
+        "2026-10-28",
+        "2026-10-29"
       ]
     }
   }

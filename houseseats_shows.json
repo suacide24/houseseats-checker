@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-28T16:25:32 PT",
-  "last_successful_run": "2026-10-28T16:25:32 PT",
+  "last_updated": "2026-10-28T19:42:23 PT",
+  "last_successful_run": "2026-10-28T19:42:23 PT",
   "email_enabled": false,
   "count": 19,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Laugh After Dark Comedy Festival",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9505",
-      "date": "October 28th",
-      "image": "https://lv.houseseats.com/resources/media/9505.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "X Country",
@@ -79,6 +71,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
+      "date": "October 29th",
+      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 30th",
@@ -99,7 +99,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9522",
       "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9522.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -107,7 +107,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -139,7 +139,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9065",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9065.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -147,7 +147,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9523",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9523.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
