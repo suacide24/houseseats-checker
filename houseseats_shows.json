@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-30T13:01:06 PT",
-  "last_successful_run": "2026-10-30T13:01:06 PT",
+  "last_updated": "2026-10-30T16:57:52 PT",
+  "last_successful_run": "2026-10-30T16:57:52 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -15,42 +15,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "18th Annual Thriller Halloween Party",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9525",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/9525.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Aussie Heat",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
       "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Scoot Teasley at Stoney's Rockin' Country (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9522",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/9522.jpg",
       "rare": false
     },
     {
@@ -67,6 +35,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
@@ -99,6 +83,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
       "date": "November 1st",
       "image": "https://lv.houseseats.com/resources/media/9364.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Haunted Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9504",
+      "date": "November 1st",
+      "image": "https://lv.houseseats.com/resources/media/9504.jpg",
       "rare": false
     },
     {
