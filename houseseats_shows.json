@@ -1,57 +1,17 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-29T14:40:33 PT",
-  "last_successful_run": "2026-10-29T14:40:33 PT",
+  "last_updated": "2026-10-29T18:44:31 PT",
+  "last_successful_run": "2026-10-29T18:44:31 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 29th",
+      "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "True Story",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9438.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
-      "date": "October 29th",
-      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -59,6 +19,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "October 30th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "October 30th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "October 30th",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
       "rare": false
     },
     {
@@ -83,7 +59,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9524",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9524.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
