@@ -1,26 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-30T16:57:52 PT",
-  "last_successful_run": "2026-10-30T16:57:52 PT",
+  "last_updated": "2026-10-30T22:20:24 PT",
+  "last_successful_run": "2026-10-30T22:20:24 PT",
   "email_enabled": false,
-  "count": 12,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "October 30th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
@@ -44,6 +28,14 @@
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Murder Mystery Speakeasy",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9527",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/9527.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -79,27 +71,11 @@
     },
     {
       "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "November 1st",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Haunted Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9504",
-      "date": "November 1st",
-      "image": "https://lv.houseseats.com/resources/media/9504.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "VRMI Concert Series",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9498",
       "date": "November 2nd",
       "image": "https://lv.houseseats.com/resources/media/9498.jpg",
-      "rare": true
+      "rare": false
     }
   ]
 }
