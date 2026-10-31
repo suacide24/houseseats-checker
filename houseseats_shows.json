@@ -1,56 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-31T13:11:18 PT",
-  "last_successful_run": "2026-10-31T13:11:18 PT",
+  "last_updated": "2026-10-31T16:34:21 PT",
+  "last_successful_run": "2026-10-31T16:34:21 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9511.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Murder Mystery Speakeasy",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9527",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9527.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Joy in the Dark presents: Night of the Dead",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9524",
       "date": "October 31st",
       "image": "https://lv.houseseats.com/resources/media/9524.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "X ROCKS",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8633",
+      "date": "October 31st",
+      "image": "https://lv.houseseats.com/resources/media/8633.jpg",
       "rare": false
     },
     {
@@ -79,10 +47,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Beyond featuring Mark Bautista",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
       "date": "November 3rd",
       "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "November 6th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     }
   ]
