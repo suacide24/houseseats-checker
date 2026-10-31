@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-10-31T09:14:50 PT",
-  "last_successful_run": "2026-10-31T09:14:50 PT",
+  "last_updated": "2026-10-31T13:11:18 PT",
+  "last_successful_run": "2026-10-31T13:11:18 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -55,14 +55,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Jay Webb at Stoney's North Forty",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9523",
-      "date": "October 31st",
-      "image": "https://lv.houseseats.com/resources/media/9523.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Punk Rock Brunch",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
       "date": "November 1st",
@@ -71,10 +63,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "November 2nd",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "VRMI Concert Series",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9498",
       "date": "November 2nd",
       "image": "https://lv.houseseats.com/resources/media/9498.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "November 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
       "rare": false
     }
   ]
