@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-07",
@@ -196,7 +195,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
@@ -256,7 +254,8 @@
         "2026-09-28",
         "2026-10-19",
         "2026-10-20",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|paranormal - the show starring mentalist frederic da silva": {
@@ -464,7 +463,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-08",
         "2026-08-09",
         "2026-08-16",
@@ -504,7 +502,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
@@ -577,7 +574,6 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
@@ -619,7 +615,6 @@
       "name": "The Spanish Magician - Enrique De Leon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-10",
         "2026-08-11",
@@ -685,7 +680,8 @@
         "2026-10-29",
         "2026-10-30",
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -701,7 +697,6 @@
       "name": "PB&J: A Duo Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
@@ -712,7 +707,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-03",
         "2026-08-04",
         "2026-08-05",
         "2026-08-06",
@@ -1209,7 +1203,8 @@
         "2026-10-29",
         "2026-10-30",
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1569,7 +1564,8 @@
         "2026-10-29",
         "2026-10-30",
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1976,7 +1972,8 @@
         "2026-10-19",
         "2026-10-30",
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|fastball": {
@@ -2090,7 +2087,8 @@
         "2026-10-24",
         "2026-10-25",
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
@@ -2102,7 +2100,8 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-31",
-        "2026-11-01"
+        "2026-11-01",
+        "2026-11-02"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
