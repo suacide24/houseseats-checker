@@ -2206,6 +2206,13 @@
       "appearances": [
         "2026-10-31"
       ]
+    },
+    "HouseSeats|2026 fall masterworks concert": {
+      "name": "2026 Fall Masterworks Concert",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-02"
+      ]
     }
   }
 }

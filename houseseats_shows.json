@@ -1,32 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-01T17:22:10 PT",
-  "last_successful_run": "2026-11-01T17:22:10 PT",
+  "last_updated": "2026-11-02T00:03:23 PT",
+  "last_successful_run": "2026-11-02T00:03:23 PT",
   "email_enabled": false,
   "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "FANTASY",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=6789",
-      "date": "November 1st",
-      "image": "https://lv.houseseats.com/resources/media/6789.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Finding Wonder",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
-      "date": "November 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "VRMI Concert Series",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9498",
       "date": "November 2nd",
       "image": "https://lv.houseseats.com/resources/media/9498.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "November 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
       "rare": false
     },
     {
@@ -60,6 +52,14 @@
       "date": "November 6th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "2026 Fall Masterworks Concert",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9526",
+      "date": "November 8th",
+      "image": "https://lv.houseseats.com/resources/media/9526.jpg",
+      "rare": true
     }
   ]
 }
