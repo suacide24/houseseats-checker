@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-02T17:28:30 PT",
-  "last_successful_run": "2026-11-02T17:28:30 PT",
+  "last_updated": "2026-11-03T00:29:52 PT",
+  "last_successful_run": "2026-11-03T00:29:52 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "November 2nd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "November 3rd",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "November 3rd",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
@@ -52,14 +52,6 @@
       "date": "November 7th",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "2026 Fall Masterworks Concert",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9526",
-      "date": "November 8th",
-      "image": "https://lv.houseseats.com/resources/media/9526.jpg",
-      "rare": true
     }
   ]
 }
