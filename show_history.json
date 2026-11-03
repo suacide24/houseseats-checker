@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-08-07",
         "2026-08-08",
@@ -148,7 +147,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-09-04",
         "2026-09-13",
@@ -196,7 +194,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
@@ -503,7 +500,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
@@ -569,14 +565,14 @@
         "2026-10-27",
         "2026-10-28",
         "2026-10-29",
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
@@ -617,7 +613,6 @@
       "name": "The Spanish Magician - Enrique De Leon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-10",
         "2026-08-11",
         "2026-08-17",
@@ -683,7 +678,8 @@
         "2026-10-30",
         "2026-10-31",
         "2026-11-01",
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -699,7 +695,6 @@
       "name": "PB&J: A Duo Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-08-06",
         "2026-08-07"
@@ -709,7 +704,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-04",
         "2026-08-05",
         "2026-08-06",
         "2026-08-07",
@@ -777,7 +771,8 @@
         "2026-10-25",
         "2026-10-26",
         "2026-10-27",
-        "2026-10-28"
+        "2026-10-28",
+        "2026-11-03"
       ]
     },
     "HouseSeats|coco and friends": {
@@ -1207,7 +1202,8 @@
         "2026-10-30",
         "2026-10-31",
         "2026-11-01",
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1568,7 +1564,8 @@
         "2026-10-30",
         "2026-10-31",
         "2026-11-01",
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2152,7 +2149,8 @@
         "2026-10-28",
         "2026-10-29",
         "2026-10-30",
-        "2026-10-31"
+        "2026-10-31",
+        "2026-11-03"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2214,7 +2212,8 @@
       "name": "2026 Fall Masterworks Concert",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-02"
+        "2026-11-02",
+        "2026-11-03"
       ]
     }
   }
