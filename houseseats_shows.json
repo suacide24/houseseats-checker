@@ -1,24 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-03T18:01:01 PT",
-  "last_successful_run": "2026-11-03T18:01:01 PT",
+  "last_updated": "2026-11-04T09:51:29 PT",
+  "last_successful_run": "2026-11-04T09:51:29 PT",
   "email_enabled": false,
   "count": 7,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "November 3rd",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "November 4th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "November 4th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
