@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-04T09:51:29 PT",
-  "last_successful_run": "2026-11-04T09:51:29 PT",
+  "last_updated": "2026-11-04T15:26:12 PT",
+  "last_successful_run": "2026-11-04T15:26:12 PT",
   "email_enabled": false,
-  "count": 7,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 4th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -31,11 +23,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 5th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Spanish Magician - Enrique De Leon",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "November 5th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Clues & Cocktails - A Live Murder Mystery Night",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
+      "date": "November 6th",
+      "image": "https://lv.houseseats.com/resources/media/9396.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
