@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-07",
         "2026-08-08",
         "2026-08-09",
@@ -147,7 +146,6 @@
       "name": "Tape Face at MGM Grand",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-09-04",
         "2026-09-13",
         "2026-09-20",
@@ -194,7 +192,6 @@
       "name": "Whisky Mixer - Improv Party Night",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06",
         "2026-08-07",
         "2026-09-03",
@@ -500,7 +497,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06",
         "2026-08-07",
         "2026-08-09",
@@ -566,14 +562,14 @@
         "2026-10-28",
         "2026-10-29",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
@@ -679,7 +675,8 @@
         "2026-10-31",
         "2026-11-01",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -695,7 +692,6 @@
       "name": "PB&J: A Duo Improv Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06",
         "2026-08-07"
       ]
@@ -704,7 +700,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
@@ -772,14 +767,14 @@
         "2026-10-26",
         "2026-10-27",
         "2026-10-28",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|coco and friends": {
       "name": "Coco and Friends",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06"
       ]
     },
@@ -787,7 +782,6 @@
       "name": "Derek Hughes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-05",
         "2026-08-06",
         "2026-08-07",
         "2026-08-08",
@@ -1203,7 +1197,8 @@
         "2026-10-31",
         "2026-11-01",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1565,7 +1560,8 @@
         "2026-10-31",
         "2026-11-01",
         "2026-11-02",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2150,7 +2146,8 @@
         "2026-10-29",
         "2026-10-30",
         "2026-10-31",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2199,7 +2196,8 @@
       "appearances": [
         "2026-10-28",
         "2026-10-29",
-        "2026-11-03"
+        "2026-11-03",
+        "2026-11-04"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
