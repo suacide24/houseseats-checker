@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-04T19:39:45 PT",
-  "last_successful_run": "2026-11-04T19:39:45 PT",
+  "last_updated": "2026-11-05T03:59:48 PT",
+  "last_successful_run": "2026-11-05T03:59:48 PT",
   "email_enabled": false,
-  "count": 14,
+  "count": 13,
   "shows": [
     {
       "source": "HouseSeats",
@@ -108,14 +108,6 @@
       "date": "November 7th",
       "image": "https://lv.houseseats.com/resources/media/9519.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "A Public Fit Theatre Company Presents: Talk Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9531",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9531.jpg",
-      "rare": true
     }
   ]
 }
