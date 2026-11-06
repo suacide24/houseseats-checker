@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-06T07:47:28 PT",
-  "last_successful_run": "2026-11-06T07:47:28 PT",
+  "last_updated": "2026-11-06T13:23:28 PT",
+  "last_successful_run": "2026-11-06T13:23:28 PT",
   "email_enabled": false,
   "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Clues & Cocktails - A Live Murder Mystery Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9396.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -27,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "November 6th",
       "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
       "rare": false
     },
     {
@@ -63,27 +47,43 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Fernando Velasco",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9519",
+      "name": "Lord Thaddeus & The Countess and Pitch After Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9534",
       "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9519.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9534.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "November 7th",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "November 7th",
+      "date": "November 8th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
       "source": "HouseSeats",
-      "name": "Lord Thaddeus & The Countess and Pitch After Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9534",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9534.jpg",
+      "name": "NAKED ALIEN MASSACRE - Horror Movie Premiere",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9535",
+      "date": "November 10th",
+      "image": "https://lv.houseseats.com/resources/media/9535.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "November 10th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
     }
   ]
 }
