@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-05T23:47:43 PT",
-  "last_successful_run": "2026-11-05T23:47:43 PT",
+  "last_updated": "2026-11-06T07:47:28 PT",
+  "last_successful_run": "2026-11-06T07:47:28 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Clues & Cocktails - A Live Murder Mystery Night",
