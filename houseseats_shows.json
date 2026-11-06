@@ -1,48 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-05T11:51:30 PT",
-  "last_successful_run": "2026-11-05T11:51:30 PT",
+  "last_updated": "2026-11-05T16:53:53 PT",
+  "last_successful_run": "2026-11-05T16:53:53 PT",
   "email_enabled": false,
-  "count": 16,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Blue Man Group",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=58",
-      "date": "November 5th",
-      "image": "https://lv.houseseats.com/resources/media/58.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "November 5th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 5th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "November 5th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "November 5th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
@@ -71,11 +39,19 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "November 6th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Clues & Cocktails - A Live Murder Mystery Night",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9396",
       "date": "November 6th",
       "image": "https://lv.houseseats.com/resources/media/9396.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -83,6 +59,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "November 6th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "November 6th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
       "rare": false
     },
     {
@@ -124,14 +108,6 @@
       "date": "November 7th",
       "image": "https://lv.houseseats.com/resources/media/9534.jpg",
       "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "America - The Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9364",
-      "date": "November 8th",
-      "image": "https://lv.houseseats.com/resources/media/9364.jpg",
-      "rare": false
     }
   ]
 }
