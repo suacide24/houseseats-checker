@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-06T17:04:40 PT",
-  "last_successful_run": "2026-11-06T17:04:40 PT",
+  "last_updated": "2026-11-06T23:39:42 PT",
+  "last_successful_run": "2026-11-06T23:39:42 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "The Psychedelic Furs",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9536",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9536.jpg",
-      "rare": true
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -36,6 +28,22 @@
       "date": "November 7th",
       "image": "https://lv.houseseats.com/resources/media/9534.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Gente de Zona",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9537",
+      "date": "November 7th",
+      "image": "https://lv.houseseats.com/resources/media/9537.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "A Night of Laughs!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9538",
+      "date": "November 7th",
+      "image": "https://lv.houseseats.com/resources/media/9538.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -68,6 +76,14 @@
       "date": "November 10th",
       "image": "https://lv.houseseats.com/resources/media/9535.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 10th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",

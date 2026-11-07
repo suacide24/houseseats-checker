@@ -1177,7 +1177,8 @@
         "2026-11-02",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-07"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -2240,6 +2241,20 @@
     },
     "HouseSeats|the psychedelic furs": {
       "name": "The Psychedelic Furs",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-07"
+      ]
+    },
+    "HouseSeats|gente de zona": {
+      "name": "Gente de Zona",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-07"
+      ]
+    },
+    "HouseSeats|a night of laughs!": {
+      "name": "A Night of Laughs!",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-07"
