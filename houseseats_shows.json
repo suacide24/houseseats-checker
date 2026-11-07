@@ -1,40 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-06T13:23:28 PT",
-  "last_successful_run": "2026-11-06T13:23:28 PT",
+  "last_updated": "2026-11-06T17:04:40 PT",
+  "last_successful_run": "2026-11-06T17:04:40 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 9,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "name": "The Psychedelic Furs",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9536",
       "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Shaadicore - Fake Indian Wedding Rave",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9533",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9533.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Whisky Mixer - Improv Party Night",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9182",
-      "date": "November 6th",
-      "image": "https://lv.houseseats.com/resources/media/9182.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9536.jpg",
       "rare": true
     },
     {
@@ -47,11 +23,27 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "November 7th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Lord Thaddeus & The Countess and Pitch After Dark",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9534",
       "date": "November 7th",
       "image": "https://lv.houseseats.com/resources/media/9534.jpg",
-      "rare": true
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "November 7th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
