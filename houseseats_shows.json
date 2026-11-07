@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-07T06:47:09 PT",
-  "last_successful_run": "2026-11-07T06:47:09 PT",
+  "last_updated": "2026-11-07T11:17:23 PT",
+  "last_successful_run": "2026-11-07T11:17:23 PT",
   "email_enabled": false,
-  "count": 11,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
@@ -39,14 +31,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "A Night of Laughs!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9538",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9538.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
       "name": "The Spanish Magician - Enrique De Leon",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
       "date": "November 7th",
@@ -63,11 +47,35 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
+      "date": "November 8th",
+      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "November 8th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "November 9th",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mondays Dark",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9539",
+      "date": "November 9th",
+      "image": "https://lv.houseseats.com/resources/media/9539.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
@@ -83,6 +91,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "November 10th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "November 10th",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
       "rare": false
     },
     {
