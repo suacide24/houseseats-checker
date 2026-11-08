@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-08T01:22:48 PT",
-  "last_successful_run": "2026-11-08T01:22:48 PT",
+  "last_updated": "2026-11-08T08:12:48 PT",
+  "last_successful_run": "2026-11-08T08:12:48 PT",
   "email_enabled": false,
-  "count": 9,
+  "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "November 8th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Finding Wonder",
