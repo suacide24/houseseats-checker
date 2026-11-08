@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -241,7 +240,6 @@
       "name": "FANTASY",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-30",
         "2026-08-31",
         "2026-09-13",
@@ -332,7 +330,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -458,7 +455,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-16",
         "2026-08-23",
         "2026-08-24",
@@ -497,7 +493,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -570,7 +565,6 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -692,7 +686,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -760,14 +753,14 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|derek hughes": {
       "name": "Derek Hughes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -824,7 +817,6 @@
       "name": "Film Screening - Meduza w/ Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-09",
         "2026-08-10",
         "2026-08-11",
         "2026-08-12",
@@ -1178,7 +1170,8 @@
         "2026-11-03",
         "2026-11-04",
         "2026-11-05",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1369,7 +1362,8 @@
         "2026-10-27",
         "2026-10-28",
         "2026-10-29",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1458,7 +1452,8 @@
         "2026-11-01",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1548,7 +1543,8 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1863,7 +1859,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-10-12",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|taylor hunnicutt at stoney's north forty": {
@@ -2076,7 +2073,8 @@
         "2026-10-31",
         "2026-11-01",
         "2026-11-02",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
@@ -2090,7 +2088,8 @@
         "2026-10-31",
         "2026-11-01",
         "2026-11-02",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
@@ -2240,7 +2239,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-06",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-08"
       ]
     },
     "HouseSeats|the psychedelic furs": {

@@ -1,50 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-07T14:54:56 PT",
-  "last_successful_run": "2026-11-07T14:54:56 PT",
+  "last_updated": "2026-11-07T18:09:31 PT",
+  "last_successful_run": "2026-11-07T18:09:31 PT",
   "email_enabled": false,
-  "count": 13,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Lord Thaddeus & The Countess and Pitch After Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9534",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9534.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Gente de Zona",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9537",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9537.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "November 7th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -67,7 +27,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9539",
       "date": "November 9th",
       "image": "https://lv.houseseats.com/resources/media/9539.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -75,7 +35,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9535",
       "date": "November 10th",
       "image": "https://lv.houseseats.com/resources/media/9535.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -107,6 +67,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9438",
       "date": "November 12th",
       "image": "https://lv.houseseats.com/resources/media/9438.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "November 13th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     }
   ]
