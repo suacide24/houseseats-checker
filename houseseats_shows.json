@@ -1,40 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-09T10:32:27 PT",
-  "last_successful_run": "2026-11-09T10:32:27 PT",
+  "last_updated": "2026-11-09T17:55:44 PT",
+  "last_successful_run": "2026-11-09T17:55:44 PT",
   "email_enabled": false,
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Finding Wonder",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
-      "date": "November 9th",
-      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mondays Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9539",
-      "date": "November 9th",
-      "image": "https://lv.houseseats.com/resources/media/9539.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Chippendales at Planet Hollywood",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
-      "date": "November 9th",
-      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "NAKED ALIEN MASSACRE - Horror Movie Premiere",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9535",
       "date": "November 10th",
       "image": "https://lv.houseseats.com/resources/media/9535.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "November 10th",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
       "rare": false
     },
     {
@@ -91,6 +75,22 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "November 13th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Comedy in the Wild - Featuring Timm Michaels",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9541",
+      "date": "November 13th",
+      "image": "https://lv.houseseats.com/resources/media/9541.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9511.jpg",
       "rare": false
     }
   ]

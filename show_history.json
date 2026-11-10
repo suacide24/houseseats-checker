@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -111,7 +110,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-16",
         "2026-08-18",
         "2026-08-31",
@@ -330,7 +328,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13"
       ]
@@ -492,7 +489,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -558,14 +554,14 @@
         "2026-11-05",
         "2026-11-06",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -599,7 +595,6 @@
       "name": "The Spanish Magician - Enrique De Leon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -684,7 +679,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -752,14 +746,14 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|derek hughes": {
       "name": "Derek Hughes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13"
       ]
@@ -768,7 +762,6 @@
       "name": "An Evening with Rita Lim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -814,7 +807,6 @@
       "name": "Film Screening - Meduza w/ Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13"
       ]
@@ -823,7 +815,6 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12",
         "2026-08-13",
         "2026-08-14",
@@ -834,7 +825,6 @@
       "name": "Film Screening - The End of the Tour w/ Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-11",
         "2026-08-12"
       ]
     },
@@ -1168,7 +1158,8 @@
         "2026-11-05",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1361,7 +1352,8 @@
         "2026-10-29",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1543,7 +1535,8 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2075,7 +2068,8 @@
         "2026-11-02",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
@@ -2091,7 +2085,8 @@
         "2026-11-02",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
@@ -2142,7 +2137,8 @@
         "2026-10-31",
         "2026-11-03",
         "2026-11-04",
-        "2026-11-05"
+        "2026-11-05",
+        "2026-11-10"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2243,7 +2239,8 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
       ]
     },
     "HouseSeats|the psychedelic furs": {
@@ -2271,7 +2268,15 @@
       "name": "Dreams by Enrique De Leon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-10"
+      ]
+    },
+    "HouseSeats|comedy in the wild - featuring timm michaels": {
+      "name": "Comedy in the Wild - Featuring Timm Michaels",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-10"
       ]
     }
   }
