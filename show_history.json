@@ -663,7 +663,8 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-07"
+        "2026-11-07",
+        "2026-11-10"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -2190,7 +2191,8 @@
         "2026-11-03",
         "2026-11-04",
         "2026-11-05",
-        "2026-11-06"
+        "2026-11-06",
+        "2026-11-10"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
@@ -2274,6 +2276,20 @@
     },
     "HouseSeats|comedy in the wild - featuring timm michaels": {
       "name": "Comedy in the Wild - Featuring Timm Michaels",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-10"
+      ]
+    },
+    "HouseSeats|fur & thundur: adventure in space": {
+      "name": "Fur & Thundur: Adventure in SPACE",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-10"
+      ]
+    },
+    "HouseSeats|fomato improv show: a thanksgiving fomato feast": {
+      "name": "Fomato Improv Show: A Thanksgiving Fomato Feast",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-10"

@@ -1,34 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-10T09:34:53 PT",
-  "last_successful_run": "2026-11-10T09:34:53 PT",
+  "last_updated": "2026-11-10T15:00:42 PT",
+  "last_successful_run": "2026-11-10T15:00:42 PT",
   "email_enabled": false,
-  "count": 10,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "NAKED ALIEN MASSACRE - Horror Movie Premiere",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9535",
-      "date": "November 10th",
-      "image": "https://lv.houseseats.com/resources/media/9535.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 10th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Beyond featuring Mark Bautista",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
-      "date": "November 10th",
-      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
@@ -39,10 +15,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 11th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Mike Hammer Comedy Magic Show",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
       "date": "November 11th",
       "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "November 11th",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
       "rare": false
     },
     {
@@ -79,10 +71,42 @@
     },
     {
       "source": "HouseSeats",
+      "name": "The Spanish Magician - Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fur & Thundur: Adventure in SPACE",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9542",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9542.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fomato Improv Show: A Thanksgiving Fomato Feast",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9543",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9543.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
       "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Fernando Velasco",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9519",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9519.jpg",
       "rare": false
     }
   ]
