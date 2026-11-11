@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-10T18:55:56 PT",
-  "last_successful_run": "2026-11-10T18:55:56 PT",
+  "last_updated": "2026-11-11T02:37:20 PT",
+  "last_successful_run": "2026-11-11T02:37:20 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "November 10th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
@@ -31,10 +23,10 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Beyond featuring Mark Bautista",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "November 11th",
-      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     },
     {
@@ -68,6 +60,14 @@
       "date": "November 13th",
       "image": "https://lv.houseseats.com/resources/media/9541.jpg",
       "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Chippendales at Planet Hollywood",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=8958",
+      "date": "November 13th",
+      "image": "https://lv.houseseats.com/resources/media/8958.jpg",
+      "rare": false
     },
     {
       "source": "HouseSeats",
