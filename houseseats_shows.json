@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-11T02:37:20 PT",
-  "last_successful_run": "2026-11-11T02:37:20 PT",
+  "last_updated": "2026-11-11T10:29:16 PT",
+  "last_successful_run": "2026-11-11T10:29:16 PT",
   "email_enabled": false,
   "count": 13,
   "shows": [
@@ -105,7 +105,7 @@
       "source": "HouseSeats",
       "name": "Fernando Velasco",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9519",
-      "date": "November 14th",
+      "date": "November 15th",
       "image": "https://lv.houseseats.com/resources/media/9519.jpg",
       "rare": false
     }
