@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
@@ -34,7 +33,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-19",
@@ -69,7 +67,6 @@
       "name": "Chippendales at Planet Hollywood",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-19",
         "2026-08-24",
         "2026-08-25",
@@ -199,7 +196,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-15",
         "2026-08-27",
@@ -328,7 +324,6 @@
       "name": "Puntification",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13"
       ]
     },
@@ -489,7 +484,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-17",
@@ -555,14 +549,14 @@
         "2026-11-06",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
@@ -664,7 +658,8 @@
         "2026-11-05",
         "2026-11-06",
         "2026-11-07",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -680,7 +675,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
@@ -748,14 +742,14 @@
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|derek hughes": {
       "name": "Derek Hughes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13"
       ]
     },
@@ -763,7 +757,6 @@
       "name": "An Evening with Rita Lim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15",
@@ -808,7 +801,6 @@
       "name": "Film Screening - Meduza w/ Q&A",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13"
       ]
     },
@@ -816,39 +808,22 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13",
         "2026-08-14",
         "2026-08-15"
-      ]
-    },
-    "HouseSeats|film screening - the end of the tour w/ q&a": {
-      "name": "Film Screening - The End of the Tour w/ Q&A",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-12"
       ]
     },
     "HouseSeats|a night of burlesque": {
       "name": "A Night Of Burlesque",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13"
-      ]
-    },
-    "HouseSeats|brantley gilbert - the real american tour": {
-      "name": "Brantley Gilbert - The Real American Tour",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-12"
       ]
     },
     "HouseSeats|summer songs": {
       "name": "Summer Songs",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-12",
         "2026-08-13"
       ]
     },
@@ -1160,7 +1135,8 @@
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1354,7 +1330,8 @@
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1537,7 +1514,8 @@
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2087,7 +2065,8 @@
         "2026-11-07",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
@@ -2139,7 +2118,8 @@
         "2026-11-03",
         "2026-11-04",
         "2026-11-05",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2192,7 +2172,8 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-06",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
@@ -2271,28 +2252,32 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-09",
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|comedy in the wild - featuring timm michaels": {
       "name": "Comedy in the Wild - Featuring Timm Michaels",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|fur & thundur: adventure in space": {
       "name": "Fur & Thundur: Adventure in SPACE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     },
     "HouseSeats|fomato improv show: a thanksgiving fomato feast": {
       "name": "Fomato Improv Show: A Thanksgiving Fomato Feast",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-10"
+        "2026-11-10",
+        "2026-11-11"
       ]
     }
   }
