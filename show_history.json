@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
@@ -33,7 +32,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-19",
         "2026-08-20",
@@ -85,7 +83,8 @@
         "2026-11-02",
         "2026-11-08",
         "2026-11-09",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|the rant!": {
@@ -197,7 +196,6 @@
       "name": "X ROCKS",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-15",
         "2026-08-27",
         "2026-08-29",
@@ -250,7 +248,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-27",
         "2026-09-23",
@@ -319,13 +316,6 @@
       "appearances": [
         "2026-08-28",
         "2026-10-23"
-      ]
-    },
-    "HouseSeats|puntification": {
-      "name": "Puntification",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
       ]
     },
     "HouseSeats|twist & shout: the beatles tribute show": {
@@ -409,7 +399,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
@@ -485,7 +474,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-17",
         "2026-08-18",
@@ -551,14 +539,14 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
@@ -660,7 +648,8 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -676,7 +665,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-15",
         "2026-08-16",
@@ -744,21 +732,14 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
-      ]
-    },
-    "HouseSeats|derek hughes": {
-      "name": "Derek Hughes",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|an evening with rita lim": {
       "name": "An Evening with Rita Lim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-15",
         "2026-08-18",
@@ -798,63 +779,25 @@
         "2026-11-06"
       ]
     },
-    "HouseSeats|film screening - meduza w/ q&a": {
-      "name": "Film Screening - Meduza w/ Q&A",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
-      ]
-    },
     "HouseSeats|dumb human tricks": {
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14",
         "2026-08-15"
-      ]
-    },
-    "HouseSeats|a night of burlesque": {
-      "name": "A Night Of Burlesque",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
-      ]
-    },
-    "HouseSeats|summer songs": {
-      "name": "Summer Songs",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
       ]
     },
     "HouseSeats|vertical horizon & tonic": {
       "name": "Vertical Horizon & Tonic",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14"
-      ]
-    },
-    "HouseSeats|double vision - a foreigner tribute": {
-      "name": "Double Vision - A Foreigner Tribute",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
-      ]
-    },
-    "HouseSeats|three lock box - the ultimate sammy hagar tribute": {
-      "name": "Three Lock Box - The Ultimate Sammy Hagar Tribute",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-13"
       ]
     },
     "HouseSeats|ial playoffs: second round": {
       "name": "IAL Playoffs: Second Round",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-13",
         "2026-08-14"
       ]
     },
@@ -1137,7 +1080,8 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1332,7 +1276,8 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|aces high - a tribute to iron maiden": {
@@ -1516,7 +1461,8 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2120,7 +2066,8 @@
         "2026-11-04",
         "2026-11-05",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2174,7 +2121,8 @@
         "2026-11-05",
         "2026-11-06",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
@@ -2254,7 +2202,8 @@
       "appearances": [
         "2026-11-09",
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|comedy in the wild - featuring timm michaels": {
@@ -2262,7 +2211,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|fur & thundur: adventure in space": {
@@ -2270,7 +2220,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     },
     "HouseSeats|fomato improv show: a thanksgiving fomato feast": {
@@ -2278,7 +2229,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-10",
-        "2026-11-11"
+        "2026-11-11",
+        "2026-11-12"
       ]
     }
   }

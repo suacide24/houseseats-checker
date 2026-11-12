@@ -1,32 +1,24 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-11T10:29:16 PT",
-  "last_successful_run": "2026-11-11T10:29:16 PT",
-  "email_enabled": false,
+  "last_updated": "2026-11-11T16:57:22 PT",
+  "last_successful_run": "2026-11-11T16:57:22 PT",
+  "email_enabled": true,
   "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 11th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "November 11th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "November 11th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 12th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -47,6 +39,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "November 13th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "November 13th",
@@ -59,7 +59,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9541",
       "date": "November 13th",
       "image": "https://lv.houseseats.com/resources/media/9541.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -83,7 +83,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9542",
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9542.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
@@ -91,7 +91,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9543",
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9543.jpg",
-      "rare": true
+      "rare": false
     },
     {
       "source": "HouseSeats",
