@@ -1,18 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-12T08:59:39 PT",
-  "last_successful_run": "2026-11-12T08:59:39 PT",
+  "last_updated": "2026-11-12T14:40:35 PT",
+  "last_successful_run": "2026-11-12T14:40:35 PT",
   "email_enabled": true,
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 12th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "True Story",
@@ -23,10 +15,18 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Dreams by Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9540",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
       "date": "November 12th",
-      "image": "https://lv.houseseats.com/resources/media/9540.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 13th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
