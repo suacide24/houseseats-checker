@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
@@ -32,7 +31,6 @@
       "name": "X Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -248,7 +246,6 @@
       "name": "Paranormal - The Show Starring Mentalist Frederic Da Silva",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-27",
         "2026-09-23",
         "2026-09-24",
@@ -361,7 +358,6 @@
       "name": "Murder at the Steakhouse - Murder Mystery Dinner Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-09-17",
         "2026-09-18",
         "2026-09-19",
@@ -399,7 +395,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
@@ -474,7 +469,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -540,14 +534,14 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
@@ -649,7 +643,8 @@
         "2026-11-07",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -665,7 +660,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
@@ -733,14 +727,14 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|an evening with rita lim": {
       "name": "An Evening with Rita Lim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15",
         "2026-08-18",
         "2026-08-19",
@@ -783,36 +777,13 @@
       "name": "Dumb Human Tricks",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15"
-      ]
-    },
-    "HouseSeats|vertical horizon & tonic": {
-      "name": "Vertical Horizon & Tonic",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-14"
-      ]
-    },
-    "HouseSeats|ial playoffs: second round": {
-      "name": "IAL Playoffs: Second Round",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-14"
-      ]
-    },
-    "HouseSeats|lizz hader and special guests": {
-      "name": "Lizz Hader and Special Guests",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-14"
       ]
     },
     "HouseSeats|velvet nights with sina foley": {
       "name": "Velvet Nights with Sina Foley",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-14",
         "2026-08-15",
         "2026-08-16",
         "2026-08-17",
@@ -1081,7 +1052,8 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1462,7 +1434,8 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2068,7 +2041,8 @@
         "2026-11-05",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2123,7 +2097,8 @@
         "2026-11-06",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
@@ -2222,7 +2197,8 @@
       "appearances": [
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
       ]
     },
     "HouseSeats|fomato improv show: a thanksgiving fomato feast": {
@@ -2231,7 +2207,15 @@
       "appearances": [
         "2026-11-10",
         "2026-11-11",
-        "2026-11-12"
+        "2026-11-12",
+        "2026-11-13"
+      ]
+    },
+    "HouseSeats|pop evil": {
+      "name": "Pop Evil",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-13"
       ]
     }
   }
