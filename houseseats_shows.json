@@ -1,50 +1,10 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-13T16:14:46 PT",
-  "last_successful_run": "2026-11-13T16:14:46 PT",
+  "last_updated": "2026-11-13T22:54:25 PT",
+  "last_successful_run": "2026-11-13T22:54:25 PT",
   "email_enabled": true,
-  "count": 14,
+  "count": 12,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Pop Evil",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9550",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9550.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "TODD RUNDGREN - DAMNED IF I DO TOUR",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9551",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9551.jpg",
-      "rare": true
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -95,6 +55,14 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Notoriety Comedy Club",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "November 14th",
@@ -111,10 +79,26 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Fernando Velasco",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9519",
       "date": "November 15th",
       "image": "https://lv.houseseats.com/resources/media/9519.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "November 17th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
       "rare": false
     }
   ]
