@@ -1,56 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-14T05:59:51 PT",
-  "last_successful_run": "2026-11-14T05:59:51 PT",
+  "last_updated": "2026-11-14T11:03:10 PT",
+  "last_successful_run": "2026-11-14T11:03:10 PT",
   "email_enabled": true,
-  "count": 12,
+  "count": 6,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "The Spanish Magician - Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9389",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9389.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Fur & Thundur: Adventure in SPACE",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9542",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9542.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Fomato Improv Show: A Thanksgiving Fomato Feast",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9543",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9543.jpg",
-      "rare": false
-    },
     {
       "source": "HouseSeats",
       "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
@@ -68,14 +28,6 @@
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Toad the Wet Sprocket",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9552",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9552.jpg",
-      "rare": true
     },
     {
       "source": "HouseSeats",
