@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-14T11:03:10 PT",
-  "last_successful_run": "2026-11-14T11:03:10 PT",
+  "last_updated": "2026-11-14T15:16:15 PT",
+  "last_successful_run": "2026-11-14T15:16:15 PT",
   "email_enabled": true,
   "count": 6,
   "shows": [
@@ -19,14 +19,6 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "November 14th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     },
     {
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "November 17th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "November 20th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
       "rare": false
     }
   ]
