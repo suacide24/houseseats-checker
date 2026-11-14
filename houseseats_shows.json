@@ -1,32 +1,16 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-13T10:41:06 PT",
-  "last_successful_run": "2026-11-13T10:41:06 PT",
+  "last_updated": "2026-11-13T16:14:46 PT",
+  "last_successful_run": "2026-11-13T16:14:46 PT",
   "email_enabled": true,
-  "count": 11,
+  "count": 14,
   "shows": [
     {
       "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
       "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mike Hammer Comedy Magic Show",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
-      "rare": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Notoriety Comedy Club",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
-      "date": "November 13th",
-      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
       "rare": false
     },
     {
@@ -35,6 +19,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9550",
       "date": "November 13th",
       "image": "https://lv.houseseats.com/resources/media/9550.jpg",
+      "rare": true
+    },
+    {
+      "source": "HouseSeats",
+      "name": "TODD RUNDGREN - DAMNED IF I DO TOUR",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9551",
+      "date": "November 13th",
+      "image": "https://lv.houseseats.com/resources/media/9551.jpg",
       "rare": true
     },
     {
@@ -51,6 +43,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "November 13th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Punk Rock Brunch",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
       "rare": false
     },
     {
@@ -84,6 +84,30 @@
       "date": "November 14th",
       "image": "https://lv.houseseats.com/resources/media/9511.jpg",
       "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Notoriety Comedy Club",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9451.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Toad the Wet Sprocket",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9552",
+      "date": "November 14th",
+      "image": "https://lv.houseseats.com/resources/media/9552.jpg",
+      "rare": true
     },
     {
       "source": "HouseSeats",
