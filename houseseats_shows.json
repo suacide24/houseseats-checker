@@ -1,10 +1,26 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-15T09:37:22 PT",
-  "last_successful_run": "2026-11-15T09:37:22 PT",
+  "last_updated": "2026-11-15T14:38:36 PT",
+  "last_successful_run": "2026-11-15T14:38:36 PT",
   "email_enabled": true,
-  "count": 2,
+  "count": 4,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "November 16th",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "November 17th",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "rare": false
+    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
