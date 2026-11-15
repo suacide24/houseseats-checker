@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -104,7 +103,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-18",
         "2026-08-31",
         "2026-09-01",
@@ -366,7 +364,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -393,7 +390,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19"
@@ -428,7 +424,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-23",
         "2026-08-24",
         "2026-09-04",
@@ -539,7 +534,6 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -657,7 +651,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -725,7 +718,8 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-15"
       ]
     },
     "HouseSeats|an evening with rita lim": {
@@ -773,7 +767,6 @@
       "name": "Velvet Nights with Sina Foley",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-16",
         "2026-08-17",
         "2026-08-18",
         "2026-08-19",
@@ -952,7 +945,8 @@
         "2026-11-05",
         "2026-11-06",
         "2026-11-07",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-15"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -1427,7 +1421,8 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-15"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -2094,7 +2089,8 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-15"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
