@@ -7,7 +7,8 @@ Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
 3. Emails NEW show+date combinations only (once each, year-aware)
 4. Flags RARE shows 🔥 (seen fewer than 3 times in 30 days)
 5. Publishes the list to GitHub Pages
-6. Runs on **GitHub Actions** only; a second workflow alerts if the checker stops working
+6. Lets friends subscribe at their own email with their own denylist and page
+7. Runs on **GitHub Actions** only; a second workflow alerts if the checker stops working
 
 1stTix (1sttix.org) support is still in the code but is not run by any workflow
 (`--no-firsttix`); the site hides the 1stTix section unless that data is fresh.
@@ -35,6 +36,8 @@ Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
 | `health_state.json` | Whether a "down" alert is currently outstanding |
 | `watchlist.txt` | Keywords for shows you especially want |
 | `subscribers.json` | Per-friend show list and notified keys (no addresses) |
+| `subscribers.example.json` | Template for the git-ignored `subscribers.local.json` |
+| `FRIENDS.md` | How to add, pause and remove a friend |
 | `tools/set_subscribers.py` | Uploads `subscribers.local.json` as the `SUBSCRIBERS` secret |
 | `denylist.txt` | Local fallback for the denylist gist |
 | `tests/` | Unit tests (`python -m unittest discover -s tests`) |
@@ -79,6 +82,27 @@ check only calls the checker stale after 24 hours.
 }
 ```
 
+`first_seen` drives the NEW badge (shown for 24 hours). It is carried over
+from the previous output; a show date never notified before gets the current
+time; one that was already notified but has no recorded time gets `null`, so
+it is not shown as NEW.
+
+`subscribers.json` has the same per-show fields, per friend:
+
+```json
+{
+  "last_updated": "2026-11-16T12:09:29 PT",
+  "subscribers": {
+    "alex": {"last_updated": "...", "last_error": null, "count": 5,
+             "denylist": ["comedy"], "notified": ["HouseSeats|name|2026-11-20"],
+             "shows": [...]}
+  }
+}
+```
+
+The file only exists once a friend has been added. It must never contain an
+email address or a gist address.
+
 A failed scrape (login rejected, request error, or zero shows parsed) keeps the
 previously published shows, sets `status` to `error`, and counts up
 `consecutive_failures`. The site shows a warning banner in that state.
@@ -93,13 +117,22 @@ previously published shows, sets `status` to `error`, and counts up
 - The workflow retries its `git push` up to 5 times; both workflows share one
   concurrency group so their pushes do not race.
 - Text scraped from the site is HTML-escaped in the email and on the page.
+- RARE history covers every scraped show, not only the owner's filtered list,
+  so the badge is also right for friends with different denylists.
+- Friends are isolated: a bad entry, an unreachable denylist or a failed send
+  for one friend is logged by id only and never stops the owner's alerts or
+  another friend's. An unreachable denylist falls back to the copy saved at
+  the last check; with no saved copy that friend is skipped for the run.
+- A corrupt `subscribers.json` skips all friends for the run (the owner still
+  runs) rather than re-emailing them everything.
 
 ## Configuration
 
 Secrets (Settings > Secrets and variables > Actions > Secrets):
 `HOUSESEATS_EMAIL`, `HOUSESEATS_PASSWORD`, `SMTP_EMAIL`, `SMTP_PASSWORD` (Gmail
 app password), `NOTIFICATION_EMAIL`, and optionally `FIRSTTIX_EMAIL`,
-`FIRSTTIX_PASSWORD`. No address or password is stored in the code.
+`FIRSTTIX_PASSWORD`, `SUBSCRIBERS` (friends; see FRIENDS.md). No address or
+password is stored in the code.
 
 Variables (same page, Variables tab; all optional):
 
@@ -124,6 +157,8 @@ In Actions, "Run workflow" on Check Shows has a **dry run** checkbox.
 
 ## Manual operations
 
+- Add, pause or remove a friend: edit `subscribers.local.json`, then run
+  `python tools/set_subscribers.py` (`--check` validates without uploading)
 - Re-notify everything: set `notified_shows.json` to `{"notified": []}`
 - Reset RARE detection: set `show_history.json` to `{"shows": {}}`
 
