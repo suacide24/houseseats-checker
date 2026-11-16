@@ -50,9 +50,12 @@ jobs:
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
           # Toggle email from the GitHub UI: Settings > Secrets and variables >
-          # Actions > Variables. Set EMAIL_ENABLED=false to mute; unset/anything
-          # else = emails on.
+          # Actions > Variables. Set EMAIL_ENABLED=false to mute your own alerts;
+          # unset/anything else = on. (Friends are paused per person instead.)
           EMAIL_ENABLED: ${{ vars.EMAIL_ENABLED }}
+          # Friends with their own denylist and address (see FRIENDS.md). A
+          # secret, not a variable, because it contains email addresses.
+          SUBSCRIBERS: ${{ secrets.SUBSCRIBERS }}
           EVENT_NAME: ${{ github.event_name }}
           DRY_RUN: ${{ inputs.dry_run }}
         run: |
@@ -67,6 +70,7 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add houseseats_shows.json firsttix_shows.json notified_shows.json show_history.json
+          if [ -f subscribers.json ]; then git add subscribers.json; fi
           if git diff --staged --quiet; then
             echo "No data changes to commit"
             exit 0

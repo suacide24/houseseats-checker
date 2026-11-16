@@ -246,6 +246,7 @@
         .watch-badge { background: #f1c40f; color: #3a2f00; }
         .show-card.watchlisted { border-color: rgba(241, 196, 15, 0.7); }
         .time-slot.is-new { border-color: #2ecc71; }
+        [hidden] { display: none !important; }
         .footer-links {
             text-align: center;
             margin-top: 36px;
@@ -291,7 +292,7 @@
                 <p>Loading shows...</p>
             </div>
         </div>
-        <div class="footer-links">
+        <div class="footer-links" id="ownerLinks">
             <a href="https://github.com/suacide24/houseseats-checker/actions/workflows/check-shows.yml" target="_blank" rel="noopener">▶️ Run a check now</a>
             <a href="https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6/edit" target="_blank" rel="noopener">✏️ Edit denylist</a>
             <a href="https://github.com/suacide24/houseseats-checker/edit/main/watchlist.txt" target="_blank" rel="noopener">⭐ Edit watchlist</a>
@@ -413,11 +414,32 @@
         }
 
         // Load shows data from both per-source JSON files
+        // "?u=alex" shows a friend's personal list (their own denylist and
+        // watchlist, applied by the checker and published in subscribers.json).
+        const viewerId = (() => {
+            const u = (new URLSearchParams(location.search).get('u') || '').toLowerCase();
+            return /^[a-z0-9][a-z0-9-]{0,30}$/.test(u) ? u : null;
+        })();
+
         async function loadShows() {
-            const [hsData, ftData] = await Promise.all([
+            const [hsRaw, ftData, subData] = await Promise.all([
                 fetchJson('houseseats_shows.json'),
                 fetchJson('firsttix_shows.json'),
+                viewerId ? fetchJson('subscribers.json') : Promise.resolve(null),
             ]);
+
+            let hsData = hsRaw;
+            let viewer = null;
+            if (viewerId && hsRaw) {
+                const subs = (subData && subData.subscribers) || {};
+                const entry = Object.prototype.hasOwnProperty.call(subs, viewerId) ? subs[viewerId] : null;
+                if (entry && Array.isArray(entry.shows)) {
+                    hsData = Object.assign({}, hsRaw, {shows: entry.shows, email_enabled: undefined});
+                    viewer = {id: viewerId, found: true, error: entry.last_error || null};
+                } else {
+                    viewer = {id: viewerId, found: false};
+                }
+            }
 
             if (!hsData && !ftData) {
                 if (currentData) return;  // keep what is on screen during a blip
@@ -438,6 +460,7 @@
                 sources['1stTix'] = ftData;
             }
             currentData = {
+                viewer,
                 sources,
                 shows: Object.values(sources).flatMap(s => s.shows || []),
             };
@@ -488,7 +511,7 @@
             return groups.sort((a, b) => (b.watchlist - a.watchlist) || sorter(a, b));
         }
 
-        function renderHeader(sources) {
+        function renderHeader(sources, viewer) {
             const labelClass = {'HouseSeats': 'source-houseseats-label', '1stTix': 'source-1sttix-label'};
             const names = Object.keys(sources);
             const parts = names.map(name => {
@@ -503,7 +526,11 @@
 
             const emailEnabled = sources['HouseSeats']?.email_enabled;
             const emailContainer = document.getElementById('emailStatusContainer');
-            if (emailEnabled === true) {
+            const personal = viewer && viewer.found;
+            document.getElementById('ownerLinks').hidden = !!personal;
+            if (personal) {
+                emailContainer.innerHTML = `👤 Personal list: <strong>${esc(viewer.id)}</strong>`;
+            } else if (emailEnabled === true) {
                 emailContainer.innerHTML = '📧 Email alerts: <strong style="color:#2ecc71;">ON</strong>';
             } else if (emailEnabled === false) {
                 emailContainer.innerHTML = '🔕 Email alerts: <strong style="color:#e74c3c;">OFF</strong>';
@@ -513,6 +540,11 @@
 
             // Warn when what is on screen may be out of date.
             const warnings = [];
+            if (viewer && !viewer.found) {
+                warnings.push(`⚠️ No personal list named "${viewer.id}" yet (it appears after the next check). Showing the default list.`);
+            } else if (viewer && viewer.error) {
+                warnings.push(`⚠️ Your personal list could not be refreshed (${viewer.error}) — it may be out of date.`);
+            }
             names.forEach(name => {
                 const src = sources[name];
                 const failures = src.consecutive_failures || 0;
@@ -532,7 +564,7 @@
 
         function render() {
             if (!currentData) return;
-            renderHeader(currentData.sources);
+            renderHeader(currentData.sources, currentData.viewer);
 
             const query = document.getElementById('searchBox').value.trim().toLowerCase();
             const allGroups = groupShows(currentData.shows);

@@ -34,11 +34,23 @@ Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
 | `show_history.json` | Appearance history for RARE detection |
 | `health_state.json` | Whether a "down" alert is currently outstanding |
 | `watchlist.txt` | Keywords for shows you especially want |
+| `subscribers.json` | Per-friend show list and notified keys (no addresses) |
+| `tools/set_subscribers.py` | Uploads `subscribers.local.json` as the `SUBSCRIBERS` secret |
 | `denylist.txt` | Local fallback for the denylist gist |
 | `tests/` | Unit tests (`python -m unittest discover -s tests`) |
 | `.github/workflows/check-shows.yml` | Runs the checker |
 | `.github/workflows/health-check.yml` | Runs the health check every 3 hours |
 | `.github/workflows/tests.yml` | Runs the tests on code changes |
+
+## Friends (extra subscribers)
+
+Friends can get alerts at their own address with their own denylist and their
+own page (`?u=<id>`). Setup is in [FRIENDS.md](FRIENDS.md). In short: the
+`SUBSCRIBERS` secret (a JSON list, uploaded from the git-ignored
+`subscribers.local.json` by `tools/set_subscribers.py`) holds the addresses;
+the checker writes the public, address-free `subscribers.json` with each
+friend's show list, cached denylist and notified keys. One friend's broken
+setup never affects the owner or another friend.
 
 ## Scheduling (read this before "fixing" the cron)
 
@@ -93,7 +105,7 @@ Variables (same page, Variables tab; all optional):
 
 | Variable | Default | Meaning |
 |----------|---------|---------|
-| `EMAIL_ENABLED` | on | `false` mutes new-show emails |
+| `EMAIL_ENABLED` | on | `false` mutes your own new-show emails (not friends') |
 | `HEALTH_ALERTS_ENABLED` | on | `false` mutes failure alerts |
 | `HEALTH_STALE_HOURS` | 24 | Hours without a successful check before alerting |
 | `HEALTH_MAX_FAILURES` | 3 | Failed scrapes in a row before alerting |

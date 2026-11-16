@@ -17,3 +17,6 @@ run.sh
 # Local test venv
 .venv/
 .claude/
+
+# Friends' email addresses - never commit (see FRIENDS.md)
+subscribers.local.json

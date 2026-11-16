@@ -146,6 +146,7 @@ LOG_FILE = SCRIPT_DIR / "houseseats.log"
 NOTIFIED_FILE = SCRIPT_DIR / "notified_shows.json"
 HISTORY_FILE = SCRIPT_DIR / "show_history.json"
 WATCHLIST_FILE = SCRIPT_DIR / "watchlist.txt"
+SUBSCRIBERS_FILE = SCRIPT_DIR / "subscribers.json"
 
 # Network behaviour. Every request gets a timeout so a stalled connection can
 # never hang the run; transient failures are retried.
@@ -747,16 +748,39 @@ def build_email_subject(grouped_shows: list) -> str:
     return subject
 
 
-def build_email_bodies(grouped_shows: list, total_slots: int) -> tuple[str, str]:
-    """Return (plain_text, html) bodies. All scraped text is HTML-escaped."""
+def build_email_bodies(
+    grouped_shows: list,
+    total_slots: int,
+    view_url: str | None = None,
+    denylist_edit_url: str | None = DENYLIST_GIST_EDIT_URL,
+    watchlist_edit_url: str | None = WATCHLIST_EDIT_URL,
+    welcome: bool = False,
+    footer_note: str = "",
+) -> tuple[str, str]:
+    """Return (plain_text, html) bodies. All scraped text is HTML-escaped.
+    The footer links are per recipient; pass None to leave one out."""
     esc = html.escape
+    view_url = view_url or AVAILABLE_SHOWS_URL
+    heading = "You're subscribed! Here's what's available now" if welcome else "New Shows Available!"
+    button = "display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;"
+    footer_buttons = f'<a href="{esc(view_url, quote=True)}" style="{button} background: #3498db;">📋 View All Shows</a>'
+    footer_text = f"\n📋 View All Shows: {view_url}\n"
+    if denylist_edit_url:
+        footer_buttons += f'<a href="{esc(denylist_edit_url, quote=True)}" style="{button}">✏️ Edit Denylist</a>'
+        footer_text += f"✏️ Edit Denylist: {denylist_edit_url}\n"
+    if watchlist_edit_url:
+        footer_buttons += f'<a href="{esc(watchlist_edit_url, quote=True)}" style="{button}">⭐ Edit Watchlist</a>'
+        footer_text += f"⭐ Edit Watchlist: {watchlist_edit_url}\n"
+    if footer_note:
+        footer_text += f"\n{footer_note}\n"
+    footer_note_html = ("<br>" + esc(footer_note)) if footer_note else ""
 
     html_body = f"""
     <html>
     <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px;">
     <div style="max-width: 600px; margin: 0 auto; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
     <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding: 20px; text-align: center;">
-        <h1 style="color: white; margin: 0;">🎭 New Shows Available!</h1>
+        <h1 style="color: white; margin: 0;">🎭 {heading}</h1>
         <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0;">{len(grouped_shows)} show(s) • {total_slots} time slot(s)</p>
     </div>
     <div style="padding: 20px;">
@@ -805,12 +829,10 @@ def build_email_bodies(grouped_shows: list, total_slots: int) -> tuple[str, str]
     html_body += f"""
     </div>
     <div style="padding: 20px; background: #f8f9fa; text-align: center; border-top: 1px solid #eee;">
-        <a href="{AVAILABLE_SHOWS_URL}" style="display: inline-block; background: #3498db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;">📋 View All Shows</a>
-        <a href="{DENYLIST_GIST_EDIT_URL}" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;">✏️ Edit Denylist</a>
-        <a href="{WATCHLIST_EDIT_URL}" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;">⭐ Edit Watchlist</a>
+        {footer_buttons}
     </div>
     <div style="padding: 15px; text-align: center; color: #999; font-size: 11px;">
-        Automated message from Shows Checker (HouseSeats + 1stTix)
+        Automated message from Shows Checker (HouseSeats + 1stTix){footer_note_html}
     </div>
     </div>
     </body>
@@ -818,7 +840,7 @@ def build_email_bodies(grouped_shows: list, total_slots: int) -> tuple[str, str]
     """
 
     # Plain text fallback (also grouped)
-    text_body = "🎭 New Shows Available!\n"
+    text_body = f"🎭 {heading}\n"
     text_body += f"{len(grouped_shows)} show(s) • {total_slots} time slot(s)\n"
     text_body += "=" * 40 + "\n\n"
 
@@ -835,14 +857,12 @@ def build_email_bodies(grouped_shows: list, total_slots: int) -> tuple[str, str]
             text_body += "\n"
         text_body += f"  🤖 Ask AI: {get_chatgpt_link(show)}\n\n"
 
-    text_body += f"\n📋 View All Shows: {AVAILABLE_SHOWS_URL}\n"
-    text_body += f"✏️ Edit Denylist: {DENYLIST_GIST_EDIT_URL}\n"
-    text_body += f"⭐ Edit Watchlist: {WATCHLIST_EDIT_URL}\n"
+    text_body += footer_text
 
     return text_body, html_body
 
 
-def smtp_send(msg) -> None:
+def smtp_send(msg, recipient: str | None = None) -> None:
     """Send a prepared message, retrying transient failures. Raises on final
     failure. Bad credentials are not retried."""
     last_error = None
@@ -851,7 +871,7 @@ def smtp_send(msg) -> None:
             with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=SMTP_TIMEOUT) as server:
                 server.starttls()
                 server.login(SMTP_EMAIL, SMTP_PASSWORD)
-                server.sendmail(SMTP_EMAIL, NOTIFICATION_EMAIL, msg.as_string())
+                server.sendmail(SMTP_EMAIL, recipient or NOTIFICATION_EMAIL, msg.as_string())
             return
         except smtplib.SMTPAuthenticationError:
             raise
@@ -863,8 +883,20 @@ def smtp_send(msg) -> None:
     raise last_error
 
 
-def send_email_notification(new_shows: list) -> str:
-    """Email the new shows, grouped by show name.
+def send_email_notification(
+    new_shows: list,
+    recipient: str | None = None,
+    view_url: str | None = None,
+    denylist_edit_url: str | None = DENYLIST_GIST_EDIT_URL,
+    watchlist_edit_url: str | None = WATCHLIST_EDIT_URL,
+    welcome: bool = False,
+    respect_global_mute: bool = True,
+    label: str = "",
+) -> str:
+    """Email the new shows, grouped by show name. With no ``recipient`` this
+    is the owner's alert; extra subscribers pass their own address and links
+    (each person gets a separate message, so nobody sees anyone else's
+    address). EMAIL_ENABLED=false mutes only the owner's alerts.
 
     Returns 'sent', 'disabled' (email deliberately off) or 'failed'. Callers
     only mark shows as notified when the result is not 'failed', so a mail
@@ -872,13 +904,15 @@ def send_email_notification(new_shows: list) -> str:
     if not new_shows:
         return "sent"
 
-    if args.no_email or not EMAIL_ENABLED:
+    recipient = recipient or NOTIFICATION_EMAIL
+    who = f"[{label}] " if label else ""
+    if args.no_email or (respect_global_mute and not EMAIL_ENABLED):
         log_message(
             "Email notifications disabled (EMAIL_ENABLED=false / --no-email) - skipping email"
         )
         return "disabled"
 
-    if not (SMTP_EMAIL and SMTP_PASSWORD and NOTIFICATION_EMAIL):
+    if not (SMTP_EMAIL and SMTP_PASSWORD and recipient):
         log_message(
             "Email not configured (need SMTP_EMAIL, SMTP_PASSWORD, NOTIFICATION_EMAIL) "
             "- cannot send; will retry next run"
@@ -887,21 +921,32 @@ def send_email_notification(new_shows: list) -> str:
 
     try:
         grouped_shows = group_shows_by_name(new_shows)
-        text_body, html_body = build_email_bodies(grouped_shows, len(new_shows))
+        text_body, html_body = build_email_bodies(
+            grouped_shows,
+            len(new_shows),
+            view_url=view_url,
+            denylist_edit_url=denylist_edit_url,
+            watchlist_edit_url=watchlist_edit_url,
+            welcome=welcome,
+            footer_note="Reply to this email if you want to stop getting these." if label else "",
+        )
 
         msg = MIMEMultipart("alternative")
-        msg["Subject"] = build_email_subject(grouped_shows)
+        subject = build_email_subject(grouped_shows)
+        if welcome:
+            subject = f"👋 You're subscribed - {len(grouped_shows)} show(s) available now"
+        msg["Subject"] = subject
         msg["From"] = SMTP_EMAIL
-        msg["To"] = NOTIFICATION_EMAIL
+        msg["To"] = recipient
         msg.attach(MIMEText(text_body, "plain", "utf-8"))
         msg.attach(MIMEText(html_body, "html", "utf-8"))
 
-        smtp_send(msg)
-        log_message(f"Email sent successfully ({len(grouped_shows)} show(s))")
+        smtp_send(msg, recipient)
+        log_message(f"{who}Email sent successfully ({len(grouped_shows)} show(s))")
         return "sent"
 
     except Exception as e:
-        log_message(f"Failed to send email: {e}")
+        log_message(f"{who}Failed to send email: {type(e).__name__ if label else e}")
         return "failed"
 
 
@@ -1481,6 +1526,255 @@ def notify_user(shows: list):
         pass
 
 
+# ---------------------------------------------------------------------------
+# Extra subscribers (friends): each gets their own denylist, watchlist, email
+# and "already notified" list. Addresses live only in the SUBSCRIBERS secret;
+# the public state file is keyed by a short id and never contains an address.
+# ---------------------------------------------------------------------------
+
+_SUBSCRIBER_ID_RE = re.compile(r"^[a-z0-9][a-z0-9-]{0,30}$")
+_EMAIL_RE = re.compile(r"^[^@\s,;<>]+@[^@\s,;<>]+\.[^@\s,;<>]+$")
+_GIST_PAGE_RE = re.compile(
+    r"^https://gist\.github\.com/([A-Za-z0-9-]+)/([0-9a-f]+)(?:/edit)?/?$"
+)
+_GIST_RAW_RE = re.compile(
+    r"^https://gist\.githubusercontent\.com/([A-Za-z0-9-]+)/([0-9a-f]+)/raw"
+)
+RESERVED_SUBSCRIBER_IDS = {"owner", "me", "default", "all"}
+
+
+def gist_urls(url: str) -> tuple[str, str | None]:
+    """Turn whatever gist link a person pasted into (raw_url, edit_url).
+    A non-gist https URL is used as-is and has no edit link."""
+    url = (url or "").strip()
+    page = _GIST_PAGE_RE.match(url)
+    if page:
+        user, gist_id = page.groups()
+        return (
+            f"https://gist.githubusercontent.com/{user}/{gist_id}/raw",
+            f"https://gist.github.com/{user}/{gist_id}/edit",
+        )
+    raw = _GIST_RAW_RE.match(url)
+    if raw:
+        user, gist_id = raw.groups()
+        return url, f"https://gist.github.com/{user}/{gist_id}/edit"
+    return url, None
+
+
+def _keyword_set(value) -> set:
+    """Accept a JSON list or a newline/comma separated string of keywords."""
+    if isinstance(value, str):
+        return parse_list_lines(value.replace(",", "\n"))
+    if isinstance(value, list):
+        return parse_list_lines("\n".join(str(v) for v in value))
+    return set()
+
+
+def parse_subscribers(raw: str) -> tuple[list, list]:
+    """Parse the SUBSCRIBERS secret (a JSON list). Returns (subscribers,
+    problems). Problems name the entry by position/id only - never by address,
+    because this text ends up in a public CI log."""
+    raw = (raw or "").strip()
+    if not raw:
+        return [], []
+    try:
+        data = json.loads(raw)
+    except json.JSONDecodeError as e:
+        return [], [f"SUBSCRIBERS is not valid JSON ({e.msg} at line {e.lineno})"]
+    if isinstance(data, dict):
+        data = data.get("subscribers", [])
+    if not isinstance(data, list):
+        return [], ["SUBSCRIBERS must be a JSON list of subscriber objects"]
+
+    subscribers, problems, seen = [], [], set()
+    for position, entry in enumerate(data, 1):
+        if not isinstance(entry, dict):
+            problems.append(f"subscriber #{position}: not an object - skipped")
+            continue
+        sub_id = str(entry.get("id", "")).strip().lower()
+        if not _SUBSCRIBER_ID_RE.match(sub_id) or sub_id in RESERVED_SUBSCRIBER_IDS:
+            problems.append(
+                f"subscriber #{position}: 'id' must be a short name like \"alex\" "
+                "(lowercase letters, digits, dashes) - skipped"
+            )
+            continue
+        if sub_id in seen:
+            problems.append(f"subscriber '{sub_id}': duplicate id - skipped")
+            continue
+        email = str(entry.get("email", "")).strip()
+        if not _EMAIL_RE.match(email):
+            problems.append(f"subscriber '{sub_id}': missing or invalid 'email' - skipped")
+            continue
+        denylist_url = str(entry.get("denylist_url", "") or "").strip()
+        if denylist_url and not denylist_url.startswith("https://"):
+            problems.append(f"subscriber '{sub_id}': 'denylist_url' must start with https:// - skipped")
+            continue
+        raw_url, edit_url = gist_urls(denylist_url) if denylist_url else ("", None)
+        seen.add(sub_id)
+        subscribers.append(
+            {
+                "id": sub_id,
+                "email": email,
+                "enabled": entry.get("enabled", True) is not False,
+                "denylist_url": raw_url,
+                "denylist_edit_url": edit_url,
+                "denylist": _keyword_set(entry.get("denylist")),
+                "watchlist": _keyword_set(entry.get("watchlist")),
+            }
+        )
+    return subscribers, problems
+
+
+def load_subscribers() -> list:
+    subscribers, problems = parse_subscribers(os.environ.get("SUBSCRIBERS", ""))
+    for problem in problems:
+        log_message(f"SUBSCRIBERS config problem: {problem}")
+        print(f"::warning::{problem}")
+    return subscribers
+
+
+def load_subscriber_state() -> dict:
+    """Load the public per-subscriber state. Raises StateError when the file
+    exists but is unreadable (same reasoning as load_notified_shows)."""
+    if not SUBSCRIBERS_FILE.exists():
+        return {}
+    try:
+        with open(SUBSCRIBERS_FILE, "r") as f:
+            data = json.load(f)
+        state = data["subscribers"]
+        if not isinstance(state, dict):
+            raise ValueError("'subscribers' is not an object")
+        return state
+    except (json.JSONDecodeError, OSError, KeyError, TypeError, ValueError) as e:
+        raise StateError(f"{SUBSCRIBERS_FILE.name} is unreadable: {e}") from e
+
+
+def fetch_keyword_list(url: str) -> set | None:
+    """Fetch a one-keyword-per-line list. None means 'could not fetch' (which
+    is different from a list that is legitimately empty)."""
+    for attempt in range(1, 3):
+        try:
+            response = requests.get(url, timeout=10)
+            response.raise_for_status()
+            return parse_list_lines(response.text)
+        except requests.RequestException as e:
+            # Log the error type only: the URL identifies the subscriber's account.
+            log_message(f"Denylist fetch failed (attempt {attempt}): {type(e).__name__}")
+            if attempt < 2:
+                time.sleep(2)
+    return None
+
+
+def resolve_subscriber_denylist(subscriber: dict, previous: dict) -> set | None:
+    """The subscriber's inline keywords plus their own list from the web.
+    If their list can't be fetched, fall back to the copy saved last run.
+    Returns None when there is nothing safe to filter with - the caller then
+    skips this subscriber rather than emailing them shows they opted out of."""
+    keywords = set(subscriber["denylist"])
+    if subscriber["denylist_url"]:
+        fetched = fetch_keyword_list(subscriber["denylist_url"])
+        if fetched is None:
+            cached = previous.get("denylist")
+            if not isinstance(cached, list):
+                return None
+            log_message(f"[{subscriber['id']}] using the denylist saved from the last run")
+            fetched = set(cached)
+        keywords |= fetched
+    return keywords
+
+
+def process_subscriber(subscriber: dict, all_shows: list, previous: dict, now: datetime) -> dict:
+    """Filter, notify and build the new public state for one subscriber.
+    ``all_shows`` is the full un-denylisted list (already marked rare)."""
+    sub_id = subscriber["id"]
+    state = dict(previous)
+
+    denylist = resolve_subscriber_denylist(subscriber, previous)
+    if denylist is None:
+        log_message(f"[{sub_id}] could not load their denylist and no saved copy - skipped this run")
+        state["last_error"] = "could not load denylist"
+        return state
+
+    notified = set(previous.get("notified") or [])
+    notified, _ = cleanup_old_notified(notified, now)
+    is_first_run = "notified" not in previous
+
+    # Work on copies: watchlist/first_seen differ per person.
+    shows = [dict(s) for s in all_shows if not matches_any(s.get("name", ""), denylist)]
+    shows = enrich_shows(shows, previous.get("shows") or [], subscriber["watchlist"], now, notified)
+    new_shows = find_new_shows(shows, notified)
+    log_message(
+        f"[{sub_id}] {len(shows)} shows after their denylist ({len(denylist)} keywords), "
+        f"{len(new_shows)} new"
+    )
+
+    if new_shows and args.dry_run:
+        log_message(f"[{sub_id}] [dry run] would email {len(new_shows)} show(s)")
+    elif new_shows:
+        status = send_email_notification(
+            new_shows,
+            recipient=subscriber["email"],
+            view_url=f"{AVAILABLE_SHOWS_URL}?u={sub_id}",
+            denylist_edit_url=subscriber["denylist_edit_url"],
+            watchlist_edit_url=None,
+            welcome=is_first_run,
+            respect_global_mute=False,
+            label=sub_id,
+        )
+        if status != "failed":
+            notified.update(get_show_key(s) for s in new_shows)
+
+    state.update(
+        {
+            "last_updated": now.strftime(TIMESTAMP_FMT),
+            "last_error": None,
+            "denylist": sorted(denylist),
+            "notified": sorted(notified),
+            "count": len(shows),
+            "shows": shows,
+        }
+    )
+    return state
+
+
+def process_subscribers(all_shows: list, scrape_ok: bool, now: datetime) -> None:
+    """Run every extra subscriber. Never raises: a problem with one friend's
+    setup must not break the owner's alerts or another friend's."""
+    subscribers = load_subscribers()
+    if not subscribers and not SUBSCRIBERS_FILE.exists():
+        return
+    try:
+        previous_state = load_subscriber_state()
+    except StateError as e:
+        log_message(f"ERROR: {e} - skipping extra subscribers so nobody gets duplicate alerts")
+        print(f"::error::{e}")
+        return
+
+    new_state = {}
+    for subscriber in subscribers:
+        sub_id = subscriber["id"]
+        previous = previous_state.get(sub_id) or {}
+        if not subscriber["enabled"] or not scrape_ok or args.no_email and not args.dry_run:
+            # Paused, nothing scraped, or a one-off --no-email run: leave as is.
+            if not subscriber["enabled"]:
+                log_message(f"[{sub_id}] paused (enabled=false)")
+            new_state[sub_id] = previous
+            continue
+        try:
+            new_state[sub_id] = process_subscriber(subscriber, all_shows, previous, now)
+        except Exception as e:  # noqa: BLE001 - isolate one subscriber's failure
+            log_message(f"[{sub_id}] unexpected error: {type(e).__name__} - left unchanged")
+            new_state[sub_id] = previous
+
+    # Subscribers removed from the secret drop out of the file automatically.
+    if not args.dry_run:
+        write_json_atomic(
+            SUBSCRIBERS_FILE,
+            {"last_updated": now.strftime(TIMESTAMP_FMT), "subscribers": new_state},
+        )
+    log_message(f"Processed {len(subscribers)} extra subscriber(s)")
+
+
 def main(argv=None) -> int:
     global args
     args = build_arg_parser().parse_args(argv)
@@ -1558,19 +1852,19 @@ def main(argv=None) -> int:
     )
     log_message(f"Total shows from all sources: {len(all_shows)}")
 
-    # Filter shows
-    filtered_shows = filter_shows(all_shows, denylist)
-    log_message(f"{len(filtered_shows)} shows after filtering")
-
-    # Load and update show history for rare detection
+    # Load and update show history for rare detection. History covers every
+    # scraped show (not just the owner's filtered list) so "rare" is also
+    # right for subscribers whose denylists differ.
     show_history = load_show_history()
-    show_history = update_show_history(filtered_shows, show_history)
+    show_history = update_show_history(all_shows, show_history)
     show_history = cleanup_old_history(show_history)  # drop entries older than 90 days
     if not args.dry_run:
         save_show_history(show_history)
 
-    # Mark rare shows
-    filtered_shows = mark_rare_shows(filtered_shows, show_history)
+    # Mark rare shows, then apply the owner's denylist
+    all_shows = mark_rare_shows(all_shows, show_history)
+    filtered_shows = filter_shows(all_shows, denylist)
+    log_message(f"{len(filtered_shows)} shows after filtering")
     rare_count = sum(1 for s in filtered_shows if s.get("rare"))
     log_message(f"{rare_count} rare shows detected")
 
@@ -1632,6 +1926,9 @@ def main(argv=None) -> int:
                 log_message(f"Marked {len(new_shows)} shows as notified")
     else:
         log_message("No new shows to notify about")
+
+    # Friends with their own denylist and email address
+    process_subscribers(all_shows, scrape_ok=bool(all_shows), now=now)
 
     # Print all available shows summary
     print(f"\n--- All Available Shows ({len(filtered_shows)} total) ---")

@@ -1,0 +1,14 @@
+[
+  {
+    "id": "alex",
+    "email": "alex@example.com",
+    "denylist_url": "https://gist.github.com/alex-github-name/0123456789abcdef",
+    "watchlist": ["cirque", "penn & teller"]
+  },
+  {
+    "id": "sam",
+    "email": "sam@example.com",
+    "denylist": ["comedy", "hypnosis", "tribute"],
+    "enabled": true
+  }
+]

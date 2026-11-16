@@ -354,16 +354,22 @@ class MainFlowTests(unittest.TestCase):
             LOG_FILE=d / "houseseats.log",
             WATCHLIST_FILE=d / "watchlist.txt",
             DENYLIST_FILE=d / "denylist.txt",
+            SUBSCRIBERS_FILE=d / "subscribers.json",
         )
         self.sent = []
         self.email_ok = True
         self.fetch_result = [show(), show(name="Ikons of Rock", date="November 17th", link="https://x/2")]
         self.login_ok = True
 
-        def fake_send(msg):
-            if not self.email_ok:
+        self.sent_to = []
+        self.friend_lists = {}  # url -> set of keywords, or None for "fetch failed"
+
+        def fake_send(msg, recipient=None):
+            if not self.email_ok or recipient in getattr(self, "bounce", ()):
                 raise OSError("smtp down")
-            self.sent.append(msg["Subject"])
+            if recipient in (None, "to@example.com"):
+                self.sent.append(msg["Subject"])
+            self.sent_to.append((recipient, msg["Subject"], msg.as_string()))
 
         patches = [
             mock.patch.multiple(hc, **self.files),
@@ -377,6 +383,8 @@ class MainFlowTests(unittest.TestCase):
             mock.patch.object(hc, "fetch_houseseats_shows", side_effect=lambda s: self.fetch_result),
             mock.patch.object(hc, "smtp_send", side_effect=fake_send),
             mock.patch.object(hc, "notify_user"),
+            mock.patch.object(hc, "fetch_keyword_list", side_effect=lambda url: self.friend_lists.get(url)),
+            mock.patch.dict(hc.os.environ, {"SUBSCRIBERS": ""}),
             mock.patch.object(hc.time, "sleep"),
             mock.patch("builtins.print"),
         ]
@@ -477,6 +485,192 @@ class MainFlowTests(unittest.TestCase):
         self.assertTrue(self.sent[0].startswith("⭐ Watchlist: Ikons of Rock"))
         flags = {s["name"]: s["watchlist"] for s in self.read("HOUSESEATS_OUTPUT_FILE")["shows"]}
         self.assertEqual(flags, {"Finding Wonder": False, "Ikons of Rock": True})
+
+
+GIST = "https://gist.github.com/alexuser/abc123"
+GIST_RAW = "https://gist.githubusercontent.com/alexuser/abc123/raw"
+
+
+class SubscriberConfigTests(unittest.TestCase):
+    def test_empty_or_missing_is_no_subscribers(self):
+        self.assertEqual(hc.parse_subscribers(""), ([], []))
+        self.assertEqual(hc.parse_subscribers("  "), ([], []))
+        self.assertEqual(hc.parse_subscribers("[]"), ([], []))
+
+    def test_valid_entry_is_normalised(self):
+        subs, problems = hc.parse_subscribers(json.dumps([
+            {"id": "Alex", "email": "alex@example.com", "denylist_url": GIST + "/edit",
+             "denylist": ["Comedy", "magic"], "watchlist": "cirque, Penn"},
+        ]))
+        self.assertEqual(problems, [])
+        sub = subs[0]
+        self.assertEqual((sub["id"], sub["enabled"]), ("alex", True))
+        self.assertEqual(sub["denylist_url"], GIST_RAW)
+        self.assertEqual(sub["denylist_edit_url"], GIST + "/edit")
+        self.assertEqual(sub["denylist"], {"comedy", "magic"})
+        self.assertEqual(sub["watchlist"], {"cirque", "penn"})
+
+    def test_bad_entries_are_skipped_without_leaking_addresses(self):
+        subs, problems = hc.parse_subscribers(json.dumps([
+            {"id": "ok", "email": "ok@example.com"},
+            {"id": "bad id!", "email": "secret1@example.com"},
+            {"id": "noemail", "email": "not-an-address"},
+            {"id": "ok", "email": "secret2@example.com"},
+            {"id": "owner", "email": "secret3@example.com"},
+            {"id": "http", "email": "secret4@example.com", "denylist_url": "http://insecure/x"},
+            "nonsense",
+        ]))
+        self.assertEqual([s["id"] for s in subs], ["ok"])
+        self.assertEqual(len(problems), 6)
+        self.assertNotIn("@", " ".join(problems))
+
+    def test_invalid_json_reports_a_problem(self):
+        subs, problems = hc.parse_subscribers("[{oops")
+        self.assertEqual(subs, [])
+        self.assertEqual(len(problems), 1)
+
+    def test_gist_urls(self):
+        self.assertEqual(hc.gist_urls(GIST), (GIST_RAW, GIST + "/edit"))
+        self.assertEqual(hc.gist_urls(GIST_RAW + "/list.txt"), (GIST_RAW + "/list.txt", GIST + "/edit"))
+        self.assertEqual(hc.gist_urls("https://example.com/list.txt"), ("https://example.com/list.txt", None))
+
+
+class SubscriberFlowTests(MainFlowTests):
+    """main() with a friend configured. Inherits the owner tests too, so
+    everything the owner relies on is re-checked with a subscriber present."""
+
+    def setUp(self):
+        super().setUp()
+        self.set_subscribers([{"id": "alex", "email": "alex@example.com", "denylist_url": GIST,
+                               "watchlist": ["ikons"]}])
+        self.friend_lists[GIST_RAW] = {"finding"}
+        # a show the owner denylists but the friend does not
+        self.fetch_result = self.fetch_result + [show(name="Denied Show Live", date="November 18th", link="https://x/3")]
+
+    def set_subscribers(self, subs):
+        p = mock.patch.dict(hc.os.environ, {"SUBSCRIBERS": json.dumps(subs)})
+        p.start()
+        self.addCleanup(p.stop)
+
+    def friend_mail(self, address="alex@example.com"):
+        return [m for m in self.sent_to if m[0] == address]
+
+    def state(self, sub_id="alex"):
+        return self.read("SUBSCRIBERS_FILE")["subscribers"][sub_id]
+
+    def test_friend_gets_own_filtered_list_once(self):
+        self.assertEqual(self.run_main(), 0)
+        mail = self.friend_mail()
+        self.assertEqual(len(mail), 1)
+        self.assertIn("subscribed", mail[0][1])
+        st = self.state()
+        self.assertEqual(sorted(s["name"] for s in st["shows"]), ["Denied Show Live", "Ikons of Rock"])
+        self.assertEqual(len(st["notified"]), 2)
+        self.assertTrue([s for s in st["shows"] if s["name"] == "Ikons of Rock"][0]["watchlist"])
+        # owner's published list is untouched by the friend's settings
+        self.assertEqual(sorted(s["name"] for s in self.read("HOUSESEATS_OUTPUT_FILE")["shows"]),
+                         ["Finding Wonder", "Ikons of Rock"])
+        self.assertFalse(any(s.get("watchlist") for s in self.read("HOUSESEATS_OUTPUT_FILE")["shows"]))
+        self.run_main()
+        self.assertEqual(len(self.friend_mail()), 1)
+
+    def test_public_state_file_never_contains_an_address(self):
+        self.run_main()
+        text = self.files["SUBSCRIBERS_FILE"].read_text()
+        self.assertNotIn("@", text)
+        self.assertNotIn("alexuser", text)
+        self.assertNotIn("alex@example.com", self.files["LOG_FILE"].read_text())
+
+    def test_friend_email_has_their_links_not_the_owners(self):
+        self.run_main()
+        import email as email_lib
+        msg = email_lib.message_from_string(self.friend_mail()[0][2])
+        body = "".join(part.get_payload(decode=True).decode() for part in msg.walk() if not part.is_multipart())
+        self.assertEqual(msg["To"], "alex@example.com")
+        self.assertIn("?u=alex", body)
+        self.assertIn(GIST + "/edit", body)
+        self.assertNotIn(hc.DENYLIST_GIST_EDIT_URL, body)
+        self.assertNotIn("to@example.com", body)
+
+    def test_later_new_show_sends_a_normal_alert(self):
+        self.run_main()
+        self.fetch_result = self.fetch_result + [show(name="Brand New", date="November 19th", link="https://x/4")]
+        self.run_main()
+        mail = self.friend_mail()
+        self.assertEqual(len(mail), 2)
+        self.assertIn("Brand New", mail[1][1])
+
+    def test_failed_friend_email_is_retried_and_does_not_affect_owner(self):
+        self.bounce = {"alex@example.com"}
+        self.run_main()
+        self.assertEqual(len(self.sent), 1)
+        self.assertEqual(self.state()["notified"], [])
+        self.bounce = set()
+        self.run_main()
+        self.assertEqual(len(self.friend_mail()), 1)
+        self.assertEqual(len(self.sent), 1)
+
+    def test_denylist_outage_uses_saved_copy_or_skips(self):
+        self.friend_lists[GIST_RAW] = None  # unreachable on the very first run
+        self.run_main()
+        self.assertEqual(self.friend_mail(), [])
+        self.assertEqual(self.state()["last_error"], "could not load denylist")
+        self.friend_lists[GIST_RAW] = {"finding"}
+        self.run_main()
+        self.assertEqual(len(self.friend_mail()), 1)
+        self.friend_lists[GIST_RAW] = None  # outage later: saved copy keeps filtering
+        self.fetch_result = self.fetch_result + [show(name="Finding Nemo", date="November 19th", link="https://x/5")]
+        self.run_main()
+        self.assertEqual(len(self.friend_mail()), 1)
+        self.assertNotIn("Finding Nemo", [s["name"] for s in self.state()["shows"]])
+
+    def test_owner_mute_does_not_mute_friends(self):
+        with mock.patch.object(hc, "EMAIL_ENABLED", False):
+            self.run_main()
+        self.assertEqual(self.sent, [])
+        self.assertEqual(len(self.friend_mail()), 1)
+
+    def test_paused_and_removed_subscribers(self):
+        self.run_main()
+        self.set_subscribers([{"id": "alex", "email": "alex@example.com", "denylist_url": GIST, "enabled": False}])
+        self.fetch_result = self.fetch_result + [show(name="Brand New", date="November 19th", link="https://x/4")]
+        self.run_main()
+        self.assertEqual(len(self.friend_mail()), 1)
+        self.assertEqual(len(self.state()["notified"]), 2)
+        self.set_subscribers([])
+        self.run_main()
+        self.assertEqual(self.read("SUBSCRIBERS_FILE")["subscribers"], {})
+
+    def test_two_friends_are_independent(self):
+        self.set_subscribers([
+            {"id": "alex", "email": "alex@example.com", "denylist_url": GIST},
+            {"id": "sam", "email": "sam@example.com", "denylist": ["ikons", "denied"]},
+        ])
+        self.run_main()
+        self.assertEqual(len(self.friend_mail()), 1)
+        self.assertEqual(len(self.friend_mail("sam@example.com")), 1)
+        self.assertEqual([s["name"] for s in self.state("sam")["shows"]], ["Finding Wonder"])
+        self.assertNotIn("sam@example.com", self.friend_mail()[0][2])
+
+    def test_failed_scrape_leaves_friend_state_alone(self):
+        self.run_main()
+        before = self.state()
+        self.fetch_result = None
+        self.run_main()
+        self.assertEqual(self.state(), before)
+        self.assertEqual(len(self.friend_mail()), 1)
+
+    def test_corrupt_subscriber_state_skips_friends_but_not_owner(self):
+        self.files["SUBSCRIBERS_FILE"].write_text("{broken")
+        self.assertEqual(self.run_main(), 0)
+        self.assertEqual(self.friend_mail(), [])
+        self.assertEqual(len(self.sent), 1)
+        self.assertEqual(self.files["SUBSCRIBERS_FILE"].read_text(), "{broken")
+
+    def test_dry_run_sends_and_writes_nothing_for_friends(self):
+        self.run_main("--dry-run")
+        self.assertEqual(self.sent_to, [])
+        self.assertFalse(self.files["SUBSCRIBERS_FILE"].exists())
 
 
 if __name__ == "__main__":
