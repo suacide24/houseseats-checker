@@ -600,14 +600,17 @@ def format_show_date(show: dict) -> str:
     return show.get("date") or "Date TBD"
 
 
-def enrich_shows(shows: list, previous_shows: list, watchlist: set, now: datetime) -> list:
+def enrich_shows(shows: list, previous_shows: list, watchlist: set, now: datetime,
+                 notified: set | None = None) -> list:
     """Add derived fields used by the site and the email:
 
     - ``date_iso``  canonical YYYY-MM-DD (year inferred) for sorting
     - ``weekday``   'Sat' etc.
     - ``first_seen`` when this show+date first appeared (carried over from the
       previous output so it survives across runs; a slot that vanishes and
-      comes back counts as newly seen)
+      comes back counts as newly seen). A slot that was already notified
+      but has no recorded time (first run after an upgrade, or the previous
+      list was lost) gets None rather than "now", so it is not shown as NEW.
     - ``watchlist`` True when the name matches a watchlist keyword
     """
     previous_first_seen = {}
@@ -624,7 +627,13 @@ def enrich_shows(shows: list, previous_shows: list, watchlist: set, now: datetim
                 show["weekday"] = datetime.strptime(iso, "%Y-%m-%d").strftime("%a")
             except ValueError:
                 pass
-        show["first_seen"] = previous_first_seen.get(get_show_key(show), now_stamp)
+        key = get_show_key(show)
+        if key in previous_first_seen:
+            show["first_seen"] = previous_first_seen[key]
+        elif notified and key in notified:
+            show["first_seen"] = None
+        else:
+            show["first_seen"] = now_stamp
         show["watchlist"] = matches_any(show.get("name", ""), watchlist)
     return shows
 
@@ -1571,7 +1580,7 @@ def main(argv=None) -> int:
         for source in results
         for show in (load_source_output(source).get("shows") or [])
     ]
-    filtered_shows = enrich_shows(filtered_shows, previous_shows, watchlist, now)
+    filtered_shows = enrich_shows(filtered_shows, previous_shows, watchlist, now, notified_shows)
     watch_count = sum(1 for s in filtered_shows if s.get("watchlist"))
     if watch_count:
         log_message(f"{watch_count} watchlist match(es)")

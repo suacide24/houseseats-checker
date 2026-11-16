@@ -17,7 +17,7 @@
       "rare": false,
       "date_iso": "2026-11-16",
       "weekday": "Mon",
-      "first_seen": "2026-11-16T11:21:27 PT",
+      "first_seen": null,
       "watchlist": false
     },
     {
@@ -41,7 +41,7 @@
       "rare": false,
       "date_iso": "2026-11-17",
       "weekday": "Tue",
-      "first_seen": "2026-11-16T11:21:27 PT",
+      "first_seen": null,
       "watchlist": false
     },
     {
@@ -53,7 +53,7 @@
       "rare": false,
       "date_iso": "2026-11-17",
       "weekday": "Tue",
-      "first_seen": "2026-11-16T11:21:27 PT",
+      "first_seen": null,
       "watchlist": false
     },
     {
@@ -65,7 +65,7 @@
       "rare": false,
       "date_iso": "2026-11-17",
       "weekday": "Tue",
-      "first_seen": "2026-11-16T11:21:27 PT",
+      "first_seen": null,
       "watchlist": false
     },
     {
@@ -77,7 +77,7 @@
       "rare": false,
       "date_iso": "2026-11-20",
       "weekday": "Fri",
-      "first_seen": "2026-11-16T11:21:27 PT",
+      "first_seen": null,
       "watchlist": false
     }
   ]

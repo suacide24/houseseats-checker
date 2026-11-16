@@ -235,6 +235,12 @@ class OutputTests(unittest.TestCase):
         out = hc.build_source_output("HouseSeats", [], {}, False, None, NOW)
         self.assertEqual((out["consecutive_failures"], out["shows"], out["last_successful_run"]), (1, [], None))
 
+    def test_already_notified_show_without_history_is_not_new(self):
+        old, fresh = show(), show(name="Brand New", date="November 20th")
+        shows = hc.enrich_shows([old, fresh], [], set(), NOW, {hc.get_show_key(old)})
+        self.assertIsNone(shows[0]["first_seen"])
+        self.assertEqual(shows[1]["first_seen"], "2026-11-16T10:00:00 PT")
+
     def test_enrich_adds_fields_and_carries_first_seen(self):
         with mock.patch.object(hc, "get_pacific_time", return_value=NOW):
             previous = [show(first_seen="2026-11-10T08:00:00 PT")]
