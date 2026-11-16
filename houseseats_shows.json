@@ -1,9 +1,12 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-16T02:50:04 PT",
-  "last_successful_run": "2026-11-16T02:50:04 PT",
+  "last_updated": "2026-11-16T11:21:28 PT",
+  "last_successful_run": "2026-11-16T11:21:28 PT",
+  "status": "ok",
+  "consecutive_failures": 0,
+  "last_error": null,
   "email_enabled": true,
-  "count": 5,
+  "count": 6,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,7 +14,23 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
       "date": "November 16th",
       "image": "https://lv.houseseats.com/resources/media/9516.jpg",
-      "rare": false
+      "rare": false,
+      "date_iso": "2026-11-16",
+      "weekday": "Mon",
+      "first_seen": "2026-11-16T11:21:27 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "VRMI Concert Series",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9498",
+      "date": "November 16th",
+      "image": "https://lv.houseseats.com/resources/media/9498.jpg",
+      "rare": false,
+      "date_iso": "2026-11-16",
+      "weekday": "Mon",
+      "first_seen": "2026-11-16T11:21:27 PT",
+      "watchlist": false
     },
     {
       "source": "HouseSeats",
@@ -19,7 +38,11 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
       "date": "November 17th",
       "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false
+      "rare": false,
+      "date_iso": "2026-11-17",
+      "weekday": "Tue",
+      "first_seen": "2026-11-16T11:21:27 PT",
+      "watchlist": false
     },
     {
       "source": "HouseSeats",
@@ -27,7 +50,11 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
       "date": "November 17th",
       "image": "https://lv.houseseats.com/resources/media/9518.jpg",
-      "rare": false
+      "rare": false,
+      "date_iso": "2026-11-17",
+      "weekday": "Tue",
+      "first_seen": "2026-11-16T11:21:27 PT",
+      "watchlist": false
     },
     {
       "source": "HouseSeats",
@@ -35,7 +62,11 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
       "date": "November 17th",
       "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false
+      "rare": false,
+      "date_iso": "2026-11-17",
+      "weekday": "Tue",
+      "first_seen": "2026-11-16T11:21:27 PT",
+      "watchlist": false
     },
     {
       "source": "HouseSeats",
@@ -43,7 +74,11 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9451",
       "date": "November 20th",
       "image": "https://lv.houseseats.com/resources/media/9451.jpg",
-      "rare": false
+      "rare": false,
+      "date_iso": "2026-11-20",
+      "weekday": "Fri",
+      "first_seen": "2026-11-16T11:21:27 PT",
+      "watchlist": false
     }
   ]
 }
