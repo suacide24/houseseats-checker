@@ -1,0 +1,13 @@
+# HouseSeats Watchlist - shows you especially want
+#
+# One keyword per line. If a show's name contains the keyword (case-insensitive),
+# it is starred on the website, sorted to the top, and its alert email gets a
+# "⭐ Watchlist:" subject so it stands out in your inbox.
+#
+# Lines starting with # are comments. The denylist still wins: a show that is
+# on the denylist is hidden even if it also matches the watchlist.
+#
+# Examples (remove the leading "# " to enable):
+# cirque
+# penn & teller
+# comedy cellar

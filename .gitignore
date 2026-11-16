@@ -13,3 +13,7 @@ __pycache__/
 .env
 venv/
 run.sh
+
+# Local test venv
+.venv/
+.claude/

@@ -2,9 +2,18 @@ name: Check Shows
 
 on:
   schedule:
-    # Run every 30 minutes
-    - cron: '*/30 * * * *'
-  workflow_dispatch:  # Allow manual trigger
+    # GitHub delays and silently drops scheduled runs - worst at :00 and :30,
+    # when everyone's crons fire. So ask four times an hour at off-peak
+    # minutes; the checker skips a run if it already checked within the last
+    # 20 minutes, so HouseSeats still sees a check about every 30 minutes at
+    # most.
+    - cron: '7,22,37,52 * * * *'
+  workflow_dispatch:  # Manual trigger (always runs, never throttled)
+    inputs:
+      dry_run:
+        description: 'Dry run: scrape and log only (no email, no data changes)'
+        type: boolean
+        default: false
 
 # Serialize with the health-check workflow so their pushes don't race.
 concurrency:
@@ -14,6 +23,7 @@ concurrency:
 jobs:
   check-shows:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     permissions:
       contents: write
 
@@ -25,6 +35,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
+          cache: 'pip'
 
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -42,12 +53,35 @@ jobs:
           # Actions > Variables. Set EMAIL_ENABLED=false to mute; unset/anything
           # else = emails on.
           EMAIL_ENABLED: ${{ vars.EMAIL_ENABLED }}
-        run: python houseseats_checker.py --fast --no-firsttix
+          EVENT_NAME: ${{ github.event_name }}
+          DRY_RUN: ${{ inputs.dry_run }}
+        run: |
+          flags="--fast --no-firsttix"
+          if [ "$EVENT_NAME" = "schedule" ]; then flags="$flags --min-interval 20"; fi
+          if [ "$DRY_RUN" = "true" ]; then flags="$flags --dry-run"; fi
+          python houseseats_checker.py $flags
 
       - name: Commit and push if changed
+        if: ${{ !inputs.dry_run }}
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add houseseats_shows.json firsttix_shows.json notified_shows.json show_history.json
-          git diff --staged --quiet || git commit -m "Update shows - $(date -u +'%Y-%m-%d %H:%M UTC')"
-          git push
+          if git diff --staged --quiet; then
+            echo "No data changes to commit"
+            exit 0
+          fi
+          git commit -q -m "Update shows - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          # The notified list is committed here, after the email went out. If
+          # this push is lost the next run emails the same shows again, so
+          # retry through transient GitHub errors and concurrent pushes.
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt of 5) - syncing and retrying"
+            sleep $((attempt * 5))
+            git pull --rebase -X theirs origin "$GITHUB_REF_NAME" || git rebase --abort || true
+          done
+          echo "::error::Could not push updated show data after 5 attempts"
+          exit 1

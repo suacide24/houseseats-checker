@@ -2,7 +2,7 @@ name: Health Check
 
 on:
   schedule:
-    # Every 3 hours (offset from the :00/:30 check-shows runs).
+    # Every 3 hours, at an off-peak minute (GitHub drops fewer of those).
     - cron: '17 */3 * * *'
   workflow_dispatch:  # Allow manual trigger
 
@@ -14,6 +14,7 @@ concurrency:
 jobs:
   health:
     runs-on: ubuntu-latest
+    timeout-minutes: 5
     permissions:
       contents: write
 
@@ -31,12 +32,14 @@ jobs:
           SMTP_EMAIL: ${{ secrets.SMTP_EMAIL }}
           SMTP_PASSWORD: ${{ secrets.SMTP_PASSWORD }}
           NOTIFICATION_EMAIL: ${{ secrets.NOTIFICATION_EMAIL }}
-          # Failure alerts are separate from show-notification email. Toggle via
-          # Settings > Secrets and variables > Actions > Variables:
-          #   HEALTH_ALERTS_ENABLED=false  -> mute failure alerts
-          #   HEALTH_STALE_HOURS=6         -> hours stale before alerting (optional)
+          # Failure alerts are separate from show-notification email. Tune via
+          # Settings > Secrets and variables > Actions > Variables (all optional):
+          #   HEALTH_ALERTS_ENABLED=false -> mute failure alerts
+          #   HEALTH_STALE_HOURS=24       -> hours with no successful scrape before alerting
+          #   HEALTH_MAX_FAILURES=3       -> failed scrapes in a row before alerting
           HEALTH_ALERTS_ENABLED: ${{ vars.HEALTH_ALERTS_ENABLED }}
           HEALTH_STALE_HOURS: ${{ vars.HEALTH_STALE_HOURS }}
+          HEALTH_MAX_FAILURES: ${{ vars.HEALTH_MAX_FAILURES }}
         run: python check_health.py
 
       - name: Commit health state if changed
@@ -44,8 +47,17 @@ jobs:
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
           git add health_state.json
-          if ! git diff --staged --quiet; then
-            git commit -m "Update health state - $(date -u +'%Y-%m-%d %H:%M UTC')"
-            git pull --rebase origin main
-            git push
+          if git diff --staged --quiet; then
+            exit 0
           fi
+          git commit -q -m "Update health state - $(date -u +'%Y-%m-%d %H:%M UTC')"
+          for attempt in 1 2 3 4 5; do
+            if git push; then
+              exit 0
+            fi
+            echo "Push failed (attempt $attempt of 5) - syncing and retrying"
+            sleep $((attempt * 5))
+            git pull --rebase origin "$GITHUB_REF_NAME" || git rebase --abort || true
+          done
+          echo "::error::Could not push health state after 5 attempts"
+          exit 1

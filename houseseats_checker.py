@@ -9,11 +9,15 @@ Sends email notifications for new shows (only once per show+date).
 from __future__ import annotations
 
 import argparse
+import html
 import json
 import os
 import random
 import re
 import smtplib
+import subprocess
+import sys
+import tempfile
 import time
 from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
@@ -46,35 +50,72 @@ def get_pacific_time():
 
 import requests
 from bs4 import BeautifulSoup
+from requests.adapters import HTTPAdapter
 
-# Parse command line arguments
-parser = argparse.ArgumentParser(
-    description="Check HouseSeats and 1stTix for available shows"
-)
-parser.add_argument(
-    "--fast", "--no-delay", action="store_true", help="Skip random delays (for testing)"
-)
-parser.add_argument(
-    "--no-houseseats", action="store_true", help="Skip HouseSeats checking"
-)
-parser.add_argument("--no-firsttix", action="store_true", help="Skip 1stTix checking")
-parser.add_argument(
-    "--no-email", action="store_true", help="Disable email notifications for this run"
-)
-args = parser.parse_args()
+try:  # urllib3 ships with requests; guard only so odd installs still import
+    from urllib3.util.retry import Retry
+except Exception:  # pragma: no cover
+    Retry = None
+
+
+def build_arg_parser() -> argparse.ArgumentParser:
+    parser = argparse.ArgumentParser(
+        description="Check HouseSeats and 1stTix for available shows"
+    )
+    parser.add_argument(
+        "--fast",
+        "--no-delay",
+        action="store_true",
+        help="Skip random delays (for testing)",
+    )
+    parser.add_argument(
+        "--no-houseseats", action="store_true", help="Skip HouseSeats checking"
+    )
+    parser.add_argument(
+        "--no-firsttix", action="store_true", help="Skip 1stTix checking"
+    )
+    parser.add_argument(
+        "--no-email",
+        action="store_true",
+        help="Disable email notifications for this run",
+    )
+    parser.add_argument(
+        "--dry-run",
+        action="store_true",
+        help="Scrape for real but send nothing and write no state files",
+    )
+    parser.add_argument(
+        "--push",
+        action="store_true",
+        help="Commit and push data files from this script (local runs only; "
+        "the GitHub Actions workflow does its own commit)",
+    )
+    parser.add_argument(
+        "--min-interval",
+        type=float,
+        default=0,
+        metavar="MINUTES",
+        help="Exit early if the last check was less than this many minutes ago",
+    )
+    return parser
+
+
+# Defaults so the module can be imported (tests, tooling) without parsing argv.
+# main() replaces this with the real command-line arguments.
+args = build_arg_parser().parse_args([])
 
 # Configuration - HouseSeats
 HOUSESEATS_BASE_URL = "https://lv.houseseats.com"
 HOUSESEATS_LOGIN_URL = f"{HOUSESEATS_BASE_URL}/member/index.bv"
 HOUSESEATS_SHOWS_URL = f"{HOUSESEATS_BASE_URL}/member/ajax/upcoming-shows.bv"
-HOUSESEATS_EMAIL = os.environ.get("HOUSESEATS_EMAIL", "rsua95@gmail.com")
+HOUSESEATS_EMAIL = os.environ.get("HOUSESEATS_EMAIL", "")
 HOUSESEATS_PASSWORD = os.environ.get("HOUSESEATS_PASSWORD", "")
 
 # Configuration - 1stTix
 FIRSTTIX_BASE_URL = "https://www.1sttix.org"
 FIRSTTIX_LOGIN_URL = f"{FIRSTTIX_BASE_URL}/login"
 FIRSTTIX_EVENTS_URL = f"{FIRSTTIX_BASE_URL}/tixer/get-tickets/events"
-FIRSTTIX_EMAIL = os.environ.get("FIRSTTIX_EMAIL", "ryan.sua.rn@gmail.com")
+FIRSTTIX_EMAIL = os.environ.get("FIRSTTIX_EMAIL", "")
 FIRSTTIX_PASSWORD = os.environ.get("FIRSTTIX_PASSWORD", "")
 
 # Email configuration
@@ -88,11 +129,13 @@ def _env_flag(name: str, default: bool = True) -> bool:
 
 # Master email on/off switch. Set EMAIL_ENABLED=false (or 0/no/off) to mute email.
 EMAIL_ENABLED = _env_flag("EMAIL_ENABLED", True)
-NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "rsua95@gmail.com")
+# Addresses and passwords come only from the environment (GitHub Actions
+# secrets in production, your shell or run.sh locally) - never from this file.
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "rsua95@gmail.com")
+SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "")
 SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
+NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "") or SMTP_EMAIL
 
 # Paths
 SCRIPT_DIR = Path(__file__).parent
@@ -102,6 +145,23 @@ FIRSTTIX_OUTPUT_FILE = SCRIPT_DIR / "firsttix_shows.json"
 LOG_FILE = SCRIPT_DIR / "houseseats.log"
 NOTIFIED_FILE = SCRIPT_DIR / "notified_shows.json"
 HISTORY_FILE = SCRIPT_DIR / "show_history.json"
+WATCHLIST_FILE = SCRIPT_DIR / "watchlist.txt"
+
+# Network behaviour. Every request gets a timeout so a stalled connection can
+# never hang the run; transient failures are retried.
+REQUEST_TIMEOUT = (10, 30)  # (connect, read) seconds
+SCRAPE_ATTEMPTS = 3  # full login+fetch attempts per source per run
+SMTP_ATTEMPTS = 3
+SMTP_TIMEOUT = 30
+
+# A show+date first seen within this many hours is flagged "new" on the site.
+NEW_SHOW_HOURS = 24
+TIMESTAMP_FMT = "%Y-%m-%dT%H:%M:%S PT"
+
+
+class StateError(Exception):
+    """A state file exists but can't be read. Treating it as empty would
+    re-notify every show, so the run stops instead."""
 
 # Rare show detection settings
 RARE_THRESHOLD_DAYS = 30  # Look back this many days
@@ -112,6 +172,9 @@ DENYLIST_GIST_RAW_URL = "https://gist.githubusercontent.com/suacide24/f1bf569e22
 DENYLIST_GIST_EDIT_URL = (
     "https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6/edit"
 )
+WATCHLIST_EDIT_URL = (
+    "https://github.com/suacide24/houseseats-checker/edit/main/watchlist.txt"
+)
 
 # Available shows GitHub Pages URL (update this after setting up GitHub Pages)
 AVAILABLE_SHOWS_URL = "https://suacide24.github.io/houseseats-checker/"
@@ -121,9 +184,29 @@ def log_message(message: str):
     """Log a message with timestamp."""
     timestamp = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     log_entry = f"[{timestamp}] {message}"
-    print(log_entry)
-    with open(LOG_FILE, "a") as f:
-        f.write(log_entry + "\n")
+    print(log_entry, flush=True)
+    try:
+        with open(LOG_FILE, "a") as f:
+            f.write(log_entry + "\n")
+    except OSError:
+        pass  # logging must never break a run
+
+
+def write_json_atomic(path: Path, data) -> None:
+    """Write JSON via a temp file + rename so a crash mid-write can never
+    leave a truncated state file behind."""
+    fd, tmp_name = tempfile.mkstemp(dir=str(path.parent), prefix=path.name, suffix=".tmp")
+    try:
+        with os.fdopen(fd, "w") as f:
+            json.dump(data, f, indent=2)
+            f.write("\n")
+        os.replace(tmp_name, path)
+    except BaseException:
+        try:
+            os.unlink(tmp_name)
+        except OSError:
+            pass
+        raise
 
 
 # User agent pool for rotation
@@ -166,9 +249,31 @@ def random_page_delay():
     time.sleep(delay)
 
 
+class TimeoutSession(requests.Session):
+    """Session that applies REQUEST_TIMEOUT to every request by default."""
+
+    def request(self, method, url, **kwargs):
+        kwargs.setdefault("timeout", REQUEST_TIMEOUT)
+        return super().request(method, url, **kwargs)
+
+
 def create_session_with_random_ua() -> requests.Session:
-    """Create a requests session with a random user agent."""
-    session = requests.Session()
+    """Create a requests session with a random user agent, default timeouts,
+    and automatic retries of idempotent requests on transient errors."""
+    session = TimeoutSession()
+    if Retry is not None:
+        retry = Retry(
+            total=3,
+            connect=3,
+            read=2,
+            backoff_factor=1.0,
+            status_forcelist=(429, 500, 502, 503, 504),
+            allowed_methods=frozenset(["GET", "HEAD"]),
+            raise_on_status=False,
+        )
+        adapter = HTTPAdapter(max_retries=retry)
+        session.mount("https://", adapter)
+        session.mount("http://", adapter)
     session.headers.update(
         {
             "User-Agent": get_random_user_agent(),
@@ -184,78 +289,105 @@ def create_session_with_random_ua() -> requests.Session:
 
 def load_denylist() -> set:
     """Load the denylist from GitHub Gist, falling back to local file."""
-    denylist = set()
+    # Try to fetch from Gist first (a couple of attempts: a transient failure
+    # here would otherwise let denied shows through and trigger emails).
+    for attempt in range(1, 3):
+        try:
+            log_message("Fetching denylist from Gist...")
+            response = requests.get(DENYLIST_GIST_RAW_URL, timeout=10)
+            response.raise_for_status()
+            denylist = parse_list_lines(response.text)
+            if denylist:
+                log_message(f"Loaded {len(denylist)} shows from Gist denylist")
+                return denylist
+            log_message("Gist denylist came back empty - using local copy instead")
+            break
+        except requests.RequestException as e:
+            log_message(f"Failed to fetch Gist denylist (attempt {attempt}): {e}")
+            if attempt < 2:
+                time.sleep(2)
 
-    # Try to fetch from Gist first
-    try:
-        log_message("Fetching denylist from Gist...")
-        response = requests.get(DENYLIST_GIST_RAW_URL, timeout=10)
-        response.raise_for_status()
-
-        for line in response.text.splitlines():
-            line = line.strip()
-            if line and not line.startswith("#"):
-                denylist.add(line.lower())
-
-        log_message(f"Loaded {len(denylist)} shows from Gist denylist")
-        return denylist
-
-    except requests.RequestException as e:
-        log_message(f"Failed to fetch Gist denylist: {e}")
-        log_message("Falling back to local denylist file...")
-
-    # Fallback to local file
-    if not DENYLIST_FILE.exists():
-        log_message("No local denylist file found, creating empty one")
-        DENYLIST_FILE.touch()
-        return set()
-
-    with open(DENYLIST_FILE, "r") as f:
-        denylist = {
-            line.strip().lower()
-            for line in f
-            if line.strip() and not line.startswith("#")
-        }
-
+    log_message("Falling back to local denylist file...")
+    denylist = load_list_file(DENYLIST_FILE)
     log_message(f"Loaded {len(denylist)} shows from local denylist")
     return denylist
 
 
+def parse_list_lines(text: str) -> set:
+    """Parse a one-entry-per-line list: lowercased, blanks and # comments dropped."""
+    entries = set()
+    for line in text.splitlines():
+        line = line.strip()
+        if line and not line.startswith("#"):
+            entries.add(line.lower())
+    return entries
+
+
+def load_list_file(path: Path) -> set:
+    """Load a denylist/watchlist style text file; missing file -> empty set."""
+    try:
+        return parse_list_lines(path.read_text())
+    except OSError:
+        return set()
+
+
+def load_watchlist() -> set:
+    """Load watchlist keywords (shows you especially want). Matching shows are
+    starred on the site and called out in the email subject."""
+    return load_list_file(WATCHLIST_FILE)
+
+
+def matches_any(name: str, keywords: set) -> bool:
+    """Case-insensitive 'any keyword is contained in name'."""
+    name_lower = (name or "").lower()
+    return any(keyword in name_lower for keyword in keywords)
+
+
 def load_notified_shows() -> set:
-    """Load the set of already-notified show+date combinations."""
+    """Load the set of already-notified show+date combinations.
+
+    Raises StateError if the file exists but is unreadable: silently treating
+    a corrupt file as "nothing notified yet" would email every current show."""
     if not NOTIFIED_FILE.exists():
         return set()
 
     try:
         with open(NOTIFIED_FILE, "r") as f:
             data = json.load(f)
-            return set(data.get("notified", []))
-    except (json.JSONDecodeError, IOError):
-        return set()
+        notified = data["notified"]
+        if not isinstance(notified, list):
+            raise ValueError("'notified' is not a list")
+        return set(notified)
+    except (json.JSONDecodeError, OSError, KeyError, TypeError, ValueError) as e:
+        raise StateError(f"{NOTIFIED_FILE.name} is unreadable: {e}") from e
 
 
 def save_notified_shows(notified: set):
-    """Save the set of notified show+date combinations."""
-    with open(NOTIFIED_FILE, "w") as f:
-        json.dump({"notified": list(notified)}, f, indent=2)
+    """Save the set of notified show+date combinations (sorted, so git diffs
+    only show real changes)."""
+    write_json_atomic(NOTIFIED_FILE, {"notified": sorted(notified)})
 
 
 def load_show_history() -> dict:
-    """Load the show history tracking data."""
+    """Load the show history tracking data. A corrupt file only costs the
+    rare-show flags, so it is reset rather than stopping the run."""
     if not HISTORY_FILE.exists():
         return {"shows": {}}
 
     try:
         with open(HISTORY_FILE, "r") as f:
-            return json.load(f)
-    except (json.JSONDecodeError, IOError):
+            history = json.load(f)
+        if not isinstance(history.get("shows"), dict):
+            raise ValueError("'shows' is not an object")
+        return history
+    except (json.JSONDecodeError, OSError, AttributeError, ValueError) as e:
+        log_message(f"show_history.json unreadable ({e}) - starting fresh")
         return {"shows": {}}
 
 
 def save_show_history(history: dict):
     """Save the show history tracking data."""
-    with open(HISTORY_FILE, "w") as f:
-        json.dump(history, f, indent=2)
+    write_json_atomic(HISTORY_FILE, history)
 
 
 def get_show_name_key(show: dict) -> str:
@@ -267,7 +399,7 @@ def get_show_name_key(show: dict) -> str:
 
 def update_show_history(shows: list, history: dict) -> dict:
     """Update history with today's shows and return updated history."""
-    today = datetime.now().strftime("%Y-%m-%d")
+    today = get_pacific_time().strftime("%Y-%m-%d")
 
     for show in shows:
         key = get_show_name_key(show)
@@ -293,7 +425,7 @@ def is_rare_show(show: dict, history: dict) -> bool:
         return True  # Never seen before = rare!
 
     # Count appearances in the last RARE_THRESHOLD_DAYS
-    cutoff_date = datetime.now() - timedelta(days=RARE_THRESHOLD_DAYS)
+    cutoff_date = get_pacific_time() - timedelta(days=RARE_THRESHOLD_DAYS)
     cutoff_str = cutoff_date.strftime("%Y-%m-%d")
 
     appearances = history["shows"][key]["appearances"]
@@ -311,7 +443,7 @@ def mark_rare_shows(shows: list, history: dict) -> list:
 
 def cleanup_old_history(history: dict, max_age_days: int = 90) -> dict:
     """Remove history entries older than max_age_days to prevent file bloat."""
-    cutoff_date = datetime.now() - timedelta(days=max_age_days)
+    cutoff_date = get_pacific_time() - timedelta(days=max_age_days)
     cutoff_str = cutoff_date.strftime("%Y-%m-%d")
 
     for key in history["shows"]:
@@ -453,6 +585,62 @@ def cleanup_old_notified(
     return kept, changed
 
 
+def format_show_date(show: dict) -> str:
+    """Human-friendly date with the weekday, e.g. 'Sat, Nov 14'. Falls back
+    to the scraped text when the date could not be normalized."""
+    iso = show.get("date_iso")
+    if iso:
+        try:
+            d = datetime.strptime(iso, "%Y-%m-%d")
+            label = f"{d.strftime('%a')}, {d.strftime('%b')} {d.day}"
+            time_match = re.search(r"\d{1,2}:\d{2}\s*[AP]M", show.get("date", ""), re.I)
+            return f"{label} {time_match.group(0)}" if time_match else label
+        except ValueError:
+            pass
+    return show.get("date") or "Date TBD"
+
+
+def enrich_shows(shows: list, previous_shows: list, watchlist: set, now: datetime) -> list:
+    """Add derived fields used by the site and the email:
+
+    - ``date_iso``  canonical YYYY-MM-DD (year inferred) for sorting
+    - ``weekday``   'Sat' etc.
+    - ``first_seen`` when this show+date first appeared (carried over from the
+      previous output so it survives across runs; a slot that vanishes and
+      comes back counts as newly seen)
+    - ``watchlist`` True when the name matches a watchlist keyword
+    """
+    previous_first_seen = {}
+    for prev in previous_shows or []:
+        if prev.get("first_seen"):
+            previous_first_seen[get_show_key(prev)] = prev["first_seen"]
+
+    now_stamp = now.strftime(TIMESTAMP_FMT)
+    for show in shows:
+        iso = resolve_show_date(show.get("date", ""), now)
+        if iso:
+            show["date_iso"] = iso
+            try:
+                show["weekday"] = datetime.strptime(iso, "%Y-%m-%d").strftime("%a")
+            except ValueError:
+                pass
+        show["first_seen"] = previous_first_seen.get(get_show_key(show), now_stamp)
+        show["watchlist"] = matches_any(show.get("name", ""), watchlist)
+    return shows
+
+
+def dedupe_shows(shows: list) -> list:
+    """Drop exact duplicates (same show, date and link), keeping the first.
+    Two listings for the same day with different links are both kept."""
+    seen, unique = set(), []
+    for show in shows:
+        key = (get_show_key(show), show.get("link", ""))
+        if key not in seen:
+            seen.add(key)
+            unique.append(show)
+    return unique
+
+
 def get_chatgpt_link(show: dict) -> str:
     """Generate a ChatGPT link to ask about the show."""
     name = show.get("name", "Unknown")
@@ -478,7 +666,9 @@ def find_new_shows(shows: list, notified: set) -> list:
 
 
 def group_shows_by_name(shows: list) -> list:
-    """Group shows by name + source, collecting all time slots together."""
+    """Group shows by name + source, collecting all time slots together.
+    Watchlist shows sort first, then rare ones, then alphabetically; slots
+    within a show sort chronologically."""
     grouped = {}
 
     for show in shows:
@@ -489,174 +679,235 @@ def group_shows_by_name(shows: list) -> list:
                 "name": show.get("name", "Unknown"),
                 "source": show.get("source", "Unknown"),
                 "image": show.get("image"),
-                "rare": show.get("rare", False),
+                "rare": False,
+                "watchlist": False,
                 "time_slots": [],
             }
 
         grouped[key]["time_slots"].append(
-            {"date": show.get("date", "N/A"), "link": show.get("link", "")}
+            {
+                "date": show.get("date", "N/A"),
+                "label": format_show_date(show),
+                "date_iso": show.get("date_iso") or "9999-12-31",
+                "link": show.get("link", ""),
+            }
         )
 
-        # If any slot is rare, mark the show as rare
+        # If any slot is rare / on the watchlist, flag the whole show
         if show.get("rare"):
             grouped[key]["rare"] = True
+        if show.get("watchlist"):
+            grouped[key]["watchlist"] = True
+        if not grouped[key]["image"] and show.get("image"):
+            grouped[key]["image"] = show["image"]
 
-    # Convert to list and sort by name
-    return sorted(grouped.values(), key=lambda x: x["name"].lower())
+    for group in grouped.values():
+        group["time_slots"].sort(key=lambda slot: slot["date_iso"])
+
+    return sorted(
+        grouped.values(),
+        key=lambda g: (not g["watchlist"], not g["rare"], g["name"].lower()),
+    )
 
 
-def send_email_notification(new_shows: list) -> bool:
-    """Send an email notification about new shows, grouped by show name."""
+def _one_line(text: str, limit: int = 45) -> str:
+    """Collapse whitespace (no header injection via newlines) and truncate."""
+    text = " ".join(str(text).split())
+    return text if len(text) <= limit else text[: limit - 1].rstrip() + "…"
+
+
+def build_email_subject(grouped_shows: list) -> str:
+    """A subject that says what is new, so the alert is useful unopened:
+    '⭐ Watchlist: Penn & Teller (Sat, Nov 14), ROUGE +2 more'."""
+    if not grouped_shows:
+        return "🎭 Shows Alert"
+    if any(g["watchlist"] for g in grouped_shows):
+        prefix = "⭐ Watchlist"
+    elif any(g["rare"] for g in grouped_shows):
+        prefix = "🔥 Rare"
+    else:
+        prefix = "🎭 New"
+    first = grouped_shows[0]
+    subject = f"{prefix}: {_one_line(first['name'])}"
+    if first["time_slots"]:
+        subject += f" ({first['time_slots'][0]['label']})"
+    if len(grouped_shows) > 1:
+        subject += f", {_one_line(grouped_shows[1]['name'], 30)}"
+    if len(grouped_shows) > 2:
+        subject += f" +{len(grouped_shows) - 2} more"
+    return subject
+
+
+def build_email_bodies(grouped_shows: list, total_slots: int) -> tuple[str, str]:
+    """Return (plain_text, html) bodies. All scraped text is HTML-escaped."""
+    esc = html.escape
+
+    html_body = f"""
+    <html>
+    <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px;">
+    <div style="max-width: 600px; margin: 0 auto; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
+    <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding: 20px; text-align: center;">
+        <h1 style="color: white; margin: 0;">🎭 New Shows Available!</h1>
+        <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0;">{len(grouped_shows)} show(s) • {total_slots} time slot(s)</p>
+    </div>
+    <div style="padding: 20px;">
+    """
+
+    for show in grouped_shows:
+        source = show["source"]
+        time_slots = show["time_slots"]
+        source_bg = "#3498db" if source == "HouseSeats" else "#27ae60"
+        border = "#f1c40f" if show["watchlist"] else source_bg
+
+        badges = ""
+        if show["watchlist"]:
+            badges += '<span style="background: #f1c40f; color: #333; padding: 3px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px; font-weight: bold;">⭐ WATCHLIST</span>'
+        if show["rare"]:
+            badges += '<span style="background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; padding: 3px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px; font-weight: bold;">🔥 RARE</span>'
+
+        html_body += f"""
+        <div style="background: #f8f9fa; border-radius: 8px; padding: 15px; margin-bottom: 15px; border-left: 4px solid {border};">
+            <div style="margin-bottom: 10px;">
+                <span style="background: {source_bg}; color: white; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">{esc(source)}</span>
+                {badges}
+            </div>
+            <h2 style="margin: 0 0 12px 0; color: #333; font-size: 18px;">{esc(show["name"])}</h2>
+            <div style="margin-bottom: 12px;">
+                <div style="color: #e67e22; font-size: 13px; font-weight: 500; margin-bottom: 8px;">📅 Available Times ({len(time_slots)})</div>
+                <div>
+        """
+
+        for slot in time_slots:
+            label = esc(slot["label"])
+            if slot["link"]:
+                html_body += f'<a href="{esc(slot["link"], quote=True)}" style="display: inline-block; background: rgba(231,76,60,0.1); border: 1px solid rgba(231,76,60,0.3); color: #c0392b; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 13px; margin: 0 6px 6px 0;">🎟️ {label}</a>'
+            else:
+                html_body += f'<span style="display: inline-block; background: #eee; color: #666; padding: 6px 12px; border-radius: 6px; font-size: 13px; margin: 0 6px 6px 0;">{label}</span>'
+
+        html_body += f"""
+                </div>
+            </div>
+            <div>
+                <a href="{esc(get_chatgpt_link(show), quote=True)}" style="color: #666; font-size: 12px; text-decoration: none;">🤖 Ask AI about this show</a>
+            </div>
+        </div>
+        """
+
+    html_body += f"""
+    </div>
+    <div style="padding: 20px; background: #f8f9fa; text-align: center; border-top: 1px solid #eee;">
+        <a href="{AVAILABLE_SHOWS_URL}" style="display: inline-block; background: #3498db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;">📋 View All Shows</a>
+        <a href="{DENYLIST_GIST_EDIT_URL}" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;">✏️ Edit Denylist</a>
+        <a href="{WATCHLIST_EDIT_URL}" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin: 0 5px 8px 5px;">⭐ Edit Watchlist</a>
+    </div>
+    <div style="padding: 15px; text-align: center; color: #999; font-size: 11px;">
+        Automated message from Shows Checker (HouseSeats + 1stTix)
+    </div>
+    </div>
+    </body>
+    </html>
+    """
+
+    # Plain text fallback (also grouped)
+    text_body = "🎭 New Shows Available!\n"
+    text_body += f"{len(grouped_shows)} show(s) • {total_slots} time slot(s)\n"
+    text_body += "=" * 40 + "\n\n"
+
+    for show in grouped_shows:
+        flags = (" ⭐ WATCHLIST" if show["watchlist"] else "") + (
+            " 🔥 RARE" if show["rare"] else ""
+        )
+        text_body += f"[{show['source']}] {show['name']}{flags}\n"
+        text_body += f"  📅 {len(show['time_slots'])} time slot(s):\n"
+        for slot in show["time_slots"]:
+            text_body += f"    • {slot['label']}"
+            if slot["link"]:
+                text_body += f"\n      {slot['link']}"
+            text_body += "\n"
+        text_body += f"  🤖 Ask AI: {get_chatgpt_link(show)}\n\n"
+
+    text_body += f"\n📋 View All Shows: {AVAILABLE_SHOWS_URL}\n"
+    text_body += f"✏️ Edit Denylist: {DENYLIST_GIST_EDIT_URL}\n"
+    text_body += f"⭐ Edit Watchlist: {WATCHLIST_EDIT_URL}\n"
+
+    return text_body, html_body
+
+
+def smtp_send(msg) -> None:
+    """Send a prepared message, retrying transient failures. Raises on final
+    failure. Bad credentials are not retried."""
+    last_error = None
+    for attempt in range(1, SMTP_ATTEMPTS + 1):
+        try:
+            with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=SMTP_TIMEOUT) as server:
+                server.starttls()
+                server.login(SMTP_EMAIL, SMTP_PASSWORD)
+                server.sendmail(SMTP_EMAIL, NOTIFICATION_EMAIL, msg.as_string())
+            return
+        except smtplib.SMTPAuthenticationError:
+            raise
+        except (smtplib.SMTPException, OSError) as e:
+            last_error = e
+            log_message(f"Email attempt {attempt}/{SMTP_ATTEMPTS} failed: {e}")
+            if attempt < SMTP_ATTEMPTS:
+                time.sleep(5 * attempt)
+    raise last_error
+
+
+def send_email_notification(new_shows: list) -> str:
+    """Email the new shows, grouped by show name.
+
+    Returns 'sent', 'disabled' (email deliberately off) or 'failed'. Callers
+    only mark shows as notified when the result is not 'failed', so a mail
+    outage delays an alert instead of silently losing it."""
     if not new_shows:
-        return True
+        return "sent"
 
     if args.no_email or not EMAIL_ENABLED:
         log_message(
             "Email notifications disabled (EMAIL_ENABLED=false / --no-email) - skipping email"
         )
-        return True
+        return "disabled"
 
-    if not SMTP_PASSWORD:
-        log_message("SMTP_PASSWORD not set - skipping email notification")
-        log_message("To enable email: set SMTP_PASSWORD to a Gmail App Password")
-        return False
+    if not (SMTP_EMAIL and SMTP_PASSWORD and NOTIFICATION_EMAIL):
+        log_message(
+            "Email not configured (need SMTP_EMAIL, SMTP_PASSWORD, NOTIFICATION_EMAIL) "
+            "- cannot send; will retry next run"
+        )
+        return "failed"
 
     try:
-        # Group shows by name + source
         grouped_shows = group_shows_by_name(new_shows)
-        total_slots = len(new_shows)
+        text_body, html_body = build_email_bodies(grouped_shows, len(new_shows))
 
-        # Build email content
-        subject = f"🎭 Shows Alert: {len(grouped_shows)} New Show(s) Available! ({total_slots} time slots)"
-
-        # HTML body
-        html_body = """
-        <html>
-        <body style="font-family: Arial, sans-serif; background-color: #f5f5f5; padding: 20px;">
-        <div style="max-width: 600px; margin: 0 auto; background: white; border-radius: 10px; overflow: hidden; box-shadow: 0 2px 10px rgba(0,0,0,0.1);">
-        <div style="background: linear-gradient(135deg, #e74c3c, #c0392b); padding: 20px; text-align: center;">
-            <h1 style="color: white; margin: 0;">🎭 New Shows Available!</h1>
-            <p style="color: rgba(255,255,255,0.9); margin: 10px 0 0 0;">"""
-        html_body += f"{len(grouped_shows)} show(s) • {total_slots} time slot(s)"
-        html_body += """</p>
-        </div>
-        <div style="padding: 20px;">
-        """
-
-        for show in grouped_shows:
-            name = show["name"]
-            source = show["source"]
-            is_rare = show["rare"]
-            time_slots = show["time_slots"]
-
-            # Color code by source
-            source_bg = "#3498db" if source == "HouseSeats" else "#27ae60"
-
-            # Rare badge
-            rare_badge = (
-                '<span style="background: linear-gradient(135deg, #e74c3c, #c0392b); color: white; padding: 3px 8px; border-radius: 4px; font-size: 11px; margin-left: 8px; font-weight: bold;">🔥 RARE</span>'
-                if is_rare
-                else ""
-            )
-
-            # ChatGPT link
-            chatgpt_link = get_chatgpt_link(show)
-
-            html_body += f"""
-            <div style="background: #f8f9fa; border-radius: 8px; padding: 15px; margin-bottom: 15px; border-left: 4px solid {source_bg};">
-                <div style="margin-bottom: 10px;">
-                    <span style="background: {source_bg}; color: white; padding: 3px 10px; border-radius: 4px; font-size: 11px; font-weight: bold; text-transform: uppercase;">{source}</span>
-                    {rare_badge}
-                </div>
-                <h2 style="margin: 0 0 12px 0; color: #333; font-size: 18px;">{name}</h2>
-                <div style="margin-bottom: 12px;">
-                    <div style="color: #e67e22; font-size: 13px; font-weight: 500; margin-bottom: 8px;">📅 Available Times ({len(time_slots)})</div>
-                    <div style="display: flex; flex-wrap: wrap; gap: 8px;">
-            """
-
-            for slot in time_slots:
-                date = slot["date"]
-                link = slot["link"]
-                if link:
-                    html_body += f'<a href="{link}" style="display: inline-block; background: rgba(231,76,60,0.1); border: 1px solid rgba(231,76,60,0.3); color: #c0392b; padding: 6px 12px; border-radius: 6px; text-decoration: none; font-size: 13px;">🎟️ {date}</a>'
-                else:
-                    html_body += f'<span style="display: inline-block; background: #eee; color: #666; padding: 6px 12px; border-radius: 6px; font-size: 13px;">{date}</span>'
-
-            html_body += f"""
-                    </div>
-                </div>
-                <div>
-                    <a href="{chatgpt_link}" style="color: #666; font-size: 12px; text-decoration: none;">🤖 Ask AI about this show</a>
-                </div>
-            </div>
-            """
-
-        html_body += f"""
-        </div>
-        <div style="padding: 20px; background: #f8f9fa; text-align: center; border-top: 1px solid #eee;">
-            <a href="{AVAILABLE_SHOWS_URL}" style="display: inline-block; background: #3498db; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500; margin-right: 10px;">📋 View All Shows</a>
-            <a href="{DENYLIST_GIST_EDIT_URL}" style="display: inline-block; background: #6c757d; color: white; padding: 12px 24px; text-decoration: none; border-radius: 6px; font-weight: 500;">✏️ Edit Denylist</a>
-        </div>
-        <div style="padding: 15px; text-align: center; color: #999; font-size: 11px;">
-            Automated message from Shows Checker (HouseSeats + 1stTix)
-        </div>
-        </div>
-        </body>
-        </html>
-        """
-
-        # Plain text fallback (also grouped)
-        text_body = f"🎭 New Shows Available!\n"
-        text_body += f"{len(grouped_shows)} show(s) • {total_slots} time slot(s)\n"
-        text_body += "=" * 40 + "\n\n"
-
-        for show in grouped_shows:
-            name = show["name"]
-            source = show["source"]
-            is_rare = show["rare"]
-            time_slots = show["time_slots"]
-            rare_text = " 🔥 RARE" if is_rare else ""
-
-            text_body += f"[{source}] {name}{rare_text}\n"
-            text_body += f"  📅 {len(time_slots)} time slot(s):\n"
-            for slot in time_slots:
-                date = slot["date"]
-                link = slot["link"]
-                text_body += f"    • {date}"
-                if link:
-                    text_body += f"\n      {link}"
-                text_body += "\n"
-            text_body += f"  🤖 Ask AI: {get_chatgpt_link(show)}\n"
-            text_body += "\n"
-
-        text_body += f"\n📋 View All Shows: {AVAILABLE_SHOWS_URL}\n"
-        text_body += f"✏️ Edit Denylist: {DENYLIST_GIST_EDIT_URL}\n"
-
-        # Create message
         msg = MIMEMultipart("alternative")
-        msg["Subject"] = subject
+        msg["Subject"] = build_email_subject(grouped_shows)
         msg["From"] = SMTP_EMAIL
         msg["To"] = NOTIFICATION_EMAIL
+        msg.attach(MIMEText(text_body, "plain", "utf-8"))
+        msg.attach(MIMEText(html_body, "html", "utf-8"))
 
-        msg.attach(MIMEText(text_body, "plain"))
-        msg.attach(MIMEText(html_body, "html"))
-
-        # Send email
-        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
-            server.starttls()
-            server.login(SMTP_EMAIL, SMTP_PASSWORD)
-            server.sendmail(SMTP_EMAIL, NOTIFICATION_EMAIL, msg.as_string())
-
-        log_message(f"Email sent successfully to {NOTIFICATION_EMAIL}")
-        return True
+        smtp_send(msg)
+        log_message(f"Email sent successfully ({len(grouped_shows)} show(s))")
+        return "sent"
 
     except Exception as e:
         log_message(f"Failed to send email: {e}")
-        return False
+        return "failed"
+
+
+class LoginRejected(Exception):
+    """The site refused the credentials. Not retried within a run, so a bad
+    password can't hammer the login form."""
 
 
 def login_houseseats(session: requests.Session) -> bool:
-    """Log into houseseats.com and return True if successful."""
+    """Log into houseseats.com. Returns True if it appears to have worked,
+    False on a transient problem (network/HTTP), and raises LoginRejected if
+    the site is clearly still showing the login form (bad credentials)."""
+    if not HOUSESEATS_EMAIL or not HOUSESEATS_PASSWORD:
+        raise LoginRejected("HOUSESEATS_EMAIL / HOUSESEATS_PASSWORD are not set")
+
     try:
         # First, get the homepage to establish session cookies
         response = session.get(HOUSESEATS_BASE_URL)
@@ -675,30 +926,26 @@ def login_houseseats(session: requests.Session) -> bool:
             HOUSESEATS_LOGIN_URL, data=login_data, allow_redirects=True
         )
         response.raise_for_status()
-
-        # Check if login was successful by looking for logout link or member content
-        if "logout" in response.text.lower() or "welcome" in response.text.lower():
-            log_message("[HouseSeats] Successfully logged in")
-            return True
-        else:
-            log_message(
-                "[HouseSeats] Login may have failed - checking for error messages"
-            )
-            soup = BeautifulSoup(response.text, "html.parser")
-            error = soup.find(class_=["error", "alert", "alert-danger"])
-            if error:
-                log_message(f"[HouseSeats] Login error: {error.get_text(strip=True)}")
-            # Check if we're still on login page
-            if "member login" in response.text.lower():
-                log_message(
-                    "[HouseSeats] Still on login page - credentials may be incorrect"
-                )
-                return False
-            return True  # Might have logged in even without explicit indicator
-
     except requests.RequestException as e:
         log_message(f"[HouseSeats] Login request failed: {e}")
         return False
+
+    page = response.text.lower()
+
+    # Check if login was successful by looking for logout link or member content
+    if "logout" in page or "welcome" in page:
+        log_message("[HouseSeats] Successfully logged in")
+        return True
+
+    log_message("[HouseSeats] Login may have failed - checking for error messages")
+    soup = BeautifulSoup(response.text, "html.parser")
+    error = soup.find(class_=["error", "alert", "alert-danger"])
+    if error:
+        log_message(f"[HouseSeats] Login error: {error.get_text(strip=True)[:200]}")
+    if "member login" in page:
+        raise LoginRejected("still on the login page - credentials may be incorrect")
+    # No explicit indicator either way; the show fetch is the real test.
+    return True
 
 
 def login_firsttix(session: requests.Session) -> bool:
@@ -792,69 +1039,126 @@ def login_firsttix(session: requests.Session) -> bool:
         return False
 
 
-def fetch_houseseats_shows(session: requests.Session) -> list:
-    """Fetch the list of available shows from HouseSeats AJAX endpoint."""
+def parse_houseseats_shows(page_html: str) -> list:
+    """Parse the upcoming-shows AJAX response into show dicts."""
+    soup = BeautifulSoup(page_html, "html.parser")
+    shows = []
+
+    # Find all show panels (each panel is a show)
+    for panel in soup.find_all("div", class_="panel-default"):
+        show_info = {"source": "HouseSeats"}
+
+        # Get show name from panel-heading link
+        heading = panel.find("div", class_="panel-heading")
+        if heading:
+            link = heading.find("a")
+            if link:
+                show_info["name"] = link.get_text(strip=True)
+                href = link.get("href", "")
+                if href:
+                    # Convert relative URL to absolute
+                    if href.startswith("./"):
+                        show_info["link"] = f"{HOUSESEATS_BASE_URL}/member/{href[2:]}"
+                    elif href.startswith("http"):
+                        show_info["link"] = href
+                    elif href.startswith("/"):
+                        show_info["link"] = f"{HOUSESEATS_BASE_URL}{href}"
+                    else:
+                        show_info["link"] = f"{HOUSESEATS_BASE_URL}/member/{href}"
+
+        # Get date from grid-cal-date
+        date_elem = panel.find("div", class_="grid-cal-date")
+        if date_elem:
+            show_info["date"] = date_elem.get_text(strip=True)
+
+        # Get image URL
+        img = panel.find("img", class_="img-responsive")
+        if img and img.get("src"):
+            src = img.get("src")
+            if src.startswith("http"):
+                show_info["image"] = src
+            elif src.startswith("//"):
+                show_info["image"] = f"https:{src}"
+            else:
+                show_info["image"] = f"{HOUSESEATS_BASE_URL}/{src.lstrip('/')}"
+
+        # Only add if we have a name
+        if show_info.get("name"):
+            shows.append(show_info)
+
+    return shows
+
+
+def fetch_houseseats_shows(session: requests.Session) -> list | None:
+    """Fetch available shows from the HouseSeats AJAX endpoint.
+
+    Returns the list of shows, or None when the fetch can't be trusted
+    (request failed, or nothing could be parsed - an expired session and a
+    changed page layout both look like "zero shows", and neither should wipe
+    the published list)."""
     try:
-        # Add AJAX header
-        session.headers.update({"X-Requested-With": "XMLHttpRequest"})
-
-        response = session.get(HOUSESEATS_SHOWS_URL)
+        response = session.get(
+            HOUSESEATS_SHOWS_URL, headers={"X-Requested-With": "XMLHttpRequest"}
+        )
         response.raise_for_status()
-
-        soup = BeautifulSoup(response.text, "html.parser")
-        shows = []
-
-        # Find all show panels (each panel is a show)
-        panels = soup.find_all("div", class_="panel-default")
-
-        for panel in panels:
-            show_info = {"source": "HouseSeats"}
-
-            # Get show name from panel-heading link
-            heading = panel.find("div", class_="panel-heading")
-            if heading:
-                link = heading.find("a")
-                if link:
-                    show_info["name"] = link.get_text(strip=True)
-                    href = link.get("href", "")
-                    if href:
-                        # Convert relative URL to absolute
-                        if href.startswith("./"):
-                            show_info["link"] = (
-                                f"{HOUSESEATS_BASE_URL}/member/{href[2:]}"
-                            )
-                        elif not href.startswith("http"):
-                            show_info["link"] = f"{HOUSESEATS_BASE_URL}{href}"
-                        else:
-                            show_info["link"] = href
-
-            # Get date from grid-cal-date
-            date_elem = panel.find("div", class_="grid-cal-date")
-            if date_elem:
-                show_info["date"] = date_elem.get_text(strip=True)
-
-            # Get image URL
-            img = panel.find("img", class_="img-responsive")
-            if img and img.get("src"):
-                src = img.get("src")
-                if not src.startswith("http"):
-                    show_info["image"] = f"{HOUSESEATS_BASE_URL}{src}"
-                else:
-                    show_info["image"] = src
-
-            # Only add if we have a name
-            if show_info.get("name"):
-                shows.append(show_info)
-
-        log_message(f"[HouseSeats] Found {len(shows)} shows")
-        return shows
-
     except requests.RequestException as e:
         log_message(f"[HouseSeats] Failed to fetch shows: {e}")
-        return []
+        return None
+
+    shows = parse_houseseats_shows(response.text)
+    if not shows:
+        hint = (
+            "looks like a login page - session not authenticated"
+            if 'type="password"' in response.text.lower()
+            else "page layout may have changed, or there are genuinely no shows"
+        )
+        log_message(
+            f"[HouseSeats] No shows parsed from a {len(response.text)}-byte response ({hint})"
+        )
+        return None
+
+    log_message(f"[HouseSeats] Found {len(shows)} shows")
+    return shows
 
 
-def fetch_firsttix_shows(session: requests.Session) -> list:
+def scrape_with_retries(label: str, login_fn, fetch_fn, attempts: int = SCRAPE_ATTEMPTS):
+    """Run login + fetch with a fresh session, retrying transient failures.
+
+    Returns (shows, None) on success or (None, error_message) on failure.
+    Never raises: one source failing must not stop the rest of the run."""
+    error = "unknown error"
+    for attempt in range(1, attempts + 1):
+        session = create_session_with_random_ua()
+        try:
+            if login_fn(session):
+                random_delay(2.0, 6.0)
+                shows = fetch_fn(session)
+                if shows is not None:
+                    return shows, None
+                error = "logged in but could not read any shows"
+            else:
+                error = "login failed"
+        except LoginRejected as e:
+            log_message(f"[{label}] Login rejected: {e}")
+            return None, f"login rejected: {e}"
+        except Exception as e:  # e.g. a parsing bug - record it, don't crash
+            error = f"{type(e).__name__}: {e}"
+            log_message(f"[{label}] Unexpected error: {error}")
+        finally:
+            session.close()
+
+        if attempt < attempts:
+            wait = 4 * attempt
+            log_message(
+                f"[{label}] Attempt {attempt}/{attempts} failed ({error}); retrying in {wait}s"
+            )
+            time.sleep(wait)
+
+    log_message(f"[{label}] Giving up after {attempts} attempt(s): {error}")
+    return None, error
+
+
+def fetch_firsttix_shows(session: requests.Session) -> list | None:
     """Fetch the list of available shows from 1stTix (all pages)."""
     try:
         shows = []
@@ -915,8 +1219,6 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
                 if meta:
                     meta_text = meta.get_text(" ", strip=True)
                     # Try to extract date pattern like "Wed, 4 Feb '26" and time
-                    import re
-
                     date_match = re.search(r"(\w{3},\s*\d+\s+\w+\s+'\d+)", meta_text)
                     time_match = re.search(r"(\d{1,2}:\d{2}\s*[AP]M)", meta_text)
                     if date_match:
@@ -973,50 +1275,6 @@ def fetch_firsttix_shows(session: requests.Session) -> list:
 
     except requests.RequestException as e:
         log_message(f"[1stTix] Failed to fetch shows: {e}")
-        return []
-
-
-def extract_show_info(element) -> dict:
-    """Extract show information from a BeautifulSoup element."""
-    try:
-        # Try to find show name
-        name_elem = element.find(class_=["title", "name", "show-name", "event-name"])
-        if not name_elem:
-            name_elem = element.find(["h2", "h3", "h4", "a"])
-
-        if not name_elem:
-            return None
-
-        name = name_elem.get_text(strip=True)
-        if not name:
-            return None
-
-        # Try to find date
-        date_elem = element.find(class_=["date", "time", "show-date", "event-date"])
-        date = date_elem.get_text(strip=True) if date_elem else ""
-
-        # Try to find venue
-        venue_elem = element.find(class_=["venue", "location", "show-venue"])
-        venue = venue_elem.get_text(strip=True) if venue_elem else ""
-
-        # Try to find ticket availability
-        tickets_elem = element.find(class_=["tickets", "availability", "seats"])
-        tickets = tickets_elem.get_text(strip=True) if tickets_elem else ""
-
-        # Get link if available
-        link_elem = element.find("a", href=True)
-        link = link_elem["href"] if link_elem else ""
-        if link and not link.startswith("http"):
-            link = BASE_URL + link
-
-        return {
-            "name": name,
-            "date": date,
-            "venue": venue,
-            "tickets": tickets,
-            "link": link,
-        }
-    except Exception:
         return None
 
 
@@ -1046,59 +1304,102 @@ def get_output_file(source: str) -> Path:
     raise ValueError(f"Unknown source: {source}")
 
 
-def save_source_shows(source: str, shows: list, scrape_successful: bool = False):
-    """Save shows for a single source to its own JSON file.
-
-    Each source gets its own file, so no merge logic is needed.
-    Updates last_successful_run only if the scrape was successful (logged in
-    and found at least 1 show pre-filter).
-    """
-    pt_now = get_pacific_time()
-    timestamp = pt_now.strftime("%Y-%m-%dT%H:%M:%S PT")
+def load_source_output(source: str) -> dict:
+    """Previously published output for a source ({} if missing or unreadable)."""
     output_file = get_output_file(source)
+    try:
+        with open(output_file, "r") as f:
+            data = json.load(f)
+        return data if isinstance(data, dict) else {}
+    except (OSError, json.JSONDecodeError):
+        return {}
 
-    # Load existing last_successful_run to preserve it if this run wasn't successful
-    existing_last_successful_run = None
-    if output_file.exists():
-        try:
-            with open(output_file, "r") as f:
-                existing_data = json.load(f)
-                existing_last_successful_run = existing_data.get("last_successful_run")
-        except (json.JSONDecodeError, IOError):
-            pass
 
-    last_successful_run = existing_last_successful_run
+def minutes_since_last_check(source: str, now: datetime) -> float | None:
+    """Minutes since this source was last checked, or None if unknown."""
+    stamp = load_source_output(source).get("last_updated")
+    if not stamp:
+        return None
+    try:
+        last = datetime.strptime(stamp, TIMESTAMP_FMT)
+    except ValueError:
+        return None
+    return (now.replace(tzinfo=None) - last).total_seconds() / 60.0
+
+
+def build_source_output(
+    source: str,
+    shows: list,
+    previous: dict,
+    scrape_successful: bool,
+    error: str | None,
+    now: datetime,
+) -> dict:
+    """Build the published JSON for one source.
+
+    On a failed scrape the last good show list is kept (the site shows a
+    warning instead of going blank) and ``consecutive_failures`` counts up so
+    the health check can tell "really broken" from "one bad run"."""
+    timestamp = now.strftime(TIMESTAMP_FMT)
+
     if scrape_successful:
+        published = shows
         last_successful_run = timestamp
+        consecutive_failures = 0
+        status, last_error = "ok", None
+    else:
+        published = previous.get("shows") or []
+        last_successful_run = previous.get("last_successful_run")
+        try:
+            consecutive_failures = int(previous.get("consecutive_failures") or 0) + 1
+        except (TypeError, ValueError):
+            consecutive_failures = 1
+        status, last_error = "error", (error or "scrape failed")
 
-    output = {
+    return {
         "source": source,
         "last_updated": timestamp,
         "last_successful_run": last_successful_run,
+        "status": status,
+        "consecutive_failures": consecutive_failures,
+        "last_error": last_error,
         "email_enabled": EMAIL_ENABLED,
-        "count": len(shows),
-        "shows": shows,
+        "count": len(published),
+        "shows": published,
     }
 
-    with open(output_file, "w") as f:
-        json.dump(output, f, indent=2)
 
-    log_message(f"Saved {len(shows)} {source} shows to {output_file.name}")
+def save_source_shows(
+    source: str, shows: list, scrape_successful: bool = False, error: str | None = None
+):
+    """Save shows for a single source to its own JSON file (see
+    build_source_output for what happens on a failed scrape)."""
+    output = build_source_output(
+        source,
+        shows,
+        load_source_output(source),
+        scrape_successful,
+        error,
+        get_pacific_time(),
+    )
+    output_file = get_output_file(source)
+    write_json_atomic(output_file, output)
+
+    if scrape_successful:
+        log_message(f"Saved {len(shows)} {source} shows to {output_file.name}")
+    else:
+        log_message(
+            f"{source} scrape failed ({output['last_error']}); kept the previous "
+            f"{output['count']} shows, failure #{output['consecutive_failures']} in a row"
+        )
 
 
 def push_to_github():
-    """Commit and push updated show data to GitHub for GitHub Pages.
-
-    Stages per-source JSON files and data files, rebases on top of remote
-    to avoid conflicts, and pushes.
-    """
-    import subprocess
-
+    """Commit and push updated data files (local runs with --push only; the
+    GitHub Actions workflow commits the data itself)."""
     try:
-        # Change to script directory
         os.chdir(SCRIPT_DIR)
 
-        # Stage data files that may have changed
         data_files = [
             "houseseats_shows.json",
             "firsttix_shows.json",
@@ -1106,57 +1407,37 @@ def push_to_github():
             "show_history.json",
         ]
         for data_file in data_files:
-            subprocess.run(
-                ["git", "add", data_file],
-                capture_output=True,
-            )
+            subprocess.run(["git", "add", data_file], capture_output=True)
 
-        # Check if there's anything staged to commit
         result = subprocess.run(
-            ["git", "diff", "--staged", "--quiet"],
-            capture_output=True,
+            ["git", "diff", "--staged", "--quiet"], capture_output=True
         )
         if result.returncode == 0:
             log_message("[GitHub] No changes to data files, skipping push")
             return True
 
-        # Commit with timestamp
         commit_msg = (
             f"Update available shows - {datetime.now().strftime('%Y-%m-%d %H:%M')}"
         )
         subprocess.run(
-            ["git", "commit", "-m", commit_msg],
-            check=True,
-            capture_output=True,
+            ["git", "commit", "-m", commit_msg], check=True, capture_output=True
         )
 
         # Stash any unstaged changes (e.g. local code edits) before rebase
         stash_result = subprocess.run(
-            ["git", "stash", "--include-untracked"],
-            capture_output=True,
-            text=True,
+            ["git", "stash", "--include-untracked"], capture_output=True, text=True
         )
         did_stash = "No local changes" not in (stash_result.stdout or "")
 
         # Rebase on top of remote; -X theirs keeps our (latest run) data on conflicts
         subprocess.run(
-            ["git", "pull", "--rebase", "-X", "theirs"],
-            check=True,
-            capture_output=True,
+            ["git", "pull", "--rebase", "-X", "theirs"], check=True, capture_output=True
         )
 
         if did_stash:
-            subprocess.run(
-                ["git", "stash", "pop"],
-                capture_output=True,
-            )
+            subprocess.run(["git", "stash", "pop"], capture_output=True)
 
-        # Push to origin
-        subprocess.run(
-            ["git", "push"],
-            check=True,
-            capture_output=True,
-        )
+        subprocess.run(["git", "push"], check=True, capture_output=True)
 
         log_message("[GitHub] Successfully pushed show data to GitHub")
         return True
@@ -1174,88 +1455,98 @@ def push_to_github():
 
 
 def notify_user(shows: list):
-    """Send a macOS notification about available shows."""
-    if shows:
-        show_names = ", ".join(s.get("name", "Unknown")[:30] for s in shows[:3])
-        message = f"{len(shows)} shows available: {show_names}..."
-    else:
-        message = "No shows available (or all filtered)"
+    """Send a macOS desktop notification (local runs on a Mac only).
 
-    # Use osascript to send notification
-    os.system(
-        f"""osascript -e 'display notification "{message}" with title "HouseSeats Checker"' """
+    Show names come from the web, so they are passed to osascript as an
+    argument - never through a shell."""
+    if sys.platform != "darwin" or not shows:
+        return
+
+    show_names = ", ".join(s.get("name", "Unknown")[:30] for s in shows[:3])
+    message = f"{len(shows)} shows available: {show_names}..."
+    escaped = message.replace("\\", "\\\\").replace('"', '\\"')
+    script = f'display notification "{escaped}" with title "HouseSeats Checker"'
+    try:
+        subprocess.run(["osascript", "-e", script], capture_output=True, timeout=10)
+    except (OSError, subprocess.SubprocessError):
+        pass
+
+
+def main(argv=None) -> int:
+    global args
+    args = build_arg_parser().parse_args(argv)
+
+    log_message("=" * 50)
+    log_message(
+        "Starting Shows Checker (HouseSeats + 1stTix)"
+        + (" [DRY RUN - nothing will be sent or saved]" if args.dry_run else "")
     )
 
+    now = get_pacific_time()
 
-def main():
-    log_message("=" * 50)
-    log_message("Starting Shows Checker (HouseSeats + 1stTix)")
+    # Self-throttle: the schedule deliberately over-fires (GitHub drops most
+    # scheduled runs), so skip when a check happened recently.
+    if args.min_interval > 0 and not args.no_houseseats:
+        minutes = minutes_since_last_check("HouseSeats", now)
+        if minutes is not None and 0 <= minutes < args.min_interval:
+            log_message(
+                f"Last check was {minutes:.0f} min ago (< {args.min_interval:g}) - skipping this run"
+            )
+            return 0
 
-    # Load denylist
     denylist = load_denylist()
+    watchlist = load_watchlist()
+    if watchlist:
+        log_message(f"Loaded {len(watchlist)} watchlist keyword(s)")
 
-    # Load previously notified shows
-    notified_shows = load_notified_shows()
+    # Load previously notified shows. A corrupt file stops the run: guessing
+    # "nothing notified yet" would email every show currently listed.
+    try:
+        notified_shows = load_notified_shows()
+    except StateError as e:
+        log_message(f"ERROR: {e} - stopping so no duplicate alerts are sent")
+        return 2
     log_message(
         f"Loaded {len(notified_shows)} previously notified show+date combinations"
     )
 
     # Upgrade legacy year-less keys, then prune ancient ones. Save only if
     # something changed (migration is a one-time no-op afterward).
-    _now = get_pacific_time()
-    notified_shows, _migrated = migrate_notified_keys(notified_shows, _now)
-    notified_shows, _pruned = cleanup_old_notified(notified_shows, _now)
-    if _migrated or _pruned:
+    notified_shows, _migrated = migrate_notified_keys(notified_shows, now)
+    notified_shows, _pruned = cleanup_old_notified(notified_shows, now)
+    if (_migrated or _pruned) and not args.dry_run:
         save_notified_shows(notified_shows)
         log_message(
             f"notified_shows: migrated={_migrated}, pruned old entries={_pruned}; "
             f"now {len(notified_shows)} keys"
         )
 
-    # Create session with random user agent
-    session = create_session_with_random_ua()
-    log_message(f"Using User-Agent: {session.headers.get('User-Agent', '')[:50]}...")
-
-    all_shows = []
-    houseseats_shows = []
-    firsttix_shows = []
-
     # Random initial delay
     random_delay(1.0, 5.0)
 
-    # Fetch from HouseSeats
+    # source -> (shows or None, error or None)
+    results = {}
+
     if args.no_houseseats:
         log_message("--- Skipping HouseSeats (--no-houseseats flag) ---")
     else:
         log_message("--- Checking HouseSeats ---")
-        if login_houseseats(session):
-            random_delay(2.0, 6.0)
-            houseseats_shows = fetch_houseseats_shows(session)
-            all_shows.extend(houseseats_shows)
-        else:
-            log_message("[HouseSeats] Failed to login, preserving existing shows")
+        results["HouseSeats"] = scrape_with_retries(
+            "HouseSeats", login_houseseats, fetch_houseseats_shows
+        )
 
-    # Random delay between sites
-    random_delay(3.0, 10.0)
-
-    # Fetch from 1stTix
     if args.no_firsttix:
         log_message("--- Skipping 1stTix (--no-firsttix flag) ---")
     else:
-        # Create new session for 1stTix (separate cookies, fresh user agent)
-        session_1sttix = create_session_with_random_ua()
-        log_message(
-            f"Using User-Agent: {session_1sttix.headers.get('User-Agent', '')[:50]}..."
+        random_delay(3.0, 10.0)  # pause between sites
+        log_message("--- Checking 1stTix ---")
+        results["1stTix"] = scrape_with_retries(
+            "1stTix", login_firsttix, fetch_firsttix_shows, attempts=1
         )
 
-        log_message("--- Checking 1stTix ---")
-        if login_firsttix(session_1sttix):
-            random_delay(2.0, 6.0)
-            firsttix_shows = fetch_firsttix_shows(session_1sttix)
-            all_shows.extend(firsttix_shows)
-        else:
-            log_message("[1stTix] Failed to login, preserving existing shows")
-
+    all_shows = dedupe_shows(
+        [show for shows, _ in results.values() if shows for show in shows]
+    )
     log_message(f"Total shows from all sources: {len(all_shows)}")
 
     # Filter shows
@@ -1265,72 +1556,93 @@ def main():
     # Load and update show history for rare detection
     show_history = load_show_history()
     show_history = update_show_history(filtered_shows, show_history)
-    show_history = cleanup_old_history(
-        show_history
-    )  # Remove entries older than 90 days
-    save_show_history(show_history)
+    show_history = cleanup_old_history(show_history)  # drop entries older than 90 days
+    if not args.dry_run:
+        save_show_history(show_history)
 
     # Mark rare shows
     filtered_shows = mark_rare_shows(filtered_shows, show_history)
     rare_count = sum(1 for s in filtered_shows if s.get("rare"))
     log_message(f"{rare_count} rare shows detected")
 
-    # Save results per source (only for sources that were actually checked)
-    if not args.no_houseseats and houseseats_shows is not None:
-        hs_filtered = [s for s in filtered_shows if s.get("source") == "HouseSeats"]
-        save_source_shows("HouseSeats", hs_filtered, scrape_successful=len(houseseats_shows) >= 1)
-    if not args.no_firsttix and firsttix_shows is not None:
-        ft_filtered = [s for s in filtered_shows if s.get("source") == "1stTix"]
-        save_source_shows("1stTix", ft_filtered, scrape_successful=len(firsttix_shows) >= 1)
+    # Add date/weekday/first-seen/watchlist fields, then publish per source
+    previous_shows = [
+        show
+        for source in results
+        for show in (load_source_output(source).get("shows") or [])
+    ]
+    filtered_shows = enrich_shows(filtered_shows, previous_shows, watchlist, now)
+    watch_count = sum(1 for s in filtered_shows if s.get("watchlist"))
+    if watch_count:
+        log_message(f"{watch_count} watchlist match(es)")
 
-    # Push to GitHub for GitHub Pages
-    push_to_github()
+    for source, (shows, error) in results.items():
+        source_filtered = [s for s in filtered_shows if s.get("source") == source]
+        if args.dry_run:
+            log_message(
+                f"[dry run] {source}: scrape {'ok' if shows else 'FAILED: ' + str(error)}, "
+                f"{len(source_filtered)} shows would be published"
+            )
+        else:
+            save_source_shows(
+                source, source_filtered, scrape_successful=bool(shows), error=error
+            )
 
     # Find new shows (not yet notified)
     new_shows = find_new_shows(filtered_shows, notified_shows)
     log_message(f"{len(new_shows)} new shows to notify about")
 
-    # Send notifications for new shows only
     if new_shows:
-        # Send email notification
-        send_email_notification(new_shows)
-
-        # Send macOS notification
-        notify_user(new_shows)
-
-        # Mark these shows as notified
+        print("\n--- NEW Shows ---")
         for show in new_shows:
-            notified_shows.add(get_show_key(show))
-        save_notified_shows(notified_shows)
-        log_message(f"Marked {len(new_shows)} shows as notified")
+            flags = (" ⭐" if show.get("watchlist") else "") + (
+                " 🔥" if show.get("rare") else ""
+            )
+            print(
+                f"  🆕 [{show.get('source', 'Unknown')}] {show.get('name', 'Unknown')}"
+                f" - {format_show_date(show)}{flags}"
+            )
+        print()
 
-        # Print new shows to stdout
-        print("\n--- NEW Shows (Just Notified) ---")
-        for show in new_shows:
-            source = show.get("source", "Unknown")
-            print(f"  🆕 [{source}] {show.get('name', 'Unknown')}")
-            if show.get("date"):
-                print(f"     Date: {show['date']}")
-            if show.get("link"):
-                print(f"     Link: {show['link']}")
-            print()
+        if args.dry_run:
+            subject = build_email_subject(group_shows_by_name(new_shows))
+            log_message(f"[dry run] would email with subject: {subject}")
+        else:
+            email_status = send_email_notification(new_shows)
+            notify_user(new_shows)
+
+            if email_status == "failed":
+                # Leave them un-notified so the next run tries again.
+                log_message(
+                    f"Email failed - {len(new_shows)} shows left pending for the next run"
+                )
+            else:
+                for show in new_shows:
+                    notified_shows.add(get_show_key(show))
+                save_notified_shows(notified_shows)
+                log_message(f"Marked {len(new_shows)} shows as notified")
     else:
         log_message("No new shows to notify about")
-        print("\n--- No New Shows ---")
-        print("All available shows have already been notified.")
 
     # Print all available shows summary
     print(f"\n--- All Available Shows ({len(filtered_shows)} total) ---")
     for show in filtered_shows:
-        key = get_show_key(show)
-        source = show.get("source", "Unknown")
-        status = "✓" if key in notified_shows else "🆕"
+        status = "✓" if get_show_key(show) in notified_shows else "🆕"
         print(
-            f"  {status} [{source}] {show.get('name', 'Unknown')} - {show.get('date', 'N/A')}"
+            f"  {status} [{show.get('source', 'Unknown')}] {show.get('name', 'Unknown')}"
+            f" - {format_show_date(show)}"
         )
 
-    log_message("Checker completed successfully")
+    if args.push and not args.dry_run:
+        push_to_github()
+
+    failed = [source for source, (shows, _) in results.items() if not shows]
+    if failed:
+        log_message(f"Checker finished with failed source(s): {', '.join(failed)}")
+    else:
+        log_message("Checker completed successfully")
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

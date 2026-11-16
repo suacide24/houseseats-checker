@@ -1,17 +1,23 @@
 #!/usr/bin/env python3
 """Dead-man's switch for the HouseSeats checker.
 
-The main workflow writes ``last_successful_run`` into ``houseseats_shows.json``
-only when a scrape actually succeeds (logged in + found shows). This script
-reads that timestamp and emails an alert if it is too stale — catching BOTH
-failure modes: the scrape running but silently failing (login broken, IP
-blocked, 0 shows) and the workflow not running at all (the JSON stops updating).
+Every run of the main checker records its outcome in ``houseseats_shows.json``:
+``last_successful_run`` advances only when a scrape really worked, and
+``consecutive_failures`` counts runs that executed but could not scrape.
+This script alerts by email when either signal says the checker is down:
 
-It is intentionally independent of the show-notification EMAIL_ENABLED switch:
-muting routine show emails must never mute failure alerts. Use
-HEALTH_ALERTS_ENABLED to turn these alerts off separately.
+* **Failing** - the checker is running but the last N scrapes in a row failed
+  (login broken, IP blocked, page layout changed). Caught within a few runs.
+* **Stale** - no successful scrape for a long time (the workflow stopped
+  running altogether). The threshold is deliberately long because GitHub
+  routinely delays or drops scheduled runs for many hours; a short threshold
+  produces false alarms.
 
-To avoid spam it alerts once when the checker goes stale and once when it
+It is independent of the show-notification EMAIL_ENABLED switch: muting
+routine show emails must never mute failure alerts. Use HEALTH_ALERTS_ENABLED
+to turn these alerts off separately.
+
+To avoid spam it alerts once when the checker goes down and once when it
 recovers, tracking that transition in ``health_state.json``.
 """
 
@@ -21,6 +27,7 @@ import json
 import os
 import smtplib
 import sys
+import time
 from datetime import datetime, timedelta, timezone
 from email.mime.text import MIMEText
 from pathlib import Path
@@ -29,12 +36,14 @@ SCRIPT_DIR = Path(__file__).parent
 SHOWS_FILE = SCRIPT_DIR / "houseseats_shows.json"
 STATE_FILE = SCRIPT_DIR / "health_state.json"
 LIVE_PAGE_URL = "https://suacide24.github.io/houseseats-checker/"
+ACTIONS_URL = "https://github.com/suacide24/houseseats-checker/actions"
 
+# Addresses and the password come only from the environment (Actions secrets).
 SMTP_SERVER = "smtp.gmail.com"
 SMTP_PORT = 587
-SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "rsua95@gmail.com")
+SMTP_EMAIL = os.environ.get("SMTP_EMAIL", "")
 SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
-NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "rsua95@gmail.com")
+NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "") or SMTP_EMAIL
 
 TIMESTAMP_FMT = "%Y-%m-%dT%H:%M:%S PT"
 
@@ -62,11 +71,13 @@ def _env_float(name: str, default: float) -> float:
 # Master switch for failure alerts (independent of show-notification EMAIL_ENABLED).
 HEALTH_ALERTS_ENABLED = _env_flag("HEALTH_ALERTS_ENABLED", True)
 
-# Hours since the last successful scrape before we consider the checker down.
-# Runs are nominally every 30 min but GitHub cron jitter pushes them 75-90 min
-# apart with occasional multi-hour gaps, so 6h avoids false alarms while still
-# catching a real outage within a few hours.
-STALE_THRESHOLD_HOURS = _env_float("HEALTH_STALE_HOURS", 6.0)
+# Hours without a successful scrape before the checker counts as down.
+# GitHub's scheduler regularly leaves gaps of 8-16 hours between runs, so
+# anything much shorter than a day raises false alarms.
+STALE_THRESHOLD_HOURS = _env_float("HEALTH_STALE_HOURS", 24.0)
+
+# Scrapes that ran but failed, in a row, before the checker counts as down.
+MAX_CONSECUTIVE_FAILURES = int(_env_float("HEALTH_MAX_FAILURES", 3))
 
 
 def get_pacific_time() -> datetime:
@@ -87,14 +98,18 @@ def evaluate_health(
     now: datetime,
     threshold_hours: float,
     already_alerted: bool,
+    consecutive_failures: int = 0,
+    max_failures: int = 3,
 ) -> dict:
     """Pure decision function. Returns a dict with:
       - age_hours: hours since last successful run (None if unknown/unparseable)
-      - stale: whether the checker is considered down
+      - down: whether the checker is considered down
+      - reason: 'failing' | 'stale' | None
       - action: 'alert_down' | 'alert_recovered' | 'none'
-    'alert_down' fires only on the healthy->stale transition, 'alert_recovered'
-    only on stale->healthy, so repeated runs during an outage stay quiet."""
+    'alert_down' fires only on the healthy->down transition, 'alert_recovered'
+    only on down->healthy, so repeated runs during an outage stay quiet."""
     age_hours: float | None = None
+    stale = False
     if not last_run_str:
         stale = True  # never recorded a success -> treat as down
     else:
@@ -104,13 +119,24 @@ def evaluate_health(
             stale = age_hours > threshold_hours
         except ValueError:
             stale = True  # unparseable timestamp -> treat as down
-    if stale and not already_alerted:
+
+    failing = max_failures > 0 and consecutive_failures >= max_failures
+    down = failing or stale
+    reason = "failing" if failing else ("stale" if stale else None)
+
+    if down and not already_alerted:
         action = "alert_down"
-    elif not stale and already_alerted:
+    elif not down and already_alerted:
         action = "alert_recovered"
     else:
         action = "none"
-    return {"age_hours": age_hours, "stale": stale, "action": action}
+    return {
+        "age_hours": age_hours,
+        "down": down,
+        "stale": stale,
+        "reason": reason,
+        "action": action,
+    }
 
 
 def load_state() -> dict:
@@ -123,54 +149,82 @@ def load_state() -> dict:
                 "alerted": bool(data.get("alerted", False)),
                 "last_change": data.get("last_change"),
             }
-    except (json.JSONDecodeError, IOError):
+    except (json.JSONDecodeError, OSError, AttributeError):
         return {"alerted": False, "last_change": None}
 
 
 def save_state(state: dict) -> None:
     with open(STATE_FILE, "w") as f:
         json.dump(state, f, indent=2)
+        f.write("\n")
 
 
 def send_alert(subject: str, body: str) -> bool:
-    """Send a plain-text alert email. Returns True on success."""
-    if not SMTP_PASSWORD:
-        print("[health] SMTP_PASSWORD not set - cannot send alert")
+    """Send a plain-text alert email (with retries). Returns True on success."""
+    if not (SMTP_EMAIL and SMTP_PASSWORD and NOTIFICATION_EMAIL):
+        print("[health] SMTP_EMAIL / SMTP_PASSWORD / NOTIFICATION_EMAIL not set - cannot send alert")
         return False
-    try:
-        msg = MIMEText(body)
-        msg["Subject"] = subject
-        msg["From"] = SMTP_EMAIL
-        msg["To"] = NOTIFICATION_EMAIL
-        with smtplib.SMTP(SMTP_SERVER, SMTP_PORT) as server:
-            server.starttls()
-            server.login(SMTP_EMAIL, SMTP_PASSWORD)
-            server.sendmail(SMTP_EMAIL, NOTIFICATION_EMAIL, msg.as_string())
-        print(f"[health] alert sent to {NOTIFICATION_EMAIL}: {subject}")
-        return True
-    except Exception as e:  # noqa: BLE001 - report any send failure, keep going
-        print(f"[health] failed to send alert: {e}")
-        return False
+    msg = MIMEText(body, "plain", "utf-8")
+    msg["Subject"] = subject
+    msg["From"] = SMTP_EMAIL
+    msg["To"] = NOTIFICATION_EMAIL
+    for attempt in range(1, 4):
+        try:
+            with smtplib.SMTP(SMTP_SERVER, SMTP_PORT, timeout=30) as server:
+                server.starttls()
+                server.login(SMTP_EMAIL, SMTP_PASSWORD)
+                server.sendmail(SMTP_EMAIL, NOTIFICATION_EMAIL, msg.as_string())
+            print(f"[health] alert sent: {subject}")
+            return True
+        except smtplib.SMTPAuthenticationError as e:
+            print(f"[health] failed to send alert (bad SMTP credentials): {e}")
+            return False
+        except (smtplib.SMTPException, OSError) as e:
+            print(f"[health] alert attempt {attempt}/3 failed: {e}")
+            if attempt < 3:
+                time.sleep(5 * attempt)
+    return False
 
 
-def _read_last_successful_run() -> str | None:
-    if not SHOWS_FILE.exists():
-        return None
+def read_checker_status() -> dict:
+    """Health-relevant fields from the checker's published output."""
     try:
         with open(SHOWS_FILE, "r") as f:
-            return json.load(f).get("last_successful_run")
-    except (json.JSONDecodeError, IOError):
-        return None
+            data = json.load(f)
+        if not isinstance(data, dict):
+            return {}
+    except (json.JSONDecodeError, OSError):
+        return {}
+    try:
+        failures = int(data.get("consecutive_failures") or 0)
+    except (TypeError, ValueError):
+        failures = 0
+    return {
+        "last_successful_run": data.get("last_successful_run"),
+        "last_updated": data.get("last_updated"),
+        "consecutive_failures": failures,
+        "last_error": data.get("last_error"),
+    }
 
 
 def main() -> int:
     now = get_pacific_time()
-    last_run = _read_last_successful_run()
+    status = read_checker_status()
+    last_run = status.get("last_successful_run")
+    failures = status.get("consecutive_failures", 0)
     state = load_state()
-    ev = evaluate_health(last_run, now, STALE_THRESHOLD_HOURS, state["alerted"])
+    ev = evaluate_health(
+        last_run,
+        now,
+        STALE_THRESHOLD_HOURS,
+        state["alerted"],
+        consecutive_failures=failures,
+        max_failures=MAX_CONSECUTIVE_FAILURES,
+    )
     print(
         f"[health] last_successful_run={last_run} age_h={ev['age_hours']} "
-        f"threshold_h={STALE_THRESHOLD_HOURS} stale={ev['stale']} "
+        f"threshold_h={STALE_THRESHOLD_HOURS:g} consecutive_failures={failures} "
+        f"(max {MAX_CONSECUTIVE_FAILURES}) down={ev['down']} reason={ev['reason']} "
         f"action={ev['action']} alerts_enabled={HEALTH_ALERTS_ENABLED}"
     )
 
@@ -181,15 +235,27 @@ def main() -> int:
             return 0
         age = ev["age_hours"]
         age_txt = f"{age:.1f} hours ago" if age is not None else "never / unknown"
+        if ev["reason"] == "failing":
+            what = (
+                f"The checker is running, but its last {failures} scrapes in a row failed.\n"
+                f"Most recent error: {status.get('last_error') or 'unknown'}\n"
+                f"Last attempt: {status.get('last_updated') or 'unknown'}\n\n"
+                "Likely causes: the HouseSeats login was rejected or expired, the "
+                "site is blocking GitHub's servers, or the page layout changed."
+            )
+        else:
+            what = (
+                f"There has been no successful scrape for more than "
+                f"{STALE_THRESHOLD_HOURS:g} hours.\n\n"
+                "Likely cause: the 'Check Shows' workflow has stopped running "
+                "(disabled, or GitHub is not scheduling it)."
+            )
         subject = "⚠️ HouseSeats checker looks DOWN"
         body = (
-            "The HouseSeats checker has not had a successful scrape recently.\n\n"
+            f"{what}\n\n"
             f"Last successful run: {last_run or 'unknown'} ({age_txt})\n"
-            f"Alert threshold: {STALE_THRESHOLD_HOURS:g} hours\n"
             f"Checked at: {now_str}\n\n"
-            "Likely causes: HouseSeats login expired, the site blocked the "
-            "GitHub Actions IP, a scrape/HTML change, or the workflow stopped "
-            "running. Check the Actions tab for the 'Check Shows' workflow.\n\n"
+            f"Workflow runs: {ACTIONS_URL}\n"
             f"Live page: {LIVE_PAGE_URL}\n"
         )
         if send_alert(subject, body):

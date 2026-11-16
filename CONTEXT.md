@@ -1,253 +1,126 @@
 # HouseSeats Checker - Project Context
 
 ## Overview
-Automated checker for **lv.houseseats.com** (Las Vegas HouseSeats) AND **1sttix.org** that:
-1. Logs into both member portals
-2. Fetches available shows from each site
-3. Filters out shows on a denylist (contains-based matching, case-insensitive)
-4. Sends email notifications for NEW shows only (tracks show+date+source combinations)
-5. **Detects RARE shows** - flags shows that don't appear frequently 🔥
-6. Includes ChatGPT links to ask "Should I go to this show?"
-7. **Dual runners:** GitHub Actions (HouseSeats) + local macOS launchd (1stTix)
-8. Uses random delays between requests to avoid bot detection
-9. Auto-publishes available shows to GitHub Pages
-10. **All timestamps in Pacific Time (PT)**
-11. **Groups shows by name** - both website and emails group multiple time slots under each show
-12. **Graceful failure handling** - login failures skip writing that source's file, preserving previous data
-13. **`last_successful_run` timestamp** - confirms scripts are actively running (gated on ≥1 show)
+Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
+1. Logs in and scrapes the available shows (with timeouts and retries)
+2. Filters out shows on the denylist; stars shows on the watchlist
+3. Emails NEW show+date combinations only (once each, year-aware)
+4. Flags RARE shows 🔥 (seen fewer than 3 times in 30 days)
+5. Publishes the list to GitHub Pages
+6. Runs on **GitHub Actions** only; a second workflow alerts if the checker stops working
+
+1stTix (1sttix.org) support is still in the code but is not run by any workflow
+(`--no-firsttix`); the site hides the 1stTix section unless that data is fresh.
 
 ## Live Pages
 
 | Link | Purpose |
 |------|---------|
-| **[View Available Shows](https://suacide24.github.io/houseseats-checker/)** | Beautiful, mobile-friendly page with all current shows |
-| **[Edit Denylist](https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6/edit)** | Add shows to filter out |
-| **[GitHub Actions](https://github.com/suacide24/houseseats-checker/actions)** | View workflow runs and logs |
+| [Available shows](https://suacide24.github.io/houseseats-checker/) | The site: search, sort, NEW / watchlist / RARE badges, status banner |
+| [Edit denylist](https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6/edit) | Shows to hide |
+| [Edit watchlist](https://github.com/suacide24/houseseats-checker/edit/main/watchlist.txt) | Shows to star |
+| [Actions](https://github.com/suacide24/houseseats-checker/actions) | Runs, logs, "Run workflow" |
+| [Variables](https://github.com/suacide24/houseseats-checker/settings/variables/actions) | Email on/off and alert thresholds |
 
 ## Key Files
 
 | File | Purpose |
 |------|---------|
-| `houseseats_checker.py` | Main script |
-| `index.html` | GitHub Pages frontend (fetches both per-source JSON files, merges client-side) |
-| `houseseats_shows.json` | HouseSeats shows data (written by GitHub Actions) |
-| `firsttix_shows.json` | 1stTix shows data (written by local launchd) |
-| `notified_shows.json` | Tracks which show+date+source combos have been notified |
-| `show_history.json` | Tracks show appearances over time for RARE detection |
-| `requirements.txt` | Python dependencies |
-| `.github/workflows/check-shows.yml` | GitHub Actions workflow (runs every 30 mins, HouseSeats only) |
-| `denylist.txt` | Local fallback denylist (primary is on GitHub Gist) |
-| `run.sh` | Local wrapper script with credentials (in .gitignore) |
-| `com.rsua.houseseats-checker.plist` | macOS launchd config for local scheduled runs |
+| `houseseats_checker.py` | Scraper, notifier, data writer |
+| `check_health.py` | Dead-man's switch: emails when the checker is failing or stale, and when it recovers |
+| `index.html` | GitHub Pages frontend (reads the JSON files below) |
+| `houseseats_shows.json` | Published shows + checker status |
+| `notified_shows.json` | `source|name|YYYY-MM-DD` keys already emailed (pruned after 400 days) |
+| `show_history.json` | Appearance history for RARE detection |
+| `health_state.json` | Whether a "down" alert is currently outstanding |
+| `watchlist.txt` | Keywords for shows you especially want |
+| `denylist.txt` | Local fallback for the denylist gist |
+| `tests/` | Unit tests (`python -m unittest discover -s tests`) |
+| `.github/workflows/check-shows.yml` | Runs the checker |
+| `.github/workflows/health-check.yml` | Runs the health check every 3 hours |
+| `.github/workflows/tests.yml` | Runs the tests on code changes |
 
-## Architecture: Per-Source JSON Files
+## Scheduling (read this before "fixing" the cron)
 
-Each show source gets its own JSON file to **eliminate merge conflicts** between runners:
+GitHub delays and silently drops scheduled workflow runs. With a `*/30` cron this
+repo really got between 4 and 20 runs a day, never 48. So `check-shows.yml` asks
+four times an hour at off-peak minutes (`7,22,37,52`) and the checker skips a
+scheduled run if it already checked in the last 20 minutes (`--min-interval 20`).
+Manual runs are never skipped. Because gaps of many hours are normal, the health
+check only calls the checker stale after 24 hours.
 
-```
-┌──────────────────────────┐     ┌──────────────────────────┐
-│     GitHub Actions        │     │     Local macOS launchd   │
-│  (runs every 30 mins)     │     │   (runs every 30 mins)    │
-│  --fast --no-firsttix     │     │   --fast                  │
-├──────────────────────────┤     ├──────────────────────────┤
-│ Writes:                   │     │ Writes:                   │
-│  houseseats_shows.json    │     │  firsttix_shows.json      │
-│  notified_shows.json      │     │  notified_shows.json      │
-│  show_history.json        │     │  show_history.json        │
-└───────────┬──────────────┘     └───────────┬──────────────┘
-            │     git commit & push          │
-            └───────────┬────────────────────┘
-                        ▼
-              GitHub Pages serves
-              index.html which fetches
-              BOTH JSON files and merges
-              them client-side
-```
+## Published JSON
 
-**Why separate files?**
-- GitHub Actions only checks HouseSeats (`--no-firsttix`), writes `houseseats_shows.json`
-- Local launchd checks 1stTix (and optionally HouseSeats), writes `firsttix_shows.json`
-- Each runner only modifies its own file → **no merge conflicts possible**
-- `push_to_github()` uses `git stash` + `git pull --rebase -X theirs` + `git push` for safety
-
-**Per-source JSON structure:**
 ```json
 {
   "source": "HouseSeats",
-  "last_updated": "2026-02-09T17:50:01 PT",
-  "last_successful_run": "2026-02-09T17:50:01 PT",
+  "last_updated": "2026-11-16T08:46:01 PT",
+  "last_successful_run": "2026-11-16T08:46:01 PT",
+  "status": "ok",
+  "consecutive_failures": 0,
+  "last_error": null,
+  "email_enabled": true,
   "count": 5,
-  "shows": [...]
+  "shows": [{"name": "...", "date": "November 20th", "date_iso": "2026-11-20",
+             "weekday": "Fri", "link": "...", "image": "...", "rare": false,
+             "watchlist": false, "first_seen": "2026-11-13T08:58:01 PT"}]
 }
 ```
 
-- `last_updated` — timestamp of when the file was last written
-- `last_successful_run` — only updates when ≥1 show is found (confirms a real successful run, not a failed scrape)
+A failed scrape (login rejected, request error, or zero shows parsed) keeps the
+previously published shows, sets `status` to `error`, and counts up
+`consecutive_failures`. The site shows a warning banner in that state.
 
-## 🔥 RARE Show Detection
+## Reliability rules the code follows
 
-Shows are flagged as **RARE** when they appear infrequently. This helps identify special/limited engagements.
-
-| Setting | Value |
-|---------|-------|
-| Lookback period | 30 days |
-| Rare threshold | < 3 appearances |
-| History cleanup | 90 days (old entries auto-removed) |
-
-**How it works:**
-- `show_history.json` tracks every unique show appearance by date
-- Shows appearing fewer than 3 times in the last 30 days get the 🔥 RARE badge
-- First-time shows are always marked as RARE
-- Old history (> 90 days) is automatically cleaned up
-- Pulsing animation on the website to draw attention
+- A show is marked notified only if the email was sent, or email is switched off.
+  If sending fails, the next run tries again.
+- A corrupt `notified_shows.json` stops the run (exit code 2) rather than being
+  treated as empty, which would re-email everything.
+- JSON files are written atomically (temp file + rename).
+- The workflow retries its `git push` up to 5 times; both workflows share one
+  concurrency group so their pushes do not race.
+- Text scraped from the site is HTML-escaped in the email and on the page.
 
 ## Configuration
 
-All credentials are stored as **GitHub Secrets** (not in code):
+Secrets (Settings > Secrets and variables > Actions > Secrets):
+`HOUSESEATS_EMAIL`, `HOUSESEATS_PASSWORD`, `SMTP_EMAIL`, `SMTP_PASSWORD` (Gmail
+app password), `NOTIFICATION_EMAIL`, and optionally `FIRSTTIX_EMAIL`,
+`FIRSTTIX_PASSWORD`. No address or password is stored in the code.
 
-| Secret | Purpose |
-|--------|---------|
-| `HOUSESEATS_EMAIL` | HouseSeats login email |
-| `HOUSESEATS_PASSWORD` | HouseSeats password |
-| `FIRSTTIX_EMAIL` | 1stTix login email |
-| `FIRSTTIX_PASSWORD` | 1stTix password |
-| `SMTP_EMAIL` | Gmail sender address |
-| `SMTP_PASSWORD` | Gmail App Password (16-char) |
-| `NOTIFICATION_EMAIL` | Email to receive notifications |
+Variables (same page, Variables tab; all optional):
 
-To update secrets:
-```bash
-gh secret set SECRET_NAME --body "value"
-```
+| Variable | Default | Meaning |
+|----------|---------|---------|
+| `EMAIL_ENABLED` | on | `false` mutes new-show emails |
+| `HEALTH_ALERTS_ENABLED` | on | `false` mutes failure alerts |
+| `HEALTH_STALE_HOURS` | 24 | Hours without a successful check before alerting |
+| `HEALTH_MAX_FAILURES` | 3 | Failed scrapes in a row before alerting |
 
-## How It Works
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│          Runner (GitHub Actions or local launchd)            │
-├─────────────────────────────────────────────────────────────┤
-│  1. Run houseseats_checker.py                                │
-│     ├── Fetch denylist from Gist                            │
-│     ├── Login to HouseSeats and/or 1stTix                   │
-│     ├── Scrape available shows                               │
-│     ├── Filter out denylisted shows                          │
-│     ├── Update show history & detect RARE shows             │
-│     ├── Send email for NEW shows only (with RARE badges)    │
-│     ├── Save houseseats_shows.json (if HouseSeats checked)  │
-│     └── Save firsttix_shows.json (if 1stTix checked)        │
-│  2. git stash → pull --rebase → stash pop → push            │
-│  3. GitHub Pages auto-rebuilds                               │
-└─────────────────────────────────────────────────────────────┘
-```
-
-## Manual Operations
+## Command line
 
 ```bash
-# Trigger workflow manually
-gh workflow run check-shows.yml
-
-# View recent runs
-gh run list --limit 5
-
-# View logs from a run
-gh run view <run-id> --log
-
-# Reset notifications (will re-notify for all shows)
-# Edit notified_shows.json on GitHub and set: {"notified": []}
-
-# Reset RARE detection (all shows will be marked RARE again)
-# Edit show_history.json on GitHub and set: {"shows": {}}
+python houseseats_checker.py --fast --no-firsttix   # what CI runs
+  --dry-run            # scrape and log only: no email, no files written
+  --no-email           # skip email for this run
+  --min-interval 20    # skip if the last check was under 20 minutes ago
+  --push               # commit and push data files (local runs only; CI does its own)
 ```
 
-## Local Development (Optional)
+In Actions, "Run workflow" on Check Shows has a **dry run** checkbox.
 
-```bash
-# Clone repo
-git clone https://github.com/suacide24/houseseats-checker.git
-cd houseseats-checker
+## Manual operations
 
-# Install dependencies
-pip3 install -r requirements.txt
+- Re-notify everything: set `notified_shows.json` to `{"notified": []}`
+- Reset RARE detection: set `show_history.json` to `{"shows": {}}`
 
-# Option 1: Use the wrapper script (recommended)
-# Edit run.sh with your credentials first, then:
-./run.sh --fast                    # Check both sources
-./run.sh --fast --no-houseseats    # Check only 1stTix
-./run.sh --fast --no-firsttix      # Check only HouseSeats
+## Site structure (HouseSeats)
 
-# Option 2: Set environment variables manually
-export HOUSESEATS_EMAIL="your@email.com"
-export HOUSESEATS_PASSWORD="password"
-export FIRSTTIX_EMAIL="your@email.com"
-export FIRSTTIX_PASSWORD="password"
-export SMTP_EMAIL="your@gmail.com"
-export SMTP_PASSWORD="app-password"
-export NOTIFICATION_EMAIL="your@email.com"
-python3 houseseats_checker.py --fast
-```
-
-## Data Safety
-
-**Login failures preserve existing data:**
-- If HouseSeats login fails, `houseseats_shows.json` is not overwritten
-- If 1stTix login fails, `firsttix_shows.json` is not overwritten
-- Only sources that successfully authenticate get their file refreshed
-- `last_successful_run` only updates when ≥1 show is found, so you can always tell when the last real scrape happened
-
-## Site Structure (for future reference)
-
-### HouseSeats
-- **Login URL:** `https://lv.houseseats.com/member/index.bv`
-- **Login form fields:** `email`, `password`, `submit=login`, `lastplace=`
-- **Shows AJAX endpoint:** `https://lv.houseseats.com/member/ajax/upcoming-shows.bv`
-- **Show data:** Returns HTML with `.panel-default` divs containing show info
-  - Name: `.panel-heading a`
-  - Date: `.grid-cal-date`
-  - Image: `.img-responsive`
-
-### 1stTix
-- **Login URL:** `https://www.1sttix.org/login`
-- **Login form fields:** `email`, `password`
-- **Events URL:** `https://www.1sttix.org/tixer/get-tickets/events`
-- **Event data:** Returns HTML with `div.event` containers
-  - Name: `img[alt]` or `.entry-title`
-  - Date: `.entry-meta` (parsed with regex)
-  - Link: `a[href*="get-tickets/event"]`
-
-## Denylist Behavior
-
-- **Primary:** GitHub Gist at https://gist.github.com/suacide24/f1bf569e229cf1319137a4230d7db1b6
-- **Fallback:** Local `denylist.txt` file
-- Lines starting with `#` are ignored (comments)
-- **Contains-based matching** - if "comedy" is in denylist, it filters "L.A. Comedy Club"
-- Case-insensitive
-
-## Email Features
-
-- **Grouped by show name** - shows with multiple time slots are consolidated into one card
-- HTML formatted cards with source badge, show name, and all time slots
-- **🔥 RARE badges** on infrequent shows
-- Each time slot is a clickable ticket link
-- **ChatGPT link** for each show: "🤖 Ask AI about this show"
-- **📋 View All Shows button:** Links to GitHub Pages
-- **✏️ Edit Denylist button:** Links to Gist editor
-- Color-coded by source (blue = HouseSeats, green = 1stTix)
-- Subject line shows unique show count and total time slots
-
-## GitHub Pages Features
-
-- Dark gradient theme
-- Mobile-responsive grid layout
-- **Fetches both `houseseats_shows.json` and `firsttix_shows.json`** and merges client-side
-- **Shows grouped by name** - each show card displays all available time slots
-- Show images from source websites
-- 🔥 RARE badges with pulsing animation
-- Clickable time slots link directly to ticket pages
-- "Ask AI" button for each show
-- Cache-busting ensures fresh data on every page load
-- Timestamps displayed in Pacific Time (PT)
-- Shows unique show count and total time slot count
-- **✅ Last successful run** timestamp to confirm scripts are actively running
+- Login: POST `https://lv.houseseats.com/member/index.bv` with `email`, `password`, `submit=login`, `lastplace=`
+- Shows: `https://lv.houseseats.com/member/ajax/upcoming-shows.bv` returns HTML;
+  each show is a `.panel-default` with name in `.panel-heading a`, date in
+  `.grid-cal-date`, image in `.img-responsive`
 
 ---
 
@@ -307,4 +180,4 @@ This level of infrastructure is beyond a simple DIY script.
 3. Check the website/app manually at strategic times (midnight, 6am)
 
 ---
-*Last updated: 2026-02-10*
+*Last updated: 2026-11-16*
