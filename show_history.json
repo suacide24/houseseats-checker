@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -311,13 +310,6 @@
         "2026-10-23"
       ]
     },
-    "HouseSeats|twist & shout: the beatles tribute show": {
-      "name": "Twist & SHOUT: The Beatles Tribute Show",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
     "HouseSeats|extremeprov": {
       "name": "Extremeprov",
       "source": "HouseSeats",
@@ -335,7 +327,6 @@
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -364,17 +355,9 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20"
-      ]
-    },
-    "HouseSeats|wastin' away": {
-      "name": "Wastin' Away",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
       ]
     },
     "HouseSeats|summer comedy series": {
@@ -390,7 +373,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19"
       ]
@@ -436,20 +418,6 @@
         "2026-11-05"
       ]
     },
-    "HouseSeats|laugh factory las vegas": {
-      "name": "Laugh Factory Las Vegas",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
-    "HouseSeats|elton john & beatles: made in england": {
-      "name": "Elton John & Beatles: Made In England",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
     "HouseSeats|penn & teller": {
       "name": "Penn & Teller",
       "source": "HouseSeats",
@@ -461,7 +429,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -534,7 +501,6 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -562,7 +528,6 @@
       "name": "The Spanish Magician - Enrique De Leon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-25",
@@ -651,7 +616,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -719,7 +683,8 @@
         "2026-11-12",
         "2026-11-13",
         "2026-11-14",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-16"
       ]
     },
     "HouseSeats|an evening with rita lim": {
@@ -767,7 +732,6 @@
       "name": "Velvet Nights with Sina Foley",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -797,53 +761,10 @@
         "2026-09-14"
       ]
     },
-    "HouseSeats|rich little at laugh factory las vegas": {
-      "name": "Rich Little at Laugh Factory Las Vegas",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
-    "HouseSeats|merle norman cosmetic studio - makeup service (henderson)": {
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
-    "HouseSeats|merle norman cosmetic studio - makeup service (las vegas)": {
-      "name": "Merle Norman Cosmetic Studio - Makeup Service (Las Vegas)",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
-    "HouseSeats|the heist \u2013 a musical takeover": {
-      "name": "The Heist \u2013 A Musical Takeover",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
-    "HouseSeats|late night lumpia comedy show - come lap wit us!": {
-      "name": "Late Night Lumpia Comedy Show - Come Lap Wit Us!",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
-    "HouseSeats|flashpants - 80's party band": {
-      "name": "FlashPants - 80's Party Band",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-17"
-      ]
-    },
     "HouseSeats|las vegas songwriters festival at mandalay bay": {
       "name": "Las Vegas Songwriters Festival at Mandalay Bay",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19"
       ]
@@ -852,7 +773,6 @@
       "name": "James Caselton: Timeless Tunes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-17",
         "2026-08-18",
         "2026-08-19",
         "2026-08-20",
@@ -1037,7 +957,8 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-16"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1422,7 +1343,8 @@
         "2026-11-12",
         "2026-11-13",
         "2026-11-14",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-16"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1959,7 +1881,8 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-10",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-16"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
@@ -1978,7 +1901,8 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-11",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-16"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {

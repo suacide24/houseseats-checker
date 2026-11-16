@@ -1,9 +1,9 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-15T14:38:36 PT",
-  "last_successful_run": "2026-11-15T14:38:36 PT",
+  "last_updated": "2026-11-15T18:37:50 PT",
+  "last_successful_run": "2026-11-15T18:37:50 PT",
   "email_enabled": true,
-  "count": 4,
+  "count": 5,
   "shows": [
     {
       "source": "HouseSeats",
@@ -11,6 +11,14 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
       "date": "November 16th",
       "image": "https://lv.houseseats.com/resources/media/9516.jpg",
+      "rare": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 17th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
       "rare": false
     },
     {
