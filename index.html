@@ -535,15 +535,16 @@
             document.getElementById('lastUpdatedContainer').innerHTML = parts.join(' &nbsp;•&nbsp; ') || 'Last updated: unknown';
 
             const emailEnabled = sources['HouseSeats']?.email_enabled;
+            const viaTelegram = sources['HouseSeats']?.alert_channel === 'telegram';
             const emailContainer = document.getElementById('emailStatusContainer');
             const personal = viewer && viewer.found;
             document.getElementById('ownerLinks').hidden = !!personal;
             if (personal) {
                 emailContainer.innerHTML = `👤 Personal list: <strong>${esc(viewer.id)}</strong>`;
             } else if (emailEnabled === true) {
-                emailContainer.innerHTML = '📧 Email alerts: <strong style="color:#2ecc71;">ON</strong>';
+                emailContainer.innerHTML = (viaTelegram ? '📣 Telegram alerts: ' : '📧 Email alerts: ') + '<strong style="color:#2ecc71;">ON</strong>';
             } else if (emailEnabled === false) {
-                emailContainer.innerHTML = '🔕 Email alerts: <strong style="color:#e74c3c;">OFF</strong>';
+                emailContainer.innerHTML = '🔕 Alerts: <strong style="color:#e74c3c;">OFF</strong>';
             } else {
                 emailContainer.textContent = '';
             }

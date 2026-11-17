@@ -19,6 +19,8 @@ import subprocess
 import sys
 import tempfile
 import time
+import urllib.error
+import urllib.request
 from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
@@ -80,6 +82,11 @@ def build_arg_parser() -> argparse.ArgumentParser:
         help="Disable email notifications for this run",
     )
     parser.add_argument(
+        "--telegram-test",
+        action="store_true",
+        help="Send one test message to the Telegram topic and exit",
+    )
+    parser.add_argument(
         "--dry-run",
         action="store_true",
         help="Scrape for real but send nothing and write no state files",
@@ -138,6 +145,19 @@ SMTP_PASSWORD = os.environ.get("SMTP_PASSWORD", "")
 NOTIFICATION_EMAIL = os.environ.get("NOTIFICATION_EMAIL", "") or SMTP_EMAIL
 
 # Paths
+# Telegram (the owner's show alerts). The token is a secret; the chat and
+# topic ids are not, and can be overridden with repo Variables.
+def _env_int(name: str, default: int) -> int:
+    try:
+        return int((os.environ.get(name) or "").strip() or default)
+    except ValueError:
+        return default
+
+
+TELEGRAM_BOT_TOKEN = (os.environ.get("TELEGRAM_BOT_TOKEN") or "").strip()
+TELEGRAM_CHAT_ID = _env_int("TELEGRAM_CHAT_ID", -1003983050734)  # "UltimateVibes" group
+TELEGRAM_THREAD_ID = _env_int("TELEGRAM_THREAD_ID", 4)  # "houseseats-checker" topic
+
 SCRIPT_DIR = Path(__file__).parent
 DENYLIST_FILE = SCRIPT_DIR / "denylist.txt"
 HOUSESEATS_OUTPUT_FILE = SCRIPT_DIR / "houseseats_shows.json"
@@ -896,6 +916,153 @@ def build_email_bodies(
     return text_body, html_body
 
 
+# ---------------------------------------------------------------------------
+# Telegram: the owner's show alerts go to a group topic; email is the fallback.
+# The bot token is part of the API URL, so nothing here ever logs a URL or a
+# raw exception - only the method, the HTTP status and Telegram's own
+# description of the error.
+# ---------------------------------------------------------------------------
+
+TELEGRAM_MAX_CHARS = 4000  # Telegram's hard limit is 4096
+
+
+def _tg_call(method: str, payload: dict):
+    """Call the Telegram Bot API. Returns the result, or None on any failure."""
+    if not TELEGRAM_BOT_TOKEN:
+        return None
+    request = urllib.request.Request(
+        f"https://api.telegram.org/bot{TELEGRAM_BOT_TOKEN}/{method}",
+        data=json.dumps(payload).encode(),
+        headers={"Content-Type": "application/json"},
+    )
+    try:
+        with urllib.request.urlopen(request, timeout=20) as response:
+            body = json.loads(response.read().decode())
+        if body.get("ok"):
+            return body.get("result")
+        log_message(f"[telegram] {method} was not accepted")
+    except urllib.error.HTTPError as e:
+        try:
+            description = str(json.loads(e.read().decode()).get("description", ""))[:200]
+        except Exception:  # noqa: BLE001
+            description = ""
+        log_message(f"[telegram] {method} failed: HTTP {e.code} {description}")
+    except Exception as e:  # noqa: BLE001 - the message could contain the URL
+        log_message(f"[telegram] {method} failed: {type(e).__name__}")
+    return None
+
+
+def uses_telegram() -> bool:
+    return bool(TELEGRAM_BOT_TOKEN and TELEGRAM_CHAT_ID)
+
+
+def send_telegram(text: str, button: tuple | None = None):
+    """Send an HTML message to the project's topic. Returns its message_id
+    (usable with delete_telegram), or None if it could not be sent."""
+    payload = {
+        "chat_id": TELEGRAM_CHAT_ID,
+        "text": text[:TELEGRAM_MAX_CHARS],
+        "parse_mode": "HTML",
+        "disable_web_page_preview": True,
+    }
+    if TELEGRAM_THREAD_ID:
+        payload["message_thread_id"] = TELEGRAM_THREAD_ID
+    if button:
+        label, url = button
+        payload["reply_markup"] = {"inline_keyboard": [[{"text": label, "url": url}]]}
+    result = _tg_call("sendMessage", payload)
+    if isinstance(result, dict) and result.get("message_id"):
+        return result["message_id"]
+    return None
+
+
+def delete_telegram(message_id) -> None:
+    _tg_call("deleteMessage", {"chat_id": TELEGRAM_CHAT_ID, "message_id": message_id})
+
+
+def _tg(text) -> str:
+    """Escape dynamic text for Telegram's HTML mode (& < > only)."""
+    return html.escape(str(text or ""), quote=False)
+
+
+def _tg_link(url: str, label: str) -> str:
+    if not str(url or "").startswith(("https://", "http://")):
+        return _tg(label)
+    return f'<a href="{html.escape(url, quote=True)}">{_tg(label)}</a>'
+
+
+def build_telegram_message(grouped_shows: list, hide_id: str = OWNER_ID) -> tuple[str, tuple]:
+    """Return (html_text, (button_label, button_url)).
+
+    The first line is the whole story - it is what the phone preview shows.
+    Shows are added whole until the size limit, so the HTML is never cut in
+    the middle of a tag (which would make Telegram reject the message)."""
+    headline = build_email_subject(grouped_shows)  # '⭐ Watchlist: Penn & Teller (Sat, Nov 21) +2 more'
+    lines = [f"<b>{_tg(headline)}</b>"]
+    size = len(lines[0])
+    shown = 0
+    for show in grouped_shows:
+        badges = (" ⭐" if show["watchlist"] else "") + (" 🔥 rare" if show["rare"] else "")
+        slots = " · ".join(_tg_link(slot["link"], slot["label"]) for slot in show["time_slots"])
+        block = (
+            f"\n<b>{_tg(show['name'])}</b>{badges}\n"
+            f"🎟️ {slots}\n"
+            f"{_tg_link(get_chatgpt_link(show), 'Ask AI')} · {_tg_link(get_hide_link(show['name'], hide_id), 'Hide')}"
+        )
+        if size + len(block) > TELEGRAM_MAX_CHARS - 200:
+            break
+        lines.append(block)
+        size += len(block)
+        shown += 1
+    if shown < len(grouped_shows):
+        lines.append(f"\n…and {len(grouped_shows) - shown} more on the site")
+
+    first_link = next(
+        (slot["link"] for slot in grouped_shows[0]["time_slots"] if slot["link"]), None
+    ) if len(grouped_shows) == 1 else None
+    button = ("🎟️ Open show", first_link) if first_link else ("📋 View all shows", AVAILABLE_SHOWS_URL)
+    return "\n".join(lines), button
+
+
+def deliver_owner_alert(new_shows: list) -> str:
+    """Send the owner's new-show alert: Telegram when configured, email if
+    Telegram is not configured or the send fails. Same return values as
+    send_email_notification ('sent' / 'disabled' / 'failed')."""
+    if not new_shows:
+        return "sent"
+    if args.no_email or not EMAIL_ENABLED:
+        log_message("Alerts are muted (EMAIL_ENABLED=false / --no-email) - nothing sent")
+        return "disabled"
+    if uses_telegram():
+        try:
+            text, button = build_telegram_message(group_shows_by_name(new_shows))
+            if send_telegram(text, button) is not None:
+                log_message(f"Telegram alert sent ({len(new_shows)} show date(s))")
+                return "sent"
+        except Exception as e:  # noqa: BLE001
+            log_message(f"[telegram] could not build or send the alert: {type(e).__name__}")
+        log_message("Telegram failed - falling back to email")
+    return send_email_notification(new_shows)
+
+
+def send_telegram_test() -> int:
+    """--telegram-test: post one message to the topic to prove the setup."""
+    if not uses_telegram():
+        log_message("Telegram is not configured (TELEGRAM_BOT_TOKEN is empty)")
+        return 1
+    stamp = get_pacific_time().strftime("%b %-d, %-I:%M %p PT")
+    message_id = send_telegram(
+        f"✅ <b>HouseSeats alerts are connected</b>\nTest message sent {_tg(stamp)}. "
+        "New shows and watchlist hits will appear in this topic.",
+        ("📋 View all shows", AVAILABLE_SHOWS_URL),
+    )
+    if message_id is None:
+        log_message("Telegram test message FAILED")
+        return 1
+    log_message("Telegram test message sent")
+    return 0
+
+
 def smtp_send(msg, recipient: str | None = None) -> None:
     """Send a prepared message, retrying transient failures. Raises on final
     failure. Bad credentials are not retried."""
@@ -1453,6 +1620,7 @@ def build_source_output(
         "consecutive_failures": consecutive_failures,
         "last_error": last_error,
         "email_enabled": EMAIL_ENABLED,
+        "alert_channel": "telegram" if uses_telegram() else "email",
         "count": len(published),
         "shows": published,
     }
@@ -1820,6 +1988,9 @@ def main(argv=None) -> int:
         + (" [DRY RUN - nothing will be sent or saved]" if args.dry_run else "")
     )
 
+    if args.telegram_test:
+        return send_telegram_test()
+
     now = get_pacific_time()
 
     # Self-throttle: the schedule deliberately over-fires (GitHub drops most
@@ -1946,13 +2117,13 @@ def main(argv=None) -> int:
             subject = build_email_subject(group_shows_by_name(new_shows))
             log_message(f"[dry run] would email with subject: {SUBJECT_PREFIX} {subject}")
         else:
-            email_status = send_email_notification(new_shows)
+            email_status = deliver_owner_alert(new_shows)
             notify_user(new_shows)
 
             if email_status == "failed":
                 # Leave them un-notified so the next run tries again.
                 log_message(
-                    f"Email failed - {len(new_shows)} shows left pending for the next run"
+                    f"Alert could not be delivered - {len(new_shows)} shows left pending for the next run"
                 )
             else:
                 for show in new_shows:

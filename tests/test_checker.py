@@ -386,6 +386,7 @@ class MainFlowTests(unittest.TestCase):
             mock.patch.object(hc, "notify_user"),
             mock.patch.object(hc, "fetch_keyword_list", side_effect=lambda url: self.friend_lists.get(url)),
             mock.patch.dict(hc.os.environ, {"SUBSCRIBERS": ""}),
+            mock.patch.object(hc, "TELEGRAM_BOT_TOKEN", ""),
             mock.patch.object(hc.time, "sleep"),
             mock.patch("builtins.print"),
         ]
@@ -757,6 +758,187 @@ class HideIssueTests(unittest.TestCase):
             self.assertEqual(self.h.main(), 0)
         self.assertIn("changed=true", out.read_text())
         self.assertIn("A Show", out.read_text())
+
+
+class FakeTelegram:
+    """Stands in for urllib.request.urlopen and records what was posted."""
+
+    def __init__(self, fail=None):
+        self.calls, self.fail = [], fail
+
+    def __call__(self, request, timeout=None):
+        self.calls.append((request.full_url, json.loads(request.data.decode())))
+        if self.fail:
+            raise self.fail
+        return self
+
+    def __enter__(self):
+        return self
+
+    def __exit__(self, *a):
+        return False
+
+    def read(self):
+        return json.dumps({"ok": True, "result": {"message_id": 77}}).encode()
+
+    @property
+    def payloads(self):
+        return [payload for _, payload in self.calls]
+
+
+class TelegramMessageTests(unittest.TestCase):
+    def grouped(self, shows):
+        with mock.patch.object(hc, "get_pacific_time", return_value=NOW):
+            return hc.group_shows_by_name(hc.enrich_shows(list(shows), [], {"penn"}, NOW))
+
+    def test_first_line_says_what_is_new(self):
+        text, button = hc.build_telegram_message(self.grouped([show(), show(name="Ikons of Rock", date="November 17th")]))
+        first = text.splitlines()[0]
+        self.assertIn("Finding Wonder", first)
+        self.assertIn("Mon, Nov 16", first)
+        self.assertEqual(button[0], "📋 View all shows")
+
+    def test_single_show_button_opens_the_show(self):
+        _, button = hc.build_telegram_message(self.grouped([show(link="https://lv.houseseats.com/x?showid=1")]))
+        self.assertEqual(button, ("🎟️ Open show", "https://lv.houseseats.com/x?showid=1"))
+
+    def test_dynamic_text_is_escaped_and_only_allowed_tags_used(self):
+        import re
+        text, _ = hc.build_telegram_message(self.grouped([show(name="Tom & <b>Jerry</b> <script>", link="https://x/1?a=1&b=2")]))
+        self.assertIn("Tom &amp; &lt;b&gt;Jerry&lt;/b&gt; &lt;script&gt;", text)
+        self.assertIn('href="https://x/1?a=1&amp;b=2"', text)
+        self.assertEqual(set(re.findall(r"</?([a-z]+)", text)) - {"b", "a"}, set())
+
+    def test_long_lists_stay_under_the_limit_with_whole_shows(self):
+        many = [show(name=f"Show number {i} " + "x" * 80, date="November 17th", link=f"https://x/{i}") for i in range(80)]
+        text, _ = hc.build_telegram_message(self.grouped(many))
+        self.assertLess(len(text), 4000)
+        self.assertIn("more on the site", text)
+        self.assertEqual(text.count("<a "), text.count("</a>"))
+        self.assertEqual(text.count("<b>"), text.count("</b>"))
+
+    def test_send_targets_the_project_topic(self):
+        tg = FakeTelegram()
+        with mock.patch.object(hc, "TELEGRAM_BOT_TOKEN", "123:abc"), mock.patch.object(hc.urllib.request, "urlopen", tg):
+            self.assertEqual(hc.send_telegram("hi", ("Open", "https://x")), 77)
+        url, payload = tg.calls[0]
+        self.assertTrue(url.endswith("/bot123:abc/sendMessage"))
+        self.assertEqual(payload["chat_id"], -1003983050734)
+        self.assertEqual(payload["message_thread_id"], 4)
+        self.assertEqual(payload["parse_mode"], "HTML")
+        self.assertTrue(payload["disable_web_page_preview"])
+        self.assertEqual(payload["reply_markup"], {"inline_keyboard": [[{"text": "Open", "url": "https://x"}]]})
+
+    def test_no_token_means_no_network_call(self):
+        tg = FakeTelegram()
+        with mock.patch.object(hc, "TELEGRAM_BOT_TOKEN", ""), mock.patch.object(hc.urllib.request, "urlopen", tg):
+            self.assertIsNone(hc.send_telegram("hi"))
+        self.assertEqual(tg.calls, [])
+
+    def test_failures_never_log_the_token(self):
+        import io
+        import urllib.error
+        errors = [
+            OSError("https://api.telegram.org/botSECRETTOKEN/sendMessage unreachable"),
+            urllib.error.HTTPError("https://api.telegram.org/botSECRETTOKEN/sendMessage", 400, "Bad Request", {},
+                                   io.BytesIO(b'{"ok":false,"description":"Bad Request: chat not found"}')),
+        ]
+        for error in errors:
+            logged = []
+            with mock.patch.object(hc, "TELEGRAM_BOT_TOKEN", "SECRETTOKEN"), \
+                    mock.patch.object(hc.urllib.request, "urlopen", FakeTelegram(fail=error)), \
+                    mock.patch.object(hc, "log_message", side_effect=logged.append):
+                self.assertIsNone(hc.send_telegram("hi"))
+            self.assertTrue(logged)
+            self.assertNotIn("SECRETTOKEN", " ".join(logged))
+            self.assertNotIn("api.telegram.org", " ".join(logged))
+
+    def test_empty_variables_fall_back_to_built_in_ids(self):
+        with mock.patch.dict(hc.os.environ, {"T_ID": ""}):
+            self.assertEqual(hc._env_int("T_ID", 4), 4)
+        with mock.patch.dict(hc.os.environ, {"T_ID": " 9 "}):
+            self.assertEqual(hc._env_int("T_ID", 4), 9)
+
+
+class TelegramRoutingTests(MainFlowTests):
+    """main() with a Telegram token set. Inherits the owner tests, so the
+    notified/retry rules are re-checked with Telegram as the channel."""
+
+    def setUp(self):
+        super().setUp()
+        self.tg = FakeTelegram()
+        for p in (mock.patch.object(hc, "TELEGRAM_BOT_TOKEN", "123:abc"),
+                  mock.patch.object(hc.urllib.request, "urlopen", self.tg)):
+            p.start()
+            self.addCleanup(p.stop)
+        # the inherited tests look at self.sent for "an alert went out"
+        real_send = hc.send_telegram
+
+        def recording_send(text, button=None):
+            if not self.email_ok:  # inherited tests use this to mean "delivery is down"
+                return None
+            message_id = real_send(text, button)
+            if message_id is not None:
+                self.sent.append("[HouseSeats] " + hc.html.unescape(text.splitlines()[0].replace("<b>", "").replace("</b>", "")))
+            return message_id
+
+        p = mock.patch.object(hc, "send_telegram", side_effect=recording_send)
+        p.start()
+        self.addCleanup(p.stop)
+
+    def test_alert_goes_to_telegram_not_email(self):
+        self.run_main()
+        self.assertEqual(len(self.tg.calls), 1)
+        self.assertEqual(self.tg.payloads[0]["message_thread_id"], 4)
+        self.assertIn("Finding Wonder", self.tg.payloads[0]["text"].splitlines()[0])
+        self.assertEqual(self.sent_to, [])  # no email at all
+        self.assertEqual(len(self.read("NOTIFIED_FILE")["notified"]), 2)
+        self.assertEqual(self.read("HOUSESEATS_OUTPUT_FILE")["alert_channel"], "telegram")
+
+    def test_telegram_failure_falls_back_to_email(self):
+        self.tg.fail = OSError("network down")
+        self.run_main()
+        self.assertEqual(len(self.tg.calls), 1)
+        self.assertEqual(len(self.sent_to), 1)
+        self.assertEqual(self.sent_to[0][0], "to@example.com")
+        self.assertEqual(len(self.read("NOTIFIED_FILE")["notified"]), 2)
+        self.run_main()
+        self.assertEqual(len(self.sent_to), 1)  # not sent twice
+
+    def test_both_channels_down_leaves_shows_pending(self):
+        self.tg.fail = OSError("network down")
+        self.bounce = {"to@example.com"}
+        self.run_main()
+        self.assertEqual(self.read("NOTIFIED_FILE")["notified"] if self.files["NOTIFIED_FILE"].exists() else [], [])
+        self.tg.fail, self.bounce = None, set()
+        self.run_main()
+        self.assertEqual(len([c for c in self.tg.calls]), 2)
+        self.assertEqual(len(self.read("NOTIFIED_FILE")["notified"]), 2)
+
+    def test_mute_silences_telegram_too(self):
+        with mock.patch.object(hc, "EMAIL_ENABLED", False):
+            self.run_main()
+        self.assertEqual(self.tg.calls, [])
+        self.assertEqual(self.sent_to, [])
+
+    def test_dry_run_posts_nothing(self):
+        self.run_main("--dry-run")
+        self.assertEqual(self.tg.calls, [])
+
+    def test_friends_still_get_email(self):
+        p = mock.patch.dict(hc.os.environ, {"SUBSCRIBERS": json.dumps([{"id": "sam", "email": "sam@example.com"}])})
+        p.start()
+        self.addCleanup(p.stop)
+        self.run_main()
+        self.assertEqual([m[0] for m in self.sent_to], ["sam@example.com"])
+        self.assertEqual(len(self.tg.calls), 1)
+
+    def test_telegram_test_flag(self):
+        self.assertEqual(self.run_main("--telegram-test"), 0)
+        self.assertEqual(self.tg.payloads[0]["message_thread_id"], 4)
+        self.assertFalse(self.files["HOUSESEATS_OUTPUT_FILE"].exists())
+        self.tg.fail = OSError("down")
+        self.assertEqual(self.run_main("--telegram-test"), 1)
 
 
 if __name__ == "__main__":

@@ -4,7 +4,8 @@
 Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
 1. Logs in and scrapes the available shows (with timeouts and retries)
 2. Filters out shows on the denylist; stars shows on the watchlist
-3. Emails NEW show+date combinations only (once each, year-aware)
+3. Alerts on NEW show+date combinations only (once each, year-aware): Telegram
+   for the owner, with email as the fallback; email for friends
 4. Flags RARE shows 🔥 (seen fewer than 3 times in 30 days)
 5. Publishes the list to GitHub Pages
 6. Lets friends subscribe at their own email with their own denylist and page
@@ -41,6 +42,8 @@ Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
 | `denylists/<id>.txt` | Shows hidden with the one-click link (`owner.txt` is yours) |
 | `tools/handle_hide_issue.py` | Validates a "Hide for <id>: <show>" issue and updates `denylists/` |
 | `TRIGGER.md` | How to set up the outside timer |
+| `tools/set_secret.py` | Stores one repo secret from hidden input (e.g. `TELEGRAM_BOT_TOKEN`) |
+| `tools/setup_timer.py` | Creates/updates the cron-job.org timer |
 | `tools/set_subscribers.py` | Uploads `subscribers.local.json` as the `SUBSCRIBERS` secret |
 | `denylist.txt` | Local fallback for the denylist gist |
 | `tests/` | Unit tests (`python -m unittest discover -s tests`) |
@@ -58,6 +61,25 @@ own page (`?u=<id>`). Setup is in [FRIENDS.md](FRIENDS.md). In short: the
 the checker writes the public, address-free `subscribers.json` with each
 friend's show list, cached denylist and notified keys. One friend's broken
 setup never affects the owner or another friend.
+
+## Alert channels
+
+| Alert | Channel |
+|-------|---------|
+| Owner's new shows / watchlist hits | **Telegram** (group topic), email if Telegram fails or is not configured |
+| Friends' alerts | Email (they are not in the Telegram group) |
+| Health alerts (checker down / recovered) | Email |
+
+Telegram is on when the `TELEGRAM_BOT_TOKEN` secret is set (store it with
+`python3 tools/set_secret.py TELEGRAM_BOT_TOKEN`). The group and topic ids are
+built into the script (`TELEGRAM_CHAT_ID`, `TELEGRAM_THREAD_ID`) and can be
+overridden with repo Variables of the same names. The first line of each
+message is the headline (what the phone preview shows); a single new show gets
+an "Open show" button. The token is part of the API URL, so the Telegram code
+never logs a URL or a raw exception. `EMAIL_ENABLED=false` mutes the owner's
+alerts on both channels. A show is marked notified once either channel
+delivered it. To test: Actions > Check Shows > Run workflow > "telegram_test",
+or `python houseseats_checker.py --telegram-test`.
 
 ## One-click "Hide this show"
 
@@ -151,14 +173,16 @@ previously published shows, sets `status` to `error`, and counts up
 Secrets (Settings > Secrets and variables > Actions > Secrets):
 `HOUSESEATS_EMAIL`, `HOUSESEATS_PASSWORD`, `SMTP_EMAIL`, `SMTP_PASSWORD` (Gmail
 app password), `NOTIFICATION_EMAIL`, and optionally `FIRSTTIX_EMAIL`,
-`FIRSTTIX_PASSWORD`, `SUBSCRIBERS` (friends; see FRIENDS.md). No address or
+`FIRSTTIX_PASSWORD`, `SUBSCRIBERS` (friends; see FRIENDS.md),
+`TELEGRAM_BOT_TOKEN`. No address or
 password is stored in the code.
 
 Variables (same page, Variables tab; all optional):
 
 | Variable | Default | Meaning |
 |----------|---------|---------|
-| `EMAIL_ENABLED` | on | `false` mutes your own new-show emails (not friends') |
+| `EMAIL_ENABLED` | on | `false` mutes your own new-show alerts, Telegram and email (not friends') |
+| `TELEGRAM_CHAT_ID` / `TELEGRAM_THREAD_ID` | built in | Send alerts to a different group / topic |
 | `HEALTH_ALERTS_ENABLED` | on | `false` mutes failure alerts |
 | `HEALTH_STALE_HOURS` | 24 | Hours without a successful check before alerting |
 | `HEALTH_MAX_FAILURES` | 3 | Failed scrapes in a row before alerting |
