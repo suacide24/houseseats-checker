@@ -23,7 +23,7 @@ from datetime import datetime, timedelta, timezone
 from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from pathlib import Path
-from urllib.parse import quote
+from urllib.parse import quote, urlencode
 
 
 # Pacific Time offset (UTC-8 for PST, UTC-7 for PDT)
@@ -147,6 +147,11 @@ NOTIFIED_FILE = SCRIPT_DIR / "notified_shows.json"
 HISTORY_FILE = SCRIPT_DIR / "show_history.json"
 WATCHLIST_FILE = SCRIPT_DIR / "watchlist.txt"
 SUBSCRIBERS_FILE = SCRIPT_DIR / "subscribers.json"
+# Shows hidden with the one-click "Hide this show" link: one file per person
+# (owner.txt, <subscriber id>.txt), written by the hide-show workflow and
+# combined with that person's own denylist.
+HIDDEN_DIR = SCRIPT_DIR / "denylists"
+OWNER_ID = "owner"
 
 # Network behaviour. Every request gets a timeout so a stalled connection can
 # never hang the run; transient failures are retried.
@@ -179,6 +184,8 @@ WATCHLIST_EDIT_URL = (
 
 # Available shows GitHub Pages URL (update this after setting up GitHub Pages)
 AVAILABLE_SHOWS_URL = "https://suacide24.github.io/houseseats-checker/"
+HIDE_ISSUE_URL = "https://github.com/suacide24/houseseats-checker/issues/new"
+HIDE_TITLE_PREFIX = "Hide for"
 
 
 def log_message(message: str):
@@ -665,6 +672,25 @@ def get_chatgpt_link(show: dict) -> str:
     return f"https://chat.openai.com/?q={encoded_prompt}"
 
 
+def load_hidden(person_id: str) -> set:
+    """Keywords this person hid with the one-click link."""
+    return load_list_file(HIDDEN_DIR / f"{person_id}.txt")
+
+
+def get_hide_link(show_name: str, person_id: str) -> str:
+    """Link that opens a pre-filled GitHub issue; submitting it makes the
+    hide-show workflow add the show to this person's hidden list."""
+    name = " ".join((show_name or "").split())
+    query = urlencode(
+        {
+            "title": f"{HIDE_TITLE_PREFIX} {person_id}: {name}",
+            "body": "Press the green \"Create\" button below to hide this show. "
+            "It disappears from your alerts and page at the next check.",
+        }
+    )
+    return f"{HIDE_ISSUE_URL}?{query}"
+
+
 def find_new_shows(shows: list, notified: set) -> list:
     """Find shows that haven't been notified yet."""
     new_shows = []
@@ -756,6 +782,7 @@ def build_email_bodies(
     watchlist_edit_url: str | None = WATCHLIST_EDIT_URL,
     welcome: bool = False,
     footer_note: str = "",
+    hide_id: str | None = OWNER_ID,
 ) -> tuple[str, str]:
     """Return (plain_text, html) bodies. All scraped text is HTML-escaped.
     The footer links are per recipient; pass None to leave one out."""
@@ -822,6 +849,7 @@ def build_email_bodies(
             </div>
             <div>
                 <a href="{esc(get_chatgpt_link(show), quote=True)}" style="color: #666; font-size: 12px; text-decoration: none;">🤖 Ask AI about this show</a>
+                {f'<a href="{esc(get_hide_link(show["name"], hide_id), quote=True)}" style="color: #666; font-size: 12px; text-decoration: none; margin-left: 14px;">🙈 Hide this show</a>' if hide_id else ""}
             </div>
         </div>
         """
@@ -855,7 +883,10 @@ def build_email_bodies(
             if slot["link"]:
                 text_body += f"\n      {slot['link']}"
             text_body += "\n"
-        text_body += f"  🤖 Ask AI: {get_chatgpt_link(show)}\n\n"
+        text_body += f"  🤖 Ask AI: {get_chatgpt_link(show)}\n"
+        if hide_id:
+            text_body += f"  🙈 Hide this show: {get_hide_link(show['name'], hide_id)}\n"
+        text_body += "\n"
 
     text_body += footer_text
 
@@ -929,6 +960,7 @@ def send_email_notification(
             watchlist_edit_url=watchlist_edit_url,
             welcome=welcome,
             footer_note="Reply to this email if you want to stop getting these." if label else "",
+            hide_id=label or OWNER_ID,
         )
 
         msg = MIMEMultipart("alternative")
@@ -1670,7 +1702,7 @@ def resolve_subscriber_denylist(subscriber: dict, previous: dict) -> set | None:
     If their list can't be fetched, fall back to the copy saved last run.
     Returns None when there is nothing safe to filter with - the caller then
     skips this subscriber rather than emailing them shows they opted out of."""
-    keywords = set(subscriber["denylist"])
+    keywords = set(subscriber["denylist"]) | load_hidden(subscriber["id"])
     if subscriber["denylist_url"]:
         fetched = fetch_keyword_list(subscriber["denylist_url"])
         if fetched is None:
@@ -1797,7 +1829,7 @@ def main(argv=None) -> int:
             )
             return 0
 
-    denylist = load_denylist()
+    denylist = load_denylist() | load_hidden(OWNER_ID)
     watchlist = load_watchlist()
     if watchlist:
         log_message(f"Loaded {len(watchlist)} watchlist keyword(s)")

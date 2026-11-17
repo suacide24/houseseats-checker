@@ -38,11 +38,15 @@ Checks **lv.houseseats.com** (Las Vegas HouseSeats) for free show tickets and:
 | `subscribers.json` | Per-friend show list and notified keys (no addresses) |
 | `subscribers.example.json` | Template for the git-ignored `subscribers.local.json` |
 | `FRIENDS.md` | How to add, pause and remove a friend |
+| `denylists/<id>.txt` | Shows hidden with the one-click link (`owner.txt` is yours) |
+| `tools/handle_hide_issue.py` | Validates a "Hide for <id>: <show>" issue and updates `denylists/` |
+| `TRIGGER.md` | How to set up the outside timer |
 | `tools/set_subscribers.py` | Uploads `subscribers.local.json` as the `SUBSCRIBERS` secret |
 | `denylist.txt` | Local fallback for the denylist gist |
 | `tests/` | Unit tests (`python -m unittest discover -s tests`) |
 | `.github/workflows/check-shows.yml` | Runs the checker |
 | `.github/workflows/health-check.yml` | Runs the health check every 3 hours |
+| `.github/workflows/hide-show.yml` | Runs when a "Hide this show" issue is submitted |
 | `.github/workflows/tests.yml` | Runs the tests on code changes |
 
 ## Friends (extra subscribers)
@@ -55,13 +59,27 @@ the checker writes the public, address-free `subscribers.json` with each
 friend's show list, cached denylist and notified keys. One friend's broken
 setup never affects the owner or another friend.
 
+## One-click "Hide this show"
+
+Every show in an alert email and on the site has a 🙈 link. It opens a
+pre-filled GitHub issue titled `Hide for <id>: <show name>`; pressing Create
+runs `hide-show.yml`, which appends the name to `denylists/<id>.txt`, replies
+and closes the issue. The checker combines that file with the person's own
+denylist. The repo owner may hide for anyone; a friend only for their own id
+(recognised because their GitHub name owns the gist configured for that id).
+The issue title is untrusted input: it reaches the script only as an
+environment variable and is validated there. To un-hide, delete the line.
+
 ## Scheduling (read this before "fixing" the cron)
 
 GitHub delays and silently drops scheduled workflow runs. With a `*/30` cron this
 repo really got between 4 and 20 runs a day, never 48. So `check-shows.yml` asks
 four times an hour at off-peak minutes (`7,22,37,52`) and the checker skips a
 scheduled run if it already checked in the last 20 minutes (`--min-interval 20`).
-Manual runs are never skipped. Because gaps of many hours are normal, the health
+Manual runs are never skipped.
+An outside timer can start checks on time instead; setup is in
+[TRIGGER.md](TRIGGER.md) (it dispatches the workflow with `throttle=true`, which
+applies the same 20-minute skip). Because gaps of many hours are normal, the health
 check only calls the checker stale after 24 hours.
 
 ## Published JSON

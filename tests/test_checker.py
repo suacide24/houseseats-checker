@@ -355,6 +355,7 @@ class MainFlowTests(unittest.TestCase):
             WATCHLIST_FILE=d / "watchlist.txt",
             DENYLIST_FILE=d / "denylist.txt",
             SUBSCRIBERS_FILE=d / "subscribers.json",
+            HIDDEN_DIR=d / "denylists",
         )
         self.sent = []
         self.email_ok = True
@@ -667,10 +668,87 @@ class SubscriberFlowTests(MainFlowTests):
         self.assertEqual(len(self.sent), 1)
         self.assertEqual(self.files["SUBSCRIBERS_FILE"].read_text(), "{broken")
 
+    def test_hidden_lists_apply_per_person(self):
+        hidden = self.files["HIDDEN_DIR"]
+        hidden.mkdir()
+        (hidden / "owner.txt").write_text("Ikons of Rock\n")
+        (hidden / "alex.txt").write_text("Denied Show Live\n")
+        self.run_main()
+        self.assertEqual([s["name"] for s in self.read("HOUSESEATS_OUTPUT_FILE")["shows"]], ["Finding Wonder"])
+        self.assertEqual([s["name"] for s in self.state()["shows"]], ["Ikons of Rock"])
+
+    def test_hide_links_name_the_right_person(self):
+        self.run_main()
+        import email as email_lib
+        from urllib.parse import unquote_plus
+
+        def body(raw):
+            msg = email_lib.message_from_string(raw)
+            return unquote_plus("".join(p.get_payload(decode=True).decode() for p in msg.walk() if not p.is_multipart()))
+
+        self.assertIn("Hide for alex: Ikons of Rock", body(self.friend_mail()[0][2]))
+        owner = body(self.friend_mail("to@example.com")[0][2])
+        self.assertIn("Hide for owner: Ikons of Rock", owner)
+        self.assertNotIn("Hide for alex", owner)
+
     def test_dry_run_sends_and_writes_nothing_for_friends(self):
         self.run_main("--dry-run")
         self.assertEqual(self.sent_to, [])
         self.assertFalse(self.files["SUBSCRIBERS_FILE"].exists())
+
+
+class HideIssueTests(unittest.TestCase):
+    def setUp(self):
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent / "tools"))
+        import handle_hide_issue
+        self.h = handle_hide_issue
+        self.subs, _ = hc.parse_subscribers(json.dumps([
+            {"id": "alex", "email": "alex@example.com", "denylist_url": GIST},
+            {"id": "sam", "email": "sam@example.com", "denylist": ["x"]},
+        ]))
+        self.tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.tmp.cleanup)
+        p = mock.patch.object(hc, "HIDDEN_DIR", Path(self.tmp.name) / "denylists")
+        p.start()
+        self.addCleanup(p.stop)
+
+    def decide(self, title, author):
+        return self.h.decide(title, author, "RepoOwner", self.subs)[:2]
+
+    def test_owner_can_hide_for_anyone(self):
+        self.assertEqual(self.decide("Hide for owner: Sinatra  Live!", "repoowner"), ("owner", "Sinatra Live!"))
+        self.assertEqual(self.decide("hide for ALEX: A Show", "RepoOwner"), ("alex", "A Show"))
+        self.assertEqual(self.decide("Hide for sam: A Show", "repoowner"), ("sam", "A Show"))
+
+    def test_friend_can_hide_only_for_their_own_list(self):
+        self.assertEqual(self.decide("Hide for alex: A Show", "AlexUser"), ("alex", "A Show"))
+        self.assertEqual(self.decide("Hide for owner: A Show", "alexuser"), (None, None))
+        self.assertEqual(self.decide("Hide for sam: A Show", "alexuser"), (None, None))
+
+    def test_strangers_and_bad_input_are_refused(self):
+        self.assertEqual(self.decide("Hide for alex: A Show", "stranger"), (None, None))
+        self.assertEqual(self.decide("Hide for alex: A Show", ""), (None, None))
+        self.assertEqual(self.decide("Hide for nobody: A Show", "repoowner"), (None, None))
+        self.assertEqual(self.decide("Hide for owner: " + "x" * 200, "repoowner"), (None, None))
+        self.assertEqual(self.decide("Hide for owner: # comment", "repoowner"), (None, None))
+        self.assertEqual(self.decide("Hide for ../etc: A Show", "repoowner"), (None, None))
+        self.assertEqual(self.decide("Something else", "repoowner"), (None, None))
+
+    def test_add_hidden_appends_once(self):
+        self.assertTrue(self.h.add_hidden("owner", "Sinatra Live!"))
+        self.assertFalse(self.h.add_hidden("owner", "sinatra live!"))
+        self.assertTrue(self.h.add_hidden("owner", "Other"))
+        self.assertEqual((hc.HIDDEN_DIR / "owner.txt").read_text(), "Sinatra Live!\nOther\n")
+        self.assertEqual(hc.load_hidden("owner"), {"sinatra live!", "other"})
+
+    def test_main_writes_outputs(self):
+        out = Path(self.tmp.name) / "out"
+        env = {"ISSUE_TITLE": "Hide for owner: A Show", "ISSUE_AUTHOR": "me", "REPO_OWNER": "me",
+               "SUBSCRIBERS": "", "GITHUB_OUTPUT": str(out)}
+        with mock.patch.dict(hc.os.environ, env), mock.patch("builtins.print"):
+            self.assertEqual(self.h.main(), 0)
+        self.assertIn("changed=true", out.read_text())
+        self.assertIn("A Show", out.read_text())
 
 
 if __name__ == "__main__":

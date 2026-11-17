@@ -8,10 +8,14 @@ on:
     # 20 minutes, so HouseSeats still sees a check about every 30 minutes at
     # most.
     - cron: '7,22,37,52 * * * *'
-  workflow_dispatch:  # Manual trigger (always runs, never throttled)
+  workflow_dispatch:  # Manual or external-timer trigger (see TRIGGER.md)
     inputs:
       dry_run:
         description: 'Dry run: scrape and log only (no email, no data changes)'
+        type: boolean
+        default: false
+      throttle:
+        description: 'Skip if a check ran in the last 20 minutes (used by the external timer)'
         type: boolean
         default: false
 
@@ -58,9 +62,10 @@ jobs:
           SUBSCRIBERS: ${{ secrets.SUBSCRIBERS }}
           EVENT_NAME: ${{ github.event_name }}
           DRY_RUN: ${{ inputs.dry_run }}
+          THROTTLE: ${{ inputs.throttle }}
         run: |
           flags="--fast --no-firsttix"
-          if [ "$EVENT_NAME" = "schedule" ]; then flags="$flags --min-interval 20"; fi
+          if [ "$EVENT_NAME" = "schedule" ] || [ "$THROTTLE" = "true" ]; then flags="$flags --min-interval 20"; fi
           if [ "$DRY_RUN" = "true" ]; then flags="$flags --dry-run"; fi
           python houseseats_checker.py $flags
 

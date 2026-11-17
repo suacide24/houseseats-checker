@@ -421,6 +421,16 @@
             return /^[a-z0-9][a-z0-9-]{0,30}$/.test(u) ? u : null;
         })();
 
+        // Opens a pre-filled GitHub issue; submitting it hides the show for
+        // whoever's list is on screen (see the Hide show workflow).
+        function getHideLink(showName) {
+            const who = (currentData && currentData.viewer && currentData.viewer.found) ? currentData.viewer.id : 'owner';
+            const title = `Hide for ${who}: ${String(showName || '').replace(/\s+/g, ' ').trim()}`;
+            const body = 'Press the green "Create" button below to hide this show. It disappears from your alerts and page at the next check.';
+            return 'https://github.com/suacide24/houseseats-checker/issues/new?title=' +
+                encodeURIComponent(title) + '&body=' + encodeURIComponent(body);
+        }
+
         async function loadShows() {
             const [hsRaw, ftData, subData] = await Promise.all([
                 fetchJson('houseseats_shows.json'),
@@ -614,6 +624,7 @@
                             </div>
                             <div class="show-actions">
                                 <a href="${esc(getChatGPTLink(show.name))}" target="_blank" rel="noopener" class="btn btn-secondary">🤖 Ask AI about this show</a>
+                                <a href="${esc(getHideLink(show.name))}" target="_blank" rel="noopener" class="btn btn-secondary" title="Stop showing and alerting this show">🙈 Hide</a>
                             </div>
                         </div>
                     </div>`;

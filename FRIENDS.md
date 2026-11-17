@@ -17,7 +17,10 @@ Your own alerts, denylist and page are unaffected by anything a friend sets.
 3. Send you the gist's address and the email address they want alerts at.
 
 After that they manage their list on their own: every alert email has an
-**Edit Denylist** button that opens their gist. Changes apply at the next check.
+**Edit Denylist** button that opens their gist, and each show has a
+**🙈 Hide this show** link: it opens a pre-filled GitHub issue, and pressing
+Create hides that show for them (they must be signed in to the GitHub account
+that owns their gist). Changes apply at the next check.
 
 No GitHub account? Skip the gist and give them an inline `"denylist"` instead
 (see `sam` in the example). You then edit it for them.
@@ -73,3 +76,7 @@ The repo is public, so `subscribers.json` (written by the checker) is too. It
 holds, per id: their current show list, their denylist keywords, and which
 show dates they were already told about. It never holds an email address or a
 gist address. Pick an `id` your friend is comfortable having visible.
+
+Shows hidden with the 🙈 link are public as well: the issue they submit and
+the line added to `denylists/<id>.txt`. The issue shows their GitHub name next
+to their id.
