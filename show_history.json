@@ -1683,7 +1683,8 @@
         "2026-10-14",
         "2026-10-15",
         "2026-10-16",
-        "2026-10-17"
+        "2026-10-17",
+        "2026-11-16"
       ]
     },
     "HouseSeats|elvie shane at stoney's rockin' country (town square)": {
@@ -2331,6 +2332,34 @@
     },
     "HouseSeats|spirit of the king: the ultimate elvis show": {
       "name": "Spirit of the King: The Ultimate ELVIS Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-16"
+      ]
+    },
+    "HouseSeats|players era 8 men's tournament": {
+      "name": "Players Era 8 Men's Tournament",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-16"
+      ]
+    },
+    "HouseSeats|special event: on deck live at the l.a. comedy club": {
+      "name": "Special Event: On Deck LIVE at the L.A. Comedy Club",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-16"
+      ]
+    },
+    "HouseSeats|colin cloud: mastermind": {
+      "name": "Colin Cloud: Mastermind",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-16"
+      ]
+    },
+    "HouseSeats|knockout!": {
+      "name": "Knockout!",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-16"
