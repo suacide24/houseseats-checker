@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-17T14:05:29 PT",
-  "last_successful_run": "2026-11-17T14:05:29 PT",
+  "last_updated": "2026-11-17T14:35:25 PT",
+  "last_successful_run": "2026-11-17T14:35:25 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Finding Wonder",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
-      "date": "November 17th",
-      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
-      "rare": false,
-      "date_iso": "2026-11-17",
-      "weekday": "Tue",
-      "first_seen": "2026-11-16T17:48:35 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Players Era 8 Men's Tournament",
@@ -28,18 +16,6 @@
       "date": "November 17th",
       "image": "https://lv.houseseats.com/resources/media/9556.jpg",
       "rare": true,
-      "date_iso": "2026-11-17",
-      "weekday": "Tue",
-      "first_seen": null,
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 17th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false,
       "date_iso": "2026-11-17",
       "weekday": "Tue",
       "first_seen": null,
@@ -67,6 +43,18 @@
       "date_iso": "2026-11-17",
       "weekday": "Tue",
       "first_seen": null,
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Ikons of Rock",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
+      "date": "November 18th",
+      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
+      "rare": false,
+      "date_iso": "2026-11-18",
+      "weekday": "Wed",
+      "first_seen": "2026-11-17T14:35:24 PT",
       "watchlist": false
     },
     {
