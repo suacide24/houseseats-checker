@@ -483,7 +483,7 @@ class MainFlowTests(unittest.TestCase):
     def test_watchlist_match_is_flagged(self):
         self.files["WATCHLIST_FILE"].write_text("# favourites\nikons\n")
         self.run_main()
-        self.assertTrue(self.sent[0].startswith("⭐ Watchlist: Ikons of Rock"))
+        self.assertTrue(self.sent[0].startswith("[HouseSeats] ⭐ Watchlist: Ikons of Rock"))
         flags = {s["name"]: s["watchlist"] for s in self.read("HOUSESEATS_OUTPUT_FILE")["shows"]}
         self.assertEqual(flags, {"Finding Wonder": False, "Ikons of Rock": True})
 
