@@ -2388,6 +2388,13 @@
       "appearances": [
         "2026-11-17"
       ]
+    },
+    "HouseSeats|all motown": {
+      "name": "All Motown",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-17"
+      ]
     }
   }
 }
