@@ -56,6 +56,11 @@ def _env_flag(name: str, default: bool = True) -> bool:
     return val.strip().lower() not in ("0", "false", "no", "off")
 
 
+# Same prefix as the show alerts (houseseats_checker.SUBJECT_PREFIX), so one
+# mail filter catches every email from this project.
+SUBJECT_PREFIX = "[HouseSeats]"
+
+
 def _env_float(name: str, default: float) -> float:
     """Read a numeric env var. Empty/unset/invalid -> default. (GitHub Actions
     passes an unset repo Variable as an empty string, not an absent key.)"""
@@ -165,7 +170,7 @@ def send_alert(subject: str, body: str) -> bool:
         print("[health] SMTP_EMAIL / SMTP_PASSWORD / NOTIFICATION_EMAIL not set - cannot send alert")
         return False
     msg = MIMEText(body, "plain", "utf-8")
-    msg["Subject"] = subject
+    msg["Subject"] = f"{SUBJECT_PREFIX} {subject}"
     msg["From"] = SMTP_EMAIL
     msg["To"] = NOTIFICATION_EMAIL
     for attempt in range(1, 4):
@@ -250,7 +255,7 @@ def main() -> int:
                 "Likely cause: the 'Check Shows' workflow has stopped running "
                 "(disabled, or GitHub is not scheduling it)."
             )
-        subject = "⚠️ HouseSeats checker looks DOWN"
+        subject = "⚠️ Checker looks DOWN"
         body = (
             f"{what}\n\n"
             f"Last successful run: {last_run or 'unknown'} ({age_txt})\n"
@@ -266,7 +271,7 @@ def main() -> int:
             # future outage can alert again.
             save_state({"alerted": False, "last_change": now_str})
             return 0
-        subject = "✅ HouseSeats checker RECOVERED"
+        subject = "✅ Checker RECOVERED"
         body = (
             "The HouseSeats checker is succeeding again.\n\n"
             f"Last successful run: {last_run} ({ev['age_hours']:.1f} hours ago)\n"

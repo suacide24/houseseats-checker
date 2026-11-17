@@ -582,6 +582,14 @@ class SubscriberFlowTests(MainFlowTests):
         self.assertNotIn("alexuser", text)
         self.assertNotIn("alex@example.com", self.files["LOG_FILE"].read_text())
 
+    def test_every_email_subject_has_the_same_prefix(self):
+        import check_health
+        self.run_main()
+        self.assertEqual(check_health.SUBJECT_PREFIX, hc.SUBJECT_PREFIX)
+        self.assertGreaterEqual(len(self.sent_to), 2)  # owner alert + friend welcome
+        for _, subject, _ in self.sent_to:
+            self.assertTrue(subject.startswith("[HouseSeats] "), subject)
+
     def test_friend_email_has_their_links_not_the_owners(self):
         self.run_main()
         import email as email_lib

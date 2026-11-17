@@ -186,6 +186,9 @@ WATCHLIST_EDIT_URL = (
 AVAILABLE_SHOWS_URL = "https://suacide24.github.io/houseseats-checker/"
 HIDE_ISSUE_URL = "https://github.com/suacide24/houseseats-checker/issues/new"
 HIDE_TITLE_PREFIX = "Hide for"
+# Every email this project sends starts with this, so one mail filter
+# ("subject:[HouseSeats]") catches them all. check_health.py uses the same.
+SUBJECT_PREFIX = "[HouseSeats]"
 
 
 def log_message(message: str):
@@ -967,7 +970,7 @@ def send_email_notification(
         subject = build_email_subject(grouped_shows)
         if welcome:
             subject = f"👋 You're subscribed - {len(grouped_shows)} show(s) available now"
-        msg["Subject"] = subject
+        msg["Subject"] = f"{SUBJECT_PREFIX} {subject}"
         msg["From"] = SMTP_EMAIL
         msg["To"] = recipient
         msg.attach(MIMEText(text_body, "plain", "utf-8"))
@@ -1941,7 +1944,7 @@ def main(argv=None) -> int:
 
         if args.dry_run:
             subject = build_email_subject(group_shows_by_name(new_shows))
-            log_message(f"[dry run] would email with subject: {subject}")
+            log_message(f"[dry run] would email with subject: {SUBJECT_PREFIX} {subject}")
         else:
             email_status = send_email_notification(new_shows)
             notify_user(new_shows)

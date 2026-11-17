@@ -135,6 +135,8 @@ previously published shows, sets `status` to `error`, and counts up
 - The workflow retries its `git push` up to 5 times; both workflows share one
   concurrency group so their pushes do not race.
 - Text scraped from the site is HTML-escaped in the email and on the page.
+- Every email subject (show alerts, friend welcome, health alerts) starts with
+  `[HouseSeats]` so one mail filter catches them all.
 - RARE history covers every scraped show, not only the owner's filtered list,
   so the badge is also right for friends with different denylists.
 - Friends are isolated: a bad entry, an unreachable denylist or a failed send
