@@ -850,7 +850,8 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-14",
-        "2026-11-15"
+        "2026-11-15",
+        "2026-11-17"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -862,7 +863,8 @@
         "2026-09-15",
         "2026-09-16",
         "2026-10-22",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-11-17"
       ]
     },
     "HouseSeats|ikons of rock": {
@@ -1230,7 +1232,8 @@
         "2026-11-06",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-17"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1640,7 +1643,8 @@
         "2026-11-07",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-17"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2391,6 +2395,34 @@
     },
     "HouseSeats|all motown": {
       "name": "All Motown",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-17"
+      ]
+    },
+    "HouseSeats|daun\u2019s hair studio - men\u2019s haircut": {
+      "name": "Daun\u2019s Hair Studio - Men\u2019s Haircut",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-17"
+      ]
+    },
+    "HouseSeats|faaabulous! - the ultimate drag brunch show": {
+      "name": "Faaabulous! - The Ultimate Drag Brunch Show",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-17"
+      ]
+    },
+    "HouseSeats|comedysportz las vegas": {
+      "name": "ComedySportz Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-17"
+      ]
+    },
+    "HouseSeats|haunted brunch": {
+      "name": "Haunted Brunch",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-17"
