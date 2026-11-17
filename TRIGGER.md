@@ -26,6 +26,17 @@ or change code, secrets, or anything in your other repos.
 
 ## 2. Create the timer
 
+**Quick way.** Sign up at <https://cron-job.org>, copy your API key from
+Settings there, then run this and paste the two keys when asked (input is
+hidden and nothing is saved on your computer):
+
+```bash
+python3 tools/setup_timer.py
+```
+
+It tests the GitHub token, then creates the job. Run it again later to swap in
+a new token. If you would rather click through the website, do this instead:
+
 1. Sign up at <https://cron-job.org> and choose **Create cronjob**.
 2. **Title:** `houseseats check`
 3. **URL:**
