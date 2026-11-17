@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -102,7 +101,6 @@
       "name": "Blue Man Group",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-31",
         "2026-09-01",
         "2026-09-11",
@@ -169,7 +167,6 @@
       "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -327,7 +324,6 @@
       "name": "Mik Thomas Presents: The Gauntlet",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -355,7 +351,6 @@
       "name": "Movie Night - An Improv Double Feature",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20"
       ]
@@ -373,7 +368,6 @@
       "name": "Seth Robichaux: No Filter, All Glitter - A Vegas Cabaret Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19"
       ]
     },
@@ -429,7 +423,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -501,7 +494,6 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -528,7 +520,6 @@
       "name": "The Spanish Magician - Enrique De Leon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-25",
         "2026-08-26",
@@ -616,7 +607,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -684,14 +674,14 @@
         "2026-11-13",
         "2026-11-14",
         "2026-11-15",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|an evening with rita lim": {
       "name": "An Evening with Rita Lim",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -732,7 +722,6 @@
       "name": "Velvet Nights with Sina Foley",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -765,7 +754,6 @@
       "name": "Las Vegas Songwriters Festival at Mandalay Bay",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19"
       ]
     },
@@ -773,7 +761,6 @@
       "name": "James Caselton: Timeless Tunes",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21"
@@ -783,7 +770,6 @@
       "name": "Cookie Watkins - Tina Turner Tribute",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21"
@@ -793,7 +779,6 @@
       "name": "Amore with Kelly Vohnn - An Evening of Love Songs and Fun",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20",
         "2026-08-21",
@@ -808,7 +793,6 @@
       "name": "ROCKLESQUE: The Final Girl Sleep Away Camp",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-18",
         "2026-08-19",
         "2026-08-20"
       ]
@@ -958,7 +942,8 @@
         "2026-11-12",
         "2026-11-13",
         "2026-11-14",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|romero vs lopez at t-mobile arena": {
@@ -1344,7 +1329,8 @@
         "2026-11-13",
         "2026-11-14",
         "2026-11-15",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1684,7 +1670,8 @@
         "2026-10-15",
         "2026-10-16",
         "2026-10-17",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|elvie shane at stoney's rockin' country (town square)": {
@@ -1884,7 +1871,8 @@
         "2026-11-09",
         "2026-11-10",
         "2026-11-15",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
@@ -1904,7 +1892,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-15",
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
@@ -2166,42 +2155,48 @@
       "name": "The Australian Bee Gees Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|all shook up": {
       "name": "All Shook Up",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|happy hour comedy variety show with julio gonzalez": {
       "name": "Happy Hour Comedy Variety Show with Julio Gonzalez",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|motown extreme": {
       "name": "Motown Extreme",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|sinatra live!": {
       "name": "Sinatra Live!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|l.a. comedy club": {
       "name": "L.A. Comedy Club",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|late night magic at the magicians room": {
@@ -2215,154 +2210,176 @@
       "name": "Merle Norman Cosmetic Studio - Makeup Service (Henderson)",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|the king comes home": {
       "name": "The King Comes Home",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|hypnosis unleashed": {
       "name": "Hypnosis Unleashed",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|flyover las vegas": {
       "name": "FlyOver Las Vegas",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|all tina & whitney": {
       "name": "All Tina & Whitney",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|soul of motown": {
       "name": "Soul of Motown",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|adam london\u2019s laughternoon": {
       "name": "Adam London\u2019s Laughternoon",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|twist & shout: the beatles tribute show": {
       "name": "Twist & SHOUT: The Beatles Tribute Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|improv ol\u00e9": {
       "name": "Improv Ol\u00e9",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|elton john & beatles: made in england": {
       "name": "Elton John & Beatles: Made In England",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|late night lumpia comedy show - come lap wit us!": {
       "name": "Late Night Lumpia Comedy Show - Come Lap Wit Us!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|the magic of jen kramer": {
       "name": "The Magic of Jen Kramer",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|chase brown's vegas country": {
       "name": "Chase Brown's Vegas Country",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|black magic live": {
       "name": "Black Magic Live",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|the razzle dazzle show": {
       "name": "The Razzle Dazzle Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|vinnie favorito unfiltered": {
       "name": "Vinnie Favorito Unfiltered",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|black girl magic & burlesque": {
       "name": "Black Girl Magic & Burlesque",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|spirit of the king: the ultimate elvis show": {
       "name": "Spirit of the King: The Ultimate ELVIS Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|players era 8 men's tournament": {
       "name": "Players Era 8 Men's Tournament",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|special event: on deck live at the l.a. comedy club": {
       "name": "Special Event: On Deck LIVE at the L.A. Comedy Club",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|colin cloud: mastermind": {
       "name": "Colin Cloud: Mastermind",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     },
     "HouseSeats|knockout!": {
       "name": "Knockout!",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-17"
       ]
     }
   }
