@@ -2131,7 +2131,8 @@
       "name": "Farrell Dillon At The Magicians Room",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-16"
+        "2026-11-16",
+        "2026-11-18"
       ]
     },
     "HouseSeats|the australian bee gees show": {
@@ -2445,6 +2446,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-17",
+        "2026-11-18"
+      ]
+    },
+    "HouseSeats|frank laspina presents: the divine dionne": {
+      "name": "Frank LaSpina Presents: The Divine Dionne",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-18"
+      ]
+    },
+    "HouseSeats|best of vegas expo 2026": {
+      "name": "Best of Vegas Expo 2026",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-11-18"
       ]
     }
