@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-18T14:35:36 PT",
-  "last_successful_run": "2026-11-18T14:35:36 PT",
+  "last_updated": "2026-11-18T15:05:26 PT",
+  "last_successful_run": "2026-11-18T15:05:26 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,18 +19,6 @@
       "date_iso": "2026-11-18",
       "weekday": "Wed",
       "first_seen": "2026-11-17T19:35:24 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Beyond featuring Mark Bautista",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
-      "date": "November 18th",
-      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
-      "rare": false,
-      "date_iso": "2026-11-18",
-      "weekday": "Wed",
-      "first_seen": "2026-11-17T15:05:28 PT",
       "watchlist": false
     },
     {
