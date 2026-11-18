@@ -1,38 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-18T14:05:28 PT",
-  "last_successful_run": "2026-11-18T14:05:28 PT",
+  "last_updated": "2026-11-18T14:35:36 PT",
+  "last_successful_run": "2026-11-18T14:35:36 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 13,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Players Era 8 Men's Tournament",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9556",
-      "date": "November 18th",
-      "image": "https://lv.houseseats.com/resources/media/9556.jpg",
-      "rare": false,
-      "date_iso": "2026-11-18",
-      "weekday": "Wed",
-      "first_seen": "2026-11-17T16:35:27 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Ikons of Rock",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9398",
-      "date": "November 18th",
-      "image": "https://lv.houseseats.com/resources/media/9398.jpg",
-      "rare": false,
-      "date_iso": "2026-11-18",
-      "weekday": "Wed",
-      "first_seen": "2026-11-17T14:35:24 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
