@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-19T14:05:26 PT",
-  "last_successful_run": "2026-11-19T14:05:26 PT",
+  "last_updated": "2026-11-19T14:35:25 PT",
+  "last_successful_run": "2026-11-19T14:35:25 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 13,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -103,18 +103,6 @@
       "date_iso": "2026-11-20",
       "weekday": "Fri",
       "first_seen": "2026-11-16T17:48:35 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Rock With You - An Interactive Nightlife Experience",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9529",
-      "date": "November 20th",
-      "image": "https://lv.houseseats.com/resources/media/9529.jpg",
-      "rare": true,
-      "date_iso": "2026-11-20",
-      "weekday": "Fri",
-      "first_seen": "2026-11-19T13:35:42 PT",
       "watchlist": false
     },
     {
