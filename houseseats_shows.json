@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-19T09:35:28 PT",
-  "last_successful_run": "2026-11-19T09:35:28 PT",
+  "last_updated": "2026-11-19T10:05:29 PT",
+  "last_successful_run": "2026-11-19T10:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,18 +19,6 @@
       "date_iso": "2026-11-19",
       "weekday": "Thu",
       "first_seen": "2026-11-18T12:05:30 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Players Era 8 Men's Tournament",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9556",
-      "date": "November 19th",
-      "image": "https://lv.houseseats.com/resources/media/9556.jpg",
-      "rare": false,
-      "date_iso": "2026-11-19",
-      "weekday": "Thu",
-      "first_seen": "2026-11-18T15:35:24 PT",
       "watchlist": false
     },
     {
