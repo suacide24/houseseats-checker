@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-19T10:05:29 PT",
-  "last_successful_run": "2026-11-19T10:05:29 PT",
+  "last_updated": "2026-11-19T10:35:25 PT",
+  "last_successful_run": "2026-11-19T10:35:25 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 10,
+  "count": 11,
   "shows": [
     {
       "source": "HouseSeats",
@@ -67,6 +67,18 @@
       "date_iso": "2026-11-20",
       "weekday": "Fri",
       "first_seen": null,
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Goddamn Gallows with King Sickabilly & The Rifleman",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9561",
+      "date": "November 20th",
+      "image": "https://lv.houseseats.com/resources/media/9561.jpg",
+      "rare": true,
+      "date_iso": "2026-11-20",
+      "weekday": "Fri",
+      "first_seen": "2026-11-19T10:35:24 PT",
       "watchlist": false
     },
     {
