@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-18T17:35:27 PT",
-  "last_successful_run": "2026-11-18T17:35:27 PT",
+  "last_updated": "2026-11-18T18:05:29 PT",
+  "last_successful_run": "2026-11-18T18:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -9,18 +9,6 @@
   "alert_channel": "telegram",
   "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "November 18th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false,
-      "date_iso": "2026-11-18",
-      "weekday": "Wed",
-      "first_seen": "2026-11-17T19:35:24 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Players Era 8 Men's Tournament",
@@ -127,6 +115,18 @@
       "date_iso": "2026-11-22",
       "weekday": "Sun",
       "first_seen": "2026-11-18T12:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "November 22nd",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false,
+      "date_iso": "2026-11-22",
+      "weekday": "Sun",
+      "first_seen": "2026-11-18T18:05:27 PT",
       "watchlist": false
     },
     {
