@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-18T23:35:31 PT",
-  "last_successful_run": "2026-11-18T23:35:31 PT",
+  "last_updated": "2026-11-19T00:05:26 PT",
+  "last_successful_run": "2026-11-19T00:05:26 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -27,7 +27,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9557",
       "date": "November 19th",
       "image": "https://lv.houseseats.com/resources/media/9557.jpg",
-      "rare": true,
+      "rare": false,
       "date_iso": "2026-11-19",
       "weekday": "Thu",
       "first_seen": "2026-11-18T12:05:30 PT",
