@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-19T15:05:27 PT",
-  "last_successful_run": "2026-11-19T15:05:27 PT",
+  "last_updated": "2026-11-19T15:35:27 PT",
+  "last_successful_run": "2026-11-19T15:35:27 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 12,
+  "count": 11,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Players Era 8 Men's Tournament",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9556",
-      "date": "November 19th",
-      "image": "https://lv.houseseats.com/resources/media/9556.jpg",
-      "rare": false,
-      "date_iso": "2026-11-19",
-      "weekday": "Thu",
-      "first_seen": null,
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
