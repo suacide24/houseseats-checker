@@ -1586,7 +1586,8 @@
         "2026-10-12",
         "2026-11-07",
         "2026-11-08",
-        "2026-11-09"
+        "2026-11-09",
+        "2026-11-20"
       ]
     },
     "HouseSeats|taylor hunnicutt at stoney's north forty": {
@@ -2529,6 +2530,13 @@
     },
     "HouseSeats|carrot top": {
       "name": "Carrot Top",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-20"
+      ]
+    },
+    "HouseSeats|house of magic - off strip at silver sevens": {
+      "name": "House of Magic - Off Strip at SILVER SEVENS",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-20"
