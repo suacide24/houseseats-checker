@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-20T15:05:43 PT",
-  "last_successful_run": "2026-11-20T15:05:43 PT",
+  "last_updated": "2026-11-20T15:35:30 PT",
+  "last_successful_run": "2026-11-20T15:35:30 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,18 +19,6 @@
       "date_iso": "2026-11-20",
       "weekday": "Fri",
       "first_seen": "2026-11-19T10:35:24 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "B*TCH We Funny!",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9563",
-      "date": "November 20th",
-      "image": "https://lv.houseseats.com/resources/media/9563.jpg",
-      "rare": true,
-      "date_iso": "2026-11-20",
-      "weekday": "Fri",
-      "first_seen": "2026-11-19T18:05:26 PT",
       "watchlist": false
     },
     {
