@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-20T10:05:33 PT",
-  "last_successful_run": "2026-11-20T10:05:33 PT",
+  "last_updated": "2026-11-20T10:35:40 PT",
+  "last_successful_run": "2026-11-20T10:35:40 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -127,18 +127,6 @@
       "date_iso": "2026-11-23",
       "weekday": "Mon",
       "first_seen": "2026-11-19T17:05:26 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Best of Vegas Expo 2026",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9507",
-      "date": "November 28th",
-      "image": "https://lv.houseseats.com/resources/media/9507.jpg",
-      "rare": false,
-      "date_iso": "2026-11-28",
-      "weekday": "Sat",
-      "first_seen": "2026-11-18T13:05:24 PT",
       "watchlist": false
     }
   ]
