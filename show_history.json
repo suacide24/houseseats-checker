@@ -2516,6 +2516,13 @@
         "2026-11-19",
         "2026-11-20"
       ]
+    },
+    "HouseSeats|delirious - off strip at silver sevens": {
+      "name": "Delirious - Off Strip at SILVER SEVENS",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-20"
+      ]
     }
   }
 }
