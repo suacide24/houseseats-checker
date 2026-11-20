@@ -2526,6 +2526,13 @@
       "appearances": [
         "2026-11-20"
       ]
+    },
+    "HouseSeats|carrot top": {
+      "name": "Carrot Top",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-20"
+      ]
     }
   }
 }
