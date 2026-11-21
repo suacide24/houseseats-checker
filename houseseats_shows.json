@@ -1,14 +1,26 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-21T13:05:41 PT",
-  "last_successful_run": "2026-11-21T13:05:41 PT",
+  "last_updated": "2026-11-21T13:35:41 PT",
+  "last_successful_run": "2026-11-21T13:35:41 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 8,
+  "count": 9,
   "shows": [
+    {
+      "source": "HouseSeats",
+      "name": "Faith & Freedom: The Ultimate George Michael Tribute",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9567",
+      "date": "November 21st",
+      "image": "https://lv.houseseats.com/resources/media/9567.jpg",
+      "rare": true,
+      "date_iso": "2026-11-21",
+      "weekday": "Sat",
+      "first_seen": "2026-11-21T13:35:40 PT",
+      "watchlist": false
+    },
     {
       "source": "HouseSeats",
       "name": "Aussie Heat",
