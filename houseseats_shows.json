@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-20T16:35:29 PT",
-  "last_successful_run": "2026-11-20T16:35:29 PT",
+  "last_updated": "2026-11-20T17:05:29 PT",
+  "last_successful_run": "2026-11-20T17:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -9,18 +9,6 @@
   "alert_channel": "telegram",
   "count": 8,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "November 20th",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false,
-      "date_iso": "2026-11-20",
-      "weekday": "Fri",
-      "first_seen": "2026-11-19T17:05:26 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Pro Padel League MGM at Park MGM",
@@ -43,6 +31,18 @@
       "date_iso": "2026-11-21",
       "weekday": "Sat",
       "first_seen": "2026-11-20T15:05:42 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "November 21st",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
+      "rare": false,
+      "date_iso": "2026-11-21",
+      "weekday": "Sat",
+      "first_seen": "2026-11-20T17:05:28 PT",
       "watchlist": false
     },
     {
