@@ -2322,7 +2322,8 @@
         "2026-11-17",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-21"
       ]
     },
     "HouseSeats|vinnie favorito unfiltered": {
@@ -2548,6 +2549,13 @@
     },
     "HouseSeats|faith & freedom: the ultimate george michael tribute": {
       "name": "Faith & Freedom: The Ultimate George Michael Tribute",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-21"
+      ]
+    },
+    "HouseSeats|players era 16 men\u2019s tournament": {
+      "name": "Players Era 16 Men\u2019s Tournament",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-21"
