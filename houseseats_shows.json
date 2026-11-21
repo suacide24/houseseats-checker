@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-20T19:05:32 PT",
-  "last_successful_run": "2026-11-20T19:05:32 PT",
+  "last_updated": "2026-11-20T19:35:33 PT",
+  "last_successful_run": "2026-11-20T19:35:33 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -59,18 +59,6 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "November 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false,
-      "date_iso": "2026-11-23",
-      "weekday": "Mon",
-      "first_seen": "2026-11-19T17:05:26 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
       "name": "Mondays Dark",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9565",
       "date": "November 23rd",
@@ -91,6 +79,18 @@
       "date_iso": "2026-11-24",
       "weekday": "Tue",
       "first_seen": "2026-11-20T12:05:44 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Tony n\u2019 Tina\u2019s Wedding",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
+      "date": "November 24th",
+      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
+      "rare": false,
+      "date_iso": "2026-11-24",
+      "weekday": "Tue",
+      "first_seen": "2026-11-20T19:35:32 PT",
       "watchlist": false
     }
   ]
