@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-22T13:35:30 PT",
-  "last_successful_run": "2026-11-22T13:35:30 PT",
+  "last_updated": "2026-11-22T14:05:32 PT",
+  "last_successful_run": "2026-11-22T14:05:32 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 12,
   "shows": [
     {
       "source": "HouseSeats",
@@ -115,6 +115,18 @@
       "date_iso": "2026-11-25",
       "weekday": "Wed",
       "first_seen": "2026-11-22T10:05:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Dreams by Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9540",
+      "date": "November 26th",
+      "image": "https://lv.houseseats.com/resources/media/9540.jpg",
+      "rare": false,
+      "date_iso": "2026-11-26",
+      "weekday": "Thu",
+      "first_seen": "2026-11-22T14:05:31 PT",
       "watchlist": false
     },
     {
