@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-22T06:35:31 PT",
-  "last_successful_run": "2026-11-22T06:35:31 PT",
+  "last_updated": "2026-11-22T07:05:31 PT",
+  "last_successful_run": "2026-11-22T07:05:31 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 10,
+  "count": 9,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Punk Rock Brunch",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9445",
-      "date": "November 22nd",
-      "image": "https://lv.houseseats.com/resources/media/9445.jpg",
-      "rare": false,
-      "date_iso": "2026-11-22",
-      "weekday": "Sun",
-      "first_seen": "2026-11-17T13:05:28 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Steve Falcon's Comedy Hypnosis Hour",
