@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-22T09:35:29 PT",
-  "last_successful_run": "2026-11-22T09:35:29 PT",
+  "last_updated": "2026-11-22T10:05:29 PT",
+  "last_successful_run": "2026-11-22T10:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 9,
+  "count": 10,
   "shows": [
     {
       "source": "HouseSeats",
@@ -103,6 +103,18 @@
       "date_iso": "2026-11-24",
       "weekday": "Tue",
       "first_seen": "2026-11-21T10:34:58 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Mike Hammer Comedy Magic Show",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9382",
+      "date": "November 25th",
+      "image": "https://lv.houseseats.com/resources/media/9382.jpg",
+      "rare": false,
+      "date_iso": "2026-11-25",
+      "weekday": "Wed",
+      "first_seen": "2026-11-22T10:05:28 PT",
       "watchlist": false
     },
     {

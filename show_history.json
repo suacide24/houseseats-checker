@@ -441,7 +441,8 @@
         "2026-11-10",
         "2026-11-11",
         "2026-11-12",
-        "2026-11-13"
+        "2026-11-13",
+        "2026-11-22"
       ]
     },
     "HouseSeats|acoustic night with robin nievera": {
@@ -2596,6 +2597,20 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-21",
+        "2026-11-22"
+      ]
+    },
+    "HouseSeats|jimmy kimmel\u2019s comedy club presents: josh wolf": {
+      "name": "Jimmy Kimmel\u2019s Comedy Club Presents: Josh Wolf",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-22"
+      ]
+    },
+    "HouseSeats|jimmy kimmel\u2019s comedy club presents: john caparulo": {
+      "name": "Jimmy Kimmel\u2019s Comedy Club Presents: John Caparulo",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-11-22"
       ]
     }
