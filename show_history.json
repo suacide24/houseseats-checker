@@ -4,7 +4,6 @@
       "name": "ROUGE",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
@@ -348,7 +347,6 @@
       "name": "Tease After Dark: Burlesque Revue",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-10-23",
@@ -362,7 +360,6 @@
       "name": "America - The Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-09-04",
         "2026-09-05",
@@ -385,7 +382,6 @@
       "name": "Mike Hammer Comedy Magic Show",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
@@ -452,7 +448,6 @@
       "name": "Acoustic Night with Robin Nievera",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
@@ -560,7 +555,6 @@
       "name": "Steve Falcon's Comedy Hypnosis Hour",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
@@ -628,7 +622,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|an evening with rita lim": {
@@ -672,7 +667,6 @@
       "name": "Velvet Nights with Sina Foley",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
@@ -704,13 +698,6 @@
         "2026-08-26",
         "2026-08-27",
         "2026-08-28"
-      ]
-    },
-    "HouseSeats|las vegas minifest": {
-      "name": "Las Vegas miniFEST",
-      "source": "HouseSeats",
-      "appearances": [
-        "2026-08-23"
       ]
     },
     "HouseSeats|tony n\u2019 tina\u2019s wedding": {
@@ -758,7 +745,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|murder at boca park - a scandal in high society": {
@@ -779,7 +767,6 @@
       "name": "Ikons of Rock",
       "source": "HouseSeats",
       "appearances": [
-        "2026-08-23",
         "2026-08-24",
         "2026-08-25",
         "2026-08-26",
@@ -854,7 +841,8 @@
         "2026-11-17",
         "2026-11-18",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|mj the evolution": {
@@ -1132,7 +1120,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|las vegas southern soul & blues iii": {
@@ -1236,7 +1225,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|phantom planet": {
@@ -1563,7 +1553,8 @@
         "2026-11-08",
         "2026-11-09",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|taylor hunnicutt at stoney's north forty": {
@@ -1789,7 +1780,8 @@
         "2026-11-15",
         "2026-11-16",
         "2026-11-17",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|beyond featuring mark bautista": {
@@ -1812,7 +1804,8 @@
         "2026-11-16",
         "2026-11-17",
         "2026-11-18",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|castle w/ death rock collective": {
@@ -2074,7 +2067,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|the australian bee gees show": {
@@ -2094,7 +2088,8 @@
         "2026-11-17",
         "2026-11-18",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|happy hour comedy variety show with julio gonzalez": {
@@ -2106,7 +2101,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|motown extreme": {
@@ -2118,7 +2114,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|sinatra live!": {
@@ -2139,7 +2136,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|late night magic at the magicians room": {
@@ -2150,7 +2148,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|merle norman cosmetic studio - makeup service (henderson)": {
@@ -2162,7 +2161,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|the king comes home": {
@@ -2174,7 +2174,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|hypnosis unleashed": {
@@ -2207,7 +2208,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|soul of motown": {
@@ -2231,7 +2233,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|twist & shout: the beatles tribute show": {
@@ -2243,7 +2246,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|improv ol\u00e9": {
@@ -2265,7 +2269,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|late night lumpia comedy show - come lap wit us!": {
@@ -2287,7 +2292,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|chase brown's vegas country": {
@@ -2299,7 +2305,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|black magic live": {
@@ -2311,7 +2318,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|the razzle dazzle show": {
@@ -2323,7 +2331,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|vinnie favorito unfiltered": {
@@ -2335,7 +2344,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|black girl magic & burlesque": {
@@ -2347,7 +2357,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|spirit of the king: the ultimate elvis show": {
@@ -2359,7 +2370,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|players era 8 men's tournament": {
@@ -2528,7 +2540,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|carrot top": {
@@ -2536,7 +2549,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|house of magic - off strip at silver sevens": {
@@ -2544,7 +2558,8 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|faith & freedom: the ultimate george michael tribute": {
@@ -2572,14 +2587,16 @@
       "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|players era 16 men's tournament at t-mobile arena": {
       "name": "Players Era 16 Men's Tournament at T-Mobile Arena",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     }
   }
