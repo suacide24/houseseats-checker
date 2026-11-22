@@ -2567,6 +2567,20 @@
       "appearances": [
         "2026-11-21"
       ]
+    },
+    "HouseSeats|players era 16 men\u2019s tournament at mandalay bay": {
+      "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-21"
+      ]
+    },
+    "HouseSeats|players era 16 men's tournament at t-mobile arena": {
+      "name": "Players Era 16 Men's Tournament at T-Mobile Arena",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-21"
+      ]
     }
   }
 }

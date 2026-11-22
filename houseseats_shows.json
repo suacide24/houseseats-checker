@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-21T17:05:29 PT",
-  "last_successful_run": "2026-11-21T17:05:29 PT",
+  "last_updated": "2026-11-21T17:35:37 PT",
+  "last_successful_run": "2026-11-21T17:35:37 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -47,26 +47,26 @@
     },
     {
       "source": "HouseSeats",
-      "name": "Players Era 16 Men\u2019s Tournament",
+      "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9568",
       "date": "November 24th",
       "image": "https://lv.houseseats.com/resources/media/9568.jpg",
       "rare": true,
       "date_iso": "2026-11-24",
       "weekday": "Tue",
-      "first_seen": "2026-11-21T15:05:42 PT",
+      "first_seen": "2026-11-21T17:35:36 PT",
       "watchlist": false
     },
     {
       "source": "HouseSeats",
-      "name": "Players Era 16 Men's Tournament",
+      "name": "Players Era 16 Men's Tournament at T-Mobile Arena",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9569",
       "date": "November 24th",
       "image": "https://lv.houseseats.com/resources/media/9569.jpg",
       "rare": true,
       "date_iso": "2026-11-24",
       "weekday": "Tue",
-      "first_seen": "2026-11-21T15:35:52 PT",
+      "first_seen": "2026-11-21T17:35:36 PT",
       "watchlist": false
     },
     {
