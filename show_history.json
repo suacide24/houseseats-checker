@@ -2223,7 +2223,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-22"
       ]
     },
     "HouseSeats|adam london\u2019s laughternoon": {
@@ -2610,6 +2611,34 @@
     },
     "HouseSeats|jimmy kimmel\u2019s comedy club presents: john caparulo": {
       "name": "Jimmy Kimmel\u2019s Comedy Club Presents: John Caparulo",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-22"
+      ]
+    },
+    "HouseSeats|rich little at laugh factory las vegas": {
+      "name": "Rich Little at Laugh Factory Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-22"
+      ]
+    },
+    "HouseSeats|laugh factory las vegas": {
+      "name": "Laugh Factory Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-22"
+      ]
+    },
+    "HouseSeats|willie barcena at laugh factory las vegas": {
+      "name": "Willie Barcena at Laugh Factory Las Vegas",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-22"
+      ]
+    },
+    "HouseSeats|eres emo - a night of emo hits and sad corrido": {
+      "name": "Eres Emo - A Night of Emo Hits and Sad Corrido",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-22"
