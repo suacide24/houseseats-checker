@@ -1,38 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-21T16:35:34 PT",
-  "last_successful_run": "2026-11-21T16:35:34 PT",
+  "last_updated": "2026-11-21T17:05:29 PT",
+  "last_successful_run": "2026-11-21T17:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 12,
+  "count": 10,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Faith & Freedom: The Ultimate George Michael Tribute",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9567",
-      "date": "November 21st",
-      "image": "https://lv.houseseats.com/resources/media/9567.jpg",
-      "rare": true,
-      "date_iso": "2026-11-21",
-      "weekday": "Sat",
-      "first_seen": "2026-11-21T13:35:40 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Aussie Heat",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
-      "date": "November 21st",
-      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
-      "rare": false,
-      "date_iso": "2026-11-21",
-      "weekday": "Sat",
-      "first_seen": "2026-11-20T17:05:28 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
