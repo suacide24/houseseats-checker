@@ -2672,6 +2672,20 @@
         "2026-11-22",
         "2026-11-23"
       ]
+    },
+    "HouseSeats|henderson silver knights": {
+      "name": "Henderson Silver Knights",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-23"
+      ]
+    },
+    "HouseSeats|jimmy kimmel\u2019s comedy club presents: vicki barbolak": {
+      "name": "Jimmy Kimmel\u2019s Comedy Club Presents: Vicki Barbolak",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-23"
+      ]
     }
   }
 }
