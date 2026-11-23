@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-23T12:35:28 PT",
-  "last_successful_run": "2026-11-23T12:35:28 PT",
+  "last_updated": "2026-11-23T13:05:32 PT",
+  "last_successful_run": "2026-11-23T13:05:32 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 13,
+  "count": 20,
   "shows": [
     {
       "source": "HouseSeats",
@@ -155,6 +155,66 @@
     },
     {
       "source": "HouseSeats",
+      "name": "Von Clap Back Family Singers",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
+      "date": "November 27th",
+      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
+      "rare": true,
+      "date_iso": "2026-11-27",
+      "weekday": "Fri",
+      "first_seen": "2026-11-23T13:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Leaving Springfield, Tiger & Dove, Chalmer and Endo",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9562",
+      "date": "November 27th",
+      "image": "https://lv.houseseats.com/resources/media/9562.jpg",
+      "rare": true,
+      "date_iso": "2026-11-27",
+      "weekday": "Fri",
+      "first_seen": "2026-11-23T13:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Aussie Heat",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9486",
+      "date": "November 27th",
+      "image": "https://lv.houseseats.com/resources/media/9486.jpg",
+      "rare": false,
+      "date_iso": "2026-11-27",
+      "weekday": "Fri",
+      "first_seen": "2026-11-23T13:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Rock With You - An Interactive Nightlife Experience",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9529",
+      "date": "November 27th",
+      "image": "https://lv.houseseats.com/resources/media/9529.jpg",
+      "rare": true,
+      "date_iso": "2026-11-27",
+      "weekday": "Fri",
+      "first_seen": "2026-11-23T13:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Rant!",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9036",
+      "date": "November 27th",
+      "image": "https://lv.houseseats.com/resources/media/9036.jpg",
+      "rare": true,
+      "date_iso": "2026-11-27",
+      "weekday": "Fri",
+      "first_seen": "2026-11-23T13:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
       "name": "Eres Emo - A Night of Emo Hits and Sad Corrido",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9558",
       "date": "November 27th",
@@ -163,6 +223,30 @@
       "date_iso": "2026-11-27",
       "weekday": "Fri",
       "first_seen": "2026-11-22T13:05:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Antonia Bennett - Happy Holidays with Love",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9564",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9564.jpg",
+      "rare": true,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-23T13:05:30 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Reggaeton Y2K",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9559",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9559.jpg",
+      "rare": true,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-23T13:05:30 PT",
       "watchlist": false
     }
   ]

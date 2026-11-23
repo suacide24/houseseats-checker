@@ -81,7 +81,8 @@
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-11-23"
       ]
     },
     "HouseSeats|blue man group": {
@@ -138,7 +139,8 @@
         "2026-10-20",
         "2026-10-21",
         "2026-10-22",
-        "2026-10-23"
+        "2026-10-23",
+        "2026-11-23"
       ]
     },
     "HouseSeats|mat franco": {
@@ -1535,7 +1537,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-23"
       ]
     },
     "HouseSeats|mondays dark": {
@@ -2536,7 +2539,8 @@
       "name": "Rock With You - An Interactive Nightlife Experience",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-19"
+        "2026-11-19",
+        "2026-11-23"
       ]
     },
     "HouseSeats|frank laspina presents: whitney houston - the stage biography": {
@@ -2682,6 +2686,27 @@
     },
     "HouseSeats|jimmy kimmel\u2019s comedy club presents: vicki barbolak": {
       "name": "Jimmy Kimmel\u2019s Comedy Club Presents: Vicki Barbolak",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-23"
+      ]
+    },
+    "HouseSeats|leaving springfield, tiger & dove, chalmer and endo": {
+      "name": "Leaving Springfield, Tiger & Dove, Chalmer and Endo",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-23"
+      ]
+    },
+    "HouseSeats|antonia bennett - happy holidays with love": {
+      "name": "Antonia Bennett - Happy Holidays with Love",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-23"
+      ]
+    },
+    "HouseSeats|reggaeton y2k": {
+      "name": "Reggaeton Y2K",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-23"
