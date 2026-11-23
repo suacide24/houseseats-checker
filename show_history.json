@@ -2711,6 +2711,13 @@
       "appearances": [
         "2026-11-23"
       ]
+    },
+    "HouseSeats|battleblast laser tag": {
+      "name": "battleBLAST Laser Tag",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-23"
+      ]
     }
   }
 }
