@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-23T14:05:35 PT",
-  "last_successful_run": "2026-11-23T14:05:35 PT",
+  "last_updated": "2026-11-23T14:35:35 PT",
+  "last_successful_run": "2026-11-23T14:35:35 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 19,
+  "count": 18,
   "shows": [
     {
       "source": "HouseSeats",
@@ -211,18 +211,6 @@
       "date_iso": "2026-11-27",
       "weekday": "Fri",
       "first_seen": "2026-11-22T13:05:28 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Antonia Bennett - Happy Holidays with Love",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9564",
-      "date": "November 28th",
-      "image": "https://lv.houseseats.com/resources/media/9564.jpg",
-      "rare": true,
-      "date_iso": "2026-11-28",
-      "weekday": "Sat",
-      "first_seen": "2026-11-23T13:05:30 PT",
       "watchlist": false
     },
     {
