@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-23T13:35:32 PT",
-  "last_successful_run": "2026-11-23T13:35:32 PT",
+  "last_updated": "2026-11-23T14:05:35 PT",
+  "last_successful_run": "2026-11-23T14:05:35 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 20,
+  "count": 19,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "MJ The Evolution",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=7611",
-      "date": "November 23rd",
-      "image": "https://lv.houseseats.com/resources/media/7611.jpg",
-      "rare": true,
-      "date_iso": "2026-11-23",
-      "weekday": "Mon",
-      "first_seen": "2026-11-23T11:35:32 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Tony n\u2019 Tina\u2019s Wedding",
