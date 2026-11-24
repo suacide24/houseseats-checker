@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-23T15:35:29 PT",
-  "last_successful_run": "2026-11-23T15:35:29 PT",
+  "last_updated": "2026-11-23T16:05:29 PT",
+  "last_successful_run": "2026-11-23T16:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 18,
+  "count": 17,
   "shows": [
     {
       "source": "HouseSeats",
@@ -19,18 +19,6 @@
       "date_iso": "2026-11-23",
       "weekday": "Mon",
       "first_seen": null,
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Mondays Dark",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9565",
-      "date": "November 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9565.jpg",
-      "rare": false,
-      "date_iso": "2026-11-23",
-      "weekday": "Mon",
-      "first_seen": "2026-11-20T14:05:29 PT",
       "watchlist": false
     },
     {
