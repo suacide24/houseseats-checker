@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-23T23:35:37 PT",
-  "last_successful_run": "2026-11-23T23:35:37 PT",
+  "last_updated": "2026-11-24T00:05:36 PT",
+  "last_successful_run": "2026-11-24T00:05:36 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -171,7 +171,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9558",
       "date": "November 27th",
       "image": "https://lv.houseseats.com/resources/media/9558.jpg",
-      "rare": true,
+      "rare": false,
       "date_iso": "2026-11-27",
       "weekday": "Fri",
       "first_seen": "2026-11-22T13:05:28 PT",
