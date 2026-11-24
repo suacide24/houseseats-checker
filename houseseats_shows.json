@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-24T08:35:38 PT",
-  "last_successful_run": "2026-11-24T08:35:38 PT",
+  "last_updated": "2026-11-24T09:05:45 PT",
+  "last_successful_run": "2026-11-24T09:05:45 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 15,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -175,6 +175,18 @@
       "date_iso": "2026-11-27",
       "weekday": "Fri",
       "first_seen": "2026-11-22T13:05:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "The Jets 80\u2019s & 90\u2019s Experience at Treasure Island",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9511",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9511.jpg",
+      "rare": false,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-24T09:05:44 PT",
       "watchlist": false
     },
     {

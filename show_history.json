@@ -1855,7 +1855,8 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-24"
       ]
     },
     "HouseSeats|scoot teasley at stoney's rockin' country (town square)": {
@@ -2743,6 +2744,13 @@
       "source": "HouseSeats",
       "appearances": [
         "2026-11-23",
+        "2026-11-24"
+      ]
+    },
+    "HouseSeats|morris day & the time at primm valley resorts (primm)": {
+      "name": "Morris Day & The Time at PRIMM VALLEY RESORTS (PRIMM)",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-11-24"
       ]
     }
