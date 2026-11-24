@@ -1,44 +1,20 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-23T16:35:30 PT",
-  "last_successful_run": "2026-11-23T16:35:30 PT",
+  "last_updated": "2026-11-23T17:05:30 PT",
+  "last_successful_run": "2026-11-23T17:05:30 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 17,
+  "count": 16,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Tony n\u2019 Tina\u2019s Wedding",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9419",
-      "date": "November 23rd",
-      "image": "https://lv.houseseats.com/resources/media/9419.jpg",
-      "rare": false,
-      "date_iso": "2026-11-23",
-      "weekday": "Mon",
-      "first_seen": null,
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9568",
       "date": "November 24th",
       "image": "https://lv.houseseats.com/resources/media/9568.jpg",
-      "rare": false,
-      "date_iso": "2026-11-24",
-      "weekday": "Tue",
-      "first_seen": "2026-11-21T17:35:36 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Players Era 16 Men's Tournament at T-Mobile Arena",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9569",
-      "date": "November 24th",
-      "image": "https://lv.houseseats.com/resources/media/9569.jpg",
       "rare": false,
       "date_iso": "2026-11-24",
       "weekday": "Tue",
@@ -91,6 +67,18 @@
       "date_iso": "2026-11-25",
       "weekday": "Wed",
       "first_seen": "2026-11-22T10:05:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Players Era 16 Men's Tournament at T-Mobile Arena",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9569",
+      "date": "November 26th",
+      "image": "https://lv.houseseats.com/resources/media/9569.jpg",
+      "rare": false,
+      "date_iso": "2026-11-26",
+      "weekday": "Thu",
+      "first_seen": "2026-11-23T17:05:29 PT",
       "watchlist": false
     },
     {
