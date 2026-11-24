@@ -2297,7 +2297,8 @@
         "2026-11-19",
         "2026-11-20",
         "2026-11-21",
-        "2026-11-22"
+        "2026-11-22",
+        "2026-11-24"
       ]
     },
     "HouseSeats|late night lumpia comedy show - come lap wit us!": {
@@ -2497,7 +2498,8 @@
         "2026-11-18",
         "2026-11-19",
         "2026-11-20",
-        "2026-11-21"
+        "2026-11-21",
+        "2026-11-24"
       ]
     },
     "HouseSeats|haunted brunch": {
@@ -2760,6 +2762,13 @@
     },
     "HouseSeats|jimmy kimmel\u2019s comedy club: the l8nite set": {
       "name": "Jimmy Kimmel\u2019s Comedy Club: The L8nite Set",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-24"
+      ]
+    },
+    "HouseSeats|scene stealers": {
+      "name": "Scene Stealers",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-24"
