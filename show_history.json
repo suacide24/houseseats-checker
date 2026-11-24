@@ -529,7 +529,8 @@
         "2026-11-11",
         "2026-11-12",
         "2026-11-13",
-        "2026-11-14"
+        "2026-11-14",
+        "2026-11-24"
       ]
     },
     "HouseSeats|lewis belt at wiseguys las vegas (town square)": {
@@ -1917,7 +1918,8 @@
         "2026-11-15",
         "2026-11-18",
         "2026-11-19",
-        "2026-11-20"
+        "2026-11-20",
+        "2026-11-24"
       ]
     },
     "HouseSeats|murder mystery speakeasy": {
@@ -2706,7 +2708,8 @@
       "name": "Henderson Silver Knights",
       "source": "HouseSeats",
       "appearances": [
-        "2026-11-23"
+        "2026-11-23",
+        "2026-11-24"
       ]
     },
     "HouseSeats|jimmy kimmel\u2019s comedy club presents: vicki barbolak": {
@@ -2750,6 +2753,13 @@
     },
     "HouseSeats|morris day & the time at primm valley resorts (primm)": {
       "name": "Morris Day & The Time at PRIMM VALLEY RESORTS (PRIMM)",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-24"
+      ]
+    },
+    "HouseSeats|jimmy kimmel\u2019s comedy club: the l8nite set": {
+      "name": "Jimmy Kimmel\u2019s Comedy Club: The L8nite Set",
       "source": "HouseSeats",
       "appearances": [
         "2026-11-24"
