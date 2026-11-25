@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-25T12:05:29 PT",
-  "last_successful_run": "2026-11-25T12:05:29 PT",
+  "last_updated": "2026-11-25T12:35:29 PT",
+  "last_successful_run": "2026-11-25T12:35:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 21,
+  "count": 22,
   "shows": [
     {
       "source": "HouseSeats",
@@ -223,6 +223,18 @@
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-24T12:05:27 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Jonas Brothers at MGM Grand",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9560",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9560.jpg",
+      "rare": true,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-25T12:35:28 PT",
       "watchlist": false
     },
     {
