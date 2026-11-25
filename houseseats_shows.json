@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-25T10:05:35 PT",
-  "last_successful_run": "2026-11-25T10:05:35 PT",
+  "last_updated": "2026-11-25T10:35:48 PT",
+  "last_successful_run": "2026-11-25T10:35:48 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 19,
+  "count": 21,
   "shows": [
     {
       "source": "HouseSeats",
@@ -31,6 +31,18 @@
       "date_iso": "2026-11-25",
       "weekday": "Wed",
       "first_seen": "2026-11-22T10:05:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
+      "date": "November 25th",
+      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
+      "rare": true,
+      "date_iso": "2026-11-25",
+      "weekday": "Wed",
+      "first_seen": "2026-11-25T10:35:47 PT",
       "watchlist": false
     },
     {
@@ -235,6 +247,18 @@
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-24T13:05:31 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Eternal Whitey - The Stage Biography",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9207",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9207.jpg",
+      "rare": true,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-25T10:35:47 PT",
       "watchlist": false
     }
   ]
