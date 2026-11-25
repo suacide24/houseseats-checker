@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-25T15:05:30 PT",
-  "last_successful_run": "2026-11-25T15:05:30 PT",
+  "last_updated": "2026-11-25T15:35:33 PT",
+  "last_successful_run": "2026-11-25T15:35:33 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 22,
+  "count": 21,
   "shows": [
     {
       "source": "HouseSeats",
@@ -259,18 +259,6 @@
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-24T13:05:31 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Eternal Whitey - The Stage Biography",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9207",
-      "date": "November 28th",
-      "image": "https://lv.houseseats.com/resources/media/9207.jpg",
-      "rare": true,
-      "date_iso": "2026-11-28",
-      "weekday": "Sat",
-      "first_seen": "2026-11-25T10:35:47 PT",
       "watchlist": false
     }
   ]
