@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-26T12:35:31 PT",
-  "last_successful_run": "2026-11-26T12:35:31 PT",
+  "last_updated": "2026-11-26T13:05:34 PT",
+  "last_successful_run": "2026-11-26T13:05:34 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 20,
+  "count": 19,
   "shows": [
     {
       "source": "HouseSeats",
@@ -91,18 +91,6 @@
       "date_iso": "2026-11-27",
       "weekday": "Fri",
       "first_seen": "2026-11-21T14:05:35 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Von Clap Back Family Singers",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9059",
-      "date": "November 27th",
-      "image": "https://lv.houseseats.com/resources/media/9059.jpg",
-      "rare": false,
-      "date_iso": "2026-11-27",
-      "weekday": "Fri",
-      "first_seen": "2026-11-23T13:05:30 PT",
       "watchlist": false
     },
     {
