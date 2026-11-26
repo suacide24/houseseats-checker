@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-25T18:05:31 PT",
-  "last_successful_run": "2026-11-25T18:05:31 PT",
+  "last_updated": "2026-11-25T18:35:33 PT",
+  "last_successful_run": "2026-11-25T18:35:33 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 20,
+  "count": 19,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Lewis Belt at Wiseguys Las Vegas (Town Square)",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9222",
-      "date": "November 25th",
-      "image": "https://lv.houseseats.com/resources/media/9222.jpg",
-      "rare": true,
-      "date_iso": "2026-11-25",
-      "weekday": "Wed",
-      "first_seen": "2026-11-25T10:35:47 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
