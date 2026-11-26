@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-26T13:35:28 PT",
-  "last_successful_run": "2026-11-26T13:35:28 PT",
+  "last_updated": "2026-11-26T14:05:33 PT",
+  "last_successful_run": "2026-11-26T14:05:33 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 19,
+  "count": 18,
   "shows": [
     {
       "source": "HouseSeats",
@@ -55,18 +55,6 @@
       "date_iso": "2026-11-26",
       "weekday": "Thu",
       "first_seen": "2026-11-22T19:35:27 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Players Era 16 Men's Tournament at T-Mobile Arena",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9569",
-      "date": "November 27th",
-      "image": "https://lv.houseseats.com/resources/media/9569.jpg",
-      "rare": false,
-      "date_iso": "2026-11-27",
-      "weekday": "Fri",
-      "first_seen": "2026-11-25T14:05:30 PT",
       "watchlist": false
     },
     {
