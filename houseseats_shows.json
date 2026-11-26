@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-25T23:35:33 PT",
-  "last_successful_run": "2026-11-25T23:35:33 PT",
+  "last_updated": "2026-11-26T00:05:32 PT",
+  "last_successful_run": "2026-11-26T00:05:32 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -231,7 +231,7 @@
       "link": "https://lv.houseseats.com/member/tickets/view/?showid=9058",
       "date": "November 28th",
       "image": "https://lv.houseseats.com/resources/media/9058.jpg",
-      "rare": true,
+      "rare": false,
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-24T13:05:31 PT",
