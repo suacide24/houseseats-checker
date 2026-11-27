@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-27T08:35:33 PT",
-  "last_successful_run": "2026-11-27T08:35:33 PT",
+  "last_updated": "2026-11-27T09:05:29 PT",
+  "last_successful_run": "2026-11-27T09:05:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 16,
+  "count": 15,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9568",
-      "date": "November 27th",
-      "image": "https://lv.houseseats.com/resources/media/9568.jpg",
-      "rare": false,
-      "date_iso": "2026-11-27",
-      "weekday": "Fri",
-      "first_seen": "2026-11-26T16:05:30 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Ikons of Rock",
