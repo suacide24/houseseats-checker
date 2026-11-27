@@ -1,7 +1,7 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-27T13:35:35 PT",
-  "last_successful_run": "2026-11-27T13:35:35 PT",
+  "last_updated": "2026-11-27T14:05:43 PT",
+  "last_successful_run": "2026-11-27T14:05:43 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
@@ -55,18 +55,6 @@
       "date_iso": "2026-11-27",
       "weekday": "Fri",
       "first_seen": "2026-11-23T13:05:30 PT",
-      "watchlist": false
-    },
-    {
-      "source": "HouseSeats",
-      "name": "Dreams by Enrique De Leon",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9540",
-      "date": "November 27th",
-      "image": "https://lv.houseseats.com/resources/media/9540.jpg",
-      "rare": false,
-      "date_iso": "2026-11-27",
-      "weekday": "Fri",
-      "first_seen": "2026-11-25T17:05:30 PT",
       "watchlist": false
     },
     {
@@ -175,6 +163,18 @@
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-27T10:35:32 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Dreams by Enrique De Leon",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9540",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9540.jpg",
+      "rare": false,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-27T14:05:42 PT",
       "watchlist": false
     },
     {
