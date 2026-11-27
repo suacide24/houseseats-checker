@@ -1,13 +1,13 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-27T10:05:29 PT",
-  "last_successful_run": "2026-11-27T10:05:29 PT",
+  "last_updated": "2026-11-27T10:35:33 PT",
+  "last_successful_run": "2026-11-27T10:35:33 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 15,
+  "count": 16,
   "shows": [
     {
       "source": "HouseSeats",
@@ -163,6 +163,18 @@
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-24T12:05:27 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Players Era 16 Men\u2019s Tournament at Mandalay Bay",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9568",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9568.jpg",
+      "rare": false,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-27T10:35:32 PT",
       "watchlist": false
     },
     {
