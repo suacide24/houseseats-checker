@@ -2716,7 +2716,8 @@
         "2026-11-23",
         "2026-11-24",
         "2026-11-25",
-        "2026-11-26"
+        "2026-11-26",
+        "2026-11-27"
       ]
     },
     "HouseSeats|rich little at laugh factory las vegas": {
@@ -2870,6 +2871,20 @@
       "appearances": [
         "2026-11-25",
         "2026-11-26",
+        "2026-11-27"
+      ]
+    },
+    "HouseSeats|jimmy kimmel\u2019s comedy club presents: michael yo": {
+      "name": "Jimmy Kimmel\u2019s Comedy Club Presents: Michael Yo",
+      "source": "HouseSeats",
+      "appearances": [
+        "2026-11-27"
+      ]
+    },
+    "HouseSeats|jimmy kimmel\u2019s comedy club presents: bret ernst": {
+      "name": "Jimmy Kimmel\u2019s Comedy Club Presents: Bret Ernst",
+      "source": "HouseSeats",
+      "appearances": [
         "2026-11-27"
       ]
     }
