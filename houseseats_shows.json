@@ -1,26 +1,14 @@
 {
   "source": "HouseSeats",
-  "last_updated": "2026-11-27T19:05:33 PT",
-  "last_successful_run": "2026-11-27T19:05:33 PT",
+  "last_updated": "2026-11-27T19:35:29 PT",
+  "last_successful_run": "2026-11-27T19:35:29 PT",
   "status": "ok",
   "consecutive_failures": 0,
   "last_error": null,
   "email_enabled": true,
   "alert_channel": "telegram",
-  "count": 11,
+  "count": 13,
   "shows": [
-    {
-      "source": "HouseSeats",
-      "name": "Steve Falcon's Comedy Hypnosis Hour",
-      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
-      "date": "November 27th",
-      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
-      "rare": false,
-      "date_iso": "2026-11-27",
-      "weekday": "Fri",
-      "first_seen": "2026-11-26T19:35:40 PT",
-      "watchlist": false
-    },
     {
       "source": "HouseSeats",
       "name": "Punk Rock Brunch",
@@ -127,6 +115,42 @@
       "date_iso": "2026-11-28",
       "weekday": "Sat",
       "first_seen": "2026-11-24T13:05:31 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Steve Falcon's Comedy Hypnosis Hour",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9392",
+      "date": "November 28th",
+      "image": "https://lv.houseseats.com/resources/media/9392.jpg",
+      "rare": false,
+      "date_iso": "2026-11-28",
+      "weekday": "Sat",
+      "first_seen": "2026-11-27T19:35:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Finding Wonder",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9516",
+      "date": "November 30th",
+      "image": "https://lv.houseseats.com/resources/media/9516.jpg",
+      "rare": false,
+      "date_iso": "2026-11-30",
+      "weekday": "Mon",
+      "first_seen": "2026-11-27T19:35:28 PT",
+      "watchlist": false
+    },
+    {
+      "source": "HouseSeats",
+      "name": "Beyond featuring Mark Bautista",
+      "link": "https://lv.houseseats.com/member/tickets/view/?showid=9518",
+      "date": "December 1st",
+      "image": "https://lv.houseseats.com/resources/media/9518.jpg",
+      "rare": false,
+      "date_iso": "2026-12-01",
+      "weekday": "Tue",
+      "first_seen": "2026-11-27T19:35:28 PT",
       "watchlist": false
     },
     {
